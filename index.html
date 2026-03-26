@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RepView — Start with Your District</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <span class="nav-logo" data-i18n="nav.logo">RepView</span>
+    <div class="nav-actions" style="display:none">
+      <select class="lang-select" aria-label="Language">
+        <option value="auto">Auto</option>
+        <option value="en">English</option>
+        <option value="ko">한국어</option>
+      </select>
+    </div>
+  </nav>
+
+  <main class="index-canvas">
+    <section class="index-hero">
+      <h1 class="index-headline fade-in delay-1" data-i18n="index.headline">Find your district representative.</h1>
+
+      <p class="index-sub fade-in delay-2" data-i18n="index.sub">One name. One record. One clear summary.</p>
+
+      <form class="search-form fade-in delay-3" action="search.html" method="get">
+        <input
+          type="text"
+          class="search-input"
+          name="q"
+          id="hero-search"
+          data-i18n-placeholder="index.search.placeholder"
+          placeholder="지역구 또는 국회의원 검색"
+          autocomplete="off"
+        />
+        <span class="search-btn-icon">⌕</span>
+      </form>
+
+      <div class="district-chip-row fade-in delay-3" id="district-chip-row"></div>
+    </section>
+
+  </main>
+
+  <script src="js/app.js"></script>
+  <script>
+    (async () => {
+      try {
+        const { representatives } = await loadAll();
+
+        function renderDistrictUI() {
+          const districtRow = document.getElementById("district-chip-row");
+          if (!representatives.length) {
+            districtRow.innerHTML = `<span class="district-chip">API data will appear here</span>`;
+            return;
+          }
+
+          districtRow.innerHTML = representatives.slice(0, 4).map((r) =>
+            `<a class="district-chip" href="search.html?q=${encodeURIComponent(r.profile.district || "")}">${districtLabel(r)}</a>`
+          ).join("");
+        }
+
+        renderDistrictUI();
+        window.addEventListener("repview:languagechange", renderDistrictUI);
+      } catch (e) {
+        console.error(e);
+      }
+
+      initI18n();
+      initNav();
+      initFadeIns();
+    })();
+  </script>
+
+</body>
+</html>

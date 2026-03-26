@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find Your Representative — RepView</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="nav scrolled">
+    <a class="nav-back" href="index.html" data-i18n="nav.back.repview">&#8592; RepView</a>
+  </nav>
+
+  <main class="search-page">
+    <section class="search-hero">
+      <p class="search-kicker" data-i18n="search.kicker">District First Search</p>
+      <h1 class="search-title" data-i18n="search.title">Start with your district.</h1>
+
+      <div class="search-page-bar">
+        <input
+          type="text"
+          class="search-page-input"
+          id="search-page-input"
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="search-results-wrap">
+        <div class="search-results-label" id="results-label"></div>
+        <div class="search-results-grid" id="results-list">
+          <p class="search-empty">Loading…</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>

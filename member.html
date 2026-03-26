@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Representative — RepView</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <a class="nav-back" href="search.html" data-i18n="nav.back.search">&#8592; Search</a>
+    <span class="nav-member-name" id="nav-member-name"></span>
+  </nav>
+
+  <section class="member-poster">
+    <div class="member-poster-media">
+      <img class="member-poster-photo" id="hero-photo" src="" alt="" />
+    </div>
+
+    <div class="member-poster-overlay"></div>
+
+    <div class="member-poster-content">
+      <p class="poster-kicker" id="hero-committee"></p>
+
+      <h1 class="poster-name" id="hero-name"></h1>
+      <p class="poster-meta" id="hero-meta"></p>
+    </div>
+
+    <div class="scroll-hint">
+      <span class="scroll-hint-arrow">↓</span>
+      <span data-i18n="member.scroll.hint">Scroll for full record</span>
+    </div>
+  </section>
+
+  <section class="stat-section section--dark">
+    <div class="stat-frame">
+      <div class="stat-number fade-in" id="stat-attendance" data-count="0">0</div>
+      <div class="stat-unit fade-in delay-1">%</div>
+      <div class="stat-label fade-in delay-2" data-i18n="member.stat.vote">Vote Participation</div>
+      <div class="stat-context fade-in delay-3" data-i18n="member.stat.vote.context">Votes cast as a share of total votes held</div>
+    </div>
+  </section>
+
+  <section class="stat-section section--light">
+    <div class="stat-frame stat-frame--light">
+      <div class="stat-number fade-in" id="stat-vote" data-count="0">0</div>
+      <div class="stat-label fade-in delay-1" data-i18n="member.stat.bills">Bills Proposed</div>
+      <div class="stat-context fade-in delay-2" data-i18n="member.stat.bills.context">Primary sponsorship in current term</div>
+      <div class="bill-callout fade-in delay-3" id="bill-callout"></div>
+    </div>
+  </section>
+
+  <section class="stat-section section--dark">
+    <div class="stat-frame">
+      <div class="stat-number fade-in" id="stat-bills" data-count="0">0</div>
+      <div class="stat-label fade-in delay-1" data-i18n="member.stat.absent">Absent</div>
+      <div class="stat-context fade-in delay-2" data-i18n="member.stat.absent.context">Missed votes in current term</div>
+    </div>
+  </section>
+
+  <section class="votes-section">
+    <div class="votes-inner">
+      <h2 class="votes-header fade-in" data-i18n="member.votes.title">How they voted.</h2>
+      <p class="votes-subheader fade-in delay-1" data-i18n="member.votes.sub">Recent parliamentary votes and their position on each bill.</p>
+      <div id="vote-list"></div>
+    </div>
+  </section>
+
+  <section class="activity-section">
+    <div class="activity-inner">
+      <div class="activity-header fade-in" data-i18n="member.activity.title">Current Activity</div>
+      <div id="activity-wrap"></div>
+    </div>
+  </section>
+
+  <section class="share-section">
+    <div class="share-card" id="rep-summary"></div>
+    <div class="share-actions">
+      <button id="save-image-btn" class="share-action-btn" type="button">이미지 저장</button>
+      <button id="share-btn" class="share-action-btn" type="button">공유</button>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/member.js"></script>
+</body>
+</html>
