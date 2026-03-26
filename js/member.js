@@ -174,9 +174,9 @@ function renderShareCard(rep) {
   const el = document.getElementById("rep-summary");
   if (!el) return;
 
-  const support = Math.round(s.supportRate || 0);
-  const oppose = Math.round(s.opposeRate || 0);
-  const abstain = Math.round(s.abstainRate || 0);
+  const support = Number(s.supportRate || 0).toFixed(1);
+  const oppose = Number(s.opposeRate || 0).toFixed(1);
+  const abstain = Number(s.abstainRate || 0).toFixed(1);
 
   el.innerHTML = `
     <div class="share-card-photo-wrap">
