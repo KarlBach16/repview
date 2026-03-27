@@ -267,7 +267,7 @@ ${shareUrl}`;
       if (navigator.share) {
         try {
           await navigator.share({
-            title: headline,
+            title: "RepView",
             text: shareMessage,
           });
         } catch (err) {
