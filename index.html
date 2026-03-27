@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RepView — Start with Your District</title>
+  <title>RepView - 한눈에 보는 국회의원 활동 기록</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -59,6 +59,57 @@
       try {
         const { representatives } = await loadAll();
 
+
+        function chipLabelFromDistrict(rawDistrict) {
+          const district = String(rawDistrict || "").trim();
+          if (!district) return "";
+          if (district.includes("비례대표")) return "비례대표";
+
+          let label = district
+            .replace(/^[가-힣]+(?:특별시|광역시|특별자치시|특별자치도|도|시)?\s+/, "")
+            .replace(/([가-힣]+)시([가-힣]+)구[갑을병정]?$/, "$1")
+            .replace(/([가-힣]+)(구|시|군)[갑을병정]?$/, "$1")
+            .trim();
+
+          if (!label && district.includes(" ")) {
+            label = district.split(/\s+/).pop() || district;
+          }
+
+          return label || district;
+        }
+
+        function pickDistrictChips() {
+          const proportional = representatives.find((r) =>
+            String(r?.profile?.district || "").includes("비례대표")
+          );
+
+          const localRows = representatives.filter((r) =>
+            !String(r?.profile?.district || "").includes("비례대표")
+          );
+
+          const shuffled = [...localRows];
+          for (let i = shuffled.length - 1; i > 0; i -= 1) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+          }
+
+          const picked = [];
+          const seenLabel = new Set();
+
+          for (const row of shuffled) {
+            const label = chipLabelFromDistrict(row?.profile?.district || "");
+            if (!label || seenLabel.has(label)) continue;
+            seenLabel.add(label);
+            picked.push({ row, label });
+            if (picked.length >= 3) break;
+          }
+
+          const result = [];
+          if (proportional) result.push({ row: proportional, label: "비례대표" });
+          result.push(...picked);
+          return result.slice(0, 4);
+        }
+
         function renderDistrictUI() {
           const districtRow = document.getElementById("district-chip-row");
           if (!representatives.length) {
@@ -66,13 +117,17 @@
             return;
           }
 
-          districtRow.innerHTML = representatives.slice(0, 4).map((r) =>
-            `<a class="district-chip" href="search.html?q=${encodeURIComponent(r.profile.district || "")}">${districtLabel(r)}</a>`
+          const chips = pickDistrictChips();
+          districtRow.innerHTML = chips.map(({ row, label }) =>
+            `<a class="district-chip" href="search.html?q=${encodeURIComponent(row.profile.district || "")}">${label}</a>`
           ).join("");
         }
 
         renderDistrictUI();
         window.addEventListener("repview:languagechange", renderDistrictUI);
+        window.addEventListener("pageshow", (event) => {
+          if (event.persisted) renderDistrictUI();
+        });
       } catch (e) {
         console.error(e);
       }
