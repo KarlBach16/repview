@@ -246,15 +246,30 @@ function initShareActions() {
   if (shareBtn && shareBtn.dataset.bound !== "1") {
     shareBtn.dataset.bound = "1";
     shareBtn.addEventListener("click", async () => {
-      const url = window.location.href;
+      const rep = currentRepresentative || {};
+      const profile = rep.profile || {};
+      const slug = rep.slug || new URLSearchParams(location.search).get("slug") || "";
+      const shareUrl = slug
+        ? `${window.location.origin}/member/${encodeURIComponent(slug)}`
+        : window.location.href;
+
+      const district = String(profile.district || "").trim();
+      const name = String(profile.name || "").trim();
+      const shareTitle = `${district} 국회의원 ${name} 활동 기록`;
+      const shareText = "표결 참여율, 발의 법안, 표결 성향을 확인해보세요.";
+
       if (navigator.share) {
-        await navigator.share({
-          title: "RepView",
-          text: "우리 지역 국회의원 활동 보기",
-          url,
-        });
+        try {
+          await navigator.share({
+            title: shareTitle,
+            text: shareText,
+            url: shareUrl,
+          });
+        } catch (err) {
+          // user cancelled share sheet
+        }
       } else {
-        await navigator.clipboard.writeText(url);
+        await navigator.clipboard.writeText(shareUrl);
         alert("링크가 복사되었습니다.");
       }
     });
