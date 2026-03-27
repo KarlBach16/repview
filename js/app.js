@@ -84,7 +84,7 @@ const I18N = {
     "member.stat.absent": "불참",
     "member.stat.absent.context": "현 임기 내 표결 불참 횟수",
     "member.votes.title": "이렇게 표결했습니다.",
-    "member.votes.sub": "최근 국회 표결과 해당 대표의 선택을 보여줍니다.",
+    "member.votes.sub": "최근 국회 표결과 해당 의원의 선택을 보여줍니다.",
     "member.activity.title": "현재 활동",
     "member.share.title": "RepView 요약",
     "member.share.stat.attendance": "출석률",
