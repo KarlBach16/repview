@@ -257,17 +257,11 @@ function initShareActions() {
       const name = String(profile.name || "").trim();
       const headline = `${district} 국회의원 ${name}`;
       const body = "표결 참여율, 발의 법안, 표결 성향을 한눈에 확인하세요.";
-      const shareMessage = `${headline}
-
-${body}
-
-RepView
-${shareUrl}`;
+      const shareMessage = `${headline}\n\n${body}\n\nRepView\n${shareUrl}`;
 
       if (navigator.share) {
         try {
           await navigator.share({
-            title: "RepView",
             text: shareMessage,
           });
         } catch (err) {
