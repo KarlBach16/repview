@@ -319,10 +319,10 @@ function getPartyColor(party) {
   if (p.includes("더불어민주")) return "#1F5BA9";
   if (p.includes("국민의힘")) return "#E61E2B";
   if (p.includes("정의당")) return "#FFCC00";
-  if (p.includes("조국혁신")) return "#0A7B63";
+  if (p.includes("조국혁신")) return "#0073CF";
   if (p.includes("개혁신당")) return "#FF7A00";
   if (p.includes("진보당")) return "#D6001C";
-  if (p.includes("기본소득당")) return "#00A0E9";
+  if (p.includes("기본소득당")) return "#00D2C3";
   if (p.includes("사회민주당")) return "#2E8B57";
   if (p.includes("무소속")) return "#888888";
   return "#9BA3AF";
