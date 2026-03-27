@@ -1,6 +1,6 @@
 // ── Shared data loader & utilities ────────────────────────
 
-const BASE = "";   // adjust if served from a subpath
+const BASE = "/";   // adjust if served from a subpath
 const LANG_PREF_KEY = "repview.lang";
 
 const I18N = {

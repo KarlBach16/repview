@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RepView - 한눈에 보는 국회의원 활동 기록</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-actions" style="display:none">
+      <select class="lang-select" aria-label="Language">
+        <option value="auto">Auto</option>
+        <option value="en">English</option>
+        <option value="ko">한국어</option>
+      </select>
+    </div>
+  </nav>
+
+  <main class="index-canvas">
+    <section class="index-hero">
+      <h1 class="index-headline fade-in delay-1" data-i18n="index.headline">Find your district representative.</h1>
+
+      <p class="index-sub fade-in delay-2" data-i18n="index.sub">One name. One record. One clear summary.</p>
+
+      <form class="search-form fade-in delay-3" id="hero-search-form" action="#" method="get">
+        <input
+          type="text"
+          class="search-input"
+          name="q"
+          id="hero-search"
+          data-i18n-placeholder="index.search.placeholder"
+          placeholder="지역구 또는 국회의원 검색"
+          autocomplete="off"
+        />
+        <span class="search-btn-icon">⌕</span>
+      </form>
+
+      <div class="district-chip-row fade-in delay-3" id="district-chip-row"></div>
+
+      <div class="search-results-wrap fade-in delay-3" id="hero-results-wrap">
+        <div class="search-results-label" id="hero-results-label"></div>
+        <div class="search-results-grid" id="hero-results-list"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="index-footer">
+    <div class="index-footer-inner">
+      <p class="index-footer-brand">RepView</p>
+      <p class="index-footer-desc">한눈에 보는 국회의원 활동 기록</p>
+      <p class="index-footer-line">Contact: contact@repview.app</p>
+      <p class="index-footer-line">Data source: National Assembly Open API</p>
+      <p class="index-footer-copy">© 2026 RepView</p>
+    </div>
+  </footer>
+
+
+  <script src="/js/app.js"></script>
+  <script>
+    (async () => {
+      let representatives = [];
+
+      try {
+        const data = await loadAll();
+        representatives = data.representatives || [];
+
+        function chipLabelFromDistrict(rawDistrict) {
+          const district = String(rawDistrict || "").trim();
+          if (!district) return "";
+          if (district.includes("비례대표")) return "비례대표";
+
+          let label = district
+            .replace(/^[가-힣]+(?:특별시|광역시|특별자치시|특별자치도|도|시)?\s+/, "")
+            .replace(/([가-힣]+)시([가-힣]+)구[갑을병정]?$/, "$1")
+            .replace(/([가-힣]+)(구|시|군)[갑을병정]?$/, "$1")
+            .trim();
+
+          if (!label && district.includes(" ")) {
+            label = district.split(/\s+/).pop() || district;
+          }
+
+          return label || district;
+        }
+
+        function pickDistrictChips() {
+          const proportional = representatives.find((r) =>
+            String(r?.profile?.district || "").includes("비례대표")
+          );
+
+          const localRows = representatives.filter((r) =>
+            !String(r?.profile?.district || "").includes("비례대표")
+          );
+
+          const shuffled = [...localRows];
+          for (let i = shuffled.length - 1; i > 0; i -= 1) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+          }
+
+          const picked = [];
+          const seenLabel = new Set();
+
+          for (const row of shuffled) {
+            const label = chipLabelFromDistrict(row?.profile?.district || "");
+            if (!label || seenLabel.has(label)) continue;
+            seenLabel.add(label);
+            picked.push({ row, label });
+            if (picked.length >= 3) break;
+          }
+
+          const result = [];
+          if (proportional) result.push({ row: proportional, label: "비례대표" });
+          result.push(...picked);
+          return result.slice(0, 4);
+        }
+
+        function filterRepresentatives(q) {
+          const needle = String(q || "").toLowerCase();
+          return representatives.filter((r) => {
+            const p = r.profile || {};
+            return (
+              String(p.name || "").toLowerCase().includes(needle) ||
+              String(p.district || "").toLowerCase().includes(needle) ||
+              String(p.party || "").toLowerCase().includes(needle)
+            );
+          });
+        }
+
+        function renderHeroResults(rows, q) {
+          const labelEl = document.getElementById("hero-results-label");
+          const listEl = document.getElementById("hero-results-list");
+
+          if (!labelEl || !listEl) return;
+
+          if (!q) {
+            labelEl.textContent = "";
+            listEl.innerHTML = "";
+            return;
+          }
+
+          labelEl.textContent = t("search.label.results", {
+            count: rows.length,
+            plural: rows.length !== 1 ? "es" : "",
+            query: q,
+          });
+
+          if (!rows.length) {
+            listEl.innerHTML = `<p class="search-empty">${t("search.empty", { query: q })}</p>`;
+            return;
+          }
+
+          listEl.innerHTML = rows
+            .slice(0, 18)
+            .map((r) => {
+              const p = r.profile || {};
+              const photo = p.photo
+                ? `<img class="search-result-photo" src="${p.photo}" alt="${escapeHTML(p.name || "")}" loading="lazy" />`
+                : `<div class="search-result-photo fallback-photo" style="background:${avatarGradient(r)}"></div>`;
+
+              return `
+                <article class="search-result-card fade-in" onclick="location.href='member.html?slug=${encodeURIComponent(r.slug)}'">
+                  <div class="search-result-photo-wrap">${photo}</div>
+                  <div class="search-result-meta">
+                    <p class="search-result-name">${escapeHTML(p.name || "")}</p>
+                    <p class="search-result-district">${escapeHTML(p.district || "")}</p>
+                    <p class="search-result-party">${partyAccentHTML(p.party || "")}</p>
+                  </div>
+                </article>`;
+            })
+            .join("");
+
+          initFadeIns();
+        }
+
+        function updateQueryString(q) {
+          const base = location.pathname || "index.html";
+          history.replaceState(null, "", q ? `${base}?q=${encodeURIComponent(q)}` : base);
+        }
+
+        function renderDistrictUI() {
+          const districtRow = document.getElementById("district-chip-row");
+          if (!districtRow) return;
+
+          if (!representatives.length) {
+            districtRow.innerHTML = `<span class="district-chip">API data will appear here</span>`;
+            return;
+          }
+
+          const chips = pickDistrictChips();
+          districtRow.innerHTML = chips
+            .map(
+              ({ row, label }) =>
+                `<button type="button" class="district-chip" data-district="${escapeHTML(row.profile.district || "")}">${label}</button>`
+            )
+            .join("");
+
+          districtRow.querySelectorAll(".district-chip").forEach((btn) => {
+            btn.addEventListener("click", () => {
+              const input = document.getElementById("hero-search");
+              if (!input) return;
+              const q = btn.getAttribute("data-district") || "";
+              input.value = q;
+              updateQueryString(q);
+              renderHeroResults(filterRepresentatives(q), q);
+              input.focus();
+            });
+          });
+        }
+
+        function bindHeroSearch() {
+          const form = document.getElementById("hero-search-form");
+          const input = document.getElementById("hero-search");
+          if (!form || !input) return;
+
+          const applySearch = () => {
+            const q = input.value.trim();
+            updateQueryString(q);
+            renderHeroResults(filterRepresentatives(q), q);
+          };
+
+          form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            applySearch();
+          });
+
+          input.addEventListener("input", applySearch);
+
+          const urlQ = new URLSearchParams(location.search).get("q") || "";
+          if (urlQ) {
+            input.value = urlQ;
+            renderHeroResults(filterRepresentatives(urlQ), urlQ);
+          }
+        }
+
+        renderDistrictUI();
+        bindHeroSearch();
+
+        window.addEventListener("repview:languagechange", () => {
+          renderDistrictUI();
+          const input = document.getElementById("hero-search");
+          const q = String(input?.value || "").trim();
+          renderHeroResults(filterRepresentatives(q), q);
+        });
+
+        window.addEventListener("pageshow", (event) => {
+          if (event.persisted) renderDistrictUI();
+        });
+      } catch (e) {
+        console.error(e);
+      }
+
+      initI18n();
+      initNav();
+      initFadeIns();
+    })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RepView US — Find your representative</title>
+  <meta name="description" content="Find your U.S. House representative by ZIP code or member name." />
+  <link rel="stylesheet" href="/css/style.css" />
+  <style>
+    .us-results-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px 84px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav" id="main-nav">
+    <div class="nav-actions" style="display:none"></div>
+  </nav>
+
+  <main class="index-canvas">
+    <section class="index-hero">
+      <p class="index-eyebrow">United States</p>
+      <h1 class="index-headline fade-in delay-1">Find your representative.</h1>
+      <p class="index-sub fade-in delay-2">Search by ZIP code or member name.</p>
+
+      <form class="search-form fade-in delay-3" id="us-search-form" action="#">
+        <input
+          type="text"
+          class="search-input"
+          id="us-search-input"
+          placeholder="ZIP code or member name"
+          autocomplete="off"
+        />
+        <span class="search-btn-icon">⌕</span>
+      </form>
+    </section>
+
+    <div class="us-results-section">
+      <div id="us-results"></div>
+    </div>
+  </main>
+
+  <footer class="index-footer">
+    <div class="index-footer-inner">
+      <p class="index-footer-brand">RepView</p>
+      <p class="index-footer-desc">See what your representative actually does.</p>
+      <p class="index-footer-line">Contact: contact@repview.app</p>
+      <p class="index-footer-line">Data source: GovTrack US Congress API</p>
+      <p class="index-footer-copy">© 2026 RepView</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/us.js"></script>
+  <script>
+    const nav = document.getElementById('main-nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 10);
+    }, { passive: true });
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>

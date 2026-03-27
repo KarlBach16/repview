@@ -24,7 +24,7 @@ async function initMember() {
 
   const rep = data.representatives.find((r) => r.slug === key || r.monaCode === key);
   if (!rep) {
-    location.href = "search.html";
+    location.href = "/pages/kr/index.html";
     return;
   }
 

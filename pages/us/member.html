@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RepView US Member</title>
+  <meta name="description" content="US House member profile — RepView" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <style>
+    @media (min-width: 901px) {
+      #us-member-root .stat-context {
+        max-width: none;
+        white-space: nowrap;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav scrolled" id="main-nav">
+    <a class="nav-back" href="./index.html">← Representatives</a>
+    <span class="nav-member-name" id="nav-member-name"></span>
+  </nav>
+
+  <main id="us-member-root"></main>
+
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script type="module" src="/js/us-member.js"></script>
+</body>
+</html>
