@@ -255,22 +255,27 @@ function initShareActions() {
 
       const district = String(profile.district || "").trim();
       const name = String(profile.name || "").trim();
-      const shareTitle = `${district} 국회의원 ${name} 활동 기록`;
-      const shareText = "표결 참여율, 발의 법안, 표결 성향을 확인해보세요.";
+      const headline = `${district} 국회의원 ${name}`;
+      const body = "표결 참여율, 발의 법안, 표결 성향을 한눈에 확인하세요.";
+      const shareMessage = `${headline}
+
+${body}
+
+RepView
+${shareUrl}`;
 
       if (navigator.share) {
         try {
           await navigator.share({
-            title: shareTitle,
-            text: shareText,
-            url: shareUrl,
+            title: headline,
+            text: shareMessage,
           });
         } catch (err) {
           // user cancelled share sheet
         }
       } else {
-        await navigator.clipboard.writeText(shareUrl);
-        alert("링크가 복사되었습니다.");
+        await navigator.clipboard.writeText(shareMessage);
+        alert("공유 문구가 복사되었습니다.");
       }
     });
   }
