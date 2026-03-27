@@ -1394,7 +1394,7 @@ img { display: block; }
   position: absolute;
   right: 16px;
   bottom: 12px;
-  font-size: 12px;
+  font-size: 14px;
   opacity: 0.6;
   text-align: right;
   pointer-events: none;
@@ -1432,20 +1432,22 @@ img { display: block; }
 
 .share-stat-item {
   padding: 0;
+  text-align: center;
 }
 
 .share-stat-num {
   display: block;
-  font-size: clamp(22px, 2.4vw, 30px);
+  font-size: clamp(30px, 3vw, 44px);
+  font-weight: 700;
   letter-spacing: -0.03em;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 .share-stat-label {
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.09em;
-  color: rgba(245,245,247,0.5);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(245,245,247,0.62);
 }
 
 .party-accent {
@@ -1553,8 +1555,13 @@ img { display: block; }
     padding: 26px 20px;
   }
 
+  .share-stat-label {
+    font-size: 13px;
+  }
+
   .share-card-stats {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
   }
 
   .share-card-tendency {

@@ -183,7 +183,6 @@ function renderShareCard(rep) {
       <img class="share-card-photo" src="${p.photo || ""}" alt="${p.name || ""}" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </div>
     <div class="share-card-body">
-      <p class="share-card-kicker">${t("member.share.title")}</p>
       <h3 class="share-card-name">${p.name || ""}</h3>
       <p class="share-card-meta">${escapeHTML(p.district || "")}&nbsp;&nbsp;${partyAccentHTML(p.party || "")}</p>
       <div class="share-card-stats">
