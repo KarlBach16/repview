@@ -80,7 +80,7 @@ function renderResults(rows) {
   if (!el) return;
 
   if (!rows.length) {
-    el.innerHTML = '<p class="search-empty">No matching members found.</p>';
+    el.innerHTML = "";
     return;
   }
 
@@ -260,7 +260,6 @@ async function initUSPage() {
       return;
     }
 
-    setSearchMessage("");
     const filtered = members.filter((m) => {
       const name = String(m.name || "").toLowerCase();
       const districtCode = String(m.districtCode || "").toLowerCase();
@@ -268,6 +267,13 @@ async function initUSPage() {
       return name.includes(q) || districtCode.includes(q) || state === q;
     });
 
+    if (!filtered.length) {
+      setSearchMessage("No matching members found.");
+      clearResults();
+      return;
+    }
+
+    setSearchMessage("");
     renderResults(filtered);
   };
 
