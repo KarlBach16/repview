@@ -1,3 +1,5 @@
+const CIVIC_API_KEY = "AIzaSyBvUTjfiymsCslwfREiiHYP3om8Zs_IFLY";
+
 async function loadUSMembers() {
   const res = await fetch("/data/us/house_members.json", { cache: "no-store" });
   if (!res.ok) throw new Error(`Failed to load US members: ${res.status}`);
@@ -28,10 +30,16 @@ function getUSPartyColor(party) {
 function usPartyAccentHTML(party) {
   const label = String(party || "").trim() || "Unknown";
   const color = getUSPartyColor(label);
-  return '<span style="color:' + color + ';display:inline-flex;align-items:center;gap:8px">' +
-    '<span style="width:8px;height:8px;border-radius:999px;background:' + color + ';display:inline-block;transform:translateY(-1px)"></span>' +
+  return (
+    '<span style="color:' +
+    color +
+    ';display:inline-flex;align-items:center;gap:8px">' +
+    '<span style="width:8px;height:8px;border-radius:999px;background:' +
+    color +
+    ';display:inline-block;transform:translateY(-1px)"></span>' +
     escapeHTML(label) +
-    '</span>';
+    "</span>"
+  );
 }
 
 function normalizeDistrictCode(value) {
@@ -41,19 +49,35 @@ function normalizeDistrictCode(value) {
     .toLowerCase();
 }
 
+function normalizeName(value) {
+  return String(value || "")
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function memberDetailRoute(districtCode) {
   const code = normalizeDistrictCode(districtCode);
-  return `./member.html?district=${encodeURIComponent(code)}`;
+  return `/us/member.html?district=${encodeURIComponent(code)}`;
 }
 
 function isZipQuery(value) {
   return /^\d{5}(-\d{4})?$/.test(String(value || "").trim());
 }
 
-function renderMessage(message) {
+function setSearchMessage(message) {
+  const el = document.getElementById("us-search-message");
+  if (!el) return;
+  el.textContent = message || "";
+}
+
+function clearResults() {
   const el = document.getElementById("us-results");
   if (!el) return;
-  el.innerHTML = message ? `<p class="search-empty">${escapeHTML(message)}</p>` : "";
+  el.innerHTML = "";
 }
 
 function renderResults(rows) {
@@ -88,6 +112,78 @@ function renderResults(rows) {
   el.innerHTML = `<div class="search-results-grid">${cards}</div>`;
 }
 
+async function lookupZip(zip) {
+  if (!CIVIC_API_KEY || CIVIC_API_KEY === "YOUR_API_KEY") {
+    throw new Error("MISSING_API_KEY");
+  }
+
+  const url = new URL("https://www.googleapis.com/civicinfo/v2/representatives");
+  url.searchParams.set("key", CIVIC_API_KEY);
+  url.searchParams.set("address", zip);
+  url.searchParams.set("levels", "country");
+  url.searchParams.set("roles", "legislatorLowerBody");
+
+  const res = await fetch(url.toString());
+  if (!res.ok) throw new Error("CIVIC_API_FAILED");
+
+  const data = await res.json();
+  const officials = Array.isArray(data.officials) ? data.officials : [];
+  const offices = Array.isArray(data.offices) ? data.offices : [];
+
+  const indices = [];
+  for (const office of offices) {
+    const idx = Array.isArray(office.officialIndices) ? office.officialIndices : [];
+    indices.push(...idx);
+  }
+
+  const unique = [...new Set(indices)]
+    .map((i) => officials[i])
+    .filter(Boolean);
+
+  if (unique.length !== 1) {
+    throw new Error("MULTIPLE_OR_NOT_FOUND");
+  }
+
+  const official = unique[0];
+  const name = String(official.name || "").trim();
+  if (!name) throw new Error("NO_MEMBER_NAME");
+
+  return name;
+}
+
+function findMemberByName(memberName, members) {
+  const raw = String(memberName || "").trim().toLowerCase();
+  const exact = members.filter((m) => String(m.name || "").trim().toLowerCase() === raw);
+  if (exact.length === 1) return exact[0];
+
+  const normalizedTarget = normalizeName(memberName);
+  const normalized = members.filter((m) => normalizeName(m.name) === normalizedTarget);
+  if (normalized.length === 1) return normalized[0];
+
+  if (exact.length > 1 || normalized.length > 1) return null;
+
+  const contains = members.filter((m) => normalizeName(m.name).includes(normalizedTarget));
+  if (contains.length === 1) return contains[0];
+
+  return null;
+}
+
+async function runZipSearch(zip, members) {
+  try {
+    setSearchMessage("Looking up ZIP...");
+    clearResults();
+    const memberName = await lookupZip(zip);
+    const matched = findMemberByName(memberName, members);
+    if (!matched || !matched.districtCode) {
+      setSearchMessage("Enter full address for accurate district");
+      return;
+    }
+    location.href = memberDetailRoute(matched.districtCode);
+  } catch (err) {
+    setSearchMessage("Enter full address for accurate district");
+  }
+}
+
 async function initUSPage() {
   let members = [];
   try {
@@ -99,33 +195,57 @@ async function initUSPage() {
     return;
   }
 
+  const form = document.getElementById("us-search-form");
   const input = document.getElementById("us-search-input");
   if (!input) return;
 
-  const runSearch = () => {
+  const runNameSearch = () => {
     const raw = String(input.value || "").trim();
     const q = raw.toLowerCase();
 
     if (!q) {
-      renderMessage("");
+      setSearchMessage("");
+      clearResults();
       return;
     }
 
     if (isZipQuery(raw)) {
-      renderMessage("ZIP lookup is coming next. For now, search by member name or district code.");
+      setSearchMessage("Press Enter to search by ZIP");
+      clearResults();
       return;
     }
 
+    setSearchMessage("");
     const filtered = members.filter((m) => {
       const name = String(m.name || "").toLowerCase();
       const districtCode = String(m.districtCode || "").toLowerCase();
       const state = String(m.state || "").toLowerCase();
       return name.includes(q) || districtCode.includes(q) || state === q;
     });
+
     renderResults(filtered);
   };
 
-  input.addEventListener("input", runSearch);
+  input.addEventListener("input", runNameSearch);
+
+  if (form) {
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const raw = String(input.value || "").trim();
+      if (!raw) {
+        setSearchMessage("");
+        clearResults();
+        return;
+      }
+
+      if (isZipQuery(raw)) {
+        await runZipSearch(raw, members);
+        return;
+      }
+
+      runNameSearch();
+    });
+  }
 }
 
 document.addEventListener("DOMContentLoaded", initUSPage);
