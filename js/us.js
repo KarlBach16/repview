@@ -237,13 +237,14 @@ async function runZipSearch(zip, members) {
     console.log("[ZIP DEBUG] final matched member(s):", uniqueMatched);
 
     if (uniqueMatched.length === 1) {
-      location.href = memberDetailRoute(uniqueMatched[0].districtCode);
+      setSearchMessage("1 district found. Select the representative card below.");
+      renderResults(uniqueMatched);
       return;
     }
 
     if (uniqueMatched.length > 1) {
       setSearchMessage("This ZIP code may map to multiple House districts.");
-      renderZipChoices(zipResult.districtCodes, members);
+      renderResults(uniqueMatched);
       return;
     }
 
