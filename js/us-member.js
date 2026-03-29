@@ -188,21 +188,6 @@ function renderMember(member) {
         <p class="poster-kicker">US House Representative</p>
         <h1 class="poster-name">${memberName}</h1>
         <p class="poster-meta">${districtCode}&nbsp;&nbsp;${partyHTML}</p>
-
-        <div class="poster-secondary">
-          <div class="poster-secondary-item">
-            <span class="poster-secondary-num">${votesWithParty}</span>
-            <span class="poster-secondary-label">Votes With Party</span>
-          </div>
-          <div class="poster-secondary-item">
-            <span class="poster-secondary-num">${billsSponsored}</span>
-            <span class="poster-secondary-label">Bills Sponsored</span>
-          </div>
-          <div class="poster-secondary-item">
-            <span class="poster-secondary-num">${missedVotes}</span>
-            <span class="poster-secondary-label">Missed Votes</span>
-          </div>
-        </div>
       </div>
 
       <div class="scroll-hint">
