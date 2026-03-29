@@ -1,4 +1,5 @@
-const CIVIC_API_KEY = "AIzaSyBvUTjfiymsCslwfREiiHYP3om8Zs_IFLY";
+const PUBLIC_CONFIG = window.REPVIEW_PUBLIC_CONFIG || {};
+const GEOCODIO_API_KEY = PUBLIC_CONFIG.GEOCODIO_API_KEY || "";
 
 async function loadUSMembers() {
   const res = await fetch("/data/us/house_members.json", { cache: "no-store" });
@@ -49,23 +50,17 @@ function normalizeDistrictCode(value) {
     .toLowerCase();
 }
 
-function normalizeName(value) {
-  return String(value || "")
-    .toLowerCase()
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9\s]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 function memberDetailRoute(districtCode) {
   const code = normalizeDistrictCode(districtCode);
   return `/us/member.html?district=${encodeURIComponent(code)}`;
 }
 
 function isZipQuery(value) {
-  return /^\d{5}(-\d{4})?$/.test(String(value || "").trim());
+  return /^\d{5}$/.test(String(value || "").trim());
+}
+
+function looksLikeZipCandidate(value) {
+  return /^\d[\d-]*$/.test(String(value || "").trim());
 }
 
 function setSearchMessage(message) {
@@ -112,91 +107,85 @@ function renderResults(rows) {
   el.innerHTML = `<div class="search-results-grid">${cards}</div>`;
 }
 
-function districtCodeFromDivisionId(divisionId) {
-  const text = String(divisionId || "");
-  const match = text.match(/state:([a-z]{2})(?:\/cd:(\d+))?/i);
-  if (!match) return "";
+function renderZipChoices(districtCodes, members) {
+  const el = document.getElementById("us-results");
+  if (!el) return;
 
-  const state = String(match[1] || "").toUpperCase();
-  const districtRaw = match[2];
-  const district = districtRaw === undefined || districtRaw === null
+  const uniqueCodes = [...new Set(districtCodes.map((d) => String(d || "").toUpperCase()))];
+  const matched = uniqueCodes
+    .map((dc) => {
+      const member = members.find((m) => normalizeDistrictCode(m.districtCode) === normalizeDistrictCode(dc));
+      return { districtCode: dc, member };
+    })
+    .filter((x) => x.member);
+
+  if (!matched.length) {
+    el.innerHTML = "";
+    return;
+  }
+
+  const links = matched
+    .map((x) => {
+      const route = memberDetailRoute(x.member.districtCode);
+      return `<a class="district-chip" href="${route}" style="text-decoration:none">${escapeHTML(x.member.districtCode)}</a>`;
+    })
+    .join("");
+
+  el.innerHTML = `
+    <p class="search-empty" style="margin:0 0 8px 0">Enter full address for accurate match.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;padding-top:4px">
+      ${links}
+    </div>
+  `;
+}
+
+function districtCodeFromGeocodioItem(item, result) {
+  const stateFromLegislator = item?.current_legislators?.[0]?.bio?.state;
+  const stateFromAddress = result?.address_components?.state;
+  const state = String(stateFromLegislator || stateFromAddress || "").toUpperCase();
+
+  const rawDistrict = item?.district_number;
+  const district = rawDistrict === null || rawDistrict === undefined || Number(rawDistrict) === 0
     ? "AL"
-    : String(Number(districtRaw));
+    : String(Number(rawDistrict));
 
   if (!state || !district) return "";
   return `${state}-${district}`;
 }
 
 async function lookupZip(zip) {
-  if (!CIVIC_API_KEY || CIVIC_API_KEY === "YOUR_API_KEY") {
+  if (!GEOCODIO_API_KEY || GEOCODIO_API_KEY === "YOUR_GEOCODIO_API_KEY") {
     throw new Error("MISSING_API_KEY");
   }
 
-  const url = new URL("https://www.googleapis.com/civicinfo/v2/representatives");
-  url.searchParams.set("key", CIVIC_API_KEY);
-  url.searchParams.set("address", zip);
-  url.searchParams.set("roles", "legislatorLowerBody");
+  const url = new URL("https://api.geocod.io/v1.7/geocode");
+  url.searchParams.set("q", zip);
+  url.searchParams.set("fields", "cd");
+  url.searchParams.set("api_key", GEOCODIO_API_KEY);
 
   const res = await fetch(url.toString());
-  if (!res.ok) throw new Error("CIVIC_API_FAILED");
+  if (!res.ok) throw new Error("GEOCODIO_FAILED");
 
   const data = await res.json();
-  const officials = Array.isArray(data.officials) ? data.officials : [];
-  const offices = Array.isArray(data.offices) ? data.offices : [];
+  const results = Array.isArray(data.results) ? data.results : [];
+  if (!results.length) throw new Error("NO_RESULTS");
 
-  const indices = [];
   const districtCodes = [];
+  for (const result of results) {
+    const cds = Array.isArray(result?.fields?.congressional_districts)
+      ? result.fields.congressional_districts
+      : [];
 
-  for (const office of offices) {
-    const idx = Array.isArray(office.officialIndices) ? office.officialIndices : [];
-    indices.push(...idx);
-
-    const dc = districtCodeFromDivisionId(office.divisionId);
-    if (dc) districtCodes.push(dc);
-  }
-
-  const uniqueOfficials = [...new Set(indices)]
-    .map((i) => officials[i])
-    .filter(Boolean);
-
-  if (!uniqueOfficials.length) {
-    throw new Error("MULTIPLE_OR_NOT_FOUND");
+    for (const cd of cds) {
+      const dc = districtCodeFromGeocodioItem(cd, result);
+      if (dc) districtCodes.push(dc);
+    }
   }
 
   const uniqueDistrictCodes = [...new Set(districtCodes.map((d) => d.toUpperCase()))];
-  if (uniqueDistrictCodes.length > 1) {
-    throw new Error("MULTIPLE_OR_NOT_FOUND");
-  }
+  if (!uniqueDistrictCodes.length) throw new Error("NO_RESULTS");
 
-  const officialName = String(uniqueOfficials[0]?.name || "").trim();
-
-  return {
-    districtCode: uniqueDistrictCodes[0] || "",
-    memberName: officialName,
-  };
-}
-
-function findMemberByDistrictCode(districtCode, members) {
-  const target = normalizeDistrictCode(districtCode);
-  if (!target) return null;
-  return members.find((m) => normalizeDistrictCode(m.districtCode) === target) || null;
-}
-
-function findMemberByName(memberName, members) {
-  const raw = String(memberName || "").trim().toLowerCase();
-  const exact = members.filter((m) => String(m.name || "").trim().toLowerCase() === raw);
-  if (exact.length === 1) return exact[0];
-
-  const normalizedTarget = normalizeName(memberName);
-  const normalized = members.filter((m) => normalizeName(m.name) === normalizedTarget);
-  if (normalized.length === 1) return normalized[0];
-
-  if (exact.length > 1 || normalized.length > 1) return null;
-
-  const contains = members.filter((m) => normalizeName(m.name).includes(normalizedTarget));
-  if (contains.length === 1) return contains[0];
-
-  return null;
+  return uniqueDistrictCodes;
 }
 
 async function runZipSearch(zip, members) {
@@ -204,21 +193,39 @@ async function runZipSearch(zip, members) {
     setSearchMessage("Looking up ZIP...");
     clearResults();
 
-    const zipResult = await lookupZip(zip);
-    let matched = findMemberByDistrictCode(zipResult.districtCode, members);
+    // TODO: Prefer full street address lookup over ZIP-only lookup when ZIP is ambiguous.
+    const districtCodes = await lookupZip(zip);
 
-    if (!matched && zipResult.memberName) {
-      matched = findMemberByName(zipResult.memberName, members);
-    }
+    const matchedMembers = districtCodes
+      .map((dc) => members.find((m) => normalizeDistrictCode(m.districtCode) === normalizeDistrictCode(dc)))
+      .filter(Boolean);
 
-    if (!matched || !matched.districtCode) {
-      setSearchMessage("Enter full address for accurate district");
+    const uniqueMatched = [
+      ...new Map(matchedMembers.map((m) => [normalizeDistrictCode(m.districtCode), m])).values(),
+    ];
+
+    if (uniqueMatched.length === 1) {
+      location.href = memberDetailRoute(uniqueMatched[0].districtCode);
       return;
     }
 
-    location.href = memberDetailRoute(matched.districtCode);
+    if (uniqueMatched.length > 1) {
+      setSearchMessage("This ZIP code may map to multiple House districts.");
+      renderZipChoices(districtCodes, members);
+      return;
+    }
+
+    setSearchMessage("No district found for this ZIP code.");
+    clearResults();
   } catch (err) {
-    setSearchMessage("Enter full address for accurate district");
+    if (err?.message === "NO_RESULTS") {
+      setSearchMessage("No district found for this ZIP code.");
+    } else if (err?.message === "MISSING_API_KEY") {
+      setSearchMessage("ZIP lookup is not configured.");
+    } else {
+      setSearchMessage("Enter full address for accurate match.");
+    }
+    clearResults();
   }
 }
 
@@ -278,6 +285,12 @@ async function initUSPage() {
 
       if (isZipQuery(raw)) {
         await runZipSearch(raw, members);
+        return;
+      }
+
+      if (looksLikeZipCandidate(raw)) {
+        setSearchMessage("Enter a valid 5-digit ZIP code.");
+        clearResults();
         return;
       }
 
