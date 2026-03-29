@@ -1,0 +1,57 @@
+name: Update US House Data
+
+on:
+  schedule:
+    # 03:00 UTC daily (12:00 KST)
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-us-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies (if package.json exists)
+        run: |
+          if [ -f package.json ]; then
+            npm ci || npm install
+          fi
+
+      - name: Fetch US House members
+        run: node scripts/us/fetchUSHouseMembers.js
+
+      - name: Fetch US House photos
+        run: node scripts/us/fetchUSHousePhotos.js
+
+      - name: Enrich US House stats
+        run: node scripts/us/enrichUSHouseStats.js
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/us/house_members.json img/us/members
+          if git diff --cached --quiet; then
+            echo "No tracked US data changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: daily US house data update"
+          git push
