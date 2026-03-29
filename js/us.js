@@ -112,6 +112,21 @@ function renderResults(rows) {
   el.innerHTML = `<div class="search-results-grid">${cards}</div>`;
 }
 
+function districtCodeFromDivisionId(divisionId) {
+  const text = String(divisionId || "");
+  const match = text.match(/state:([a-z]{2})(?:\/cd:(\d+))?/i);
+  if (!match) return "";
+
+  const state = String(match[1] || "").toUpperCase();
+  const districtRaw = match[2];
+  const district = districtRaw === undefined || districtRaw === null
+    ? "AL"
+    : String(Number(districtRaw));
+
+  if (!state || !district) return "";
+  return `${state}-${district}`;
+}
+
 async function lookupZip(zip) {
   if (!CIVIC_API_KEY || CIVIC_API_KEY === "YOUR_API_KEY") {
     throw new Error("MISSING_API_KEY");
@@ -131,24 +146,41 @@ async function lookupZip(zip) {
   const offices = Array.isArray(data.offices) ? data.offices : [];
 
   const indices = [];
+  const districtCodes = [];
+
   for (const office of offices) {
     const idx = Array.isArray(office.officialIndices) ? office.officialIndices : [];
     indices.push(...idx);
+
+    const dc = districtCodeFromDivisionId(office.divisionId);
+    if (dc) districtCodes.push(dc);
   }
 
-  const unique = [...new Set(indices)]
+  const uniqueOfficials = [...new Set(indices)]
     .map((i) => officials[i])
     .filter(Boolean);
 
-  if (unique.length !== 1) {
+  if (!uniqueOfficials.length) {
     throw new Error("MULTIPLE_OR_NOT_FOUND");
   }
 
-  const official = unique[0];
-  const name = String(official.name || "").trim();
-  if (!name) throw new Error("NO_MEMBER_NAME");
+  const uniqueDistrictCodes = [...new Set(districtCodes.map((d) => d.toUpperCase()))];
+  if (uniqueDistrictCodes.length > 1) {
+    throw new Error("MULTIPLE_OR_NOT_FOUND");
+  }
 
-  return name;
+  const officialName = String(uniqueOfficials[0]?.name || "").trim();
+
+  return {
+    districtCode: uniqueDistrictCodes[0] || "",
+    memberName: officialName,
+  };
+}
+
+function findMemberByDistrictCode(districtCode, members) {
+  const target = normalizeDistrictCode(districtCode);
+  if (!target) return null;
+  return members.find((m) => normalizeDistrictCode(m.districtCode) === target) || null;
 }
 
 function findMemberByName(memberName, members) {
@@ -172,12 +204,19 @@ async function runZipSearch(zip, members) {
   try {
     setSearchMessage("Looking up ZIP...");
     clearResults();
-    const memberName = await lookupZip(zip);
-    const matched = findMemberByName(memberName, members);
+
+    const zipResult = await lookupZip(zip);
+    let matched = findMemberByDistrictCode(zipResult.districtCode, members);
+
+    if (!matched && zipResult.memberName) {
+      matched = findMemberByName(zipResult.memberName, members);
+    }
+
     if (!matched || !matched.districtCode) {
       setSearchMessage("Enter full address for accurate district");
       return;
     }
+
     location.href = memberDetailRoute(matched.districtCode);
   } catch (err) {
     setSearchMessage("Enter full address for accurate district");
