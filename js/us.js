@@ -44,14 +44,35 @@ function usPartyAccentHTML(party) {
 }
 
 function normalizeDistrictCode(value) {
-  return String(value || "")
+  let v = String(value || "")
     .trim()
-    .replace(/\s+/g, "")
-    .toLowerCase();
+    .toUpperCase()
+    .replace(/[\u2010-\u2015\u2212]/g, "-")
+    .replace(/\s+/g, "");
+
+  if (!v) return "";
+
+  const noDash = v.match(/^([A-Z]{2})(\d+|AL)$/);
+  if (noDash) {
+    const state = noDash[1];
+    const raw = noDash[2];
+    const district = raw === "AL" ? "AL" : String(Number(raw));
+    return `${state}-${district}`;
+  }
+
+  const withDash = v.match(/^([A-Z]{2})-(\d+|AL)$/);
+  if (withDash) {
+    const state = withDash[1];
+    const raw = withDash[2];
+    const district = raw === "AL" ? "AL" : String(Number(raw));
+    return `${state}-${district}`;
+  }
+
+  return v;
 }
 
 function memberDetailRoute(districtCode) {
-  const code = normalizeDistrictCode(districtCode);
+  const code = normalizeDistrictCode(districtCode).toLowerCase();
   return `/us/member.html?district=${encodeURIComponent(code)}`;
 }
 
@@ -111,10 +132,10 @@ function renderZipChoices(districtCodes, members) {
   const el = document.getElementById("us-results");
   if (!el) return;
 
-  const uniqueCodes = [...new Set(districtCodes.map((d) => String(d || "").toUpperCase()))];
+  const uniqueCodes = [...new Set(districtCodes.map((d) => normalizeDistrictCode(d)).filter(Boolean))];
   const matched = uniqueCodes
     .map((dc) => {
-      const member = members.find((m) => normalizeDistrictCode(m.districtCode) === normalizeDistrictCode(dc));
+      const member = members.find((m) => normalizeDistrictCode(m.districtCode) === dc);
       return { districtCode: dc, member };
     })
     .filter((x) => x.member);
@@ -150,12 +171,12 @@ function districtCodeFromGeocodioItem(item, result) {
     : String(Number(rawDistrict));
 
   if (!state || !district) return "";
-  return `${state}-${district}`;
+  return normalizeDistrictCode(`${state}-${district}`);
 }
 
 async function lookupZip(zip) {
   if (!GEOCODIO_API_KEY || GEOCODIO_API_KEY === "YOUR_GEOCODIO_API_KEY") {
-    throw new Error("MISSING_API_KEY");
+    throw new Error("GEOCODIO_KEY_MISSING");
   }
 
   const url = new URL("https://api.geocod.io/v1.7/geocode");
@@ -182,27 +203,38 @@ async function lookupZip(zip) {
     }
   }
 
-  const uniqueDistrictCodes = [...new Set(districtCodes.map((d) => d.toUpperCase()))];
+  const uniqueDistrictCodes = [...new Set(districtCodes.map((d) => normalizeDistrictCode(d)).filter(Boolean))];
   if (!uniqueDistrictCodes.length) throw new Error("NO_RESULTS");
 
-  return uniqueDistrictCodes;
+  return {
+    districtCodes: uniqueDistrictCodes,
+    raw: data,
+  };
 }
 
 async function runZipSearch(zip, members) {
   try {
+    console.log("[ZIP DEBUG] input:", zip);
     setSearchMessage("Looking up ZIP...");
     clearResults();
 
     // TODO: Prefer full street address lookup over ZIP-only lookup when ZIP is ambiguous.
-    const districtCodes = await lookupZip(zip);
+    const zipResult = await lookupZip(zip);
+    console.log("[ZIP DEBUG] raw API response:", zipResult.raw);
+    console.log("[ZIP DEBUG] extracted districts:", zipResult.districtCodes);
 
-    const matchedMembers = districtCodes
+    const sampleCodes = members.slice(0, 15).map((m) => m.districtCode);
+    console.log("[ZIP DEBUG] sample districtCode values:", sampleCodes);
+
+    const matchedMembers = zipResult.districtCodes
       .map((dc) => members.find((m) => normalizeDistrictCode(m.districtCode) === normalizeDistrictCode(dc)))
       .filter(Boolean);
 
     const uniqueMatched = [
       ...new Map(matchedMembers.map((m) => [normalizeDistrictCode(m.districtCode), m])).values(),
     ];
+
+    console.log("[ZIP DEBUG] final matched member(s):", uniqueMatched);
 
     if (uniqueMatched.length === 1) {
       location.href = memberDetailRoute(uniqueMatched[0].districtCode);
@@ -211,17 +243,18 @@ async function runZipSearch(zip, members) {
 
     if (uniqueMatched.length > 1) {
       setSearchMessage("This ZIP code may map to multiple House districts.");
-      renderZipChoices(districtCodes, members);
+      renderZipChoices(zipResult.districtCodes, members);
       return;
     }
 
     setSearchMessage("No district found for this ZIP code.");
     clearResults();
   } catch (err) {
+    console.log("[ZIP DEBUG] lookup error:", err);
     if (err?.message === "NO_RESULTS") {
       setSearchMessage("No district found for this ZIP code.");
-    } else if (err?.message === "MISSING_API_KEY") {
-      setSearchMessage("ZIP lookup is not configured.");
+    } else if (err?.message === "GEOCODIO_KEY_MISSING") {
+      setSearchMessage("Geocodio ZIP lookup is not configured.");
     } else {
       setSearchMessage("Enter full address for accurate match.");
     }
