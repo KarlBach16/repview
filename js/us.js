@@ -135,7 +135,6 @@ async function lookupZip(zip) {
   const url = new URL("https://www.googleapis.com/civicinfo/v2/representatives");
   url.searchParams.set("key", CIVIC_API_KEY);
   url.searchParams.set("address", zip);
-  url.searchParams.set("levels", "country");
   url.searchParams.set("roles", "legislatorLowerBody");
 
   const res = await fetch(url.toString());
