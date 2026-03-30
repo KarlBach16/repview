@@ -249,7 +249,7 @@ function initShareActions() {
       const profile = rep.profile || {};
       const slug = rep.slug || new URLSearchParams(location.search).get("slug") || "";
       const shareUrl = slug
-        ? `${window.location.origin}/member/${encodeURIComponent(slug)}`
+        ? `${window.location.origin}/kr/member.html?slug=${encodeURIComponent(slug)}`
         : window.location.href;
 
       const district = String(profile.district || "").trim();
