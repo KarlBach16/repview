@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const RECENT_VOTES_LIMIT = 10;
 const RECENT_BILLS_LIMIT = 10;
+const RECENT_ABSENT_VOTES_LIMIT = 100;
 
 function readJson(filePath) {
   if (!existsSync(filePath)) {
@@ -36,6 +37,20 @@ function buildRecentVotes(votes) {
   return [...votes]
     .sort((a, b) => toSortableDate(b.voteDate) - toSortableDate(a.voteDate))
     .slice(0, RECENT_VOTES_LIMIT)
+    .map((v) => ({
+      billId: v.billId || "",
+      billNo: v.billNo || "",
+      title: v.title || "",
+      voteDate: v.voteDate || "",
+      choice: v.choice || "",
+    }));
+}
+
+function buildRecentAbsentVotes(votes) {
+  return [...votes]
+    .filter((v) => (v.choice || "").trim() === "불참")
+    .sort((a, b) => toSortableDate(b.voteDate) - toSortableDate(a.voteDate))
+    .slice(0, RECENT_ABSENT_VOTES_LIMIT)
     .map((v) => ({
       billId: v.billId || "",
       billNo: v.billNo || "",
@@ -105,6 +120,7 @@ async function main() {
       abstainRate,
       absentCount,
       recentVotes: buildRecentVotes(memberVotes),
+      recentAbsentVotes: buildRecentAbsentVotes(memberVotes),
       billsProposed: memberBills.length,
       recentBills: buildRecentBills(memberBills),
     };

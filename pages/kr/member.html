@@ -42,15 +42,6 @@
     </div>
   </section>
 
-  <section class="stat-section section--light">
-    <div class="stat-frame stat-frame--light">
-      <div class="stat-number fade-in" id="stat-vote" data-count="0">0</div>
-      <div class="stat-label fade-in delay-1" data-i18n="member.stat.bills">Bills Proposed</div>
-      <div class="stat-context fade-in delay-2" data-i18n="member.stat.bills.context">Primary sponsorship in current term</div>
-      <div class="bill-callout fade-in delay-3" id="bill-callout"></div>
-    </div>
-  </section>
-
   <section class="stat-section section--dark">
     <div class="stat-frame">
       <div class="stat-number fade-in" id="stat-bills" data-count="0">0</div>
@@ -59,11 +50,31 @@
     </div>
   </section>
 
+  <section class="votes-section" id="absent-votes-section">
+    <div class="votes-inner">
+      <h2 class="votes-header fade-in" id="absent-votes-header">최근 불참 표결</h2>
+      <p class="votes-subheader fade-in delay-1" id="absent-votes-subheader">최근 표결 중 불참한 안건입니다.</p>
+      <div id="absent-vote-list"></div>
+      <div class="votes-more-wrap">
+        <button id="absent-more-btn" class="votes-more-btn" type="button">불참 표결 더 보기</button>
+      </div>
+    </div>
+  </section>
+
   <section class="votes-section">
     <div class="votes-inner">
       <h2 class="votes-header fade-in" data-i18n="member.votes.title">How they voted.</h2>
       <p class="votes-subheader fade-in delay-1" data-i18n="member.votes.sub">Recent parliamentary votes and their position on each bill.</p>
       <div id="vote-list"></div>
+    </div>
+  </section>
+
+  <section class="stat-section section--light">
+    <div class="stat-frame stat-frame--light">
+      <div class="stat-number fade-in" id="stat-vote" data-count="0">0</div>
+      <div class="stat-label fade-in delay-1" data-i18n="member.stat.bills">Bills Proposed</div>
+      <div class="stat-context fade-in delay-2" data-i18n="member.stat.bills.context">Primary sponsorship in current term</div>
+      <div class="bill-callout fade-in delay-3" id="bill-callout"></div>
     </div>
   </section>
 

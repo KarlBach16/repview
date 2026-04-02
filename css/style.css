@@ -619,7 +619,7 @@ img { display: block; }
   text-align: left;
 }
 .bill-callout-label {
-  font-size: 11px;
+  font-size: clamp(13px, 1.1vw, 15px);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.07em;
@@ -811,6 +811,29 @@ img { display: block; }
 .decision--yes     { background: rgba(48,209,88,0.15); color: var(--yes); }
 .decision--no      { background: rgba(255,69,58,0.15); color: var(--no); }
 .decision--abstain { background: rgba(142,142,147,0.15); color: var(--abstain); }
+
+.votes-more-wrap {
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+.votes-more-btn {
+  border: 1px solid rgba(245,245,247,0.2);
+  background: rgba(245,245,247,0.06);
+  color: #f5f5f7;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: 13px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.votes-more-btn:hover {
+  background: rgba(245,245,247,0.12);
+  border-color: rgba(245,245,247,0.35);
+}
 
 /* ── PATTERNS section ────────────────────────────────────── */
 .patterns-section {

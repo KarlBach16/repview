@@ -1,5 +1,6 @@
 // ── Member detail page logic ───────────────────────────────
 let currentRepresentative = null;
+let absentVotesState = { votes: [], visible: 5 };
 
 async function initMember() {
   initI18n();
@@ -82,7 +83,7 @@ function renderMember(rep) {
   heroPhoto.src = p.photo || "";
   heroPhoto.alt = p.name || "";
 
-  document.getElementById("hero-committee").textContent = p.committee || "";
+  document.getElementById("hero-committee").textContent = primaryCommittee(p.committee || "");
   document.getElementById("hero-name").textContent = p.name || "";
   document.getElementById("hero-meta").innerHTML = `
     ${escapeHTML(p.district || "")}&nbsp;&nbsp;${partyAccentHTML(p.party || "")}
@@ -109,9 +110,72 @@ function renderMember(rep) {
     billBlock.innerHTML = `<div style="font-size:15px;color:var(--text-muted-light)">${t("member.bill.none")}</div>`;
   }
 
+  renderAbsentVotes(rep.recentAbsentVotes || rep.recentVotes || []);
   renderVotes(rep.recentVotes || []);
   renderBills(rep.recentBills || []);
   renderShareCard(rep);
+}
+
+function renderAbsentVotes(votes) {
+  const allAbsentVotes = (Array.isArray(votes) ? votes : []).filter((v) => String(v?.choice || "").trim() === "불참");
+  absentVotesState.votes = allAbsentVotes;
+  absentVotesState.visible = 5;
+
+  const headerEl = document.getElementById("absent-votes-header");
+  const subEl = document.getElementById("absent-votes-subheader");
+  const moreBtn = document.getElementById("absent-more-btn");
+
+  const isKo = getCurrentLanguage() === "ko";
+  if (headerEl) headerEl.textContent = isKo ? "최근 불참 표결" : "Recent Missed Votes";
+  if (subEl) subEl.textContent = isKo
+    ? "최근 표결 중 불참한 안건입니다."
+    : "Most recent votes this member did not participate in.";
+  if (moreBtn) moreBtn.textContent = isKo ? "불참 표결 더 보기" : "Show More Missed Votes";
+
+  renderAbsentVotesList();
+
+  if (moreBtn && moreBtn.dataset.bound !== "1") {
+    moreBtn.dataset.bound = "1";
+    moreBtn.addEventListener("click", () => {
+      absentVotesState.visible += 10;
+      renderAbsentVotesList();
+    });
+  }
+}
+
+function renderAbsentVotesList() {
+  const list = document.getElementById("absent-vote-list");
+  const moreBtn = document.getElementById("absent-more-btn");
+  const section = document.getElementById("absent-votes-section");
+  if (!list) return;
+
+  const all = absentVotesState.votes || [];
+  if (!all.length) {
+    list.innerHTML = `<p style="color:rgba(245,245,247,0.3);font-size:15px;padding:20px 0">${getCurrentLanguage() === "ko" ? "최근 불참 표결이 없습니다." : "No recent missed votes."}</p>`;
+    if (moreBtn) moreBtn.style.display = "none";
+    if (section) section.style.display = "block";
+    return;
+  }
+
+  const visible = all.slice(0, absentVotesState.visible);
+  list.innerHTML = visible
+    .map((v) => `
+      <div class="vote-card">
+        <div class="vote-card-left">
+          <div class="vote-card-meta">
+            <span class="vote-card-date">${formatVoteDate(v.voteDate)}</span>
+            <span class="vote-card-topic">${v.billNo || ""}</span>
+          </div>
+          <div class="vote-card-title">${v.title || ""}</div>
+        </div>
+        <span class="vote-decision-badge decision--abstain">${getCurrentLanguage() === "ko" ? "불참" : "Absent"}</span>
+      </div>`)
+    .join("");
+
+  if (moreBtn) {
+    moreBtn.style.display = all.length > visible.length ? "inline-flex" : "none";
+  }
+  if (section) section.style.display = "block";
 }
 
 function renderVotes(votes) {
@@ -128,7 +192,7 @@ function renderVotes(votes) {
         choice === "찬성" ? "decision--yes" : choice === "반대" ? "decision--no" : "decision--abstain";
 
       return `
-      <div class="vote-card fade-in">
+      <div class="vote-card">
         <div class="vote-card-left">
           <div class="vote-card-meta">
             <span class="vote-card-date">${formatVoteDate(v.voteDate)}</span>
@@ -174,10 +238,6 @@ function renderShareCard(rep) {
   const el = document.getElementById("rep-summary");
   if (!el) return;
 
-  const support = Number(s.supportRate || 0).toFixed(1);
-  const oppose = Number(s.opposeRate || 0).toFixed(1);
-  const abstain = Number(s.abstainRate || 0).toFixed(1);
-
   el.innerHTML = `
     <div class="share-card-photo-wrap">
       <img class="share-card-photo" src="${p.photo || ""}" alt="${p.name || ""}" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -199,12 +259,6 @@ function renderShareCard(rep) {
           <span class="share-stat-label">${t("member.share.stat.absent")}</span>
         </div>
       </div>
-      <p class="share-card-meta share-card-tendency">
-        ${t("member.share.tendency")}
-        ${t("member.share.choice.support")} ${support}% ·
-        ${t("member.share.choice.oppose")} ${oppose}% ·
-        ${t("member.share.choice.abstain")} ${abstain}%
-      </p>
       <div class="rep-watermark">RepView.app</div>
     </div>`;
 }

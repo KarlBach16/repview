@@ -144,6 +144,7 @@ function normalizeRepresentative(raw) {
         absentCount: Number(raw.stats.absentCount || 0),
       },
       recentVotes: Array.isArray(raw.recentVotes) ? raw.recentVotes : [],
+      recentAbsentVotes: Array.isArray(raw.recentAbsentVotes) ? raw.recentAbsentVotes : [],
       recentBills: Array.isArray(raw.recentBills) ? raw.recentBills : [],
     };
   }
@@ -173,6 +174,7 @@ function normalizeRepresentative(raw) {
       absentCount: Number(raw?.absentCount || 0),
     },
     recentVotes: Array.isArray(raw?.recentVotes) ? raw.recentVotes : [],
+    recentAbsentVotes: Array.isArray(raw?.recentAbsentVotes) ? raw.recentAbsentVotes : [],
     recentBills: Array.isArray(raw?.recentBills) ? raw.recentBills : [],
   };
 }
@@ -283,6 +285,29 @@ function darkenColor(hex, pct) {
 
 function countryInfo(countries, code) {
   return countries.find(c => c.code === code) || { flag: "", name: code };
+}
+
+function primaryCommittee(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return "";
+
+  const parts = raw
+    .split(/[,·]/)
+    .map((v) => v.trim())
+    .filter(Boolean);
+
+  if (!parts.length) return raw;
+
+  const isSpecial = (name) => /특별위원회|특위|국정조사|진상규명|조사/.test(name);
+  const isCommittee = (name) => /위원회$/.test(name);
+
+  const primary = parts.find((name) => isCommittee(name) && !isSpecial(name));
+  if (primary) return primary;
+
+  const plain = parts.find((name) => !isSpecial(name));
+  if (plain) return plain;
+
+  return parts[0] || raw;
 }
 
 function districtLabel(member) {
