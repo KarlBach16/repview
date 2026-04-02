@@ -2,6 +2,7 @@
 
 const BASE = "/";   // adjust if served from a subpath
 const LANG_PREF_KEY = "repview.lang";
+const CACHE_BUSTER = "20260402a";
 
 const I18N = {
   en: {
@@ -113,7 +114,9 @@ const I18N = {
 };
 
 async function loadJSON(path) {
-  const res = await fetch(BASE + path, { cache: "no-store" });
+  const url = new URL(BASE + path, window.location.origin);
+  url.searchParams.set("v", CACHE_BUSTER);
+  const res = await fetch(url.toString(), { cache: "no-store" });
   if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
   return res.json();
 }
