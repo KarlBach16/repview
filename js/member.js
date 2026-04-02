@@ -251,12 +251,12 @@ function renderShareCard(rep) {
           <span class="share-stat-label">${t("member.share.stat.vote")}</span>
         </div>
         <div class="share-stat-item">
-          <span class="share-stat-num">${s.billsProposed || 0}</span>
-          <span class="share-stat-label">${t("member.share.stat.bills.short")}</span>
-        </div>
-        <div class="share-stat-item">
           <span class="share-stat-num">${s.absentCount || 0}</span>
           <span class="share-stat-label">${t("member.share.stat.absent")}</span>
+        </div>
+        <div class="share-stat-item">
+          <span class="share-stat-num">${s.billsProposed || 0}</span>
+          <span class="share-stat-label">${t("member.share.stat.bills.short")}</span>
         </div>
       </div>
       <div class="rep-watermark">RepView.app</div>
