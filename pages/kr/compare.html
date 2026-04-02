@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>의원 비교 — RepView</title>
+  <link rel="stylesheet" href="/css/style.css?v=20260402c" />
+</head>
+<body>
+  <nav class="nav scrolled">
+    <a class="nav-back" href="index.html">&#8592; 검색으로</a>
+  </nav>
+
+  <main class="compare-page">
+    <section class="compare-hero">
+      <h1 class="compare-title">의원 비교</h1>
+      <p class="compare-sub">두 명을 선택해 핵심 지표를 비교하세요.</p>
+
+      <div class="compare-picker" id="compare-picker">
+        <input id="compare-input" class="compare-input" type="text" placeholder="이름, 지역구, 정당으로 검색" autocomplete="off" />
+        <div class="compare-suggest" id="compare-suggest"></div>
+      </div>
+    </section>
+
+    <section class="compare-result" id="compare-result"></section>
+
+    <div class="share-actions compare-share-actions" id="compare-share-actions" style="display:none;">
+      <button id="compare-save-image-btn" class="share-action-btn" type="button">이미지 저장</button>
+      <button id="compare-share-btn" class="share-action-btn" type="button">공유</button>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="/js/app.js?v=20260402c"></script>
+  <script>
+    (async () => {
+      const data = await loadAll();
+      const reps = data.representatives || [];
+
+      const state = { a: null, b: null, nextSlot: 'a' };
+
+      const inputEl = document.getElementById('compare-input');
+      const suggestEl = document.getElementById('compare-suggest');
+      const resultEl = document.getElementById('compare-result');
+      const shareActionsEl = document.getElementById('compare-share-actions');
+
+      function normalize(v) {
+        return String(v || '').toLowerCase();
+      }
+
+      function search(q) {
+        const needle = normalize(q).trim();
+        if (!needle) return [];
+        return reps
+          .filter((r) => {
+            const p = r.profile || {};
+            return (
+              normalize(p.name).includes(needle) ||
+              normalize(p.district).includes(needle) ||
+              normalize(p.party).includes(needle)
+            );
+          })
+          .slice(0, 8);
+      }
+
+      function suggestionItem(r) {
+        const p = r.profile || {};
+        return `
+          <button class="compare-suggest-item" data-slug="${r.slug}">
+            <span class="name">${escapeHTML(p.name || '')}</span>
+            <span class="meta">${escapeHTML(p.district || '')} · ${escapeHTML(p.party || '')}</span>
+          </button>`;
+      }
+
+      function renderSuggestions(rows) {
+        if (!rows.length) {
+          suggestEl.innerHTML = '';
+          return;
+        }
+        suggestEl.innerHTML = rows.map((r) => suggestionItem(r)).join('');
+      }
+
+      function statCell(label, a, b, suffix = '', tone = 'neutral') {
+        const av = Number(a);
+        const bv = Number(b);
+
+        let aClass = '';
+        let bClass = '';
+
+        if (tone === 'high-good') {
+          if (av > bv) aClass = ' compare-stat-cell--good';
+          if (bv > av) bClass = ' compare-stat-cell--good';
+        } else if (tone === 'high-bad') {
+          if (av > bv) aClass = ' compare-stat-cell--bad';
+          if (bv > av) bClass = ' compare-stat-cell--bad';
+        }
+
+        return `
+          <div class="compare-stat-row">
+            <div class="compare-stat-cell${aClass}">${a}${suffix}</div>
+            <div class="compare-stat-label">${label}</div>
+            <div class="compare-stat-cell${bClass}">${b}${suffix}</div>
+          </div>`;
+      }
+
+      function profileCard(rep) {
+        if (!rep) return `<div class="compare-empty-card">의원을 선택하세요</div>`;
+        const p = rep.profile || {};
+        const photo = p.photo
+          ? `<img class="compare-photo" src="${p.photo}" alt="${escapeHTML(p.name || '')}" loading="lazy" />`
+          : `<div class="compare-photo compare-photo-fallback"></div>`;
+
+        return `
+          <a class="compare-profile" href="member.html?slug=${encodeURIComponent(rep.slug || '')}">
+            <div class="compare-photo-wrap">${photo}</div>
+            <div class="compare-meta">
+              <p class="compare-name">${escapeHTML(p.name || '')}</p>
+              <p class="compare-district">${escapeHTML(p.district || '')}</p>
+              <p class="compare-party">${partyAccentHTML(p.party || '')}</p>
+            </div>
+          </a>`;
+      }
+
+      function profileCardMobile(rep) {
+        if (!rep) return `<div class="compare-mobile-card compare-mobile-card--empty">의원을 선택하세요</div>`;
+        const p = rep.profile || {};
+        const photo = p.photo
+          ? `<img class="compare-mobile-photo" src="${p.photo}" alt="${escapeHTML(p.name || '')}" loading="lazy" />`
+          : `<div class="compare-mobile-photo compare-mobile-photo--fallback"></div>`;
+
+        return `
+          <a class="compare-mobile-card" href="member.html?slug=${encodeURIComponent(rep.slug || '')}">
+            <div class="compare-mobile-photo-wrap">${photo}</div>
+            <p class="compare-mobile-name">${escapeHTML(p.name || '')}</p>
+            <p class="compare-mobile-meta">${escapeHTML(p.district || '')}</p>
+            <p class="compare-mobile-party">${partyAccentHTML(p.party || '')}</p>
+          </a>`;
+      }
+
+      function renderCompare() {
+        const a = state.a;
+        const b = state.b;
+
+        if (!a && !b) {
+          resultEl.innerHTML = '';
+          if (shareActionsEl) shareActionsEl.style.display = 'none';
+          return;
+        }
+
+        if (shareActionsEl) {
+          shareActionsEl.style.display = a && b ? 'flex' : 'none';
+        }
+
+        const sa = a?.stats || {};
+        const sb = b?.stats || {};
+
+        resultEl.innerHTML = `
+          <div class="compare-grid">
+            <div class="compare-desktop-grid">
+              ${profileCard(a)}
+              <div class="compare-stats">
+                ${statCell('표결 참여율', Number(sa.voteParticipationRate || 0).toFixed(1), Number(sb.voteParticipationRate || 0).toFixed(1), '%', 'high-good')}
+                ${statCell('불참', Number(sa.absentCount || 0), Number(sb.absentCount || 0), '', 'high-bad')}
+                ${statCell('대표 발의', Number(sa.billsProposed || 0), Number(sb.billsProposed || 0))}
+              </div>
+              ${profileCard(b)}
+            </div>
+
+            <div class="compare-mobile-grid">
+              <div class="compare-mobile-head">
+                ${profileCardMobile(a)}
+                ${profileCardMobile(b)}
+              </div>
+              <div class="compare-stats compare-stats--mobile">
+                ${statCell('표결 참여율', Number(sa.voteParticipationRate || 0).toFixed(1), Number(sb.voteParticipationRate || 0).toFixed(1), '%', 'high-good')}
+                ${statCell('불참', Number(sa.absentCount || 0), Number(sb.absentCount || 0), '', 'high-bad')}
+                ${statCell('대표 발의', Number(sa.billsProposed || 0), Number(sb.billsProposed || 0))}
+              </div>
+            </div>
+          </div>`;
+      }
+
+      function setSelected(rep) {
+        if (!rep) return;
+
+        if (state.a?.slug === rep.slug || state.b?.slug === rep.slug) {
+          suggestEl.innerHTML = '';
+          inputEl.value = '';
+          return;
+        }
+
+        if (!state.a) {
+          state.a = rep;
+        } else if (!state.b) {
+          state.b = rep;
+        } else if (state.nextSlot === 'a') {
+          state.a = rep;
+          state.nextSlot = 'b';
+        } else {
+          state.b = rep;
+          state.nextSlot = 'a';
+        }
+
+        suggestEl.innerHTML = '';
+        inputEl.value = '';
+        renderCompare();
+      }
+
+      function initCompareShareActions() {
+        const saveBtn = document.getElementById('compare-save-image-btn');
+        const shareBtn = document.getElementById('compare-share-btn');
+
+        if (saveBtn && saveBtn.dataset.bound !== '1') {
+          saveBtn.dataset.bound = '1';
+          saveBtn.addEventListener('click', async () => {
+            const target = resultEl.querySelector('.compare-grid');
+            if (!target || typeof html2canvas !== 'function') {
+              alert('비교할 의원 두 명을 먼저 선택하세요.');
+              return;
+            }
+            try {
+              const canvas = await html2canvas(target, {
+                scale: 2,
+                backgroundColor: '#050505',
+                useCORS: true,
+                allowTaint: false,
+                imageTimeout: 15000,
+                onclone: (clonedDoc) => {
+                  const clonedTarget = clonedDoc.querySelector('.compare-grid');
+                  if (!clonedTarget) return;
+                  const watermark = clonedDoc.createElement('div');
+                  watermark.textContent = 'RepView.app';
+                  watermark.style.position = 'absolute';
+                  watermark.style.left = '50%';
+                  watermark.style.bottom = '10px';
+                  watermark.style.transform = 'translateX(-50%)';
+                  watermark.style.fontSize = '14px';
+                  watermark.style.opacity = '0.6';
+                  watermark.style.color = '#f5f5f7';
+                  watermark.style.pointerEvents = 'none';
+                  clonedTarget.style.position = 'relative';
+                  clonedTarget.appendChild(watermark);
+                },
+              });
+
+              const link = document.createElement('a');
+              link.download = 'repview_compare.png';
+              link.href = canvas.toDataURL('image/png');
+              link.click();
+            } catch (err) {
+              console.error(err);
+              alert('이미지 저장에 실패했습니다. 잠시 후 다시 시도해주세요.');
+            }
+          });
+        }
+
+        if (shareBtn && shareBtn.dataset.bound !== '1') {
+          shareBtn.dataset.bound = '1';
+          shareBtn.addEventListener('click', async () => {
+            const aName = state.a?.profile?.name || '의원 A';
+            const bName = state.b?.profile?.name || '의원 B';
+            const shareText = aName + ' vs ' + bName + ' 비교\n\nRepView\n' + window.location.href;
+
+            if (navigator.share) {
+              try {
+                await navigator.share({ text: shareText });
+                return;
+              } catch (err) {
+                if (err?.name === 'AbortError') return;
+              }
+            }
+
+            try {
+              await navigator.clipboard.writeText(shareText);
+              alert('비교 링크가 복사되었습니다.');
+            } catch (err) {
+              console.error(err);
+              alert('공유에 실패했습니다. 다시 시도해주세요.');
+            }
+          });
+        }
+      }
+
+      inputEl.addEventListener('input', () => renderSuggestions(search(inputEl.value)));
+
+
+      document.addEventListener('click', (e) => {
+        const suggestBtn = e.target.closest('.compare-suggest-item');
+        if (suggestBtn) {
+          const slug = suggestBtn.getAttribute('data-slug');
+          const rep = reps.find((r) => r.slug === slug);
+          if (rep) setSelected(rep);
+          return;
+        }
+
+        if (!e.target.closest('.compare-picker')) {
+          suggestEl.innerHTML = '';
+        }
+      });
+
+      const params = new URLSearchParams(location.search);
+      const aSlug = params.get('a');
+      const bSlug = params.get('b');
+      if (aSlug) {
+        const a = reps.find((r) => r.slug === aSlug);
+        if (a) state.a = a;
+      }
+      if (bSlug) {
+        const b = reps.find((r) => r.slug === bSlug);
+        if (b) state.b = b;
+      }
+
+      renderCompare();
+      initCompareShareActions();
+      initI18n();
+    })();
+  </script>
+</body>
+</html>

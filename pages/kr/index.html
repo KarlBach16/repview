@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RepView - 한눈에 보는 국회의원 활동 기록</title>
-  <link rel="stylesheet" href="/css/style.css?v=20260402b" />
+  <link rel="stylesheet" href="/css/style.css?v=20260402c" />
 </head>
 <body>
 
@@ -37,7 +37,13 @@
         <span class="search-btn-icon">⌕</span>
       </form>
 
-      <div class="district-chip-row fade-in delay-3" id="district-chip-row"></div>
+
+      <div class="explore-nav fade-in delay-3">
+        <div class="explore-links">
+          <a class="explore-link" href="compare.html">의원 비교</a>
+          <a class="explore-link" href="ranking.html">의원 랭킹</a>
+        </div>
+      </div>
 
       <div class="search-results-wrap fade-in delay-3" id="hero-results-wrap">
         <div class="search-results-label" id="hero-results-label"></div>
@@ -58,7 +64,7 @@
   </footer>
 
 
-  <script src="/js/app.js?v=20260402b"></script>
+  <script src="/js/app.js?v=20260402c"></script>
   <script>
     (async () => {
       let representatives = [];
@@ -66,56 +72,6 @@
       try {
         const data = await loadAll();
         representatives = data.representatives || [];
-
-        function chipLabelFromDistrict(rawDistrict) {
-          const district = String(rawDistrict || "").trim();
-          if (!district) return "";
-          if (district.includes("비례대표")) return "비례대표";
-
-          let label = district
-            .replace(/^[가-힣]+(?:특별시|광역시|특별자치시|특별자치도|도|시)?\s+/, "")
-            .replace(/([가-힣]+)시([가-힣]+)구[갑을병정]?$/, "$1")
-            .replace(/([가-힣]+)(구|시|군)[갑을병정]?$/, "$1")
-            .trim();
-
-          if (!label && district.includes(" ")) {
-            label = district.split(/\s+/).pop() || district;
-          }
-
-          return label || district;
-        }
-
-        function pickDistrictChips() {
-          const proportional = representatives.find((r) =>
-            String(r?.profile?.district || "").includes("비례대표")
-          );
-
-          const localRows = representatives.filter((r) =>
-            !String(r?.profile?.district || "").includes("비례대표")
-          );
-
-          const shuffled = [...localRows];
-          for (let i = shuffled.length - 1; i > 0; i -= 1) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-          }
-
-          const picked = [];
-          const seenLabel = new Set();
-
-          for (const row of shuffled) {
-            const label = chipLabelFromDistrict(row?.profile?.district || "");
-            if (!label || seenLabel.has(label)) continue;
-            seenLabel.add(label);
-            picked.push({ row, label });
-            if (picked.length >= 3) break;
-          }
-
-          const result = [];
-          if (proportional) result.push({ row: proportional, label: "비례대표" });
-          result.push(...picked);
-          return result.slice(0, 4);
-        }
 
         function filterRepresentatives(q) {
           const needle = String(q || "").toLowerCase();
@@ -180,36 +136,6 @@
           history.replaceState(null, "", q ? `${base}?q=${encodeURIComponent(q)}` : base);
         }
 
-        function renderDistrictUI() {
-          const districtRow = document.getElementById("district-chip-row");
-          if (!districtRow) return;
-
-          if (!representatives.length) {
-            districtRow.innerHTML = `<span class="district-chip">API data will appear here</span>`;
-            return;
-          }
-
-          const chips = pickDistrictChips();
-          districtRow.innerHTML = chips
-            .map(
-              ({ row, label }) =>
-                `<button type="button" class="district-chip" data-district="${escapeHTML(row.profile.district || "")}">${label}</button>`
-            )
-            .join("");
-
-          districtRow.querySelectorAll(".district-chip").forEach((btn) => {
-            btn.addEventListener("click", () => {
-              const input = document.getElementById("hero-search");
-              if (!input) return;
-              const q = btn.getAttribute("data-district") || "";
-              input.value = q;
-              updateQueryString(q);
-              renderHeroResults(filterRepresentatives(q), q);
-              input.focus();
-            });
-          });
-        }
-
         function bindHeroSearch() {
           const form = document.getElementById("hero-search-form");
           const input = document.getElementById("hero-search");
@@ -235,19 +161,14 @@
           }
         }
 
-        renderDistrictUI();
         bindHeroSearch();
 
         window.addEventListener("repview:languagechange", () => {
-          renderDistrictUI();
           const input = document.getElementById("hero-search");
           const q = String(input?.value || "").trim();
           renderHeroResults(filterRepresentatives(q), q);
         });
 
-        window.addEventListener("pageshow", (event) => {
-          if (event.persisted) renderDistrictUI();
-        });
       } catch (e) {
         console.error(e);
       }

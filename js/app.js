@@ -2,7 +2,7 @@
 
 const BASE = "/";   // adjust if served from a subpath
 const LANG_PREF_KEY = "repview.lang";
-const CACHE_BUSTER = "20260402b";
+const CACHE_BUSTER = "20260402c";
 
 const I18N = {
   en: {

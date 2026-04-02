@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>의원 랭킹 — RepView</title>
+  <link rel="stylesheet" href="/css/style.css?v=20260402c" />
+</head>
+<body>
+  <nav class="nav scrolled">
+    <a class="nav-back" href="index.html">&#8592; 검색으로</a>
+  </nav>
+
+  <main class="ranking-page">
+    <section class="ranking-hero">
+      <h1 class="ranking-title">의원 랭킹</h1>
+      <p class="ranking-sub">기준을 선택해 전체 의원 순위를 확인하세요.</p>
+
+      <div class="ranking-tabs" id="ranking-tabs">
+        <button class="ranking-tab is-active" data-metric="participation">표결 참여율</button>
+        <button class="ranking-tab" data-metric="absent">불참 순</button>
+        <button class="ranking-tab" data-metric="bills">대표 발의</button>
+      </div>
+
+      <div class="ranking-party-controls">
+        <button class="ranking-party-toggle" id="ranking-party-toggle" type="button">정당 선택</button>
+        <div class="ranking-party-filters is-collapsed" id="ranking-party-filters"></div>
+      </div>
+    </section>
+
+    <section class="ranking-list" id="ranking-list"></section>
+  </main>
+
+  <script src="/js/app.js?v=20260402c"></script>
+  <script>
+    (async () => {
+      const data = await loadAll();
+      const reps = data.representatives || [];
+      let metric = 'participation';
+      let party = 'all';
+
+      const listEl = document.getElementById('ranking-list');
+      const tabsEl = document.getElementById('ranking-tabs');
+      const partyToggleEl = document.getElementById('ranking-party-toggle');
+      const partyFiltersEl = document.getElementById('ranking-party-filters');
+
+      function score(rep, type) {
+        const s = rep.stats || {};
+        if (type === 'participation') return Number(s.voteParticipationRate || 0);
+        if (type === 'absent') return Number(s.absentCount || 0);
+        if (type === 'bills') return Number(s.billsProposed || 0);
+        return 0;
+      }
+
+      function formatValue(rep, type) {
+        const val = score(rep, type);
+        if (type === 'participation') return `${val.toFixed(1)}%`;
+        return String(val);
+      }
+
+      function normalizeParty(v) {
+        return String(v || '').trim();
+      }
+
+      function partyCounts() {
+        const counts = new Map();
+        reps.forEach((rep) => {
+          const name = normalizeParty(rep?.profile?.party);
+          if (!name) return;
+          counts.set(name, (counts.get(name) || 0) + 1);
+        });
+        return counts;
+      }
+
+      function partyOptions() {
+        const counts = partyCounts();
+        const parties = Array.from(counts.entries())
+          .sort((a, b) => {
+            if (b[1] !== a[1]) return b[1] - a[1];
+            return a[0].localeCompare(b[0], 'ko');
+          })
+          .map(([name]) => name);
+        return ['all', ...parties];
+      }
+
+      function renderPartyFilters() {
+        if (!partyFiltersEl) return;
+        const options = partyOptions();
+        partyFiltersEl.innerHTML = options
+          .map((name) => {
+            if (name === 'all') {
+              return `<button class="ranking-party-filter${party === 'all' ? ' is-active' : ''}" data-party="all">전체</button>`;
+            }
+            const color = getPartyColor(name);
+            return `<button class="ranking-party-filter${party === name ? ' is-active' : ''}" data-party="${escapeHTML(name)}" style="--party-color:${color}">
+              <span class="ranking-party-dot"></span>${escapeHTML(name)}
+            </button>`;
+          })
+          .join('');
+      }
+
+      function filteredRows() {
+        if (party === 'all') return [...reps];
+        return reps.filter((rep) => normalizeParty(rep?.profile?.party) === party);
+      }
+
+      function sortRows(type) {
+        const rows = filteredRows();
+        rows.sort((a, b) => score(b, type) - score(a, type));
+        return rows;
+      }
+
+      function metricLabel(type) {
+        if (type === 'participation') return '표결 참여율';
+        if (type === 'absent') return '불참';
+        if (type === 'bills') return '대표 발의';
+        return '';
+      }
+
+      function rowHTML(rep, idx, type) {
+        const p = rep.profile || {};
+        const photo = p.photo
+          ? `<img class="ranking-photo" src="${p.photo}" alt="${escapeHTML(p.name || '')}" loading="lazy" />`
+          : `<div class="ranking-photo ranking-photo-fallback"></div>`;
+
+        return `
+          <a class="ranking-item" href="member.html?slug=${encodeURIComponent(rep.slug || '')}">
+            <div class="ranking-rank">${idx + 1}</div>
+            <div class="ranking-member">
+              <div class="ranking-photo-wrap">${photo}</div>
+              <div class="ranking-meta">
+                <p class="ranking-name">${escapeHTML(p.name || '')}</p>
+                <p class="ranking-district">${escapeHTML(p.district || '')}</p>
+                <p class="ranking-party">${partyAccentHTML(p.party || '')}</p>
+                <div class="ranking-value-wrap">
+                  <span class="ranking-value">${formatValue(rep, type)}</span>
+                  <span class="ranking-value-label">${metricLabel(type)}</span>
+                </div>
+              </div>
+            </div>
+          </a>`;
+      }
+
+      function render() {
+        const rows = sortRows(metric);
+        listEl.innerHTML = rows.map((r, i) => rowHTML(r, i, metric)).join('');
+      }
+
+      tabsEl.addEventListener('click', (e) => {
+        const btn = e.target.closest('.ranking-tab');
+        if (!btn) return;
+        metric = btn.getAttribute('data-metric') || 'participation';
+        tabsEl.querySelectorAll('.ranking-tab').forEach((b) => b.classList.remove('is-active'));
+        btn.classList.add('is-active');
+        render();
+      });
+
+      partyToggleEl?.addEventListener('click', () => {
+        partyFiltersEl?.classList.toggle('is-collapsed');
+      });
+
+      partyFiltersEl?.addEventListener('click', (e) => {
+        const btn = e.target.closest('.ranking-party-filter');
+        if (!btn) return;
+        party = btn.getAttribute('data-party') || 'all';
+        partyFiltersEl.querySelectorAll('.ranking-party-filter').forEach((b) => b.classList.remove('is-active'));
+        btn.classList.add('is-active');
+        render();
+      });
+
+      renderPartyFilters();
+      render();
+      initI18n();
+    })();
+  </script>
+</body>
+</html>
