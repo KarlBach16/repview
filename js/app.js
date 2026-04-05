@@ -3,6 +3,9 @@
 const BASE = "/";   // adjust if served from a subpath
 const LANG_PREF_KEY = "repview.lang";
 const CACHE_BUSTER = "20260402c";
+const SEARCH_RANKING_API_BASE = "/api/kr";
+const VIEW_DEDUPE_KEY = "repview.kr.view.dedupe";
+const ANON_ID_KEY = "repview.anon.id";
 
 const I18N = {
   en: {
@@ -196,6 +199,164 @@ async function loadAll() {
     votes: [],
     countries: [],
   };
+}
+
+function getSearchWeekKey(date = new Date()) {
+  const d = new Date(date);
+  const day = (d.getDay() + 6) % 7; // Monday=0
+  d.setDate(d.getDate() - day);
+  d.setHours(0, 0, 0, 0);
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
+  return y + "-" + m + "-" + dd;
+}
+
+function getAnonId() {
+  try {
+    const existing = localStorage.getItem(ANON_ID_KEY);
+    if (existing && /^[a-z0-9_-]{12,64}$/i.test(existing)) return existing;
+
+    const buf = new Uint8Array(12);
+    crypto.getRandomValues(buf);
+    const id = Array.from(buf).map((v) => v.toString(16).padStart(2, "0")).join("");
+    localStorage.setItem(ANON_ID_KEY, id);
+    return id;
+  } catch {
+    return "anon";
+  }
+}
+
+function getViewDedupeStore() {
+  try {
+    const raw = localStorage.getItem(VIEW_DEDUPE_KEY);
+    const parsed = raw ? JSON.parse(raw) : null;
+    if (!parsed || typeof parsed !== "object") return {};
+    return parsed;
+  } catch {
+    return {};
+  }
+}
+
+function setViewDedupeStore(store) {
+  try {
+    localStorage.setItem(VIEW_DEDUPE_KEY, JSON.stringify(store));
+  } catch {
+    // ignore
+  }
+}
+
+function shouldTrackMemberView(slug, dedupeMs = 12 * 60 * 60 * 1000) {
+  const key = String(slug || "").trim();
+  if (!key) return false;
+
+  const now = Date.now();
+  const store = getViewDedupeStore();
+
+  // prune old entries
+  Object.keys(store).forEach((k) => {
+    if (now - Number(store[k] || 0) > 2 * dedupeMs) delete store[k];
+  });
+
+  const last = Number(store[key] || 0);
+  if (last && now - last < dedupeMs) {
+    setViewDedupeStore(store);
+    return false;
+  }
+
+  store[key] = now;
+  setViewDedupeStore(store);
+  return true;
+}
+
+let __weeklyViewCache = {
+  weekKey: "",
+  fetchedAt: 0,
+  counts: {},
+};
+
+async function fetchWeeklySearchCounts({ force = false } = {}) {
+  const weekKey = getSearchWeekKey();
+  const now = Date.now();
+
+  if (!force && __weeklyViewCache.weekKey === weekKey && now - __weeklyViewCache.fetchedAt < 30000) {
+    return { ...(__weeklyViewCache.counts || {}) };
+  }
+
+  try {
+    const url = new URL(SEARCH_RANKING_API_BASE + "/member-ranking", window.location.origin);
+    url.searchParams.set("period", "week");
+    url.searchParams.set("limit", "500");
+
+    const res = await fetch(url.toString(), { cache: "no-store" });
+    if (!res.ok) throw new Error("ranking api failed: " + res.status);
+
+    const json = await res.json();
+    const counts = json && typeof json.counts === "object" ? json.counts : {};
+
+    __weeklyViewCache = {
+      weekKey,
+      fetchedAt: now,
+      counts,
+    };
+
+    return { ...counts };
+  } catch {
+    return {};
+  }
+}
+
+function trackMemberView(slug, { dwellMs = 5000 } = {}) {
+  const key = String(slug || "").trim();
+  if (!key) return;
+  if (!shouldTrackMemberView(key)) return;
+
+  const anonId = getAnonId();
+  const payload = JSON.stringify({ slug: key, anonId });
+
+  setTimeout(() => {
+    try {
+      if (navigator.sendBeacon) {
+        const blob = new Blob([payload], { type: "application/json" });
+        navigator.sendBeacon(SEARCH_RANKING_API_BASE + "/member-view", blob);
+        return;
+      }
+
+      fetch(SEARCH_RANKING_API_BASE + "/member-view", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: payload,
+        keepalive: true,
+      }).catch(() => {});
+    } catch {
+      // ignore
+    }
+  }, Math.max(0, Number(dwellMs) || 0));
+}
+
+async function weeklySearchCountFor(slug) {
+  const counts = await fetchWeeklySearchCounts();
+  return Number(counts[String(slug || "").trim()] || 0);
+}
+
+async function topWeeklySearches(representatives, limit = 3) {
+  const counts = await fetchWeeklySearchCounts();
+  const rows = Array.isArray(representatives) ? [...representatives] : [];
+
+  rows.sort((a, b) => {
+    const av = Number(counts[a?.slug] || 0);
+    const bv = Number(counts[b?.slug] || 0);
+    if (bv !== av) return bv - av;
+
+    const an = String(a?.profile?.name || "");
+    const bn = String(b?.profile?.name || "");
+    return an.localeCompare(bn, "ko");
+  });
+
+  return rows
+    .filter((r) => Number(counts[r?.slug] || 0) > 0)
+    .slice(0, Math.max(0, Number(limit || 0)))
+    .map((r) => ({ rep: r, count: Number(counts[r.slug] || 0) }));
 }
 
 function getAutoLanguage() {

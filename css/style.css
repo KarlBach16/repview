@@ -1700,6 +1700,71 @@ img { display: block; }
   border-color: rgba(245,245,247,0.36);
 }
 
+.weekly-search-preview {
+  width: 100%;
+  max-width: 560px;
+  margin: 14px auto 0;
+  border: 1px solid rgba(245,245,247,0.14);
+  border-radius: 18px;
+  background: rgba(245,245,247,0.03);
+  padding: 12px;
+}
+
+.weekly-search-preview-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.weekly-search-preview-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(245,245,247,0.9);
+}
+
+.weekly-search-preview-link {
+  font-size: 12px;
+  color: rgba(245,245,247,0.56);
+}
+
+.weekly-search-preview-list {
+  display: grid;
+  gap: 6px;
+}
+
+.weekly-search-item {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(245,245,247,0.1);
+  border-radius: 12px;
+  background: rgba(245,245,247,0.02);
+  padding: 8px 10px;
+}
+
+.weekly-search-rank {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(245,245,247,0.72);
+  text-align: center;
+}
+
+.weekly-search-name {
+  font-size: 14px;
+  color: rgba(245,245,247,0.92);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.weekly-search-count {
+  font-size: 12px;
+  color: rgba(245,245,247,0.56);
+}
+
 /* ── Compare page ────────────────────────────────────────── */
 .compare-page {
   min-height: 100vh;

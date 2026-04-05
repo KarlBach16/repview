@@ -36,6 +36,7 @@ async function initMember() {
   initNavMemberName(rep.profile.name);
   initFadeIns();
   initCounters();
+  trackMemberView(rep.slug || rep.monaCode || "");
 
   window.addEventListener("repview:languagechange", () => {
     if (!currentRepresentative) return;

@@ -1,0 +1,12 @@
+name = "repview-search-ranking"
+main = "src/index.js"
+compatibility_date = "2026-04-05"
+
+[[kv_namespaces]]
+binding = "SEARCH_RANKING_KV"
+id = "6af186debaf541bbb6a08459997f523f"
+preview_id = "6af186debaf541bbb6a08459997f523f"
+
+[[routes]]
+pattern = "repview.app/api/*"
+zone_name = "repview.app"

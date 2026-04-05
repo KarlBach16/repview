@@ -37,13 +37,20 @@
         <span class="search-btn-icon">⌕</span>
       </form>
 
-
       <div class="explore-nav fade-in delay-3">
         <div class="explore-links">
           <a class="explore-link" href="compare.html">의원 비교</a>
           <a class="explore-link" href="ranking.html">의원 랭킹</a>
         </div>
       </div>
+
+      <section class="weekly-search-preview fade-in delay-3" id="weekly-search-preview" style="display:none;">
+        <a class="weekly-search-preview-head" href="ranking.html?metric=views">
+          <span class="weekly-search-preview-title">이번 주 조회랭킹 TOP3</span>
+          <span class="weekly-search-preview-link">전체 보기</span>
+        </a>
+        <div class="weekly-search-preview-list" id="weekly-search-preview-list"></div>
+      </section>
 
       <div class="search-results-wrap fade-in delay-3" id="hero-results-wrap">
         <div class="search-results-label" id="hero-results-label"></div>
@@ -83,6 +90,32 @@
               String(p.party || "").toLowerCase().includes(needle)
             );
           });
+        }
+
+        async function renderWeeklyTopSearchPreview() {
+          const wrap = document.getElementById("weekly-search-preview");
+          const listEl = document.getElementById("weekly-search-preview-list");
+          if (!wrap || !listEl) return;
+
+          const top = await topWeeklySearches(representatives, 3);
+          if (!top.length) {
+            wrap.style.display = "none";
+            listEl.innerHTML = "";
+            return;
+          }
+
+          wrap.style.display = "block";
+          listEl.innerHTML = top
+            .map(({ rep, count }, idx) => {
+              const p = rep?.profile || {};
+              return `
+                <a class="weekly-search-item" href="ranking.html?metric=views">
+                  <span class="weekly-search-rank">${idx + 1}</span>
+                  <span class="weekly-search-name">${escapeHTML(p.name || "")}</span>
+                  <span class="weekly-search-count">${count}회</span>
+                </a>`;
+            })
+            .join("");
         }
 
         function renderHeroResults(rows, q) {
@@ -162,11 +195,13 @@
         }
 
         bindHeroSearch();
+        await renderWeeklyTopSearchPreview();
 
         window.addEventListener("repview:languagechange", () => {
           const input = document.getElementById("hero-search");
           const q = String(input?.value || "").trim();
           renderHeroResults(filterRepresentatives(q), q);
+          void renderWeeklyTopSearchPreview();
         });
 
       } catch (e) {
