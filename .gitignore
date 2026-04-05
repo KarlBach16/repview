@@ -22,3 +22,6 @@ dist/
 build/
 .cache/
 coverage/
+
+# Wrangler local cache
+workers/search-ranking/.wrangler/
