@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Representative — RepView</title>
+  <title>국회의원 — RepView</title>
+  <meta name="description" content="우리 지역 국회의원의 표결 참여율, 불참, 대표 발의, 최근 표결·법안 기록을 한눈에 확인하세요." />
   <link rel="stylesheet" href="/css/style.css?v=20260405a" />
 </head>
 <body>
 
   <nav class="nav">
-    <a class="nav-back" href="index.html" data-i18n="nav.back.search">&#8592; Search</a>
+    <a class="nav-back" href="index.html" data-i18n="nav.back.search">&#8592; 검색</a>
     <span class="nav-member-name" id="nav-member-name"></span>
   </nav>
 
@@ -29,7 +30,7 @@
 
     <div class="scroll-hint">
       <span class="scroll-hint-arrow">↓</span>
-      <span data-i18n="member.scroll.hint">Scroll for full record</span>
+      <span data-i18n="member.scroll.hint">아래로 내려 전체 기록 보기</span>
     </div>
   </section>
 
@@ -37,16 +38,16 @@
     <div class="stat-frame">
       <div class="stat-number fade-in" id="stat-attendance" data-count="0">0</div>
       <div class="stat-unit fade-in delay-1">%</div>
-      <div class="stat-label fade-in delay-2" data-i18n="member.stat.vote">Vote Participation</div>
-      <div class="stat-context fade-in delay-3" data-i18n="member.stat.vote.context">Votes cast as a share of total votes held</div>
+      <div class="stat-label fade-in delay-2" data-i18n="member.stat.vote">표결 참여율</div>
+      <div class="stat-context fade-in delay-3" data-i18n="member.stat.vote.context">전체 표결 대비 실제 참여 비율</div>
     </div>
   </section>
 
   <section class="stat-section section--dark">
     <div class="stat-frame">
       <div class="stat-number fade-in" id="stat-bills" data-count="0">0</div>
-      <div class="stat-label fade-in delay-1" data-i18n="member.stat.absent">Absent</div>
-      <div class="stat-context fade-in delay-2" data-i18n="member.stat.absent.context">Missed votes in current term</div>
+      <div class="stat-label fade-in delay-1" data-i18n="member.stat.absent">불참</div>
+      <div class="stat-context fade-in delay-2" data-i18n="member.stat.absent.context">현 임기 내 표결 불참 횟수</div>
     </div>
   </section>
 
@@ -63,8 +64,8 @@
 
   <section class="votes-section">
     <div class="votes-inner">
-      <h2 class="votes-header fade-in" data-i18n="member.votes.title">How they voted.</h2>
-      <p class="votes-subheader fade-in delay-1" data-i18n="member.votes.sub">Recent parliamentary votes and their position on each bill.</p>
+      <h2 class="votes-header fade-in" data-i18n="member.votes.title">이렇게 표결했습니다.</h2>
+      <p class="votes-subheader fade-in delay-1" data-i18n="member.votes.sub">최근 국회 표결과 해당 의원의 선택을 보여줍니다.</p>
       <div id="vote-list"></div>
     </div>
   </section>
@@ -72,15 +73,15 @@
   <section class="stat-section section--light">
     <div class="stat-frame stat-frame--light">
       <div class="stat-number fade-in" id="stat-vote" data-count="0">0</div>
-      <div class="stat-label fade-in delay-1" data-i18n="member.stat.bills">Bills Proposed</div>
-      <div class="stat-context fade-in delay-2" data-i18n="member.stat.bills.context">Primary sponsorship in current term</div>
+      <div class="stat-label fade-in delay-1" data-i18n="member.stat.bills">대표 발의 수</div>
+      <div class="stat-context fade-in delay-2" data-i18n="member.stat.bills.context">현 임기 내 대표 발의 기준</div>
       <div class="bill-callout fade-in delay-3" id="bill-callout"></div>
     </div>
   </section>
 
   <section class="activity-section">
     <div class="activity-inner">
-      <div class="activity-header fade-in" data-i18n="member.activity.title">Current Activity</div>
+      <div class="activity-header fade-in" data-i18n="member.activity.title">현재 활동</div>
       <div id="activity-wrap"></div>
     </div>
   </section>
