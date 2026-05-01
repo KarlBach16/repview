@@ -385,7 +385,7 @@ function sortRecentVotes(votes) {
 async function main() {
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = path.dirname(__filename);
-  const projectRoot = path.resolve(__dirname, "..");
+  const projectRoot = path.resolve(__dirname, "..", "..");
   const membersPath = path.join(projectRoot, "data", "us", "house_members.json");
 
   const fetchFn = getFetch();
