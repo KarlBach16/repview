@@ -8,7 +8,7 @@
     "districtCode": "AK-AL",
     "slug": "nicholas_j_begich_iii",
     "photo": "https://clerk.house.gov/images/members/B001323.jpg",
-    "votesWithPartyPct": 95.7,
+    "votesWithPartyPct": 95.9,
     "billsSponsored": 33,
     "missedVotesPct": 1.2,
     "missedVotesCount": 6,
@@ -196,9 +196,9 @@
     "districtCode": "AL-1",
     "slug": "barry_moore",
     "photo": "https://clerk.house.gov/images/members/M001212.jpg",
-    "votesWithPartyPct": 93.1,
+    "votesWithPartyPct": 93.4,
     "billsSponsored": 27,
-    "missedVotesPct": 2.4,
+    "missedVotesPct": 2.3,
     "missedVotesCount": 12,
     "recentVotes": [
       {
@@ -384,10 +384,10 @@
     "districtCode": "AL-2",
     "slug": "shomari_figures",
     "photo": "https://clerk.house.gov/images/members/F000481.jpg",
-    "votesWithPartyPct": 95.9,
+    "votesWithPartyPct": 96,
     "billsSponsored": 20,
-    "missedVotesPct": 1.2,
-    "missedVotesCount": 6,
+    "missedVotesPct": 1.4,
+    "missedVotesCount": 7,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -572,10 +572,10 @@
     "districtCode": "AL-3",
     "slug": "mike_rogers",
     "photo": "https://clerk.house.gov/images/members/R000575.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 11,
-    "missedVotesPct": 3,
-    "missedVotesCount": 15,
+    "missedVotesPct": 3.1,
+    "missedVotesCount": 16,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -760,10 +760,10 @@
     "districtCode": "AL-4",
     "slug": "robert_b_aderholt",
     "photo": "https://clerk.house.gov/images/members/A000055.jpg",
-    "votesWithPartyPct": 97.7,
+    "votesWithPartyPct": 97.8,
     "billsSponsored": 11,
-    "missedVotesPct": 2.6,
-    "missedVotesCount": 13,
+    "missedVotesPct": 2.7,
+    "missedVotesCount": 14,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -948,10 +948,10 @@
     "districtCode": "AL-5",
     "slug": "dale_w_strong",
     "photo": "https://clerk.house.gov/images/members/S001220.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 12,
-    "missedVotesPct": 2.2,
-    "missedVotesCount": 11,
+    "missedVotesPct": 2.7,
+    "missedVotesCount": 14,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -1136,7 +1136,7 @@
     "districtCode": "AL-6",
     "slug": "gary_j_palmer",
     "photo": "https://clerk.house.gov/images/members/P000609.jpg",
-    "votesWithPartyPct": 96.9,
+    "votesWithPartyPct": 97,
     "billsSponsored": 14,
     "missedVotesPct": 1.2,
     "missedVotesCount": 6,
@@ -1324,10 +1324,10 @@
     "districtCode": "AL-7",
     "slug": "terri_a_sewell",
     "photo": "https://clerk.house.gov/images/members/S001185.jpg",
-    "votesWithPartyPct": 96.1,
+    "votesWithPartyPct": 96.2,
     "billsSponsored": 12,
-    "missedVotesPct": 1.2,
-    "missedVotesCount": 6,
+    "missedVotesPct": 1.7,
+    "missedVotesCount": 9,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -1512,9 +1512,9 @@
     "districtCode": "AR-1",
     "slug": "eric_a_rick_crawford",
     "photo": "https://clerk.house.gov/images/members/C001087.jpg",
-    "votesWithPartyPct": 98.5,
+    "votesWithPartyPct": 98.6,
     "billsSponsored": 15,
-    "missedVotesPct": 2.8,
+    "missedVotesPct": 2.7,
     "missedVotesCount": 14,
     "recentVotes": [
       {
@@ -1700,9 +1700,9 @@
     "districtCode": "AR-2",
     "slug": "j_french_hill",
     "photo": "https://clerk.house.gov/images/members/H001072.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 26,
-    "missedVotesPct": 1.6,
+    "missedVotesPct": 1.5,
     "missedVotesCount": 8,
     "recentVotes": [
       {
@@ -1888,10 +1888,10 @@
     "districtCode": "AR-3",
     "slug": "steve_womack",
     "photo": "https://clerk.house.gov/images/members/W000809.jpg",
-    "votesWithPartyPct": 96.6,
+    "votesWithPartyPct": 96.7,
     "billsSponsored": 9,
-    "missedVotesPct": 9.9,
-    "missedVotesCount": 49,
+    "missedVotesPct": 11.2,
+    "missedVotesCount": 58,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -2250,7 +2250,7 @@
     "districtCode": "AZ-1",
     "slug": "david_schweikert",
     "photo": "https://clerk.house.gov/images/members/S001183.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 26,
     "missedVotesPct": 1.4,
     "missedVotesCount": 7,
@@ -2438,7 +2438,7 @@
     "districtCode": "AZ-2",
     "slug": "elijah_crane",
     "photo": "https://clerk.house.gov/images/members/C001132.jpg",
-    "votesWithPartyPct": 86.1,
+    "votesWithPartyPct": 86.3,
     "billsSponsored": 22,
     "missedVotesPct": 0.8,
     "missedVotesCount": 4,
@@ -2626,9 +2626,9 @@
     "districtCode": "AZ-3",
     "slug": "yassamin_ansari",
     "photo": "https://clerk.house.gov/images/members/A000381.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 31,
-    "missedVotesPct": 2.2,
+    "missedVotesPct": 2.1,
     "missedVotesCount": 11,
     "recentVotes": [
       {
@@ -2814,9 +2814,9 @@
     "districtCode": "AZ-4",
     "slug": "greg_stanton",
     "photo": "https://clerk.house.gov/images/members/S001211.jpg",
-    "votesWithPartyPct": 94.6,
+    "votesWithPartyPct": 94.8,
     "billsSponsored": 25,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -3002,10 +3002,10 @@
     "districtCode": "AZ-5",
     "slug": "andy_biggs",
     "photo": "https://clerk.house.gov/images/members/B001302.jpg",
-    "votesWithPartyPct": 87,
+    "votesWithPartyPct": 86.9,
     "billsSponsored": 106,
     "missedVotesPct": 4.8,
-    "missedVotesCount": 24,
+    "missedVotesCount": 25,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -3190,10 +3190,10 @@
     "districtCode": "AZ-6",
     "slug": "juan_ciscomani",
     "photo": "https://clerk.house.gov/images/members/C001133.jpg",
-    "votesWithPartyPct": 97.2,
+    "votesWithPartyPct": 97.3,
     "billsSponsored": 31,
-    "missedVotesPct": 6.1,
-    "missedVotesCount": 30,
+    "missedVotesPct": 6,
+    "missedVotesCount": 31,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -3378,9 +3378,9 @@
     "districtCode": "AZ-7",
     "slug": "adelita_s_grijalva",
     "photo": "https://clerk.house.gov/images/members/G000606.jpg",
-    "votesWithPartyPct": 96.8,
+    "votesWithPartyPct": 97,
     "billsSponsored": 8,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 4,
     "recentVotes": [
       {
@@ -3552,7 +3552,7 @@
     "districtCode": "AZ-8",
     "slug": "abraham_j_hamadeh",
     "photo": "https://clerk.house.gov/images/members/H001098.jpg",
-    "votesWithPartyPct": 95.7,
+    "votesWithPartyPct": 95.9,
     "billsSponsored": 24,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -3740,10 +3740,10 @@
     "districtCode": "AZ-9",
     "slug": "paul_a_gosar",
     "photo": "https://clerk.house.gov/images/members/G000565.jpg",
-    "votesWithPartyPct": 88.8,
+    "votesWithPartyPct": 89.1,
     "billsSponsored": 23,
-    "missedVotesPct": 3.4,
-    "missedVotesCount": 17,
+    "missedVotesPct": 3.7,
+    "missedVotesCount": 19,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -3928,9 +3928,9 @@
     "districtCode": "CA-2",
     "slug": "jared_huffman",
     "photo": "https://clerk.house.gov/images/members/H001068.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 27,
-    "missedVotesPct": 3.2,
+    "missedVotesPct": 3.1,
     "missedVotesCount": 16,
     "recentVotes": [
       {
@@ -4116,7 +4116,7 @@
     "districtCode": "CA-3",
     "slug": "kevin_kiley",
     "photo": "https://clerk.house.gov/images/members/K000401.jpg",
-    "votesWithPartyPct": 94.9,
+    "votesWithPartyPct": 95.1,
     "billsSponsored": 22,
     "missedVotesPct": 0.6,
     "missedVotesCount": 3,
@@ -4304,7 +4304,7 @@
     "districtCode": "CA-4",
     "slug": "mike_thompson",
     "photo": "https://clerk.house.gov/images/members/T000460.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.3,
     "billsSponsored": 21,
     "missedVotesPct": 0.4,
     "missedVotesCount": 2,
@@ -4492,9 +4492,9 @@
     "districtCode": "CA-5",
     "slug": "tom_mcclintock",
     "photo": "https://clerk.house.gov/images/members/M001177.jpg",
-    "votesWithPartyPct": 92.6,
+    "votesWithPartyPct": 92.7,
     "billsSponsored": 24,
-    "missedVotesPct": 4.4,
+    "missedVotesPct": 4.3,
     "missedVotesCount": 22,
     "recentVotes": [
       {
@@ -4680,9 +4680,9 @@
     "districtCode": "CA-6",
     "slug": "ami_bera",
     "photo": "https://clerk.house.gov/images/members/B001287.jpg",
-    "votesWithPartyPct": 96.9,
+    "votesWithPartyPct": 97,
     "billsSponsored": 20,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -5056,10 +5056,10 @@
     "districtCode": "CA-8",
     "slug": "john_garamendi",
     "photo": "https://clerk.house.gov/images/members/G000559.jpg",
-    "votesWithPartyPct": 98.4,
+    "votesWithPartyPct": 98.5,
     "billsSponsored": 12,
-    "missedVotesPct": 11.3,
-    "missedVotesCount": 56,
+    "missedVotesPct": 11,
+    "missedVotesCount": 57,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -5244,7 +5244,7 @@
     "districtCode": "CA-9",
     "slug": "josh_harder",
     "photo": "https://clerk.house.gov/images/members/H001090.jpg",
-    "votesWithPartyPct": 93.7,
+    "votesWithPartyPct": 93.9,
     "billsSponsored": 37,
     "missedVotesPct": 0.4,
     "missedVotesCount": 2,
@@ -5432,9 +5432,9 @@
     "districtCode": "CA-10",
     "slug": "mark_desaulnier",
     "photo": "https://clerk.house.gov/images/members/D000623.jpg",
-    "votesWithPartyPct": 98.5,
+    "votesWithPartyPct": 98.6,
     "billsSponsored": 18,
-    "missedVotesPct": 2.2,
+    "missedVotesPct": 2.1,
     "missedVotesCount": 11,
     "recentVotes": [
       {
@@ -5622,8 +5622,8 @@
     "photo": "https://clerk.house.gov/images/members/P000197.jpg",
     "votesWithPartyPct": 99.3,
     "billsSponsored": 0,
-    "missedVotesPct": 10.7,
-    "missedVotesCount": 53,
+    "missedVotesPct": 11,
+    "missedVotesCount": 57,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -5737,10 +5737,10 @@
     "districtCode": "CA-12",
     "slug": "lateefah_simon",
     "photo": "https://clerk.house.gov/images/members/S001231.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 7,
-    "missedVotesPct": 1.8,
-    "missedVotesCount": 9,
+    "missedVotesPct": 2.1,
+    "missedVotesCount": 11,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -5906,8 +5906,8 @@
     "photo": "https://clerk.house.gov/images/members/G000605.jpg",
     "votesWithPartyPct": 82,
     "billsSponsored": 7,
-    "missedVotesPct": 5.9,
-    "missedVotesCount": 29,
+    "missedVotesPct": 5.8,
+    "missedVotesCount": 30,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -6071,10 +6071,10 @@
     "districtCode": "CA-15",
     "slug": "kevin_mullin",
     "photo": "https://clerk.house.gov/images/members/M001225.jpg",
-    "votesWithPartyPct": 97.8,
+    "votesWithPartyPct": 97.9,
     "billsSponsored": 27,
-    "missedVotesPct": 6.5,
-    "missedVotesCount": 32,
+    "missedVotesPct": 8.1,
+    "missedVotesCount": 42,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -6259,9 +6259,9 @@
     "districtCode": "CA-16",
     "slug": "sam_t_liccardo",
     "photo": "https://clerk.house.gov/images/members/L000607.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 15,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -6447,10 +6447,10 @@
     "districtCode": "CA-17",
     "slug": "ro_khanna",
     "photo": "https://clerk.house.gov/images/members/K000389.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 40,
-    "missedVotesPct": 1.4,
-    "missedVotesCount": 7,
+    "missedVotesPct": 1.5,
+    "missedVotesCount": 8,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -6635,9 +6635,9 @@
     "districtCode": "CA-18",
     "slug": "zoe_lofgren",
     "photo": "https://clerk.house.gov/images/members/L000397.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 19,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -6823,7 +6823,7 @@
     "districtCode": "CA-19",
     "slug": "jimmy_panetta",
     "photo": "https://clerk.house.gov/images/members/P000613.jpg",
-    "votesWithPartyPct": 93.5,
+    "votesWithPartyPct": 93.8,
     "billsSponsored": 48,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -7011,9 +7011,9 @@
     "districtCode": "CA-20",
     "slug": "vince_fong",
     "photo": "https://clerk.house.gov/images/members/F000480.jpg",
-    "votesWithPartyPct": 97.4,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 12,
-    "missedVotesPct": 4.4,
+    "missedVotesPct": 4.3,
     "missedVotesCount": 22,
     "recentVotes": [
       {
@@ -7199,10 +7199,10 @@
     "districtCode": "CA-21",
     "slug": "jim_costa",
     "photo": "https://clerk.house.gov/images/members/C001059.jpg",
-    "votesWithPartyPct": 89.5,
+    "votesWithPartyPct": 89.8,
     "billsSponsored": 28,
     "missedVotesPct": 4.6,
-    "missedVotesCount": 23,
+    "missedVotesCount": 24,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -7387,9 +7387,9 @@
     "districtCode": "CA-22",
     "slug": "david_g_valadao",
     "photo": "https://clerk.house.gov/images/members/V000129.jpg",
-    "votesWithPartyPct": 94.6,
+    "votesWithPartyPct": 94.8,
     "billsSponsored": 25,
-    "missedVotesPct": 2.4,
+    "missedVotesPct": 2.3,
     "missedVotesCount": 12,
     "recentVotes": [
       {
@@ -7575,7 +7575,7 @@
     "districtCode": "CA-23",
     "slug": "jay_obernolte",
     "photo": "https://clerk.house.gov/images/members/O000019.jpg",
-    "votesWithPartyPct": 95.7,
+    "votesWithPartyPct": 95.9,
     "billsSponsored": 27,
     "missedVotesPct": 0.6,
     "missedVotesCount": 3,
@@ -7763,7 +7763,7 @@
     "districtCode": "CA-24",
     "slug": "salud_o_carbajal",
     "photo": "https://clerk.house.gov/images/members/C001112.jpg",
-    "votesWithPartyPct": 97.7,
+    "votesWithPartyPct": 97.8,
     "billsSponsored": 33,
     "missedVotesPct": 0.6,
     "missedVotesCount": 3,
@@ -7951,9 +7951,9 @@
     "districtCode": "CA-25",
     "slug": "raul_ruiz",
     "photo": "https://clerk.house.gov/images/members/R000599.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 34,
-    "missedVotesPct": 1.6,
+    "missedVotesPct": 1.5,
     "missedVotesCount": 8,
     "recentVotes": [
       {
@@ -8141,8 +8141,8 @@
     "photo": "https://clerk.house.gov/images/members/B001285.jpg",
     "votesWithPartyPct": 99.2,
     "billsSponsored": 54,
-    "missedVotesPct": 3.8,
-    "missedVotesCount": 19,
+    "missedVotesPct": 3.9,
+    "missedVotesCount": 20,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -8327,9 +8327,9 @@
     "districtCode": "CA-27",
     "slug": "george_whitesides",
     "photo": "https://clerk.house.gov/images/members/W000830.jpg",
-    "votesWithPartyPct": 92.2,
+    "votesWithPartyPct": 92.6,
     "billsSponsored": 8,
-    "missedVotesPct": 3,
+    "missedVotesPct": 2.9,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -8501,7 +8501,7 @@
     "districtCode": "CA-28",
     "slug": "judy_chu",
     "photo": "https://clerk.house.gov/images/members/C001080.jpg",
-    "votesWithPartyPct": 98.6,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 34,
     "missedVotesPct": 0.4,
     "missedVotesCount": 2,
@@ -8691,8 +8691,8 @@
     "photo": "https://clerk.house.gov/images/members/R000620.jpg",
     "votesWithPartyPct": 98.4,
     "billsSponsored": 11,
-    "missedVotesPct": 0.4,
-    "missedVotesCount": 2,
+    "missedVotesPct": 0.6,
+    "missedVotesCount": 3,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -8877,7 +8877,7 @@
     "districtCode": "CA-30",
     "slug": "laura_friedman",
     "photo": "https://clerk.house.gov/images/members/F000483.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 10,
     "missedVotesPct": 0.8,
     "missedVotesCount": 4,
@@ -9065,10 +9065,10 @@
     "districtCode": "CA-31",
     "slug": "gilbert_ray_cisneros_jr",
     "photo": "https://clerk.house.gov/images/members/C001123.jpg",
-    "votesWithPartyPct": 97.6,
+    "votesWithPartyPct": 97.7,
     "billsSponsored": 13,
-    "missedVotesPct": 0.4,
-    "missedVotesCount": 2,
+    "missedVotesPct": 0.6,
+    "missedVotesCount": 3,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -9253,10 +9253,10 @@
     "districtCode": "CA-32",
     "slug": "brad_sherman",
     "photo": "https://clerk.house.gov/images/members/S000344.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 11,
-    "missedVotesPct": 2.6,
-    "missedVotesCount": 13,
+    "missedVotesPct": 2.7,
+    "missedVotesCount": 14,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -9629,10 +9629,10 @@
     "districtCode": "CA-34",
     "slug": "jimmy_gomez",
     "photo": "https://clerk.house.gov/images/members/G000585.jpg",
-    "votesWithPartyPct": 97.2,
+    "votesWithPartyPct": 97.3,
     "billsSponsored": 15,
-    "missedVotesPct": 6.7,
-    "missedVotesCount": 33,
+    "missedVotesPct": 6.8,
+    "missedVotesCount": 35,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -9817,9 +9817,9 @@
     "districtCode": "CA-35",
     "slug": "norma_j_torres",
     "photo": "https://clerk.house.gov/images/members/T000474.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 33,
-    "missedVotesPct": 1.6,
+    "missedVotesPct": 1.5,
     "missedVotesCount": 8,
     "recentVotes": [
       {
@@ -10005,9 +10005,9 @@
     "districtCode": "CA-36",
     "slug": "ted_lieu",
     "photo": "https://clerk.house.gov/images/members/L000582.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 38,
-    "missedVotesPct": 3,
+    "missedVotesPct": 2.9,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -10193,10 +10193,10 @@
     "districtCode": "CA-37",
     "slug": "sydney_kamlager_dove",
     "photo": "https://clerk.house.gov/images/members/K000400.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 28,
-    "missedVotesPct": 3.8,
-    "missedVotesCount": 19,
+    "missedVotesPct": 3.9,
+    "missedVotesCount": 20,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -10381,9 +10381,9 @@
     "districtCode": "CA-38",
     "slug": "linda_t_sanchez",
     "photo": "https://clerk.house.gov/images/members/S001156.jpg",
-    "votesWithPartyPct": 98.5,
+    "votesWithPartyPct": 98.6,
     "billsSponsored": 17,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -10571,8 +10571,8 @@
     "photo": "https://clerk.house.gov/images/members/T000472.jpg",
     "votesWithPartyPct": 98.8,
     "billsSponsored": 21,
-    "missedVotesPct": 0.8,
-    "missedVotesCount": 4,
+    "missedVotesPct": 1,
+    "missedVotesCount": 5,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -10757,7 +10757,7 @@
     "districtCode": "CA-40",
     "slug": "young_kim",
     "photo": "https://clerk.house.gov/images/members/K000397.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 47,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -10945,7 +10945,7 @@
     "districtCode": "CA-41",
     "slug": "ken_calvert",
     "photo": "https://clerk.house.gov/images/members/C000059.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.3,
     "billsSponsored": 23,
     "missedVotesPct": 0.4,
     "missedVotesCount": 2,
@@ -11135,7 +11135,7 @@
     "photo": "https://clerk.house.gov/images/members/G000598.jpg",
     "votesWithPartyPct": 98.5,
     "billsSponsored": 20,
-    "missedVotesPct": 6.5,
+    "missedVotesPct": 6.2,
     "missedVotesCount": 32,
     "recentVotes": [
       {
@@ -11321,10 +11321,10 @@
     "districtCode": "CA-43",
     "slug": "maxine_waters",
     "photo": "https://clerk.house.gov/images/members/W000187.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 42,
-    "missedVotesPct": 3.6,
-    "missedVotesCount": 18,
+    "missedVotesPct": 4.6,
+    "missedVotesCount": 24,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -11509,9 +11509,9 @@
     "districtCode": "CA-44",
     "slug": "nanette_diaz_barragan",
     "photo": "https://clerk.house.gov/images/members/B001300.jpg",
-    "votesWithPartyPct": 98.7,
+    "votesWithPartyPct": 98.8,
     "billsSponsored": 28,
-    "missedVotesPct": 3.6,
+    "missedVotesPct": 3.5,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -11697,7 +11697,7 @@
     "districtCode": "CA-45",
     "slug": "derek_tran",
     "photo": "https://clerk.house.gov/images/members/T000491.jpg",
-    "votesWithPartyPct": 93.7,
+    "votesWithPartyPct": 93.9,
     "billsSponsored": 13,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -11885,9 +11885,9 @@
     "districtCode": "CA-46",
     "slug": "j_luis_correa",
     "photo": "https://clerk.house.gov/images/members/C001110.jpg",
-    "votesWithPartyPct": 94.1,
+    "votesWithPartyPct": 94.2,
     "billsSponsored": 17,
-    "missedVotesPct": 6.7,
+    "missedVotesPct": 6.4,
     "missedVotesCount": 33,
     "recentVotes": [
       {
@@ -12073,7 +12073,7 @@
     "districtCode": "CA-47",
     "slug": "dave_min",
     "photo": "https://clerk.house.gov/images/members/M001241.jpg",
-    "votesWithPartyPct": 94.7,
+    "votesWithPartyPct": 94.9,
     "billsSponsored": 22,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -12261,10 +12261,10 @@
     "districtCode": "CA-48",
     "slug": "darrell_issa",
     "photo": "https://clerk.house.gov/images/members/I000056.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.3,
     "billsSponsored": 45,
-    "missedVotesPct": 0.6,
-    "missedVotesCount": 3,
+    "missedVotesPct": 0.8,
+    "missedVotesCount": 4,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -12449,7 +12449,7 @@
     "districtCode": "CA-49",
     "slug": "mike_levin",
     "photo": "https://clerk.house.gov/images/members/L000593.jpg",
-    "votesWithPartyPct": 96.5,
+    "votesWithPartyPct": 96.7,
     "billsSponsored": 24,
     "missedVotesPct": 0.8,
     "missedVotesCount": 4,
@@ -12637,9 +12637,9 @@
     "districtCode": "CA-50",
     "slug": "scott_h_peters",
     "photo": "https://clerk.house.gov/images/members/P000608.jpg",
-    "votesWithPartyPct": 95.9,
+    "votesWithPartyPct": 96,
     "billsSponsored": 29,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -13013,9 +13013,9 @@
     "districtCode": "CA-52",
     "slug": "juan_vargas",
     "photo": "https://clerk.house.gov/images/members/V000130.jpg",
-    "votesWithPartyPct": 97.7,
+    "votesWithPartyPct": 97.8,
     "billsSponsored": 10,
-    "missedVotesPct": 3,
+    "missedVotesPct": 2.9,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -13577,7 +13577,7 @@
     "districtCode": "CO-3",
     "slug": "jeff_hurd",
     "photo": "https://clerk.house.gov/images/members/H001100.jpg",
-    "votesWithPartyPct": 96.7,
+    "votesWithPartyPct": 96.9,
     "billsSponsored": 20,
     "missedVotesPct": 0.8,
     "missedVotesCount": 4,
@@ -13765,10 +13765,10 @@
     "districtCode": "CO-4",
     "slug": "lauren_boebert",
     "photo": "https://clerk.house.gov/images/members/B000825.jpg",
-    "votesWithPartyPct": 88.5,
+    "votesWithPartyPct": 88.8,
     "billsSponsored": 15,
     "missedVotesPct": 4.6,
-    "missedVotesCount": 23,
+    "missedVotesCount": 24,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -13953,7 +13953,7 @@
     "districtCode": "CO-5",
     "slug": "jeff_crank",
     "photo": "https://clerk.house.gov/images/members/C001137.jpg",
-    "votesWithPartyPct": 94.7,
+    "votesWithPartyPct": 94.9,
     "billsSponsored": 7,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -14308,10 +14308,10 @@
     "districtCode": "CO-7",
     "slug": "brittany_pettersen",
     "photo": "https://clerk.house.gov/images/members/P000620.jpg",
-    "votesWithPartyPct": 96,
+    "votesWithPartyPct": 96.1,
     "billsSponsored": 29,
-    "missedVotesPct": 18.4,
-    "missedVotesCount": 91,
+    "missedVotesPct": 19.7,
+    "missedVotesCount": 102,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -14496,7 +14496,7 @@
     "districtCode": "CO-8",
     "slug": "gabe_evans",
     "photo": "https://clerk.house.gov/images/members/E000300.jpg",
-    "votesWithPartyPct": 97,
+    "votesWithPartyPct": 96.7,
     "billsSponsored": 21,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -14686,8 +14686,8 @@
     "photo": "https://clerk.house.gov/images/members/L000557.jpg",
     "votesWithPartyPct": 99.2,
     "billsSponsored": 16,
-    "missedVotesPct": 3.2,
-    "missedVotesCount": 16,
+    "missedVotesPct": 3.5,
+    "missedVotesCount": 18,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -14872,10 +14872,10 @@
     "districtCode": "CT-2",
     "slug": "joe_courtney",
     "photo": "https://clerk.house.gov/images/members/C001069.jpg",
-    "votesWithPartyPct": 97,
+    "votesWithPartyPct": 97.1,
     "billsSponsored": 9,
-    "missedVotesPct": 4,
-    "missedVotesCount": 20,
+    "missedVotesPct": 5.8,
+    "missedVotesCount": 30,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -15055,8 +15055,8 @@
     "photo": "https://clerk.house.gov/images/members/D000216.jpg",
     "votesWithPartyPct": 99,
     "billsSponsored": 31,
-    "missedVotesPct": 1,
-    "missedVotesCount": 5,
+    "missedVotesPct": 1.2,
+    "missedVotesCount": 6,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -15241,7 +15241,7 @@
     "districtCode": "CT-4",
     "slug": "james_a_himes",
     "photo": "https://clerk.house.gov/images/members/H001047.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.4,
     "billsSponsored": 3,
     "missedVotesPct": 1.2,
     "missedVotesCount": 6,
@@ -15380,7 +15380,7 @@
     "districtCode": "CT-5",
     "slug": "jahana_hayes",
     "photo": "https://clerk.house.gov/images/members/H001081.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 31,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -15568,10 +15568,10 @@
     "districtCode": "DE-AL",
     "slug": "sarah_mcbride",
     "photo": "https://clerk.house.gov/images/members/M001238.jpg",
-    "votesWithPartyPct": 96.7,
+    "votesWithPartyPct": 96.9,
     "billsSponsored": 7,
-    "missedVotesPct": 0.6,
-    "missedVotesCount": 3,
+    "missedVotesPct": 0.8,
+    "missedVotesCount": 4,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -15735,7 +15735,7 @@
     "districtCode": "FL-1",
     "slug": "jimmy_patronis",
     "photo": "https://clerk.house.gov/images/members/P000622.jpg",
-    "votesWithPartyPct": 95,
+    "votesWithPartyPct": 95.1,
     "billsSponsored": 13,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -15925,7 +15925,7 @@
     "photo": "https://clerk.house.gov/images/members/D000628.jpg",
     "votesWithPartyPct": 99.3,
     "billsSponsored": 25,
-    "missedVotesPct": 10.9,
+    "missedVotesPct": 10.4,
     "missedVotesCount": 54,
     "recentVotes": [
       {
@@ -16111,7 +16111,7 @@
     "districtCode": "FL-3",
     "slug": "kat_cammack",
     "photo": "https://clerk.house.gov/images/members/C001039.jpg",
-    "votesWithPartyPct": 93.6,
+    "votesWithPartyPct": 93.9,
     "billsSponsored": 25,
     "missedVotesPct": 1.2,
     "missedVotesCount": 6,
@@ -16299,7 +16299,7 @@
     "districtCode": "FL-4",
     "slug": "aaron_bean",
     "photo": "https://clerk.house.gov/images/members/B001314.jpg",
-    "votesWithPartyPct": 92.9,
+    "votesWithPartyPct": 93.2,
     "billsSponsored": 21,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -16487,9 +16487,9 @@
     "districtCode": "FL-5",
     "slug": "john_h_rutherford",
     "photo": "https://clerk.house.gov/images/members/R000609.jpg",
-    "votesWithPartyPct": 98.8,
+    "votesWithPartyPct": 98.9,
     "billsSponsored": 7,
-    "missedVotesPct": 12.5,
+    "missedVotesPct": 12,
     "missedVotesCount": 62,
     "recentVotes": [
       {
@@ -16654,7 +16654,7 @@
     "districtCode": "FL-6",
     "slug": "randy_fine",
     "photo": "https://clerk.house.gov/images/members/F000484.jpg",
-    "votesWithPartyPct": 93.5,
+    "votesWithPartyPct": 93.7,
     "billsSponsored": 28,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -16842,10 +16842,10 @@
     "districtCode": "FL-7",
     "slug": "cory_mills",
     "photo": "https://clerk.house.gov/images/members/M001216.jpg",
-    "votesWithPartyPct": 93.6,
+    "votesWithPartyPct": 93.8,
     "billsSponsored": 27,
-    "missedVotesPct": 1.6,
-    "missedVotesCount": 8,
+    "missedVotesPct": 1.9,
+    "missedVotesCount": 10,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -17030,9 +17030,9 @@
     "districtCode": "FL-8",
     "slug": "mike_haridopolos",
     "photo": "https://clerk.house.gov/images/members/H001099.jpg",
-    "votesWithPartyPct": 96.5,
+    "votesWithPartyPct": 96.6,
     "billsSponsored": 2,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -17162,7 +17162,7 @@
     "districtCode": "FL-9",
     "slug": "darren_soto",
     "photo": "https://clerk.house.gov/images/members/S001200.jpg",
-    "votesWithPartyPct": 94.7,
+    "votesWithPartyPct": 94.9,
     "billsSponsored": 15,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -17350,7 +17350,7 @@
     "districtCode": "FL-10",
     "slug": "maxwell_frost",
     "photo": "https://clerk.house.gov/images/members/F000476.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.7,
     "billsSponsored": 23,
     "missedVotesPct": 0.6,
     "missedVotesCount": 3,
@@ -17538,9 +17538,9 @@
     "districtCode": "FL-11",
     "slug": "daniel_webster",
     "photo": "https://clerk.house.gov/images/members/W000806.jpg",
-    "votesWithPartyPct": 97.7,
+    "votesWithPartyPct": 97.8,
     "billsSponsored": 8,
-    "missedVotesPct": 2.8,
+    "missedVotesPct": 2.7,
     "missedVotesCount": 14,
     "recentVotes": [
       {
@@ -17712,9 +17712,9 @@
     "districtCode": "FL-12",
     "slug": "gus_m_bilirakis",
     "photo": "https://clerk.house.gov/images/members/B001257.jpg",
-    "votesWithPartyPct": 98.5,
+    "votesWithPartyPct": 98.6,
     "billsSponsored": 28,
-    "missedVotesPct": 3,
+    "missedVotesPct": 2.9,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -17900,10 +17900,10 @@
     "districtCode": "FL-13",
     "slug": "anna_paulina_luna",
     "photo": "https://clerk.house.gov/images/members/L000596.jpg",
-    "votesWithPartyPct": 92.5,
+    "votesWithPartyPct": 92.8,
     "billsSponsored": 32,
-    "missedVotesPct": 7.9,
-    "missedVotesCount": 39,
+    "missedVotesPct": 7.7,
+    "missedVotesCount": 40,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -18088,9 +18088,9 @@
     "districtCode": "FL-14",
     "slug": "kathy_castor",
     "photo": "https://clerk.house.gov/images/members/C001066.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 20,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -18278,7 +18278,7 @@
     "photo": "https://clerk.house.gov/images/members/L000597.jpg",
     "votesWithPartyPct": 98.3,
     "billsSponsored": 27,
-    "missedVotesPct": 6.5,
+    "missedVotesPct": 6.2,
     "missedVotesCount": 32,
     "recentVotes": [
       {
@@ -18464,10 +18464,10 @@
     "districtCode": "FL-16",
     "slug": "vern_buchanan",
     "photo": "https://clerk.house.gov/images/members/B001260.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 44,
-    "missedVotesPct": 9.1,
-    "missedVotesCount": 45,
+    "missedVotesPct": 8.9,
+    "missedVotesCount": 46,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -18652,9 +18652,9 @@
     "districtCode": "FL-17",
     "slug": "w_gregory_steube",
     "photo": "https://clerk.house.gov/images/members/S001214.jpg",
-    "votesWithPartyPct": 90.6,
+    "votesWithPartyPct": 90.8,
     "billsSponsored": 90,
-    "missedVotesPct": 3,
+    "missedVotesPct": 2.9,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -18842,8 +18842,8 @@
     "photo": "https://clerk.house.gov/images/members/F000472.jpg",
     "votesWithPartyPct": 98.6,
     "billsSponsored": 14,
-    "missedVotesPct": 0.8,
-    "missedVotesCount": 4,
+    "missedVotesPct": 1,
+    "missedVotesCount": 5,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -19028,9 +19028,9 @@
     "districtCode": "FL-19",
     "slug": "byron_donalds",
     "photo": "https://clerk.house.gov/images/members/D000032.jpg",
-    "votesWithPartyPct": 92.5,
+    "votesWithPartyPct": 92.9,
     "billsSponsored": 23,
-    "missedVotesPct": 7.5,
+    "missedVotesPct": 7.2,
     "missedVotesCount": 37,
     "recentVotes": [
       {
@@ -19216,10 +19216,10 @@
     "districtCode": "FL-21",
     "slug": "brian_j_mast",
     "photo": "https://clerk.house.gov/images/members/M001199.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 39,
-    "missedVotesPct": 3.4,
-    "missedVotesCount": 17,
+    "missedVotesPct": 3.5,
+    "missedVotesCount": 18,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -19404,10 +19404,10 @@
     "districtCode": "FL-22",
     "slug": "lois_frankel",
     "photo": "https://clerk.house.gov/images/members/F000462.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 11,
-    "missedVotesPct": 4.2,
-    "missedVotesCount": 21,
+    "missedVotesPct": 4.3,
+    "missedVotesCount": 22,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -19592,9 +19592,9 @@
     "districtCode": "FL-23",
     "slug": "jared_moskowitz",
     "photo": "https://clerk.house.gov/images/members/M001217.jpg",
-    "votesWithPartyPct": 92,
+    "votesWithPartyPct": 92.2,
     "billsSponsored": 21,
-    "missedVotesPct": 3,
+    "missedVotesPct": 2.9,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -19780,10 +19780,10 @@
     "districtCode": "FL-24",
     "slug": "frederica_s_wilson",
     "photo": "https://clerk.house.gov/images/members/W000808.jpg",
-    "votesWithPartyPct": 98.9,
+    "votesWithPartyPct": 99,
     "billsSponsored": 22,
     "missedVotesPct": 23,
-    "missedVotesCount": 114,
+    "missedVotesCount": 119,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -19968,9 +19968,9 @@
     "districtCode": "FL-25",
     "slug": "debbie_wasserman_schultz",
     "photo": "https://clerk.house.gov/images/members/W000797.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 18,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -20156,10 +20156,10 @@
     "districtCode": "FL-26",
     "slug": "mario_diaz_balart",
     "photo": "https://clerk.house.gov/images/members/D000600.jpg",
-    "votesWithPartyPct": 96.6,
+    "votesWithPartyPct": 96.7,
     "billsSponsored": 10,
-    "missedVotesPct": 4.2,
-    "missedVotesCount": 21,
+    "missedVotesPct": 5,
+    "missedVotesCount": 26,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -20344,9 +20344,9 @@
     "districtCode": "FL-27",
     "slug": "maria_elvira_salazar",
     "photo": "https://clerk.house.gov/images/members/S000168.jpg",
-    "votesWithPartyPct": 96.2,
+    "votesWithPartyPct": 96.4,
     "billsSponsored": 15,
-    "missedVotesPct": 13.9,
+    "missedVotesPct": 13.3,
     "missedVotesCount": 69,
     "recentVotes": [
       {
@@ -20532,9 +20532,9 @@
     "districtCode": "FL-28",
     "slug": "carlos_a_gimenez",
     "photo": "https://clerk.house.gov/images/members/G000593.jpg",
-    "votesWithPartyPct": 96.4,
+    "votesWithPartyPct": 96.6,
     "billsSponsored": 8,
-    "missedVotesPct": 8.7,
+    "missedVotesPct": 8.3,
     "missedVotesCount": 43,
     "recentVotes": [
       {
@@ -20706,10 +20706,10 @@
     "districtCode": "GA-1",
     "slug": "earl_l_buddy_carter",
     "photo": "https://clerk.house.gov/images/members/C001103.jpg",
-    "votesWithPartyPct": 98.7,
+    "votesWithPartyPct": 98.8,
     "billsSponsored": 62,
-    "missedVotesPct": 5.1,
-    "missedVotesCount": 25,
+    "missedVotesPct": 5.6,
+    "missedVotesCount": 29,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -20894,10 +20894,10 @@
     "districtCode": "GA-2",
     "slug": "sanford_d_bishop_jr",
     "photo": "https://clerk.house.gov/images/members/B000490.jpg",
-    "votesWithPartyPct": 94.2,
+    "votesWithPartyPct": 94.4,
     "billsSponsored": 7,
-    "missedVotesPct": 2.4,
-    "missedVotesCount": 12,
+    "missedVotesPct": 2.5,
+    "missedVotesCount": 13,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -21061,7 +21061,7 @@
     "districtCode": "GA-3",
     "slug": "brian_jack",
     "photo": "https://clerk.house.gov/images/members/J000311.jpg",
-    "votesWithPartyPct": 97,
+    "votesWithPartyPct": 97.1,
     "billsSponsored": 7,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -21228,10 +21228,10 @@
     "districtCode": "GA-4",
     "slug": "henry_c_hank_johnson_jr",
     "photo": "https://clerk.house.gov/images/members/J000288.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 17,
-    "missedVotesPct": 2,
-    "missedVotesCount": 10,
+    "missedVotesPct": 2.1,
+    "missedVotesCount": 11,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -21416,10 +21416,10 @@
     "districtCode": "GA-5",
     "slug": "nikema_williams",
     "photo": "https://clerk.house.gov/images/members/W000788.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 48,
-    "missedVotesPct": 2.8,
-    "missedVotesCount": 14,
+    "missedVotesPct": 3.5,
+    "missedVotesCount": 18,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -21604,10 +21604,10 @@
     "districtCode": "GA-6",
     "slug": "lucy_mcbath",
     "photo": "https://clerk.house.gov/images/members/M001208.jpg",
-    "votesWithPartyPct": 96.4,
+    "votesWithPartyPct": 96.5,
     "billsSponsored": 15,
-    "missedVotesPct": 4.2,
-    "missedVotesCount": 21,
+    "missedVotesPct": 5.8,
+    "missedVotesCount": 30,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -21792,10 +21792,10 @@
     "districtCode": "GA-7",
     "slug": "richard_mccormick",
     "photo": "https://clerk.house.gov/images/members/M001218.jpg",
-    "votesWithPartyPct": 95.1,
+    "votesWithPartyPct": 95.3,
     "billsSponsored": 17,
-    "missedVotesPct": 0.4,
-    "missedVotesCount": 2,
+    "missedVotesPct": 0.6,
+    "missedVotesCount": 3,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -21982,8 +21982,8 @@
     "photo": "https://clerk.house.gov/images/members/S001189.jpg",
     "votesWithPartyPct": 98.8,
     "billsSponsored": 17,
-    "missedVotesPct": 0.2,
-    "missedVotesCount": 1,
+    "missedVotesPct": 0.4,
+    "missedVotesCount": 2,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -22168,7 +22168,7 @@
     "districtCode": "GA-9",
     "slug": "andrew_s_clyde",
     "photo": "https://clerk.house.gov/images/members/C001116.jpg",
-    "votesWithPartyPct": 90.1,
+    "votesWithPartyPct": 90.5,
     "billsSponsored": 30,
     "missedVotesPct": 1.4,
     "missedVotesCount": 7,
@@ -22356,9 +22356,9 @@
     "districtCode": "GA-10",
     "slug": "mike_collins",
     "photo": "https://clerk.house.gov/images/members/C001129.jpg",
-    "votesWithPartyPct": 92.9,
+    "votesWithPartyPct": 93.3,
     "billsSponsored": 16,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -22544,10 +22544,10 @@
     "districtCode": "GA-11",
     "slug": "barry_loudermilk",
     "photo": "https://clerk.house.gov/images/members/L000583.jpg",
-    "votesWithPartyPct": 99.3,
+    "votesWithPartyPct": 99.4,
     "billsSponsored": 16,
-    "missedVotesPct": 6.9,
-    "missedVotesCount": 34,
+    "missedVotesPct": 7.2,
+    "missedVotesCount": 37,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -22734,8 +22734,8 @@
     "photo": "https://clerk.house.gov/images/members/A000372.jpg",
     "votesWithPartyPct": 98.6,
     "billsSponsored": 20,
-    "missedVotesPct": 0.8,
-    "missedVotesCount": 4,
+    "missedVotesPct": 1.2,
+    "missedVotesCount": 6,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -23059,7 +23059,7 @@
     "districtCode": "HI-1",
     "slug": "ed_case",
     "photo": "https://clerk.house.gov/images/members/C001055.jpg",
-    "votesWithPartyPct": 96.5,
+    "votesWithPartyPct": 96.7,
     "billsSponsored": 25,
     "missedVotesPct": 0.6,
     "missedVotesCount": 3,
@@ -23435,9 +23435,9 @@
     "districtCode": "IA-1",
     "slug": "mariannette_miller_meeks",
     "photo": "https://clerk.house.gov/images/members/M001215.jpg",
-    "votesWithPartyPct": 96.4,
+    "votesWithPartyPct": 96.5,
     "billsSponsored": 44,
-    "missedVotesPct": 4.8,
+    "missedVotesPct": 4.6,
     "missedVotesCount": 24,
     "recentVotes": [
       {
@@ -23623,9 +23623,9 @@
     "districtCode": "IA-2",
     "slug": "ashley_hinson",
     "photo": "https://clerk.house.gov/images/members/H001091.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 29,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -23811,9 +23811,9 @@
     "districtCode": "IA-3",
     "slug": "zachary_nunn",
     "photo": "https://clerk.house.gov/images/members/N000193.jpg",
-    "votesWithPartyPct": 95.5,
+    "votesWithPartyPct": 95.7,
     "billsSponsored": 54,
-    "missedVotesPct": 5.9,
+    "missedVotesPct": 5.6,
     "missedVotesCount": 29,
     "recentVotes": [
       {
@@ -23999,9 +23999,9 @@
     "districtCode": "IA-4",
     "slug": "randy_feenstra",
     "photo": "https://clerk.house.gov/images/members/F000446.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 33,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -24187,10 +24187,10 @@
     "districtCode": "ID-1",
     "slug": "russ_fulcher",
     "photo": "https://clerk.house.gov/images/members/F000469.jpg",
-    "votesWithPartyPct": 94.2,
+    "votesWithPartyPct": 94.3,
     "billsSponsored": 16,
-    "missedVotesPct": 1.4,
-    "missedVotesCount": 7,
+    "missedVotesPct": 1.5,
+    "missedVotesCount": 8,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -24375,9 +24375,9 @@
     "districtCode": "ID-2",
     "slug": "michael_k_simpson",
     "photo": "https://clerk.house.gov/images/members/S001148.jpg",
-    "votesWithPartyPct": 96.2,
+    "votesWithPartyPct": 96.4,
     "billsSponsored": 4,
-    "missedVotesPct": 2.8,
+    "missedVotesPct": 2.7,
     "missedVotesCount": 14,
     "recentVotes": [
       {
@@ -24521,9 +24521,9 @@
     "districtCode": "IL-1",
     "slug": "jonathan_l_jackson",
     "photo": "https://clerk.house.gov/images/members/J000309.jpg",
-    "votesWithPartyPct": 97.4,
+    "votesWithPartyPct": 97.5,
     "billsSponsored": 5,
-    "missedVotesPct": 7.5,
+    "missedVotesPct": 7.2,
     "missedVotesCount": 37,
     "recentVotes": [
       {
@@ -24674,10 +24674,10 @@
     "districtCode": "IL-2",
     "slug": "robin_l_kelly",
     "photo": "https://clerk.house.gov/images/members/K000385.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 21,
-    "missedVotesPct": 2,
-    "missedVotesCount": 10,
+    "missedVotesPct": 2.5,
+    "missedVotesCount": 13,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -24862,9 +24862,9 @@
     "districtCode": "IL-3",
     "slug": "delia_c_ramirez",
     "photo": "https://clerk.house.gov/images/members/R000617.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.5,
     "billsSponsored": 26,
-    "missedVotesPct": 5.9,
+    "missedVotesPct": 5.6,
     "missedVotesCount": 29,
     "recentVotes": [
       {
@@ -25050,9 +25050,9 @@
     "districtCode": "IL-4",
     "slug": "jesus_g_chuy_garcia",
     "photo": "https://clerk.house.gov/images/members/G000586.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 5,
-    "missedVotesPct": 2.8,
+    "missedVotesPct": 2.7,
     "missedVotesCount": 14,
     "recentVotes": [
       {
@@ -25203,9 +25203,9 @@
     "districtCode": "IL-5",
     "slug": "mike_quigley",
     "photo": "https://clerk.house.gov/images/members/Q000023.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 11,
-    "missedVotesPct": 4.8,
+    "missedVotesPct": 4.6,
     "missedVotesCount": 24,
     "recentVotes": [
       {
@@ -25579,9 +25579,9 @@
     "districtCode": "IL-7",
     "slug": "danny_k_davis",
     "photo": "https://clerk.house.gov/images/members/D000096.jpg",
-    "votesWithPartyPct": 98.9,
+    "votesWithPartyPct": 99,
     "billsSponsored": 17,
-    "missedVotesPct": 5.3,
+    "missedVotesPct": 5,
     "missedVotesCount": 26,
     "recentVotes": [
       {
@@ -25767,10 +25767,10 @@
     "districtCode": "IL-8",
     "slug": "raja_krishnamoorthi",
     "photo": "https://clerk.house.gov/images/members/K000391.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 36,
-    "missedVotesPct": 2.6,
-    "missedVotesCount": 13,
+    "missedVotesPct": 2.7,
+    "missedVotesCount": 14,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -25957,8 +25957,8 @@
     "photo": "https://clerk.house.gov/images/members/S001145.jpg",
     "votesWithPartyPct": 98.5,
     "billsSponsored": 32,
-    "missedVotesPct": 6.5,
-    "missedVotesCount": 32,
+    "missedVotesPct": 6.4,
+    "missedVotesCount": 33,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -26143,9 +26143,9 @@
     "districtCode": "IL-10",
     "slug": "bradley_scott_schneider",
     "photo": "https://clerk.house.gov/images/members/S001190.jpg",
-    "votesWithPartyPct": 96.7,
+    "votesWithPartyPct": 96.8,
     "billsSponsored": 25,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -26331,7 +26331,7 @@
     "districtCode": "IL-11",
     "slug": "bill_foster",
     "photo": "https://clerk.house.gov/images/members/F000454.jpg",
-    "votesWithPartyPct": 97.7,
+    "votesWithPartyPct": 97.8,
     "billsSponsored": 25,
     "missedVotesPct": 0.6,
     "missedVotesCount": 3,
@@ -26519,9 +26519,9 @@
     "districtCode": "IL-12",
     "slug": "mike_bost",
     "photo": "https://clerk.house.gov/images/members/B001295.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 22,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -26707,7 +26707,7 @@
     "districtCode": "IL-13",
     "slug": "nikki_budzinski",
     "photo": "https://clerk.house.gov/images/members/B001315.jpg",
-    "votesWithPartyPct": 94.5,
+    "votesWithPartyPct": 94.7,
     "billsSponsored": 19,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -27083,9 +27083,9 @@
     "districtCode": "IL-15",
     "slug": "mary_e_miller",
     "photo": "https://clerk.house.gov/images/members/M001211.jpg",
-    "votesWithPartyPct": 91.9,
+    "votesWithPartyPct": 92.2,
     "billsSponsored": 30,
-    "missedVotesPct": 2.4,
+    "missedVotesPct": 2.3,
     "missedVotesCount": 12,
     "recentVotes": [
       {
@@ -27273,8 +27273,8 @@
     "photo": "https://clerk.house.gov/images/members/L000585.jpg",
     "votesWithPartyPct": 98.5,
     "billsSponsored": 32,
-    "missedVotesPct": 6.9,
-    "missedVotesCount": 34,
+    "missedVotesPct": 6.8,
+    "missedVotesCount": 35,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -27459,7 +27459,7 @@
     "districtCode": "IL-17",
     "slug": "eric_sorensen",
     "photo": "https://clerk.house.gov/images/members/S001225.jpg",
-    "votesWithPartyPct": 93.6,
+    "votesWithPartyPct": 93.9,
     "billsSponsored": 10,
     "missedVotesPct": 0.8,
     "missedVotesCount": 4,
@@ -27647,9 +27647,9 @@
     "districtCode": "IN-1",
     "slug": "frank_j_mrvan",
     "photo": "https://clerk.house.gov/images/members/M001214.jpg",
-    "votesWithPartyPct": 94.3,
+    "votesWithPartyPct": 94.6,
     "billsSponsored": 2,
-    "missedVotesPct": 3.4,
+    "missedVotesPct": 3.3,
     "missedVotesCount": 17,
     "recentVotes": [
       {
@@ -27967,9 +27967,9 @@
     "districtCode": "IN-3",
     "slug": "marlin_a_stutzman",
     "photo": "https://clerk.house.gov/images/members/S001188.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 13,
-    "missedVotesPct": 3.4,
+    "missedVotesPct": 3.3,
     "missedVotesCount": 17,
     "recentVotes": [
       {
@@ -28155,9 +28155,9 @@
     "districtCode": "IN-4",
     "slug": "james_r_baird",
     "photo": "https://clerk.house.gov/images/members/B001307.jpg",
-    "votesWithPartyPct": 97.6,
+    "votesWithPartyPct": 97.7,
     "billsSponsored": 13,
-    "missedVotesPct": 8.3,
+    "missedVotesPct": 7.9,
     "missedVotesCount": 41,
     "recentVotes": [
       {
@@ -28343,10 +28343,10 @@
     "districtCode": "IN-5",
     "slug": "victoria_spartz",
     "photo": "https://clerk.house.gov/images/members/S000929.jpg",
-    "votesWithPartyPct": 92.4,
+    "votesWithPartyPct": 92.6,
     "billsSponsored": 13,
-    "missedVotesPct": 6.5,
-    "missedVotesCount": 32,
+    "missedVotesPct": 7.4,
+    "missedVotesCount": 38,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -28533,7 +28533,7 @@
     "photo": "https://clerk.house.gov/images/members/S001229.jpg",
     "votesWithPartyPct": 99.4,
     "billsSponsored": 15,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -28719,10 +28719,10 @@
     "districtCode": "IN-7",
     "slug": "andre_carson",
     "photo": "https://clerk.house.gov/images/members/C001072.jpg",
-    "votesWithPartyPct": 98.4,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 15,
-    "missedVotesPct": 1.4,
-    "missedVotesCount": 7,
+    "missedVotesPct": 1.5,
+    "missedVotesCount": 8,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -28909,7 +28909,7 @@
     "photo": "https://clerk.house.gov/images/members/M001233.jpg",
     "votesWithPartyPct": 99,
     "billsSponsored": 14,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -29095,9 +29095,9 @@
     "districtCode": "IN-9",
     "slug": "erin_houchin",
     "photo": "https://clerk.house.gov/images/members/H001093.jpg",
-    "votesWithPartyPct": 98.5,
+    "votesWithPartyPct": 98.6,
     "billsSponsored": 41,
-    "missedVotesPct": 2.2,
+    "missedVotesPct": 2.1,
     "missedVotesCount": 11,
     "recentVotes": [
       {
@@ -29283,7 +29283,7 @@
     "districtCode": "KS-1",
     "slug": "tracey_mann",
     "photo": "https://clerk.house.gov/images/members/M000871.jpg",
-    "votesWithPartyPct": 98,
+    "votesWithPartyPct": 98.1,
     "billsSponsored": 23,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -29471,7 +29471,7 @@
     "districtCode": "KS-2",
     "slug": "derek_schmidt",
     "photo": "https://clerk.house.gov/images/members/S001228.jpg",
-    "votesWithPartyPct": 95.5,
+    "votesWithPartyPct": 95.7,
     "billsSponsored": 14,
     "missedVotesPct": 0.8,
     "missedVotesCount": 4,
@@ -29659,7 +29659,7 @@
     "districtCode": "KS-3",
     "slug": "sharice_davids",
     "photo": "https://clerk.house.gov/images/members/D000629.jpg",
-    "votesWithPartyPct": 94,
+    "votesWithPartyPct": 94.3,
     "billsSponsored": 22,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -29847,7 +29847,7 @@
     "districtCode": "KS-4",
     "slug": "ron_estes",
     "photo": "https://clerk.house.gov/images/members/E000298.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 17,
     "missedVotesPct": 1.2,
     "missedVotesCount": 6,
@@ -30035,10 +30035,10 @@
     "districtCode": "KY-1",
     "slug": "james_comer",
     "photo": "https://clerk.house.gov/images/members/C001108.jpg",
-    "votesWithPartyPct": 96,
+    "votesWithPartyPct": 96.2,
     "billsSponsored": 9,
-    "missedVotesPct": 2.6,
-    "missedVotesCount": 13,
+    "missedVotesPct": 2.7,
+    "missedVotesCount": 14,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -30216,7 +30216,7 @@
     "districtCode": "KY-2",
     "slug": "brett_guthrie",
     "photo": "https://clerk.house.gov/images/members/G000558.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 9,
     "missedVotesPct": 0.8,
     "missedVotesCount": 4,
@@ -30585,9 +30585,9 @@
     "districtCode": "KY-4",
     "slug": "thomas_massie",
     "photo": "https://clerk.house.gov/images/members/M001184.jpg",
-    "votesWithPartyPct": 76.8,
+    "votesWithPartyPct": 77.2,
     "billsSponsored": 23,
-    "missedVotesPct": 4.2,
+    "missedVotesPct": 4.1,
     "missedVotesCount": 21,
     "recentVotes": [
       {
@@ -30773,9 +30773,9 @@
     "districtCode": "KY-5",
     "slug": "harold_rogers",
     "photo": "https://clerk.house.gov/images/members/R000395.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 3,
-    "missedVotesPct": 2.4,
+    "missedVotesPct": 2.3,
     "missedVotesCount": 12,
     "recentVotes": [
       {
@@ -30912,10 +30912,10 @@
     "districtCode": "KY-6",
     "slug": "andy_barr",
     "photo": "https://clerk.house.gov/images/members/B001282.jpg",
-    "votesWithPartyPct": 98.9,
+    "votesWithPartyPct": 99,
     "billsSponsored": 56,
-    "missedVotesPct": 7.1,
-    "missedVotesCount": 35,
+    "missedVotesPct": 7,
+    "missedVotesCount": 36,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -31100,9 +31100,9 @@
     "districtCode": "LA-1",
     "slug": "steve_scalise",
     "photo": "https://clerk.house.gov/images/members/S001176.jpg",
-    "votesWithPartyPct": 98.5,
+    "votesWithPartyPct": 98.6,
     "billsSponsored": 3,
-    "missedVotesPct": 3.2,
+    "missedVotesPct": 3.1,
     "missedVotesCount": 16,
     "recentVotes": [
       {
@@ -31239,9 +31239,9 @@
     "districtCode": "LA-2",
     "slug": "troy_a_carter",
     "photo": "https://clerk.house.gov/images/members/C001125.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 19,
-    "missedVotesPct": 1.6,
+    "missedVotesPct": 1.5,
     "missedVotesCount": 8,
     "recentVotes": [
       {
@@ -31427,9 +31427,9 @@
     "districtCode": "LA-3",
     "slug": "clay_higgins",
     "photo": "https://clerk.house.gov/images/members/H001077.jpg",
-    "votesWithPartyPct": 91.9,
+    "votesWithPartyPct": 92.2,
     "billsSponsored": 33,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -31775,10 +31775,10 @@
     "districtCode": "LA-5",
     "slug": "julia_letlow",
     "photo": "https://clerk.house.gov/images/members/L000595.jpg",
-    "votesWithPartyPct": 98.7,
+    "votesWithPartyPct": 98.8,
     "billsSponsored": 18,
-    "missedVotesPct": 3,
-    "missedVotesCount": 15,
+    "missedVotesPct": 3.1,
+    "missedVotesCount": 16,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -31963,10 +31963,10 @@
     "districtCode": "LA-6",
     "slug": "cleo_fields",
     "photo": "https://clerk.house.gov/images/members/F000110.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 8,
-    "missedVotesPct": 2.2,
-    "missedVotesCount": 11,
+    "missedVotesPct": 2.7,
+    "missedVotesCount": 14,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -32139,7 +32139,7 @@
     "photo": "https://clerk.house.gov/images/members/N000015.jpg",
     "votesWithPartyPct": 99.4,
     "billsSponsored": 3,
-    "missedVotesPct": 4.8,
+    "missedVotesPct": 4.6,
     "missedVotesCount": 24,
     "recentVotes": [
       {
@@ -32276,9 +32276,9 @@
     "districtCode": "MA-2",
     "slug": "james_p_mcgovern",
     "photo": "https://clerk.house.gov/images/members/M000312.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 30,
-    "missedVotesPct": 3,
+    "missedVotesPct": 2.9,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -32464,9 +32464,9 @@
     "districtCode": "MA-3",
     "slug": "lori_trahan",
     "photo": "https://clerk.house.gov/images/members/T000482.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 14,
-    "missedVotesPct": 5.3,
+    "missedVotesPct": 5,
     "missedVotesCount": 26,
     "recentVotes": [
       {
@@ -32652,10 +32652,10 @@
     "districtCode": "MA-4",
     "slug": "jake_auchincloss",
     "photo": "https://clerk.house.gov/images/members/A000148.jpg",
-    "votesWithPartyPct": 96.6,
+    "votesWithPartyPct": 96.7,
     "billsSponsored": 10,
-    "missedVotesPct": 5.5,
-    "missedVotesCount": 27,
+    "missedVotesPct": 5.4,
+    "missedVotesCount": 28,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -32979,9 +32979,9 @@
     "districtCode": "MA-6",
     "slug": "seth_moulton",
     "photo": "https://clerk.house.gov/images/members/M001196.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 16,
-    "missedVotesPct": 10.7,
+    "missedVotesPct": 10.3,
     "missedVotesCount": 53,
     "recentVotes": [
       {
@@ -33167,9 +33167,9 @@
     "districtCode": "MA-7",
     "slug": "ayanna_pressley",
     "photo": "https://clerk.house.gov/images/members/P000617.jpg",
-    "votesWithPartyPct": 96.9,
+    "votesWithPartyPct": 97,
     "billsSponsored": 32,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -33355,9 +33355,9 @@
     "districtCode": "MA-8",
     "slug": "stephen_f_lynch",
     "photo": "https://clerk.house.gov/images/members/L000562.jpg",
-    "votesWithPartyPct": 95.9,
+    "votesWithPartyPct": 96.1,
     "billsSponsored": 13,
-    "missedVotesPct": 4.6,
+    "missedVotesPct": 4.4,
     "missedVotesCount": 23,
     "recentVotes": [
       {
@@ -33543,10 +33543,10 @@
     "districtCode": "MA-9",
     "slug": "william_r_keating",
     "photo": "https://clerk.house.gov/images/members/K000375.jpg",
-    "votesWithPartyPct": 97.6,
+    "votesWithPartyPct": 97.7,
     "billsSponsored": 18,
-    "missedVotesPct": 5.5,
-    "missedVotesCount": 27,
+    "missedVotesPct": 5.4,
+    "missedVotesCount": 28,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -33731,9 +33731,9 @@
     "districtCode": "MD-1",
     "slug": "andy_harris",
     "photo": "https://clerk.house.gov/images/members/H001052.jpg",
-    "votesWithPartyPct": 90.1,
+    "votesWithPartyPct": 90.4,
     "billsSponsored": 5,
-    "missedVotesPct": 3,
+    "missedVotesPct": 2.9,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -34262,7 +34262,7 @@
     "photo": "https://clerk.house.gov/images/members/I000058.jpg",
     "votesWithPartyPct": 99,
     "billsSponsored": 2,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -34392,10 +34392,10 @@
     "districtCode": "MD-5",
     "slug": "steny_h_hoyer",
     "photo": "https://clerk.house.gov/images/members/H000874.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 0,
-    "missedVotesPct": 3.4,
-    "missedVotesCount": 17,
+    "missedVotesPct": 3.7,
+    "missedVotesCount": 19,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -34509,9 +34509,9 @@
     "districtCode": "MD-6",
     "slug": "april_mcclain_delaney",
     "photo": "https://clerk.house.gov/images/members/M001232.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.4,
     "billsSponsored": 26,
-    "missedVotesPct": 1.6,
+    "missedVotesPct": 1.5,
     "missedVotesCount": 8,
     "recentVotes": [
       {
@@ -34697,9 +34697,9 @@
     "districtCode": "MD-7",
     "slug": "kweisi_mfume",
     "photo": "https://clerk.house.gov/images/members/M000687.jpg",
-    "votesWithPartyPct": 98.2,
+    "votesWithPartyPct": 98.3,
     "billsSponsored": 15,
-    "missedVotesPct": 7.1,
+    "missedVotesPct": 6.8,
     "missedVotesCount": 35,
     "recentVotes": [
       {
@@ -34887,8 +34887,8 @@
     "photo": "https://clerk.house.gov/images/members/R000606.jpg",
     "votesWithPartyPct": 99,
     "billsSponsored": 23,
-    "missedVotesPct": 1,
-    "missedVotesCount": 5,
+    "missedVotesPct": 1.4,
+    "missedVotesCount": 7,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -35075,7 +35075,7 @@
     "photo": "https://clerk.house.gov/images/members/P000597.jpg",
     "votesWithPartyPct": 98.1,
     "billsSponsored": 22,
-    "missedVotesPct": 5.7,
+    "missedVotesPct": 5.4,
     "missedVotesCount": 28,
     "recentVotes": [
       {
@@ -35263,7 +35263,7 @@
     "photo": "https://clerk.house.gov/images/members/G000592.jpg",
     "votesWithPartyPct": 78.8,
     "billsSponsored": 13,
-    "missedVotesPct": 3.2,
+    "missedVotesPct": 3.1,
     "missedVotesCount": 16,
     "recentVotes": [
       {
@@ -35449,10 +35449,10 @@
     "districtCode": "MI-1",
     "slug": "jack_bergman",
     "photo": "https://clerk.house.gov/images/members/B001301.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 24,
-    "missedVotesPct": 2.6,
-    "missedVotesCount": 13,
+    "missedVotesPct": 2.7,
+    "missedVotesCount": 14,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -35825,9 +35825,9 @@
     "districtCode": "MI-3",
     "slug": "hillary_j_scholten",
     "photo": "https://clerk.house.gov/images/members/S001221.jpg",
-    "votesWithPartyPct": 93.6,
+    "votesWithPartyPct": 93.9,
     "billsSponsored": 31,
-    "missedVotesPct": 5.1,
+    "missedVotesPct": 4.8,
     "missedVotesCount": 25,
     "recentVotes": [
       {
@@ -36013,10 +36013,10 @@
     "districtCode": "MI-4",
     "slug": "bill_huizenga",
     "photo": "https://clerk.house.gov/images/members/H001058.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 31,
-    "missedVotesPct": 2.6,
-    "missedVotesCount": 13,
+    "missedVotesPct": 2.7,
+    "missedVotesCount": 14,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -36201,10 +36201,10 @@
     "districtCode": "MI-5",
     "slug": "tim_walberg",
     "photo": "https://clerk.house.gov/images/members/W000798.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 22,
-    "missedVotesPct": 0.6,
-    "missedVotesCount": 3,
+    "missedVotesPct": 0.8,
+    "missedVotesCount": 4,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -36391,7 +36391,7 @@
     "photo": "https://clerk.house.gov/images/members/D000624.jpg",
     "votesWithPartyPct": 99.6,
     "billsSponsored": 54,
-    "missedVotesPct": 2.4,
+    "missedVotesPct": 2.3,
     "missedVotesCount": 12,
     "recentVotes": [
       {
@@ -36577,7 +36577,7 @@
     "districtCode": "MI-7",
     "slug": "tom_barrett",
     "photo": "https://clerk.house.gov/images/members/B001321.jpg",
-    "votesWithPartyPct": 96.7,
+    "votesWithPartyPct": 96.9,
     "billsSponsored": 38,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -36765,7 +36765,7 @@
     "districtCode": "MI-8",
     "slug": "kristen_mcdonald_rivet",
     "photo": "https://clerk.house.gov/images/members/M001237.jpg",
-    "votesWithPartyPct": 91.9,
+    "votesWithPartyPct": 92,
     "billsSponsored": 16,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -36953,9 +36953,9 @@
     "districtCode": "MI-9",
     "slug": "lisa_c_mcclain",
     "photo": "https://clerk.house.gov/images/members/M001136.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 18,
-    "missedVotesPct": 3.2,
+    "missedVotesPct": 3.1,
     "missedVotesCount": 16,
     "recentVotes": [
       {
@@ -37141,10 +37141,10 @@
     "districtCode": "MI-10",
     "slug": "john_james",
     "photo": "https://clerk.house.gov/images/members/J000307.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 22,
-    "missedVotesPct": 9.1,
-    "missedVotesCount": 45,
+    "missedVotesPct": 8.9,
+    "missedVotesCount": 46,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -37329,7 +37329,7 @@
     "districtCode": "MI-11",
     "slug": "haley_m_stevens",
     "photo": "https://clerk.house.gov/images/members/S001215.jpg",
-    "votesWithPartyPct": 96.5,
+    "votesWithPartyPct": 96.7,
     "billsSponsored": 50,
     "missedVotesPct": 0.8,
     "missedVotesCount": 4,
@@ -37517,9 +37517,9 @@
     "districtCode": "MI-12",
     "slug": "rashida_tlaib",
     "photo": "https://clerk.house.gov/images/members/T000481.jpg",
-    "votesWithPartyPct": 93.9,
+    "votesWithPartyPct": 94.2,
     "billsSponsored": 40,
-    "missedVotesPct": 3,
+    "missedVotesPct": 2.9,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -37705,9 +37705,9 @@
     "districtCode": "MI-13",
     "slug": "shri_thanedar",
     "photo": "https://clerk.house.gov/images/members/T000488.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 30,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -38081,7 +38081,7 @@
     "districtCode": "MN-2",
     "slug": "angie_craig",
     "photo": "https://clerk.house.gov/images/members/C001119.jpg",
-    "votesWithPartyPct": 95.1,
+    "votesWithPartyPct": 95.3,
     "billsSponsored": 18,
     "missedVotesPct": 0.8,
     "missedVotesCount": 4,
@@ -38459,8 +38459,8 @@
     "photo": "https://clerk.house.gov/images/members/M001143.jpg",
     "votesWithPartyPct": 99.6,
     "billsSponsored": 9,
-    "missedVotesPct": 0.2,
-    "missedVotesCount": 1,
+    "missedVotesPct": 0.8,
+    "missedVotesCount": 4,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -38638,9 +38638,9 @@
     "districtCode": "MN-5",
     "slug": "ilhan_omar",
     "photo": "https://clerk.house.gov/images/members/O000173.jpg",
-    "votesWithPartyPct": 95.8,
+    "votesWithPartyPct": 96,
     "billsSponsored": 14,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -39195,10 +39195,10 @@
     "districtCode": "MN-8",
     "slug": "pete_stauber",
     "photo": "https://clerk.house.gov/images/members/S001212.jpg",
-    "votesWithPartyPct": 96.5,
+    "votesWithPartyPct": 96.6,
     "billsSponsored": 22,
-    "missedVotesPct": 1.6,
-    "missedVotesCount": 8,
+    "missedVotesPct": 1.7,
+    "missedVotesCount": 9,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -39383,9 +39383,9 @@
     "districtCode": "MO-1",
     "slug": "wesley_bell",
     "photo": "https://clerk.house.gov/images/members/B001324.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 27,
-    "missedVotesPct": 3.4,
+    "missedVotesPct": 3.3,
     "missedVotesCount": 17,
     "recentVotes": [
       {
@@ -39571,9 +39571,9 @@
     "districtCode": "MO-2",
     "slug": "ann_wagner",
     "photo": "https://clerk.house.gov/images/members/W000812.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 17,
-    "missedVotesPct": 2.4,
+    "missedVotesPct": 2.3,
     "missedVotesCount": 12,
     "recentVotes": [
       {
@@ -39759,10 +39759,10 @@
     "districtCode": "MO-3",
     "slug": "robert_f_onder_jr",
     "photo": "https://clerk.house.gov/images/members/O000177.jpg",
-    "votesWithPartyPct": 94.1,
+    "votesWithPartyPct": 94.2,
     "billsSponsored": 16,
-    "missedVotesPct": 3.4,
-    "missedVotesCount": 17,
+    "missedVotesPct": 3.5,
+    "missedVotesCount": 18,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -39947,9 +39947,9 @@
     "districtCode": "MO-4",
     "slug": "mark_alford",
     "photo": "https://clerk.house.gov/images/members/A000379.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 22,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -40135,9 +40135,9 @@
     "districtCode": "MO-5",
     "slug": "emanuel_cleaver",
     "photo": "https://clerk.house.gov/images/members/C001061.jpg",
-    "votesWithPartyPct": 99.1,
+    "votesWithPartyPct": 99.2,
     "billsSponsored": 18,
-    "missedVotesPct": 5.5,
+    "missedVotesPct": 5.2,
     "missedVotesCount": 27,
     "recentVotes": [
       {
@@ -40323,9 +40323,9 @@
     "districtCode": "MO-6",
     "slug": "sam_graves",
     "photo": "https://clerk.house.gov/images/members/G000546.jpg",
-    "votesWithPartyPct": 98.7,
+    "votesWithPartyPct": 98.8,
     "billsSponsored": 14,
-    "missedVotesPct": 5.3,
+    "missedVotesPct": 5,
     "missedVotesCount": 26,
     "recentVotes": [
       {
@@ -40511,9 +40511,9 @@
     "districtCode": "MO-7",
     "slug": "eric_burlison",
     "photo": "https://clerk.house.gov/images/members/B001316.jpg",
-    "votesWithPartyPct": 85.3,
+    "votesWithPartyPct": 85.4,
     "billsSponsored": 23,
-    "missedVotesPct": 5.7,
+    "missedVotesPct": 5.4,
     "missedVotesCount": 28,
     "recentVotes": [
       {
@@ -40699,9 +40699,9 @@
     "districtCode": "MO-8",
     "slug": "jason_smith",
     "photo": "https://clerk.house.gov/images/members/S001195.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 7,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -41040,10 +41040,10 @@
     "districtCode": "MS-2",
     "slug": "bennie_g_thompson",
     "photo": "https://clerk.house.gov/images/members/T000193.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 14,
-    "missedVotesPct": 1.8,
-    "missedVotesCount": 9,
+    "missedVotesPct": 1.9,
+    "missedVotesCount": 10,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -41228,7 +41228,7 @@
     "districtCode": "MS-3",
     "slug": "michael_guest",
     "photo": "https://clerk.house.gov/images/members/G000591.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.7,
     "billsSponsored": 9,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -41409,7 +41409,7 @@
     "districtCode": "MS-4",
     "slug": "mike_ezell",
     "photo": "https://clerk.house.gov/images/members/E000235.jpg",
-    "votesWithPartyPct": 96.9,
+    "votesWithPartyPct": 97.1,
     "billsSponsored": 24,
     "missedVotesPct": 0.6,
     "missedVotesCount": 3,
@@ -41597,9 +41597,9 @@
     "districtCode": "MT-1",
     "slug": "ryan_k_zinke",
     "photo": "https://clerk.house.gov/images/members/Z000018.jpg",
-    "votesWithPartyPct": 96.6,
+    "votesWithPartyPct": 96.8,
     "billsSponsored": 14,
-    "missedVotesPct": 3.8,
+    "missedVotesPct": 3.7,
     "missedVotesCount": 19,
     "recentVotes": [
       {
@@ -41785,7 +41785,7 @@
     "districtCode": "MT-2",
     "slug": "troy_downing",
     "photo": "https://clerk.house.gov/images/members/D000634.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.5,
     "billsSponsored": 23,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -41973,7 +41973,7 @@
     "districtCode": "NC-1",
     "slug": "donald_g_davis",
     "photo": "https://clerk.house.gov/images/members/D000230.jpg",
-    "votesWithPartyPct": 79.3,
+    "votesWithPartyPct": 79.5,
     "billsSponsored": 27,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -42351,8 +42351,8 @@
     "photo": "https://clerk.house.gov/images/members/M001210.jpg",
     "votesWithPartyPct": 98.8,
     "billsSponsored": 37,
-    "missedVotesPct": 15.6,
-    "missedVotesCount": 77,
+    "missedVotesPct": 16.8,
+    "missedVotesCount": 87,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -42537,9 +42537,9 @@
     "districtCode": "NC-4",
     "slug": "valerie_p_foushee",
     "photo": "https://clerk.house.gov/images/members/F000477.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 23,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -42913,7 +42913,7 @@
     "districtCode": "NC-6",
     "slug": "addison_p_mcdowell",
     "photo": "https://clerk.house.gov/images/members/M001240.jpg",
-    "votesWithPartyPct": 96.7,
+    "votesWithPartyPct": 96.9,
     "billsSponsored": 14,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -43289,7 +43289,7 @@
     "districtCode": "NC-8",
     "slug": "mark_harris",
     "photo": "https://clerk.house.gov/images/members/H001102.jpg",
-    "votesWithPartyPct": 92.3,
+    "votesWithPartyPct": 92.4,
     "billsSponsored": 14,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -43477,9 +43477,9 @@
     "districtCode": "NC-9",
     "slug": "richard_hudson",
     "photo": "https://clerk.house.gov/images/members/H001067.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 16,
-    "missedVotesPct": 1.6,
+    "missedVotesPct": 1.5,
     "missedVotesCount": 8,
     "recentVotes": [
       {
@@ -43665,9 +43665,9 @@
     "districtCode": "NC-10",
     "slug": "pat_harrigan",
     "photo": "https://clerk.house.gov/images/members/H001101.jpg",
-    "votesWithPartyPct": 91.9,
+    "votesWithPartyPct": 92,
     "billsSponsored": 20,
-    "missedVotesPct": 2.2,
+    "missedVotesPct": 2.1,
     "missedVotesCount": 11,
     "recentVotes": [
       {
@@ -43853,10 +43853,10 @@
     "districtCode": "NC-11",
     "slug": "chuck_edwards",
     "photo": "https://clerk.house.gov/images/members/E000246.jpg",
-    "votesWithPartyPct": 95.2,
+    "votesWithPartyPct": 95.4,
     "billsSponsored": 14,
-    "missedVotesPct": 1.8,
-    "missedVotesCount": 9,
+    "missedVotesPct": 1.9,
+    "missedVotesCount": 10,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -44229,7 +44229,7 @@
     "districtCode": "NC-13",
     "slug": "brad_knott",
     "photo": "https://clerk.house.gov/images/members/K000405.jpg",
-    "votesWithPartyPct": 94.2,
+    "votesWithPartyPct": 94.5,
     "billsSponsored": 4,
     "missedVotesPct": 1.2,
     "missedVotesCount": 6,
@@ -44563,9 +44563,9 @@
     "districtCode": "ND-AL",
     "slug": "julie_fedorchak",
     "photo": "https://clerk.house.gov/images/members/F000482.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 14,
-    "missedVotesPct": 2.4,
+    "missedVotesPct": 2.3,
     "missedVotesCount": 12,
     "recentVotes": [
       {
@@ -44751,10 +44751,10 @@
     "districtCode": "NE-1",
     "slug": "mike_flood",
     "photo": "https://clerk.house.gov/images/members/F000474.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.5,
     "billsSponsored": 25,
-    "missedVotesPct": 0.6,
-    "missedVotesCount": 3,
+    "missedVotesPct": 0.8,
+    "missedVotesCount": 4,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -44939,7 +44939,7 @@
     "districtCode": "NE-2",
     "slug": "don_bacon",
     "photo": "https://clerk.house.gov/images/members/B001298.jpg",
-    "votesWithPartyPct": 93.1,
+    "votesWithPartyPct": 93.2,
     "billsSponsored": 40,
     "missedVotesPct": 0.4,
     "missedVotesCount": 2,
@@ -45127,9 +45127,9 @@
     "districtCode": "NE-3",
     "slug": "adrian_smith",
     "photo": "https://clerk.house.gov/images/members/S001172.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 24,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -45315,7 +45315,7 @@
     "districtCode": "NH-1",
     "slug": "chris_pappas",
     "photo": "https://clerk.house.gov/images/members/P000614.jpg",
-    "votesWithPartyPct": 92.7,
+    "votesWithPartyPct": 93,
     "billsSponsored": 51,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -45503,7 +45503,7 @@
     "districtCode": "NH-2",
     "slug": "maggie_goodlander",
     "photo": "https://clerk.house.gov/images/members/G000604.jpg",
-    "votesWithPartyPct": 93.1,
+    "votesWithPartyPct": 93.4,
     "billsSponsored": 10,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -45691,9 +45691,9 @@
     "districtCode": "NJ-1",
     "slug": "donald_norcross",
     "photo": "https://clerk.house.gov/images/members/N000188.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 17,
-    "missedVotesPct": 18.6,
+    "missedVotesPct": 17.8,
     "missedVotesCount": 92,
     "recentVotes": [
       {
@@ -45879,10 +45879,10 @@
     "districtCode": "NJ-2",
     "slug": "jefferson_van_drew",
     "photo": "https://clerk.house.gov/images/members/V000133.jpg",
-    "votesWithPartyPct": 95.5,
+    "votesWithPartyPct": 95.7,
     "billsSponsored": 55,
-    "missedVotesPct": 1.4,
-    "missedVotesCount": 7,
+    "missedVotesPct": 1.5,
+    "missedVotesCount": 8,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -46067,9 +46067,9 @@
     "districtCode": "NJ-3",
     "slug": "herbert_c_conaway_jr",
     "photo": "https://clerk.house.gov/images/members/C001136.jpg",
-    "votesWithPartyPct": 96.7,
+    "votesWithPartyPct": 96.8,
     "billsSponsored": 13,
-    "missedVotesPct": 2.4,
+    "missedVotesPct": 2.3,
     "missedVotesCount": 12,
     "recentVotes": [
       {
@@ -46443,10 +46443,10 @@
     "districtCode": "NJ-5",
     "slug": "josh_gottheimer",
     "photo": "https://clerk.house.gov/images/members/G000583.jpg",
-    "votesWithPartyPct": 90.8,
+    "votesWithPartyPct": 91.2,
     "billsSponsored": 73,
-    "missedVotesPct": 16,
-    "missedVotesCount": 79,
+    "missedVotesPct": 15.7,
+    "missedVotesCount": 81,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -46819,9 +46819,9 @@
     "districtCode": "NJ-7",
     "slug": "thomas_h_kean_jr",
     "photo": "https://clerk.house.gov/images/members/K000398.jpg",
-    "votesWithPartyPct": 94.5,
+    "votesWithPartyPct": 94.6,
     "billsSponsored": 24,
-    "missedVotesPct": 14.5,
+    "missedVotesPct": 13.9,
     "missedVotesCount": 72,
     "recentVotes": [
       {
@@ -47007,7 +47007,7 @@
     "districtCode": "NJ-8",
     "slug": "robert_menendez",
     "photo": "https://clerk.house.gov/images/members/M001226.jpg",
-    "votesWithPartyPct": 97.4,
+    "votesWithPartyPct": 97.5,
     "billsSponsored": 20,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -47195,7 +47195,7 @@
     "districtCode": "NJ-9",
     "slug": "nellie_pou",
     "photo": "https://clerk.house.gov/images/members/P000621.jpg",
-    "votesWithPartyPct": 97.4,
+    "votesWithPartyPct": 97.5,
     "billsSponsored": 11,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -47876,9 +47876,9 @@
     "districtCode": "NM-1",
     "slug": "melanie_a_stansbury",
     "photo": "https://clerk.house.gov/images/members/S001218.jpg",
-    "votesWithPartyPct": 98.5,
+    "votesWithPartyPct": 98.6,
     "billsSponsored": 22,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -48064,7 +48064,7 @@
     "districtCode": "NM-2",
     "slug": "gabe_vasquez",
     "photo": "https://clerk.house.gov/images/members/V000136.jpg",
-    "votesWithPartyPct": 92,
+    "votesWithPartyPct": 92.3,
     "billsSponsored": 30,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -48254,8 +48254,8 @@
     "photo": "https://clerk.house.gov/images/members/L000273.jpg",
     "votesWithPartyPct": 98.3,
     "billsSponsored": 34,
-    "missedVotesPct": 6.7,
-    "missedVotesCount": 33,
+    "missedVotesPct": 6.6,
+    "missedVotesCount": 34,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -48440,10 +48440,10 @@
     "districtCode": "NV-1",
     "slug": "dina_titus",
     "photo": "https://clerk.house.gov/images/members/T000468.jpg",
-    "votesWithPartyPct": 96.5,
+    "votesWithPartyPct": 96.7,
     "billsSponsored": 45,
-    "missedVotesPct": 11.9,
-    "missedVotesCount": 59,
+    "missedVotesPct": 11.8,
+    "missedVotesCount": 61,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -48628,9 +48628,9 @@
     "districtCode": "NV-2",
     "slug": "mark_e_amodei",
     "photo": "https://clerk.house.gov/images/members/A000369.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 9,
-    "missedVotesPct": 3.8,
+    "missedVotesPct": 3.7,
     "missedVotesCount": 19,
     "recentVotes": [
       {
@@ -48809,10 +48809,10 @@
     "districtCode": "NV-3",
     "slug": "susie_lee",
     "photo": "https://clerk.house.gov/images/members/L000590.jpg",
-    "votesWithPartyPct": 91.5,
+    "votesWithPartyPct": 91.9,
     "billsSponsored": 18,
-    "missedVotesPct": 1.2,
-    "missedVotesCount": 6,
+    "missedVotesPct": 1.4,
+    "missedVotesCount": 7,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -48997,7 +48997,7 @@
     "districtCode": "NV-4",
     "slug": "steven_horsford",
     "photo": "https://clerk.house.gov/images/members/H001066.jpg",
-    "votesWithPartyPct": 93.4,
+    "votesWithPartyPct": 93.7,
     "billsSponsored": 30,
     "missedVotesPct": 1.4,
     "missedVotesCount": 7,
@@ -49187,7 +49187,7 @@
     "photo": "https://clerk.house.gov/images/members/L000598.jpg",
     "votesWithPartyPct": 94.2,
     "billsSponsored": 25,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -49375,8 +49375,8 @@
     "photo": "https://clerk.house.gov/images/members/G000597.jpg",
     "votesWithPartyPct": 94.3,
     "billsSponsored": 32,
-    "missedVotesPct": 3.2,
-    "missedVotesCount": 16,
+    "missedVotesPct": 3.3,
+    "missedVotesCount": 17,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -49561,9 +49561,9 @@
     "districtCode": "NY-3",
     "slug": "thomas_r_suozzi",
     "photo": "https://clerk.house.gov/images/members/S001201.jpg",
-    "votesWithPartyPct": 88.4,
+    "votesWithPartyPct": 88.9,
     "billsSponsored": 23,
-    "missedVotesPct": 3.6,
+    "missedVotesPct": 3.5,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -49749,9 +49749,9 @@
     "districtCode": "NY-4",
     "slug": "laura_gillen",
     "photo": "https://clerk.house.gov/images/members/G000602.jpg",
-    "votesWithPartyPct": 88,
+    "votesWithPartyPct": 88.5,
     "billsSponsored": 13,
-    "missedVotesPct": 3.2,
+    "missedVotesPct": 3.1,
     "missedVotesCount": 16,
     "recentVotes": [
       {
@@ -49937,10 +49937,10 @@
     "districtCode": "NY-5",
     "slug": "gregory_w_meeks",
     "photo": "https://clerk.house.gov/images/members/M001137.jpg",
-    "votesWithPartyPct": 98.5,
+    "votesWithPartyPct": 98.6,
     "billsSponsored": 40,
     "missedVotesPct": 4.4,
-    "missedVotesCount": 22,
+    "missedVotesCount": 23,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -50125,10 +50125,10 @@
     "districtCode": "NY-6",
     "slug": "grace_meng",
     "photo": "https://clerk.house.gov/images/members/M001188.jpg",
-    "votesWithPartyPct": 97.8,
+    "votesWithPartyPct": 97.9,
     "billsSponsored": 31,
-    "missedVotesPct": 7.9,
-    "missedVotesCount": 39,
+    "missedVotesPct": 8.3,
+    "missedVotesCount": 43,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -50313,9 +50313,9 @@
     "districtCode": "NY-7",
     "slug": "nydia_m_velazquez",
     "photo": "https://clerk.house.gov/images/members/V000081.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 34,
-    "missedVotesPct": 3.2,
+    "missedVotesPct": 3.1,
     "missedVotesCount": 16,
     "recentVotes": [
       {
@@ -50626,10 +50626,10 @@
     "districtCode": "NY-9",
     "slug": "yvette_d_clarke",
     "photo": "https://clerk.house.gov/images/members/C001067.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 15,
-    "missedVotesPct": 2,
-    "missedVotesCount": 10,
+    "missedVotesPct": 2.3,
+    "missedVotesCount": 12,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -50814,9 +50814,9 @@
     "districtCode": "NY-10",
     "slug": "daniel_s_goldman",
     "photo": "https://clerk.house.gov/images/members/G000599.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 34,
-    "missedVotesPct": 9.9,
+    "missedVotesPct": 9.5,
     "missedVotesCount": 49,
     "recentVotes": [
       {
@@ -51002,9 +51002,9 @@
     "districtCode": "NY-11",
     "slug": "nicole_malliotakis",
     "photo": "https://clerk.house.gov/images/members/M000317.jpg",
-    "votesWithPartyPct": 94.4,
+    "votesWithPartyPct": 94.7,
     "billsSponsored": 48,
-    "missedVotesPct": 1.6,
+    "missedVotesPct": 1.5,
     "missedVotesCount": 8,
     "recentVotes": [
       {
@@ -51192,8 +51192,8 @@
     "photo": "https://clerk.house.gov/images/members/N000002.jpg",
     "votesWithPartyPct": 98.9,
     "billsSponsored": 12,
-    "missedVotesPct": 11.1,
-    "missedVotesCount": 55,
+    "missedVotesPct": 10.8,
+    "missedVotesCount": 56,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -51378,7 +51378,7 @@
     "districtCode": "NY-13",
     "slug": "adriano_espaillat",
     "photo": "https://clerk.house.gov/images/members/E000297.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 44,
     "missedVotesPct": 1.2,
     "missedVotesCount": 6,
@@ -51566,9 +51566,9 @@
     "districtCode": "NY-14",
     "slug": "alexandria_ocasio_cortez",
     "photo": "https://clerk.house.gov/images/members/O000172.jpg",
-    "votesWithPartyPct": 96.8,
+    "votesWithPartyPct": 97,
     "billsSponsored": 7,
-    "missedVotesPct": 3.6,
+    "missedVotesPct": 3.5,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -51733,10 +51733,10 @@
     "districtCode": "NY-15",
     "slug": "ritchie_torres",
     "photo": "https://clerk.house.gov/images/members/T000486.jpg",
-    "votesWithPartyPct": 96.4,
+    "votesWithPartyPct": 96.6,
     "billsSponsored": 47,
-    "missedVotesPct": 3.6,
-    "missedVotesCount": 18,
+    "missedVotesPct": 3.9,
+    "missedVotesCount": 20,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -51921,9 +51921,9 @@
     "districtCode": "NY-16",
     "slug": "george_latimer",
     "photo": "https://clerk.house.gov/images/members/L000606.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 6,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -52083,7 +52083,7 @@
     "photo": "https://clerk.house.gov/images/members/L000599.jpg",
     "votesWithPartyPct": 91.9,
     "billsSponsored": 98,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -52269,10 +52269,10 @@
     "districtCode": "NY-18",
     "slug": "patrick_ryan",
     "photo": "https://clerk.house.gov/images/members/R000579.jpg",
-    "votesWithPartyPct": 93.1,
+    "votesWithPartyPct": 93.4,
     "billsSponsored": 18,
-    "missedVotesPct": 0,
-    "missedVotesCount": 0,
+    "missedVotesPct": 0.2,
+    "missedVotesCount": 1,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -52457,9 +52457,9 @@
     "districtCode": "NY-19",
     "slug": "josh_riley",
     "photo": "https://clerk.house.gov/images/members/R000622.jpg",
-    "votesWithPartyPct": 91,
+    "votesWithPartyPct": 91.4,
     "billsSponsored": 14,
-    "missedVotesPct": 2.4,
+    "missedVotesPct": 2.3,
     "missedVotesCount": 12,
     "recentVotes": [
       {
@@ -52647,8 +52647,8 @@
     "photo": "https://clerk.house.gov/images/members/T000469.jpg",
     "votesWithPartyPct": 99,
     "billsSponsored": 19,
-    "missedVotesPct": 1.6,
-    "missedVotesCount": 8,
+    "missedVotesPct": 1.7,
+    "missedVotesCount": 9,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -52833,10 +52833,10 @@
     "districtCode": "NY-21",
     "slug": "elise_m_stefanik",
     "photo": "https://clerk.house.gov/images/members/S001196.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 28,
-    "missedVotesPct": 16.2,
-    "missedVotesCount": 80,
+    "missedVotesPct": 17,
+    "missedVotesCount": 88,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -53021,7 +53021,7 @@
     "districtCode": "NY-22",
     "slug": "john_w_mannion",
     "photo": "https://clerk.house.gov/images/members/M001231.jpg",
-    "votesWithPartyPct": 94.9,
+    "votesWithPartyPct": 95.1,
     "billsSponsored": 6,
     "missedVotesPct": 0.8,
     "missedVotesCount": 4,
@@ -53181,9 +53181,9 @@
     "districtCode": "NY-23",
     "slug": "nicholas_a_langworthy",
     "photo": "https://clerk.house.gov/images/members/L000600.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 41,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -53557,10 +53557,10 @@
     "districtCode": "NY-25",
     "slug": "joseph_d_morelle",
     "photo": "https://clerk.house.gov/images/members/M001206.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 26,
-    "missedVotesPct": 2,
-    "missedVotesCount": 10,
+    "missedVotesPct": 2.1,
+    "missedVotesCount": 11,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -53745,7 +53745,7 @@
     "districtCode": "NY-26",
     "slug": "timothy_m_kennedy",
     "photo": "https://clerk.house.gov/images/members/K000402.jpg",
-    "votesWithPartyPct": 97.8,
+    "votesWithPartyPct": 97.9,
     "billsSponsored": 26,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -53933,10 +53933,10 @@
     "districtCode": "OH-1",
     "slug": "greg_landsman",
     "photo": "https://clerk.house.gov/images/members/L000601.jpg",
-    "votesWithPartyPct": 92.2,
+    "votesWithPartyPct": 92.5,
     "billsSponsored": 24,
-    "missedVotesPct": 0.8,
-    "missedVotesCount": 4,
+    "missedVotesPct": 1,
+    "missedVotesCount": 5,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -54121,7 +54121,7 @@
     "districtCode": "OH-2",
     "slug": "david_j_taylor",
     "photo": "https://clerk.house.gov/images/members/T000490.jpg",
-    "votesWithPartyPct": 97.6,
+    "votesWithPartyPct": 97.7,
     "billsSponsored": 31,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -54311,8 +54311,8 @@
     "photo": "https://clerk.house.gov/images/members/B001281.jpg",
     "votesWithPartyPct": 98.7,
     "billsSponsored": 20,
-    "missedVotesPct": 7.1,
-    "missedVotesCount": 35,
+    "missedVotesPct": 7,
+    "missedVotesCount": 36,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -54497,10 +54497,10 @@
     "districtCode": "OH-4",
     "slug": "jim_jordan",
     "photo": "https://clerk.house.gov/images/members/J000289.jpg",
-    "votesWithPartyPct": 96,
+    "votesWithPartyPct": 96.2,
     "billsSponsored": 1,
-    "missedVotesPct": 2.4,
-    "missedVotesCount": 12,
+    "missedVotesPct": 2.7,
+    "missedVotesCount": 14,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -54810,10 +54810,10 @@
     "districtCode": "OH-6",
     "slug": "michael_a_rulli",
     "photo": "https://clerk.house.gov/images/members/R000619.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.5,
     "billsSponsored": 17,
-    "missedVotesPct": 6.3,
-    "missedVotesCount": 31,
+    "missedVotesPct": 6.2,
+    "missedVotesCount": 32,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -54998,10 +54998,10 @@
     "districtCode": "OH-7",
     "slug": "max_l_miller",
     "photo": "https://clerk.house.gov/images/members/M001222.jpg",
-    "votesWithPartyPct": 97.2,
+    "votesWithPartyPct": 97.3,
     "billsSponsored": 23,
-    "missedVotesPct": 4,
-    "missedVotesCount": 20,
+    "missedVotesPct": 4.6,
+    "missedVotesCount": 24,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -55186,10 +55186,10 @@
     "districtCode": "OH-8",
     "slug": "warren_davidson",
     "photo": "https://clerk.house.gov/images/members/D000626.jpg",
-    "votesWithPartyPct": 90.6,
+    "votesWithPartyPct": 90.8,
     "billsSponsored": 39,
-    "missedVotesPct": 2.4,
-    "missedVotesCount": 12,
+    "missedVotesPct": 2.5,
+    "missedVotesCount": 13,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -55374,10 +55374,10 @@
     "districtCode": "OH-9",
     "slug": "marcy_kaptur",
     "photo": "https://clerk.house.gov/images/members/K000009.jpg",
-    "votesWithPartyPct": 92.5,
+    "votesWithPartyPct": 92.8,
     "billsSponsored": 13,
-    "missedVotesPct": 1.8,
-    "missedVotesCount": 9,
+    "missedVotesPct": 1.9,
+    "missedVotesCount": 10,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -55562,9 +55562,9 @@
     "districtCode": "OH-10",
     "slug": "michael_r_turner",
     "photo": "https://clerk.house.gov/images/members/T000463.jpg",
-    "votesWithPartyPct": 94.7,
+    "votesWithPartyPct": 95,
     "billsSponsored": 9,
-    "missedVotesPct": 3.2,
+    "missedVotesPct": 3.1,
     "missedVotesCount": 16,
     "recentVotes": [
       {
@@ -55931,10 +55931,10 @@
     "districtCode": "OH-12",
     "slug": "troy_balderson",
     "photo": "https://clerk.house.gov/images/members/B001306.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 22,
-    "missedVotesPct": 1.6,
-    "missedVotesCount": 8,
+    "missedVotesPct": 1.7,
+    "missedVotesCount": 9,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -56119,9 +56119,9 @@
     "districtCode": "OH-13",
     "slug": "emilia_strong_sykes",
     "photo": "https://clerk.house.gov/images/members/S001223.jpg",
-    "votesWithPartyPct": 95.8,
+    "votesWithPartyPct": 96,
     "billsSponsored": 36,
-    "missedVotesPct": 3.2,
+    "missedVotesPct": 3.1,
     "missedVotesCount": 16,
     "recentVotes": [
       {
@@ -56307,10 +56307,10 @@
     "districtCode": "OH-14",
     "slug": "david_p_joyce",
     "photo": "https://clerk.house.gov/images/members/J000295.jpg",
-    "votesWithPartyPct": 94.3,
+    "votesWithPartyPct": 94.6,
     "billsSponsored": 19,
-    "missedVotesPct": 3,
-    "missedVotesCount": 15,
+    "missedVotesPct": 3.3,
+    "missedVotesCount": 17,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -56495,7 +56495,7 @@
     "districtCode": "OH-15",
     "slug": "mike_carey",
     "photo": "https://clerk.house.gov/images/members/C001126.jpg",
-    "votesWithPartyPct": 96.9,
+    "votesWithPartyPct": 97,
     "billsSponsored": 20,
     "missedVotesPct": 1.2,
     "missedVotesCount": 6,
@@ -56683,9 +56683,9 @@
     "districtCode": "OK-1",
     "slug": "kevin_hern",
     "photo": "https://clerk.house.gov/images/members/H001082.jpg",
-    "votesWithPartyPct": 96.8,
+    "votesWithPartyPct": 97,
     "billsSponsored": 16,
-    "missedVotesPct": 3.2,
+    "missedVotesPct": 3.1,
     "missedVotesCount": 16,
     "recentVotes": [
       {
@@ -56871,9 +56871,9 @@
     "districtCode": "OK-2",
     "slug": "josh_brecheen",
     "photo": "https://clerk.house.gov/images/members/B001317.jpg",
-    "votesWithPartyPct": 87.1,
+    "votesWithPartyPct": 87,
     "billsSponsored": 12,
-    "missedVotesPct": 5.7,
+    "missedVotesPct": 5.4,
     "missedVotesCount": 28,
     "recentVotes": [
       {
@@ -57059,7 +57059,7 @@
     "districtCode": "OK-3",
     "slug": "frank_d_lucas",
     "photo": "https://clerk.house.gov/images/members/L000491.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 13,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -57247,10 +57247,10 @@
     "districtCode": "OK-4",
     "slug": "tom_cole",
     "photo": "https://clerk.house.gov/images/members/C001053.jpg",
-    "votesWithPartyPct": 96.7,
+    "votesWithPartyPct": 96.8,
     "billsSponsored": 14,
-    "missedVotesPct": 1.4,
-    "missedVotesCount": 7,
+    "missedVotesPct": 1.5,
+    "missedVotesCount": 8,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -57435,7 +57435,7 @@
     "districtCode": "OK-5",
     "slug": "stephanie_i_bice",
     "photo": "https://clerk.house.gov/images/members/B000740.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 30,
     "missedVotesPct": 1.4,
     "missedVotesCount": 7,
@@ -57625,7 +57625,7 @@
     "photo": "https://clerk.house.gov/images/members/B001278.jpg",
     "votesWithPartyPct": 98.6,
     "billsSponsored": 53,
-    "missedVotesPct": 1.6,
+    "missedVotesPct": 1.5,
     "missedVotesCount": 8,
     "recentVotes": [
       {
@@ -57811,7 +57811,7 @@
     "districtCode": "OR-2",
     "slug": "cliff_bentz",
     "photo": "https://clerk.house.gov/images/members/B000668.jpg",
-    "votesWithPartyPct": 97.8,
+    "votesWithPartyPct": 97.9,
     "billsSponsored": 11,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -57999,7 +57999,7 @@
     "districtCode": "OR-3",
     "slug": "maxine_dexter",
     "photo": "https://clerk.house.gov/images/members/D000635.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 14,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -58187,9 +58187,9 @@
     "districtCode": "OR-4",
     "slug": "val_t_hoyle",
     "photo": "https://clerk.house.gov/images/members/H001094.jpg",
-    "votesWithPartyPct": 96.5,
+    "votesWithPartyPct": 96.6,
     "billsSponsored": 11,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -58375,10 +58375,10 @@
     "districtCode": "OR-5",
     "slug": "janelle_s_bynum",
     "photo": "https://clerk.house.gov/images/members/B001326.jpg",
-    "votesWithPartyPct": 96.1,
+    "votesWithPartyPct": 96.3,
     "billsSponsored": 18,
-    "missedVotesPct": 0.2,
-    "missedVotesCount": 1,
+    "missedVotesPct": 0.4,
+    "missedVotesCount": 2,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -58563,7 +58563,7 @@
     "districtCode": "OR-6",
     "slug": "andrea_salinas",
     "photo": "https://clerk.house.gov/images/members/S001226.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.5,
     "billsSponsored": 32,
     "missedVotesPct": 0.4,
     "missedVotesCount": 2,
@@ -58751,7 +58751,7 @@
     "districtCode": "PA-1",
     "slug": "brian_k_fitzpatrick",
     "photo": "https://clerk.house.gov/images/members/F000466.jpg",
-    "votesWithPartyPct": 84.2,
+    "votesWithPartyPct": 84.1,
     "billsSponsored": 78,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -58939,9 +58939,9 @@
     "districtCode": "PA-2",
     "slug": "brendan_f_boyle",
     "photo": "https://clerk.house.gov/images/members/B001296.jpg",
-    "votesWithPartyPct": 96.8,
+    "votesWithPartyPct": 97,
     "billsSponsored": 16,
-    "missedVotesPct": 4.2,
+    "missedVotesPct": 4.1,
     "missedVotesCount": 21,
     "recentVotes": [
       {
@@ -59127,9 +59127,9 @@
     "districtCode": "PA-3",
     "slug": "dwight_evans",
     "photo": "https://clerk.house.gov/images/members/E000296.jpg",
-    "votesWithPartyPct": 98.2,
+    "votesWithPartyPct": 98.3,
     "billsSponsored": 12,
-    "missedVotesPct": 8.7,
+    "missedVotesPct": 8.3,
     "missedVotesCount": 43,
     "recentVotes": [
       {
@@ -59317,7 +59317,7 @@
     "photo": "https://clerk.house.gov/images/members/D000631.jpg",
     "votesWithPartyPct": 99.6,
     "billsSponsored": 18,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -59505,8 +59505,8 @@
     "photo": "https://clerk.house.gov/images/members/S001205.jpg",
     "votesWithPartyPct": 99,
     "billsSponsored": 13,
-    "missedVotesPct": 1.8,
-    "missedVotesCount": 9,
+    "missedVotesPct": 1.9,
+    "missedVotesCount": 10,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -59691,10 +59691,10 @@
     "districtCode": "PA-6",
     "slug": "chrissy_houlahan",
     "photo": "https://clerk.house.gov/images/members/H001085.jpg",
-    "votesWithPartyPct": 95.8,
+    "votesWithPartyPct": 95.9,
     "billsSponsored": 28,
-    "missedVotesPct": 2.8,
-    "missedVotesCount": 14,
+    "missedVotesPct": 3.7,
+    "missedVotesCount": 19,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -59879,7 +59879,7 @@
     "districtCode": "PA-7",
     "slug": "ryan_mackenzie",
     "photo": "https://clerk.house.gov/images/members/M001230.jpg",
-    "votesWithPartyPct": 93.2,
+    "votesWithPartyPct": 93.3,
     "billsSponsored": 19,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -60255,9 +60255,9 @@
     "districtCode": "PA-9",
     "slug": "daniel_meuser",
     "photo": "https://clerk.house.gov/images/members/M001204.jpg",
-    "votesWithPartyPct": 97.8,
+    "votesWithPartyPct": 97.9,
     "billsSponsored": 19,
-    "missedVotesPct": 5.7,
+    "missedVotesPct": 5.4,
     "missedVotesCount": 28,
     "recentVotes": [
       {
@@ -60631,9 +60631,9 @@
     "districtCode": "PA-11",
     "slug": "lloyd_smucker",
     "photo": "https://clerk.house.gov/images/members/S001199.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 30,
-    "missedVotesPct": 3.4,
+    "missedVotesPct": 3.3,
     "missedVotesCount": 17,
     "recentVotes": [
       {
@@ -60819,7 +60819,7 @@
     "districtCode": "PA-12",
     "slug": "summer_l_lee",
     "photo": "https://clerk.house.gov/images/members/L000602.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.5,
     "billsSponsored": 19,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -61197,7 +61197,7 @@
     "photo": "https://clerk.house.gov/images/members/R000610.jpg",
     "votesWithPartyPct": 99,
     "billsSponsored": 6,
-    "missedVotesPct": 2.8,
+    "missedVotesPct": 2.7,
     "missedVotesCount": 14,
     "recentVotes": [
       {
@@ -61355,7 +61355,7 @@
     "districtCode": "PA-15",
     "slug": "glenn_thompson",
     "photo": "https://clerk.house.gov/images/members/T000467.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 39,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -61543,10 +61543,10 @@
     "districtCode": "PA-16",
     "slug": "mike_kelly",
     "photo": "https://clerk.house.gov/images/members/K000376.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 28,
-    "missedVotesPct": 2,
-    "missedVotesCount": 10,
+    "missedVotesPct": 2.1,
+    "missedVotesCount": 11,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -61731,7 +61731,7 @@
     "districtCode": "PA-17",
     "slug": "christopher_r_deluzio",
     "photo": "https://clerk.house.gov/images/members/D000530.jpg",
-    "votesWithPartyPct": 98,
+    "votesWithPartyPct": 98.1,
     "billsSponsored": 26,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -62107,9 +62107,9 @@
     "districtCode": "RI-2",
     "slug": "seth_magaziner",
     "photo": "https://clerk.house.gov/images/members/M001223.jpg",
-    "votesWithPartyPct": 96.4,
+    "votesWithPartyPct": 96.6,
     "billsSponsored": 24,
-    "missedVotesPct": 3.6,
+    "missedVotesPct": 3.5,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -62295,9 +62295,9 @@
     "districtCode": "SC-1",
     "slug": "nancy_mace",
     "photo": "https://clerk.house.gov/images/members/M000194.jpg",
-    "votesWithPartyPct": 94.7,
+    "votesWithPartyPct": 94.9,
     "billsSponsored": 83,
-    "missedVotesPct": 12.3,
+    "missedVotesPct": 11.8,
     "missedVotesCount": 61,
     "recentVotes": [
       {
@@ -62485,8 +62485,8 @@
     "photo": "https://clerk.house.gov/images/members/W000795.jpg",
     "votesWithPartyPct": 98.3,
     "billsSponsored": 25,
-    "missedVotesPct": 5.5,
-    "missedVotesCount": 27,
+    "missedVotesPct": 6.2,
+    "missedVotesCount": 32,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -62671,7 +62671,7 @@
     "districtCode": "SC-3",
     "slug": "sheri_biggs",
     "photo": "https://clerk.house.gov/images/members/B001325.jpg",
-    "votesWithPartyPct": 91.7,
+    "votesWithPartyPct": 91.8,
     "billsSponsored": 13,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -62859,9 +62859,9 @@
     "districtCode": "SC-4",
     "slug": "william_r_timmons_iv",
     "photo": "https://clerk.house.gov/images/members/T000480.jpg",
-    "votesWithPartyPct": 96.9,
+    "votesWithPartyPct": 97,
     "billsSponsored": 12,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -63047,10 +63047,10 @@
     "districtCode": "SC-5",
     "slug": "ralph_norman",
     "photo": "https://clerk.house.gov/images/members/N000190.jpg",
-    "votesWithPartyPct": 88.2,
+    "votesWithPartyPct": 88.1,
     "billsSponsored": 20,
-    "missedVotesPct": 8.7,
-    "missedVotesCount": 43,
+    "missedVotesPct": 8.5,
+    "missedVotesCount": 44,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -63235,7 +63235,7 @@
     "districtCode": "SC-6",
     "slug": "james_e_clyburn",
     "photo": "https://clerk.house.gov/images/members/C000537.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 2,
     "missedVotesPct": 1.4,
     "missedVotesCount": 7,
@@ -63367,7 +63367,7 @@
     "districtCode": "SC-7",
     "slug": "russell_fry",
     "photo": "https://clerk.house.gov/images/members/F000478.jpg",
-    "votesWithPartyPct": 93.5,
+    "votesWithPartyPct": 93.7,
     "billsSponsored": 17,
     "missedVotesPct": 0.4,
     "missedVotesCount": 2,
@@ -63555,9 +63555,9 @@
     "districtCode": "SD-AL",
     "slug": "dusty_johnson",
     "photo": "https://clerk.house.gov/images/members/J000301.jpg",
-    "votesWithPartyPct": 98.7,
+    "votesWithPartyPct": 98.8,
     "billsSponsored": 37,
-    "missedVotesPct": 2.8,
+    "missedVotesPct": 2.7,
     "missedVotesCount": 14,
     "recentVotes": [
       {
@@ -63743,9 +63743,9 @@
     "districtCode": "TN-1",
     "slug": "diana_harshbarger",
     "photo": "https://clerk.house.gov/images/members/H001086.jpg",
-    "votesWithPartyPct": 92.5,
+    "votesWithPartyPct": 92.9,
     "billsSponsored": 26,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -63931,9 +63931,9 @@
     "districtCode": "TN-2",
     "slug": "tim_burchett",
     "photo": "https://clerk.house.gov/images/members/B001309.jpg",
-    "votesWithPartyPct": 86.7,
+    "votesWithPartyPct": 87.1,
     "billsSponsored": 49,
-    "missedVotesPct": 3.6,
+    "missedVotesPct": 3.5,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -64119,7 +64119,7 @@
     "districtCode": "TN-3",
     "slug": "charles_j_chuck_fleischmann",
     "photo": "https://clerk.house.gov/images/members/F000459.jpg",
-    "votesWithPartyPct": 97.8,
+    "votesWithPartyPct": 97.9,
     "billsSponsored": 7,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -64286,10 +64286,10 @@
     "districtCode": "TN-4",
     "slug": "scott_desjarlais",
     "photo": "https://clerk.house.gov/images/members/D000616.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 1,
-    "missedVotesPct": 4.6,
-    "missedVotesCount": 23,
+    "missedVotesPct": 5,
+    "missedVotesCount": 26,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -64413,7 +64413,7 @@
     "photo": "https://clerk.house.gov/images/members/O000175.jpg",
     "votesWithPartyPct": 91.6,
     "billsSponsored": 42,
-    "missedVotesPct": 7.7,
+    "missedVotesPct": 7.4,
     "missedVotesCount": 38,
     "recentVotes": [
       {
@@ -64599,10 +64599,10 @@
     "districtCode": "TN-6",
     "slug": "john_w_rose",
     "photo": "https://clerk.house.gov/images/members/R000612.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 13,
-    "missedVotesPct": 3.6,
-    "missedVotesCount": 18,
+    "missedVotesPct": 4.1,
+    "missedVotesCount": 21,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -65114,9 +65114,9 @@
     "districtCode": "TN-9",
     "slug": "steve_cohen",
     "photo": "https://clerk.house.gov/images/members/C001068.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 51,
-    "missedVotesPct": 3.8,
+    "missedVotesPct": 3.7,
     "missedVotesCount": 19,
     "recentVotes": [
       {
@@ -65492,8 +65492,8 @@
     "photo": "https://clerk.house.gov/images/members/C001120.jpg",
     "votesWithPartyPct": 99.1,
     "billsSponsored": 24,
-    "missedVotesPct": 10.7,
-    "missedVotesCount": 53,
+    "missedVotesPct": 10.4,
+    "missedVotesCount": 54,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -65680,7 +65680,7 @@
     "photo": "https://clerk.house.gov/images/members/S001224.jpg",
     "votesWithPartyPct": 85.8,
     "billsSponsored": 44,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -65866,9 +65866,9 @@
     "districtCode": "TX-4",
     "slug": "pat_fallon",
     "photo": "https://clerk.house.gov/images/members/F000246.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 18,
-    "missedVotesPct": 1.6,
+    "missedVotesPct": 1.5,
     "missedVotesCount": 8,
     "recentVotes": [
       {
@@ -66054,10 +66054,10 @@
     "districtCode": "TX-5",
     "slug": "lance_gooden",
     "photo": "https://clerk.house.gov/images/members/G000589.jpg",
-    "votesWithPartyPct": 96.7,
+    "votesWithPartyPct": 96.9,
     "billsSponsored": 12,
-    "missedVotesPct": 0.4,
-    "missedVotesCount": 2,
+    "missedVotesPct": 1.2,
+    "missedVotesCount": 6,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -66242,10 +66242,10 @@
     "districtCode": "TX-6",
     "slug": "jake_ellzey",
     "photo": "https://clerk.house.gov/images/members/E000071.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 4,
-    "missedVotesPct": 1.8,
-    "missedVotesCount": 9,
+    "missedVotesPct": 1.9,
+    "missedVotesCount": 10,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -66388,9 +66388,9 @@
     "districtCode": "TX-7",
     "slug": "lizzie_fletcher",
     "photo": "https://clerk.house.gov/images/members/F000468.jpg",
-    "votesWithPartyPct": 94.6,
+    "votesWithPartyPct": 94.8,
     "billsSponsored": 11,
-    "missedVotesPct": 2.8,
+    "missedVotesPct": 2.7,
     "missedVotesCount": 14,
     "recentVotes": [
       {
@@ -66576,9 +66576,9 @@
     "districtCode": "TX-8",
     "slug": "morgan_luttrell",
     "photo": "https://clerk.house.gov/images/members/L000603.jpg",
-    "votesWithPartyPct": 95.9,
+    "votesWithPartyPct": 96,
     "billsSponsored": 20,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -66764,7 +66764,7 @@
     "districtCode": "TX-9",
     "slug": "al_green",
     "photo": "https://clerk.house.gov/images/members/G000553.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 44,
     "missedVotesPct": 1,
     "missedVotesCount": 5,
@@ -66952,10 +66952,10 @@
     "districtCode": "TX-10",
     "slug": "michael_t_mccaul",
     "photo": "https://clerk.house.gov/images/members/M001157.jpg",
-    "votesWithPartyPct": 96.9,
+    "votesWithPartyPct": 97.1,
     "billsSponsored": 9,
     "missedVotesPct": 14.1,
-    "missedVotesCount": 70,
+    "missedVotesCount": 73,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -67135,7 +67135,7 @@
     "photo": "https://clerk.house.gov/images/members/P000048.jpg",
     "votesWithPartyPct": 98.8,
     "billsSponsored": 54,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -67497,7 +67497,7 @@
     "photo": "https://clerk.house.gov/images/members/J000304.jpg",
     "votesWithPartyPct": 95.6,
     "billsSponsored": 32,
-    "missedVotesPct": 3.4,
+    "missedVotesPct": 3.3,
     "missedVotesCount": 17,
     "recentVotes": [
       {
@@ -67683,10 +67683,10 @@
     "districtCode": "TX-14",
     "slug": "randy_k_weber_sr",
     "photo": "https://clerk.house.gov/images/members/W000814.jpg",
-    "votesWithPartyPct": 97.7,
+    "votesWithPartyPct": 97.8,
     "billsSponsored": 19,
-    "missedVotesPct": 2.2,
-    "missedVotesCount": 11,
+    "missedVotesPct": 2.3,
+    "missedVotesCount": 12,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -67871,10 +67871,10 @@
     "districtCode": "TX-15",
     "slug": "monica_de_la_cruz",
     "photo": "https://clerk.house.gov/images/members/D000594.jpg",
-    "votesWithPartyPct": 98.2,
+    "votesWithPartyPct": 98.3,
     "billsSponsored": 31,
     "missedVotesPct": 7.7,
-    "missedVotesCount": 38,
+    "missedVotesCount": 40,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -68059,9 +68059,9 @@
     "districtCode": "TX-16",
     "slug": "veronica_escobar",
     "photo": "https://clerk.house.gov/images/members/E000299.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 13,
-    "missedVotesPct": 1.6,
+    "missedVotesPct": 1.5,
     "missedVotesCount": 8,
     "recentVotes": [
       {
@@ -68574,9 +68574,9 @@
     "districtCode": "TX-19",
     "slug": "jodey_c_arrington",
     "photo": "https://clerk.house.gov/images/members/A000375.jpg",
-    "votesWithPartyPct": 96.8,
+    "votesWithPartyPct": 97,
     "billsSponsored": 55,
-    "missedVotesPct": 3.6,
+    "missedVotesPct": 3.5,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -68762,9 +68762,9 @@
     "districtCode": "TX-20",
     "slug": "joaquin_castro",
     "photo": "https://clerk.house.gov/images/members/C001091.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 21,
-    "missedVotesPct": 3.4,
+    "missedVotesPct": 3.3,
     "missedVotesCount": 17,
     "recentVotes": [
       {
@@ -68950,9 +68950,9 @@
     "districtCode": "TX-21",
     "slug": "chip_roy",
     "photo": "https://clerk.house.gov/images/members/R000614.jpg",
-    "votesWithPartyPct": 82.9,
+    "votesWithPartyPct": 83.1,
     "billsSponsored": 53,
-    "missedVotesPct": 3.2,
+    "missedVotesPct": 3.1,
     "missedVotesCount": 16,
     "recentVotes": [
       {
@@ -69138,10 +69138,10 @@
     "districtCode": "TX-22",
     "slug": "troy_e_nehls",
     "photo": "https://clerk.house.gov/images/members/N000026.jpg",
-    "votesWithPartyPct": 96.5,
+    "votesWithPartyPct": 96.6,
     "billsSponsored": 29,
-    "missedVotesPct": 8.3,
-    "missedVotesCount": 41,
+    "missedVotesPct": 8.1,
+    "missedVotesCount": 42,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -69326,10 +69326,10 @@
     "districtCode": "TX-24",
     "slug": "beth_van_duyne",
     "photo": "https://clerk.house.gov/images/members/V000134.jpg",
-    "votesWithPartyPct": 97.1,
+    "votesWithPartyPct": 97.2,
     "billsSponsored": 40,
-    "missedVotesPct": 0.8,
-    "missedVotesCount": 4,
+    "missedVotesPct": 1,
+    "missedVotesCount": 5,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -69514,9 +69514,9 @@
     "districtCode": "TX-25",
     "slug": "roger_williams",
     "photo": "https://clerk.house.gov/images/members/W000816.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 37,
-    "missedVotesPct": 5.1,
+    "missedVotesPct": 4.8,
     "missedVotesCount": 25,
     "recentVotes": [
       {
@@ -69704,7 +69704,7 @@
     "photo": "https://clerk.house.gov/images/members/G000603.jpg",
     "votesWithPartyPct": 90.9,
     "billsSponsored": 21,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -69890,9 +69890,9 @@
     "districtCode": "TX-27",
     "slug": "michael_cloud",
     "photo": "https://clerk.house.gov/images/members/C001115.jpg",
-    "votesWithPartyPct": 89.6,
+    "votesWithPartyPct": 89.7,
     "billsSponsored": 22,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -70078,9 +70078,9 @@
     "districtCode": "TX-28",
     "slug": "henry_cuellar",
     "photo": "https://clerk.house.gov/images/members/C001063.jpg",
-    "votesWithPartyPct": 75.4,
+    "votesWithPartyPct": 75,
     "billsSponsored": 2,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -70210,10 +70210,10 @@
     "districtCode": "TX-29",
     "slug": "sylvia_r_garcia",
     "photo": "https://clerk.house.gov/images/members/G000587.jpg",
-    "votesWithPartyPct": 98.5,
+    "votesWithPartyPct": 98.6,
     "billsSponsored": 15,
-    "missedVotesPct": 5.7,
-    "missedVotesCount": 28,
+    "missedVotesPct": 5.6,
+    "missedVotesCount": 29,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -70398,10 +70398,10 @@
     "districtCode": "TX-30",
     "slug": "jasmine_crockett",
     "photo": "https://clerk.house.gov/images/members/C001130.jpg",
-    "votesWithPartyPct": 98.5,
+    "votesWithPartyPct": 98.6,
     "billsSponsored": 18,
-    "missedVotesPct": 5.9,
-    "missedVotesCount": 29,
+    "missedVotesPct": 5.8,
+    "missedVotesCount": 30,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -70586,9 +70586,9 @@
     "districtCode": "TX-31",
     "slug": "john_r_carter",
     "photo": "https://clerk.house.gov/images/members/C001051.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 4,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -70732,10 +70732,10 @@
     "districtCode": "TX-32",
     "slug": "julie_johnson",
     "photo": "https://clerk.house.gov/images/members/J000310.jpg",
-    "votesWithPartyPct": 96,
+    "votesWithPartyPct": 96.2,
     "billsSponsored": 22,
-    "missedVotesPct": 2,
-    "missedVotesCount": 10,
+    "missedVotesPct": 2.1,
+    "missedVotesCount": 11,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -70920,9 +70920,9 @@
     "districtCode": "TX-33",
     "slug": "marc_a_veasey",
     "photo": "https://clerk.house.gov/images/members/V000131.jpg",
-    "votesWithPartyPct": 94,
+    "votesWithPartyPct": 94.2,
     "billsSponsored": 11,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -71108,10 +71108,10 @@
     "districtCode": "TX-34",
     "slug": "vicente_gonzalez",
     "photo": "https://clerk.house.gov/images/members/G000581.jpg",
-    "votesWithPartyPct": 81.8,
+    "votesWithPartyPct": 81.5,
     "billsSponsored": 8,
-    "missedVotesPct": 5.1,
-    "missedVotesCount": 25,
+    "missedVotesPct": 5.2,
+    "missedVotesCount": 27,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -71282,10 +71282,10 @@
     "districtCode": "TX-35",
     "slug": "greg_casar",
     "photo": "https://clerk.house.gov/images/members/C001131.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 6,
-    "missedVotesPct": 17.8,
-    "missedVotesCount": 88,
+    "missedVotesPct": 18,
+    "missedVotesCount": 93,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -71442,9 +71442,9 @@
     "districtCode": "TX-36",
     "slug": "brian_babin",
     "photo": "https://clerk.house.gov/images/members/B001291.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 12,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -71630,9 +71630,9 @@
     "districtCode": "TX-37",
     "slug": "lloyd_doggett",
     "photo": "https://clerk.house.gov/images/members/D000399.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 21,
-    "missedVotesPct": 3.2,
+    "missedVotesPct": 3.1,
     "missedVotesCount": 16,
     "recentVotes": [
       {
@@ -71818,10 +71818,10 @@
     "districtCode": "TX-38",
     "slug": "wesley_hunt",
     "photo": "https://clerk.house.gov/images/members/H001095.jpg",
-    "votesWithPartyPct": 95.1,
+    "votesWithPartyPct": 95.3,
     "billsSponsored": 16,
-    "missedVotesPct": 29.5,
-    "missedVotesCount": 146,
+    "missedVotesPct": 30,
+    "missedVotesCount": 155,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -72194,7 +72194,7 @@
     "districtCode": "UT-2",
     "slug": "celeste_maloy",
     "photo": "https://clerk.house.gov/images/members/M001228.jpg",
-    "votesWithPartyPct": 96.1,
+    "votesWithPartyPct": 96.3,
     "billsSponsored": 23,
     "missedVotesPct": 1.2,
     "missedVotesCount": 6,
@@ -72384,7 +72384,7 @@
     "photo": "https://clerk.house.gov/images/members/K000403.jpg",
     "votesWithPartyPct": 94,
     "billsSponsored": 34,
-    "missedVotesPct": 2.4,
+    "missedVotesPct": 2.3,
     "missedVotesCount": 12,
     "recentVotes": [
       {
@@ -72570,7 +72570,7 @@
     "districtCode": "UT-4",
     "slug": "burgess_owens",
     "photo": "https://clerk.house.gov/images/members/O000086.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 97.4,
     "billsSponsored": 25,
     "missedVotesPct": 1.4,
     "missedVotesCount": 7,
@@ -72758,10 +72758,10 @@
     "districtCode": "VA-1",
     "slug": "robert_j_wittman",
     "photo": "https://clerk.house.gov/images/members/W000804.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 22,
-    "missedVotesPct": 2.8,
-    "missedVotesCount": 14,
+    "missedVotesPct": 3.1,
+    "missedVotesCount": 16,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -72946,9 +72946,9 @@
     "districtCode": "VA-2",
     "slug": "jennifer_a_kiggans",
     "photo": "https://clerk.house.gov/images/members/K000399.jpg",
-    "votesWithPartyPct": 95.8,
+    "votesWithPartyPct": 96,
     "billsSponsored": 53,
-    "missedVotesPct": 2.4,
+    "missedVotesPct": 2.3,
     "missedVotesCount": 12,
     "recentVotes": [
       {
@@ -73136,8 +73136,8 @@
     "photo": "https://clerk.house.gov/images/members/S000185.jpg",
     "votesWithPartyPct": 99.4,
     "billsSponsored": 17,
-    "missedVotesPct": 0.2,
-    "missedVotesCount": 1,
+    "missedVotesPct": 0.4,
+    "missedVotesCount": 2,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -73512,7 +73512,7 @@
     "photo": "https://clerk.house.gov/images/members/M001239.jpg",
     "votesWithPartyPct": 94,
     "billsSponsored": 17,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 10,
     "recentVotes": [
       {
@@ -73698,10 +73698,10 @@
     "districtCode": "VA-6",
     "slug": "ben_cline",
     "photo": "https://clerk.house.gov/images/members/C001118.jpg",
-    "votesWithPartyPct": 93.8,
+    "votesWithPartyPct": 94.1,
     "billsSponsored": 26,
-    "missedVotesPct": 1.2,
-    "missedVotesCount": 6,
+    "missedVotesPct": 1.4,
+    "missedVotesCount": 7,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -73886,10 +73886,10 @@
     "districtCode": "VA-7",
     "slug": "eugene_simon_vindman",
     "photo": "https://clerk.house.gov/images/members/V000138.jpg",
-    "votesWithPartyPct": 90.6,
+    "votesWithPartyPct": 90.8,
     "billsSponsored": 54,
-    "missedVotesPct": 0.6,
-    "missedVotesCount": 3,
+    "missedVotesPct": 0.8,
+    "missedVotesCount": 4,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -74074,9 +74074,9 @@
     "districtCode": "VA-8",
     "slug": "donald_s_beyer_jr",
     "photo": "https://clerk.house.gov/images/members/B001292.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 45,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 13,
     "recentVotes": [
       {
@@ -74262,9 +74262,9 @@
     "districtCode": "VA-9",
     "slug": "h_morgan_griffith",
     "photo": "https://clerk.house.gov/images/members/G000568.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.4,
     "billsSponsored": 33,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -74450,7 +74450,7 @@
     "districtCode": "VA-10",
     "slug": "suhas_subramanyam",
     "photo": "https://clerk.house.gov/images/members/S001230.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.5,
     "billsSponsored": 32,
     "missedVotesPct": 0.4,
     "missedVotesCount": 2,
@@ -74638,9 +74638,9 @@
     "districtCode": "VA-11",
     "slug": "james_r_walkinshaw",
     "photo": "https://clerk.house.gov/images/members/W000831.jpg",
-    "votesWithPartyPct": 98.8,
+    "votesWithPartyPct": 98.9,
     "billsSponsored": 11,
-    "missedVotesPct": 0.8,
+    "missedVotesPct": 0.7,
     "missedVotesCount": 2,
     "recentVotes": [
       {
@@ -75016,7 +75016,7 @@
     "photo": "https://clerk.house.gov/images/members/D000617.jpg",
     "votesWithPartyPct": 98.8,
     "billsSponsored": 12,
-    "missedVotesPct": 1.6,
+    "missedVotesPct": 1.5,
     "missedVotesCount": 8,
     "recentVotes": [
       {
@@ -75202,10 +75202,10 @@
     "districtCode": "WA-2",
     "slug": "rick_larsen",
     "photo": "https://clerk.house.gov/images/members/L000560.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 9,
-    "missedVotesPct": 3.6,
-    "missedVotesCount": 18,
+    "missedVotesPct": 3.9,
+    "missedVotesCount": 20,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -75383,7 +75383,7 @@
     "districtCode": "WA-3",
     "slug": "marie_gluesenkamp_perez",
     "photo": "https://clerk.house.gov/images/members/G000600.jpg",
-    "votesWithPartyPct": 77.9,
+    "votesWithPartyPct": 78.1,
     "billsSponsored": 23,
     "missedVotesPct": 1.4,
     "missedVotesCount": 7,
@@ -75571,9 +75571,9 @@
     "districtCode": "WA-4",
     "slug": "dan_newhouse",
     "photo": "https://clerk.house.gov/images/members/N000189.jpg",
-    "votesWithPartyPct": 96.2,
+    "votesWithPartyPct": 96.4,
     "billsSponsored": 27,
-    "missedVotesPct": 3.2,
+    "missedVotesPct": 3.1,
     "missedVotesCount": 16,
     "recentVotes": [
       {
@@ -75761,7 +75761,7 @@
     "photo": "https://clerk.house.gov/images/members/B001322.jpg",
     "votesWithPartyPct": 98.6,
     "billsSponsored": 18,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -75947,10 +75947,10 @@
     "districtCode": "WA-6",
     "slug": "emily_randall",
     "photo": "https://clerk.house.gov/images/members/R000621.jpg",
-    "votesWithPartyPct": 97.7,
+    "votesWithPartyPct": 97.8,
     "billsSponsored": 11,
-    "missedVotesPct": 3.8,
-    "missedVotesCount": 19,
+    "missedVotesPct": 3.9,
+    "missedVotesCount": 20,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -76135,10 +76135,10 @@
     "districtCode": "WA-7",
     "slug": "pramila_jayapal",
     "photo": "https://clerk.house.gov/images/members/J000298.jpg",
-    "votesWithPartyPct": 97,
+    "votesWithPartyPct": 97.1,
     "billsSponsored": 36,
-    "missedVotesPct": 6.1,
-    "missedVotesCount": 30,
+    "missedVotesPct": 6,
+    "missedVotesCount": 31,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -76323,7 +76323,7 @@
     "districtCode": "WA-8",
     "slug": "kim_schrier",
     "photo": "https://clerk.house.gov/images/members/S001216.jpg",
-    "votesWithPartyPct": 93.6,
+    "votesWithPartyPct": 93.9,
     "billsSponsored": 19,
     "missedVotesPct": 1.4,
     "missedVotesCount": 7,
@@ -76511,9 +76511,9 @@
     "districtCode": "WA-9",
     "slug": "adam_smith",
     "photo": "https://clerk.house.gov/images/members/S000510.jpg",
-    "votesWithPartyPct": 98.9,
+    "votesWithPartyPct": 99,
     "billsSponsored": 16,
-    "missedVotesPct": 3.4,
+    "missedVotesPct": 3.3,
     "missedVotesCount": 17,
     "recentVotes": [
       {
@@ -76699,9 +76699,9 @@
     "districtCode": "WA-10",
     "slug": "marilyn_strickland",
     "photo": "https://clerk.house.gov/images/members/S001159.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 28,
-    "missedVotesPct": 2.8,
+    "missedVotesPct": 2.7,
     "missedVotesCount": 14,
     "recentVotes": [
       {
@@ -77075,7 +77075,7 @@
     "districtCode": "WI-2",
     "slug": "mark_pocan",
     "photo": "https://clerk.house.gov/images/members/P000607.jpg",
-    "votesWithPartyPct": 98.3,
+    "votesWithPartyPct": 98.4,
     "billsSponsored": 21,
     "missedVotesPct": 1.4,
     "missedVotesCount": 7,
@@ -77263,10 +77263,10 @@
     "districtCode": "WI-3",
     "slug": "derrick_van_orden",
     "photo": "https://clerk.house.gov/images/members/V000135.jpg",
-    "votesWithPartyPct": 95.7,
+    "votesWithPartyPct": 95.9,
     "billsSponsored": 26,
-    "missedVotesPct": 9.9,
-    "missedVotesCount": 49,
+    "missedVotesPct": 10.1,
+    "missedVotesCount": 52,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -77451,10 +77451,10 @@
     "districtCode": "WI-4",
     "slug": "gwen_moore",
     "photo": "https://clerk.house.gov/images/members/M001160.jpg",
-    "votesWithPartyPct": 97.7,
+    "votesWithPartyPct": 97.8,
     "billsSponsored": 28,
-    "missedVotesPct": 3.2,
-    "missedVotesCount": 16,
+    "missedVotesPct": 3.5,
+    "missedVotesCount": 18,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -77639,9 +77639,9 @@
     "districtCode": "WI-5",
     "slug": "scott_fitzgerald",
     "photo": "https://clerk.house.gov/images/members/F000471.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 23,
-    "missedVotesPct": 1.6,
+    "missedVotesPct": 1.5,
     "missedVotesCount": 8,
     "recentVotes": [
       {
@@ -77829,7 +77829,7 @@
     "photo": "https://clerk.house.gov/images/members/G000576.jpg",
     "votesWithPartyPct": 96,
     "billsSponsored": 26,
-    "missedVotesPct": 2.2,
+    "missedVotesPct": 2.1,
     "missedVotesCount": 11,
     "recentVotes": [
       {
@@ -78015,9 +78015,9 @@
     "districtCode": "WI-7",
     "slug": "thomas_p_tiffany",
     "photo": "https://clerk.house.gov/images/members/T000165.jpg",
-    "votesWithPartyPct": 93.4,
+    "votesWithPartyPct": 93.7,
     "billsSponsored": 16,
-    "missedVotesPct": 7.3,
+    "missedVotesPct": 7,
     "missedVotesCount": 36,
     "recentVotes": [
       {
@@ -78203,10 +78203,10 @@
     "districtCode": "WI-8",
     "slug": "tony_wied",
     "photo": "https://clerk.house.gov/images/members/W000829.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.5,
     "billsSponsored": 16,
-    "missedVotesPct": 1,
-    "missedVotesCount": 5,
+    "missedVotesPct": 1.2,
+    "missedVotesCount": 6,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -78391,10 +78391,10 @@
     "districtCode": "WV-1",
     "slug": "carol_d_miller",
     "photo": "https://clerk.house.gov/images/members/M001205.jpg",
-    "votesWithPartyPct": 98.1,
+    "votesWithPartyPct": 98.2,
     "billsSponsored": 24,
-    "missedVotesPct": 3.2,
-    "missedVotesCount": 16,
+    "missedVotesPct": 3.3,
+    "missedVotesCount": 17,
     "recentVotes": [
       {
         "voteId": "h144",
@@ -78579,9 +78579,9 @@
     "districtCode": "WV-2",
     "slug": "riley_m_moore",
     "photo": "https://clerk.house.gov/images/members/M001235.jpg",
-    "votesWithPartyPct": 94,
+    "votesWithPartyPct": 94.1,
     "billsSponsored": 16,
-    "missedVotesPct": 1.8,
+    "missedVotesPct": 1.7,
     "missedVotesCount": 9,
     "recentVotes": [
       {
@@ -78767,10 +78767,10 @@
     "districtCode": "WY-AL",
     "slug": "harriet_m_hageman",
     "photo": "https://clerk.house.gov/images/members/H001096.jpg",
-    "votesWithPartyPct": 93.3,
+    "votesWithPartyPct": 93.6,
     "billsSponsored": 49,
-    "missedVotesPct": 0.2,
-    "missedVotesCount": 1,
+    "missedVotesPct": 0.4,
+    "missedVotesCount": 2,
     "recentVotes": [
       {
         "voteId": "h144",
