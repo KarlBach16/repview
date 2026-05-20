@@ -123,16 +123,16 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8597",
-        "billNo": "H.R. 8597",
-        "title": "Air Traffic Situational Awareness Enhancement Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8598",
+        "billNo": "H.R. 8598",
+        "title": "North Pacific Fishery Management Council Representation Enhancement Act of 2026",
         "proposalDate": "2026-04-30",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8598",
-        "billNo": "H.R. 8598",
-        "title": "North Pacific Fishery Management Council Representation Enhancement Act of 2026",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8597",
+        "billNo": "H.R. 8597",
+        "title": "Air Traffic Situational Awareness Enhancement Act",
         "proposalDate": "2026-04-30",
         "status": "Introduced"
       },
@@ -499,13 +499,6 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8505",
-        "billNo": "H.R. 8505",
-        "title": "Veterinary Education Equity Act",
-        "proposalDate": "2026-04-27",
-        "status": "Introduced"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8504",
         "billNo": "H.R. 8504",
         "title": "Rural Health Resilience Act of 2026",
@@ -516,6 +509,13 @@
         "billId": "https://www.govtrack.us/congress/bills/119/hr8503",
         "billNo": "H.R. 8503",
         "title": "Save SNAP Act of 2026",
+        "proposalDate": "2026-04-27",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8505",
+        "billNo": "H.R. 8505",
+        "title": "Veterinary Education Equity Act",
         "proposalDate": "2026-04-27",
         "status": "Introduced"
       },
@@ -10336,13 +10336,6 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8549",
-        "billNo": "H.R. 8549",
-        "title": "Second Look Act of 2026",
-        "proposalDate": "2026-04-28",
-        "status": "Introduced"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hres1222",
         "billNo": "H.Res. 1222",
         "title": "Recognizing the designation of the week of April 24 through April 30 as the annual “National Reentry Week”.",
@@ -10350,9 +10343,9 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8547",
-        "billNo": "H.R. 8547",
-        "title": "‘Directly Impacted Child Rehab and Safety Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8549",
+        "billNo": "H.R. 8549",
+        "title": "Second Look Act of 2026",
         "proposalDate": "2026-04-28",
         "status": "Introduced"
       },
@@ -10360,6 +10353,13 @@
         "billId": "https://www.govtrack.us/congress/bills/119/hr8548",
         "billNo": "H.R. 8548",
         "title": "One Stop Shop Community Reentry Program Act of 2026",
+        "proposalDate": "2026-04-28",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8547",
+        "billNo": "H.R. 8547",
+        "title": "‘Directly Impacted Child Rehab and Safety Act",
         "proposalDate": "2026-04-28",
         "status": "Introduced"
       },
@@ -10902,7 +10902,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8615",
         "billNo": "H.R. 8615",
-        "title": "To combat China’s unfair and non-market-oriented trade practices related to the shipbuilding industry, and for other purposes.",
+        "title": "FLEETS Now Act",
         "proposalDate": "2026-04-30",
         "status": "Introduced"
       },
@@ -36560,16 +36560,16 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres1295",
-        "billNo": "H.Res. 1295",
-        "title": "Expressing support for the designation of May 17, 2026, as “DIPG Awareness Day” to raise awareness and encourage research into cures for diffuse intrinsic pontine glioma (DIPG) and pediatric cancers in general.",
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1294",
+        "billNo": "H.Res. 1294",
+        "title": "Supporting the designation of May 15, 2026, as “Endangered Species Day”.",
         "proposalDate": "2026-05-15",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres1294",
-        "billNo": "H.Res. 1294",
-        "title": "Supporting the designation of May 15, 2026, as “Endangered Species Day”.",
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1295",
+        "billNo": "H.Res. 1295",
+        "title": "Expressing support for the designation of May 17, 2026, as “DIPG Awareness Day” to raise awareness and encourage research into cures for diffuse intrinsic pontine glioma (DIPG) and pediatric cancers in general.",
         "proposalDate": "2026-05-15",
         "status": "Introduced"
       },
@@ -40698,7 +40698,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8324",
         "billNo": "H.R. 8324",
-        "title": "To amend the Internal Revenue Code of 1986 to increase the limitations on contributions to health savings accounts, to amend the Public Health Service Act to provide for hospital and insurer price transparency, and for other purposes.",
+        "title": "Great American Healthcare Plan",
         "proposalDate": "2026-04-16",
         "status": "Introduced"
       },
@@ -42722,16 +42722,16 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8478",
-        "billNo": "H.R. 8478",
-        "title": "RECON Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8479",
+        "billNo": "H.R. 8479",
+        "title": "Protecting Consumers from Deceptive AI Act",
         "proposalDate": "2026-04-23",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8479",
-        "billNo": "H.R. 8479",
-        "title": "Protecting Consumers from Deceptive AI Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8478",
+        "billNo": "H.R. 8478",
+        "title": "RECON Act",
         "proposalDate": "2026-04-23",
         "status": "Introduced"
       },
@@ -47380,16 +47380,16 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7448",
-        "billNo": "H.R. 7448",
-        "title": "Modernizing and Improving the National Terrorism Advisory System Act of 2026",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7449",
+        "billNo": "H.R. 7449",
+        "title": "PLATE Act",
         "proposalDate": "2026-02-09",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7449",
-        "billNo": "H.R. 7449",
-        "title": "PLATE Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7448",
+        "billNo": "H.R. 7448",
+        "title": "Modernizing and Improving the National Terrorism Advisory System Act of 2026",
         "proposalDate": "2026-02-09",
         "status": "Introduced"
       },
@@ -48425,7 +48425,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8616",
         "billNo": "H.R. 8616",
-        "title": "To establish the Caja del Rio Special Management Area and Caja del Rio National Conservation Area in the State of New Mexico, and for other purposes.",
+        "title": "Caja del Rio Protection Act",
         "proposalDate": "2026-04-30",
         "status": "Introduced"
       },
@@ -48982,7 +48982,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8752",
         "billNo": "H.R. 8752",
-        "title": "To improve the full-service community school program, and for other purposes.",
+        "title": "Full-Service Community School Expansion Act of 2026",
         "proposalDate": "2026-05-12",
         "status": "Introduced"
       },
@@ -50500,7 +50500,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8563",
         "billNo": "H.R. 8563",
-        "title": "To clarify eligibility for small business loans, and for other purposes.",
+        "title": "Investing in the American Dream Act",
         "proposalDate": "2026-04-28",
         "status": "Introduced"
       },
@@ -53753,7 +53753,7 @@
         "billNo": "H.R. 8738",
         "title": "FEC Administrative Improvements Act",
         "proposalDate": "2026-05-12",
-        "status": "Introduced"
+        "status": "Ordered Reported"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8342",
@@ -57645,7 +57645,7 @@
         "billNo": "H.R. 7418",
         "title": "STEADFAST Act",
         "proposalDate": "2026-02-09",
-        "status": "Introduced"
+        "status": "Ordered Reported"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr7308",
@@ -62285,13 +62285,6 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8518",
-        "billNo": "H.R. 8518",
-        "title": "Domenic and Ed’s Law",
-        "proposalDate": "2026-04-27",
-        "status": "Introduced"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8517",
         "billNo": "H.R. 8517",
         "title": "Clean Energy Workforce Act",
@@ -62299,16 +62292,23 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7435",
-        "billNo": "H.R. 7435",
-        "title": "DHS Intelligence Transparency and Oversight Program Office and Ombuds Act",
-        "proposalDate": "2026-02-09",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8518",
+        "billNo": "H.R. 8518",
+        "title": "Domenic and Ed’s Law",
+        "proposalDate": "2026-04-27",
         "status": "Introduced"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr7436",
         "billNo": "H.R. 7436",
         "title": "Department of Homeland Security Intelligence and Analysis Training Act",
+        "proposalDate": "2026-02-09",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7435",
+        "billNo": "H.R. 7435",
+        "title": "DHS Intelligence Transparency and Oversight Program Office and Ombuds Act",
         "proposalDate": "2026-02-09",
         "status": "Introduced"
       },
@@ -70970,7 +70970,7 @@
         "billNo": "H.R. 7182",
         "title": "VOTE Act",
         "proposalDate": "2026-01-21",
-        "status": "Introduced"
+        "status": "Ordered Reported"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr6717",
@@ -74507,7 +74507,7 @@
         "billNo": "H.R. 6028",
         "title": "Legislative Branch Agencies Clarification Act",
         "proposalDate": "2025-11-12",
-        "status": "Introduced"
+        "status": "Ordered Reported"
       }
     ]
   },
@@ -74649,16 +74649,16 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8492",
-        "billNo": "H.R. 8492",
-        "title": "Public Safety UAS Readiness Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8493",
+        "billNo": "H.R. 8493",
+        "title": "Peer Support for Our First Responders Act of 2026",
         "proposalDate": "2026-04-23",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8493",
-        "billNo": "H.R. 8493",
-        "title": "Peer Support for Our First Responders Act of 2026",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8492",
+        "billNo": "H.R. 8492",
+        "title": "Public Safety UAS Readiness Act",
         "proposalDate": "2026-04-23",
         "status": "Introduced"
       },
@@ -77079,18 +77079,18 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8720",
-        "billNo": "H.R. 8720",
-        "title": "Campaign Finance Transparency Act",
-        "proposalDate": "2026-05-11",
-        "status": "Introduced"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8721",
         "billNo": "H.R. 8721",
         "title": "Preventing Foreign Interference in American Elections Act",
         "proposalDate": "2026-05-11",
-        "status": "Introduced"
+        "status": "Ordered Reported"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8720",
+        "billNo": "H.R. 8720",
+        "title": "Campaign Finance Transparency Act",
+        "proposalDate": "2026-05-11",
+        "status": "Ordered Reported"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8529",
@@ -77678,16 +77678,16 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres1103",
-        "billNo": "H.Res. 1103",
-        "title": "Expressing support for the designation of the week beginning March 2, 2026, as “School Social Work Week”.",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7798",
+        "billNo": "H.R. 7798",
+        "title": "School Social Workers Improving Student Success Act",
         "proposalDate": "2026-03-04",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7798",
-        "billNo": "H.R. 7798",
-        "title": "School Social Workers Improving Student Success Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1103",
+        "billNo": "H.Res. 1103",
+        "title": "Expressing support for the designation of the week beginning March 2, 2026, as “School Social Work Week”.",
         "proposalDate": "2026-03-04",
         "status": "Introduced"
       },
