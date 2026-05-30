@@ -31484,7 +31484,7 @@
         "billId": "PRC_G2E5F1N1N2L5N1L3L4K8K1S9Q3R8P4",
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2025-12-19",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_K2K5I1J1H0P7Q1O4O0N5O1M3M6I6J1",
@@ -32322,7 +32322,7 @@
         "billId": "PRC_H2I6Q0R4P1N0O1M4N3J7J4H8G8H2F7",
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2026-04-10",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_G2E6F0D4E0C6K1L3J3J9I2J8H9D7D9",
@@ -32334,13 +32334,13 @@
         "billId": "PRC_C2A6A0Z3H1E7D1Z4F5E0D5A1Y1Y1W2",
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2026-03-17",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_S2A6Y0Z2X2X3W1X0S0T8R5S2Q2O9P4",
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2026-02-26",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_A2Y6W0X2W2W0S1S6Q5P0Q2O4O8X3X4",
@@ -32358,7 +32358,7 @@
         "billId": "PRC_M2N6U0V2U0S3S1R3R5Z2A1Y8Z7X2X0",
         "title": "기후위기 적응에 관한 특별법안",
         "proposalDate": "2026-02-03",
-        "billStatus": ""
+        "billStatus": "회송"
       }
     ]
   },
@@ -35402,8 +35402,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 37,
+    "billsProposed": 38,
     "recentBills": [
+      {
+        "billId": "PRC_A2Z6W0E5E2C2C1W5V3F6L4K8J4J2F3",
+        "title": "지방공기업법 일부개정법률안",
+        "proposalDate": "2026-05-29",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_N2N6L0M4L2L9J1K1G3E2F3D9E7C1C7",
         "title": "교육기본법 일부개정법률안",
@@ -35456,12 +35462,6 @@
         "billId": "PRC_N2M6M0K1T1T5R1S7Q0R7P3Q8Y8Y8X2",
         "title": "기초학력 보장법 일부개정법률안",
         "proposalDate": "2026-01-28",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_Y2Y5G1H1F1D1E1C7D1L8M3K5I4J9H7",
-        "title": "자격기본법 일부개정법률안",
-        "proposalDate": "2025-12-08",
         "billStatus": ""
       }
     ]
@@ -40267,7 +40267,7 @@
         "billId": "PRC_L2J6J0R1S2Q8R1P6Q0O8O3W2V9V7T0",
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2026-02-27",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_J2J6H0I2G2F5F1B1B1A0B0Z5Z4Y0G4",
@@ -51796,8 +51796,32 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 31,
+    "billsProposed": 35,
     "recentBills": [
+      {
+        "billId": "PRC_W2V6K0K5I2H1N1M9L0T2T0R4Q0Y4X1",
+        "title": "연구개발특구의 육성에 관한 특별법 일부개정법률안",
+        "proposalDate": "2026-05-29",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_I2R6Q0P5O2K1H1G9O0N0K1T1R6R5P9",
+        "title": "전기통신사업법 일부개정법률안",
+        "proposalDate": "2026-05-29",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_K2J6P0O5Q2P1O1I8H2G4P1O1L0T2R4",
+        "title": "방송법 일부개정법률안",
+        "proposalDate": "2026-05-29",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_E2D6I0Q5P2M1V1U8S5S7M0L8V1U8A4",
+        "title": "방송광고판매대행 등에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-05-29",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_D2B6A0A5Z0Z6H1I7G0H4F2D6E6M4M2",
         "title": "여성과학기술인 육성 및 지원에 관한 법률 일부개정법률안",
@@ -51833,30 +51857,6 @@
         "title": "방송법 일부개정법률안",
         "proposalDate": "2026-03-16",
         "billStatus": "대안반영폐기"
-      },
-      {
-        "billId": "PRC_Y2W6W0V3V1T2U1C4D5B4B5A7A4H7F6",
-        "title": "방송통신발전 기본법 일부개정법률안",
-        "proposalDate": "2026-03-16",
-        "billStatus": "대안반영폐기"
-      },
-      {
-        "billId": "PRC_V2D6E0C3C0A5C1A1A4P7Q0O8N6N3L2",
-        "title": "방송법 일부개정법률안",
-        "proposalDate": "2026-03-06",
-        "billStatus": "대안반영폐기"
-      },
-      {
-        "billId": "PRC_I2J6H0G3G0F4F1N4N3M7N2L3L0K7K4",
-        "title": "디지털 재난안전 관리법안",
-        "proposalDate": "2026-03-06",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_T2U6B0C3B0B3Z1A1Y0Z6G1F2G6E4E2",
-        "title": "한국과학기술원법 일부개정법률안",
-        "proposalDate": "2026-03-03",
-        "billStatus": ""
       }
     ]
   },
@@ -66002,7 +66002,7 @@
         "billId": "PRC_U2V6D0B5C0A8A1Z0A1H3G0H7F3G8E7",
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2026-05-14",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_P2Y6W0V3T2U3R1P0C5B3X2V3U6T1U2",
@@ -77361,7 +77361,7 @@
         "billId": "PRC_W2U6T0U4S1S6A1B8Z5A4Y0W6X3T2T1",
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2026-04-24",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_A2A6W0X4V1T6U1T8T5B3Z0A6Y7Z3X9",
@@ -77373,7 +77373,7 @@
         "billId": "PRC_W2X6V0U3A2W3V1U4T0B2Z4A8Z0X5F8",
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2026-03-30",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_N2O6M0M3K1M2K1K6S2S4R1P5Q5O6P1",
@@ -129121,7 +129121,7 @@
         "billId": "PRC_X2W5U0T8B1A8Z1A0F2E9D4C0K2L2J3",
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2025-08-20",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_L2M5K0K2S1R7R1Q8Q0P6P0X9X3W7U0",
@@ -137066,7 +137066,7 @@
         "billId": "PRC_O2N6L0M4U2U0S1T5S4S7Q5R1Z5Z3Y1",
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2026-04-21",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_Y2Z6V0W4U1U4T1R0R1A8A3Y6X8Y7W4",
@@ -155322,7 +155322,7 @@
         "billId": "PRC_D2D5B0A3B0Z9Z2H2I0G5H5F7E3E8A7",
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2025-03-11",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_K2J4R0R8P2Q9P1P3N0O0E2C2D0B2C9",
@@ -166267,8 +166267,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 99,
+    "billsProposed": 100,
     "recentBills": [
+      {
+        "billId": "PRC_M2L6K0S5P2O7X1X4W4C3B0A7J6I5E0",
+        "title": "공익신고장려기금법안",
+        "proposalDate": "2026-05-29",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_N2N6L0M5L1L2T1R1R1P5Q1Y4Y3W2X9",
         "title": "전기통신사업법 일부개정법률안",
@@ -166321,12 +166327,6 @@
         "billId": "PRC_L2K6I0J3R2Q4O1N0V0Y6X4V9U3C5B1",
         "title": "영화 및 비디오물의 진흥에 관한 법률 일부개정법률안",
         "proposalDate": "2026-03-24",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_G2F6F0E2E2C6D1L4M4K8K2J3H7I0W9",
-        "title": "사법경찰관리의 직무를 수행할 자와 그 직무범위에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-02-27",
         "billStatus": ""
       }
     ]
@@ -179504,7 +179504,7 @@
         "billId": "PRC_X2W6V0V3U2C6B1A4Y2Z7H1G5E6F3D5",
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2026-04-24",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_B2C6A0A1I3J0H1I6G0G9F3F7O3M0M8",
