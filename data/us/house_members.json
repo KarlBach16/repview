@@ -24773,7 +24773,7 @@
     "slug": "robin_l_kelly",
     "photo": "https://clerk.house.gov/images/members/K000385.jpg",
     "votesWithPartyPct": 98.3,
-    "billsSponsored": 0,
+    "billsSponsored": 21,
     "missedVotesPct": 2.4,
     "missedVotesCount": 13,
     "recentVotes": [
@@ -24878,7 +24878,78 @@
         "voteLabel": "House Vote #180"
       }
     ],
-    "recentBills": []
+    "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8576",
+        "billNo": "H.R. 8576",
+        "title": "Promoting Access to Broadband Act of 2026",
+        "proposalDate": "2026-04-29",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7906",
+        "billNo": "H.R. 7906",
+        "title": "FOOD for Health Act",
+        "proposalDate": "2026-03-12",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7830",
+        "billNo": "H.R. 7830",
+        "title": "WELLS Act",
+        "proposalDate": "2026-03-05",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7500",
+        "billNo": "H.R. 7500",
+        "title": "Responsible Firearms Marketing Act",
+        "proposalDate": "2026-02-11",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7499",
+        "billNo": "H.R. 7499",
+        "title": "To amend the Consumer Product Safety Act to remove the exclusion of pistols, revolvers, and other firearms from the definition of consumer product in order to permit the issuance of safety standards for such articles by the Consumer Product Safety Commission.",
+        "proposalDate": "2026-02-11",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres996",
+        "billNo": "H.Res. 996",
+        "title": "Impeaching Kristi Lynn Arnold Noem, Secretary of Homeland Security, for high crimes and misdemeanors.",
+        "proposalDate": "2026-01-14",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6947",
+        "billNo": "H.R. 6947",
+        "title": "SAFE Exit Act of 2026",
+        "proposalDate": "2026-01-06",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6867",
+        "billNo": "H.R. 6867",
+        "title": "NIH Clinical Trial Integrity Act",
+        "proposalDate": "2025-12-18",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6798",
+        "billNo": "H.R. 6798",
+        "title": "Calumet National Heritage Area Act",
+        "proposalDate": "2025-12-17",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6303",
+        "billNo": "H.R. 6303",
+        "title": "CARE for Moms Act",
+        "proposalDate": "2025-11-25",
+        "status": "Introduced"
+      }
+    ]
   },
   {
     "bioguideId": "R000617",
@@ -32882,7 +32953,7 @@
     "slug": "katherine_m_clark",
     "photo": "https://clerk.house.gov/images/members/C001101.jpg",
     "votesWithPartyPct": 98.7,
-    "billsSponsored": 0,
+    "billsSponsored": 3,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
     "recentVotes": [
@@ -32987,7 +33058,29 @@
         "voteLabel": "House Vote #180"
       }
     ],
-    "recentBills": []
+    "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr5458",
+        "billNo": "H.R. 5458",
+        "title": "CCAMPIS Reauthorization Act",
+        "proposalDate": "2025-09-18",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr3273",
+        "billNo": "H.R. 3273",
+        "title": "Child Care Workforce Development Act",
+        "proposalDate": "2025-05-08",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr3274",
+        "billNo": "H.R. 3274",
+        "title": "Child Care Infrastructure Act",
+        "proposalDate": "2025-05-08",
+        "status": "Introduced"
+      }
+    ]
   },
   {
     "bioguideId": "M001196",
@@ -38101,7 +38194,7 @@
     "slug": "angie_craig",
     "photo": "https://clerk.house.gov/images/members/C001119.jpg",
     "votesWithPartyPct": 95.1,
-    "billsSponsored": 0,
+    "billsSponsored": 19,
     "missedVotesPct": 2.7,
     "missedVotesCount": 15,
     "recentVotes": [
@@ -38206,7 +38299,78 @@
         "voteLabel": "House Vote #180"
       }
     ],
-    "recentBills": []
+    "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1306",
+        "billNo": "H.Res. 1306",
+        "title": "Recognizing “National Public Works Week” and the essential contributions of public works professionals.",
+        "proposalDate": "2026-05-20",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8442",
+        "billNo": "H.R. 8442",
+        "title": "Patient Refunds for Bad Denials Act of 2026",
+        "proposalDate": "2026-04-22",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7206",
+        "billNo": "H.R. 7206",
+        "title": "Farm and Family Relief Act",
+        "proposalDate": "2026-01-22",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7207",
+        "billNo": "H.R. 7207",
+        "title": "Presidential Conflicts of Interest Accountability Act",
+        "proposalDate": "2026-01-22",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7155",
+        "billNo": "H.R. 7155",
+        "title": "Stop Fraud in Federal Programs Act of 2026",
+        "proposalDate": "2026-01-20",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6255",
+        "billNo": "H.R. 6255",
+        "title": "Affordable Insulin Now Act",
+        "proposalDate": "2025-11-21",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr5678",
+        "billNo": "H.R. 5678",
+        "title": "No Pay for Disarray Act",
+        "proposalDate": "2025-10-03",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr5679",
+        "billNo": "H.R. 5679",
+        "title": "TRUMP Act",
+        "proposalDate": "2025-10-03",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr5173",
+        "billNo": "H.R. 5173",
+        "title": "No Social Media at School Act",
+        "proposalDate": "2025-09-08",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr4588",
+        "billNo": "H.R. 4588",
+        "title": "Supporting Apprenticeship Colleges Act of 2025",
+        "proposalDate": "2025-07-22",
+        "status": "Introduced"
+      }
+    ]
   },
   {
     "bioguideId": "M001234",
@@ -54286,7 +54450,7 @@
     "slug": "joyce_beatty",
     "photo": "https://clerk.house.gov/images/members/B001281.jpg",
     "votesWithPartyPct": 98.2,
-    "billsSponsored": 0,
+    "billsSponsored": 21,
     "missedVotesPct": 6.5,
     "missedVotesCount": 36,
     "recentVotes": [
@@ -54391,7 +54555,78 @@
         "voteLabel": "House Vote #180"
       }
     ],
-    "recentBills": []
+    "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1325",
+        "billNo": "H.Res. 1325",
+        "title": "Expressing support for May 2026 as “American Stroke Month” and encouraging all to learn the warning signs of stroke, understand their personal risk factors, and take action to improve stroke prevention, response, and recovery in our communities.",
+        "proposalDate": "2026-05-29",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hjres161",
+        "billNo": "H.J.Res. 161",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Consumer Financial Protection relating to the withdrawal of the rule relating to “Bulletin 2012-04: Lending discrimination (April 18, 2012)”.",
+        "proposalDate": "2026-04-30",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8038",
+        "billNo": "H.R. 8038",
+        "title": "DPA Private-Sector Outreach Act of 2026",
+        "proposalDate": "2026-03-24",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1107",
+        "billNo": "H.Res. 1107",
+        "title": "Memorializing Rev. Jesse Jackson by flying the flag of the United States at halfstaff.",
+        "proposalDate": "2026-03-05",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7785",
+        "billNo": "H.R. 7785",
+        "title": "Protecting Our Communities Act",
+        "proposalDate": "2026-03-04",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1077",
+        "billNo": "H.Res. 1077",
+        "title": "Expressing the sense of the House of Representatives that the Citizens’ Stamp Advisory Committee, as an entity of the United States Postal Service, should issue a commemorative stamp in honor of Charity Adams Earley.",
+        "proposalDate": "2026-02-25",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1043",
+        "billNo": "H.Res. 1043",
+        "title": "Expressing support for the designation of February 2026 as “American Heart Month”.",
+        "proposalDate": "2026-02-09",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7417",
+        "billNo": "H.R. 7417",
+        "title": "Women’s Heart Health Expansion Act of 2026",
+        "proposalDate": "2026-02-09",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6375",
+        "billNo": "H.R. 6375",
+        "title": "21st Century STEM for Girls and Underrepresented Minorities Act",
+        "proposalDate": "2025-12-03",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6125",
+        "billNo": "H.R. 6125",
+        "title": "Housing Financial Literacy Act of 2025",
+        "proposalDate": "2025-11-19",
+        "status": "Introduced"
+      }
+    ]
   },
   {
     "bioguideId": "J000289",
@@ -59228,7 +59463,7 @@
     "slug": "madeleine_dean",
     "photo": "https://clerk.house.gov/images/members/D000631.jpg",
     "votesWithPartyPct": 99.6,
-    "billsSponsored": 0,
+    "billsSponsored": 18,
     "missedVotesPct": 1.8,
     "missedVotesCount": 10,
     "recentVotes": [
@@ -59333,7 +59568,78 @@
         "voteLabel": "House Vote #180"
       }
     ],
-    "recentBills": []
+    "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8681",
+        "billNo": "H.R. 8681",
+        "title": "SHIELD Act",
+        "proposalDate": "2026-05-07",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1158",
+        "billNo": "H.Res. 1158",
+        "title": "Recognizing the importance of sleep health and expressing support for the designation of the week of March 9 through March 13, 2026, as “Sleep Awareness Week”.",
+        "proposalDate": "2026-04-09",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7491",
+        "billNo": "H.R. 7491",
+        "title": "Effective Assistance of Counsel in the Digital Era Act",
+        "proposalDate": "2026-02-11",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7355",
+        "billNo": "H.R. 7355",
+        "title": "Flood History Information Act of 2026",
+        "proposalDate": "2026-02-04",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7209",
+        "billNo": "H.R. 7209",
+        "title": "TRAIN Act",
+        "proposalDate": "2026-01-22",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6626",
+        "billNo": "H.R. 6626",
+        "title": "PFAS Accountability Act of 2025",
+        "proposalDate": "2025-12-11",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6434",
+        "billNo": "H.R. 6434",
+        "title": "Freedom to Heal Act of 2025",
+        "proposalDate": "2025-12-04",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres845",
+        "billNo": "H.Res. 845",
+        "title": "Expressing support for the recognition of the week of November 2 through November 8, 2025, as “Drowsy Driving Prevention Week”.",
+        "proposalDate": "2025-10-31",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr4225",
+        "billNo": "H.R. 4225",
+        "title": "Protect Children Through Safe Gun Ownership Act",
+        "proposalDate": "2025-06-27",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr4224",
+        "billNo": "H.R. 4224",
+        "title": "Background Check Point of Contact Act of 2025",
+        "proposalDate": "2025-06-27",
+        "status": "Introduced"
+      }
+    ]
   },
   {
     "bioguideId": "S001205",
@@ -59533,7 +59839,7 @@
     "slug": "chrissy_houlahan",
     "photo": "https://clerk.house.gov/images/members/H001085.jpg",
     "votesWithPartyPct": 95.8,
-    "billsSponsored": 0,
+    "billsSponsored": 30,
     "missedVotesPct": 3.4,
     "missedVotesCount": 19,
     "recentVotes": [
@@ -59638,7 +59944,78 @@
         "voteLabel": "House Vote #180"
       }
     ],
-    "recentBills": []
+    "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8792",
+        "billNo": "H.R. 8792",
+        "title": "Multigenerational Caregiving Data Act",
+        "proposalDate": "2026-05-13",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8751",
+        "billNo": "H.R. 8751",
+        "title": "To designate a senior official responsible for the management and oversight of all programs and activities of the Department of Defense related to the transition of members of the Armed Forces to civilian or reserve status, and for other purposes.",
+        "proposalDate": "2026-05-12",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8545",
+        "billNo": "H.R. 8545",
+        "title": "Access to Donor Milk Act of 2026",
+        "proposalDate": "2026-04-28",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1184",
+        "billNo": "H.Res. 1184",
+        "title": "Recognizing and honoring National Mushroom Day and the contributions of Chester and Berks Counties to the national mushroom industry and to healthy diets.",
+        "proposalDate": "2026-04-16",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8175",
+        "billNo": "H.R. 8175",
+        "title": "To amend title 10, United States Code, and the National Defense Authorization Act for Fiscal Year 1994, to codify and clarify gender neutral standards for members of certain Armed Forces, and for other purposes.",
+        "proposalDate": "2026-04-02",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8050",
+        "billNo": "H.R. 8050",
+        "title": "Preventing Future Vintage Plastic Pipeline Tragedies Act",
+        "proposalDate": "2026-03-24",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1091",
+        "billNo": "H.Res. 1091",
+        "title": "Expressing support for declaring 2026 the “Year of Math” in the United States.",
+        "proposalDate": "2026-03-02",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6490",
+        "billNo": "H.R. 6490",
+        "title": "To direct the Secretary of Defense to establish a pilot program to provide certain members of the Armed Forces with timely and relevant information via text message, and for other purposes.",
+        "proposalDate": "2025-12-05",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6089",
+        "billNo": "H.R. 6089",
+        "title": "Biomanufacturing Excellence Act of 2025",
+        "proposalDate": "2025-11-18",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6009",
+        "billNo": "H.R. 6009",
+        "title": "Defense Biotechnology Strategy Act",
+        "proposalDate": "2025-11-10",
+        "status": "Introduced"
+      }
+    ]
   },
   {
     "bioguideId": "M001230",
@@ -60026,7 +60403,7 @@
     "slug": "daniel_meuser",
     "photo": "https://clerk.house.gov/images/members/M001204.jpg",
     "votesWithPartyPct": 98.1,
-    "billsSponsored": 0,
+    "billsSponsored": 19,
     "missedVotesPct": 5.4,
     "missedVotesCount": 30,
     "recentVotes": [
@@ -60131,7 +60508,78 @@
         "voteLabel": "House Vote #180"
       }
     ],
-    "recentBills": []
+    "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8489",
+        "billNo": "H.R. 8489",
+        "title": "To require the Secretary of Housing and Urban Development to conduct an improper payment assessment for project-based and tenant-based assistance, and for other purposes.",
+        "proposalDate": "2026-04-23",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8162",
+        "billNo": "H.R. 8162",
+        "title": "Regulatory Review Improvement Act of 2026",
+        "proposalDate": "2026-03-30",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8114",
+        "billNo": "H.R. 8114",
+        "title": "Endless Mountains National Heritage Area Act",
+        "proposalDate": "2026-03-26",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8088",
+        "billNo": "H.R. 8088",
+        "title": "Growing Deposit Insurance for the Future Act",
+        "proposalDate": "2026-03-25",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7837",
+        "billNo": "H.R. 7837",
+        "title": "Most Favored Patient Act of 2026",
+        "proposalDate": "2026-03-05",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7548",
+        "billNo": "H.R. 7548",
+        "title": "SCAM Act",
+        "proposalDate": "2026-02-12",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7401",
+        "billNo": "H.R. 7401",
+        "title": "Small Business Lending Fraud Prevention Act",
+        "proposalDate": "2026-02-05",
+        "status": "Ordered Reported"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7127",
+        "billNo": "H.R. 7127",
+        "title": "Restoring the Secondary Trading Market Act",
+        "proposalDate": "2026-01-16",
+        "status": "Ordered Reported"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr4460",
+        "billNo": "H.R. 4460",
+        "title": "SAFE Guidance Act",
+        "proposalDate": "2025-07-16",
+        "status": "Ordered Reported"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr3645",
+        "billNo": "H.R. 3645",
+        "title": "ACCESS Act of 2025",
+        "proposalDate": "2025-05-29",
+        "status": "Ordered Reported"
+      }
+    ]
   },
   {
     "bioguideId": "P000605",
