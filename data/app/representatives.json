@@ -28816,8 +28816,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 148,
+    "billsProposed": 150,
     "recentBills": [
+      {
+        "billId": "PRC_T2S6R0Q5Z2X9W1V7D2C6B4A5I0F2E8",
+        "title": "아동·청소년의 성보호에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-01",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_Y2O6N0K5S2R9T1Z7Z2X6W1D5C0B6J6",
+        "title": "조세특례제한법 일부개정법률안",
+        "proposalDate": "2026-06-01",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_N2V6U0E5E2A2X1W4E0D4A0J3G6G1D5",
         "title": "교원의 지위 향상 및 교육활동 보호를 위한 특별법 일부개정법률안",
@@ -28864,18 +28876,6 @@
         "billId": "PRC_N2M6M0U4T0T6R0S9Q4R3M0L4M9K3L4",
         "title": "조세특례제한법 일부개정법률안",
         "proposalDate": "2026-04-09",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_F2G6O0O4N0L6M0K9L4H2H0G5E3E5D9",
-        "title": "가정폭력범죄의 처벌 등에 관한 특례법 일부개정법률안",
-        "proposalDate": "2026-04-08",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_R2S6A0A4Z0X6Y0W9X4E2D3E6C2D7B6",
-        "title": "도시 및 주거환경정비법 일부개정법률안",
-        "proposalDate": "2026-04-08",
         "billStatus": ""
       }
     ]
@@ -31454,13 +31454,13 @@
         "billId": "PRC_R2P5O0W3D2C4K1J4J1I9H3P3N3M5N4",
         "title": "공직선거법 일부개정법률안",
         "proposalDate": "2026-02-27",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_D2C5B0Z3H2P4O1M4L1M8U4T6R3Q6Y5",
         "title": "공직선거법 일부개정법률안",
         "proposalDate": "2026-02-26",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_B2Z6A0Y1X0X9T1T3R5T5R5R2P9Q5Y4",
@@ -33196,7 +33196,7 @@
         "billId": "PRC_X2X6V0D3C2A7B1A7B5A7I0H2G5E5F8",
         "title": "공직선거법 일부개정법률안",
         "proposalDate": "2026-04-08",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_I2G6F0F2D1E2L1N4L0L6K1K6J7E1F3",
@@ -35402,8 +35402,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 38,
+    "billsProposed": 39,
     "recentBills": [
+      {
+        "billId": "PRC_I2H6N0K5K2S2R1O5X3W5U2Q6Z0Y7V5",
+        "title": "교육시설 등의 안전 및 유지관리 등에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-01",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_A2Z6W0E5E2C2C1W5V3F6L4K8J4J2F3",
         "title": "지방공기업법 일부개정법률안",
@@ -35455,12 +35461,6 @@
       {
         "billId": "PRC_R2P6Q0O1O2W1X1V4W5U9V0T2B9C8A4",
         "title": "지방교육재정교부금법 일부개정법률안",
-        "proposalDate": "2026-01-28",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_N2M6M0K1T1T5R1S7Q0R7P3Q8Y8Y8X2",
-        "title": "기초학력 보장법 일부개정법률안",
         "proposalDate": "2026-01-28",
         "billStatus": ""
       }
@@ -42534,7 +42534,7 @@
         "billId": "PRC_O2P6W0X1W3W0U1V6T1P9Q4O7P7N7O9",
         "title": "공직선거법 일부개정법률안",
         "proposalDate": "2026-02-03",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_N2N6L0M2K0J2J0R9R5Q6Q5P3P8N3O2",
@@ -59724,13 +59724,13 @@
         "billId": "PRC_J2K6I0I1Q0R5P0Q9O5P2N5V8W9U1U6",
         "title": "정치자금법 일부개정법률안",
         "proposalDate": "2026-01-07",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_P2N6L0M1K0L5T0T9S5S3R2P8P8X9Y9",
         "title": "공직선거법 일부개정법률안",
         "proposalDate": "2026-01-07",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_Z2Y4X0X5F3C0E1D3L1K0J1I3P2N0M8",
@@ -93432,7 +93432,7 @@
         "billId": "PRC_O2P6N0N1L2M7U0V9T0U7S5S1R7Z1Z6",
         "title": "공직선거법 일부개정법률안",
         "proposalDate": "2026-03-06",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_T2S6T0R2R2Z0A1Y0X0X7V2W8S6S0R2",
@@ -116967,7 +116967,7 @@
         "billId": "PRC_J2H6I0G1H1P1P1N9O2M6L0L0H5I7G4",
         "title": "공직선거법 일부개정법률안",
         "proposalDate": "2026-01-15",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_W2W5U1T2U0S3S1A0B5Z5A4Y3Z8X5T8",
@@ -164745,7 +164745,7 @@
         "billId": "PRC_T2R5R1A1A1Y4X0Y9W4W9S4T2R7S6Q4",
         "title": "공직선거법 일부개정법률안",
         "proposalDate": "2025-12-30",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_Q2Q5O0Q9O2O5K1I1J1H2I3G2H0P9P9",
@@ -168021,7 +168021,7 @@
         "billId": "PRC_G2E6F0B1Z2A9Y1Y7W0X3F1G4E4E7D2",
         "title": "공직선거법 일부개정법률안",
         "proposalDate": "2026-02-06",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_O2M5N1I2J0H1H1G8E4F9N3N9L6M9L1",
@@ -182086,7 +182086,7 @@
         "billId": "PRC_Q2O5O1N2O1J5K1I6J1H5F3G9O1O5M2",
         "title": "공직선거법 일부개정법률안",
         "proposalDate": "2025-12-17",
-        "billStatus": ""
+        "billStatus": "회송"
       },
       {
         "billId": "PRC_S2Q5R1G2G1E5F1D6C1D7K5L0J8K6I7",
