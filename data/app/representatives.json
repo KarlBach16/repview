@@ -32298,8 +32298,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 113,
+    "billsProposed": 114,
     "recentBills": [
+      {
+        "billId": "PRC_Q2X6V0U6D0C1B1A7W1T2R5A7Z2Y0W1",
+        "title": "조세특례제한법 일부개정법률안",
+        "proposalDate": "2026-06-02",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_O2M6L0T5Q2P7Y0U9U2A6A5Z4H0E4D8",
         "title": "관광진흥법 일부개정법률안",
@@ -32353,12 +32359,6 @@
         "title": "일터에서의 괴롭힘 예방 및 피해자 보호에 관한 법률안",
         "proposalDate": "2026-02-12",
         "billStatus": "철회"
-      },
-      {
-        "billId": "PRC_M2N6U0V2U0S3S1R3R5Z2A1Y8Z7X2X0",
-        "title": "기후위기 적응에 관한 특별법안",
-        "proposalDate": "2026-02-03",
-        "billStatus": "회송"
       }
     ]
   },
@@ -108125,8 +108125,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 89,
+    "billsProposed": 90,
     "recentBills": [
+      {
+        "billId": "PRC_N2M6L0F5F1D8K0R9Q5N6K5J7R7P0O4",
+        "title": "지방자치법 일부개정법률안",
+        "proposalDate": "2026-06-02",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_Q2Q6Y0Z5X1Y1W1X6V4V3E4C8C5B2C1",
         "title": "주민등록법 일부개정법률안",
@@ -108179,12 +108185,6 @@
         "billId": "PRC_R2Z6A0Y2Y2X5Y1W7W5S0T3R7P5Q4O7",
         "title": "금융실명거래 및 비밀보장에 관한 법률 일부개정법률안",
         "proposalDate": "2026-02-27",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_H2I6G0H2F0G4B1C4A5Z9Z4X8Y3G4H2",
-        "title": "지방행정제재ㆍ부과금의 징수 등에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-02-12",
         "billStatus": ""
       }
     ]
@@ -136174,8 +136174,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 41,
+    "billsProposed": 42,
     "recentBills": [
+      {
+        "billId": "PRC_B2Z6Y0Y4G2G2F1G2E1C4D3L5L7K9K8",
+        "title": "채용절차의 공정화에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-02",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_X2X6W0U4V2R4P1O4N5V8U1T8R4S2Z9",
         "title": "정보통신공사업법 일부개정법률안",
@@ -136229,12 +136235,6 @@
         "title": "문화산업진흥 기본법 일부개정법률안",
         "proposalDate": "2025-11-03",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_G2E5F1D0D2C8C1Y0Z2X3Y5W0U7V7D6",
-        "title": "일제하 일본군위안부 피해자에 대한 보호ㆍ지원 및 기념사업 등에 관한 법률 일부개정법률안",
-        "proposalDate": "2025-11-03",
-        "billStatus": "대안반영폐기"
       }
     ]
   },
