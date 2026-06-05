@@ -288,6 +288,18 @@
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/57179e16dfac4bfb8ac08d903b93dd39.jpg"
   },
   {
+    "monaCode": "QHL3248U",
+    "id": "gim_namguk",
+    "name": "김남국",
+    "party": "더불어민주당",
+    "district": "경기 안산시갑",
+    "committee": "",
+    "reelection": "재선",
+    "unit": "제22대",
+    "homepage": "",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/c060c03bc87a49659085436a77ef75af.png"
+  },
+  {
     "monaCode": "IUX1829H",
     "id": "gim_namgeun",
     "name": "김남근",
@@ -298,6 +310,18 @@
     "unit": "제22대",
     "homepage": "https://blog.naver.com/droith9",
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/66bc8c4d4026465da6cfed67b0fbfe5e.png"
+  },
+  {
+    "monaCode": "SKP6181Y",
+    "id": "gim_namjun",
+    "name": "김남준",
+    "party": "더불어민주당",
+    "district": "인천 계양구을",
+    "committee": "",
+    "reelection": "초선",
+    "unit": "제22대",
+    "homepage": "",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/SKP6181Y.jpg"
   },
   {
     "monaCode": "NXB3178C",
@@ -466,6 +490,18 @@
     "unit": "제22대",
     "homepage": "https://blog.naver.com/sunmean",
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/f8e6febfc742428098fe19ec2cea1073.jpg"
+  },
+  {
+    "monaCode": "DOZ1588B",
+    "id": "gim_seongbeom",
+    "name": "김성범",
+    "party": "더불어민주당",
+    "district": "제주 서귀포시",
+    "committee": "",
+    "reelection": "초선",
+    "unit": "제22대",
+    "homepage": "",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/DOZ1588B.jpg"
   },
   {
     "monaCode": "9D939735",
@@ -708,6 +744,18 @@
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/2d0fedee640c4683b571177b2f21e1c2.jpg"
   },
   {
+    "monaCode": "FIC9046Z",
+    "id": "gim_uigyeom",
+    "name": "김의겸",
+    "party": "더불어민주당",
+    "district": "전북 군산시김제시부안군갑",
+    "committee": "",
+    "reelection": "재선",
+    "unit": "제22대",
+    "homepage": "https://www.facebook.com/kyummy63",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/896b23bb0a5d40b59f42f996e7973575.jpg"
+  },
+  {
     "monaCode": "X7E7893P",
     "id": "gim_janggyeom",
     "name": "김장겸",
@@ -838,6 +886,18 @@
     "unit": "제22대",
     "homepage": "",
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/5deb4e52620e440fa49371ba7e5080ed.jpg"
+  },
+  {
+    "monaCode": "7ZS19508",
+    "id": "gim_taegyu",
+    "name": "김태규",
+    "party": "국민의힘",
+    "district": "울산 남구갑",
+    "committee": "",
+    "reelection": "초선",
+    "unit": "제22대",
+    "homepage": "",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/7ZS19508.jpg"
   },
   {
     "monaCode": "1WE5693J",
@@ -1320,6 +1380,18 @@
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/689958442da64be4b0a1aaeb2003038a.png"
   },
   {
+    "monaCode": "H7X3372O",
+    "id": "bak_jiwon",
+    "name": "박지원",
+    "party": "더불어민주당",
+    "district": "전북 군산시김제시부안군을",
+    "committee": "",
+    "reelection": "초선",
+    "unit": "제22대",
+    "homepage": "",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/H7X3372O.jpg"
+  },
+  {
     "monaCode": "8BF5855P",
     "id": "bak_jiwon",
     "name": "박지원",
@@ -1716,6 +1788,18 @@
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/b3c309f7dfd34dd486d7f60acfcd3254.JPG"
   },
   {
+    "monaCode": "PAO22428",
+    "id": "song_yeonggil",
+    "name": "송영길",
+    "party": "더불어민주당",
+    "district": "인천 연수구갑",
+    "committee": "",
+    "reelection": "6선",
+    "unit": "제22대",
+    "homepage": "http://blog.naver.com/songyounggil",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/PAO22428.jpg"
+  },
+  {
     "monaCode": "3249208I",
     "id": "song_okju",
     "name": "송옥주",
@@ -1947,7 +2031,7 @@
     "monaCode": "XBT9550Q",
     "id": "u_wonsik",
     "name": "우원식",
-    "party": "무소속",
+    "party": "더불어민주당",
     "district": "서울 노원구갑",
     "committee": "",
     "reelection": "5선",
@@ -2016,6 +2100,18 @@
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/b031714b64d9427ea119a6225c44bf1c.jpg"
   },
   {
+    "monaCode": "MRK4871S",
+    "id": "yu_uidong",
+    "name": "유의동",
+    "party": "국민의힘",
+    "district": "경기 평택시을",
+    "committee": "",
+    "reelection": "4선",
+    "unit": "제22대",
+    "homepage": "http://yueuidong.com",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/MRK4871S.jpg"
+  },
+  {
     "monaCode": "GP07421U",
     "id": "yun_geonyeong",
     "name": "윤건영",
@@ -2050,6 +2146,18 @@
     "unit": "제22대",
     "homepage": "",
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/cb71903baa8340718ea02ae96cd6a25f.jpg"
+  },
+  {
+    "monaCode": "W0154979",
+    "id": "yun_yonggeun",
+    "name": "윤용근",
+    "party": "국민의힘",
+    "district": "충남 공주시부여군청양군",
+    "committee": "",
+    "reelection": "초선",
+    "unit": "제22대",
+    "homepage": "",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/W0154979.jpg"
   },
   {
     "monaCode": "ZRF3039U",
@@ -2170,6 +2278,18 @@
     "unit": "제22대",
     "homepage": "https://www.facebook.com/share/1CH5Grrasn/?mibextid=wwXIfr",
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/7355806cdad64eed8888ef6a17886585.jpg"
+  },
+  {
+    "monaCode": "4A067125",
+    "id": "i_gwangjae",
+    "name": "이광재",
+    "party": "더불어민주당",
+    "district": "경기 하남시갑",
+    "committee": "",
+    "reelection": "4선",
+    "unit": "제22대",
+    "homepage": "https://blog.naver.com/yeskjwj",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/4A067125.jpg"
   },
   {
     "monaCode": "95J3282H",
@@ -2508,6 +2628,18 @@
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/f150e375dc4a4a05b0c99ae1a313b432.jpg"
   },
   {
+    "monaCode": "29V4537Y",
+    "id": "i_jinsuk",
+    "name": "이진숙",
+    "party": "국민의힘",
+    "district": "대구 달성군",
+    "committee": "",
+    "reelection": "초선",
+    "unit": "제22대",
+    "homepage": "",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/29V4537Y.jpg"
+  },
+  {
     "monaCode": "TZP9391O",
     "id": "i_cheolgyu",
     "name": "이철규",
@@ -2590,6 +2722,18 @@
     "unit": "제22대",
     "homepage": "https://blog.naver.com/sunhklee4862",
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/ece0e563880b4537a847dd2a22a9a478.jpg"
+  },
+  {
+    "monaCode": "JVK71445",
+    "id": "im_munyeong",
+    "name": "임문영",
+    "party": "더불어민주당",
+    "district": "광주 광산구을",
+    "committee": "",
+    "reelection": "초선",
+    "unit": "제22대",
+    "homepage": "",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/JVK71445.jpg"
   },
   {
     "monaCode": "X639721U",
@@ -2710,6 +2854,18 @@
     "unit": "제22대",
     "homepage": "https://blog.naver.com/braveplane91",
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/a1d9b90aba4145489d843bc040429d2a.jpg"
+  },
+  {
+    "monaCode": "FYG6302V",
+    "id": "jeon_eunsu",
+    "name": "전은수",
+    "party": "더불어민주당",
+    "district": "충남 아산시을",
+    "committee": "",
+    "reelection": "초선",
+    "unit": "제22대",
+    "homepage": "",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/FYG6302V.jpg"
   },
   {
     "monaCode": "P8A4624C",
@@ -3003,7 +3159,7 @@
     "monaCode": "IN328264",
     "id": "jo_jeongsik",
     "name": "조정식",
-    "party": "더불어민주당",
+    "party": "무소속",
     "district": "경기 시흥시을",
     "committee": "",
     "reelection": "6선",
@@ -3262,6 +3418,18 @@
     "unit": "제22대",
     "homepage": "https://blog.naver.com/nombo1",
     "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/9bb2d649d55a495d99c6750cc124e5bf.png"
+  },
+  {
+    "monaCode": "5DC8083A",
+    "id": "han_donghun",
+    "name": "한동훈",
+    "party": "무소속",
+    "district": "부산 북구갑",
+    "committee": "",
+    "reelection": "초선",
+    "unit": "제22대",
+    "homepage": "",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/5DC8083A.jpg"
   },
   {
     "monaCode": "8JG4358H",
