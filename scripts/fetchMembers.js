@@ -86,6 +86,26 @@ function makeMemberId(name, index) {
   return id || `member_${index + 1}`;
 }
 
+function compactBodySnippet(text) {
+  return String(text || "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 700);
+}
+
+async function readJsonResponse(res, label) {
+  const body = await res.text();
+  if (!res.ok) {
+    throw new Error(`${label} HTTP ${res.status} ${res.statusText}: ${compactBodySnippet(body)}`);
+  }
+
+  try {
+    return JSON.parse(body);
+  } catch (error) {
+    throw new Error(`${label} invalid JSON: ${error.message || error}. Body: ${compactBodySnippet(body)}`);
+  }
+}
+
 function parseRows(payload, datasetName) {
   const primaryRows = payload?.[datasetName]?.[1]?.row;
   if (Array.isArray(primaryRows)) return primaryRows;
@@ -111,11 +131,7 @@ async function fetchPagedRows(fetchFn, endpoint, datasetName, apiKey) {
     }).toString();
 
     const res = await fetchWithRetry(fetchFn, url, `${datasetName} page ${page}`);
-    if (!res.ok) {
-      throw new Error(`Assembly API request failed: ${res.status} ${res.statusText}`);
-    }
-
-    const json = await res.json();
+    const json = await readJsonResponse(res, `${datasetName} page ${page}`);
     const pageRows = parseRows(json, datasetName);
     rows.push(...pageRows);
     if (pageRows.length < pageSize) break;

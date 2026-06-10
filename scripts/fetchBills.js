@@ -27,6 +27,26 @@ function loadEnvFile(envPath) {
   }
 }
 
+function compactBodySnippet(text) {
+  return String(text || "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 700);
+}
+
+async function readJsonResponse(res, label) {
+  const body = await res.text();
+  if (!res.ok) {
+    throw new Error(`${label} HTTP ${res.status} ${res.statusText}: ${compactBodySnippet(body)}`);
+  }
+
+  try {
+    return JSON.parse(body);
+  } catch (error) {
+    throw new Error(`${label} invalid JSON: ${error.message || error}. Body: ${compactBodySnippet(body)}`);
+  }
+}
+
 function parseRows(payload, datasetName) {
   const rows = payload?.[datasetName]?.[1]?.row;
   if (Array.isArray(rows)) return rows;
@@ -101,11 +121,7 @@ async function fetchPagedRows(fetchFn, key) {
     }).toString();
 
     const res = await fetchWithRetry(fetchFn, url, `bills page ${page}`);
-    if (!res.ok) {
-      throw new Error(`Bills API request failed: ${res.status} ${res.statusText}`);
-    }
-
-    const json = await res.json();
+    const json = await readJsonResponse(res, `bills page ${page}`);
     if (json?.RESULT?.CODE?.startsWith("ERROR")) {
       throw new Error(`Bills API error ${json.RESULT.CODE}: ${json.RESULT.MESSAGE}`);
     }
