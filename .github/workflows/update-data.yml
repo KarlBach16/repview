@@ -12,6 +12,8 @@ permissions:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,7 +32,19 @@ jobs:
       - name: Fetch members
         env:
           ASSEMBLY_API_KEY: ${{ secrets.ASSEMBLY_API_KEY }}
-        run: node scripts/fetchMembers.js
+        run: |
+          for attempt in 1 2 3; do
+            echo "Fetch members attempt ${attempt}/3"
+            if node scripts/fetchMembers.js; then
+              exit 0
+            fi
+
+            if [ "$attempt" -lt 3 ]; then
+              sleep $((attempt * 30))
+            fi
+          done
+
+          exit 1
 
       - name: Fetch bills
         env:

@@ -125,22 +125,36 @@ async function fetchPagedRows(fetchFn, endpoint, datasetName, apiKey) {
 }
 
 async function fetchWithRetry(fetchFn, url, label) {
-  const maxAttempts = 4;
+  const maxAttempts = 6;
   let lastError;
 
   for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 20000);
+    const timeout = setTimeout(() => controller.abort(), 45000);
 
     try {
-      return await fetchFn(url, { signal: controller.signal });
+      const res = await fetchFn(url, {
+        signal: controller.signal,
+        headers: {
+          Accept: "application/json",
+          "User-Agent": "RepView data updater (https://repview.app)",
+        },
+      });
+
+      if ((res.status === 429 || res.status >= 500) && attempt < maxAttempts) {
+        console.warn(`Fetch returned ${res.status} (${label}, attempt ${attempt}/${maxAttempts})`);
+        await new Promise((resolve) => setTimeout(resolve, attempt * 3000));
+        continue;
+      }
+
+      return res;
     } catch (error) {
       lastError = error;
       const message = error instanceof Error ? error.message : String(error);
       console.warn(`Fetch failed (${label}, attempt ${attempt}/${maxAttempts}): ${message}`);
 
       if (attempt < maxAttempts) {
-        await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
+        await new Promise((resolve) => setTimeout(resolve, attempt * 3000));
       }
     } finally {
       clearTimeout(timeout);
