@@ -187,6 +187,8 @@ async function main() {
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = path.dirname(__filename);
   const projectRoot = path.resolve(__dirname, "..");
+  const dataDir = path.resolve(projectRoot, "data");
+  const outputFile = path.join(dataDir, "members.json");
   loadEnvFile(path.join(projectRoot, ".env"));
 
   const key = process.env.ASSEMBLY_API_KEY;
@@ -195,8 +197,36 @@ async function main() {
   }
 
   const fetchFn = getFetch();
-  const allRows = await fetchPagedRows(fetchFn, ALL_ENDPOINT, "ALLNAMEMBER", key);
-  const currentRosterRows = await fetchPagedRows(fetchFn, CURRENT_ENDPOINT, "nwvrqwxyaytdsfvhu", key);
+  let allRows = [];
+  let currentRosterRows = [];
+
+  try {
+    allRows = await fetchPagedRows(fetchFn, ALL_ENDPOINT, "ALLNAMEMBER", key);
+  } catch (error) {
+    if (!existsSync(outputFile)) throw error;
+    console.warn("ALLNAMEMBER fetch failed; keeping existing data/members.json.");
+    console.warn(error instanceof Error ? error.message : String(error));
+    return;
+  }
+
+  try {
+    currentRosterRows = await fetchPagedRows(fetchFn, CURRENT_ENDPOINT, "nwvrqwxyaytdsfvhu", key);
+  } catch (error) {
+    if (!existsSync(outputFile)) throw error;
+    console.warn("Current roster fetch failed; falling back to existing data/members.json member codes.");
+    console.warn(error instanceof Error ? error.message : String(error));
+    const existingMembers = JSON.parse(readFileSync(outputFile, "utf8"));
+    currentRosterRows = existingMembers.map((member) => ({
+      MONA_CD: member.monaCode,
+      HG_NM: member.name,
+      POLY_NM: member.party,
+      ORIG_NM: member.district,
+      CMIT_NM: member.committee,
+      REELE_GBN_NM: member.reelection,
+      UNITS: member.unit,
+      HOMEPAGE: member.homepage,
+    }));
+  }
 
   const currentCodes = new Set(
     currentRosterRows
@@ -254,9 +284,6 @@ async function main() {
     seenCodes.add(keyCode);
     uniqueMembers.push(m);
   }
-
-  const dataDir = path.resolve(projectRoot, "data");
-  const outputFile = path.join(dataDir, "members.json");
 
   await mkdir(dataDir, { recursive: true });
   await writeFile(outputFile, `${JSON.stringify(uniqueMembers, null, 2)}\n`, "utf8");
