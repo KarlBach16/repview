@@ -110,7 +110,7 @@ async function fetchPagedRows(fetchFn, endpoint, datasetName, apiKey) {
       pSize: String(pageSize),
     }).toString();
 
-    const res = await fetchFn(url);
+    const res = await fetchWithRetry(fetchFn, url, `${datasetName} page ${page}`);
     if (!res.ok) {
       throw new Error(`Assembly API request failed: ${res.status} ${res.statusText}`);
     }
@@ -122,6 +122,32 @@ async function fetchPagedRows(fetchFn, endpoint, datasetName, apiKey) {
   }
 
   return rows;
+}
+
+async function fetchWithRetry(fetchFn, url, label) {
+  const maxAttempts = 4;
+  let lastError;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 20000);
+
+    try {
+      return await fetchFn(url, { signal: controller.signal });
+    } catch (error) {
+      lastError = error;
+      const message = error instanceof Error ? error.message : String(error);
+      console.warn(`Fetch failed (${label}, attempt ${attempt}/${maxAttempts}): ${message}`);
+
+      if (attempt < maxAttempts) {
+        await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
+      }
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+
+  throw lastError;
 }
 
 function loadEnvFile(envPath) {
