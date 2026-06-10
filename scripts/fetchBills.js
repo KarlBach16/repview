@@ -47,6 +47,44 @@ function pickFirst(row, keys) {
   return "";
 }
 
+async function fetchWithRetry(fetchFn, url, label) {
+  const maxAttempts = 5;
+  let lastError;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 45000);
+
+    try {
+      const res = await fetchFn(url, {
+        signal: controller.signal,
+        headers: {
+          Accept: "application/json",
+          "User-Agent": "RepView data updater (https://repview.app)",
+        },
+      });
+
+      if ((res.status === 429 || res.status >= 500) && attempt < maxAttempts) {
+        console.warn(`Fetch returned ${res.status} (${label}, attempt ${attempt}/${maxAttempts})`);
+        await new Promise((resolve) => setTimeout(resolve, attempt * 3000));
+        continue;
+      }
+
+      return res;
+    } catch (error) {
+      lastError = error;
+      console.warn(`Fetch failed (${label}, attempt ${attempt}/${maxAttempts}): ${error.message || error}`);
+      if (attempt < maxAttempts) {
+        await new Promise((resolve) => setTimeout(resolve, attempt * 3000));
+      }
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+
+  throw lastError;
+}
+
 async function fetchPagedRows(fetchFn, key) {
   const pageSize = 1000;
   const maxPages = 30;
@@ -62,7 +100,7 @@ async function fetchPagedRows(fetchFn, key) {
       AGE: "22",
     }).toString();
 
-    const res = await fetchFn(url);
+    const res = await fetchWithRetry(fetchFn, url, `bills page ${page}`);
     if (!res.ok) {
       throw new Error(`Bills API request failed: ${res.status} ${res.statusText}`);
     }
@@ -90,8 +128,19 @@ async function main() {
   const key = process.env.ASSEMBLY_API_KEY;
   if (!key) throw new Error("ASSEMBLY_API_KEY is required.");
 
+  const outDir = path.join(projectRoot, "data", "raw");
+  const outPath = path.join(outDir, "bills_raw.json");
+
   const fetchFn = getFetch();
-  const rows = await fetchPagedRows(fetchFn, key);
+  let rows = [];
+  try {
+    rows = await fetchPagedRows(fetchFn, key);
+  } catch (error) {
+    if (!existsSync(outPath)) throw error;
+    console.warn("Bills API fetch failed; keeping existing data/raw/bills_raw.json.");
+    console.warn(error instanceof Error ? error.message : String(error));
+    return;
+  }
 
   console.log("Raw row sample (bills):", rows[0] || null);
 
@@ -111,8 +160,6 @@ async function main() {
     };
   });
 
-  const outDir = path.join(projectRoot, "data", "raw");
-  const outPath = path.join(outDir, "bills_raw.json");
   await mkdir(outDir, { recursive: true });
   await writeFile(outPath, `${JSON.stringify(normalized, null, 2)}\n`, "utf8");
 

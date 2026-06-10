@@ -70,6 +70,42 @@ function getBillIds(billsRawPath) {
   return [...ids];
 }
 
+async function fetchWithRetry(fetchFn, url, label) {
+  const maxAttempts = 4;
+  let lastError;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 45000);
+
+    try {
+      const res = await fetchFn(url, {
+        signal: controller.signal,
+        headers: {
+          Accept: "application/json",
+          "User-Agent": "RepView data updater (https://repview.app)",
+        },
+      });
+
+      if ((res.status === 429 || res.status >= 500) && attempt < maxAttempts) {
+        await new Promise((resolve) => setTimeout(resolve, attempt * 2500));
+        continue;
+      }
+
+      return res;
+    } catch (error) {
+      lastError = error;
+      if (attempt < maxAttempts) {
+        await new Promise((resolve) => setTimeout(resolve, attempt * 2500));
+      }
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+
+  throw lastError;
+}
+
 async function fetchRowsByBill(fetchFn, apiKey, billId) {
   let page = 1;
   const rows = [];
@@ -85,7 +121,7 @@ async function fetchRowsByBill(fetchFn, apiKey, billId) {
       BILL_ID: billId,
     }).toString();
 
-    const res = await fetchFn(url);
+    const res = await fetchWithRetry(fetchFn, url, `votes BILL_ID=${billId} page ${page}`);
     if (!res.ok) {
       throw new Error(`request failed for BILL_ID=${billId}: ${res.status} ${res.statusText}`);
     }
@@ -150,6 +186,8 @@ async function main() {
   const fetchFn = getFetch();
   const allRows = [];
   let failedCount = 0;
+  const outDir = path.join(projectRoot, "data", "raw");
+  const outPath = path.join(outDir, "votes_raw.json");
 
   await mapWithConcurrency(
     billIds,
@@ -174,8 +212,11 @@ async function main() {
   const normalized = normalizeVotes(allRows);
   const uniqueMembers = new Set(normalized.map((v) => v.monaCode).filter(Boolean));
 
-  const outDir = path.join(projectRoot, "data", "raw");
-  const outPath = path.join(outDir, "votes_raw.json");
+  if (normalized.length === 0 && existsSync(outPath)) {
+    console.warn("Votes API fetch returned no rows; keeping existing data/raw/votes_raw.json.");
+    return;
+  }
+
   await mkdir(outDir, { recursive: true });
   await writeFile(outPath, `${JSON.stringify(normalized, null, 2)}\n`, "utf8");
 
