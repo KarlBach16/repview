@@ -1451,7 +1451,7 @@
     "name": "강득구",
     "party": "더불어민주당",
     "district": "경기 안양시만안구",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "http://blog.naver.com/dulipapa",
@@ -5654,7 +5654,7 @@
     "name": "강승규",
     "party": "국민의힘",
     "district": "충남 홍성군예산군",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "https://www.assembly.go.kr/members/22nd/KANGSEUNGKYOO",
@@ -6440,8 +6440,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 25,
+    "billsProposed": 26,
     "recentBills": [
+      {
+        "billId": "PRC_S2R6Q0R3Z3X0W0X8W5Q4W1V2D0B5A6",
+        "title": "주택도시기금법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_O2O6N0O1V2W0U1V6T5R8S5A2A8Z3Z1",
         "title": "응급의료에 관한 법률 일부개정법률안",
@@ -6494,12 +6500,6 @@
         "billId": "PRC_I2U5U0Q8Z1Y1V0E8D5C0B1R4A1L8K0",
         "title": "하천 관리 및 정비·준설에 관한 특별법안",
         "proposalDate": "2025-08-12",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_B2C5K0K6I1H9I1G3G2C4D0B5C6A5Z7",
-        "title": "건설기계관리법 일부개정법률안",
-        "proposalDate": "2025-07-04",
         "billStatus": ""
       }
     ]
@@ -11240,8 +11240,32 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 85,
+    "billsProposed": 89,
     "recentBills": [
+      {
+        "billId": "PRC_V2V6U0S6Z1X0W0T9S3R1Q5W7V8U0C3",
+        "title": "국민여가활성화기본법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_Q2P6N0N6I1H0G0F9N3K1J3R1Q8P9O9",
+        "title": "박물관 및 미술관 진흥법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_J2I6H0G6O1N0M0K9H3G2F3D0M5L8J2",
+        "title": "지역문화진흥법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_R2A6Z0Y6W1M0L0K9J3R3Q4P4N7W0V6",
+        "title": "산업집적활성화 및 공장설립에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_B2A6B0W4X0V3W1U0T0T1B4C8A6A8Z1",
         "title": "벤처투자 촉진에 관한 법률 일부개정법률안",
@@ -11276,30 +11300,6 @@
         "billId": "PRC_M2N6L0K3I3Q1P1Q3P1Q0Y3W3V8W5U8",
         "title": "산업기술혁신 촉진법 일부개정법률안",
         "proposalDate": "2026-04-23",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_O2N6J0H3O3N1L1U3V0T8S5R1Z5Z8Z4",
-        "title": "이러닝(전자학습)산업 발전 및 이러닝 활용 촉진에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-04-22",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_D2E6D0C3C3A1Y1Y3G0G9F1E5D0L4J3",
-        "title": "지능형 로봇 개발 및 보급 촉진법 일부개정법률안",
-        "proposalDate": "2026-04-17",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_W2E6D0C3D3B1X1W3U1B0A0Y5G3H1F1",
-        "title": "중소기업진흥에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-04-17",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_H2F6O0O3N3L1K1S3T0S9Q4P0Q3Y0W9",
-        "title": "산업디자인진흥법 일부개정법률안",
-        "proposalDate": "2026-04-13",
         "billStatus": ""
       }
     ]
@@ -14883,8 +14883,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 75,
+    "billsProposed": 76,
     "recentBills": [
+      {
+        "billId": "PRC_D2K6J0I6H0D9Q1N0J0I3H4O8N1M1L9",
+        "title": "집회 및 시위에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_P2Q6O0P4N2N1M1U6U2T8T3R2Q5R6F1",
         "title": "식품위생법 일부개정법률안",
@@ -14937,12 +14943,6 @@
         "billId": "PRC_S2Q6R0P4N1O7W0X9V0V8U4S6T5A8C0",
         "title": "상훈법 일부개정법률안",
         "proposalDate": "2026-04-22",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_X2V6U0C3B2C6A0Z9O2P6N2M7L6T6U9",
-        "title": "경제자유구역의 지정 및 운영에 관한 특별법 일부개정법률안",
-        "proposalDate": "2026-03-30",
         "billStatus": ""
       }
     ]
@@ -19302,7 +19302,7 @@
     "name": "김남희",
     "party": "더불어민주당",
     "district": "경기 광명시을",
-    "committee": "연금개혁 특별위원회",
+    "committee": "연금개혁 특별위원회, 제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/kimnamhee2027",
@@ -21177,7 +21177,7 @@
     "name": "김동아",
     "party": "더불어민주당",
     "district": "서울 서대문구갑",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://www.facebook.com/dongahkim1945",
@@ -24582,8 +24582,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 62,
+    "billsProposed": 64,
     "recentBills": [
+      {
+        "billId": "PRC_D2D6B0X6Y1W2X1V5U4U7C0D4B8C2A1",
+        "title": "공직선거법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_Z2I6G0F6G1E2N1L6K1L5J5R8Q3O4P1",
+        "title": "공직선거법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_U2U6T0R6Q1Y1Z1Y1W5V3D1E4D9B9Z5",
         "title": "공직선거법 일부개정법률안",
@@ -24630,18 +24642,6 @@
         "billId": "PRC_C2B6B0A2A1Y3Z1V2V0T7U2T7R6R1Z5",
         "title": "헌법재판소법 일부개정법률안",
         "proposalDate": "2026-02-20",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_L2T6T0S2T0R4S1Q0Q5Y7Z4X3V7W1U0",
-        "title": "공직선거법 일부개정법률안",
-        "proposalDate": "2026-02-04",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_G2H6O0P1N2M0M0K9L4T9U2S6S3R0P2",
-        "title": "초·중등교육법 일부개정법률안",
-        "proposalDate": "2026-01-23",
         "billStatus": ""
       }
     ]
@@ -28076,7 +28076,7 @@
     "name": "김선교",
     "party": "국민의힘",
     "district": "경기 여주시양평군",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "",
@@ -31313,7 +31313,7 @@
     "name": "김성회",
     "party": "더불어민주당",
     "district": "경기 고양시갑",
-    "committee": "순직 해병 수사 방해 및 사건 은폐 등의 진실규명을 위한 국정조사특별위원회",
+    "committee": "순직 해병 수사 방해 및 사건 은폐 등의 진실규명을 위한 국정조사특별위원회, 기후위기 특별위원회, 제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/kshoi72",
@@ -31581,7 +31581,7 @@
     "name": "김소희",
     "party": "국민의힘",
     "district": "비례대표",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "",
@@ -33862,7 +33862,7 @@
     "name": "김영배",
     "party": "더불어민주당",
     "district": "서울 성북구갑",
-    "committee": "",
+    "committee": "제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/clubyb",
@@ -36784,7 +36784,7 @@
     "name": "김용만",
     "party": "더불어민주당",
     "district": "경기 하남시을",
-    "committee": "",
+    "committee": "제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://cafe.naver.com/ymk19190301",
@@ -37432,7 +37432,7 @@
     "name": "김용태",
     "party": "국민의힘",
     "district": "경기 포천시가평군",
-    "committee": "연금개혁 특별위원회",
+    "committee": "연금개혁 특별위원회, 기후위기 특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "",
@@ -39144,7 +39144,7 @@
     "name": "김원이",
     "party": "더불어민주당",
     "district": "전남 목포시",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "http://blog.naver.com/kimwoni8182",
@@ -41763,7 +41763,7 @@
     "name": "김은혜",
     "party": "국민의힘",
     "district": "경기 성남시분당구을",
-    "committee": "",
+    "committee": "제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/kimeunhye_official",
@@ -45408,7 +45408,7 @@
     "name": "김정호",
     "party": "더불어민주당",
     "district": "경남 김해시을",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "3선",
     "unit": "제22대",
     "homepage": "http://www.kimjungho3359.com",
@@ -49516,7 +49516,7 @@
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "",
-    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/7ZS19508.jpg",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/47c0bca8eda14695a106ca505e0f2c9d.jpg",
     "votesTotal": 0,
     "votesParticipated": 0,
     "voteParticipationRate": 0,
@@ -51550,7 +51550,7 @@
     "name": "김한규",
     "party": "더불어민주당",
     "district": "제주 제주시을",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "https://www.instagram.com/hanqkim74",
@@ -53336,8 +53336,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 52,
+    "billsProposed": 53,
     "recentBills": [
+      {
+        "billId": "PRC_O2W6X0V4V1T0V1T6T0B6A4A7Y7Z5Y7",
+        "title": "조세특례제한법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_L2J6K0I4J1R0R1Q6O0O6N2O3J4I1I4",
         "title": "조세특례제한법 일부개정법률안",
@@ -53391,12 +53397,6 @@
         "title": "산업안전보건법 일부개정법률안",
         "proposalDate": "2025-11-11",
         "billStatus": "대안반영폐기"
-      },
-      {
-        "billId": "PRC_H2I4G0G9F0F4N1M0M0K2L3J7K5S2S1",
-        "title": "조세특례제한법 일부개정법률안",
-        "proposalDate": "2025-11-10",
-        "billStatus": ""
       }
     ]
   },
@@ -53406,7 +53406,7 @@
     "name": "김희정",
     "party": "국민의힘",
     "district": "부산 연제구",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회",
     "reelection": "3선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/khjkorea1",
@@ -57021,8 +57021,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 27,
+    "billsProposed": 28,
     "recentBills": [
+      {
+        "billId": "PRC_J2G6D0C6Z0H9G1F5E5N8J5J0I1O1N1",
+        "title": "남북협력기금법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_C2B6Z0F4G0O1N1L7K2G2H0G6E8D2L9",
         "title": "생활물류서비스산업발전법 일부개정법률안",
@@ -57075,12 +57081,6 @@
         "billId": "PRC_I2G5I0G6G1E7F1N5L0M8K2L0J1K9Z6",
         "title": "소득세법 일부개정법률안",
         "proposalDate": "2025-06-18",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_N2L5M0U4U3T0T1R1S2R6Y2Z7X0Y1W7",
-        "title": "도시 및 주거환경정비법 일부개정법률안",
-        "proposalDate": "2025-05-01",
         "billStatus": ""
       }
     ]
@@ -57611,8 +57611,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 34,
+    "billsProposed": 35,
     "recentBills": [
+      {
+        "billId": "PRC_P2N6O0W3W1U6V0U9U4S8T2B2Z2A1Y9",
+        "title": "공직선거법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_H2I6P0Q2P2P3N1O1M2N2V1T9U5S2T3",
         "title": "주민조례발안에 관한 법률 일부개정법률안",
@@ -57665,12 +57671,6 @@
         "billId": "PRC_H2F5G0E7F0B7B1Z6A3Y3Z5X6F7F1E3",
         "title": "청원경찰법 일부개정법률안",
         "proposalDate": "2025-07-14",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_W2U5V0T6T1C7C1A7B0Z6Y5Y7G1G3F8",
-        "title": "청원경찰법 일부개정법률안",
-        "proposalDate": "2025-07-11",
         "billStatus": ""
       }
     ]
@@ -61823,7 +61823,7 @@
     "name": "박균택",
     "party": "더불어민주당",
     "district": "광주 광산구갑",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "",
@@ -63185,8 +63185,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 42,
+    "billsProposed": 43,
     "recentBills": [
+      {
+        "billId": "PRC_L2S6T0R3S1Q2Q1P0Q2X8Y3W4V6V8T5",
+        "title": "조세특례제한법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_Y2W6E0E3D1D2B1C0B2B9X3X2V8U0V8",
         "title": "조세특례제한법 일부개정법률안",
@@ -63239,12 +63245,6 @@
         "billId": "PRC_I2I5G1H2P2Q6O1O7N2N5L5U6U2S3T0",
         "title": "우주항공복합도시 건설을 위한 특별법안",
         "proposalDate": "2025-12-31",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_U2S5T1O1P0O4O1M1N2L7M1U7S3S2Z0",
-        "title": "조세특례제한법 일부개정법률안",
-        "proposalDate": "2025-11-05",
         "billStatus": ""
       }
     ]
@@ -66105,8 +66105,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 42,
+    "billsProposed": 43,
     "recentBills": [
+      {
+        "billId": "PRC_J2I6I0E5F1D5B1C5A1B7J2J3H5G3H1",
+        "title": "특허법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_G2G6F0D5E0L8M1L0L1Q4R0P0Q8P2N8",
         "title": "지역 산업위기 대응 및 지역경제 회복을 위한 특별법 일부개정법률안",
@@ -66159,12 +66165,6 @@
         "billId": "PRC_S2R5R1N2N3M0M0L9J1K6R2S2Q8R3P5",
         "title": "국가자원안보 특별법 일부개정법률안",
         "proposalDate": "2025-12-31",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_X2V5W1U2V1D0D1B0C5B6Z1Z8V6V6U9",
-        "title": "지방자치분권 및 지역균형발전에 관한 특별법 일부개정법률안",
-        "proposalDate": "2025-12-11",
         "billStatus": ""
       }
     ]
@@ -66527,7 +66527,7 @@
     "name": "박선원",
     "party": "더불어민주당",
     "district": "인천 부평구을",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/qkrsw20",
@@ -68092,8 +68092,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 49,
+    "billsProposed": 50,
     "recentBills": [
+      {
+        "billId": "PRC_N2L6K0I6Q1R1S1S8R0P1Y1W0X1W7U6",
+        "title": "선거관리위원회법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_S2T6R0P4Q2Y3Z1X4X5W9U4U7D6D8B5",
         "title": "지하안전관리에 관한 특별법 일부개정법률안",
@@ -68147,12 +68153,6 @@
         "title": "해저광물자원 개발법 일부개정법률안",
         "proposalDate": "2025-12-15",
         "billStatus": "수정가결"
-      },
-      {
-        "billId": "PRC_B2C5A0B9Z2A2Y1Z0H0F9G3E6F9D1D4",
-        "title": "조세특례제한법 일부개정법률안",
-        "proposalDate": "2025-09-24",
-        "billStatus": ""
       }
     ]
   },
@@ -69195,7 +69195,7 @@
     "name": "박수민",
     "party": "국민의힘",
     "district": "서울 강남구을",
-    "committee": "연금개혁 특별위원회",
+    "committee": "연금개혁 특별위원회, 제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/parksoomin_official",
@@ -70837,8 +70837,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 49,
+    "billsProposed": 51,
     "recentBills": [
+      {
+        "billId": "PRC_C2A6A0Z6Z1I1G1G3E3F6E4E5M7M8L5",
+        "title": "지방세특례제한법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_E2F6D0D6M1K1K1J3K3I6I1E6C6D5C6",
+        "title": "조세특례제한법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_T2R6Q0Q4Y1Z3X0Y9W5V8V5R7R8Q7Q3",
         "title": "부가가치세법 일부개정법률안",
@@ -70886,18 +70898,6 @@
         "title": "국가재정법 일부개정법률안",
         "proposalDate": "2026-02-02",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_K2J5R1R1P0Q7P1P7N1O0W5U8V0T2U9",
-        "title": "하수도법 일부개정법률안",
-        "proposalDate": "2025-12-30",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_W2U5V1T1P0P6N1P5N5N7L3U7U8S6T3",
-        "title": "한국수출입은행법 일부개정법률안",
-        "proposalDate": "2025-11-21",
-        "billStatus": "수정가결"
       }
     ]
   },
@@ -71247,8 +71247,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 28,
+    "billsProposed": 29,
     "recentBills": [
+      {
+        "billId": "PRC_N2M6V0U5R2N8M1V7T0B2A2Z4G3F5E5",
+        "title": "상훈법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_R2P6Y0D4C0K3J1H6I3H7D4C7A5Z3H9",
         "title": "성폭력범죄의 처벌 등에 관한 특례법 일부개정법률안",
@@ -71301,12 +71307,6 @@
         "billId": "PRC_M2K5L1J0J0I2J1Q0R0P2O5O8N5N3V9",
         "title": "형법 일부개정법률안",
         "proposalDate": "2025-10-02",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_I2H5F0N8M2L1T1S4Q4R3A0Y4X6V6S1",
-        "title": "형사소송법 일부개정법률안",
-        "proposalDate": "2025-08-26",
         "billStatus": ""
       }
     ]
@@ -73029,7 +73029,7 @@
     "name": "박정현",
     "party": "더불어민주당",
     "district": "대전 대덕구",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "",
@@ -76064,8 +76064,8 @@
     "committee": "",
     "reelection": "초선",
     "unit": "제22대",
-    "homepage": "",
-    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/H7X3372O.jpg",
+    "homepage": "https://blog.naver.com/teamjiwon",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/067a6ea7973e4986a0929c5d1c4be0ff.jpg",
     "votesTotal": 0,
     "votesParticipated": 0,
     "voteParticipationRate": 0,
@@ -76940,7 +76940,7 @@
     "name": "박지혜",
     "party": "더불어민주당",
     "district": "경기 의정부시갑",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/minjoo_no1",
@@ -80676,8 +80676,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 137,
+    "billsProposed": 139,
     "recentBills": [
+      {
+        "billId": "PRC_K2J6K0R6Q0P8X1U3T5B9B0Z2X7D0D8",
+        "title": "환경오염시설의 통합관리에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_G2F6F0N6K0J8G1F3D5C8M1U4R8Q4M6",
+        "title": "기상법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_E2M6M0L5J0K8I1J6E1D3D3C0D7B9B2",
         "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
@@ -80724,18 +80736,6 @@
         "billId": "PRC_N2L6K0L3J3S0Q1O1O2O1K4J2I7G5H9",
         "title": "환경교육의 활성화 및 지원에 관한 법률 일부개정법률안",
         "proposalDate": "2026-04-13",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_S2R6Z0Y3X3V0D1E4D3B7A1W5V1W3U9",
-        "title": "근로기준법 일부개정법률안",
-        "proposalDate": "2026-04-03",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_H2H6G0O4O0M2N0M9M3K3L5H3F3G4E0",
-        "title": "양성평등기본법 일부개정법률안",
-        "proposalDate": "2026-04-03",
         "billStatus": ""
       }
     ]
@@ -83512,7 +83512,7 @@
     "name": "백승아",
     "party": "더불어민주당",
     "district": "비례대표",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://litt.ly/bak.seung.a",
@@ -84797,7 +84797,7 @@
     "name": "백혜련",
     "party": "더불어민주당",
     "district": "경기 수원시을",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회",
     "reelection": "3선",
     "unit": "제22대",
     "homepage": "100hyeryun.blog.me",
@@ -88391,8 +88391,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 89,
+    "billsProposed": 90,
     "recentBills": [
+      {
+        "billId": "PRC_M2T6S0R6Q0B9X1X8F0E0D3C6I3H1G3",
+        "title": "사법경찰관리의 직무를 수행할 자와 그 직무범위에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_S2R5Q0N9M1K1J1F7E2F0D1C4K6I7H3",
         "title": "마약류 관리에 관한 법률 일부개정법률안",
@@ -88446,12 +88452,6 @@
         "title": "호스피스·완화의료 및 임종과정에 있는 환자의 연명의료결정에 관한 법률 일부개정법률안",
         "proposalDate": "2026-03-06",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_V2W6U0U2T2T7B1A6A5Y9Z5X2Y6T3S9",
-        "title": "장기등 이식에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-03-06",
-        "billStatus": ""
       }
     ]
   },
@@ -88461,7 +88461,7 @@
     "name": "서범수",
     "party": "국민의힘",
     "district": "울산 울주군",
-    "committee": "",
+    "committee": "기후위기 특별위원회, 제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "",
@@ -91030,7 +91030,7 @@
     "name": "서왕진",
     "party": "조국혁신당",
     "district": "비례대표",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/wjseo21",
@@ -94384,8 +94384,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 61,
+    "billsProposed": 62,
     "recentBills": [
+      {
+        "billId": "PRC_F2E6N0M6L1K0F1E3F5E7C3K5J1J7J9",
+        "title": "공직선거법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_X2X6W0U5V1R3R1P4O5P2N4O0W7W5U5",
         "title": "어선법 일부개정법률안",
@@ -94438,12 +94444,6 @@
         "billId": "PRC_B2A6A0Z2Z0Y2Y1N1M4M6L1L7J3K3S0",
         "title": "가축분뇨의 관리 및 이용에 관한 법률 일부개정법률안",
         "proposalDate": "2026-02-05",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_V2T5U0S5S0R9R1Z0A3Y7Z0X9W9W6E8",
-        "title": "항공우주산업개발 촉진법 일부개정법률안",
-        "proposalDate": "2026-01-28",
         "billStatus": ""
       }
     ]
@@ -100051,7 +100051,7 @@
     "name": "송재봉",
     "party": "더불어민주당",
     "district": "충북 청주시청원구",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/jbs0151",
@@ -100732,7 +100732,7 @@
     "name": "신동욱",
     "party": "국민의힘",
     "district": "서울 서초구을",
-    "committee": "",
+    "committee": "제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/newseocho515",
@@ -108116,7 +108116,7 @@
     "name": "양부남",
     "party": "더불어민주당",
     "district": "광주 서구을",
-    "committee": "",
+    "committee": "제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "",
@@ -109354,8 +109354,44 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 100,
+    "billsProposed": 106,
     "recentBills": [
+      {
+        "billId": "PRC_W2W6E0F4D3D0C1A6B3J1K4I1I0H7F5",
+        "title": "시설물의 안전 및 유지관리에 관한 특별법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_U2S6T0R4N3N0M1N6L3L2K1S7S2R9R4",
+        "title": "건축물관리법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_J2K6J0J4R3P0Q1O6P3N0O0W6W6U9T5",
+        "title": "조세특례제한법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_C2B6C0A4Z3Z0H1H6G3G0F4F0E9M1M1",
+        "title": "지방세특례제한법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_G2E6F0N4O3M0M1L6J2K9S3S1R2R5Q9",
+        "title": "조세특례제한법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_T2T6S0S2A0B3Z1A7Y0X0X5F5F5D4F4",
+        "title": "국가유공자 등 예우 및 지원에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_A2A6Z0Z5Y0Y6X1X0F0D7E3C7D7B4C5",
         "title": "소상공인 보호 및 지원에 관한 법률 일부개정법률안",
@@ -109379,42 +109415,6 @@
         "title": "지방세특례제한법 일부개정법률안",
         "proposalDate": "2026-05-06",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_Q2P6P0L4L0K9I1I4H1I1P4Q9P0N4N1",
-        "title": "지역중소기업 육성 및 혁신촉진 등에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-04-22",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_C2C6B0Z4A0I9I1G4F1G2E3F5M3N5M8",
-        "title": "벤처투자 촉진에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-04-22",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_R2P6Q0M4M0L9J1K4I1J3R4R2Q0O9P4",
-        "title": "고압가스 안전관리법 일부개정법률안",
-        "proposalDate": "2026-04-22",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_W2U6V0T4S0S9A1A4Z1A3Y1Y2W3T2T5",
-        "title": "부정경쟁방지 및 영업비밀보호에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-04-22",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_V2W6U0U1D2B8B0A9A3Y9Z2H9I5G8G8",
-        "title": "친환경농어업 육성 및 유기식품 등의 관리·지원에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-04-14",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_O2M6N0L3M0K4K1H4H3F2G2E0F7D1L9",
-        "title": "조세특례제한법 일부개정법률안",
-        "proposalDate": "2026-04-09",
-        "billStatus": ""
       }
     ]
   },
@@ -109424,7 +109424,7 @@
     "name": "염태영",
     "party": "더불어민주당",
     "district": "경기 수원시무",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/ytysuwon",
@@ -113892,8 +113892,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 28,
+    "billsProposed": 29,
     "recentBills": [
+      {
+        "billId": "PRC_H2G6E0E6M0J8H1E0D3C3B2J1I3H5G4",
+        "title": "독점규제 및 공정거래에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_Q2Y6Y0W2V2W3U1V4C0D5B3A9A9Y6A9",
         "title": "보험사기방지 특별법 일부개정법률안",
@@ -113947,12 +113953,6 @@
         "title": "소비자기본법 일부개정법률안",
         "proposalDate": "2025-11-17",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_H2G5E0B9Z2A2Z1X8F0E6D1E9C9K8J2",
-        "title": "신용정보의 이용 및 보호에 관한 법률 일부개정법률안",
-        "proposalDate": "2025-10-30",
-        "billStatus": "대안반영폐기"
       }
     ]
   },
@@ -114818,7 +114818,7 @@
     "name": "유영하",
     "party": "국민의힘",
     "district": "대구 달서구갑",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "",
@@ -116553,7 +116553,7 @@
     "name": "윤건영",
     "party": "더불어민주당",
     "district": "서울 구로구을",
-    "committee": "",
+    "committee": "제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/yky2015",
@@ -117115,8 +117115,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 68,
+    "billsProposed": 69,
     "recentBills": [
+      {
+        "billId": "PRC_C2K6L0J4K2I4I0H9P5P3O1P1N0N8M8",
+        "title": "도로교통법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_R2P6N0O4M2N7J1J1H0G6H0F0F8N3O3",
         "title": "지방공기업법 일부개정법률안",
@@ -117170,12 +117176,6 @@
         "title": "지방자치단체 보조금 관리에 관한 법률 일부개정법률안",
         "proposalDate": "2026-06-12",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_S2B6B0Z2A1Y0X2X0M3N9L1L6K6L3J0",
-        "title": "어린이놀이시설 안전관리법 일부개정법률안",
-        "proposalDate": "2026-03-05",
-        "billStatus": ""
       }
     ]
   },
@@ -117185,7 +117185,7 @@
     "name": "윤상현",
     "party": "국민의힘",
     "district": "인천 동구미추홀구을",
-    "committee": "",
+    "committee": "제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "5선",
     "unit": "제22대",
     "homepage": "",
@@ -119706,8 +119706,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 48,
+    "billsProposed": 49,
     "recentBills": [
+      {
+        "billId": "PRC_O2N5L1L2U0U9S1T1R3Q1Q2Y5Y8X2Y1",
+        "title": "유료도로법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_X2Y5W1X1V2T0U0P9Q5P4P4N1O1M5U4",
         "title": "도심항공교통 활용 촉진 및 지원에 관한 법률 일부개정법률안",
@@ -119760,12 +119766,6 @@
         "billId": "PRC_C2Y5Y1X1X1V8W1U6C5M6K2L1K3K5I2",
         "title": "범죄예방 기반 조성에 관한 법률안",
         "proposalDate": "2025-11-21",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_R2X4W1W1V2V2L0J9J2H9I0G4H0P2N0",
-        "title": "신용협동조합법 일부개정법률안",
-        "proposalDate": "2025-11-11",
         "billStatus": ""
       }
     ]
@@ -120902,8 +120902,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 305,
+    "billsProposed": 306,
     "recentBills": [
+      {
+        "billId": "PRC_G2E6E0M5L1M5K0K9J4E5F5E7E6C9D7",
+        "title": "물가안정에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_E2F6D0E4L2K9L1J7K1I8Q0R2P9Q5O8",
         "title": "조세특례제한법 일부개정법률안",
@@ -120956,12 +120962,6 @@
         "billId": "PRC_G2F6F0D4E2C8Y1Y1X1Y1W4X6V5D4D8",
         "title": "해운법 일부개정법률안",
         "proposalDate": "2026-05-04",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_D2B6C0B4B2Z8A0I8G5H5F2G8E1F6N4",
-        "title": "조세특례제한법 일부개정법률안",
-        "proposalDate": "2026-04-30",
         "billStatus": ""
       }
     ]
@@ -123726,8 +123726,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 42,
+    "billsProposed": 43,
     "recentBills": [
+      {
+        "billId": "PRC_X2V6V0U4S1T3B1B1Z0Y8Z4X2Y7G7G2",
+        "title": "발전소주변지역 지원에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_L2J6K0I1N2O2W1W1U1V5T2U1S9O9P5",
         "title": "화물자동차 운수사업법 일부개정법률안",
@@ -123780,12 +123786,6 @@
         "billId": "PRC_V2U5U0C5D0B2C1A0B3Z2Z5H9G4G8E4",
         "title": "고등교육법 일부개정법률안",
         "proposalDate": "2025-10-31",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_W2K5J0I8G2D5B1A6B4A6I0G9F7D1E4",
-        "title": "맨발걷기 국민운동 지원에 관한 법률안",
-        "proposalDate": "2025-09-16",
         "billStatus": ""
       }
     ]
@@ -124404,7 +124404,7 @@
     "name": "이기헌",
     "party": "더불어민주당",
     "district": "경기 고양시병",
-    "committee": "",
+    "committee": "제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://lkh502503.tistory.com/",
@@ -124749,8 +124749,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 47,
+    "billsProposed": 49,
     "recentBills": [
+      {
+        "billId": "PRC_P2Y6X0V6V0R8P1M5V3T9S2R9A7Z7X4",
+        "title": "박물관 및 미술관 진흥법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_N2W6V0U6A0A8Z1Y5E4D0B1Z5I5H1E9",
+        "title": "상속세 및 증여세법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_A2Y6Z0Y5W1W5S1S7R2S9Q1Q5P9X1X5",
         "title": "정부기관 및 공공법인 등의 광고시행에 관한 법률 일부개정법률안",
@@ -124797,18 +124809,6 @@
         "billId": "PRC_F2L6K0J3I1R8Q1Q0Y2V3T5Q6P9O5N0",
         "title": "예술인 복지법 일부개정법률안",
         "proposalDate": "2026-03-19",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_T2T6S0A3A1Y6Z1X1I1I9H2I4G6G6C0",
-        "title": "예술인의 지위와 권리의 보장에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-03-17",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_R2R6N0N3M1M3L1L3J5K8S1Q0R6P2Q1",
-        "title": "영화 및 비디오물의 진흥에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-03-16",
         "billStatus": ""
       }
     ]
@@ -126356,8 +126356,26 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 124,
+    "billsProposed": 127,
     "recentBills": [
+      {
+        "billId": "PRC_U2T6B0C6B1Z2Y0U8S3T0S2R0X0Y0G0",
+        "title": "병역법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_L2H6G0E6F1E2M0L8J3I1I1R0P3O6M6",
+        "title": "예비군법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_V2W6U0V6D1D2C0A8B2Z8A5H1G2H4F2",
+        "title": "병역법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_P2P6X0X4W2W9V0V8T5C7C3A0B6A5A7",
         "title": "동물원 및 수족관의 관리에 관한 법률 일부개정법률안",
@@ -126398,24 +126416,6 @@
         "billId": "PRC_L2M6K0K2J1H2I1P9Q3O9P4O4M4M5U9",
         "title": "스토킹범죄의 처벌 등에 관한 법률 일부개정법률안",
         "proposalDate": "2026-02-19",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_H2F6F0E2A1A2Y1Z9X4Y0W1X1F1F9D9",
-        "title": "가정폭력범죄의 처벌 등에 관한 특례법 일부개정법률안",
-        "proposalDate": "2026-02-19",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_S2S6R0R1Q2O2P1W1X1V8W5U7V5T2U9",
-        "title": "지방세특례제한법 일부개정법률안",
-        "proposalDate": "2026-02-04",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_L2M6K0L1A2B2Z1A1Y1Z9X2X2G9E3E1",
-        "title": "지방세특례제한법 일부개정법률안",
-        "proposalDate": "2026-02-03",
         "billStatus": ""
       }
     ]
@@ -127473,8 +127473,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 32,
+    "billsProposed": 33,
     "recentBills": [
+      {
+        "billId": "PRC_Z2Y6G0H6G1F2N0O9M5L8K5S7T4R9Q0",
+        "title": "전기사업법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_G2O6P0N2M0M6K1L1G1H4G5G7E9F0E6",
         "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 일부개정법률안",
@@ -127528,12 +127534,6 @@
         "title": "참전유공자 예우 및 단체설립에 관한 법률 일부개정법률안",
         "proposalDate": "2025-06-12",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_D2D5B0C6A1B0Z0A9I5I5G1H0G1E6E1",
-        "title": "국가유공자 등 예우 및 지원에 관한 법률 일부개정법률안",
-        "proposalDate": "2025-06-12",
-        "billStatus": "대안반영폐기"
       }
     ]
   },
@@ -128667,7 +128667,7 @@
     "name": "이소영",
     "party": "더불어민주당",
     "district": "경기 의왕시과천시",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회, 기후위기 특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/soyoung8lee",
@@ -131815,8 +131815,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 92,
+    "billsProposed": 94,
     "recentBills": [
+      {
+        "billId": "PRC_W2E6C0D6B1C2A0B9X4V5V0U3V7T2T5",
+        "title": "화물자동차 운수사업법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_C2D6B0J6J1I2J0H9H4G5B4C8B9B9Z6",
+        "title": "청소년활동 진흥법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_S2T6R0S5R0P4P1X0Y5W3X3V5T2U2Q9",
         "title": "여객자동차 운수사업법 일부개정법률안",
@@ -131863,18 +131875,6 @@
         "billId": "PRC_X2X6G0E3D3B1K1L0J4I6G4O2Q8O9N1",
         "title": "철도사업법 일부개정법률안",
         "proposalDate": "2026-04-02",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_S2S6R0G3G0F5F1E0E0D0D4L7J9K0I4",
-        "title": "폐기물관리법 일부개정법률안",
-        "proposalDate": "2026-03-12",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_I2I6G0H3G0G9E1F7A3B9A0Y4Y4X8X7",
-        "title": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-03-11",
         "billStatus": ""
       }
     ]
@@ -136087,8 +136087,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 82,
+    "billsProposed": 83,
     "recentBills": [
+      {
+        "billId": "PRC_G2E6B0B6Z1A2Y1Z1X0F0G3E5E7D8E9",
+        "title": "부정청탁 및 금품등 수수의 금지에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_L2L6K0H6G0P2M1L5T1T1P2Q3N5V7U1",
         "title": "사회복지사업법 일부개정법률안",
@@ -136142,12 +136148,6 @@
         "title": "상법 일부개정법률안",
         "proposalDate": "2026-01-15",
         "billStatus": "대안반영폐기"
-      },
-      {
-        "billId": "PRC_B2A5W1W2U3V0T1U4S5T9B0B6Z0Y9Y7",
-        "title": "가맹사업거래의 공정화에 관한 법률 일부개정법률안",
-        "proposalDate": "2025-12-31",
-        "billStatus": ""
       }
     ]
   },
@@ -136474,7 +136474,7 @@
     "name": "이종배",
     "party": "국민의힘",
     "district": "충북 충주시",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "4선",
     "unit": "제22대",
     "homepage": "",
@@ -137260,8 +137260,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 96,
+    "billsProposed": 98,
     "recentBills": [
+      {
+        "billId": "PRC_N2T6S0R5X2W7V0R9I5F7C4B5K2J4G4",
+        "title": "고용보험법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_H2H6P0O5W2V7B0A9A5I7F1E6M6K4J4",
+        "title": "남녀고용평등과 일·가정 양립 지원에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_E2Z6Y0X5F2W7G0C9B5K8J1G9P0O1L1",
         "title": "국유재산특례제한법 일부개정법률안",
@@ -137309,18 +137321,6 @@
         "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
         "proposalDate": "2026-04-21",
         "billStatus": "회송"
-      },
-      {
-        "billId": "PRC_Y2Z6V0W4U1U4T1R0R1A8A3Y6X8Y7W4",
-        "title": "주택법 일부개정법률안",
-        "proposalDate": "2026-04-21",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_I2G6H0F4G1O4O1N0L1M9K0K3S5T9R3",
-        "title": "주택임대차보호법 일부개정법률안",
-        "proposalDate": "2026-04-16",
-        "billStatus": ""
       }
     ]
   },
@@ -139042,7 +139042,7 @@
     "name": "이주희",
     "party": "더불어민주당",
     "district": "비례대표",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/juhee2024",
@@ -139219,7 +139219,7 @@
     "name": "이준석",
     "party": "개혁신당",
     "district": "경기 화성시을",
-    "committee": "",
+    "committee": "제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://dongtanman.kr",
@@ -140079,7 +140079,7 @@
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "",
-    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/29V4537Y.jpg",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/1aff39e66641470891fe47049e07d07b.jpg",
     "votesTotal": 0,
     "votesParticipated": 0,
     "voteParticipationRate": 0,
@@ -140884,8 +140884,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 37,
+    "billsProposed": 38,
     "recentBills": [
+      {
+        "billId": "PRC_L2M6L0K6L1J5I1I1Q2Q5O5Q0O9O4M4",
+        "title": "수소경제 육성 및 수소 안전관리에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_V2R6Q0A5A2H6F1E4N0M4I0R5R9L5U3",
         "title": "중소기업 인공지능 활용ㆍ확산 촉진에 관한 특별법안",
@@ -140939,12 +140945,6 @@
         "title": "강원특별자치도 설치 및 미래산업글로벌도시 조성을 위한 특별법 일부개정법률안",
         "proposalDate": "2025-08-28",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_A2I5H0H4F3G0E0E8M5N9L0M0L0J3J3",
-        "title": "전기산업발전기본법 일부개정법률안",
-        "proposalDate": "2025-05-13",
-        "billStatus": "수정가결"
       }
     ]
   },
@@ -142661,7 +142661,7 @@
     "name": "이해식",
     "party": "더불어민주당",
     "district": "서울 강동구을",
-    "committee": "",
+    "committee": "제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "",
@@ -143069,7 +143069,7 @@
     "name": "이헌승",
     "party": "국민의힘",
     "district": "부산 부산진구을",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "4선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/g7member",
@@ -144010,8 +144010,38 @@
       }
     ],
     "recentAbsentVotes": [],
-    "billsProposed": 100,
+    "billsProposed": 105,
     "recentBills": [
+      {
+        "billId": "PRC_A2U6T0S5B1Z9B0B9H3G4F1E5K6J6J4",
+        "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_Y2V6S0B5B1Y9G0F9E3D3K0I0I9F2O9",
+        "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_H2G6U0T5S1H9B0A9Z3H3H3D9M3L7J6",
+        "title": "주식회사 등의 외부감사에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_F2L6K0J5Q1P9O0W9W3S5R0Y8X6W2V2",
+        "title": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_F2E6K0K5J1P9O0N9L3S5Q3Q6P8X9U9",
+        "title": "개인정보 보호법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_G2F6F0N5N1M5K1L3J1K0S4S9R9P7P7",
         "title": "국가공무원법 일부개정법률안",
@@ -144041,36 +144071,6 @@
         "title": "개인정보 보호법 일부개정법률안",
         "proposalDate": "2026-05-18",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_Q2O6P0W5V1W3U1V5T5U2B5A7A3Y7Z8",
-        "title": "주차장법 일부개정법률안",
-        "proposalDate": "2026-05-18",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_C2A6J0J4H1I4G1H0F1G5O2M5N1L4L1",
-        "title": "방송미디어통신위원회의 설치 및 운영에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-05-12",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_G2G6C0C4B2Z3Z1Y6Z3G5F4G3E8E5C3",
-        "title": "전기통신사업법 일부개정법률안",
-        "proposalDate": "2026-05-12",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_E2F6D0C4C2A3B1J6K3I7I2H3F4G0N6",
-        "title": "정치자금법 일부개정법률안",
-        "proposalDate": "2026-05-12",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_H2H6G0E4F2N0N1M6M4L3J2J8S0S3Q8",
-        "title": "상법 일부개정법률안",
-        "proposalDate": "2026-05-06",
-        "billStatus": ""
       }
     ]
   },
@@ -144084,7 +144084,7 @@
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "",
-    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/JVK71445.jpg",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/7351e85e9d154f5f93e60577b03af1c4.png",
     "votesTotal": 0,
     "votesParticipated": 0,
     "voteParticipationRate": 0,
@@ -144653,8 +144653,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 92,
+    "billsProposed": 94,
     "recentBills": [
+      {
+        "billId": "PRC_T2R6R0Q4Y0Y7W1X0W3W2U3C1D8B2C3",
+        "title": "특정경제범죄 가중처벌 등에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_O2O6K0L4J0H7I1G0H3P2P0O3O2N6L6",
+        "title": "국민체육진흥법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_B2C6Y0Y2W2X5W1U7U2C4D1B2C0A1Z7",
         "title": "국어기본법 일부개정법률안",
@@ -144702,18 +144714,6 @@
         "title": "영화 및 비디오물의 진흥에 관한 법률 일부개정법률안",
         "proposalDate": "2025-12-08",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_P2N5L1L1T0T7S1Q3R1P8Q5L3J6J4H8",
-        "title": "국민체육진흥법 일부개정법률안",
-        "proposalDate": "2025-12-03",
-        "billStatus": "대안반영폐기"
-      },
-      {
-        "billId": "PRC_K2I5J1R1P0Q7O1P4N1O8K0I3I7H0I5",
-        "title": "예술인 복지법 일부개정법률안",
-        "proposalDate": "2025-12-03",
-        "billStatus": "수정가결"
       }
     ]
   },
@@ -149861,7 +149861,7 @@
     "name": "전용기",
     "party": "더불어민주당",
     "district": "경기 화성시정",
-    "committee": "순직 해병 수사 방해 및 사건 은폐 등의 진실규명을 위한 국정조사특별위원회",
+    "committee": "순직 해병 수사 방해 및 사건 은폐 등의 진실규명을 위한 국정조사특별위원회, 제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/braveplane91",
@@ -150091,7 +150091,7 @@
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "",
-    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/FYG6302V.jpg",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/3ac5572055754eb091ead29637685a21.JPG",
     "votesTotal": 0,
     "votesParticipated": 0,
     "voteParticipationRate": 0,
@@ -159327,7 +159327,7 @@
     "name": "정춘생",
     "party": "조국혁신당",
     "district": "비례대표",
-    "committee": "",
+    "committee": "제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://www.facebook.com/profile.php?id=100044755050168",
@@ -160353,7 +160353,7 @@
     "name": "정혜경",
     "party": "진보당",
     "district": "비례대표",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://linktr.ee/jhkjinbo",
@@ -163765,8 +163765,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 19,
+    "billsProposed": 20,
     "recentBills": [
+      {
+        "billId": "PRC_Q2O6P0N6O1W1U1V0T3U7S4A7B8Z4Z5",
+        "title": "공공단체등 위탁선거에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_Y2X6F0F4D1E7D2D2B1J1K3I9J5H2I4",
         "title": "조직사기 피해방지 및 피해자 보호 등에 관한 특별법안",
@@ -163820,12 +163826,6 @@
         "title": "고용보험법 일부개정법률안",
         "proposalDate": "2024-11-21",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_W2V4V1D1B0C6A1B7Z5A1I0G9G9F7G0",
-        "title": "형사소송법 일부개정법률안",
-        "proposalDate": "2024-11-07",
-        "billStatus": "대안반영폐기"
       }
     ]
   },
@@ -165078,7 +165078,7 @@
     "name": "조은희",
     "party": "국민의힘",
     "district": "서울 서초구갑",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/gracecho1",
@@ -167492,7 +167492,7 @@
     "name": "조정훈",
     "party": "국민의힘",
     "district": "서울 마포구갑",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회",
     "reelection": "재선",
     "unit": "제22대",
     "homepage": "https://www.instagram.com/rakdo_9/",
@@ -168348,7 +168348,7 @@
     "name": "조지연",
     "party": "국민의힘",
     "district": "경북 경산시",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/jiyeonwecan",
@@ -169085,7 +169085,7 @@
     "name": "주진우",
     "party": "국민의힘",
     "district": "부산 해운대구갑",
-    "committee": "순직 해병 수사 방해 및 사건 은폐 등의 진실규명을 위한 국정조사특별위원회",
+    "committee": "순직 해병 수사 방해 및 사건 은폐 등의 진실규명을 위한 국정조사특별위원회, 제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/joo_jinwoo",
@@ -173782,7 +173782,7 @@
     "name": "차지호",
     "party": "더불어민주당",
     "district": "경기 오산시",
-    "committee": "",
+    "committee": "기후위기 특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://blog.naver.com/chajiho5301",
@@ -177063,7 +177063,7 @@
     "name": "최보윤",
     "party": "국민의힘",
     "district": "비례대표",
-    "committee": "",
+    "committee": "제9회전국동시지방선거투표용지부족사태등국민참정권침해진상규명및선거관리개혁을위한국정조사특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "",
@@ -179561,8 +179561,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 70,
+    "billsProposed": 71,
     "recentBills": [
+      {
+        "billId": "PRC_K2J6J0P6O0N9M1U0Q5Q3W2V4T7T4B5",
+        "title": "산업집적활성화 및 공장설립에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_K2S6S0Q2R2P3O0O8K1K1J4K4I8I6H9",
         "title": "회계기본법안",
@@ -179616,12 +179622,6 @@
         "title": "교육세법 일부개정법률안",
         "proposalDate": "2025-10-23",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_T2T5R0S9O3M0N1L4M2K2L2S2T1S7Q7",
-        "title": "소득세법 일부개정법률안",
-        "proposalDate": "2025-10-22",
-        "billStatus": ""
       }
     ]
   },
@@ -179631,7 +179631,7 @@
     "name": "최혁진",
     "party": "무소속",
     "district": "비례대표",
-    "committee": "",
+    "committee": "국무총리(한성숙) 임명동의에 관한 인사청문특별위원회",
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "https://www.youtube.com/@최혁진TV",
@@ -183222,8 +183222,26 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 152,
+    "billsProposed": 155,
     "recentBills": [
+      {
+        "billId": "PRC_A2B6Z0A6I1I5H1F5G0E3F4A4B8A2Y5",
+        "title": "수도법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_Z2A6Y0Y6W1F5F1D5E0D6D2B8C7K3I2",
+        "title": "물관리기본법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_C2A6B0J6H1I5G1H5F0N6O0M0N6L4M6",
+        "title": "환경기술 및 환경산업 지원법 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_B2J6J0H3I1H1H1F7G1O4M4N2L1L8K6",
         "title": "국민연금법 일부개정법률안",
@@ -183264,24 +183282,6 @@
         "billId": "PRC_P2Q6O0P1N2O3W1W0U0T2U4S3S7A2B2",
         "title": "전략수출금융지원에 관한 법률안",
         "proposalDate": "2026-01-23",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_I2J6H0I1P1Q3P1P2N3O9M1N3V5T7U9",
-        "title": "채용절차의 공정화에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-01-13",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_D2B6A0A1Y0Z2H1H1G2H9F0F4E7E5M2",
-        "title": "물관리기본법 일부개정법률안",
-        "proposalDate": "2026-01-06",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_R2Z5Z1X2Y1X8X1V6W1E1C3D9B3C6A2",
-        "title": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-01-02",
         "billStatus": ""
       }
     ]
@@ -184152,7 +184152,7 @@
     "reelection": "초선",
     "unit": "제22대",
     "homepage": "",
-    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/5156034c3ba143c3bae113a864791bcd.jpg",
+    "photo": "https://www.assembly.go.kr/static/portal/img/openassm/new/3748b905b7394465962c8676cd0813dd.png",
     "votesTotal": 563,
     "votesParticipated": 327,
     "voteParticipationRate": 58.1,
@@ -184934,8 +184934,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 52,
+    "billsProposed": 53,
     "recentBills": [
+      {
+        "billId": "PRC_V2C6B0C3A0A3Y1A0H2I4G1F2F8D8E7",
+        "title": "응급의료에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_D2L6J0K4I1J3H1I5P1O6P1N6O9M5M4",
         "title": "예방접종관리법안",
@@ -184988,12 +184994,6 @@
         "billId": "PRC_M2M6U0V1T2T8S1Q4R2Z5Z1X2Y2X0X7",
         "title": "자동차손해배상 보장법 일부개정법률안",
         "proposalDate": "2026-03-05",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_F2G6E0E1N2N9L1M1K5L8J2R5S6Q3R0",
-        "title": "응급의료에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-02-12",
         "billStatus": ""
       }
     ]
@@ -187208,8 +187208,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 85,
+    "billsProposed": 87,
     "recentBills": [
+      {
+        "billId": "PRC_K2L6S0U6S1S1Q0P9Q2X0Y5X7X1V1U0",
+        "title": "결혼중개업의 관리에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-06-16",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_J2R6S0R3Q2O0W1V7U5A6Z1I0J1H1G7",
+        "title": "공익신고자 보호법 일부개정법률안",
+        "proposalDate": "2026-06-15",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_H2D6A0Z6Y0X8D1C5B2K1H1F0O9N6M6",
         "title": "주민등록법 일부개정법률안",
@@ -187256,18 +187268,6 @@
         "billId": "PRC_I2G6E0F3N0O9M1N3L5L3J3S1S6Q7R7",
         "title": "가맹사업거래의 공정화에 관한 법률 일부개정법률안",
         "proposalDate": "2026-03-18",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_E2F6D0D3L0M9K1I3J5H4I3Q0Q3P8P2",
-        "title": "방문판매 등에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-03-18",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_L2M6K0K2J0K3I1I5E5E9D3B8C6A1B1",
-        "title": "수목원·정원의 조성 및 진흥에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-03-17",
         "billStatus": ""
       }
     ]
