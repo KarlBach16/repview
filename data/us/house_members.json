@@ -6528,7 +6528,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9438",
         "billNo": "H.R. 9438",
-        "title": "To amend the Internal Revenue Code of 1986 to provide a credit for businesses that contribute to educational and workforce training consortia programs.",
+        "title": "SKILL Act",
         "proposalDate": "2026-06-24",
         "status": "Introduced"
       },
@@ -6714,16 +6714,16 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9284",
-        "billNo": "H.R. 9284",
-        "title": "Foreign Investment Review Monitoring and Commitment Tracking Oversight Board Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9283",
+        "billNo": "H.R. 9283",
+        "title": "Critical Defense Ownership Review Act",
         "proposalDate": "2026-06-11",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9283",
-        "billNo": "H.R. 9283",
-        "title": "Critical Defense Ownership Review Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9284",
+        "billNo": "H.R. 9284",
+        "title": "Foreign Investment Review Monitoring and Commitment Tracking Oversight Board Act",
         "proposalDate": "2026-06-11",
         "status": "Introduced"
       },
@@ -6904,7 +6904,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9439",
         "billNo": "H.R. 9439",
-        "title": "To amend the National Institute of Standards and Technology Act to direct the Director of the National Institute of Standards and Technology to establish a pilot program and develop voluntary disclosure standards relating to the use of artificial intelligence systems by private sector entities, and for other purposes.",
+        "title": "Voluntary Consumer AI Disclosure Pilot Act",
         "proposalDate": "2026-06-24",
         "status": "Introduced"
       },
@@ -8784,7 +8784,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9400",
         "billNo": "H.R. 9400",
-        "title": "To award a Congressional Gold Medal, collectively, to Americans who were active in rescuing and aiding Jews and other refugees during the period of Nazi Germany’s genocidal “Final Solution” policy to murder every Jew in Europe, in recognition of their contributions, which resulted in tens of thousands of Jews and others being spared from almost certain death.",
+        "title": "American Rescuers of the Holocaust Congressional Gold Medal Act of 2026",
         "proposalDate": "2026-06-23",
         "status": "Introduced"
       },
@@ -11040,7 +11040,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9434",
         "billNo": "H.R. 9434",
-        "title": "To amend the Federal securities laws to require rulemakings to consider the cumulative effects of the rule with certain other final and proposed rules.",
+        "title": "REG Act of 2026",
         "proposalDate": "2026-06-24",
         "status": "Introduced"
       },
@@ -11119,7 +11119,7 @@
     "slug": "ken_calvert",
     "photo": "https://clerk.house.gov/images/members/C000059.jpg",
     "votesWithPartyPct": 97.4,
-    "billsSponsored": 24,
+    "billsSponsored": 25,
     "missedVotesPct": 0.3,
     "missedVotesCount": 2,
     "recentVotes": [
@@ -11226,6 +11226,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9495",
+        "billNo": "H.R. 9495",
+        "title": "Department of Defense Appropriations Act, 2027",
+        "proposalDate": "2026-06-26",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8951",
         "billNo": "H.R. 8951",
         "title": "Zero Tolerance for Fraudsters Act of 2026",
@@ -11287,13 +11294,6 @@
         "title": "Federal Working Animal Protection Act",
         "proposalDate": "2025-07-23",
         "status": "Passed"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr4016",
-        "billNo": "H.R. 4016",
-        "title": "Department of Defense Appropriations Act, 2026",
-        "proposalDate": "2025-06-16",
-        "status": "Failed Cloture"
       }
     ]
   },
@@ -11799,7 +11799,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9418",
         "billNo": "H.R. 9418",
-        "title": "To amend title XVIII of the Social Security Act to provide a review process for adverse national coverage determinations with respect to drug coverage under the Medicare program.",
+        "title": "Access to Innovative Treatments Act of 2026",
         "proposalDate": "2026-06-24",
         "status": "Introduced"
       },
@@ -13860,7 +13860,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9407",
         "billNo": "H.R. 9407",
-        "title": "To amend the Internal Revenue Code of 1986 to establish the small distiller domestic sourcing credit.",
+        "title": "SPIRIT Act",
         "proposalDate": "2026-06-23",
         "status": "Introduced"
       },
@@ -15677,7 +15677,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9431",
         "billNo": "H.R. 9431",
-        "title": "To amend the Employee Retirement Income Security Act of 1974 to prohibit health care providers and facilities from imposing certain facility fees for telehealth.",
+        "title": "Fair Telehealth Billing Act of 2026",
         "proposalDate": "2026-06-24",
         "status": "Introduced"
       },
@@ -18232,7 +18232,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9357",
         "billNo": "H.R. 9357",
-        "title": "To cancel the registration of all uses of the pesticide paraquat, and for other purposes.",
+        "title": "Paraquat Prevention Act",
         "proposalDate": "2026-06-18",
         "status": "Introduced"
       },
@@ -19729,7 +19729,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9405",
         "billNo": "H.R. 9405",
-        "title": "To establish, at the Department of State, the Esther Coopersmith Award in recognition of a distinguished diplomat advancing sustainable peace and security.",
+        "title": "Esther Coopersmith Award Act",
         "proposalDate": "2026-06-23",
         "status": "Introduced"
       },
@@ -21581,7 +21581,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9408",
         "billNo": "H.R. 9408",
-        "title": "To amend chapter 15 of title 28, United States Code, with respect to documentation requirements for a meeting of certain conferences and councils.",
+        "title": "Open Meetings Act of 2026",
         "proposalDate": "2026-06-23",
         "status": "Introduced"
       },
@@ -25779,7 +25779,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9399",
         "billNo": "H.R. 9399",
-        "title": "To amend title 18, United States Code, to provide for criminal penalties for a person who provides fire arms to juveniles if such firearms are thereafter used for the commission of a criminal offense.",
+        "title": "Juvenile Firearms Safety Act of 2026",
         "proposalDate": "2026-06-23",
         "status": "Introduced"
       },
@@ -31641,7 +31641,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9344",
         "billNo": "H.R. 9344",
-        "title": "To amend the National Agricultural Research, Extension, and Teaching Policy Act of 1977, to provide for marijuana agricultural research program at 1890 institutions, and for other purposes.",
+        "title": "EDUCATE Act of 2026",
         "proposalDate": "2026-06-18",
         "status": "Introduced"
       },
@@ -44088,7 +44088,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9351",
         "billNo": "H.R. 9351",
-        "title": "To amend the Servicemembers Civil Relief Act to provide relief for members of the uniformed services who homeschool their dependent children, and for other purposes.",
+        "title": "COMPASS Act",
         "proposalDate": "2026-06-18",
         "status": "Introduced"
       },
@@ -45348,7 +45348,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9417",
         "billNo": "H.R. 9417",
-        "title": "To award a Congressional Gold Medal to each of the crew of the Artemis II, in recognition of advancing human exploration of space to new heights.",
+        "title": "Artemis II Congressional Gold Medal Act",
         "proposalDate": "2026-06-24",
         "status": "Introduced"
       },
@@ -49413,7 +49413,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9352",
         "billNo": "H.R. 9352",
-        "title": "To require reports regarding artificial intelligence-related job impacts, and for other purposes.",
+        "title": "AI-Related Job Impacts Clarity Act",
         "proposalDate": "2026-06-18",
         "status": "Introduced"
       },
@@ -50541,7 +50541,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9413",
         "billNo": "H.R. 9413",
-        "title": "To direct the Secretary of Defense to carry out the Military Family Limb Loss and Limb Difference Support Program.",
+        "title": "Military Family Limb Loss Support Act",
         "proposalDate": "2026-06-23",
         "status": "Introduced"
       },
@@ -51228,16 +51228,16 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9349",
-        "billNo": "H.R. 9349",
-        "title": "To amend title 52 and title 18, United States Code, to ensure the integrity of voting systems.",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9350",
+        "billNo": "H.R. 9350",
+        "title": "No 9/11 Family Left Behind Act of 2026",
         "proposalDate": "2026-06-18",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9350",
-        "billNo": "H.R. 9350",
-        "title": "No 9/11 Family Left Behind Act of 2026",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9349",
+        "billNo": "H.R. 9349",
+        "title": "Voting Systems Protection Act",
         "proposalDate": "2026-06-18",
         "status": "Introduced"
       },
@@ -53458,7 +53458,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9411",
         "billNo": "H.R. 9411",
-        "title": "To direct the Secretary of Defense to provide grants to entities that provide services that supplement the Transition Assistance Program of the Department of Defense, and for other purposes.",
+        "title": "Next Mission Act",
         "proposalDate": "2026-06-23",
         "status": "Introduced"
       },
@@ -54203,14 +54203,14 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9433",
         "billNo": "H.R. 9433",
-        "title": "To direct the Secretary of Veterans Affairs to establish a pilot program to provide mental and behavioral health support to friends and families of veterans, and for other purposes.",
+        "title": "VA Coaching into Care Act",
         "proposalDate": "2026-06-24",
         "status": "Introduced"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9409",
         "billNo": "H.R. 9409",
-        "title": "To prohibit certain operations of remote control locomotives, and for other purposes.",
+        "title": "Remote Control Locomotives Safety Improvement Act of 2026",
         "proposalDate": "2026-06-23",
         "status": "Introduced"
       },
@@ -56208,7 +56208,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9423",
         "billNo": "H.R. 9423",
-        "title": "To require the Secretary of Agriculture to submit to Congress a report on residue testing for all imported organic feedstuffs shipped in bulk, and for other purposes.",
+        "title": "Organic Imports Verification Act of 2026",
         "proposalDate": "2026-06-24",
         "status": "Introduced"
       },
@@ -56960,7 +56960,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9424",
         "billNo": "H.R. 9424",
-        "title": "To amend title 23, United States Code, to direct the Secretary of Transportation to require States to set aside certain funds to carry out highway safety improvement projects to reduce the number of injuries and fatalities at high-risk pedestrian crossings.",
+        "title": "Save Our Pedestrians Act of 2026",
         "proposalDate": "2026-06-24",
         "status": "Introduced"
       },
@@ -60344,7 +60344,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9410",
         "billNo": "H.R. 9410",
-        "title": "To amend title 38, United States Code, to provide additional authorities to the Secretary of Veterans Affairs and State Approving Agencies with respect to third-party contractors of educational institutions, and for other purposes.",
+        "title": "VA Education Oversight Improvement Act",
         "proposalDate": "2026-06-23",
         "status": "Introduced"
       },
@@ -60363,16 +60363,16 @@
         "status": "Ordered Reported"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8822",
-        "billNo": "H.R. 8822",
-        "title": "Federal Workers’ Compensation Integrity and Care Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8823",
+        "billNo": "H.R. 8823",
+        "title": "Putting Patients First by Strengthening Provider Accountability in FECA Act",
         "proposalDate": "2026-05-14",
         "status": "Ordered Reported"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8823",
-        "billNo": "H.R. 8823",
-        "title": "Putting Patients First by Strengthening Provider Accountability in FECA Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8822",
+        "billNo": "H.R. 8822",
+        "title": "Federal Workers’ Compensation Integrity and Care Act",
         "proposalDate": "2026-05-14",
         "status": "Ordered Reported"
       },
@@ -61284,7 +61284,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9437",
         "billNo": "H.R. 9437",
-        "title": "Protecting the right to vote in elections for Federal office, and for other purposes.",
+        "title": "Right to Vote Act",
         "proposalDate": "2026-06-24",
         "status": "Introduced"
       },
@@ -66218,16 +66218,16 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8767",
-        "billNo": "H.R. 8767",
-        "title": "Compensation Fund Recrediting Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8769",
+        "billNo": "H.R. 8769",
+        "title": "Military Chaplains Modernization Act of 2026",
         "proposalDate": "2026-05-12",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8769",
-        "billNo": "H.R. 8769",
-        "title": "Military Chaplains Modernization Act of 2026",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8767",
+        "billNo": "H.R. 8767",
+        "title": "Compensation Fund Recrediting Act",
         "proposalDate": "2026-05-12",
         "status": "Introduced"
       },
@@ -75730,7 +75730,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9435",
         "billNo": "H.R. 9435",
-        "title": "To amend title 5, United States Code, to require consultation by agencies during rulemaking in the case of unique burdens on pene-exclaves.",
+        "title": "EXCLAVE Act of 2026",
         "proposalDate": "2026-06-24",
         "status": "Introduced"
       },
@@ -77427,16 +77427,16 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9368",
-        "billNo": "H.R. 9368",
-        "title": "Voter ID Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9367",
+        "billNo": "H.R. 9367",
+        "title": "Stop Lawmakers From Predicting Act",
         "proposalDate": "2026-06-18",
         "status": "Ordered Reported"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9367",
-        "billNo": "H.R. 9367",
-        "title": "Stop Lawmakers From Predicting Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9368",
+        "billNo": "H.R. 9368",
+        "title": "Voter ID Act",
         "proposalDate": "2026-06-18",
         "status": "Ordered Reported"
       },
@@ -77610,7 +77610,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9414",
         "billNo": "H.R. 9414",
-        "title": "To improve the structure of the Federal Pell Grant program, and for other purposes.",
+        "title": "Pell Grant Preservation and Expansion Act of 2026",
         "proposalDate": "2026-06-23",
         "status": "Introduced"
       },
