@@ -2400,18 +2400,18 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7972",
-        "billNo": "H.R. 7972",
-        "title": "Taxpayer Workforce Modernization Act",
-        "proposalDate": "2026-03-18",
-        "status": "Introduced"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr7971",
         "billNo": "H.R. 7971",
         "title": "Taxpayer Experience Improvement Act",
         "proposalDate": "2026-03-18",
         "status": "Passed"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7972",
+        "billNo": "H.R. 7972",
+        "title": "Taxpayer Workforce Modernization Act",
+        "proposalDate": "2026-03-18",
+        "status": "Ordered Reported"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr7713",
@@ -18813,7 +18813,7 @@
         "billNo": "H.R. 9501",
         "title": "AI Tax Integrity Act of 2026",
         "proposalDate": "2026-06-29",
-        "status": "Introduced"
+        "status": "Ordered Reported"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8959",
@@ -19015,7 +19015,7 @@
         "billNo": "H.R. 9498",
         "title": "Taxpayer Advocate Participation Act",
         "proposalDate": "2026-06-29",
-        "status": "Introduced"
+        "status": "Ordered Reported"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9369",
@@ -42813,18 +42813,18 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9504",
-        "billNo": "H.R. 9504",
-        "title": "Tax Exempt Hospital Transparency Act",
-        "proposalDate": "2026-06-29",
-        "status": "Introduced"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9524",
         "billNo": "H.R. 9524",
         "title": "Veterans Care and Cost Coordination Act of 2026",
         "proposalDate": "2026-06-29",
         "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9504",
+        "billNo": "H.R. 9504",
+        "title": "Tax Exempt Hospital Transparency Act",
+        "proposalDate": "2026-06-29",
+        "status": "Ordered Reported"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8553",
@@ -51477,7 +51477,7 @@
         "billNo": "H.R. 9499",
         "title": "Protecting Taxpayers from Ghost Preparers Act",
         "proposalDate": "2026-06-29",
-        "status": "Introduced"
+        "status": "Ordered Reported"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9064",
@@ -53900,7 +53900,7 @@
         "billNo": "H.R. 9496",
         "title": "End Tax Penalties on American Hostages Act",
         "proposalDate": "2026-06-29",
-        "status": "Introduced"
+        "status": "Ordered Reported"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9487",
@@ -55529,7 +55529,7 @@
         "billNo": "H.R. 9500",
         "title": "Tax Relief for Fraud Victims Act",
         "proposalDate": "2026-06-29",
-        "status": "Introduced"
+        "status": "Ordered Reported"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8899",
@@ -75061,16 +75061,16 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9372",
-        "billNo": "H.R. 9372",
-        "title": "Data Infrastructure Energy Measurement and Standards Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9371",
+        "billNo": "H.R. 9371",
+        "title": "SLASH Prices Act",
         "proposalDate": "2026-06-18",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9371",
-        "billNo": "H.R. 9371",
-        "title": "SLASH Prices Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9372",
+        "billNo": "H.R. 9372",
+        "title": "Data Infrastructure Energy Measurement and Standards Act",
         "proposalDate": "2026-06-18",
         "status": "Introduced"
       },
