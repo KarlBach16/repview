@@ -198,7 +198,7 @@
     "photo": "https://clerk.house.gov/images/members/M001212.jpg",
     "votesWithPartyPct": 93.3,
     "billsSponsored": 31,
-    "missedVotesPct": 3.1,
+    "missedVotesPct": 3,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -384,7 +384,7 @@
     "districtCode": "AL-2",
     "slug": "shomari_figures",
     "photo": "https://clerk.house.gov/images/members/F000481.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.4,
     "billsSponsored": 21,
     "missedVotesPct": 1.5,
     "missedVotesCount": 9,
@@ -574,7 +574,7 @@
     "photo": "https://clerk.house.gov/images/members/R000575.jpg",
     "votesWithPartyPct": 97.7,
     "billsSponsored": 12,
-    "missedVotesPct": 3.1,
+    "missedVotesPct": 3,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -1137,7 +1137,7 @@
     "slug": "gary_j_palmer",
     "photo": "https://clerk.house.gov/images/members/P000609.jpg",
     "votesWithPartyPct": 96.9,
-    "billsSponsored": 14,
+    "billsSponsored": 15,
     "missedVotesPct": 1.4,
     "missedVotesCount": 8,
     "recentVotes": [
@@ -1244,6 +1244,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9617",
+        "billNo": "H.R. 9617",
+        "title": "CHARM Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8467",
         "billNo": "H.R. 8467",
         "title": "ZOMBIE Act",
@@ -1305,13 +1312,6 @@
         "title": "Lulu’s Law",
         "proposalDate": "2025-03-11",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr1776",
-        "billNo": "H.R. 1776",
-        "title": "New Health Options Act of 2025",
-        "proposalDate": "2025-03-03",
-        "status": "Introduced"
       }
     ]
   },
@@ -1324,7 +1324,7 @@
     "districtCode": "AL-7",
     "slug": "terri_a_sewell",
     "photo": "https://clerk.house.gov/images/members/S001185.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.4,
     "billsSponsored": 13,
     "missedVotesPct": 1.7,
     "missedVotesCount": 10,
@@ -1513,8 +1513,8 @@
     "slug": "eric_a_rick_crawford",
     "photo": "https://clerk.house.gov/images/members/C001087.jpg",
     "votesWithPartyPct": 98.6,
-    "billsSponsored": 17,
-    "missedVotesPct": 2.6,
+    "billsSponsored": 18,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -1620,6 +1620,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9624",
+        "billNo": "H.R. 9624",
+        "title": "Intelligence Authorization Act for Fiscal Year 2027",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9238",
         "billNo": "H.R. 9238",
         "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes.",
@@ -1681,13 +1688,6 @@
         "title": "DRIVE-SAFE Act",
         "proposalDate": "2025-09-26",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5167",
-        "billNo": "H.R. 5167",
-        "title": "Intelligence Authorization Act for Fiscal Year 2026",
-        "proposalDate": "2025-09-08",
-        "status": "Ordered Reported"
       }
     ]
   },
@@ -1890,8 +1890,8 @@
     "photo": "https://clerk.house.gov/images/members/W000809.jpg",
     "votesWithPartyPct": 97,
     "billsSponsored": 11,
-    "missedVotesPct": 8.7,
-    "missedVotesCount": 51,
+    "missedVotesPct": 9.1,
+    "missedVotesCount": 54,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -2372,16 +2372,16 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9566",
-        "billNo": "H.R. 9566",
-        "title": "To establish a pilot program for use by U.S. Customs and Border Protection at land ports of entry along the Arizona border to assess the use of artificial intelligence through an anomaly detection algorithm, and for other purposes.",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9565",
+        "billNo": "H.R. 9565",
+        "title": "Enhanced Counter-Narcotics Detection and Technology Act",
         "proposalDate": "2026-06-30",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9565",
-        "billNo": "H.R. 9565",
-        "title": "Enhanced Counter-Narcotics Detection and Technology Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9566",
+        "billNo": "H.R. 9566",
+        "title": "To establish a pilot program for use by U.S. Customs and Border Protection at land ports of entry along the Arizona border to assess the use of artificial intelligence through an anomaly detection algorithm, and for other purposes.",
         "proposalDate": "2026-06-30",
         "status": "Introduced"
       },
@@ -2454,7 +2454,7 @@
     "photo": "https://clerk.house.gov/images/members/C001132.jpg",
     "votesWithPartyPct": 86,
     "billsSponsored": 22,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -2828,7 +2828,7 @@
     "districtCode": "AZ-4",
     "slug": "greg_stanton",
     "photo": "https://clerk.house.gov/images/members/S001211.jpg",
-    "votesWithPartyPct": 94.9,
+    "votesWithPartyPct": 95,
     "billsSponsored": 26,
     "missedVotesPct": 2.2,
     "missedVotesCount": 13,
@@ -3016,7 +3016,7 @@
     "districtCode": "AZ-5",
     "slug": "andy_biggs",
     "photo": "https://clerk.house.gov/images/members/B001302.jpg",
-    "votesWithPartyPct": 86.6,
+    "votesWithPartyPct": 86.7,
     "billsSponsored": 108,
     "missedVotesPct": 4.4,
     "missedVotesCount": 26,
@@ -3394,7 +3394,7 @@
     "photo": "https://clerk.house.gov/images/members/G000606.jpg",
     "votesWithPartyPct": 96,
     "billsSponsored": 11,
-    "missedVotesPct": 2,
+    "missedVotesPct": 1.9,
     "missedVotesCount": 6,
     "recentVotes": [
       {
@@ -3581,8 +3581,8 @@
     "slug": "abraham_j_hamadeh",
     "photo": "https://clerk.house.gov/images/members/H001098.jpg",
     "votesWithPartyPct": 95.9,
-    "billsSponsored": 29,
-    "missedVotesPct": 0.9,
+    "billsSponsored": 30,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -3688,6 +3688,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1421",
+        "billNo": "H.Res. 1421",
+        "title": "Impeaching Sparkle L. Sooknanan, a Judge of the United States District Court for the District of Columbia, for high crimes and misdemeanors.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9547",
         "billNo": "H.R. 9547",
         "title": "Veterans and Servicemembers PTSD Emerging Treatment Review Act of 2026",
@@ -3749,13 +3756,6 @@
         "title": "Federal Workforce Civics Competency and Accountability Act",
         "proposalDate": "2026-01-15",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7103",
-        "billNo": "H.R. 7103",
-        "title": "Improving Emerging Tech Opportunities for Veterans Act",
-        "proposalDate": "2026-01-15",
-        "status": "Ordered Reported"
       }
     ]
   },
@@ -3768,7 +3768,7 @@
     "districtCode": "AZ-9",
     "slug": "paul_a_gosar",
     "photo": "https://clerk.house.gov/images/members/G000565.jpg",
-    "votesWithPartyPct": 89.2,
+    "votesWithPartyPct": 89.3,
     "billsSponsored": 25,
     "missedVotesPct": 3.4,
     "missedVotesCount": 20,
@@ -4271,8 +4271,8 @@
     "photo": "https://clerk.house.gov/images/members/K000401.jpg",
     "votesWithPartyPct": 94.8,
     "billsSponsored": 22,
-    "missedVotesPct": 0.7,
-    "missedVotesCount": 4,
+    "missedVotesPct": 0.8,
+    "missedVotesCount": 5,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -4833,7 +4833,7 @@
     "districtCode": "CA-6",
     "slug": "ami_bera",
     "photo": "https://clerk.house.gov/images/members/B001287.jpg",
-    "votesWithPartyPct": 97,
+    "votesWithPartyPct": 97.1,
     "billsSponsored": 22,
     "missedVotesPct": 1.7,
     "missedVotesCount": 10,
@@ -5775,7 +5775,7 @@
     "photo": "https://clerk.house.gov/images/members/P000197.jpg",
     "votesWithPartyPct": 99.2,
     "billsSponsored": 0,
-    "missedVotesPct": 9.7,
+    "missedVotesPct": 9.6,
     "missedVotesCount": 57,
     "recentVotes": [
       {
@@ -6071,9 +6071,9 @@
     "districtCode": "CA-13",
     "slug": "adam_gray",
     "photo": "https://clerk.house.gov/images/members/G000605.jpg",
-    "votesWithPartyPct": 82.6,
+    "votesWithPartyPct": 82.5,
     "billsSponsored": 7,
-    "missedVotesPct": 6.5,
+    "missedVotesPct": 6.4,
     "missedVotesCount": 38,
     "recentVotes": [
       {
@@ -6239,8 +6239,8 @@
     "slug": "kevin_mullin",
     "photo": "https://clerk.house.gov/images/members/M001225.jpg",
     "votesWithPartyPct": 97.8,
-    "billsSponsored": 29,
-    "missedVotesPct": 7.5,
+    "billsSponsored": 30,
+    "missedVotesPct": 7.4,
     "missedVotesCount": 44,
     "recentVotes": [
       {
@@ -6346,6 +6346,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9635",
+        "billNo": "H.R. 9635",
+        "title": "To amend the Federal Food, Drug, and Cosmetic Act to establish special rules to provide for continued review of human drug and device submissions during a lapse of appropriations, and for other purposes.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9478",
         "billNo": "H.R. 9478",
         "title": "Methane Removal Research and Innovation Act of 2026",
@@ -6406,13 +6413,6 @@
         "billNo": "H.R. 7405",
         "title": "Rail and Highway Transmission Planning Act",
         "proposalDate": "2026-02-05",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6661",
-        "billNo": "H.R. 6661",
-        "title": "Staff Salary Schedule Improvement Act",
-        "proposalDate": "2025-12-11",
         "status": "Introduced"
       }
     ]
@@ -7366,7 +7366,7 @@
     "districtCode": "CA-21",
     "slug": "jim_costa",
     "photo": "https://clerk.house.gov/images/members/C001059.jpg",
-    "votesWithPartyPct": 90.7,
+    "votesWithPartyPct": 90.6,
     "billsSponsored": 29,
     "missedVotesPct": 4.4,
     "missedVotesCount": 26,
@@ -7932,7 +7932,7 @@
     "photo": "https://clerk.house.gov/images/members/C001112.jpg",
     "votesWithPartyPct": 97.6,
     "billsSponsored": 35,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -8496,7 +8496,7 @@
     "photo": "https://clerk.house.gov/images/members/W000830.jpg",
     "votesWithPartyPct": 92.8,
     "billsSponsored": 13,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -9436,7 +9436,7 @@
     "photo": "https://clerk.house.gov/images/members/S000344.jpg",
     "votesWithPartyPct": 97.5,
     "billsSponsored": 13,
-    "missedVotesPct": 3.1,
+    "missedVotesPct": 3,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -10188,7 +10188,7 @@
     "photo": "https://clerk.house.gov/images/members/L000582.jpg",
     "votesWithPartyPct": 97.9,
     "billsSponsored": 43,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -10752,7 +10752,7 @@
     "photo": "https://clerk.house.gov/images/members/T000472.jpg",
     "votesWithPartyPct": 98.3,
     "billsSponsored": 25,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -10940,7 +10940,7 @@
     "photo": "https://clerk.house.gov/images/members/K000397.jpg",
     "votesWithPartyPct": 97.8,
     "billsSponsored": 51,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -11504,8 +11504,8 @@
     "photo": "https://clerk.house.gov/images/members/W000187.jpg",
     "votesWithPartyPct": 97.9,
     "billsSponsored": 43,
-    "missedVotesPct": 4.1,
-    "missedVotesCount": 24,
+    "missedVotesPct": 4.2,
+    "missedVotesCount": 25,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -11878,7 +11878,7 @@
     "districtCode": "CA-45",
     "slug": "derek_tran",
     "photo": "https://clerk.house.gov/images/members/T000491.jpg",
-    "votesWithPartyPct": 93.6,
+    "votesWithPartyPct": 93.7,
     "billsSponsored": 13,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -12443,7 +12443,7 @@
     "slug": "darrell_issa",
     "photo": "https://clerk.house.gov/images/members/I000056.jpg",
     "votesWithPartyPct": 97.4,
-    "billsSponsored": 48,
+    "billsSponsored": 49,
     "missedVotesPct": 1.2,
     "missedVotesCount": 7,
     "recentVotes": [
@@ -12550,6 +12550,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hjres201",
+        "billNo": "H.J.Res. 201",
+        "title": "Designating an official residence for the Speaker of the House of Representatives.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8973",
         "billNo": "H.R. 8973",
         "title": "Sergeant Rafael Peralta Medal of Honor Authorization Act",
@@ -12611,13 +12618,6 @@
         "title": "To require the Secretary of State to submit to Congress a notification of certain construction projects using nonstandard designs.",
         "proposalDate": "2026-01-14",
         "status": "Ordered Reported"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7015",
-        "billNo": "H.R. 7015",
-        "title": "Protecting TPLF From Abuse Act",
-        "proposalDate": "2026-01-12",
-        "status": "Introduced"
       }
     ]
   },
@@ -12818,7 +12818,7 @@
     "districtCode": "CA-50",
     "slug": "scott_h_peters",
     "photo": "https://clerk.house.gov/images/members/P000608.jpg",
-    "votesWithPartyPct": 96,
+    "votesWithPartyPct": 95.8,
     "billsSponsored": 32,
     "missedVotesPct": 1.5,
     "missedVotesCount": 9,
@@ -13006,7 +13006,7 @@
     "districtCode": "CA-51",
     "slug": "sara_jacobs",
     "photo": "https://clerk.house.gov/images/members/J000305.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 29,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -13196,7 +13196,7 @@
     "photo": "https://clerk.house.gov/images/members/V000130.jpg",
     "votesWithPartyPct": 97.4,
     "billsSponsored": 13,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -13570,7 +13570,7 @@
     "districtCode": "CO-2",
     "slug": "joe_neguse",
     "photo": "https://clerk.house.gov/images/members/N000191.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 77,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -13946,9 +13946,9 @@
     "districtCode": "CO-4",
     "slug": "lauren_boebert",
     "photo": "https://clerk.house.gov/images/members/B000825.jpg",
-    "votesWithPartyPct": 88.4,
+    "votesWithPartyPct": 88.5,
     "billsSponsored": 18,
-    "missedVotesPct": 4.3,
+    "missedVotesPct": 4.2,
     "missedVotesCount": 25,
     "recentVotes": [
       {
@@ -14491,7 +14491,7 @@
     "photo": "https://clerk.house.gov/images/members/P000620.jpg",
     "votesWithPartyPct": 96.5,
     "billsSponsored": 33,
-    "missedVotesPct": 17.7,
+    "missedVotesPct": 17.6,
     "missedVotesCount": 104,
     "recentVotes": [
       {
@@ -14677,7 +14677,7 @@
     "districtCode": "CO-8",
     "slug": "gabe_evans",
     "photo": "https://clerk.house.gov/images/members/E000300.jpg",
-    "votesWithPartyPct": 97.3,
+    "votesWithPartyPct": 96.9,
     "billsSponsored": 22,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -14867,7 +14867,7 @@
     "photo": "https://clerk.house.gov/images/members/L000557.jpg",
     "votesWithPartyPct": 98.9,
     "billsSponsored": 19,
-    "missedVotesPct": 3.1,
+    "missedVotesPct": 3,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -15055,8 +15055,8 @@
     "photo": "https://clerk.house.gov/images/members/C001069.jpg",
     "votesWithPartyPct": 97,
     "billsSponsored": 10,
-    "missedVotesPct": 4.1,
-    "missedVotesCount": 24,
+    "missedVotesPct": 4.6,
+    "missedVotesCount": 27,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -16691,8 +16691,8 @@
     "photo": "https://clerk.house.gov/images/members/R000609.jpg",
     "votesWithPartyPct": 98.9,
     "billsSponsored": 9,
-    "missedVotesPct": 10.4,
-    "missedVotesCount": 61,
+    "missedVotesPct": 10.5,
+    "missedVotesCount": 62,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -16799,7 +16799,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9503",
         "billNo": "H.R. 9503",
-        "title": "To change the name of the United States Secret Service Uniformed Division to the United States Secret Service Police.",
+        "title": "Officer Leslie Coffelt U.S. Secret Service Police Act of 2026",
         "proposalDate": "2026-06-29",
         "status": "Introduced"
       },
@@ -17502,7 +17502,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9159",
         "billNo": "H.R. 9159",
-        "title": "To amend the Small Business Act to establish a program under which the Small Business Administration may make supplemental disaster loans to homeowner associations to repair common areas damaged by disasters and implement disaster mitigation measures, and for other purposes.",
+        "title": "Protect Our Homes Act",
         "proposalDate": "2026-06-04",
         "status": "Introduced"
       },
@@ -17951,7 +17951,7 @@
     "photo": "https://clerk.house.gov/images/members/B001257.jpg",
     "votesWithPartyPct": 98.6,
     "billsSponsored": 31,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -18701,9 +18701,9 @@
     "districtCode": "FL-16",
     "slug": "vern_buchanan",
     "photo": "https://clerk.house.gov/images/members/B001260.jpg",
-    "votesWithPartyPct": 97.7,
+    "votesWithPartyPct": 97.8,
     "billsSponsored": 46,
-    "missedVotesPct": 9.4,
+    "missedVotesPct": 9.3,
     "missedVotesCount": 55,
     "recentVotes": [
       {
@@ -18889,7 +18889,7 @@
     "districtCode": "FL-17",
     "slug": "w_gregory_steube",
     "photo": "https://clerk.house.gov/images/members/S001214.jpg",
-    "votesWithPartyPct": 90.4,
+    "votesWithPartyPct": 90.5,
     "billsSponsored": 104,
     "missedVotesPct": 3.6,
     "missedVotesCount": 21,
@@ -19079,7 +19079,7 @@
     "photo": "https://clerk.house.gov/images/members/F000472.jpg",
     "votesWithPartyPct": 98.8,
     "billsSponsored": 15,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -19265,7 +19265,7 @@
     "districtCode": "FL-19",
     "slug": "byron_donalds",
     "photo": "https://clerk.house.gov/images/members/D000032.jpg",
-    "votesWithPartyPct": 92.8,
+    "votesWithPartyPct": 92.9,
     "billsSponsored": 26,
     "missedVotesPct": 7.1,
     "missedVotesCount": 42,
@@ -19455,7 +19455,7 @@
     "photo": "https://clerk.house.gov/images/members/M001199.jpg",
     "votesWithPartyPct": 97.7,
     "billsSponsored": 40,
-    "missedVotesPct": 3.1,
+    "missedVotesPct": 3,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -19829,7 +19829,7 @@
     "districtCode": "FL-23",
     "slug": "jared_moskowitz",
     "photo": "https://clerk.house.gov/images/members/M001217.jpg",
-    "votesWithPartyPct": 91.5,
+    "votesWithPartyPct": 91.6,
     "billsSponsored": 21,
     "missedVotesPct": 2.7,
     "missedVotesCount": 16,
@@ -20019,7 +20019,7 @@
     "photo": "https://clerk.house.gov/images/members/W000808.jpg",
     "votesWithPartyPct": 99.1,
     "billsSponsored": 23,
-    "missedVotesPct": 26.4,
+    "missedVotesPct": 26.2,
     "missedVotesCount": 155,
     "recentVotes": [
       {
@@ -20581,9 +20581,9 @@
     "districtCode": "FL-27",
     "slug": "maria_elvira_salazar",
     "photo": "https://clerk.house.gov/images/members/S000168.jpg",
-    "votesWithPartyPct": 96.6,
+    "votesWithPartyPct": 96.7,
     "billsSponsored": 18,
-    "missedVotesPct": 13.6,
+    "missedVotesPct": 13.5,
     "missedVotesCount": 80,
     "recentVotes": [
       {
@@ -20771,7 +20771,7 @@
     "photo": "https://clerk.house.gov/images/members/G000593.jpg",
     "votesWithPartyPct": 96.7,
     "billsSponsored": 11,
-    "missedVotesPct": 7.7,
+    "missedVotesPct": 7.6,
     "missedVotesCount": 45,
     "recentVotes": [
       {
@@ -20959,8 +20959,8 @@
     "photo": "https://clerk.house.gov/images/members/C001103.jpg",
     "votesWithPartyPct": 98.7,
     "billsSponsored": 63,
-    "missedVotesPct": 4.6,
-    "missedVotesCount": 27,
+    "missedVotesPct": 5.1,
+    "missedVotesCount": 30,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -21683,8 +21683,8 @@
     "photo": "https://clerk.house.gov/images/members/W000788.jpg",
     "votesWithPartyPct": 97.9,
     "billsSponsored": 53,
-    "missedVotesPct": 2.7,
-    "missedVotesCount": 16,
+    "missedVotesPct": 3.2,
+    "missedVotesCount": 19,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -21871,8 +21871,8 @@
     "photo": "https://clerk.house.gov/images/members/M001208.jpg",
     "votesWithPartyPct": 96.4,
     "billsSponsored": 16,
-    "missedVotesPct": 4.1,
-    "missedVotesCount": 24,
+    "missedVotesPct": 4.6,
+    "missedVotesCount": 27,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -22621,7 +22621,7 @@
     "districtCode": "GA-10",
     "slug": "mike_collins",
     "photo": "https://clerk.house.gov/images/members/C001129.jpg",
-    "votesWithPartyPct": 93.7,
+    "votesWithPartyPct": 93.8,
     "billsSponsored": 16,
     "missedVotesPct": 2,
     "missedVotesCount": 12,
@@ -23729,7 +23729,7 @@
     "slug": "mariannette_miller_meeks",
     "photo": "https://clerk.house.gov/images/members/M001215.jpg",
     "votesWithPartyPct": 96.8,
-    "billsSponsored": 48,
+    "billsSponsored": 49,
     "missedVotesPct": 4.1,
     "missedVotesCount": 24,
     "recentVotes": [
@@ -23836,6 +23836,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9615",
+        "billNo": "H.R. 9615",
+        "title": "BRACE Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9476",
         "billNo": "H.R. 9476",
         "title": "To direct the Secretary of Veterans Affairs to coordinate with the Secretary of Health and Human Services in administering the Veterans Community Care Program, and for other purposes.",
@@ -23897,13 +23904,6 @@
         "title": "Permanent Tax Relief for Seniors Act",
         "proposalDate": "2026-02-12",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7266",
-        "billNo": "H.R. 7266",
-        "title": "Rural and Municipal Utility Cybersecurity Act",
-        "proposalDate": "2026-01-27",
-        "status": "Passed"
       }
     ]
   },
@@ -23917,7 +23917,7 @@
     "slug": "ashley_hinson",
     "photo": "https://clerk.house.gov/images/members/H001091.jpg",
     "votesWithPartyPct": 98.6,
-    "billsSponsored": 30,
+    "billsSponsored": 31,
     "missedVotesPct": 1.7,
     "missedVotesCount": 10,
     "recentVotes": [
@@ -24024,6 +24024,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9628",
+        "billNo": "H.R. 9628",
+        "title": "To amend the Higher Education Act of 1965 regarding the use of TEACH grants, and for other purposes.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9280",
         "billNo": "H.R. 9280",
         "title": "Veterans to Advanced Manufacturing Plan Act",
@@ -24085,13 +24092,6 @@
         "title": "DALCI Act",
         "proposalDate": "2026-02-03",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6748",
-        "billNo": "H.R. 6748",
-        "title": "Gang Activity Reporting Act of 2025",
-        "proposalDate": "2025-12-16",
-        "status": "Introduced"
       }
     ]
   },
@@ -24106,7 +24106,7 @@
     "photo": "https://clerk.house.gov/images/members/N000193.jpg",
     "votesWithPartyPct": 96.2,
     "billsSponsored": 57,
-    "missedVotesPct": 5.3,
+    "missedVotesPct": 5.2,
     "missedVotesCount": 31,
     "recentVotes": [
       {
@@ -25185,7 +25185,7 @@
     "photo": "https://clerk.house.gov/images/members/R000617.jpg",
     "votesWithPartyPct": 95.7,
     "billsSponsored": 28,
-    "missedVotesPct": 5.3,
+    "missedVotesPct": 5.2,
     "missedVotesCount": 31,
     "recentVotes": [
       {
@@ -27411,8 +27411,8 @@
     "districtCode": "IL-15",
     "slug": "mary_e_miller",
     "photo": "https://clerk.house.gov/images/members/M001211.jpg",
-    "votesWithPartyPct": 92.1,
-    "billsSponsored": 33,
+    "votesWithPartyPct": 92.2,
+    "billsSponsored": 34,
     "missedVotesPct": 2.4,
     "missedVotesCount": 14,
     "recentVotes": [
@@ -27519,6 +27519,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9608",
+        "billNo": "H.R. 9608",
+        "title": "Less Bureaucracy, Better Family Engagement Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9360",
         "billNo": "H.R. 9360",
         "title": "Advisory Committee on the Records of Congress Sunset Act",
@@ -27580,13 +27587,6 @@
         "title": "Promoting Classical Learning Act of 2025",
         "proposalDate": "2025-11-07",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5646",
-        "billNo": "H.R. 5646",
-        "title": "Restoring Safeguards for Dangerous Abortion Drugs Act",
-        "proposalDate": "2025-09-30",
-        "status": "Introduced"
       }
     ]
   },
@@ -27601,7 +27601,7 @@
     "photo": "https://clerk.house.gov/images/members/L000585.jpg",
     "votesWithPartyPct": 98.7,
     "billsSponsored": 36,
-    "missedVotesPct": 6.5,
+    "missedVotesPct": 6.4,
     "missedVotesCount": 38,
     "recentVotes": [
       {
@@ -27789,7 +27789,7 @@
     "photo": "https://clerk.house.gov/images/members/S001225.jpg",
     "votesWithPartyPct": 93.8,
     "billsSponsored": 11,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -27953,7 +27953,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr2466",
         "billNo": "H.R. 2466",
-        "title": "To designate the facility of the United States Postal Service located at 5225 Harrison Avenue in Rockford, Illinois, as the “Jay P. Larson Post Office Building”.",
+        "title": "To designate the facility of the United States Postal Service located at 5225 Harrison Avenue in Rockford, Illinois, as the Jay P. Larson Post Office Building.",
         "proposalDate": "2025-03-27",
         "status": "Passed"
       },
@@ -27975,7 +27975,7 @@
     "districtCode": "IN-1",
     "slug": "frank_j_mrvan",
     "photo": "https://clerk.house.gov/images/members/M001214.jpg",
-    "votesWithPartyPct": 93.8,
+    "votesWithPartyPct": 93.9,
     "billsSponsored": 2,
     "missedVotesPct": 2.9,
     "missedVotesCount": 17,
@@ -28673,7 +28673,7 @@
     "photo": "https://clerk.house.gov/images/members/S000929.jpg",
     "votesWithPartyPct": 93.2,
     "billsSponsored": 13,
-    "missedVotesPct": 7,
+    "missedVotesPct": 6.9,
     "missedVotesCount": 41,
     "recentVotes": [
       {
@@ -29799,9 +29799,9 @@
     "districtCode": "KS-2",
     "slug": "derek_schmidt",
     "photo": "https://clerk.house.gov/images/members/S001228.jpg",
-    "votesWithPartyPct": 96,
+    "votesWithPartyPct": 96.1,
     "billsSponsored": 16,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -29987,9 +29987,9 @@
     "districtCode": "KS-3",
     "slug": "sharice_davids",
     "photo": "https://clerk.house.gov/images/members/D000629.jpg",
-    "votesWithPartyPct": 94.1,
+    "votesWithPartyPct": 94.2,
     "billsSponsored": 25,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -30506,18 +30506,18 @@
         "status": "Passed"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr1276",
-        "billNo": "H.R. 1276",
-        "title": "To remove restrictions from a parcel of land in Paducah, Kentucky.",
-        "proposalDate": "2025-02-13",
-        "status": "Passed"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr1295",
         "billNo": "H.R. 1295",
         "title": "Reorganizing Government Act of 2025",
         "proposalDate": "2025-02-13",
         "status": "Ordered Reported"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr1276",
+        "billNo": "H.R. 1276",
+        "title": "To remove restrictions from a parcel of land in Paducah, Kentucky.",
+        "proposalDate": "2025-02-13",
+        "status": "Passed"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hres82",
@@ -30732,7 +30732,7 @@
     "districtCode": "KY-3",
     "slug": "morgan_mcgarvey",
     "photo": "https://clerk.house.gov/images/members/M001220.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 20,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -30920,9 +30920,9 @@
     "districtCode": "KY-4",
     "slug": "thomas_massie",
     "photo": "https://clerk.house.gov/images/members/M001184.jpg",
-    "votesWithPartyPct": 76.3,
+    "votesWithPartyPct": 76.5,
     "billsSponsored": 26,
-    "missedVotesPct": 6.5,
+    "missedVotesPct": 6.4,
     "missedVotesCount": 38,
     "recentVotes": [
       {
@@ -31256,7 +31256,7 @@
     "photo": "https://clerk.house.gov/images/members/B001282.jpg",
     "votesWithPartyPct": 99.1,
     "billsSponsored": 57,
-    "missedVotesPct": 7.5,
+    "missedVotesPct": 7.4,
     "missedVotesCount": 44,
     "recentVotes": [
       {
@@ -31771,7 +31771,7 @@
     "photo": "https://clerk.house.gov/images/members/H001077.jpg",
     "votesWithPartyPct": 91.6,
     "billsSponsored": 34,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -32307,8 +32307,8 @@
     "photo": "https://clerk.house.gov/images/members/F000110.jpg",
     "votesWithPartyPct": 98.3,
     "billsSponsored": 9,
-    "missedVotesPct": 1.4,
-    "missedVotesCount": 8,
+    "missedVotesPct": 1.7,
+    "missedVotesCount": 10,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -32488,7 +32488,7 @@
     "photo": "https://clerk.house.gov/images/members/N000015.jpg",
     "votesWithPartyPct": 99.1,
     "billsSponsored": 3,
-    "missedVotesPct": 6.5,
+    "missedVotesPct": 6.4,
     "missedVotesCount": 38,
     "recentVotes": [
       {
@@ -32627,7 +32627,7 @@
     "photo": "https://clerk.house.gov/images/members/M000312.jpg",
     "votesWithPartyPct": 96.3,
     "billsSponsored": 33,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -33001,9 +33001,9 @@
     "districtCode": "MA-4",
     "slug": "jake_auchincloss",
     "photo": "https://clerk.house.gov/images/members/A000148.jpg",
-    "votesWithPartyPct": 96.2,
+    "votesWithPartyPct": 96.3,
     "billsSponsored": 10,
-    "missedVotesPct": 4.8,
+    "missedVotesPct": 4.7,
     "missedVotesCount": 28,
     "recentVotes": [
       {
@@ -33330,7 +33330,7 @@
     "photo": "https://clerk.house.gov/images/members/M001196.jpg",
     "votesWithPartyPct": 97.4,
     "billsSponsored": 19,
-    "missedVotesPct": 13.8,
+    "missedVotesPct": 13.7,
     "missedVotesCount": 81,
     "recentVotes": [
       {
@@ -33706,7 +33706,7 @@
     "photo": "https://clerk.house.gov/images/members/L000562.jpg",
     "votesWithPartyPct": 96.3,
     "billsSponsored": 14,
-    "missedVotesPct": 4.3,
+    "missedVotesPct": 4.2,
     "missedVotesCount": 25,
     "recentVotes": [
       {
@@ -33894,7 +33894,7 @@
     "photo": "https://clerk.house.gov/images/members/K000375.jpg",
     "votesWithPartyPct": 97.8,
     "billsSponsored": 21,
-    "missedVotesPct": 5.3,
+    "missedVotesPct": 5.2,
     "missedVotesCount": 31,
     "recentVotes": [
       {
@@ -34860,7 +34860,7 @@
     "photo": "https://clerk.house.gov/images/members/M001232.jpg",
     "votesWithPartyPct": 96.3,
     "billsSponsored": 29,
-    "missedVotesPct": 3.1,
+    "missedVotesPct": 3,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -35424,7 +35424,7 @@
     "photo": "https://clerk.house.gov/images/members/P000597.jpg",
     "votesWithPartyPct": 97.7,
     "billsSponsored": 23,
-    "missedVotesPct": 4.8,
+    "missedVotesPct": 4.7,
     "missedVotesCount": 28,
     "recentVotes": [
       {
@@ -35610,7 +35610,7 @@
     "districtCode": "ME-2",
     "slug": "jared_f_golden",
     "photo": "https://clerk.house.gov/images/members/G000592.jpg",
-    "votesWithPartyPct": 79.2,
+    "votesWithPartyPct": 79.1,
     "billsSponsored": 13,
     "missedVotesPct": 3.2,
     "missedVotesCount": 19,
@@ -36362,7 +36362,7 @@
     "districtCode": "MI-4",
     "slug": "bill_huizenga",
     "photo": "https://clerk.house.gov/images/members/H001058.jpg",
-    "votesWithPartyPct": 98.2,
+    "votesWithPartyPct": 98.3,
     "billsSponsored": 35,
     "missedVotesPct": 2.4,
     "missedVotesCount": 14,
@@ -36551,7 +36551,7 @@
     "slug": "tim_walberg",
     "photo": "https://clerk.house.gov/images/members/W000798.jpg",
     "votesWithPartyPct": 97.9,
-    "billsSponsored": 24,
+    "billsSponsored": 26,
     "missedVotesPct": 1,
     "missedVotesCount": 6,
     "recentVotes": [
@@ -36658,6 +36658,20 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9609",
+        "billNo": "H.R. 9609",
+        "title": "Less Bureaucracy, Better Student Aid Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9607",
+        "billNo": "H.R. 9607",
+        "title": "Less Bureaucracy, Better Workforce Development Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9381",
         "billNo": "H.R. 9381",
         "title": "AWARE Act",
@@ -36711,20 +36725,6 @@
         "billNo": "H.R. 6482",
         "title": "To rename the community-based outpatient clinic of the Department of Veterans Affairs in Michigan Center, Michigan, as the “Captain Herbert Elfring VA Clinic”.",
         "proposalDate": "2025-12-04",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6291",
-        "billNo": "H.R. 6291",
-        "title": "Children and Teens’ Online Privacy Protection Act",
-        "proposalDate": "2025-11-25",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5539",
-        "billNo": "H.R. 5539",
-        "title": "POW Priority Care Act of 2025",
-        "proposalDate": "2025-09-19",
         "status": "Introduced"
       }
     ]
@@ -36927,8 +36927,8 @@
     "slug": "tom_barrett",
     "photo": "https://clerk.house.gov/images/members/B001321.jpg",
     "votesWithPartyPct": 96.9,
-    "billsSponsored": 42,
-    "missedVotesPct": 0.9,
+    "billsSponsored": 43,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -37034,6 +37034,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9620",
+        "billNo": "H.R. 9620",
+        "title": "To direct the Secretary of Defense to submit to Congress a plan for the deployment of Airborne Collision Avoidance System-X.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9570",
         "billNo": "H.R. 9570",
         "title": "To designate the facility of the United States Postal Service located at 117 West Lovett Street in Charlotte, Michigan, as the “Francis C. Flaherty Post Office Building”.",
@@ -37095,13 +37102,6 @@
         "title": "Cold War Military Force Repeal Act",
         "proposalDate": "2026-04-22",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8434",
-        "billNo": "H.R. 8434",
-        "title": "Prevent Endless Wars Act",
-        "proposalDate": "2026-04-22",
-        "status": "Introduced"
       }
     ]
   },
@@ -37114,9 +37114,9 @@
     "districtCode": "MI-8",
     "slug": "kristen_mcdonald_rivet",
     "photo": "https://clerk.house.gov/images/members/M001237.jpg",
-    "votesWithPartyPct": 91.9,
+    "votesWithPartyPct": 92,
     "billsSponsored": 18,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -37302,7 +37302,7 @@
     "districtCode": "MI-9",
     "slug": "lisa_c_mcclain",
     "photo": "https://clerk.house.gov/images/members/M001136.jpg",
-    "votesWithPartyPct": 98.2,
+    "votesWithPartyPct": 98.3,
     "billsSponsored": 18,
     "missedVotesPct": 2.7,
     "missedVotesCount": 16,
@@ -37867,8 +37867,8 @@
     "slug": "rashida_tlaib",
     "photo": "https://clerk.house.gov/images/members/T000481.jpg",
     "votesWithPartyPct": 93.5,
-    "billsSponsored": 45,
-    "missedVotesPct": 2.6,
+    "billsSponsored": 46,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -37974,6 +37974,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9639",
+        "billNo": "H.R. 9639",
+        "title": "To amend the Fair Credit Reporting Act to restore the impaired credit of victims of predatory activities and unfair consumer reporting practices, to expand access to tools to protect vulnerable consumers from identity theft, fraud, or a related crime, and protect victims from further harm, and for other purposes.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9490",
         "billNo": "H.R. 9490",
         "title": "Bank Failure Accountability Act",
@@ -38034,13 +38041,6 @@
         "billNo": "H.Res. 1249",
         "title": "Unhoused Persons Bill of Rights",
         "proposalDate": "2026-04-30",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8494",
-        "billNo": "H.R. 8494",
-        "title": "To prohibit the Department of Homeland Security from entering into, modifying, extending, or renewing, any contract or intergovernmental service agreement to establish or operate any new immigration detention model, including the use of warehouses, modular facilities, soft-sided structures, tent systems, and processing centers.",
-        "proposalDate": "2026-04-23",
         "status": "Introduced"
       }
     ]
@@ -38619,7 +38619,7 @@
     "slug": "kelly_morrison",
     "photo": "https://clerk.house.gov/images/members/M001234.jpg",
     "votesWithPartyPct": 98.6,
-    "billsSponsored": 16,
+    "billsSponsored": 17,
     "missedVotesPct": 0.3,
     "missedVotesCount": 2,
     "recentVotes": [
@@ -38726,6 +38726,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9634",
+        "billNo": "H.R. 9634",
+        "title": "To amend the Help America Vote Act of 2002 to support State and local governments making a transition to ranked choice voting.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9441",
         "billNo": "H.R. 9441",
         "title": "SAFE Training for OB-GYNs Act",
@@ -38786,13 +38793,6 @@
         "billNo": "H.R. 5203",
         "title": "To direct the Secretary of Veterans Affairs to update directives of the Department of Veterans Affairs regarding the management of acute sexual assault, and for other purposes.",
         "proposalDate": "2025-09-08",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr4709",
-        "billNo": "H.R. 4709",
-        "title": "Newborn Screening Saves Lives Reauthorization Act of 2025",
-        "proposalDate": "2025-07-23",
         "status": "Introduced"
       }
     ]
@@ -39734,7 +39734,7 @@
     "photo": "https://clerk.house.gov/images/members/B001324.jpg",
     "votesWithPartyPct": 97.9,
     "billsSponsored": 30,
-    "missedVotesPct": 3.1,
+    "missedVotesPct": 3,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -40109,8 +40109,8 @@
     "slug": "robert_f_onder_jr",
     "photo": "https://clerk.house.gov/images/members/O000177.jpg",
     "votesWithPartyPct": 94.2,
-    "billsSponsored": 17,
-    "missedVotesPct": 3.1,
+    "billsSponsored": 19,
+    "missedVotesPct": 3,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -40216,6 +40216,20 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9636",
+        "billNo": "H.R. 9636",
+        "title": "To amend the Labor-Management Reporting and Disclosure Act of 1959 to require labor organizations to include results of certain audits in financial reports, and for other purposes.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9606",
+        "billNo": "H.R. 9606",
+        "title": "Less Bureaucracy, Better Child Care for Student Parents Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9228",
         "billNo": "H.R. 9228",
         "title": "Health Data Access, Transparency, and Affordability Act of 2026",
@@ -40269,20 +40283,6 @@
         "billNo": "H.R. 4715",
         "title": "MEGA Act of 2025",
         "proposalDate": "2025-07-23",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr4523",
-        "billNo": "H.R. 4523",
-        "title": "To make technical amendments to title 49, United States Code, as necessary to improve the Code.",
-        "proposalDate": "2025-07-17",
-        "status": "Ordered Reported"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr4146",
-        "billNo": "H.R. 4146",
-        "title": "PAPA Act of 2025",
-        "proposalDate": "2025-06-25",
         "status": "Introduced"
       }
     ]
@@ -40860,7 +40860,7 @@
     "districtCode": "MO-7",
     "slug": "eric_burlison",
     "photo": "https://clerk.house.gov/images/members/B001316.jpg",
-    "votesWithPartyPct": 84.9,
+    "votesWithPartyPct": 85,
     "billsSponsored": 25,
     "missedVotesPct": 4.9,
     "missedVotesCount": 29,
@@ -41217,7 +41217,7 @@
     "photo": "https://clerk.house.gov/images/members/K000388.jpg",
     "votesWithPartyPct": 99.3,
     "billsSponsored": 8,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -42329,7 +42329,7 @@
     "districtCode": "NC-1",
     "slug": "donald_g_davis",
     "photo": "https://clerk.house.gov/images/members/D000230.jpg",
-    "votesWithPartyPct": 79.1,
+    "votesWithPartyPct": 79.2,
     "billsSponsored": 28,
     "missedVotesPct": 0.5,
     "missedVotesCount": 3,
@@ -42707,8 +42707,8 @@
     "photo": "https://clerk.house.gov/images/members/M001210.jpg",
     "votesWithPartyPct": 98.8,
     "billsSponsored": 39,
-    "missedVotesPct": 13.6,
-    "missedVotesCount": 80,
+    "missedVotesPct": 14,
+    "missedVotesCount": 83,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -42894,7 +42894,7 @@
     "slug": "valerie_p_foushee",
     "photo": "https://clerk.house.gov/images/members/F000477.jpg",
     "votesWithPartyPct": 98.1,
-    "billsSponsored": 29,
+    "billsSponsored": 30,
     "missedVotesPct": 2.2,
     "missedVotesCount": 13,
     "recentVotes": [
@@ -43001,6 +43001,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9619",
+        "billNo": "H.R. 9619",
+        "title": "To require artificial intelligence chatbot providers to provide data privacy and security, and for other purposes.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9427",
         "billNo": "H.R. 9427",
         "title": "AI Workforce Impact Study Act of 2026",
@@ -43061,13 +43068,6 @@
         "billNo": "H.R. 8479",
         "title": "Protecting Consumers from Deceptive AI Act",
         "proposalDate": "2026-04-23",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres1136",
-        "billNo": "H.Res. 1136",
-        "title": "Supporting the goals and ideals of “Long COVID Awareness Month”.",
-        "proposalDate": "2026-03-25",
         "status": "Introduced"
       }
     ]
@@ -43269,9 +43269,9 @@
     "districtCode": "NC-6",
     "slug": "addison_p_mcdowell",
     "photo": "https://clerk.house.gov/images/members/M001240.jpg",
-    "votesWithPartyPct": 97.2,
+    "votesWithPartyPct": 97.3,
     "billsSponsored": 17,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -43645,8 +43645,8 @@
     "districtCode": "NC-8",
     "slug": "mark_harris",
     "photo": "https://clerk.house.gov/images/members/H001102.jpg",
-    "votesWithPartyPct": 92.6,
-    "billsSponsored": 15,
+    "votesWithPartyPct": 92.7,
+    "billsSponsored": 17,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
     "recentVotes": [
@@ -43753,6 +43753,20 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9611",
+        "billNo": "H.R. 9611",
+        "title": "Less Bureaucracy, Better Higher Education Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9610",
+        "billNo": "H.R. 9610",
+        "title": "Less Bureaucracy, Better K–12 Education Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9580",
         "billNo": "H.R. 9580",
         "title": "PARITY Act",
@@ -43807,20 +43821,6 @@
         "title": "No Funding for Lawless Jurisdictions Act",
         "proposalDate": "2025-09-30",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5625",
-        "billNo": "H.R. 5625",
-        "title": "Cashless Bail Reporting Act",
-        "proposalDate": "2025-09-30",
-        "status": "Passed"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr4499",
-        "billNo": "H.R. 4499",
-        "title": "To make technical amendments to update statutory references to provisions reclassified to title 34, United States Code, and to correct related technical errors.",
-        "proposalDate": "2025-07-17",
-        "status": "Ordered Reported"
       }
     ]
   },
@@ -44920,7 +44920,7 @@
     "slug": "julie_fedorchak",
     "photo": "https://clerk.house.gov/images/members/F000482.jpg",
     "votesWithPartyPct": 98.4,
-    "billsSponsored": 15,
+    "billsSponsored": 16,
     "missedVotesPct": 2.2,
     "missedVotesCount": 13,
     "recentVotes": [
@@ -45027,6 +45027,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9618",
+        "billNo": "H.R. 9618",
+        "title": "DEF Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9141",
         "billNo": "H.R. 9141",
         "title": "SAVE America Through REAL ID Act",
@@ -45088,13 +45095,6 @@
         "title": "Promoting Cross-border Energy Infrastructure Act",
         "proposalDate": "2025-04-29",
         "status": "Passed"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr2838",
-        "billNo": "H.R. 2838",
-        "title": "Ending Intermittent Energy Subsidies Act of 2025",
-        "proposalDate": "2025-04-10",
-        "status": "Introduced"
       }
     ]
   },
@@ -45109,7 +45109,7 @@
     "photo": "https://clerk.house.gov/images/members/F000474.jpg",
     "votesWithPartyPct": 97.8,
     "billsSponsored": 27,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -45859,7 +45859,7 @@
     "districtCode": "NH-2",
     "slug": "maggie_goodlander",
     "photo": "https://clerk.house.gov/images/members/G000604.jpg",
-    "votesWithPartyPct": 93.1,
+    "votesWithPartyPct": 93.2,
     "billsSponsored": 12,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -46049,7 +46049,7 @@
     "photo": "https://clerk.house.gov/images/members/N000188.jpg",
     "votesWithPartyPct": 97.6,
     "billsSponsored": 18,
-    "missedVotesPct": 15.8,
+    "missedVotesPct": 15.7,
     "missedVotesCount": 93,
     "recentVotes": [
       {
@@ -46423,7 +46423,7 @@
     "districtCode": "NJ-3",
     "slug": "herbert_c_conaway_jr",
     "photo": "https://clerk.house.gov/images/members/C001136.jpg",
-    "votesWithPartyPct": 96.8,
+    "votesWithPartyPct": 96.9,
     "billsSponsored": 14,
     "missedVotesPct": 2.4,
     "missedVotesCount": 14,
@@ -46611,7 +46611,7 @@
     "districtCode": "NJ-4",
     "slug": "christopher_h_smith",
     "photo": "https://clerk.house.gov/images/members/S000522.jpg",
-    "votesWithPartyPct": 96.4,
+    "votesWithPartyPct": 96.2,
     "billsSponsored": 55,
     "missedVotesPct": 1,
     "missedVotesCount": 6,
@@ -46800,8 +46800,8 @@
     "slug": "josh_gottheimer",
     "photo": "https://clerk.house.gov/images/members/G000583.jpg",
     "votesWithPartyPct": 90.5,
-    "billsSponsored": 81,
-    "missedVotesPct": 14.1,
+    "billsSponsored": 82,
+    "missedVotesPct": 14,
     "missedVotesCount": 83,
     "recentVotes": [
       {
@@ -46907,6 +46907,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9626",
+        "billNo": "H.R. 9626",
+        "title": "To amend the Internal Revenue Code of 1986 to eliminate the State and local tax deduction marriage penalty.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9578",
         "billNo": "H.R. 9578",
         "title": "Spot the Fakes Act",
@@ -46967,13 +46974,6 @@
         "billNo": "H.R. 8655",
         "title": "Jersey Pride Tax Credit Act of 2026",
         "proposalDate": "2026-05-04",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres1239",
-        "billNo": "H.Res. 1239",
-        "title": "Condemning antisemitic hate-filled rhetoric and content disseminated by prominent online personalities, and urging social media platforms and public leaders to denounce and address such conduct.",
-        "proposalDate": "2026-04-30",
         "status": "Introduced"
       }
     ]
@@ -47175,9 +47175,9 @@
     "districtCode": "NJ-7",
     "slug": "thomas_h_kean_jr",
     "photo": "https://clerk.house.gov/images/members/K000398.jpg",
-    "votesWithPartyPct": 95,
+    "votesWithPartyPct": 94.6,
     "billsSponsored": 26,
-    "missedVotesPct": 24.8,
+    "missedVotesPct": 24.7,
     "missedVotesCount": 146,
     "recentVotes": [
       {
@@ -47364,7 +47364,7 @@
     "slug": "robert_menendez",
     "photo": "https://clerk.house.gov/images/members/M001226.jpg",
     "votesWithPartyPct": 97.3,
-    "billsSponsored": 20,
+    "billsSponsored": 21,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
     "recentVotes": [
@@ -47471,6 +47471,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9614",
+        "billNo": "H.R. 9614",
+        "title": "NRC Staff Pay Alignment Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8620",
         "billNo": "H.R. 8620",
         "title": "CARES Hotline Act",
@@ -47531,13 +47538,6 @@
         "billNo": "H.R. 6406",
         "title": "Parental Workforce Training Act",
         "proposalDate": "2025-12-03",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6153",
-        "billNo": "H.R. 6153",
-        "title": "Communities Before Air Tourism Act",
-        "proposalDate": "2025-11-19",
         "status": "Introduced"
       }
     ]
@@ -48046,7 +48046,7 @@
     "photo": "https://clerk.house.gov/images/members/W000822.jpg",
     "votesWithPartyPct": 97.9,
     "billsSponsored": 52,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -48422,7 +48422,7 @@
     "photo": "https://clerk.house.gov/images/members/V000136.jpg",
     "votesWithPartyPct": 91.9,
     "billsSponsored": 33,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -48537,7 +48537,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9234",
         "billNo": "H.R. 9234",
-        "title": "To establish a W nonimmigrant visa program for careworkers.",
+        "title": "Careworker Visa Act of 2026",
         "proposalDate": "2026-06-09",
         "status": "Introduced"
       },
@@ -48610,7 +48610,7 @@
     "photo": "https://clerk.house.gov/images/members/L000273.jpg",
     "votesWithPartyPct": 98.1,
     "billsSponsored": 36,
-    "missedVotesPct": 9.2,
+    "missedVotesPct": 9.1,
     "missedVotesCount": 54,
     "recentVotes": [
       {
@@ -48796,9 +48796,9 @@
     "districtCode": "NV-1",
     "slug": "dina_titus",
     "photo": "https://clerk.house.gov/images/members/T000468.jpg",
-    "votesWithPartyPct": 96.5,
+    "votesWithPartyPct": 96.6,
     "billsSponsored": 50,
-    "missedVotesPct": 10.9,
+    "missedVotesPct": 10.8,
     "missedVotesCount": 64,
     "recentVotes": [
       {
@@ -49172,7 +49172,7 @@
     "districtCode": "NV-3",
     "slug": "susie_lee",
     "photo": "https://clerk.house.gov/images/members/L000590.jpg",
-    "votesWithPartyPct": 91.3,
+    "votesWithPartyPct": 91.4,
     "billsSponsored": 22,
     "missedVotesPct": 1.2,
     "missedVotesCount": 7,
@@ -49360,7 +49360,7 @@
     "districtCode": "NV-4",
     "slug": "steven_horsford",
     "photo": "https://clerk.house.gov/images/members/H001066.jpg",
-    "votesWithPartyPct": 93.9,
+    "votesWithPartyPct": 93.8,
     "billsSponsored": 32,
     "missedVotesPct": 1.7,
     "missedVotesCount": 10,
@@ -49548,7 +49548,7 @@
     "districtCode": "NY-1",
     "slug": "nick_lalota",
     "photo": "https://clerk.house.gov/images/members/L000598.jpg",
-    "votesWithPartyPct": 94.4,
+    "votesWithPartyPct": 94.3,
     "billsSponsored": 26,
     "missedVotesPct": 1.9,
     "missedVotesCount": 11,
@@ -49736,7 +49736,7 @@
     "districtCode": "NY-2",
     "slug": "andrew_r_garbarino",
     "photo": "https://clerk.house.gov/images/members/G000597.jpg",
-    "votesWithPartyPct": 95,
+    "votesWithPartyPct": 94.7,
     "billsSponsored": 37,
     "missedVotesPct": 3.4,
     "missedVotesCount": 20,
@@ -49924,7 +49924,7 @@
     "districtCode": "NY-3",
     "slug": "thomas_r_suozzi",
     "photo": "https://clerk.house.gov/images/members/S001201.jpg",
-    "votesWithPartyPct": 88.7,
+    "votesWithPartyPct": 88.8,
     "billsSponsored": 25,
     "missedVotesPct": 3.2,
     "missedVotesCount": 19,
@@ -50112,7 +50112,7 @@
     "districtCode": "NY-4",
     "slug": "laura_gillen",
     "photo": "https://clerk.house.gov/images/members/G000602.jpg",
-    "votesWithPartyPct": 88.2,
+    "votesWithPartyPct": 88.3,
     "billsSponsored": 18,
     "missedVotesPct": 2.7,
     "missedVotesCount": 16,
@@ -50490,7 +50490,7 @@
     "photo": "https://clerk.house.gov/images/members/M001188.jpg",
     "votesWithPartyPct": 97.4,
     "billsSponsored": 36,
-    "missedVotesPct": 7.7,
+    "missedVotesPct": 7.6,
     "missedVotesCount": 45,
     "recentVotes": [
       {
@@ -51179,7 +51179,7 @@
     "photo": "https://clerk.house.gov/images/members/G000599.jpg",
     "votesWithPartyPct": 97.3,
     "billsSponsored": 42,
-    "missedVotesPct": 11.4,
+    "missedVotesPct": 11.3,
     "missedVotesCount": 67,
     "recentVotes": [
       {
@@ -51365,7 +51365,7 @@
     "districtCode": "NY-11",
     "slug": "nicole_malliotakis",
     "photo": "https://clerk.house.gov/images/members/M000317.jpg",
-    "votesWithPartyPct": 95.1,
+    "votesWithPartyPct": 95.2,
     "billsSponsored": 53,
     "missedVotesPct": 1.4,
     "missedVotesCount": 8,
@@ -51555,7 +51555,7 @@
     "photo": "https://clerk.house.gov/images/members/N000002.jpg",
     "votesWithPartyPct": 98.7,
     "billsSponsored": 12,
-    "missedVotesPct": 9.9,
+    "missedVotesPct": 9.8,
     "missedVotesCount": 58,
     "recentVotes": [
       {
@@ -51931,7 +51931,7 @@
     "photo": "https://clerk.house.gov/images/members/O000172.jpg",
     "votesWithPartyPct": 96.3,
     "billsSponsored": 9,
-    "missedVotesPct": 3.1,
+    "missedVotesPct": 3,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -52298,7 +52298,7 @@
     "districtCode": "NY-16",
     "slug": "george_latimer",
     "photo": "https://clerk.house.gov/images/members/L000606.jpg",
-    "votesWithPartyPct": 97.5,
+    "votesWithPartyPct": 97.6,
     "billsSponsored": 9,
     "missedVotesPct": 2.2,
     "missedVotesCount": 13,
@@ -52479,8 +52479,8 @@
     "districtCode": "NY-17",
     "slug": "michael_lawler",
     "photo": "https://clerk.house.gov/images/members/L000599.jpg",
-    "votesWithPartyPct": 92.1,
-    "billsSponsored": 112,
+    "votesWithPartyPct": 91.8,
+    "billsSponsored": 113,
     "missedVotesPct": 2,
     "missedVotesCount": 12,
     "recentVotes": [
@@ -52587,6 +52587,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1422",
+        "billNo": "H.Res. 1422",
+        "title": "Congratulating the New York Knicks on winning the 2026 National Basketball Association Finals.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9584",
         "billNo": "H.R. 9584",
         "title": "The Housing Voucher Funding Reallocation Act",
@@ -52647,13 +52654,6 @@
         "billNo": "H.Res. 1361",
         "title": "Expressing support for the recognition of July 3 through July 10, 2026, as “National Extreme Heat Awareness Week”, a national event educating the public on the dangers of extreme heat and the risks of extreme heat events to public safety, infrastructure, agriculture, and much more, and supporting the goals of a National Extreme Heat Awareness Week.",
         "proposalDate": "2026-06-11",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9152",
-        "billNo": "H.R. 9152",
-        "title": "VETRA Act",
-        "proposalDate": "2026-06-04",
         "status": "Introduced"
       }
     ]
@@ -53233,8 +53233,8 @@
     "photo": "https://clerk.house.gov/images/members/S001196.jpg",
     "votesWithPartyPct": 97.7,
     "billsSponsored": 29,
-    "missedVotesPct": 16.5,
-    "missedVotesCount": 97,
+    "missedVotesPct": 16.9,
+    "missedVotesCount": 100,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -53419,7 +53419,7 @@
     "districtCode": "NY-22",
     "slug": "john_w_mannion",
     "photo": "https://clerk.house.gov/images/members/M001231.jpg",
-    "votesWithPartyPct": 94.8,
+    "votesWithPartyPct": 94.9,
     "billsSponsored": 9,
     "missedVotesPct": 0.7,
     "missedVotesCount": 4,
@@ -53534,16 +53534,16 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8979",
-        "billNo": "H.R. 8979",
-        "title": "Elementary and Secondary School Counseling Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8978",
+        "billNo": "H.R. 8978",
+        "title": "Enhancing Mental Health and Suicide Prevention Through Campus Planning Act",
         "proposalDate": "2026-05-21",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8978",
-        "billNo": "H.R. 8978",
-        "title": "Enhancing Mental Health and Suicide Prevention Through Campus Planning Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8979",
+        "billNo": "H.R. 8979",
+        "title": "Elementary and Secondary School Counseling Act",
         "proposalDate": "2026-05-21",
         "status": "Introduced"
       },
@@ -53790,7 +53790,7 @@
     "photo": "https://clerk.house.gov/images/members/T000478.jpg",
     "votesWithPartyPct": 98.8,
     "billsSponsored": 75,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -54353,8 +54353,8 @@
     "slug": "greg_landsman",
     "photo": "https://clerk.house.gov/images/members/L000601.jpg",
     "votesWithPartyPct": 92.1,
-    "billsSponsored": 28,
-    "missedVotesPct": 0.9,
+    "billsSponsored": 29,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -54460,6 +54460,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9629",
+        "billNo": "H.R. 9629",
+        "title": "Protecting Communities from Data Center Impacts Act of 2026",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9553",
         "billNo": "H.R. 9553",
         "title": "Child Care Small Business Insight and Improvement Act of 2026",
@@ -54521,13 +54528,6 @@
         "title": "Secret Service-Local Law Enforcement Partnership Act of 2026",
         "proposalDate": "2026-03-09",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7768",
-        "billNo": "H.R. 7768",
-        "title": "Tax Relief for Renters Act of 2026",
-        "proposalDate": "2026-03-03",
-        "status": "Introduced"
       }
     ]
   },
@@ -54540,7 +54540,7 @@
     "districtCode": "OH-2",
     "slug": "david_j_taylor",
     "photo": "https://clerk.house.gov/images/members/T000490.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 33,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
@@ -54918,7 +54918,7 @@
     "photo": "https://clerk.house.gov/images/members/J000289.jpg",
     "votesWithPartyPct": 96.7,
     "billsSponsored": 1,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -55419,8 +55419,8 @@
     "photo": "https://clerk.house.gov/images/members/M001222.jpg",
     "votesWithPartyPct": 96.5,
     "billsSponsored": 26,
-    "missedVotesPct": 3.2,
-    "missedVotesCount": 19,
+    "missedVotesPct": 3.7,
+    "missedVotesCount": 22,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -55981,7 +55981,7 @@
     "districtCode": "OH-10",
     "slug": "michael_r_turner",
     "photo": "https://clerk.house.gov/images/members/T000463.jpg",
-    "votesWithPartyPct": 95,
+    "votesWithPartyPct": 95.1,
     "billsSponsored": 11,
     "missedVotesPct": 3.4,
     "missedVotesCount": 20,
@@ -56547,7 +56547,7 @@
     "photo": "https://clerk.house.gov/images/members/S001223.jpg",
     "votesWithPartyPct": 96.1,
     "billsSponsored": 37,
-    "missedVotesPct": 3.1,
+    "missedVotesPct": 3,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -56735,8 +56735,8 @@
     "photo": "https://clerk.house.gov/images/members/J000295.jpg",
     "votesWithPartyPct": 94.7,
     "billsSponsored": 21,
-    "missedVotesPct": 3.4,
-    "missedVotesCount": 20,
+    "missedVotesPct": 3.7,
+    "missedVotesCount": 22,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -57031,7 +57031,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9573",
         "billNo": "H.R. 9573",
-        "title": "To amend the Internal Revenue Code of 1986 to provide incentives for certain residential rental property.",
+        "title": "Housing Opportunities and Preservation Enhancement Act of 2026",
         "proposalDate": "2026-07-02",
         "status": "Introduced"
       },
@@ -57052,7 +57052,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9383",
         "billNo": "H.R. 9383",
-        "title": "To amend the Internal Revenue Code of 1986 to provide special rules with respect to the net operating losses of certain financial institutions.",
+        "title": "Small Business and Consumer Credit Act of 2026",
         "proposalDate": "2026-06-22",
         "status": "Introduced"
       },
@@ -58425,9 +58425,9 @@
     "districtCode": "OR-3",
     "slug": "maxine_dexter",
     "photo": "https://clerk.house.gov/images/members/D000635.jpg",
-    "votesWithPartyPct": 97.2,
+    "votesWithPartyPct": 97.3,
     "billsSponsored": 17,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -58613,7 +58613,7 @@
     "districtCode": "OR-4",
     "slug": "val_t_hoyle",
     "photo": "https://clerk.house.gov/images/members/H001094.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.4,
     "billsSponsored": 13,
     "missedVotesPct": 1.5,
     "missedVotesCount": 9,
@@ -59177,7 +59177,7 @@
     "districtCode": "PA-1",
     "slug": "brian_k_fitzpatrick",
     "photo": "https://clerk.house.gov/images/members/F000466.jpg",
-    "votesWithPartyPct": 84.8,
+    "votesWithPartyPct": 84.4,
     "billsSponsored": 80,
     "missedVotesPct": 1,
     "missedVotesCount": 6,
@@ -59366,7 +59366,7 @@
     "slug": "brendan_f_boyle",
     "photo": "https://clerk.house.gov/images/members/B001296.jpg",
     "votesWithPartyPct": 96.6,
-    "billsSponsored": 19,
+    "billsSponsored": 20,
     "missedVotesPct": 4.4,
     "missedVotesCount": 26,
     "recentVotes": [
@@ -59473,6 +59473,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9623",
+        "billNo": "H.R. 9623",
+        "title": "Protecting Americans’ Health Care Act of 2026",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9542",
         "billNo": "H.R. 9542",
         "title": "Protecting Health Care and Lowering Costs Act of 2026",
@@ -59534,13 +59541,6 @@
         "title": "Congressional Power of the Purse Act",
         "proposalDate": "2025-09-09",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr4634",
-        "billNo": "H.R. 4634",
-        "title": "Debt Ceiling Reform Act",
-        "proposalDate": "2025-07-23",
-        "status": "Introduced"
       }
     ]
   },
@@ -59555,7 +59555,7 @@
     "photo": "https://clerk.house.gov/images/members/E000296.jpg",
     "votesWithPartyPct": 98,
     "billsSponsored": 13,
-    "missedVotesPct": 7.5,
+    "missedVotesPct": 7.4,
     "missedVotesCount": 44,
     "recentVotes": [
       {
@@ -59930,7 +59930,7 @@
     "slug": "mary_gay_scanlon",
     "photo": "https://clerk.house.gov/images/members/S001205.jpg",
     "votesWithPartyPct": 98.4,
-    "billsSponsored": 20,
+    "billsSponsored": 21,
     "missedVotesPct": 1.7,
     "missedVotesCount": 10,
     "recentVotes": [
@@ -60037,6 +60037,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9638",
+        "billNo": "H.R. 9638",
+        "title": "To make standard time permanent except in States that elect to observe daylight saving time, and for other purposes.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9482",
         "billNo": "H.R. 9482",
         "title": "Health and Location Data Protection Act of 2026",
@@ -60097,13 +60104,6 @@
         "billNo": "H.R. 8392",
         "title": "No Free Passes for Cronies Act",
         "proposalDate": "2026-04-20",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8310",
-        "billNo": "H.R. 8310",
-        "title": "Patient Safety and Whistleblower Protections Act",
-        "proposalDate": "2026-04-15",
         "status": "Introduced"
       }
     ]
@@ -60305,9 +60305,9 @@
     "districtCode": "PA-7",
     "slug": "ryan_mackenzie",
     "photo": "https://clerk.house.gov/images/members/M001230.jpg",
-    "votesWithPartyPct": 94.3,
-    "billsSponsored": 24,
-    "missedVotesPct": 0.9,
+    "votesWithPartyPct": 94,
+    "billsSponsored": 25,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -60413,6 +60413,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9630",
+        "billNo": "H.R. 9630",
+        "title": "BILL Drivers Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9410",
         "billNo": "H.R. 9410",
         "title": "VA Education Oversight Improvement Act",
@@ -60474,13 +60481,6 @@
         "title": "Workforce Recovery and Resilience Act",
         "proposalDate": "2026-04-06",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8202",
-        "billNo": "H.R. 8202",
-        "title": "To amend the Export Control Reform Act of 2018 to provide for a ten-year statute of limitations for export control violations.",
-        "proposalDate": "2026-04-06",
-        "status": "Ordered Reported"
       }
     ]
   },
@@ -60493,7 +60493,7 @@
     "districtCode": "PA-8",
     "slug": "robert_p_bresnahan_jr",
     "photo": "https://clerk.house.gov/images/members/B001327.jpg",
-    "votesWithPartyPct": 94.3,
+    "votesWithPartyPct": 94.2,
     "billsSponsored": 20,
     "missedVotesPct": 1,
     "missedVotesCount": 6,
@@ -60869,7 +60869,7 @@
     "districtCode": "PA-10",
     "slug": "scott_perry",
     "photo": "https://clerk.house.gov/images/members/P000605.jpg",
-    "votesWithPartyPct": 86,
+    "votesWithPartyPct": 86.1,
     "billsSponsored": 47,
     "missedVotesPct": 1,
     "missedVotesCount": 6,
@@ -62723,7 +62723,7 @@
     "photo": "https://clerk.house.gov/images/members/M000194.jpg",
     "votesWithPartyPct": 94.6,
     "billsSponsored": 90,
-    "missedVotesPct": 17.7,
+    "missedVotesPct": 17.6,
     "missedVotesCount": 104,
     "recentVotes": [
       {
@@ -62910,9 +62910,9 @@
     "slug": "joe_wilson",
     "photo": "https://clerk.house.gov/images/members/W000795.jpg",
     "votesWithPartyPct": 98,
-    "billsSponsored": 29,
-    "missedVotesPct": 4.6,
-    "missedVotesCount": 27,
+    "billsSponsored": 30,
+    "missedVotesPct": 5.1,
+    "missedVotesCount": 30,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -63017,6 +63017,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9603",
+        "billNo": "H.R. 9603",
+        "title": "Less Bureaucracy, Better International Education Oversight Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9450",
         "billNo": "H.R. 9450",
         "title": "Countering Russian Trafficking Act",
@@ -63078,13 +63085,6 @@
         "title": "Countering China’s Control of the Caucasus Act",
         "proposalDate": "2026-02-24",
         "status": "Passed"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7415",
-        "billNo": "H.R. 7415",
-        "title": "HARM Act 2.0",
-        "proposalDate": "2026-02-09",
-        "status": "Introduced"
       }
     ]
   },
@@ -63207,7 +63207,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9592",
         "billNo": "H.R. 9592",
-        "title": "To authorize the Secretary of State to take certain actions to counter and reduce threats to the space security of the United States, to require the Secretary of State to provide certain consultations to Congress on the space security of the United States, and for other purposes.",
+        "title": "American Space Leadership for the 21st Century Act",
         "proposalDate": "2026-07-06",
         "status": "Introduced"
       },
@@ -63473,9 +63473,9 @@
     "districtCode": "SC-5",
     "slug": "ralph_norman",
     "photo": "https://clerk.house.gov/images/members/N000190.jpg",
-    "votesWithPartyPct": 87.6,
+    "votesWithPartyPct": 87.7,
     "billsSponsored": 22,
-    "missedVotesPct": 12.8,
+    "missedVotesPct": 12.7,
     "missedVotesCount": 75,
     "recentVotes": [
       {
@@ -63801,7 +63801,7 @@
     "slug": "russell_fry",
     "photo": "https://clerk.house.gov/images/members/F000478.jpg",
     "votesWithPartyPct": 93.8,
-    "billsSponsored": 18,
+    "billsSponsored": 19,
     "missedVotesPct": 0.3,
     "missedVotesCount": 2,
     "recentVotes": [
@@ -63908,6 +63908,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9612",
+        "billNo": "H.R. 9612",
+        "title": "American Enrichment Deployment Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8849",
         "billNo": "H.R. 8849",
         "title": "Promoting Police Leadership Act",
@@ -63968,13 +63975,6 @@
         "billNo": "H.R. 4371",
         "title": "Kayla Hamilton Act",
         "proposalDate": "2025-07-14",
-        "status": "Passed"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr4323",
-        "billNo": "H.R. 4323",
-        "title": "Trafficking Survivors Relief Act",
-        "proposalDate": "2025-07-10",
         "status": "Passed"
       }
     ]
@@ -64176,8 +64176,8 @@
     "districtCode": "TN-1",
     "slug": "diana_harshbarger",
     "photo": "https://clerk.house.gov/images/members/H001086.jpg",
-    "votesWithPartyPct": 92.5,
-    "billsSponsored": 30,
+    "votesWithPartyPct": 92.6,
+    "billsSponsored": 31,
     "missedVotesPct": 1.5,
     "missedVotesCount": 9,
     "recentVotes": [
@@ -64284,6 +64284,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9613",
+        "billNo": "H.R. 9613",
+        "title": "Nuclear Advisory Committee Reform Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9389",
         "billNo": "H.R. 9389",
         "title": "Nutrition Education and Chronic Disease Prevention in Community Health Centers Act of 2026",
@@ -64344,13 +64351,6 @@
         "billNo": "H.R. 6688",
         "title": "ADAS Functionality and Integrity Act",
         "proposalDate": "2025-12-12",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6393",
-        "billNo": "H.R. 6393",
-        "title": "DSH in Tennessee Act",
-        "proposalDate": "2025-12-03",
         "status": "Introduced"
       }
     ]
@@ -64552,7 +64552,7 @@
     "districtCode": "TN-3",
     "slug": "charles_j_chuck_fleischmann",
     "photo": "https://clerk.house.gov/images/members/F000459.jpg",
-    "votesWithPartyPct": 97.9,
+    "votesWithPartyPct": 98,
     "billsSponsored": 8,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
@@ -64728,7 +64728,7 @@
     "photo": "https://clerk.house.gov/images/members/D000616.jpg",
     "votesWithPartyPct": 98.2,
     "billsSponsored": 1,
-    "missedVotesPct": 4.8,
+    "missedVotesPct": 4.7,
     "missedVotesCount": 28,
     "recentVotes": [
       {
@@ -64851,7 +64851,7 @@
     "districtCode": "TN-5",
     "slug": "andrew_ogles",
     "photo": "https://clerk.house.gov/images/members/O000175.jpg",
-    "votesWithPartyPct": 91.7,
+    "votesWithPartyPct": 91.8,
     "billsSponsored": 47,
     "missedVotesPct": 9,
     "missedVotesCount": 53,
@@ -65041,7 +65041,7 @@
     "photo": "https://clerk.house.gov/images/members/R000612.jpg",
     "votesWithPartyPct": 97.8,
     "billsSponsored": 13,
-    "missedVotesPct": 5.3,
+    "missedVotesPct": 5.2,
     "missedVotesCount": 31,
     "recentVotes": [
       {
@@ -65389,7 +65389,7 @@
     "photo": "https://clerk.house.gov/images/members/K000392.jpg",
     "votesWithPartyPct": 98.6,
     "billsSponsored": 29,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -66139,7 +66139,7 @@
     "districtCode": "TX-3",
     "slug": "keith_self",
     "photo": "https://clerk.house.gov/images/members/S001224.jpg",
-    "votesWithPartyPct": 84.4,
+    "votesWithPartyPct": 84.5,
     "billsSponsored": 54,
     "missedVotesPct": 2.4,
     "missedVotesCount": 14,
@@ -66500,7 +66500,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr3872",
         "billNo": "H.R. 3872",
-        "title": "MERICA Act of 2025",
+        "title": "To amend the Mineral Leasing Act for Acquired Lands to make that Act applicable to hardrock minerals.",
         "proposalDate": "2025-06-10",
         "status": "Passed"
       }
@@ -67227,7 +67227,7 @@
     "photo": "https://clerk.house.gov/images/members/G000553.jpg",
     "votesWithPartyPct": 97.9,
     "billsSponsored": 47,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -67414,7 +67414,7 @@
     "slug": "michael_t_mccaul",
     "photo": "https://clerk.house.gov/images/members/M001157.jpg",
     "votesWithPartyPct": 96.6,
-    "billsSponsored": 9,
+    "billsSponsored": 11,
     "missedVotesPct": 13.9,
     "missedVotesCount": 82,
     "recentVotes": [
@@ -67521,6 +67521,20 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9632",
+        "billNo": "H.R. 9632",
+        "title": "Accelerating Innovation (AI) for Kids with Cancer Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9631",
+        "billNo": "H.R. 9631",
+        "title": "Bear Poaching Elimination Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8697",
         "billNo": "H.R. 8697",
         "title": "Guard the Skies Act",
@@ -67575,13 +67589,6 @@
         "title": "Mikaela Naylon Give Kids a Chance Act",
         "proposalDate": "2025-02-12",
         "status": "Passed"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr625",
-        "billNo": "H.R. 625",
-        "title": "LACA",
-        "proposalDate": "2025-01-22",
-        "status": "Introduced"
       }
     ]
   },
@@ -67595,7 +67602,7 @@
     "slug": "august_pfluger",
     "photo": "https://clerk.house.gov/images/members/P000048.jpg",
     "votesWithPartyPct": 99,
-    "billsSponsored": 57,
+    "billsSponsored": 58,
     "missedVotesPct": 1.4,
     "missedVotesCount": 8,
     "recentVotes": [
@@ -67702,6 +67709,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9616",
+        "billNo": "H.R. 9616",
+        "title": "EMRTAI Authorization Act of 2026",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9397",
         "billNo": "H.R. 9397",
         "title": "Premium Transparency Act",
@@ -67763,13 +67777,6 @@
         "title": "Mystic Alerts Act",
         "proposalDate": "2026-01-12",
         "status": "Passed"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6988",
-        "billNo": "H.R. 6988",
-        "title": "Trade Transparency Unit Strategy Act",
-        "proposalDate": "2026-01-08",
-        "status": "Introduced"
       }
     ]
   },
@@ -68160,7 +68167,7 @@
     "photo": "https://clerk.house.gov/images/members/W000814.jpg",
     "votesWithPartyPct": 98.1,
     "billsSponsored": 23,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -68346,8 +68353,8 @@
     "districtCode": "TX-15",
     "slug": "monica_de_la_cruz",
     "photo": "https://clerk.house.gov/images/members/D000594.jpg",
-    "votesWithPartyPct": 98.3,
-    "billsSponsored": 33,
+    "votesWithPartyPct": 98.4,
+    "billsSponsored": 34,
     "missedVotesPct": 6.8,
     "missedVotesCount": 40,
     "recentVotes": [
@@ -68454,6 +68461,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9625",
+        "billNo": "H.R. 9625",
+        "title": "Freedom to Build Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9053",
         "billNo": "H.R. 9053",
         "title": "WATER for Farmers Act",
@@ -68514,13 +68528,6 @@
         "billNo": "H.R. 6386",
         "title": "Ensuring Predictable and Reliable Water Deliveries Act of 2025",
         "proposalDate": "2025-12-03",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6132",
-        "billNo": "H.R. 6132",
-        "title": "Housing Affordability Act",
-        "proposalDate": "2025-11-19",
         "status": "Introduced"
       }
     ]
@@ -69432,9 +69439,9 @@
     "districtCode": "TX-21",
     "slug": "chip_roy",
     "photo": "https://clerk.house.gov/images/members/R000614.jpg",
-    "votesWithPartyPct": 82.3,
+    "votesWithPartyPct": 82.4,
     "billsSponsored": 65,
-    "missedVotesPct": 6,
+    "missedVotesPct": 5.9,
     "missedVotesCount": 35,
     "recentVotes": [
       {
@@ -69810,7 +69817,7 @@
     "photo": "https://clerk.house.gov/images/members/V000134.jpg",
     "votesWithPartyPct": 97.1,
     "billsSponsored": 46,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -69998,7 +70005,7 @@
     "photo": "https://clerk.house.gov/images/members/W000816.jpg",
     "votesWithPartyPct": 98,
     "billsSponsored": 38,
-    "missedVotesPct": 4.3,
+    "missedVotesPct": 4.2,
     "missedVotesCount": 25,
     "recentVotes": [
       {
@@ -70184,7 +70191,7 @@
     "districtCode": "TX-26",
     "slug": "brandon_gill",
     "photo": "https://clerk.house.gov/images/members/G000603.jpg",
-    "votesWithPartyPct": 91.1,
+    "votesWithPartyPct": 91.2,
     "billsSponsored": 22,
     "missedVotesPct": 1.7,
     "missedVotesCount": 10,
@@ -70372,7 +70379,7 @@
     "districtCode": "TX-27",
     "slug": "michael_cloud",
     "photo": "https://clerk.house.gov/images/members/C001115.jpg",
-    "votesWithPartyPct": 88.7,
+    "votesWithPartyPct": 88.8,
     "billsSponsored": 24,
     "missedVotesPct": 1.5,
     "missedVotesCount": 9,
@@ -70560,7 +70567,7 @@
     "districtCode": "TX-28",
     "slug": "henry_cuellar",
     "photo": "https://clerk.house.gov/images/members/C001063.jpg",
-    "votesWithPartyPct": 76.2,
+    "votesWithPartyPct": 76,
     "billsSponsored": 3,
     "missedVotesPct": 1.5,
     "missedVotesCount": 9,
@@ -70889,7 +70896,7 @@
     "photo": "https://clerk.house.gov/images/members/C001130.jpg",
     "votesWithPartyPct": 98.2,
     "billsSponsored": 19,
-    "missedVotesPct": 6.5,
+    "missedVotesPct": 6.4,
     "missedVotesCount": 38,
     "recentVotes": [
       {
@@ -71223,7 +71230,7 @@
     "photo": "https://clerk.house.gov/images/members/J000310.jpg",
     "votesWithPartyPct": 96.4,
     "billsSponsored": 25,
-    "missedVotesPct": 4.3,
+    "missedVotesPct": 4.2,
     "missedVotesCount": 25,
     "recentVotes": [
       {
@@ -71409,7 +71416,7 @@
     "districtCode": "TX-33",
     "slug": "marc_a_veasey",
     "photo": "https://clerk.house.gov/images/members/V000131.jpg",
-    "votesWithPartyPct": 94.2,
+    "votesWithPartyPct": 94.3,
     "billsSponsored": 12,
     "missedVotesPct": 1.9,
     "missedVotesCount": 11,
@@ -71597,7 +71604,7 @@
     "districtCode": "TX-34",
     "slug": "vicente_gonzalez",
     "photo": "https://clerk.house.gov/images/members/G000581.jpg",
-    "votesWithPartyPct": 81.9,
+    "votesWithPartyPct": 81.5,
     "billsSponsored": 8,
     "missedVotesPct": 5.4,
     "missedVotesCount": 32,
@@ -71773,8 +71780,8 @@
     "photo": "https://clerk.house.gov/images/members/C001131.jpg",
     "votesWithPartyPct": 96.6,
     "billsSponsored": 8,
-    "missedVotesPct": 14.8,
-    "missedVotesCount": 87,
+    "missedVotesPct": 15.2,
+    "missedVotesCount": 90,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -72323,8 +72330,8 @@
     "photo": "https://clerk.house.gov/images/members/H001095.jpg",
     "votesWithPartyPct": 95.7,
     "billsSponsored": 17,
-    "missedVotesPct": 25.3,
-    "missedVotesCount": 149,
+    "missedVotesPct": 25.7,
+    "missedVotesCount": 152,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -72697,7 +72704,7 @@
     "districtCode": "UT-2",
     "slug": "celeste_maloy",
     "photo": "https://clerk.house.gov/images/members/M001228.jpg",
-    "votesWithPartyPct": 96.5,
+    "votesWithPartyPct": 96.6,
     "billsSponsored": 23,
     "missedVotesPct": 1,
     "missedVotesCount": 6,
@@ -73074,7 +73081,7 @@
     "slug": "burgess_owens",
     "photo": "https://clerk.house.gov/images/members/O000086.jpg",
     "votesWithPartyPct": 97.7,
-    "billsSponsored": 26,
+    "billsSponsored": 27,
     "missedVotesPct": 1.9,
     "missedVotesCount": 11,
     "recentVotes": [
@@ -73181,6 +73188,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9604",
+        "billNo": "H.R. 9604",
+        "title": "Less Bureaucracy, Better Tribal Education Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9527",
         "billNo": "H.R. 9527",
         "title": "STRONG Act",
@@ -73242,13 +73256,6 @@
         "title": "Closing the Provider Fraud Gap Act",
         "proposalDate": "2026-02-25",
         "status": "Ordered Reported"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6809",
-        "billNo": "H.R. 6809",
-        "title": "Alyssa’s Act of 2025",
-        "proposalDate": "2025-12-17",
-        "status": "Introduced"
       }
     ]
   },
@@ -73261,8 +73268,8 @@
     "districtCode": "VA-1",
     "slug": "robert_j_wittman",
     "photo": "https://clerk.house.gov/images/members/W000804.jpg",
-    "votesWithPartyPct": 98.2,
-    "billsSponsored": 22,
+    "votesWithPartyPct": 98.3,
+    "billsSponsored": 23,
     "missedVotesPct": 2.7,
     "missedVotesCount": 16,
     "recentVotes": [
@@ -73369,6 +73376,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9640",
+        "billNo": "H.R. 9640",
+        "title": "To amend the Infrastructure Investment and Jobs Act to reauthorize the Earth Mapping Resources Initiative, and for other purposes.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr7992",
         "billNo": "H.R. 7992",
         "title": "CANS Act of 2026",
@@ -73430,13 +73444,6 @@
         "title": "Chesapeake Bay Conservation Acceleration Act of 2025",
         "proposalDate": "2025-03-11",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr1151",
-        "billNo": "H.R. 1151",
-        "title": "Freedom to Invest in Tomorrow’s Workforce Act",
-        "proposalDate": "2025-02-07",
-        "status": "Introduced"
       }
     ]
   },
@@ -73449,7 +73456,7 @@
     "districtCode": "VA-2",
     "slug": "jennifer_a_kiggans",
     "photo": "https://clerk.house.gov/images/members/K000399.jpg",
-    "votesWithPartyPct": 96.3,
+    "votesWithPartyPct": 96.4,
     "billsSponsored": 55,
     "missedVotesPct": 2,
     "missedVotesCount": 12,
@@ -74014,7 +74021,7 @@
     "slug": "john_j_mcguire_iii",
     "photo": "https://clerk.house.gov/images/members/M001239.jpg",
     "votesWithPartyPct": 94.3,
-    "billsSponsored": 19,
+    "billsSponsored": 20,
     "missedVotesPct": 1.7,
     "missedVotesCount": 10,
     "recentVotes": [
@@ -74121,6 +74128,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9633",
+        "billNo": "H.R. 9633",
+        "title": "Birthright Citizenship Clarification Act of 2026",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9522",
         "billNo": "H.R. 9522",
         "title": "National Patriot Day Remembrance Flag Act",
@@ -74182,13 +74196,6 @@
         "title": "Wintergreen Emergency Egress Act",
         "proposalDate": "2025-12-02",
         "status": "Passed"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres859",
-        "billNo": "H.Res. 859",
-        "title": "Honoring Hampden-Sydney College on the 250th anniversary of its founding.",
-        "proposalDate": "2025-11-04",
-        "status": "Introduced"
       }
     ]
   },
@@ -74389,9 +74396,9 @@
     "districtCode": "VA-7",
     "slug": "eugene_simon_vindman",
     "photo": "https://clerk.house.gov/images/members/V000138.jpg",
-    "votesWithPartyPct": 90.7,
+    "votesWithPartyPct": 90.6,
     "billsSponsored": 63,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -74578,7 +74585,7 @@
     "slug": "donald_s_beyer_jr",
     "photo": "https://clerk.house.gov/images/members/B001292.jpg",
     "votesWithPartyPct": 98.1,
-    "billsSponsored": 54,
+    "billsSponsored": 55,
     "missedVotesPct": 2.2,
     "missedVotesCount": 13,
     "recentVotes": [
@@ -74685,6 +74692,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9622",
+        "billNo": "H.R. 9622",
+        "title": "Modernizing Aeronautical Standards Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9261",
         "billNo": "H.R. 9261",
         "title": "Comprehensive Paid Leave for Federal Employees Act",
@@ -74745,13 +74759,6 @@
         "billNo": "H.R. 8783",
         "title": "To amend the Internal Revenue Code of 1986 to exclude from gross income charitable distributions from certain employer-sponsored retirement plans, and for other purposes.",
         "proposalDate": "2026-05-13",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8567",
-        "billNo": "H.R. 8567",
-        "title": "UNLEADED Act",
-        "proposalDate": "2026-04-29",
         "status": "Introduced"
       }
     ]
@@ -75061,13 +75068,6 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9371",
-        "billNo": "H.R. 9371",
-        "title": "SLASH Prices Act",
-        "proposalDate": "2026-06-18",
-        "status": "Introduced"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9372",
         "billNo": "H.R. 9372",
         "title": "Data Infrastructure Energy Measurement and Standards Act",
@@ -75075,16 +75075,23 @@
         "status": "Ordered Reported"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9205",
-        "billNo": "H.R. 9205",
-        "title": "Protect Every Preschooler Act of 2026",
-        "proposalDate": "2026-06-08",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9371",
+        "billNo": "H.R. 9371",
+        "title": "SLASH Prices Act",
+        "proposalDate": "2026-06-18",
         "status": "Introduced"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9204",
         "billNo": "H.R. 9204",
         "title": "Gun Safety Innovation Opportunity Act of 2026",
+        "proposalDate": "2026-06-08",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9205",
+        "billNo": "H.R. 9205",
+        "title": "Protect Every Preschooler Act of 2026",
         "proposalDate": "2026-06-08",
         "status": "Introduced"
       },
@@ -75894,7 +75901,7 @@
     "slug": "marie_gluesenkamp_perez",
     "photo": "https://clerk.house.gov/images/members/G000600.jpg",
     "votesWithPartyPct": 78.7,
-    "billsSponsored": 25,
+    "billsSponsored": 26,
     "missedVotesPct": 1.2,
     "missedVotesCount": 7,
     "recentVotes": [
@@ -76001,6 +76008,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9637",
+        "billNo": "H.R. 9637",
+        "title": "To amend the Marine Mammal Protection Act of 1972 to authorize intentional lethal take by certain Indian Tribes of California sea lions and Steller sea lions in a specified portion of the Columbia River, and for other purposes.",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8828",
         "billNo": "H.R. 8828",
         "title": "To direct the Attorney General to establish an official station for the United States attorney for the Western District of Washington in the county of Clark, Washington, and for other purposes.",
@@ -76045,7 +76059,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hres878",
         "billNo": "H.Res. 878",
-        "title": "Disapproving the behavior of Representative Jesús G. “Chuy” García of Illinois.",
+        "title": "Disapproving the behavior of Representative Jesús G. Chuy García of Illinois.",
         "proposalDate": "2025-11-17",
         "status": "Agreed To (Simple Resolution)"
       },
@@ -76061,13 +76075,6 @@
         "billNo": "H.R. 5363",
         "title": "Expanding Childcare in Rural America Act of 2025",
         "proposalDate": "2025-09-15",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5155",
-        "billNo": "H.R. 5155",
-        "title": "Warrior Right to Repair Act of 2025",
-        "proposalDate": "2025-09-04",
         "status": "Introduced"
       }
     ]
@@ -76270,7 +76277,7 @@
     "slug": "michael_baumgartner",
     "photo": "https://clerk.house.gov/images/members/B001322.jpg",
     "votesWithPartyPct": 98.8,
-    "billsSponsored": 20,
+    "billsSponsored": 22,
     "missedVotesPct": 2.2,
     "missedVotesCount": 13,
     "recentVotes": [
@@ -76377,6 +76384,20 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9621",
+        "billNo": "H.R. 9621",
+        "title": "Northwest Endangered Salmon Predation Prevention Act of 2026",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9602",
+        "billNo": "H.R. 9602",
+        "title": "Less Bureaucracy, Better International Foreign Gift Transparency Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9419",
         "billNo": "H.R. 9419",
         "title": "To facilitate the responsible development of data centers and related infrastructure, to protect existing ratepayers from the shifting of incremental infrastructure costs attributable to large-load facilities, to encourage investment in water reuse, and for other purposes.",
@@ -76431,20 +76452,6 @@
         "title": "Foreign Adversary AI Risk Assessment and Diplomacy Act",
         "proposalDate": "2026-01-14",
         "status": "Ordered Reported"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5812",
-        "billNo": "H.R. 5812",
-        "title": "Correcting Opportunity and Accountability in Collegiate Hiring Act (COACH Act)",
-        "proposalDate": "2025-10-24",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5693",
-        "billNo": "H.R. 5693",
-        "title": "PROTECT Act",
-        "proposalDate": "2025-10-06",
-        "status": "Introduced"
       }
     ]
   },
@@ -77023,7 +77030,7 @@
     "photo": "https://clerk.house.gov/images/members/S000510.jpg",
     "votesWithPartyPct": 98.8,
     "billsSponsored": 16,
-    "missedVotesPct": 3.1,
+    "missedVotesPct": 3,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -77211,7 +77218,7 @@
     "photo": "https://clerk.house.gov/images/members/S001159.jpg",
     "votesWithPartyPct": 97.9,
     "billsSponsored": 28,
-    "missedVotesPct": 2.6,
+    "missedVotesPct": 2.5,
     "missedVotesCount": 15,
     "recentVotes": [
       {
@@ -77399,7 +77406,7 @@
     "photo": "https://clerk.house.gov/images/members/S001213.jpg",
     "votesWithPartyPct": 99,
     "billsSponsored": 35,
-    "missedVotesPct": 0.9,
+    "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentVotes": [
       {
@@ -77773,7 +77780,7 @@
     "districtCode": "WI-3",
     "slug": "derrick_van_orden",
     "photo": "https://clerk.house.gov/images/members/V000135.jpg",
-    "votesWithPartyPct": 95.8,
+    "votesWithPartyPct": 95.9,
     "billsSponsored": 26,
     "missedVotesPct": 9.5,
     "missedVotesCount": 56,
@@ -77963,7 +77970,7 @@
     "photo": "https://clerk.house.gov/images/members/M001160.jpg",
     "votesWithPartyPct": 97.2,
     "billsSponsored": 29,
-    "missedVotesPct": 3.1,
+    "missedVotesPct": 3,
     "missedVotesCount": 18,
     "recentVotes": [
       {
@@ -78337,10 +78344,10 @@
     "districtCode": "WI-6",
     "slug": "glenn_grothman",
     "photo": "https://clerk.house.gov/images/members/G000576.jpg",
-    "votesWithPartyPct": 96.3,
-    "billsSponsored": 31,
-    "missedVotesPct": 1.7,
-    "missedVotesCount": 10,
+    "votesWithPartyPct": 96.4,
+    "billsSponsored": 33,
+    "missedVotesPct": 1.9,
+    "missedVotesCount": 11,
     "recentVotes": [
       {
         "voteId": "h230",
@@ -78445,6 +78452,20 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9605",
+        "billNo": "H.R. 9605",
+        "title": "Less Bureaucracy, Better Foreign Medical Accreditation Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9627",
+        "billNo": "H.R. 9627",
+        "title": "Hmong Congressional Gold Medal Act",
+        "proposalDate": "2026-07-09",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9515",
         "billNo": "H.R. 9515",
         "title": "MFA Act",
@@ -78499,20 +78520,6 @@
         "title": "COMPETE Act",
         "proposalDate": "2026-03-25",
         "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7940",
-        "billNo": "H.R. 7940",
-        "title": "SAFE Pathways Act",
-        "proposalDate": "2026-03-16",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7721",
-        "billNo": "H.R. 7721",
-        "title": "CRACKDOWN Act of 2026",
-        "proposalDate": "2026-02-26",
-        "status": "Ordered Reported"
       }
     ]
   },
