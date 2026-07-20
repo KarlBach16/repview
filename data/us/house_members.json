@@ -2265,7 +2265,7 @@
     "slug": "david_schweikert",
     "photo": "https://clerk.house.gov/images/members/S001183.jpg",
     "votesWithPartyPct": 96.8,
-    "billsSponsored": 29,
+    "billsSponsored": 30,
     "missedVotesPct": 1.1,
     "missedVotesCount": 7,
     "recentVotes": [
@@ -2372,6 +2372,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9772",
+        "billNo": "H.R. 9772",
+        "title": "Foreign Funding Transparency Act",
+        "proposalDate": "2026-07-18",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9715",
         "billNo": "H.R. 9715",
         "title": "To permit the use of artificial intelligence in arbitration, and for other purposes.",
@@ -2432,13 +2439,6 @@
         "billNo": "H.R. 7558",
         "title": "AIMS Act of 2025",
         "proposalDate": "2026-02-12",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7078",
-        "billNo": "H.R. 7078",
-        "title": "To amend the Colorado River Basin Project Act to provide for the equitable distribution of Colorado River water for the lower basin States, and for other purposes.",
-        "proposalDate": "2026-01-14",
         "status": "Introduced"
       }
     ]
@@ -5695,7 +5695,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9737",
         "billNo": "H.R. 9737",
-        "title": "To amend the Employment Retirement Income Security Act to establish a Benefits Assistance Program to improve access to benefits under employee welfare benefit plans, and for other purposes.",
+        "title": "Consumer Health Claim Assistance Act",
         "proposalDate": "2026-07-16",
         "status": "Introduced"
       },
@@ -26811,7 +26811,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9740",
         "billNo": "H.R. 9740",
-        "title": "To establish a Critical Materials Processing Technology Testbed Capability, and for other purposes.",
+        "title": "Critical Materials Processing Technology Testbed Act",
         "proposalDate": "2026-07-16",
         "status": "Introduced"
       },
@@ -36145,7 +36145,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9711",
         "billNo": "H.R. 9711",
-        "title": "To amend title 49, United States Code, to prescribe safety standards for autocycles and related equipment, and for other purposes.",
+        "title": "Autocycle Safety Act",
         "proposalDate": "2026-07-15",
         "status": "Introduced"
       },
@@ -36333,7 +36333,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9714",
         "billNo": "H.R. 9714",
-        "title": "To limit the total number of schedule C and schedule G positions in the Federal Government, and for other purposes.",
+        "title": "Capping Appointed Positions Act",
         "proposalDate": "2026-07-15",
         "status": "Introduced"
       },
@@ -38213,7 +38213,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9717",
         "billNo": "H.R. 9717",
-        "title": "To amend the Commodity Exchange Act to authorize certain treatment of customer property during commodity broker bankruptcy.",
+        "title": "Customer Property Protection Act",
         "proposalDate": "2026-07-15",
         "status": "Introduced"
       },
@@ -47348,7 +47348,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9709",
         "billNo": "H.R. 9709",
-        "title": "To amend title XVIII of the Social Security Act to adjust the applicability of the income related monthly adjustment amount to premiums under part B of Medicare.",
+        "title": "Medicare Premiums Reduction Act of 2026",
         "proposalDate": "2026-07-15",
         "status": "Introduced"
       },
@@ -51429,7 +51429,7 @@
     "slug": "nicole_malliotakis",
     "photo": "https://clerk.house.gov/images/members/M000317.jpg",
     "votesWithPartyPct": 95.2,
-    "billsSponsored": 53,
+    "billsSponsored": 54,
     "missedVotesPct": 1.3,
     "missedVotesCount": 8,
     "recentVotes": [
@@ -51536,6 +51536,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9771",
+        "billNo": "H.R. 9771",
+        "title": "Stopping Foreign Influence in Elections Act of 2026",
+        "proposalDate": "2026-07-18",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9499",
         "billNo": "H.R. 9499",
         "title": "Protecting Taxpayers from Ghost Preparers Act",
@@ -51596,13 +51603,6 @@
         "billNo": "H.R. 6458",
         "title": "Electronic Filing Improvement and Logistical Efficiency Act of 2025",
         "proposalDate": "2025-12-04",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5776",
-        "billNo": "H.R. 5776",
-        "title": "EGG SAVE Act of 2025",
-        "proposalDate": "2025-10-17",
         "status": "Introduced"
       }
     ]
@@ -57737,7 +57737,7 @@
     "slug": "tom_cole",
     "photo": "https://clerk.house.gov/images/members/C001053.jpg",
     "votesWithPartyPct": 96.8,
-    "billsSponsored": 15,
+    "billsSponsored": 16,
     "missedVotesPct": 1.3,
     "missedVotesCount": 8,
     "recentVotes": [
@@ -57844,6 +57844,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9770",
+        "billNo": "H.R. 9770",
+        "title": "Making continuing appropriations for fiscal year 2027, and for other purposes.",
+        "proposalDate": "2026-07-18",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9187",
         "billNo": "H.R. 9187",
         "title": "Bipartisan Social Security Commission Act of 2026",
@@ -57905,13 +57912,6 @@
         "title": "Directing the Clerk of the House of Representatives to request the Senate to return to the House the bill (H.R. 3426) entitled “To amend title 40, United States Code, to limit the construction of new courthouses under certain circumstances, and for other purposes.”.",
         "proposalDate": "2025-09-19",
         "status": "Agreed To (Simple Resolution)"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5428",
-        "billNo": "H.R. 5428",
-        "title": "Medical Student Education Authorization Act of 2025",
-        "proposalDate": "2025-09-17",
-        "status": "Introduced"
       }
     ]
   },
@@ -61042,7 +61042,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9713",
         "billNo": "H.R. 9713",
-        "title": "To remove the United States from the International Monetary Fund, the World Bank Group, or the Asian Development Bank if such an institution assists in providing debt relief to the People’s Republic of China, and for other purposes.",
+        "title": "No More Debt Relief to China Act",
         "proposalDate": "2026-07-15",
         "status": "Introduced"
       },
@@ -62894,7 +62894,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9710",
         "billNo": "H.R. 9710",
-        "title": "To prohibit aliens who are nationals of certain countries of identified concern from entering the United States, and for other purposes.",
+        "title": "Third World Immigration Moratorium Act",
         "proposalDate": "2026-07-15",
         "status": "Introduced"
       },
@@ -64356,7 +64356,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9708",
         "billNo": "H.R. 9708",
-        "title": "To provide transparency in short-term rental listings, and for other purposes.",
+        "title": "SECURED Act of 2026",
         "proposalDate": "2026-07-15",
         "status": "Introduced"
       },
@@ -68712,16 +68712,16 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9739",
-        "billNo": "H.R. 9739",
-        "title": "To prohibit the exercise of the right of eminent domain with respect to Mount Cristo Rey.",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9738",
+        "billNo": "H.R. 9738",
+        "title": "Streamlining Military Infrastructure Act",
         "proposalDate": "2026-07-16",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9738",
-        "billNo": "H.R. 9738",
-        "title": "Streamlining Military Infrastructure Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9739",
+        "billNo": "H.R. 9739",
+        "title": "Mount Cristo Rey Protection Act",
         "proposalDate": "2026-07-16",
         "status": "Introduced"
       },
@@ -69127,7 +69127,7 @@
     "slug": "jodey_c_arrington",
     "photo": "https://clerk.house.gov/images/members/A000375.jpg",
     "votesWithPartyPct": 96.4,
-    "billsSponsored": 58,
+    "billsSponsored": 59,
     "missedVotesPct": 3.4,
     "missedVotesCount": 21,
     "recentVotes": [
@@ -69234,6 +69234,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hconres113",
+        "billNo": "H.Con.Res. 113",
+        "title": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036.",
+        "proposalDate": "2026-07-18",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9172",
         "billNo": "H.R. 9172",
         "title": "Applying Existing Tax Anti-Abuse Rules to Digital Assets Act",
@@ -69294,13 +69301,6 @@
         "billNo": "H.R. 6707",
         "title": "CFIUSMCA Act",
         "proposalDate": "2025-12-15",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6608",
-        "billNo": "H.R. 6608",
-        "title": "SHIELD Act of 2025",
-        "proposalDate": "2025-12-11",
         "status": "Introduced"
       }
     ]
@@ -70364,7 +70364,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9742",
         "billNo": "H.R. 9742",
-        "title": "To amend the Immigration and Nationality Act to eliminate certain exceptions to the naturalization requirement as to understanding the English language, history, principles, and form of government of the United States.",
+        "title": "English Language Proficiency Act",
         "proposalDate": "2026-07-16",
         "status": "Introduced"
       },
@@ -70884,16 +70884,16 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8877",
-        "billNo": "H.R. 8877",
-        "title": "Improving Self-Sufficiency of Families in HUD-Subsidized Housing Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8878",
+        "billNo": "H.R. 8878",
+        "title": "Incentivizing Local Solutions to Homelessness Act",
         "proposalDate": "2026-05-19",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8878",
-        "billNo": "H.R. 8878",
-        "title": "Incentivizing Local Solutions to Homelessness Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8877",
+        "billNo": "H.R. 8877",
+        "title": "Improving Self-Sufficiency of Families in HUD-Subsidized Housing Act",
         "proposalDate": "2026-05-19",
         "status": "Introduced"
       },
@@ -77013,7 +77013,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9445",
         "billNo": "H.R. 9445",
-        "title": "To ensure the right to provide reproductive health care services, and for other purposes.",
+        "title": "Let Doctors Provide Reproductive Health Care Act",
         "proposalDate": "2026-06-24",
         "status": "Introduced"
       },
@@ -78148,7 +78148,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9712",
         "billNo": "H.R. 9712",
-        "title": "To amend title XIX of the Social Security Act to provide coverage under the Medicaid program for services provided by doulas, midwives, and lactation support providers, and for other purposes.",
+        "title": "Mamas First Act",
         "proposalDate": "2026-07-15",
         "status": "Introduced"
       },
@@ -79348,7 +79348,7 @@
     "slug": "harriet_m_hageman",
     "photo": "https://clerk.house.gov/images/members/H001096.jpg",
     "votesWithPartyPct": 93.6,
-    "billsSponsored": 53,
+    "billsSponsored": 54,
     "missedVotesPct": 0.3,
     "missedVotesCount": 2,
     "recentVotes": [
@@ -79455,6 +79455,13 @@
     ],
     "recentBills": [
       {
+        "billId": "https://www.govtrack.us/congress/bills/119/hjres202",
+        "billNo": "H.J.Res. 202",
+        "title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to “California State Motor Vehicle Pollution Control Standards; Notice of Decision Granting a Waiver of Clean Air Act Preemption for California’s 2009 and Subsequent Model Year Greenhouse Gas Emission Standards for New Motor Vehicles”.",
+        "proposalDate": "2026-07-18",
+        "status": "Introduced"
+      },
+      {
         "billId": "https://www.govtrack.us/congress/bills/119/hres1374",
         "billNo": "H.Res. 1374",
         "title": "Expressing the sense of the House of Representatives that parents should be provided clear, accurate, and useful information about the content of video programming so they can make informed decisions for their children.",
@@ -79515,13 +79522,6 @@
         "billNo": "H.R. 7539",
         "title": "SAFE Act",
         "proposalDate": "2026-02-12",
-        "status": "Introduced"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7458",
-        "billNo": "H.R. 7458",
-        "title": "Domestic ORE Act",
-        "proposalDate": "2026-02-10",
         "status": "Introduced"
       }
     ]
