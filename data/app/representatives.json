@@ -14027,8 +14027,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 91,
+    "billsProposed": 92,
     "recentBills": [
+      {
+        "billId": "PRC_P2Q6O0N7N1V6V1T6V4T0T5R5H2H9F0",
+        "title": "형법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_G2F6E0A7B0Z3Y1W8F0F4Y1X6Y0G3D0",
         "title": "형사소송법 일부개정법률안",
@@ -14080,12 +14086,6 @@
       {
         "billId": "PRC_M2L6K0R6S2R3Q1O4W1V8W4V5U2P4O1",
         "title": "사회서비스 이용 및 이용권 관리에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-06-29",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_Y2Y6U0V6T2U3S1R4R1Z3A0Y8Z1X7V1",
-        "title": "남녀고용평등과 일·가정 양립 지원에 관한 법률 일부개정법률안",
         "proposalDate": "2026-06-29",
         "billStatus": ""
       }
@@ -14883,8 +14883,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 37,
+    "billsProposed": 38,
     "recentBills": [
+      {
+        "billId": "PRC_I2G6H0F7G1E6F0A9Z5Z1X2Z4X0X9F1",
+        "title": "재외공관의 해외진출기업 지원에 관한 법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_X2W6V0D6C1B5I1G5F2E8N1L2K0J8F3",
         "title": "스토킹범죄의 처벌 등에 관한 법률 일부개정법률안",
@@ -14938,12 +14944,6 @@
         "title": "공공주택 특별법 일부개정법률안",
         "proposalDate": "2026-03-13",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_Q2R6P0P3O0W6X1V6V5T9U0T9T9B6C8",
-        "title": "재외동포기본법 일부개정법률안",
-        "proposalDate": "2026-03-09",
-        "billStatus": "대안반영폐기"
       }
     ]
   },
@@ -16595,8 +16595,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 32,
+    "billsProposed": 33,
     "recentBills": [
+      {
+        "billId": "PRC_U2S6T0R7S1Q4Y1Z0X5Y8W2X7V7R9R3",
+        "title": "청소년 보호법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_V2U6T0Z6Z0F8F1D3C1B8K1G4G3P8F2",
         "title": "도로교통법 일부개정법률안",
@@ -16648,12 +16654,6 @@
       {
         "billId": "PRC_R2P6Q0O3P1N6V1W6U5U6T5U9S6S9B7",
         "title": "지방교부세법 일부개정법률안",
-        "proposalDate": "2026-03-20",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_U2S6T0S3S1A6A1Z7X5Y1W2X7F8F5E2",
-        "title": "체육시설의 설치·이용에 관한 법률 일부개정법률안",
         "proposalDate": "2026-03-20",
         "billStatus": ""
       }
@@ -57213,8 +57213,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 35,
+    "billsProposed": 36,
     "recentBills": [
+      {
+        "billId": "PRC_B2Z6V0W6V1T8D1C7A2Z1H5H7H3F5D5",
+        "title": "도로교통법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_P2N6O0W3W1U6V0U9U4S8T2B2Z2A1Y9",
         "title": "공직선거법 일부개정법률안",
@@ -57268,12 +57274,6 @@
         "title": "사회기반시설에 대한 민간투자법 일부개정법률안",
         "proposalDate": "2025-09-30",
         "billStatus": "대안반영폐기"
-      },
-      {
-        "billId": "PRC_H2F5G0E7F0B7B1Z6A3Y3Z5X6F7F1E3",
-        "title": "청원경찰법 일부개정법률안",
-        "proposalDate": "2025-07-14",
-        "billStatus": ""
       }
     ]
   },
@@ -60273,8 +60273,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 135,
+    "billsProposed": 136,
     "recentBills": [
+      {
+        "billId": "PRC_E2F4N0L7L0K5L1J0J1F5D5E7D4D4B5",
+        "title": "기초연금법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_A2A6I0G6F3G0E1A1Y0X8Y4X1F2D9C8",
         "title": "건설산업기본법 일부개정법률안",
@@ -60327,12 +60333,6 @@
         "billId": "PRC_G2G6E0D4E2L3M1K4L5K8I1I9Q0R7P3",
         "title": "소방시설공사업법 일부개정법률안",
         "proposalDate": "2026-04-28",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_L2T6R0S4Q0R6P1Q0Y2W1X0V7W9U4C7",
-        "title": "전세사기피해자 지원 및 주거안정에 관한 특별법 일부개정법률안",
-        "proposalDate": "2026-04-17",
         "billStatus": ""
       }
     ]
@@ -71031,8 +71031,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 31,
+    "billsProposed": 32,
     "recentBills": [
+      {
+        "billId": "PRC_F2F6N0N7M2K0L1J0J1S6S1Q6R4P7O1",
+        "title": "형사소송법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_A2X6W0F6E1D7C1Y3X5V3U2B3A8Y9H4",
         "title": "특허법 일부개정법률안",
@@ -71085,12 +71091,6 @@
         "billId": "PRC_Q2O5N1N1L2M5U1U4T5U5S5S7Q1R7M3",
         "title": "교정공무원 보건안전 및 복지 기본법안",
         "proposalDate": "2025-11-28",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_J2I5I1G0H2G8G1C5A2B1Z0A2Y7Z1G4",
-        "title": "장애인복지법 일부개정법률안",
-        "proposalDate": "2025-11-25",
         "billStatus": ""
       }
     ]
@@ -83701,8 +83701,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 48,
+    "billsProposed": 49,
     "recentBills": [
+      {
+        "billId": "PRC_L2M6K0L7T1R6S0Q9R1P9Q5Y9W3X2V4",
+        "title": "교원의 지위 향상 및 교육활동 보호를 위한 특별법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_G2F6E0L6J0J5K1K3S5R3O0X7V2V1U1",
         "title": "초·중등교육법 일부개정법률안",
@@ -83756,12 +83762,6 @@
         "title": "경계선 지능 학생 교육지원에 관한 법률안",
         "proposalDate": "2025-09-05",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_Z2Y5Y0G7G2F4G1E5E5D1L0L3J2K7J3",
-        "title": "교원의 지위 향상 및 교육활동 보호를 위한 특별법 일부개정법률안",
-        "proposalDate": "2025-08-25",
-        "billStatus": "대안반영폐기"
       }
     ]
   },
@@ -87918,8 +87918,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 47,
+    "billsProposed": 48,
     "recentBills": [
+      {
+        "billId": "PRC_B2Y6Y0U3S1S8Q1Z1X3W4V2D6C8B0A3",
+        "title": "양성평등기본법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_O2N6M0T6R0Q4X0X8R5Q4P3X4W1V4C4",
         "title": "국민건강보험법 일부개정법률안",
@@ -87973,12 +87979,6 @@
         "title": "의료법 일부개정법률안",
         "proposalDate": "2026-02-05",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_C2D5B1C1A2A7I1J6H5G1G1E4F6N7N9",
-        "title": "국민건강증진법 일부개정법률안",
-        "proposalDate": "2025-12-30",
-        "billStatus": "대안반영폐기"
       }
     ]
   },
@@ -90635,8 +90635,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 136,
+    "billsProposed": 138,
     "recentBills": [
+      {
+        "billId": "PRC_S2R6S0N7O1M5N1L6K3K8S2S7R2S3Q0",
+        "title": "선거관리위원회법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_N2O6M0L7L1T5T1S6T4R1R2P2F6F8E8",
+        "title": "교원의 지위 향상 및 교육활동 보호를 위한 특별법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_X2M6U0S7I2U0U1R7C4S5W2H7M4C4X5",
         "title": "형사소송법 일부개정법률안",
@@ -90684,18 +90696,6 @@
         "title": "사립학교법 일부개정법률안",
         "proposalDate": "2026-03-04",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_F2M6N0L2K2K7I2J0R5S9Q3Q2P4P4O9",
-        "title": "출입국관리법 일부개정법률안",
-        "proposalDate": "2026-03-04",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_Y2W6W0V3V0U2U1C2B5B1Z3A0Y3Z0V0",
-        "title": "국군조직법 일부개정법률안",
-        "proposalDate": "2026-03-04",
-        "billStatus": "대안반영폐기"
       }
     ]
   },
@@ -90917,8 +90917,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 69,
+    "billsProposed": 70,
     "recentBills": [
+      {
+        "billId": "PRC_R2C6Z0Y6H0E9D1L5K2J9I4F9O1N4J2",
+        "title": "빈집 및 소규모주택 정비에 관한 특례법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_B2C6K0I1J1H4I1G8H0D8D0B3C7A5B9",
         "title": "장기등 이식에 관한 법률 일부개정법률안",
@@ -90971,12 +90977,6 @@
         "billId": "PRC_V2T6T0B2C0A2B1Z4A4Y9Y2G1H8F7E7",
         "title": "정신건강증진 및 정신질환자 복지서비스 지원에 관한 법률 일부개정법률안",
         "proposalDate": "2026-03-11",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_G2O6O0N1L0M9K1L4S4T9S5S7Q6R2P1",
-        "title": "사회복지사업법 일부개정법률안",
-        "proposalDate": "2026-02-11",
         "billStatus": ""
       }
     ]
@@ -105382,8 +105382,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 59,
+    "billsProposed": 60,
     "recentBills": [
+      {
+        "billId": "PRC_S2T6R0N7O1M4K1L0J3S0S1R2R0Q8O0",
+        "title": "폐기물관리법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_Z2V6W0U7U1T3U1S4S1B1Z4Z6X6Z1X7",
         "title": "국가재정법 일부개정법률안",
@@ -105437,12 +105443,6 @@
         "title": "국가채권 관리법 일부개정법률안",
         "proposalDate": "2026-01-30",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_O2N6C0C1B2B0Z1A0Y4Z9H5H8F5E7F0",
-        "title": "농어촌특별세법 일부개정법률안",
-        "proposalDate": "2026-01-22",
-        "billStatus": "원안가결"
       }
     ]
   },
@@ -107292,8 +107292,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 50,
+    "billsProposed": 51,
     "recentBills": [
+      {
+        "billId": "PRC_S2T6R0Z7A1Y3Z1X0Y3W3E3E2D4E4C6",
+        "title": "공동주택관리법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_S2S6R0S7Q1Q3O1X0X3V2W5U2V4T0B0",
         "title": "공동주택관리법 일부개정법률안",
@@ -107347,12 +107353,6 @@
         "title": "조세특례제한법 일부개정법률안",
         "proposalDate": "2026-02-10",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_V2T6T0S2O0O2M1N1M1M3K0L7T7R7S0",
-        "title": "빈집 및 소규모주택 정비에 관한 특례법 일부개정법률안",
-        "proposalDate": "2026-02-10",
-        "billStatus": "대안반영폐기"
       }
     ]
   },
@@ -108388,8 +108388,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 93,
+    "billsProposed": 94,
     "recentBills": [
+      {
+        "billId": "PRC_H2F6G0N7P0N6N1L6K4L7S0T1R3S3R7",
+        "title": "스토킹범죄의 처벌 등에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_W2U6T0B6A3Z0A1Y4G0F7D2E8D0Z1Y0",
         "title": "스토킹범죄의 처벌 등에 관한 법률 일부개정법률안",
@@ -108441,12 +108447,6 @@
       {
         "billId": "PRC_D2C6D0B5B1J2K1I5J5H1H3G9O3O0N6",
         "title": "시설물의 안전 및 유지관리에 관한 특별법 일부개정법률안",
-        "proposalDate": "2026-05-19",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_Z2H6H0G5H1F1F1E6E4A4Y1Z9X3Y6W4",
-        "title": "지방세특례제한법 일부개정법률안",
         "proposalDate": "2026-05-19",
         "billStatus": ""
       }
@@ -118093,8 +118093,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 24,
+    "billsProposed": 26,
     "recentBills": [
+      {
+        "billId": "PRC_H2G6C0C7A1B6A1A5Z1G4H2G3G6E4D9",
+        "title": "각급 법원의 설치와 관할구역에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_X2X6F0G7E1D6D1C5D1Y6Z1X5X1W9U3",
+        "title": "민사조정법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_F2D6E0M4M2K7L0K7I5I5Q4R9P4O4O3",
         "title": "소송촉진 등에 관한 특례법 일부개정법률안",
@@ -118142,18 +118154,6 @@
         "title": "소득세법 일부개정법률안",
         "proposalDate": "2025-06-10",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_C2D5Y0Z5X1Y4W1X7V4D9E4C3D8B0C2",
-        "title": "조세특례제한법 일부개정법률안",
-        "proposalDate": "2025-06-10",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_V2D5E0C4D1B7C0A9I3I7H1I1G1G8E6",
-        "title": "국군조직법 일부개정법률안",
-        "proposalDate": "2025-04-21",
-        "billStatus": "대안반영폐기"
       }
     ]
   },
@@ -121150,8 +121150,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 324,
+    "billsProposed": 325,
     "recentBills": [
+      {
+        "billId": "PRC_S2Q6R0N7M0K3J0Q9Y0X0W1W0V4D3C7",
+        "title": "국유림의 경영 및 관리에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_D2M6K0J7I0E3C0B8C5A9J2H8G9G7G8",
         "title": "대·중소기업 상생협력 촉진에 관한 법률 일부개정법률안",
@@ -121204,12 +121210,6 @@
         "billId": "PRC_D2B6O0N6O2M3U1T5S2S5R5Z3X2Y0X3",
         "title": "고향사랑 기부금에 관한 법률 일부개정법률안",
         "proposalDate": "2026-07-02",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_X2V6W0U6V1R1R1P6Q2P6N4N3V3V7U9",
-        "title": "아동복지법 일부개정법률안",
-        "proposalDate": "2026-06-29",
         "billStatus": ""
       }
     ]
@@ -137037,8 +137037,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 52,
+    "billsProposed": 53,
     "recentBills": [
+      {
+        "billId": "PRC_D2E6C0C4B2J9J1H6I1H2H2F3O8O4M9",
+        "title": "개인정보 보호법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_Q2R6P0O4O2W2X1V2W0U3T4T4P8Q8O9",
         "title": "건강검진기본법 일부개정법률안",
@@ -137090,12 +137096,6 @@
       {
         "billId": "PRC_E2C6C0K4L2J9K1I6G0H5P4P7N2P0N3",
         "title": "최저임금법 일부개정법률안",
-        "proposalDate": "2026-06-08",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_C2C6K0L4J2H2I1G2H0P6P4O4M3N4L0",
-        "title": "다중이용업소의 안전관리에 관한 특별법 일부개정법률안",
         "proposalDate": "2026-06-08",
         "billStatus": ""
       }
@@ -147005,8 +147005,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 88,
+    "billsProposed": 89,
     "recentBills": [
+      {
+        "billId": "PRC_B2Z6A0Y7Y1H5F1F4D4F0D0D2Z4Z0Y9",
+        "title": "폐교재산의 활용촉진을 위한 특별법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_K2K6G0P6O1M5L1H4H5F1F1N9K8I0R9",
         "title": "임업 및 산촌 진흥촉진에 관한 법률 일부개정법률안",
@@ -147059,12 +147065,6 @@
         "billId": "PRC_J2I6F0U6U1J5I1F0C4B7A1G2F5E8D8",
         "title": "귀농어·귀촌 활성화 및 지원에 관한 법률 일부개정법률안",
         "proposalDate": "2026-06-25",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_G2G6E0Z6Y1O5L1A0A5W4F4E2D5C9I3",
-        "title": "스마트농업 육성 및 지원에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-06-24",
         "billStatus": ""
       }
     ]
@@ -147644,8 +147644,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 101,
+    "billsProposed": 102,
     "recentBills": [
+      {
+        "billId": "PRC_C2J6K0J7H2H0G1G3O2P7N5N3M0K9L2",
+        "title": "자율주행자동차의 도로운행 등에 관한 법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_H2P6Q0O7P1O0M1M3I1J7H0G2G5E8F3",
         "title": "경찰공무원법 일부개정법률안",
@@ -147698,12 +147704,6 @@
         "billId": "PRC_E2F6D0E2C2K0L1J1J2I2J2H7H6P2O6",
         "title": "스토킹범죄의 처벌 등에 관한 법률 일부개정법률안",
         "proposalDate": "2026-02-25",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_R2R6Z0Y2Y1W0X0V9W4E1F0D3D2B3A8",
-        "title": "전원개발촉진법 일부개정법률안",
-        "proposalDate": "2026-02-11",
         "billStatus": ""
       }
     ]
@@ -151508,8 +151508,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 46,
+    "billsProposed": 47,
     "recentBills": [
+      {
+        "billId": "PRC_Z2A6Y0Z7X1Y5W0E9E2D0E3C2C3B5J1",
+        "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_J2K6S0S7R1S5Q0Q9P2X4X4V5W8V6V9",
         "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 일부개정법률안",
@@ -151562,12 +151568,6 @@
         "billId": "PRC_W2D6E0C3D1B2C0A9B4I0J1H3I6G1F9",
         "title": "국민연금법 일부개정법률안",
         "proposalDate": "2026-03-24",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_Z2A6Y0Y3X0X3V1E0E0C0D0B0C8A0B6",
-        "title": "근로기준법 일부개정법률안",
-        "proposalDate": "2026-03-09",
         "billStatus": ""
       }
     ]
@@ -158202,8 +158202,26 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 59,
+    "billsProposed": 62,
     "recentBills": [
+      {
+        "billId": "PRC_X2V6W0E7C1D6B1C5A0A4I1J3H0I9G9",
+        "title": "주민소환에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_Q2Q6Z0Z7X1W6X1V5W0S4Q3Q7P1P5N7",
+        "title": "지방자치법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_Q2P6P0O7O1N6J1J5H0I3G4H7F2N9O3",
+        "title": "공직선거법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_M2T6U0T5R1R4P0Q9Y5Z8X0V5W8V5V5",
         "title": "도로법 일부개정법률안",
@@ -158244,24 +158262,6 @@
         "billId": "PRC_M2N6L0L3T0T9S1Q1R3P1Q3X4Y2X4X3",
         "title": "법인세법 일부개정법률안",
         "proposalDate": "2026-03-13",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_A2Y6Y0W3F0F9D1E3C2D4B1C9K9K6I7",
-        "title": "성폭력범죄의 처벌 등에 관한 특례법 일부개정법률안",
-        "proposalDate": "2026-03-13",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_N2M6K0L3S0T9R1S1Q3R2P0Q2M9K7K3",
-        "title": "형법 일부개정법률안",
-        "proposalDate": "2026-03-13",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_N2N6M0M2I2J6H1I7G0G3E4F7N0L9M5",
-        "title": "국가를 당사자로 하는 계약에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-02-27",
         "billStatus": ""
       }
     ]
@@ -163934,8 +163934,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 76,
+    "billsProposed": 77,
     "recentBills": [
+      {
+        "billId": "PRC_I2N6T0T6S1Q8X1W4V2R1Q4Z2Y5X3F0",
+        "title": "문화예술진흥법 전부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_X2Y6W0X7W1D0E1C6D5B4A1A1P0Q1O1",
         "title": "국민체육진흥법 일부개정법률안",
@@ -163988,12 +163994,6 @@
         "billId": "PRC_S2P6O0O3N3M0U1T5R4S7Q2Y6X5W3X8",
         "title": "국가유산수리 등에 관한 법률 일부개정법률안",
         "proposalDate": "2026-04-14",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_J2F6E0C3A3B0K1I5H4G9O2O6I4Q0P6",
-        "title": "국가유산수리 등에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-04-13",
         "billStatus": ""
       }
     ]
@@ -167605,8 +167605,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 106,
+    "billsProposed": 108,
     "recentBills": [
+      {
+        "billId": "PRC_Y2X6Y0F7G2F0F1D4C0C6K0L1J4K7I4",
+        "title": "스토킹범죄의 처벌 등에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_D2E6M0M7K2J0J1I4I0Q7R0P0Q5O7N8",
+        "title": "스토킹방지 및 피해자보호 등에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_X2W6W0U7V0T7U1Q0Q3P4N4N9M4N5U6",
         "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
@@ -167653,18 +167665,6 @@
         "billId": "PRC_N2N6L0M5L1L2T1R1R1P5Q1Y4Y3W2X9",
         "title": "전기통신사업법 일부개정법률안",
         "proposalDate": "2026-05-14",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_D2D6C0D5K1L1K1I7I4H4H1P6Q3O9M7",
-        "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 일부개정법률안",
-        "proposalDate": "2026-05-12",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_S2S6B0B4Z2Y2Z1X6X1T6X3W2W2V4D7",
-        "title": "조세특례제한법 일부개정법률안",
-        "proposalDate": "2026-04-30",
         "billStatus": ""
       }
     ]
@@ -170910,8 +170910,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 24,
+    "billsProposed": 25,
     "recentBills": [
+      {
+        "billId": "PRC_G2F6F0N7L2M0L1L0J0R6S2Q8R8P7Q2",
+        "title": "공직선거법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_E2F6D0E7M2M0L1J0K0I9J3F8F3D4E8",
         "title": "공직선거법 일부개정법률안",
@@ -170964,12 +170970,6 @@
         "billId": "PRC_N2M5K1L2S0R5R1Q4R4P7X5Y1X3V7T6",
         "title": "성폭력범죄의 처벌 등에 관한 특례법 일부개정법률안",
         "proposalDate": "2025-12-05",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_S2N5M0L9J1S6S1R5P0O7W4X7Y3W8X4",
-        "title": "형법 일부개정법률안",
-        "proposalDate": "2025-09-18",
         "billStatus": ""
       }
     ]
@@ -176057,8 +176057,26 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 39,
+    "billsProposed": 42,
     "recentBills": [
+      {
+        "billId": "PRC_Y2V6U0D5B2Y2C1B3Z3V5U2R1A6X4W6",
+        "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_S2T6R0R7Q1Y3Y1W7X2V0W0U5V9D7B4",
+        "title": "경찰공무원법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_H2I6G0G5F1G5N1M7N2L6L3K3K4S0R2",
+        "title": "전자정부법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_K2H6Y0X6V2D3C1B5B2A4I3H4H5G5F3",
         "title": "공직선거법 일부개정법률안",
@@ -176099,24 +176117,6 @@
         "billId": "PRC_C2A6A0Z2A2Y5Z1G5H5F9E5E4C1D6L4",
         "title": "주소정보산업 진흥법안",
         "proposalDate": "2026-03-04",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_T2S6T0A2B0Z9A1Y5Z5X4Y4G7E4E9D5",
-        "title": "주민등록법 일부개정법률안",
-        "proposalDate": "2026-03-03",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_M2K6K0J2K2I5I1E6E0D3B1C9A8B6J7",
-        "title": "공무원 인재개발법 일부개정법률안",
-        "proposalDate": "2026-02-27",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_W2U6V0U2U2Q5Q1O6N0N2M0M9R6R5Z8",
-        "title": "선거교육지원법안",
-        "proposalDate": "2026-02-27",
         "billStatus": ""
       }
     ]
@@ -188387,8 +188387,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 89,
+    "billsProposed": 91,
     "recentBills": [
+      {
+        "billId": "PRC_F2G6E0F7N1L5M1K6L3J5J1G2E1E7C5",
+        "title": "국가공무원법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_Z2B6I0J7H1G5G1E6F3N5O4M2K1L8J9",
+        "title": "지방공무원법 일부개정법률안",
+        "proposalDate": "2026-07-21",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_B2A6Z0H6I1H1F0E9M1L8M1K4J5Q1M5",
         "title": "은퇴자마을 조성 및 운영에 관한 특별법 일부개정법률안",
@@ -188435,18 +188447,6 @@
         "billId": "PRC_G2H6F0B3A3Z0X1Y3G5F0E5I7H1G1E9",
         "title": "강원특별자치도 설치 및 미래산업글로벌도시 조성을 위한 특별법 일부개정법률안",
         "proposalDate": "2026-04-06",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_C2K5K0J9J2H5I1G0H5P8P0O7O5N6L2",
-        "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 일부개정법률안",
-        "proposalDate": "2026-03-26",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_S2R5P0X9W1X5W1V3Y4X5W1U5C5B9C7",
-        "title": "고독사 예방 및 관리에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-03-23",
         "billStatus": ""
       }
     ]
