@@ -13880,16 +13880,16 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9826",
-        "billNo": "H.R. 9826",
-        "title": "To prohibit the Secretary of the Interior from taking any action to expand the Mid-Continent Limestone Quarry located near Glenwood Springs, Colorado.",
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1446",
+        "billNo": "H.Res. 1446",
+        "title": "Honoring the lives and service of Emily Barker, Nick Hutcherson, Sydney Watson, Nicholas Dale, and all those who serve on the front lines of America’s wildland firefighting efforts.",
         "proposalDate": "2026-07-22",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres1446",
-        "billNo": "H.Res. 1446",
-        "title": "Honoring the lives and service of Emily Barker, Nick Hutcherson, Sydney Watson, Nicholas Dale, and all those who serve on the front lines of America’s wildland firefighting efforts.",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9826",
+        "billNo": "H.R. 9826",
+        "title": "To prohibit the Secretary of the Interior from taking any action to expand the Mid-Continent Limestone Quarry located near Glenwood Springs, Colorado.",
         "proposalDate": "2026-07-22",
         "status": "Introduced"
       },
@@ -75556,16 +75556,16 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9799",
-        "billNo": "H.R. 9799",
-        "title": "To establish a bill of rights for third-party sellers on critical trading partners, and for other purposes.",
+        "billId": "https://www.govtrack.us/congress/bills/119/hjres203",
+        "billNo": "H.J.Res. 203",
+        "title": "Directing the Federal Trade Commission to investigate and report on anticompetitive practices and violations of the antitrust laws in the fire truck manufacturing industry.",
         "proposalDate": "2026-07-21",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hjres203",
-        "billNo": "H.J.Res. 203",
-        "title": "Directing the Federal Trade Commission to investigate and report on anticompetitive practices and violations of the antitrust laws in the fire truck manufacturing industry.",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9799",
+        "billNo": "H.R. 9799",
+        "title": "Online Sellers’ Bill of Rights Act of 2026",
         "proposalDate": "2026-07-21",
         "status": "Introduced"
       },
