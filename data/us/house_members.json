@@ -31119,16 +31119,16 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9694",
-        "billNo": "H.R. 9694",
-        "title": "Epstein Files Transparency Act II",
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1430",
+        "billNo": "H.Res. 1430",
+        "title": "Providing for consideration of the bill (H.R.185) to advance responsible policies.",
         "proposalDate": "2026-07-15",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres1430",
-        "billNo": "H.Res. 1430",
-        "title": "Providing for consideration of the bill (H.R.185) to advance responsible policies.",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9694",
+        "billNo": "H.R. 9694",
+        "title": "Epstein Files Transparency Act II",
         "proposalDate": "2026-07-15",
         "status": "Introduced"
       },
