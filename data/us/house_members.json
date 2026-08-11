@@ -14646,13 +14646,6 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr10000",
-        "billNo": "H.R. 10000",
-        "title": "Emergency Mountain Pine Beetle Response Act",
-        "proposalDate": "2026-07-30",
-        "status": "Introduced"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10001",
         "billNo": "H.R. 10001",
         "title": "Wildfire Responder Protection Act",
@@ -14663,6 +14656,13 @@
         "billId": "https://www.govtrack.us/congress/bills/119/hr9998",
         "billNo": "H.R. 9998",
         "title": "Wildfire Research Coordination Act of 2026",
+        "proposalDate": "2026-07-30",
+        "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10000",
+        "billNo": "H.R. 10000",
+        "title": "Emergency Mountain Pine Beetle Response Act",
         "proposalDate": "2026-07-30",
         "status": "Introduced"
       },
@@ -36394,16 +36394,16 @@
     ],
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr10005",
-        "billNo": "H.R. 10005",
-        "title": "Data Center Resource Disclosure Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10004",
+        "billNo": "H.R. 10004",
+        "title": "Defending Our Energy and Water Act",
         "proposalDate": "2026-07-30",
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr10004",
-        "billNo": "H.R. 10004",
-        "title": "Defending Our Energy and Water Act",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10005",
+        "billNo": "H.R. 10005",
+        "title": "Data Center Resource Disclosure Act",
         "proposalDate": "2026-07-30",
         "status": "Introduced"
       },
@@ -59441,7 +59441,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9901",
         "billNo": "H.R. 9901",
-        "title": "To provide that the final rule of the United States Fish and Wildlife Service and National Oceanic and Atmospheric Administration titled “Rescinding the Definition of “Harm” Under the Endangered Species Act” shall have no force or effect.",
+        "title": "To provide that the final rule of the United States Fish and Wildlife Service and National Oceanic and Atmospheric Administration titled “Rescinding the Definition of ‘Harm’ Under the Endangered Species Act” shall have no force or effect.",
         "proposalDate": "2026-07-23",
         "status": "Introduced"
       },
@@ -78620,18 +78620,18 @@
         "status": "Introduced"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9605",
-        "billNo": "H.R. 9605",
-        "title": "Less Bureaucracy, Better Foreign Medical Accreditation Act",
-        "proposalDate": "2026-07-09",
-        "status": "Ordered Reported"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9627",
         "billNo": "H.R. 9627",
         "title": "Hmong Congressional Gold Medal Act",
         "proposalDate": "2026-07-09",
         "status": "Introduced"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9605",
+        "billNo": "H.R. 9605",
+        "title": "Less Bureaucracy, Better Foreign Medical Accreditation Act",
+        "proposalDate": "2026-07-09",
+        "status": "Ordered Reported"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9515",
