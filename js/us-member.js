@@ -139,6 +139,34 @@ async function loadUSMembers() {
   return Array.isArray(rows) ? rows : [];
 }
 
+let voteEvidencePromise = null;
+
+async function loadMemberVoteEvidence(bioguideId) {
+  if (!voteEvidencePromise) {
+    voteEvidencePromise = fetch("/data/us/vote_evidence.json", { cache: "no-store" })
+      .then((response) => {
+        if (!response.ok) throw new Error(`Failed to load vote evidence: ${response.status}`);
+        return response.json();
+      });
+  }
+  const data = await voteEvidencePromise;
+  const refs = data?.members?.[String(bioguideId || "").trim().toUpperCase()] || {};
+
+  function resolve(rows) {
+    if (!Array.isArray(rows)) return [];
+    return rows.map((ref) => {
+      const vote = data?.votes?.[ref?.voteKey];
+      return vote ? { ...vote, choice: ref.choice } : null;
+    }).filter(Boolean);
+  }
+
+  return {
+    final: resolve(refs.final),
+    preliminary: resolve(refs.preliminary),
+    partyBreaks: resolve(refs.partyBreaks),
+  };
+}
+
 function renderFallback(message) {
   const root = document.getElementById("us-member-root");
   if (!root) return;
@@ -152,12 +180,12 @@ function renderFallback(message) {
   `;
 }
 
-function renderVotes(votes) {
+function renderVotes(votes, limit = 10, emptyMessage = "No recent vote records.") {
   if (!Array.isArray(votes) || !votes.length) {
-    return `<p style="color:rgba(245,245,247,0.3);font-size:15px;padding:20px 0">No recent vote records.</p>`;
+    return `<p style="color:rgba(245,245,247,0.3);font-size:15px;padding:20px 0">${escapeHTML(emptyMessage)}</p>`;
   }
 
-  return votes.slice(0, 10).map((v) => {
+  return votes.slice(0, limit).map((v) => {
     const kindLabel = inferVoteKind(v);
     const isFinal = v.isFinalPassage === true || v.voteKind === "passage" || kindLabel === "Final passage";
     const subject = isFinal ? (v.title || v.subject) : (v.subject || v.question || v.title);
@@ -186,6 +214,31 @@ function renderVotes(votes) {
     </article>
   `;
   }).join("");
+}
+
+function formatDataDate(value) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(value || ""))) return "—";
+  return new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    timeZone: "UTC",
+  }).format(new Date(`${value}T00:00:00Z`));
+}
+
+function renderDataAsOf(member) {
+  const dates = member.dataAsOf || {};
+  return `
+    <section class="us-data-dates">
+      <div class="us-data-dates-inner">
+        <span>Data dates</span>
+        <p>
+          House votes through ${escapeHTML(formatDataDate(dates.houseVotes))}
+          <i>·</i> Sponsored bills through ${escapeHTML(formatDataDate(dates.sponsoredBills))}
+          <i>·</i> Campaign finance through ${escapeHTML(formatDataDate(dates.campaignFinance))}
+        </p>
+      </div>
+    </section>`;
 }
 
 function renderBills(bills) {
@@ -221,13 +274,16 @@ function renderCampaignFinance(finance) {
   const pacPct = receipts > 0 ? Math.round((pac / receipts) * 100) : 0;
   const sourceUrl = safeExternalUrl(finance.sourceUrl);
   const cycleStart = Number(finance.cycle) - 1;
+  const topContributors = Array.isArray(finance.topCommitteeContributors)
+    ? finance.topCommitteeContributors.slice(0, 5)
+    : [];
 
   return `
     <section class="finance-section">
       <div class="finance-inner">
         <p class="finance-kicker fade-in">Campaign money · ${escapeHTML(`${cycleStart}–${finance.cycle}`)}</p>
         <h2 class="finance-total fade-in delay-1">${escapeHTML(formatUSD(receipts))} raised.</h2>
-        <p class="finance-context fade-in delay-2">Reported by the campaign through ${escapeHTML(formatVoteDate(finance.coverageEndDate) || "the latest filing")}.</p>
+        <p class="finance-context fade-in delay-2">Federal campaign filings for the ${escapeHTML(`${cycleStart}–${finance.cycle}`)} election cycle.</p>
 
         <div class="finance-grid fade-in">
           <div class="finance-metric">
@@ -251,6 +307,29 @@ function renderCampaignFinance(finance) {
             <small>${escapeHTML(formatUSD(finance.totalDisbursements))} spent</small>
           </div>
         </div>
+
+        ${topContributors.length ? `
+          <details class="finance-contributors fade-in">
+            <summary>
+              <span>Top PAC & committee contributors</span>
+              <small>View ${topContributors.length}</small>
+            </summary>
+            <div class="finance-contributor-list">
+              ${topContributors.map((contributor) => {
+                const contributorUrl = safeExternalUrl(contributor.sourceUrl);
+                const name = escapeHTML(contributor.name || contributor.committeeId || "Political committee");
+                return `
+                  <div class="finance-contributor-row">
+                    ${contributorUrl
+                      ? `<a href="${escapeHTML(contributorUrl)}" target="_blank" rel="noopener noreferrer">${name} ↗</a>`
+                      : `<span>${name}</span>`}
+                    <strong>${escapeHTML(formatUSD(contributor.amount))}</strong>
+                  </div>`;
+              }).join("")}
+              <p>Direct contributions and in-kind contributions reported by political committees. Independent expenditures are not included.</p>
+            </div>
+          </details>
+        ` : ""}
 
         ${sourceUrl ? `<a class="finance-source fade-in" href="${escapeHTML(sourceUrl)}" target="_blank" rel="noopener noreferrer">View official FEC filing ↗</a>` : ""}
       </div>
@@ -326,11 +405,17 @@ function renderMember(member) {
 
     ${renderCampaignFinance(member.campaignFinance)}
 
-    <section class="votes-section">
+    <section class="votes-section" id="member-votes">
       <div class="votes-inner">
         <h2 class="votes-header fade-in">How they voted.</h2>
-        <p class="votes-subheader fade-in delay-1">Final passage is separated from amendments and procedural votes.</p>
-        <div id="vote-list">${renderVotes(member.recentVotes || [])}</div>
+        <p class="votes-subheader fade-in delay-1" id="vote-list-context">Latest final-passage votes in the House.</p>
+        <div class="vote-view-tabs fade-in delay-1" id="vote-view-tabs">
+          <button class="vote-view-tab is-active" type="button" data-vote-view="final">Final votes</button>
+          <button class="vote-view-tab" type="button" data-vote-view="preliminary">Amendments & procedure</button>
+          <button class="vote-view-tab" type="button" data-vote-view="party-breaks">Party breaks <span>${escapeHTML(formatInt(member.partyDifferentVotesCount))}</span></button>
+        </div>
+        <div id="vote-list"><p class="vote-list-loading">Loading vote records…</p></div>
+        <div class="vote-list-more" id="vote-list-more"></div>
       </div>
     </section>
 
@@ -371,6 +456,8 @@ function renderMember(member) {
         <button id="share-btn" class="share-action-btn" type="button">Share</button>
       </div>
     </section>
+
+    ${renderDataAsOf(member)}
   `;
 
   document.title = `${member.name} (${member.districtCode}) — RepView US`;
@@ -393,6 +480,115 @@ function renderMember(member) {
   root.querySelectorAll(".fade-in").forEach((el) => fadeObserver.observe(el));
 
   initCounters(root);
+}
+
+function initVoteExplorer(member) {
+  const tabs = document.getElementById("vote-view-tabs");
+  const list = document.getElementById("vote-list");
+  const context = document.getElementById("vote-list-context");
+  const moreWrap = document.getElementById("vote-list-more");
+  if (!tabs || !list || !context || !moreWrap) return;
+
+  let mode = "final";
+  let evidence = null;
+  let visiblePartyBreaks = 20;
+
+  function revealRows() {
+    list.querySelectorAll(".fade-in").forEach((element) => element.classList.add("visible"));
+  }
+
+  function updateQuery(nextMode) {
+    const url = new URL(window.location.href);
+    if (nextMode === "party-breaks") url.searchParams.set("view", "party-breaks");
+    else if (nextMode === "preliminary") url.searchParams.set("view", "preliminary");
+    else url.searchParams.delete("view");
+    history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
+  }
+
+  function setActiveTab() {
+    tabs.querySelectorAll("[data-vote-view]").forEach((button) => {
+      button.classList.toggle("is-active", button.getAttribute("data-vote-view") === mode);
+    });
+  }
+
+  function renderFinal() {
+    context.textContent = "Latest final-passage votes in the House.";
+    list.innerHTML = renderVotes(evidence?.final || [], 10, "No recent final votes recorded.");
+    moreWrap.innerHTML = "";
+    revealRows();
+  }
+
+  function renderPreliminary() {
+    context.textContent = "Latest amendments, motions to recommit, and procedural House votes.";
+    list.innerHTML = renderVotes(evidence?.preliminary || [], 10, "No recent preliminary votes recorded.");
+    moreWrap.innerHTML = "";
+    revealRows();
+  }
+
+  function renderPartyBreaks() {
+    const rows = evidence?.partyBreaks || [];
+    context.textContent = `Votes where ${member.name} differed from the majority of their party's members voting Yes or No.`;
+    list.innerHTML = renderVotes(rows, visiblePartyBreaks, "No party-break votes recorded in the current Congress.");
+    moreWrap.innerHTML = rows.length > visiblePartyBreaks
+      ? `<button class="vote-list-more-button" type="button">Show ${Math.min(20, rows.length - visiblePartyBreaks)} more</button>`
+      : "";
+    revealRows();
+  }
+
+  async function activate(nextMode, { syncQuery = true } = {}) {
+    mode = nextMode === "party-breaks"
+      ? "party-breaks"
+      : nextMode === "preliminary" ? "preliminary" : "final";
+    setActiveTab();
+    if (syncQuery) updateQuery(mode);
+
+    context.textContent = "Loading vote records…";
+    list.innerHTML = '<p class="vote-list-loading">Loading vote records…</p>';
+    moreWrap.innerHTML = "";
+    try {
+      if (!evidence) evidence = await loadMemberVoteEvidence(member.bioguideId);
+    } catch (error) {
+      console.error(error);
+      context.textContent = "Vote records could not be loaded.";
+      list.innerHTML = "";
+      return;
+    }
+
+    if (mode === "final") {
+      renderFinal();
+      return;
+    }
+
+    if (mode === "preliminary") {
+      renderPreliminary();
+      return;
+    }
+
+    renderPartyBreaks();
+  }
+
+  tabs.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-vote-view]");
+    if (!button) return;
+    visiblePartyBreaks = 20;
+    activate(button.getAttribute("data-vote-view"));
+  });
+
+  moreWrap.addEventListener("click", (event) => {
+    if (!event.target.closest(".vote-list-more-button")) return;
+    visiblePartyBreaks += 20;
+    renderPartyBreaks();
+  });
+
+  const requestedMode = new URLSearchParams(window.location.search).get("view");
+  const initialMode = requestedMode === "party-breaks"
+    ? "party-breaks"
+    : requestedMode === "preliminary" ? "preliminary" : "final";
+  activate(initialMode, { syncQuery: false }).then(() => {
+    if (initialMode === "party-breaks") {
+      document.getElementById("member-votes")?.scrollIntoView({ block: "start" });
+    }
+  });
 }
 
 function buildShareText(member) {
@@ -486,6 +682,7 @@ async function initUSMemberPage() {
   }
 
   renderMember(member);
+  initVoteExplorer(member);
   initShareActions(member);
   trackUSMemberView(member.districtCode);
 }

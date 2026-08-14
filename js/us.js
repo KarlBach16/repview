@@ -145,7 +145,8 @@ function renderUSRanking(members, metric, viewCounts) {
   }
 
   list.innerHTML = rows.map((member, index) => {
-    const route = memberDetailRoute(member.districtCode);
+    const baseRoute = memberDetailRoute(member.districtCode);
+    const route = metric === "party" ? `${baseRoute}&view=party-breaks#member-votes` : baseRoute;
     const photo = member.photo
       ? `<img class="us-ranking-photo" src="${escapeHTML(member.photo)}" alt="${escapeHTML(member.name)}" loading="lazy" />`
       : `<div class="us-ranking-photo us-ranking-photo--fallback">${escapeHTML((member.name || "?")[0])}</div>`;

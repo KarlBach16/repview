@@ -53,7 +53,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/us/house_members.json img/us/members
+          git add data/us/house_members.json data/us/vote_evidence.json img/us/members
           if git diff --cached --quiet; then
             echo "No tracked US data changes to commit."
             exit 0

@@ -97,6 +97,97 @@ function parseCandidateSummary(text, cycle) {
   return records;
 }
 
+function parseCommitteeMaster(text) {
+  const committees = new Map();
+  for (const line of String(text || "").split(/\r?\n/)) {
+    if (!line) continue;
+    const columns = line.split("|");
+    if (columns.length < 10) continue;
+    const committeeId = String(columns[0] || "").trim().toUpperCase();
+    if (!committeeId) continue;
+    committees.set(committeeId, {
+      committeeId,
+      name: String(columns[1] || "").trim() || committeeId,
+      designation: String(columns[8] || "").trim().toUpperCase(),
+      committeeType: String(columns[9] || "").trim().toUpperCase(),
+    });
+  }
+  return committees;
+}
+
+function parseCommitteeContributions(text, candidateIds, committees, cycle) {
+  const directContributionTypes = new Set(["24K", "24Z"]);
+  const transactions = new Map();
+
+  for (const line of String(text || "").split(/\r?\n/)) {
+    if (!line) continue;
+    const columns = line.split("|");
+    if (columns.length < 22) continue;
+
+    const transactionType = String(columns[5] || "").trim().toUpperCase();
+    if (!directContributionTypes.has(transactionType)) continue;
+    const memoText = String(columns[20] || "").trim();
+    if (/earmark/i.test(memoText)) continue;
+
+    const candidateId = String(columns[16] || "").trim().toUpperCase();
+    if (!candidateIds.has(candidateId)) continue;
+
+    const committeeId = String(columns[0] || "").trim().toUpperCase();
+    const reportType = String(columns[2] || "").trim().toUpperCase();
+    const transactionId = String(columns[17] || "").trim();
+    const subId = String(columns[21] || "").trim();
+    if (!committeeId || (!transactionId && !subId)) continue;
+
+    const transactionKey = transactionId
+      ? `${committeeId}|${reportType}|${transactionId}`
+      : `${committeeId}|sub:${subId}`;
+    const row = {
+      candidateId,
+      committeeId,
+      amount: toNumber(columns[14]),
+      fileNumber: toNumber(columns[18]),
+      subId,
+    };
+    const current = transactions.get(transactionKey);
+    if (
+      !current ||
+      row.fileNumber > current.fileNumber ||
+      (row.fileNumber === current.fileNumber && row.subId > current.subId)
+    ) {
+      transactions.set(transactionKey, row);
+    }
+  }
+
+  const totalsByCandidate = new Map();
+  for (const row of transactions.values()) {
+    if (!totalsByCandidate.has(row.candidateId)) totalsByCandidate.set(row.candidateId, new Map());
+    const donorTotals = totalsByCandidate.get(row.candidateId);
+    donorTotals.set(row.committeeId, (donorTotals.get(row.committeeId) || 0) + row.amount);
+  }
+
+  const topByCandidate = new Map();
+  for (const [candidateId, donorTotals] of totalsByCandidate.entries()) {
+    const top = [...donorTotals.entries()]
+      .filter(([, amount]) => amount > 0)
+      .map(([committeeId, amount]) => {
+        const committee = committees.get(committeeId) || {};
+        return {
+          committeeId,
+          name: committee.name || committeeId,
+          amount,
+          committeeType: committee.committeeType || "",
+          designation: committee.designation || "",
+          sourceUrl: `https://www.fec.gov/data/committee/${committeeId}/?cycle=${cycle}`,
+        };
+      })
+      .sort((a, b) => b.amount - a.amount || a.name.localeCompare(b.name))
+      .slice(0, 5);
+    topByCandidate.set(candidateId, top);
+  }
+
+  return topByCandidate;
+}
+
 function normalizedNameTokens(value) {
   const suffixes = new Set(["jr", "sr", "ii", "iii", "iv", "md"]);
   return String(value || "")
@@ -156,16 +247,29 @@ async function main() {
   const __filename = fileURLToPath(import.meta.url);
   const projectRoot = path.resolve(path.dirname(__filename), "..", "..");
   const membersPath = path.join(projectRoot, "data", "us", "house_members.json");
-  const sourceUrl = (year) =>
+  const candidateSummaryUrl = (year) =>
     `https://www.fec.gov/files/bulk-downloads/${year}/weball${String(year).slice(-2)}.zip`;
+  const committeeContributionsUrl =
+    `https://www.fec.gov/files/bulk-downloads/${cycle}/pas2${String(cycle).slice(-2)}.zip`;
+  const committeeMasterUrl =
+    `https://www.fec.gov/files/bulk-downloads/${cycle}/cm${String(cycle).slice(-2)}.zip`;
 
   const members = JSON.parse(await readFile(membersPath, "utf8"));
-  const [currentZip, previousZip] = await Promise.all([
-    fetchBuffer(sourceUrl(cycle)),
-    fetchBuffer(sourceUrl(previousCycle)),
+  const [currentZip, previousZip, contributionsZip, committeeMasterZip] = await Promise.all([
+    fetchBuffer(candidateSummaryUrl(cycle)),
+    fetchBuffer(candidateSummaryUrl(previousCycle)),
+    fetchBuffer(committeeContributionsUrl),
+    fetchBuffer(committeeMasterUrl),
   ]);
   const currentRecords = parseCandidateSummary(extractFirstZipFile(currentZip), cycle);
   const previousRecords = parseCandidateSummary(extractFirstZipFile(previousZip), previousCycle);
+  const committees = parseCommitteeMaster(extractFirstZipFile(committeeMasterZip));
+  const topContributorsByCandidate = parseCommitteeContributions(
+    extractFirstZipFile(contributionsZip),
+    new Set(currentRecords.keys()),
+    committees,
+    cycle
+  );
   let matched = 0;
   let previousCycleFallbacks = 0;
   let verifiedNameFallbacks = 0;
@@ -212,6 +316,13 @@ async function main() {
       coverageEndDate: toISODate(row.coverageEndDate),
       sourceUrl: `https://www.fec.gov/data/candidate/${row.candidateId}/?cycle=${row.cycle}&election_full=true`,
       source: "Federal Election Commission",
+      topCommitteeContributors: row.cycle === cycle
+        ? (topContributorsByCandidate.get(row.candidateId) || [])
+        : [],
+    };
+    member.dataAsOf = {
+      ...(member.dataAsOf || {}),
+      campaignFinance: toISODate(row.coverageEndDate),
     };
   }
 
@@ -222,6 +333,8 @@ async function main() {
   await writeFile(membersPath, `${JSON.stringify(members, null, 2)}\n`, "utf8");
   console.log(`FEC cycle: ${cycle}`);
   console.log(`FEC summary records: ${currentRecords.size} current + ${previousRecords.size} previous`);
+  console.log(`FEC committee records: ${committees.size}`);
+  console.log(`Candidates with direct committee contributors: ${topContributorsByCandidate.size}`);
   console.log(`Members matched: ${matched}/${members.length}`);
   console.log(`Previous-cycle fallbacks: ${previousCycleFallbacks}`);
   console.log(`State/district/name verified fallbacks: ${verifiedNameFallbacks}`);

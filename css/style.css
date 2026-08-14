@@ -761,6 +761,37 @@ img { display: block; }
   line-height: 1.5;
 }
 
+.vote-view-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: -14px 0 28px;
+}
+
+.vote-view-tab {
+  background: rgba(255,255,255,0.045);
+  border: 1px solid rgba(255,255,255,0.13);
+  border-radius: 999px;
+  color: rgba(245,245,247,0.55);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 650;
+  padding: 8px 13px;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.vote-view-tab span {
+  color: inherit;
+  margin-left: 3px;
+  opacity: 0.72;
+}
+
+.vote-view-tab.is-active {
+  background: rgba(41,151,255,0.16);
+  border-color: rgba(41,151,255,0.48);
+  color: #8cc8ff;
+}
+
 .vote-card {
   border-bottom: 1px solid rgba(255,255,255,0.07);
   padding: 20px 0;
@@ -845,6 +876,84 @@ img { display: block; }
 }
 .vote-card-links a:hover { text-decoration: underline; }
 
+.vote-list-more {
+  display: flex;
+  justify-content: center;
+  padding-top: 28px;
+}
+
+.vote-list-more:empty { display: none; }
+
+.vote-list-more-button {
+  background: rgba(255,255,255,0.055);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 999px;
+  color: rgba(245,245,247,0.72);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 650;
+  padding: 10px 17px;
+}
+
+.vote-list-more-button:hover {
+  background: rgba(255,255,255,0.1);
+  color: #f5f5f7;
+}
+
+.vote-list-loading {
+  color: rgba(245,245,247,0.3);
+  font-size: 14px;
+  padding: 30px 0;
+}
+
+/* ── US MEMBER: Unified data dates ──────────────────────── */
+.us-data-dates {
+  background: #050505;
+  color: rgba(245,245,247,0.36);
+  padding: 36px 24px 46px;
+}
+
+.us-data-dates-inner {
+  align-items: baseline;
+  border-top: 1px solid rgba(255,255,255,0.075);
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 900px;
+  padding-top: 22px;
+  text-align: center;
+}
+
+.us-data-dates-inner > span {
+  color: rgba(245,245,247,0.58);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.us-data-dates-inner p {
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.us-data-dates-inner i {
+  font-style: normal;
+  margin: 0 6px;
+  opacity: 0.48;
+}
+
+@media (max-width: 620px) {
+  .us-data-dates-inner {
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .us-data-dates-inner i { display: block; height: 2px; opacity: 0; }
+}
+
 /* ── US MEMBER: Campaign finance ────────────────────────── */
 .finance-section {
   background: #f5f5f7;
@@ -915,6 +1024,82 @@ img { display: block; }
   padding-top: 18px;
 }
 
+.finance-contributors {
+  background: #fff;
+  border-radius: 22px;
+  margin-top: 14px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.finance-contributors summary {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 21px 24px;
+}
+
+.finance-contributors summary::-webkit-details-marker { display: none; }
+
+.finance-contributors summary span {
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.finance-contributors summary small {
+  color: #0066cc;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.finance-contributors summary small::after {
+  content: " +";
+}
+
+.finance-contributors[open] summary small::after {
+  content: " −";
+}
+
+.finance-contributor-list {
+  border-top: 1px solid rgba(0,0,0,0.065);
+  padding: 0 24px 20px;
+}
+
+.finance-contributor-row {
+  align-items: baseline;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding: 15px 0;
+}
+
+.finance-contributor-row a,
+.finance-contributor-row span {
+  color: #3a3a3c;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.finance-contributor-row a:hover { color: #0066cc; }
+
+.finance-contributor-row strong {
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.finance-contributor-list > p {
+  color: #86868b;
+  font-size: 10px;
+  line-height: 1.5;
+  margin-top: 16px;
+  max-width: 660px;
+}
+
 .finance-source {
   color: #0066cc;
   display: inline-block;
@@ -929,6 +1114,8 @@ img { display: block; }
   .finance-section { padding: 92px 20px; }
   .finance-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 42px; }
   .finance-metric { min-height: 152px; padding: 20px; }
+  .finance-contributors summary { padding: 19px 20px; }
+  .finance-contributor-list { padding: 0 20px 18px; }
 }
 
 /* ── US INDEX: Rankings ─────────────────────────────────── */

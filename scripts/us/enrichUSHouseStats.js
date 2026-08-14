@@ -273,6 +273,7 @@ async function computeVoteStats(fetchFn, personIdToBioguide) {
 
   const statsByBioguide = new Map();
   const recentVotesByBioguide = new Map();
+  const partyBreakVotesByBioguide = new Map();
 
   function ensureStats(bioguide) {
     if (!statsByBioguide.has(bioguide)) {
@@ -291,6 +292,13 @@ async function computeVoteStats(fetchFn, personIdToBioguide) {
       recentVotesByBioguide.set(bioguide, []);
     }
     return recentVotesByBioguide.get(bioguide);
+  }
+
+  function ensurePartyBreakVotes(bioguide) {
+    if (!partyBreakVotesByBioguide.has(bioguide)) {
+      partyBreakVotesByBioguide.set(bioguide, []);
+    }
+    return partyBreakVotesByBioguide.get(bioguide);
   }
 
   let processedVotes = 0;
@@ -319,16 +327,17 @@ async function computeVoteStats(fetchFn, personIdToBioguide) {
         const cls = toVoteClass(r.vote);
         if (cls === "missed") stat.missedRows += 1;
 
+        let isPartyBreak = false;
         if ((r.party === "Democrat" || r.party === "Republican") && (cls === "yes" || cls === "no")) {
           const major = partyMajor[r.party];
           if (major) {
             stat.comparableRows += 1;
             if (cls === major) stat.withPartyRows += 1;
+            else isPartyBreak = true;
           }
         }
 
-        const rv = ensureRecentVotes(bioguide);
-        rv.push({
+        const memberVote = {
           voteId: voteMeta.voteId,
           billNo: voteMeta.billNo,
           title: voteMeta.title,
@@ -343,7 +352,10 @@ async function computeVoteStats(fetchFn, personIdToBioguide) {
           isFinalPassage: voteMeta.isFinalPassage,
           billUrl: voteMeta.billUrl,
           voteUrl: voteMeta.voteUrl,
-        });
+        };
+
+        ensureRecentVotes(bioguide).push(memberVote);
+        if (isPartyBreak) ensurePartyBreakVotes(bioguide).push(memberVote);
       }
     }
 
@@ -352,7 +364,14 @@ async function computeVoteStats(fetchFn, personIdToBioguide) {
     }
   }
 
-  return { voteRows, statsByBioguide, recentVotesByBioguide, processedVotes, skippedVoteCsv };
+  return {
+    voteRows,
+    statsByBioguide,
+    recentVotesByBioguide,
+    partyBreakVotesByBioguide,
+    processedVotes,
+    skippedVoteCsv,
+  };
 }
 
 function mapBillStatus(status) {
@@ -428,20 +447,48 @@ async function computeBillsSponsored(fetchFn, bioguideToPersonId) {
   return { billsByBioguide, recentBillsByBioguide, checkedMembers: checked };
 }
 
-function sortRecentVotes(votes) {
+function sortedUniqueVotes(votes) {
   const sorted = [...votes].sort((a, b) => String(b.voteDate || "").localeCompare(String(a.voteDate || "")));
   const seen = new Set();
   const out = [];
 
   for (const v of sorted) {
-    const key = String(v.voteId || "") || `${String(v.billNo || "")}|${String(v.voteDate || "")}|${String(v.choice || "")}`;
+    const key = String(v.voteUrl || "") || `${String(v.voteDate || "")}|${String(v.voteId || "")}`;
     if (seen.has(key)) continue;
     seen.add(key);
     out.push(v);
-    if (out.length >= RECENT_LIMIT) break;
   }
 
   return out;
+}
+
+function sortRecentVotes(votes, predicate = () => true) {
+  return sortedUniqueVotes(votes).filter(predicate).slice(0, RECENT_LIMIT);
+}
+
+function sortAllVotes(votes) {
+  const sorted = [...votes].sort((a, b) => {
+      const dateDiff = String(b.voteDate || "").localeCompare(String(a.voteDate || ""));
+      if (dateDiff) return dateDiff;
+      return String(b.voteId || "").localeCompare(String(a.voteId || ""), undefined, { numeric: true });
+    });
+  const seen = new Set();
+  return sorted.filter((vote) => {
+    const key = String(vote.voteUrl || "") || `${vote.voteDate}|${vote.voteId}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function latestDate(values) {
+  return values.map((value) => toISODate(value)).filter(Boolean).sort().pop() || "";
+}
+
+function compactVoteKey(vote) {
+  const officialMatch = String(vote?.voteUrl || "").match(/\/Votes\/(\d+)$/i);
+  if (officialMatch) return officialMatch[1];
+  return `${String(vote?.voteDate || "").replace(/-/g, "")}_${String(vote?.voteId || "")}`;
 }
 
 async function main() {
@@ -449,6 +496,7 @@ async function main() {
   const __dirname = path.dirname(__filename);
   const projectRoot = path.resolve(__dirname, "..", "..");
   const membersPath = path.join(projectRoot, "data", "us", "house_members.json");
+  const voteEvidencePath = path.join(projectRoot, "data", "us", "vote_evidence.json");
 
   const fetchFn = getFetch();
   const members = JSON.parse(await readFile(membersPath, "utf8"));
@@ -458,6 +506,7 @@ async function main() {
     voteRows,
     statsByBioguide,
     recentVotesByBioguide,
+    partyBreakVotesByBioguide,
     processedVotes,
     skippedVoteCsv,
   } = await computeVoteStats(fetchFn, personIdToBioguide);
@@ -467,6 +516,34 @@ async function main() {
     recentBillsByBioguide,
     checkedMembers,
   } = await computeBillsSponsored(fetchFn, bioguideToPersonId);
+
+  const houseVotesAsOf = latestDate(voteRows.map((vote) => vote?.created));
+  const sponsoredBillsAsOf = latestDate(
+    [...recentBillsByBioguide.values()].flat().map((bill) => bill?.proposalDate)
+  );
+  const partyBreakMembers = {};
+  const partyBreakVoteIndex = {};
+
+  function voteReference(vote) {
+    const voteKey = compactVoteKey(vote);
+    if (!partyBreakVoteIndex[voteKey]) {
+      partyBreakVoteIndex[voteKey] = {
+        voteId: vote.voteId,
+        billNo: vote.billNo,
+        title: vote.title,
+        subject: vote.subject,
+        voteDate: vote.voteDate,
+        result: vote.result,
+        voteLabel: vote.voteLabel,
+        voteKind: vote.voteKind,
+        voteKindLabel: vote.voteKindLabel,
+        isFinalPassage: vote.isFinalPassage,
+        billUrl: vote.billUrl,
+        voteUrl: vote.voteUrl,
+      };
+    }
+    return { voteKey, choice: vote.choice };
+  }
 
   let withVoteStats = 0;
 
@@ -492,11 +569,33 @@ async function main() {
     }
 
     m.billsSponsored = billsByBioguide.get(bioguide) || 0;
-    m.recentVotes = sortRecentVotes(recentVotesByBioguide.get(bioguide) || []);
+    const allMemberVotes = recentVotesByBioguide.get(bioguide) || [];
+    const recentFinalVotes = sortRecentVotes(allMemberVotes, (voteRow) => voteRow.isFinalPassage === true);
+    const recentPreliminaryVotes = sortRecentVotes(allMemberVotes, (voteRow) => voteRow.isFinalPassage !== true);
+    delete m.recentVotes;
+    delete m.recentFinalVotes;
+    delete m.recentPreliminaryVotes;
     m.recentBills = (recentBillsByBioguide.get(bioguide) || []).slice(0, RECENT_LIMIT);
+    m.dataAsOf = {
+      ...(m.dataAsOf || {}),
+      houseVotes: houseVotesAsOf,
+      sponsoredBills: sponsoredBillsAsOf,
+    };
+
+    partyBreakMembers[bioguide] = {
+      final: recentFinalVotes.map(voteReference),
+      preliminary: recentPreliminaryVotes.map(voteReference),
+      partyBreaks: sortAllVotes(partyBreakVotesByBioguide.get(bioguide) || []).map(voteReference),
+    };
   }
 
   await writeFile(membersPath, `${JSON.stringify(members, null, 2)}\n`, "utf8");
+  await writeFile(voteEvidencePath, `${JSON.stringify({
+    congress: TARGET_CONGRESS,
+    houseVotesAsOf,
+    votes: partyBreakVoteIndex,
+    members: partyBreakMembers,
+  }, null, 2)}\n`, "utf8");
 
   console.log(`Vote rows fetched (119th House): ${voteRows.length}`);
   console.log(`Vote CSV processed: ${processedVotes}`);
@@ -505,6 +604,7 @@ async function main() {
   console.log(`Members checked for sponsored bill counts: ${checkedMembers}`);
   console.log(`Members total: ${members.length}`);
   console.log(`Wrote file: ${membersPath}`);
+  console.log(`Wrote file: ${voteEvidencePath}`);
 }
 
 main().catch((err) => {
