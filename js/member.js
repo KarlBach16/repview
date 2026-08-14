@@ -145,7 +145,7 @@ function renderPartyComparison(comparison) {
   const count = Number(comparison?.differentFromPartyMajorityCount || 0);
   countEl.dataset.count = String(count);
   summaryEl.textContent = comparison
-    ? `비교 가능한 표결 ${comparison.eligibleVoteCount || 0}건 중 최근 90일 ${comparison.last90DaysCount || 0}건입니다. ${comparison.basisLabel || ""}`
+    ? `비교 가능한 표결 ${comparison.eligibleVoteCount || 0}건 중 ${count}번입니다. 최근 90일에는 ${comparison.last90DaysCount || 0}번 있었습니다. ${comparison.basisLabel || ""}`
     : "정당별 비교 자료가 없습니다.";
 
   const votes = Array.isArray(comparison?.votes) ? comparison.votes.slice(0, 5) : [];
