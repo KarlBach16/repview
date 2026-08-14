@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, rename, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -301,8 +301,22 @@ async function main() {
     uniqueMembers.push(m);
   }
 
+  const previousMembers = existsSync(outputFile)
+    ? JSON.parse(readFileSync(outputFile, "utf8"))
+    : [];
+  if (uniqueMembers.length < 280 || uniqueMembers.length > 310) {
+    throw new Error(`Current roster count outside safety range: ${uniqueMembers.length}`);
+  }
+  if (previousMembers.length > 0 && Math.abs(uniqueMembers.length - previousMembers.length) > 20) {
+    throw new Error(
+      `Current roster count changed too sharply: ${previousMembers.length} -> ${uniqueMembers.length}`
+    );
+  }
+
   await mkdir(dataDir, { recursive: true });
-  await writeFile(outputFile, `${JSON.stringify(uniqueMembers, null, 2)}\n`, "utf8");
+  const tempFile = `${outputFile}.tmp`;
+  await writeFile(tempFile, `${JSON.stringify(uniqueMembers, null, 2)}\n`, "utf8");
+  await rename(tempFile, outputFile);
 
   console.log(`Fetched ${uniqueMembers.length} members`);
   console.log(`Wrote file: ${outputFile}`);

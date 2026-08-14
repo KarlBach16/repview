@@ -25,6 +25,9 @@ const votes = [
   { monaCode: "a", billId: "3", title: "최근 법안", voteDate: "20260320 120000", choice: "반대" },
   { monaCode: "b", billId: "3", title: "최근 법안", voteDate: "20260320 120000", choice: "반대" },
   { monaCode: "c", billId: "3", title: "최근 법안", voteDate: "20260320 120000", choice: "찬성" },
+  { monaCode: "former-1", party: "옛당", billId: "4", title: "정당 이력 법안", voteDate: "20260325 120000", choice: "찬성" },
+  { monaCode: "former-2", party: "옛당", billId: "4", title: "정당 이력 법안", voteDate: "20260325 120000", choice: "찬성" },
+  { monaCode: "c", party: "옛당", billId: "4", title: "정당 이력 법안", voteDate: "20260325 120000", choice: "반대" },
 ];
 
 assert.equal(normalizeVoteDate("20260320 120000"), "2026-03-20");
@@ -32,11 +35,20 @@ assert.equal(normalizeVoteDate(""), "");
 
 const result = derivePartyComparisons(members, votes);
 assert.equal(result.get("a").differentFromPartyMajorityCount, 0);
-assert.equal(result.get("c").differentFromPartyMajorityCount, 2);
-assert.equal(result.get("c").last90DaysCount, 2);
-assert.equal(result.get("c").eligibleVoteCount, 2);
-assert.equal(result.get("c").votes[0].partyMajorityChoice, "반대");
+assert.equal(result.get("c").differentFromPartyMajorityCount, 3);
+assert.equal(result.get("c").last90DaysCount, 3);
+assert.equal(result.get("c").eligibleVoteCount, 3);
+assert.equal(result.get("c").basis, "party_at_vote_time");
+assert.equal(result.get("c").votes[0].title, "정당 이력 법안");
+assert.equal(result.get("c").votes[0].partyMajorityChoice, "찬성");
 assert.deepEqual(result.get("c").votes[0].partyDistribution, {
+  support: 2,
+  oppose: 1,
+  abstain: 0,
+  absent: 0,
+});
+assert.equal(result.get("c").votes[1].partyMajorityChoice, "반대");
+assert.deepEqual(result.get("c").votes[1].partyDistribution, {
   support: 1,
   oppose: 2,
   abstain: 0,

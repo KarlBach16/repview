@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, rename, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -157,7 +157,9 @@ async function main() {
   const outDir = path.join(projectRoot, "data", "app");
   const outPath = path.join(outDir, "representatives.json");
   await mkdir(outDir, { recursive: true });
-  await writeFile(outPath, `${JSON.stringify(representatives, null, 2)}\n`, "utf8");
+  const tempPath = `${outPath}.tmp`;
+  await writeFile(tempPath, `${JSON.stringify(representatives, null, 2)}\n`, "utf8");
+  await rename(tempPath, outPath);
 
   console.log(`Members input: ${members.length}`);
   console.log(`Votes input rows: ${votes.length}`);

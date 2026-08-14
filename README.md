@@ -15,6 +15,7 @@ The workflow runs these scripts in order:
 2. `node scripts/fetchBills.js`
 3. `node scripts/fetchVotes.js`
 4. `node scripts/buildRepresentatives.js`
+5. `node scripts/auditDataQuality.js`
 
 If generated data files changed, it auto-commits and pushes with:
 
@@ -24,6 +25,7 @@ Updated data files:
 
 - `data/members.json`
 - `data/raw/bills_raw.json`
+- `data/raw/vote_summaries.json.gz`
 - `data/raw/votes_raw.json.gz`
 - `data/app/representatives.json`
 

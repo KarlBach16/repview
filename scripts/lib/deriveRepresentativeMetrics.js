@@ -72,11 +72,9 @@ function latestVoteDate(votes) {
 
 /**
  * Derives factual comparisons between a member's yes/no choice and the most
- * common yes/no choice among members currently listed in the same party.
- *
- * Current source data does not include party history, so the result is
- * explicitly labelled current_party. Independents are excluded because they
- * do not form a meaningful party comparison group.
+ * common yes/no choice among members recorded in the same party for that vote.
+ * The official roll-call party value is preferred; current roster party is
+ * used only as a fallback for legacy rows.
  */
 export function derivePartyComparisons(members, votes, options = {}) {
   const minimumComparableVotes = Number(options.minimumComparableVotes || 2);
@@ -92,7 +90,7 @@ export function derivePartyComparisons(members, votes, options = {}) {
   for (const vote of votes) {
     const code = String(vote?.monaCode || "").trim();
     const billId = String(vote?.billId || "").trim();
-    if (!code || !billId || !memberByCode.has(code)) continue;
+    if (!code || !billId) continue;
     const rows = votesByBill.get(billId) || [];
     rows.push(vote);
     votesByBill.set(billId, rows);
@@ -103,8 +101,8 @@ export function derivePartyComparisons(members, votes, options = {}) {
   for (const member of members) {
     const code = String(member?.monaCode || "").trim();
     result.set(code, {
-      basis: "current_party",
-      basisLabel: "현재 소속 정당 기준",
+      basis: "party_at_vote_time",
+      basisLabel: "표결 기록 당시 소속 정당 기준",
       dataThrough,
       eligibleVoteCount: 0,
       differentFromPartyMajorityCount: 0,
@@ -119,7 +117,7 @@ export function derivePartyComparisons(members, votes, options = {}) {
 
     for (const vote of rows) {
       const member = memberByCode.get(String(vote?.monaCode || "").trim());
-      const party = String(member?.party || "").trim();
+      const party = String(vote?.party || member?.party || "").trim();
       addChoice(allDistribution, String(vote?.choice || "").trim());
       if (!party || excludedParties.has(party)) continue;
 
@@ -141,7 +139,7 @@ export function derivePartyComparisons(members, votes, options = {}) {
     for (const vote of rows) {
       const code = String(vote?.monaCode || "").trim();
       const member = memberByCode.get(code);
-      const party = String(member?.party || "").trim();
+      const party = String(vote?.party || member?.party || "").trim();
       const choice = String(vote?.choice || "").trim();
       const majority = majorityByParty.get(party);
       const memberResult = result.get(code);

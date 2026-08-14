@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, rename, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -176,8 +176,22 @@ async function main() {
     };
   });
 
+  const previousRows = existsSync(outPath)
+    ? JSON.parse(readFileSync(outPath, "utf8"))
+    : [];
+  if (normalized.length < 10000) {
+    throw new Error(`Bill row count below safety floor: ${normalized.length}`);
+  }
+  if (previousRows.length > 0 && normalized.length < previousRows.length) {
+    throw new Error(
+      `Bill row count regressed from ${previousRows.length} to ${normalized.length}; refusing to replace data.`
+    );
+  }
+
   await mkdir(outDir, { recursive: true });
-  await writeFile(outPath, `${JSON.stringify(normalized, null, 2)}\n`, "utf8");
+  const tempPath = `${outPath}.tmp`;
+  await writeFile(tempPath, `${JSON.stringify(normalized, null, 2)}\n`, "utf8");
+  await rename(tempPath, outPath);
 
   console.log(`Total rows fetched: ${normalized.length}`);
   console.log(`Wrote file: ${outPath}`);

@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, rename, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -74,6 +74,11 @@ function pickFirst(row, keys) {
   return "";
 }
 
+function toNumber(value) {
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : 0;
+}
+
 async function fetchWithRetry(fetchFn, url, label) {
   const maxAttempts = 4;
   let lastError;
@@ -110,10 +115,10 @@ async function fetchWithRetry(fetchFn, url, label) {
   throw lastError;
 }
 
-async function fetchVotedBillIds(fetchFn, apiKey) {
+async function fetchVoteSummaries(fetchFn, apiKey) {
   const pageSize = 1000;
   let page = 1;
-  const ids = new Set();
+  const summaries = new Map();
 
   while (true) {
     const url = new URL(VOTE_SUMMARY_ENDPOINT);
@@ -134,14 +139,27 @@ async function fetchVotedBillIds(fetchFn, apiKey) {
     const pageRows = parseRows(json, VOTE_SUMMARY_DATASET_NAME);
     for (const row of pageRows) {
       const billId = String(row?.BILL_ID || "").trim();
-      if (billId) ids.add(billId);
+      if (!billId) continue;
+      summaries.set(billId, {
+        billId,
+        billNo: pickFirst(row, ["BILL_NO"]),
+        title: pickFirst(row, ["BILL_NAME"]),
+        processedDate: pickFirst(row, ["PROC_DT"]),
+        result: pickFirst(row, ["PROC_RESULT_CD"]),
+        memberCount: toNumber(row?.MEMBER_TCNT),
+        voteCount: toNumber(row?.VOTE_TCNT),
+        yesCount: toNumber(row?.YES_TCNT),
+        noCount: toNumber(row?.NO_TCNT),
+        abstainCount: toNumber(row?.BLANK_TCNT),
+        linkUrl: pickFirst(row, ["LINK_URL"]),
+      });
     }
 
     if (pageRows.length < pageSize) break;
     page += 1;
   }
 
-  return [...ids];
+  return [...summaries.values()];
 }
 
 async function fetchRowsByBill(fetchFn, apiKey, billId) {
@@ -195,12 +213,19 @@ async function mapWithConcurrency(items, worker, limit = 8) {
 function normalizeVotes(rows) {
   return rows.map((row) => ({
     monaCode: pickFirst(row, ["MONA_CD"]),
+    party: pickFirst(row, ["POLY_NM"]),
     billId: pickFirst(row, ["BILL_ID"]),
     billNo: pickFirst(row, ["BILL_NO"]),
     title: pickFirst(row, ["BILL_NAME"]),
     voteDate: pickFirst(row, ["VOTE_DATE"]),
     choice: pickFirst(row, ["RESULT_VOTE_MOD"]),
   }));
+}
+
+async function writeGzipJsonAtomic(filePath, value) {
+  const tempPath = `${filePath}.tmp`;
+  await writeFile(tempPath, gzipSync(`${JSON.stringify(value)}\n`, { level: 9 }));
+  await rename(tempPath, filePath);
 }
 
 async function main() {
@@ -214,10 +239,21 @@ async function main() {
 
   const outDir = path.join(projectRoot, "data", "raw");
   const outPath = path.join(outDir, "votes_raw.json.gz");
+  const summariesPath = path.join(outDir, "vote_summaries.json.gz");
   const legacyOutPath = path.join(outDir, "votes_raw.json");
   const fetchFn = getFetch();
-  const billIds = await fetchVotedBillIds(fetchFn, apiKey);
+  const summaries = await fetchVoteSummaries(fetchFn, apiKey);
+  const billIds = summaries.map((summary) => summary.billId);
   if (billIds.length === 0) throw new Error("No bill IDs found for vote collection.");
+
+  const previousSummaries = existsSync(summariesPath)
+    ? JSON.parse(gunzipSync(readFileSync(summariesPath)).toString("utf8"))
+    : [];
+  if (previousSummaries.length > 0 && summaries.length < previousSummaries.length) {
+    throw new Error(
+      `Vote summary count regressed from ${previousSummaries.length} to ${summaries.length}; refusing to replace data.`
+    );
+  }
 
   const existingVotes = existsSync(outPath)
     ? JSON.parse(gunzipSync(readFileSync(outPath)).toString("utf8"))
@@ -228,19 +264,31 @@ async function main() {
   const existingBillIds = new Set(
     existingVotes.map((vote) => String(vote?.billId || "").trim()).filter(Boolean)
   );
-  const pendingBillIds = billIds.filter((billId) => !existingBillIds.has(billId));
+  const billsMissingParty = new Set(
+    existingVotes
+      .filter((vote) => !String(vote?.party || "").trim())
+      .map((vote) => String(vote?.billId || "").trim())
+      .filter(Boolean)
+  );
+  const pendingBillIds = billIds.filter(
+    (billId) => !existingBillIds.has(billId) || billsMissingParty.has(billId)
+  );
+  const pendingBillIdSet = new Set(pendingBillIds);
   const newRows = [];
-  let failedCount = 0;
+  const failedBillIds = [];
 
   await mapWithConcurrency(
     pendingBillIds,
     async (billId, idx) => {
       try {
         const rows = await fetchRowsByBill(fetchFn, apiKey, billId);
+        if (rows.length === 0) {
+          throw new Error("official vote summary exists but member vote rows are empty");
+        }
         newRows.push(...rows);
       } catch (err) {
-        failedCount += 1;
-        if (failedCount <= 10) {
+        failedBillIds.push(billId);
+        if (failedBillIds.length <= 10) {
           console.warn(`[warn] skipped BILL_ID=${billId}: ${err.message || err}`);
         }
       }
@@ -252,13 +300,39 @@ async function main() {
     CONCURRENCY
   );
 
-  if (failedCount > 0) {
-    throw new Error(`Vote collection incomplete: ${failedCount} bill request(s) failed.`);
+  const finalFailedBillIds = [];
+  if (failedBillIds.length > 0) {
+    console.warn(`Retrying ${failedBillIds.length} failed bill request(s) with lower concurrency.`);
+    await mapWithConcurrency(
+      failedBillIds,
+      async (billId) => {
+        try {
+          const rows = await fetchRowsByBill(fetchFn, apiKey, billId);
+          if (rows.length === 0) {
+            throw new Error("official vote summary exists but member vote rows are empty");
+          }
+          newRows.push(...rows);
+        } catch (error) {
+          finalFailedBillIds.push(billId);
+          console.warn(`[warn] final retry failed BILL_ID=${billId}: ${error.message || error}`);
+        }
+      },
+      2
+    );
+  }
+
+  if (finalFailedBillIds.length > 0) {
+    throw new Error(
+      `Vote collection incomplete after final retry: ${finalFailedBillIds.length} bill request(s) failed.`
+    );
   }
 
   const normalized = [
     ...existingVotes
-      .filter((vote) => officialBillIds.has(String(vote?.billId || "").trim()))
+      .filter((vote) => {
+        const billId = String(vote?.billId || "").trim();
+        return officialBillIds.has(billId) && !pendingBillIdSet.has(billId);
+      })
       .map(({ name: _unusedName, ...vote }) => vote),
     ...normalizeVotes(newRows),
   ];
@@ -270,9 +344,11 @@ async function main() {
   }
 
   await mkdir(outDir, { recursive: true });
-  await writeFile(outPath, gzipSync(`${JSON.stringify(normalized)}\n`, { level: 9 }));
+  await writeGzipJsonAtomic(outPath, normalized);
+  await writeGzipJsonAtomic(summariesPath, summaries);
 
   console.log(`Total rows fetched: ${normalized.length}`);
+  console.log(`Official voted bills: ${summaries.length}`);
   console.log(`Unique members found: ${uniqueMembers.size}`);
   console.log(`Wrote file: ${outPath}`);
 }

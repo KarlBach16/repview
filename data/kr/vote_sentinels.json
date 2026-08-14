@@ -1,0 +1,30 @@
+[
+  {
+    "label": "곽상언 형사소송법 대안 반대",
+    "billId": "PRC_N2W6S0L7W2J9D1I8A1B1I5I1G6H8F5",
+    "memberCode": "FIE6569O",
+    "memberName": "곽상언",
+    "choice": "반대",
+    "partyMajorityChoice": "찬성",
+    "partyDistribution": {
+      "support": 145,
+      "oppose": 1,
+      "abstain": 1,
+      "absent": 5
+    },
+    "summary": {
+      "voteCount": 178,
+      "yesCount": 175,
+      "noCount": 2,
+      "abstainCount": 1
+    }
+  },
+  {
+    "label": "곽상언 형법 대안 반대",
+    "billId": "PRC_L2C6H0G2N2C5D1Q6B1C6K2J5N0A4Y1",
+    "memberCode": "FIE6569O",
+    "memberName": "곽상언",
+    "choice": "반대",
+    "partyMajorityChoice": "찬성"
+  }
+]
