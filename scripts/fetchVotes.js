@@ -2,11 +2,14 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { gzipSync, gunzipSync } from "node:zlib";
 
 const ENDPOINT = "https://open.assembly.go.kr/portal/openapi/nojepdqqaweusdfbi";
 const DATASET_NAME = "nojepdqqaweusdfbi";
+const VOTE_SUMMARY_ENDPOINT = "https://open.assembly.go.kr/portal/openapi/ncocpgfiaoituanbr";
+const VOTE_SUMMARY_DATASET_NAME = "ncocpgfiaoituanbr";
 const AGE = "22";
-const PAGE_SIZE = 500;
+const PAGE_SIZE = 300;
 const CONCURRENCY = 8;
 
 function getFetch() {
@@ -71,25 +74,6 @@ function pickFirst(row, keys) {
   return "";
 }
 
-function getBillIds(billsRawPath) {
-  if (!existsSync(billsRawPath)) {
-    throw new Error(
-      `Missing ${billsRawPath}. Run node scripts/fetchBills.js first to prepare bill IDs.`
-    );
-  }
-
-  const rows = JSON.parse(readFileSync(billsRawPath, "utf8"));
-  const ids = new Set();
-
-  for (const row of rows) {
-    const billId = row?.billId || row?.BILL_ID || row?.source?.BILL_ID || "";
-    const procDt = row?.source?.PROC_DT || row?.source?.RGS_PROC_DT || row?.source?.LAW_PROC_DT || "";
-    if (billId && procDt) ids.add(billId);
-  }
-
-  return [...ids];
-}
-
 async function fetchWithRetry(fetchFn, url, label) {
   const maxAttempts = 4;
   let lastError;
@@ -124,6 +108,40 @@ async function fetchWithRetry(fetchFn, url, label) {
   }
 
   throw lastError;
+}
+
+async function fetchVotedBillIds(fetchFn, apiKey) {
+  const pageSize = 1000;
+  let page = 1;
+  const ids = new Set();
+
+  while (true) {
+    const url = new URL(VOTE_SUMMARY_ENDPOINT);
+    url.search = new URLSearchParams({
+      KEY: apiKey,
+      Type: "json",
+      pIndex: String(page),
+      pSize: String(pageSize),
+      AGE,
+    }).toString();
+
+    const res = await fetchWithRetry(fetchFn, url, `vote summaries page ${page}`);
+    const json = await readJsonResponse(res, `vote summaries page ${page}`);
+    if (json?.RESULT?.CODE?.startsWith("ERROR")) {
+      throw new Error(`Vote summaries API ${json.RESULT.CODE}: ${json.RESULT.MESSAGE}`);
+    }
+
+    const pageRows = parseRows(json, VOTE_SUMMARY_DATASET_NAME);
+    for (const row of pageRows) {
+      const billId = String(row?.BILL_ID || "").trim();
+      if (billId) ids.add(billId);
+    }
+
+    if (pageRows.length < pageSize) break;
+    page += 1;
+  }
+
+  return [...ids];
 }
 
 async function fetchRowsByBill(fetchFn, apiKey, billId) {
@@ -177,7 +195,6 @@ async function mapWithConcurrency(items, worker, limit = 8) {
 function normalizeVotes(rows) {
   return rows.map((row) => ({
     monaCode: pickFirst(row, ["MONA_CD"]),
-    name: pickFirst(row, ["HG_NM"]),
     billId: pickFirst(row, ["BILL_ID"]),
     billNo: pickFirst(row, ["BILL_NO"]),
     title: pickFirst(row, ["BILL_NAME"]),
@@ -195,22 +212,32 @@ async function main() {
   const apiKey = process.env.ASSEMBLY_API_KEY;
   if (!apiKey) throw new Error("ASSEMBLY_API_KEY is required.");
 
-  const billsRawPath = path.join(projectRoot, "data", "raw", "bills_raw.json");
-  const billIds = getBillIds(billsRawPath);
+  const outDir = path.join(projectRoot, "data", "raw");
+  const outPath = path.join(outDir, "votes_raw.json.gz");
+  const legacyOutPath = path.join(outDir, "votes_raw.json");
+  const fetchFn = getFetch();
+  const billIds = await fetchVotedBillIds(fetchFn, apiKey);
   if (billIds.length === 0) throw new Error("No bill IDs found for vote collection.");
 
-  const fetchFn = getFetch();
-  const allRows = [];
+  const existingVotes = existsSync(outPath)
+    ? JSON.parse(gunzipSync(readFileSync(outPath)).toString("utf8"))
+    : existsSync(legacyOutPath)
+      ? JSON.parse(readFileSync(legacyOutPath, "utf8"))
+      : [];
+  const officialBillIds = new Set(billIds);
+  const existingBillIds = new Set(
+    existingVotes.map((vote) => String(vote?.billId || "").trim()).filter(Boolean)
+  );
+  const pendingBillIds = billIds.filter((billId) => !existingBillIds.has(billId));
+  const newRows = [];
   let failedCount = 0;
-  const outDir = path.join(projectRoot, "data", "raw");
-  const outPath = path.join(outDir, "votes_raw.json");
 
   await mapWithConcurrency(
-    billIds,
+    pendingBillIds,
     async (billId, idx) => {
       try {
         const rows = await fetchRowsByBill(fetchFn, apiKey, billId);
-        allRows.push(...rows);
+        newRows.push(...rows);
       } catch (err) {
         failedCount += 1;
         if (failedCount <= 10) {
@@ -218,23 +245,32 @@ async function main() {
         }
       }
 
-      if ((idx + 1) % 200 === 0 || idx + 1 === billIds.length) {
-        console.log(`Processed BILL_IDs: ${idx + 1}/${billIds.length}`);
+      if ((idx + 1) % 200 === 0 || idx + 1 === pendingBillIds.length) {
+        console.log(`Processed new BILL_IDs: ${idx + 1}/${pendingBillIds.length}`);
       }
     },
     CONCURRENCY
   );
 
-  const normalized = normalizeVotes(allRows);
+  if (failedCount > 0) {
+    throw new Error(`Vote collection incomplete: ${failedCount} bill request(s) failed.`);
+  }
+
+  const normalized = [
+    ...existingVotes
+      .filter((vote) => officialBillIds.has(String(vote?.billId || "").trim()))
+      .map(({ name: _unusedName, ...vote }) => vote),
+    ...normalizeVotes(newRows),
+  ];
   const uniqueMembers = new Set(normalized.map((v) => v.monaCode).filter(Boolean));
 
-  if (normalized.length === 0 && existsSync(outPath)) {
-    console.warn("Votes API fetch returned no rows; keeping existing data/raw/votes_raw.json.");
+  if (normalized.length === 0 && (existsSync(outPath) || existsSync(legacyOutPath))) {
+    console.warn("Votes API fetch returned no rows; keeping existing raw vote data.");
     return;
   }
 
   await mkdir(outDir, { recursive: true });
-  await writeFile(outPath, `${JSON.stringify(normalized, null, 2)}\n`, "utf8");
+  await writeFile(outPath, gzipSync(`${JSON.stringify(normalized)}\n`, { level: 9 }));
 
   console.log(`Total rows fetched: ${normalized.length}`);
   console.log(`Unique members found: ${uniqueMembers.size}`);

@@ -24,7 +24,7 @@ Updated data files:
 
 - `data/members.json`
 - `data/raw/bills_raw.json`
-- `data/raw/votes_raw.json`
+- `data/raw/votes_raw.json.gz`
 - `data/app/representatives.json`
 
 ## Required Secret

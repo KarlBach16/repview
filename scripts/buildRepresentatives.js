@@ -2,6 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { gunzipSync } from "node:zlib";
 import {
   deriveBillLifecycles,
   deriveParticipationContexts,
@@ -17,6 +18,13 @@ function readJson(filePath) {
     throw new Error(`Missing file: ${filePath}`);
   }
   return JSON.parse(readFileSync(filePath, "utf8"));
+}
+
+function readGzipJson(filePath) {
+  if (!existsSync(filePath)) {
+    throw new Error(`Missing file: ${filePath}`);
+  }
+  return JSON.parse(gunzipSync(readFileSync(filePath)).toString("utf8"));
 }
 
 function toSortableDate(value) {
@@ -87,12 +95,12 @@ async function main() {
   const projectRoot = path.resolve(__dirname, "..");
 
   const membersPath = path.join(projectRoot, "data", "members.json");
-  const votesPath = path.join(projectRoot, "data", "raw", "votes_raw.json");
+  const votesPath = path.join(projectRoot, "data", "raw", "votes_raw.json.gz");
   const billsPath = path.join(projectRoot, "data", "raw", "bills_raw.json");
   const executiveRolesPath = path.join(projectRoot, "data", "kr", "executive_roles.json");
 
   const members = readJson(membersPath);
-  const votes = readJson(votesPath);
+  const votes = readGzipJson(votesPath);
   const bills = readJson(billsPath);
   const executiveRoles = readJson(executiveRolesPath);
   const executiveRoleByCode = new Map(
