@@ -59,6 +59,7 @@ function parseYamlLegislators(yamlText) {
       pushCurrent();
       rec = {
         bioguideId: "",
+        fecCandidateIds: [],
         nameOfficial: "",
         nameFirst: "",
         nameLast: "",
@@ -96,6 +97,19 @@ function parseYamlLegislators(yamlText) {
 
     if (!inTerms && /^\s{4}bioguide:\s*/.test(line)) {
       rec.bioguideId = cleanYamlValue(line.replace(/^\s{4}bioguide:\s*/, ""));
+      continue;
+    }
+
+    if (!inTerms && /^\s{4}fec:\s*/.test(line)) {
+      section = "fec";
+      const inlineValue = cleanYamlValue(line.replace(/^\s{4}fec:\s*/, ""));
+      if (inlineValue) rec.fecCandidateIds.push(inlineValue);
+      continue;
+    }
+
+    if (!inTerms && section === "fec" && /^\s{4}-\s*/.test(line)) {
+      const fecId = cleanYamlValue(line.replace(/^\s{4}-\s*/, ""));
+      if (fecId) rec.fecCandidateIds.push(fecId);
       continue;
     }
 
@@ -166,6 +180,7 @@ function buildHouseMemberRows(records) {
 
     rows.push({
       bioguideId,
+      fecCandidateIds: [...new Set(rec.fecCandidateIds || [])].filter((id) => /^H[A-Z0-9]{8}$/i.test(id)),
       name,
       party: String(latestTerm.party || "").trim(),
       state,
@@ -175,6 +190,8 @@ function buildHouseMemberRows(records) {
       photo: "",
       // filled by scripts/fetchUSHousePhotos.js
       votesWithPartyPct: null,
+      partyDifferentVotesCount: 0,
+      partyComparableVotesCount: 0,
       billsSponsored: 0,
       missedVotesPct: null,
       _districtSort: districtSortValue(latestTerm.district),

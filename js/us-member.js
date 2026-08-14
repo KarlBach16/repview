@@ -1,3 +1,5 @@
+import { trackUSMemberView } from "./us-ranking.js";
+
 function escapeHTML(text) {
   return String(text || "")
     .replace(/&/g, "&amp;")
@@ -42,6 +44,39 @@ function formatPct(value) {
 function formatInt(value) {
   if (value === null || value === undefined || Number.isNaN(Number(value))) return "—";
   return `${Math.round(Number(value))}`;
+}
+
+function formatUSD(value) {
+  const amount = Number(value);
+  if (!Number.isFinite(amount)) return "—";
+  const abs = Math.abs(amount);
+  if (abs >= 1_000_000) return `$${(amount / 1_000_000).toFixed(abs >= 10_000_000 ? 1 : 2).replace(/\.0+$|0+$/g, "").replace(/\.$/, "")}M`;
+  if (abs >= 1_000) return `$${(amount / 1_000).toFixed(abs >= 100_000 ? 0 : 1).replace(/\.0$/, "")}K`;
+  return `$${Math.round(amount).toLocaleString("en-US")}`;
+}
+
+function safeExternalUrl(value) {
+  try {
+    const url = new URL(String(value || ""));
+    return url.protocol === "https:" ? url.href : "";
+  } catch (_) {
+    return "";
+  }
+}
+
+function inferVoteKind(vote) {
+  if (vote?.voteKindLabel) return vote.voteKindLabel;
+  const text = `${vote?.question || ""} ${vote?.subject || ""}`.toLowerCase();
+  if (text.includes("motion to recommit")) return "Motion to recommit";
+  if (text.includes("h.amdt.") || text.includes("on the amendment")) return "Amendment";
+  return "Final passage";
+}
+
+function resultClass(result) {
+  const normalized = String(result || "").toLowerCase();
+  return normalized.includes("pass") || normalized.includes("agree")
+    ? "vote-card-result--passed"
+    : "vote-card-result--failed";
 }
 
 function statNumAttrs(value, suffix) {
@@ -122,20 +157,35 @@ function renderVotes(votes) {
     return `<p style="color:rgba(245,245,247,0.3);font-size:15px;padding:20px 0">No recent vote records.</p>`;
   }
 
-  return votes.slice(0, 10).map((v) => `
-    <div class="vote-card fade-in">
+  return votes.slice(0, 10).map((v) => {
+    const kindLabel = inferVoteKind(v);
+    const isFinal = v.isFinalPassage === true || v.voteKind === "passage" || kindLabel === "Final passage";
+    const subject = isFinal ? (v.title || v.subject) : (v.subject || v.question || v.title);
+    const billUrl = safeExternalUrl(v.billUrl);
+    const voteUrl = safeExternalUrl(v.voteUrl);
+    return `
+    <article class="vote-card fade-in ${isFinal ? "vote-card--final" : "vote-card--preliminary"}">
       <div class="vote-card-left">
         <div class="vote-card-meta">
           <span class="vote-card-date">${escapeHTML(formatVoteDate(v.voteDate))}</span>
+          <span class="vote-kind ${isFinal ? "vote-kind--final" : "vote-kind--preliminary"}">${escapeHTML(kindLabel)}</span>
+          ${v.result ? `<span class="vote-card-result ${resultClass(v.result)}">${escapeHTML(v.result)}</span>` : ""}
           <span class="vote-card-topic">${escapeHTML(v.billNo || "")}</span>
           <span class="vote-card-topic">${escapeHTML(v.voteLabel || "")}</span>
         </div>
-        <div class="vote-card-title">${escapeHTML(v.title || "")}</div>
-        ${v.question ? `<div class="vote-card-meta" style="margin-top:6px"><span class="vote-card-topic">${escapeHTML(v.question)}</span></div>` : ""}
+        <div class="vote-card-title">${escapeHTML(subject || "")}</div>
+        ${!isFinal && v.title ? `<div class="vote-parent-bill">Bill: ${escapeHTML(v.title)}</div>` : ""}
+        ${(billUrl || voteUrl) ? `
+          <div class="vote-card-links">
+            ${billUrl ? `<a href="${escapeHTML(billUrl)}" target="_blank" rel="noopener noreferrer">Read bill ↗</a>` : ""}
+            ${voteUrl ? `<a href="${escapeHTML(voteUrl)}" target="_blank" rel="noopener noreferrer">Official roll call ↗</a>` : ""}
+          </div>
+        ` : ""}
       </div>
       <span class="vote-decision-badge ${choiceClass(v.choice)}">${escapeHTML(v.choice || "-")}</span>
-    </div>
-  `).join("");
+    </article>
+  `;
+  }).join("");
 }
 
 function renderBills(bills) {
@@ -145,13 +195,67 @@ function renderBills(bills) {
 
   return bills.slice(0, 10).map((b) => {
     const meta = [b.status, formatProposalDate(b.proposalDate)].filter(Boolean).join(" · ");
+    const billUrl = safeExternalUrl(b.billUrl);
     return `
       <div class="activity-item fade-in">
         <span class="activity-dot activity-dot--ongoing"></span>
-        <span>${escapeHTML(b.title || "")}${meta ? ` (${escapeHTML(meta)})` : ""}</span>
+        <span>
+          ${billUrl
+            ? `<a class="activity-link" href="${escapeHTML(billUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(b.title || b.billNo || "")}</a>`
+            : escapeHTML(b.title || b.billNo || "")}
+          ${meta ? `<span class="activity-meta">${escapeHTML(meta)}</span>` : ""}
+        </span>
       </div>
     `;
   }).join("");
+}
+
+function renderCampaignFinance(finance) {
+  if (!finance || !Number.isFinite(Number(finance.totalReceipts))) return "";
+
+  const receipts = Number(finance.totalReceipts) || 0;
+  const individual = Number(finance.individualContributions) || 0;
+  const pac = Number(finance.pacContributions) || 0;
+  const candidate = Number(finance.candidateFunding) || 0;
+  const individualPct = receipts > 0 ? Math.round((individual / receipts) * 100) : 0;
+  const pacPct = receipts > 0 ? Math.round((pac / receipts) * 100) : 0;
+  const sourceUrl = safeExternalUrl(finance.sourceUrl);
+  const cycleStart = Number(finance.cycle) - 1;
+
+  return `
+    <section class="finance-section">
+      <div class="finance-inner">
+        <p class="finance-kicker fade-in">Campaign money · ${escapeHTML(`${cycleStart}–${finance.cycle}`)}</p>
+        <h2 class="finance-total fade-in delay-1">${escapeHTML(formatUSD(receipts))} raised.</h2>
+        <p class="finance-context fade-in delay-2">Reported by the campaign through ${escapeHTML(formatVoteDate(finance.coverageEndDate) || "the latest filing")}.</p>
+
+        <div class="finance-grid fade-in">
+          <div class="finance-metric">
+            <strong>${escapeHTML(`${individualPct}%`)}</strong>
+            <span>From individuals</span>
+            <small>${escapeHTML(formatUSD(individual))}</small>
+          </div>
+          <div class="finance-metric">
+            <strong>${escapeHTML(`${pacPct}%`)}</strong>
+            <span>From PACs & committees</span>
+            <small>${escapeHTML(formatUSD(pac))}</small>
+          </div>
+          <div class="finance-metric">
+            <strong>${escapeHTML(formatUSD(candidate))}</strong>
+            <span>Candidate funding</span>
+            <small>Contributions and loans</small>
+          </div>
+          <div class="finance-metric">
+            <strong>${escapeHTML(formatUSD(finance.cashOnHand))}</strong>
+            <span>Cash on hand</span>
+            <small>${escapeHTML(formatUSD(finance.totalDisbursements))} spent</small>
+          </div>
+        </div>
+
+        ${sourceUrl ? `<a class="finance-source fade-in" href="${escapeHTML(sourceUrl)}" target="_blank" rel="noopener noreferrer">View official FEC filing ↗</a>` : ""}
+      </div>
+    </section>
+  `;
 }
 
 function renderMember(member) {
@@ -220,10 +324,12 @@ function renderMember(member) {
       </div>
     </section>
 
+    ${renderCampaignFinance(member.campaignFinance)}
+
     <section class="votes-section">
       <div class="votes-inner">
         <h2 class="votes-header fade-in">How they voted.</h2>
-        <p class="votes-subheader fade-in delay-1">Latest House votes and this member's recorded choice.</p>
+        <p class="votes-subheader fade-in delay-1">Final passage is separated from amendments and procedural votes.</p>
         <div id="vote-list">${renderVotes(member.recentVotes || [])}</div>
       </div>
     </section>
@@ -381,6 +487,7 @@ async function initUSMemberPage() {
 
   renderMember(member);
   initShareActions(member);
+  trackUSMemberView(member.districtCode);
 }
 
 document.addEventListener("DOMContentLoaded", initUSMemberPage);

@@ -52,6 +52,48 @@ function toISODate(value) {
   return String(value).slice(0, 10);
 }
 
+const CONGRESS_BILL_TYPE_PATHS = {
+  house_bill: "house-bill",
+  senate_bill: "senate-bill",
+  house_resolution: "house-resolution",
+  senate_resolution: "senate-resolution",
+  house_concurrent_resolution: "house-concurrent-resolution",
+  senate_concurrent_resolution: "senate-concurrent-resolution",
+  house_joint_resolution: "house-joint-resolution",
+  senate_joint_resolution: "senate-joint-resolution",
+};
+
+function buildCongressBillUrl(bill) {
+  const congress = Number(bill?.congress);
+  const number = Number(bill?.number);
+  const typePath = CONGRESS_BILL_TYPE_PATHS[String(bill?.bill_type || "")];
+  if (!Number.isFinite(congress) || !Number.isFinite(number) || !typePath) return "";
+  return `https://www.congress.gov/bill/${congress}th-congress/${typePath}/${number}/text`;
+}
+
+function classifyVote(vote) {
+  const category = String(vote?.category || "").trim().toLowerCase();
+  const detail = `${vote?.vote_type || ""} ${vote?.question_details || ""} ${vote?.question || ""}`.toLowerCase();
+
+  if (detail.includes("motion to recommit")) return { code: "recommit", label: "Motion to recommit", isFinal: false };
+  if (category === "amendment" || detail.includes("on the amendment")) {
+    return { code: "amendment", label: "Amendment", isFinal: false };
+  }
+  if (category.startsWith("passage") || detail.includes("on passage")) {
+    return { code: "passage", label: "Final passage", isFinal: true };
+  }
+  if (category === "procedural" || detail.includes("ordering the previous question")) {
+    return { code: "procedural", label: "Procedural vote", isFinal: false };
+  }
+  if (category.includes("conference")) return { code: "conference", label: "Conference report", isFinal: false };
+
+  return {
+    code: category || "other",
+    label: String(vote?.category_label || vote?.vote_type || "Other vote").trim(),
+    isFinal: false,
+  };
+}
+
 async function fetchWithTimeout(fetchFn, input, init = {}, timeoutMs = REQUEST_TIMEOUT_MS) {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
@@ -193,14 +235,27 @@ async function fetchVoteCsvInfo(fetchFn, vote) {
   const records = parseVoteCsv(csvText);
   if (!records.length) return null;
 
+  const voteKind = classifyVote(vote);
+  const relatedBill = vote?.related_bill || null;
+  const session = String(vote?.session || "").trim();
+  const voteNumber = Number(vote?.number);
+
   const voteMeta = {
     voteId: extractVoteId(vote.link),
-    billNo: vote?.related_bill?.display_number || `House Vote #${vote?.number ?? ""}`.trim(),
-    title: vote?.related_bill?.title_without_number || vote?.question || "House Vote",
+    billNo: relatedBill?.display_number || `House Vote #${vote?.number ?? ""}`.trim(),
+    title: relatedBill?.title_without_number || vote?.question || "House Vote",
+    subject: String(vote?.question || relatedBill?.title_without_number || "House Vote").trim(),
     voteDate: toISODate(vote?.created),
     result: String(vote?.result || "").trim() || "",
     question: String(vote?.question || "").trim(),
     voteLabel: `House Vote #${vote?.number ?? ""}`.trim(),
+    voteKind: voteKind.code,
+    voteKindLabel: voteKind.label,
+    isFinalPassage: voteKind.isFinal,
+    billUrl: buildCongressBillUrl(relatedBill),
+    voteUrl: session && Number.isFinite(voteNumber)
+      ? `https://clerk.house.gov/Votes/${session}${voteNumber}`
+      : String(vote?.link || "").trim(),
   };
 
   return {
@@ -282,6 +337,12 @@ async function computeVoteStats(fetchFn, personIdToBioguide) {
           result: voteMeta.result,
           question: voteMeta.question,
           voteLabel: voteMeta.voteLabel,
+          subject: voteMeta.subject,
+          voteKind: voteMeta.voteKind,
+          voteKindLabel: voteMeta.voteKindLabel,
+          isFinalPassage: voteMeta.isFinalPassage,
+          billUrl: voteMeta.billUrl,
+          voteUrl: voteMeta.voteUrl,
         });
       }
     }
@@ -330,6 +391,7 @@ async function fetchSponsoredData(fetchFn, personId) {
     title: String(b?.title_without_number || b?.title || "").trim(),
     proposalDate: toISODate(b?.introduced_date),
     status: mapBillStatus(b?.current_status_label || b?.current_status || ""),
+    billUrl: buildCongressBillUrl(b),
   }));
 
   return {
@@ -414,6 +476,8 @@ async function main() {
 
     if (!vote || vote.voteRows === 0) {
       m.votesWithPartyPct = null;
+      m.partyDifferentVotesCount = 0;
+      m.partyComparableVotesCount = 0;
       m.missedVotesPct = null;
       m.missedVotesCount = 0;
     } else {
@@ -422,6 +486,8 @@ async function main() {
       m.votesWithPartyPct = vote.comparableRows > 0
         ? round1((vote.withPartyRows / vote.comparableRows) * 100)
         : null;
+      m.partyDifferentVotesCount = Math.max(0, vote.comparableRows - vote.withPartyRows);
+      m.partyComparableVotesCount = vote.comparableRows;
       withVoteStats += 1;
     }
 

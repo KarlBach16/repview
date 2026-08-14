@@ -1,3 +1,5 @@
+import { fetchUSWeeklyViewCounts, usRankingKey } from "./us-ranking.js";
+
 const PUBLIC_CONFIG = window.REPVIEW_PUBLIC_CONFIG || {};
 const GEOCODIO_API_KEY = PUBLIC_CONFIG.GEOCODIO_API_KEY || "";
 
@@ -74,6 +76,116 @@ function normalizeDistrictCode(value) {
 function memberDetailRoute(districtCode) {
   const code = normalizeDistrictCode(districtCode).toLowerCase();
   return `/us/member.html?district=${encodeURIComponent(code)}`;
+}
+
+function formatRankingUSD(value) {
+  const amount = Number(value);
+  if (!Number.isFinite(amount)) return "—";
+  const abs = Math.abs(amount);
+  if (abs >= 1_000_000) {
+    const digits = abs >= 10_000_000 ? 1 : 2;
+    return `$${(amount / 1_000_000).toFixed(digits).replace(/\.0+$|0+$/g, "").replace(/\.$/, "")}M`;
+  }
+  if (abs >= 1_000) return `$${Math.round(amount / 1_000)}K`;
+  return `$${Math.round(amount).toLocaleString("en-US")}`;
+}
+
+function rankingScore(member, metric, viewCounts) {
+  if (metric === "views") return Number(viewCounts[usRankingKey(member.districtCode)] || 0);
+  if (metric === "party") return Number(member.partyDifferentVotesCount || 0);
+  if (metric === "fundraising") return Number(member.campaignFinance?.totalReceipts || 0);
+  return 0;
+}
+
+function rankingValue(member, metric, viewCounts) {
+  const score = rankingScore(member, metric, viewCounts);
+  if (metric === "views") return `${Math.round(score).toLocaleString("en-US")}`;
+  if (metric === "party") return `${Math.round(score)}`;
+  return formatRankingUSD(score);
+}
+
+function rankingValueLabel(metric) {
+  if (metric === "views") return "views this week";
+  if (metric === "party") return "votes against party majority";
+  return "raised";
+}
+
+function rankingContext(member, metric) {
+  if (metric === "views") return "Reader interest, not a performance score.";
+  if (metric === "party") {
+    return `Across ${Number(member.partyComparableVotesCount || 0).toLocaleString("en-US")} comparable House votes.`;
+  }
+  const finance = member.campaignFinance || {};
+  const cycle = Number(finance.cycle);
+  const cycleLabel = Number.isFinite(cycle) ? `${cycle - 1}–${cycle}` : "Latest cycle";
+  const through = finance.coverageEndDate ? ` · through ${String(finance.coverageEndDate).slice(0, 10)}` : "";
+  return `${cycleLabel}${through}`;
+}
+
+function renderUSRanking(members, metric, viewCounts) {
+  const list = document.getElementById("us-ranking-list");
+  if (!list) return;
+
+  const rows = [...members]
+    .filter((member) => metric !== "views" || rankingScore(member, metric, viewCounts) > 0)
+    .sort((a, b) => {
+      const scoreDiff = rankingScore(b, metric, viewCounts) - rankingScore(a, metric, viewCounts);
+      if (scoreDiff) return scoreDiff;
+      return String(a.name || "").localeCompare(String(b.name || ""));
+    })
+    .slice(0, 10);
+
+  if (!rows.length) {
+    list.innerHTML = `
+      <div class="us-ranking-empty">
+        <strong>Weekly views are collecting now.</strong>
+        <span>Representatives will appear after readers open their profiles.</span>
+      </div>`;
+    return;
+  }
+
+  list.innerHTML = rows.map((member, index) => {
+    const route = memberDetailRoute(member.districtCode);
+    const photo = member.photo
+      ? `<img class="us-ranking-photo" src="${escapeHTML(member.photo)}" alt="${escapeHTML(member.name)}" loading="lazy" />`
+      : `<div class="us-ranking-photo us-ranking-photo--fallback">${escapeHTML((member.name || "?")[0])}</div>`;
+    return `
+      <a class="us-ranking-item" href="${route}">
+        <span class="us-ranking-rank">${index + 1}</span>
+        <span class="us-ranking-photo-wrap">${photo}</span>
+        <span class="us-ranking-member-copy">
+          <strong>${escapeHTML(member.name)}</strong>
+          <small>${escapeHTML(member.districtCode)} · ${escapeHTML(member.party)}</small>
+          <em>${escapeHTML(rankingContext(member, metric))}</em>
+        </span>
+        <span class="us-ranking-metric">
+          <strong>${escapeHTML(rankingValue(member, metric, viewCounts))}</strong>
+          <small>${escapeHTML(rankingValueLabel(metric))}</small>
+        </span>
+      </a>`;
+  }).join("");
+}
+
+async function initUSRanking(members) {
+  const tabs = document.getElementById("us-ranking-tabs");
+  if (!tabs) return;
+
+  let metric = "views";
+  const viewCounts = await fetchUSWeeklyViewCounts();
+
+  tabs.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-us-ranking-metric]");
+    if (!button) return;
+    const nextMetric = button.getAttribute("data-us-ranking-metric");
+    if (!new Set(["views", "party", "fundraising"]).has(nextMetric)) return;
+    metric = nextMetric;
+    tabs.querySelectorAll("[data-us-ranking-metric]").forEach((tab) => {
+      tab.classList.toggle("is-active", tab === button);
+    });
+    renderUSRanking(members, metric, viewCounts);
+  });
+
+  renderUSRanking(members, metric, viewCounts);
 }
 
 function isZipQuery(value) {
@@ -277,6 +389,7 @@ async function initUSPage() {
   const form = document.getElementById("us-search-form");
   const input = document.getElementById("us-search-input");
   if (!input) return;
+  initUSRanking(members);
 
   const runNameSearch = () => {
     const raw = String(input.value || "").trim();

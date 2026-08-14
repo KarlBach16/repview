@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RepView US — Find your representative</title>
   <meta name="description" content="Find your U.S. House representative by ZIP code or member name." />
-  <link rel="stylesheet" href="/css/style.css?v=20260405a" />
+  <link rel="stylesheet" href="/css/style.css?v=20260814b" />
   <style>
     .us-results-section {
       max-width: 1200px;
@@ -53,19 +53,35 @@
     </div>
   </main>
 
+  <section class="us-ranking-section" aria-labelledby="us-ranking-title">
+    <div class="us-ranking-inner">
+      <p class="us-ranking-kicker">House rankings</p>
+      <h2 class="us-ranking-title" id="us-ranking-title">See the field.</h2>
+      <p class="us-ranking-sub">Three separate measures. No overall score.</p>
+
+      <div class="us-ranking-tabs" id="us-ranking-tabs" role="tablist" aria-label="House ranking metric">
+        <button class="us-ranking-tab is-active" type="button" data-us-ranking-metric="views">Viewed</button>
+        <button class="us-ranking-tab" type="button" data-us-ranking-metric="party">Party breaks</button>
+        <button class="us-ranking-tab" type="button" data-us-ranking-metric="fundraising">Fundraising</button>
+      </div>
+
+      <div class="us-ranking-list" id="us-ranking-list" aria-live="polite"></div>
+    </div>
+  </section>
+
   <footer class="index-footer">
     <div class="index-footer-inner">
       <p class="index-footer-brand">RepView</p>
       <p class="index-footer-desc">See what your representative actually does.</p>
       <p class="index-footer-line">Contact: contact@repview.app</p>
-      <p class="index-footer-line">Data source: GovTrack US Congress API</p>
+      <p class="index-footer-line">Data sources: GovTrack, U.S. House Clerk, Federal Election Commission</p>
       <p class="index-footer-line"><a href="https://ko-fi.com/repview" target="_blank" rel="noopener noreferrer">☕ Support RepView</a></p>
       <p class="index-footer-copy">© 2026 RepView</p>
     </div>
   </footer>
 
   <script src="/js/public-config.js?v=20260405a"></script>
-  <script type="module" src="/js/us.js?v=20260405a"></script>
+  <script type="module" src="/js/us.js?v=20260814b"></script>
   <script>
     const nav = document.getElementById('main-nav');
     window.addEventListener('scroll', () => {

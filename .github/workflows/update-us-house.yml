@@ -37,6 +37,12 @@ jobs:
       - name: Enrich US House stats
         run: node scripts/us/enrichUSHouseStats.js
 
+      - name: Enrich US campaign finance
+        run: node scripts/us/enrichUSCampaignFinance.js
+
+      - name: Audit US House data
+        run: node scripts/us/auditUSHouseData.js
+
       - name: Commit and push if changed
         run: |
           if git diff --quiet && git diff --cached --quiet; then
