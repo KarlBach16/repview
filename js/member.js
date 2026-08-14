@@ -203,7 +203,6 @@ function renderParticipationContext(context) {
   const summaryEl = document.getElementById("participation-summary");
   const comparisonEl = document.getElementById("participation-comparison");
   const runsEl = document.getElementById("absence-run-list");
-  const updatedEl = document.getElementById("data-updated");
   if (!rateEl || !summaryEl || !comparisonEl || !runsEl) return;
 
   const period = context?.last90Days || {};
@@ -252,7 +251,6 @@ function renderParticipationContext(context) {
         <p>${run.surroundedByParticipation ? "같은 날 직전과 직후 표결에는 참여했습니다." : "같은 날짜에 연속으로 기록된 불참입니다."}</p>
       </div>`).join("")
     : `<p class="insight-empty">두 건 이상 이어진 최근 불참 기록이 없습니다.</p>`;
-  if (updatedEl) updatedEl.textContent = `표결 데이터 기준일 ${context?.dataThrough || "확인되지 않음"}`;
 }
 
 function renderVotes(votes) {

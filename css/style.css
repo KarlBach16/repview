@@ -1448,15 +1448,6 @@ img { display: block; }
 .absence-run > div { display: flex; flex-direction: column; gap: 5px; }
 .absence-run strong { color: #f5f5f7; font-size: 17px; }
 .absence-run span, .absence-run p { color: rgba(245,245,247,0.44); font-size: 13px; line-height: 1.5; }
-.method-section { padding: 120px 24px; background: #f5f5f7; color: #111; }
-.method-inner { width: min(980px, 100%); margin: 0 auto; }
-.method-title { font-size: clamp(42px, 7vw, 82px); line-height: 1; letter-spacing: -0.05em; }
-.method-grid { margin-top: 70px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 38px; }
-.method-grid > div { display: flex; flex-direction: column; gap: 12px; }
-.method-grid strong { font-size: 17px; }
-.method-grid span, .method-updated { color: rgba(0,0,0,0.52); font-size: 14px; line-height: 1.65; }
-.method-updated { margin-top: 64px; padding-top: 20px; border-top: 1px solid rgba(0,0,0,0.1); }
-
 .share-section {
   background: radial-gradient(60vw 42vh at 50% 0%, rgba(41,151,255,0.14), transparent 72%), #050505;
   padding: 100px 24px 120px;
@@ -2467,8 +2458,7 @@ img { display: block; }
     text-align: left;
   }
 
-  .metric-triptych,
-  .method-grid {
+  .metric-triptych {
     grid-template-columns: 1fr;
   }
 
