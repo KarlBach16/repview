@@ -2,7 +2,7 @@
 
 const BASE = "/";   // adjust if served from a subpath
 const LANG_PREF_KEY = "repview.lang";
-const CACHE_BUSTER = "20260405a";
+const CACHE_BUSTER = "20260814a";
 const SEARCH_RANKING_API_BASE = "/api/kr";
 const VIEW_DEDUPE_KEY = "repview.kr.view.dedupe";
 const ANON_ID_KEY = "repview.anon.id";
@@ -139,6 +139,7 @@ function normalizeRepresentative(raw) {
         photo: raw.profile.photo || "",
         homepage: raw.profile.homepage || "",
       },
+      executiveRole: raw.executiveRole || null,
       stats: {
         votesTotal: Number(raw.stats.votesTotal || 0),
         votesParticipated: Number(raw.stats.votesParticipated || 0),
@@ -152,6 +153,9 @@ function normalizeRepresentative(raw) {
       recentVotes: Array.isArray(raw.recentVotes) ? raw.recentVotes : [],
       recentAbsentVotes: Array.isArray(raw.recentAbsentVotes) ? raw.recentAbsentVotes : [],
       recentBills: Array.isArray(raw.recentBills) ? raw.recentBills : [],
+      partyComparison: raw.partyComparison || null,
+      billLifecycle: raw.billLifecycle || null,
+      participationContext: raw.participationContext || null,
     };
   }
 
@@ -169,6 +173,7 @@ function normalizeRepresentative(raw) {
       photo: raw?.photo || "",
       homepage: raw?.homepage || "",
     },
+    executiveRole: raw?.executiveRole || null,
     stats: {
       votesTotal: Number(raw?.votesTotal || 0),
       votesParticipated: Number(raw?.votesParticipated || 0),
@@ -182,6 +187,9 @@ function normalizeRepresentative(raw) {
     recentVotes: Array.isArray(raw?.recentVotes) ? raw.recentVotes : [],
     recentAbsentVotes: Array.isArray(raw?.recentAbsentVotes) ? raw.recentAbsentVotes : [],
     recentBills: Array.isArray(raw?.recentBills) ? raw.recentBills : [],
+    partyComparison: raw?.partyComparison || null,
+    billLifecycle: raw?.billLifecycle || null,
+    participationContext: raw?.participationContext || null,
   };
 }
 

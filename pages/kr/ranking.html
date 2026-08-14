@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>의원 랭킹 — RepView</title>
-  <link rel="stylesheet" href="/css/style.css?v=20260405a" />
+  <link rel="stylesheet" href="/css/style.css?v=20260814a" />
 </head>
 <body>
   <nav class="nav scrolled">
@@ -14,7 +14,7 @@
   <main class="ranking-page">
     <section class="ranking-hero">
       <h1 class="ranking-title">의원 랭킹</h1>
-      <p class="ranking-sub">기준을 선택해 전체 의원 순위를 확인하세요.</p>
+      <p class="ranking-sub">종합 점수 없이, 같은 지표 안에서 기록의 위치를 확인하세요.</p>
 
       <div class="ranking-tabs" id="ranking-tabs">
         <button class="ranking-tab is-active" data-metric="participation">표결 참여율</button>
@@ -32,7 +32,7 @@
     <section class="ranking-list" id="ranking-list"></section>
   </main>
 
-  <script src="/js/app.js?v=20260405a"></script>
+  <script src="/js/app.js?v=20260814a"></script>
   <script>
     (async () => {
       const data = await loadAll();
@@ -135,25 +135,41 @@
         return "";
       }
 
+      function metricContext(rep, type) {
+        const context = rep.participationContext || {};
+        const lifecycle = rep.billLifecycle || {};
+        if (type === "participation") {
+          const median = context.partyMedian?.term;
+          return Number.isFinite(median) ? `같은 정당 중앙값 ${median}%` : `대상 표결 ${rep.stats?.votesTotal || 0}건`;
+        }
+        if (type === "absent") return `대상 표결 ${rep.stats?.votesTotal || 0}건`;
+        if (type === "bills") return `처리 완료 ${lifecycle.completed || 0} · 심사 중 ${lifecycle.inProgress || 0}`;
+        if (type === "views") return "정치 활동 평가와 무관한 관심도 지표";
+        return "";
+      }
+
       function rowHTML(rep, idx, type) {
         const p = rep.profile || {};
+        const rankLabel = typeof idx === "number" ? idx + 1 : idx;
         const photo = p.photo
           ? `<img class="ranking-photo" src="${p.photo}" alt="${escapeHTML(p.name || "")}" loading="lazy" />`
           : `<div class="ranking-photo ranking-photo-fallback"></div>`;
 
         return `
           <a class="ranking-item" href="member.html?slug=${encodeURIComponent(rep.slug || "")}">
-            <div class="ranking-rank">${idx + 1}</div>
+            <div class="ranking-rank">${rankLabel}</div>
             <div class="ranking-member">
               <div class="ranking-photo-wrap">${photo}</div>
               <div class="ranking-meta">
                 <p class="ranking-name">${escapeHTML(p.name || "")}</p>
                 <p class="ranking-district">${escapeHTML(p.district || "")}</p>
                 <p class="ranking-party">${partyAccentHTML(p.party || "")}</p>
+                ${rep.executiveRole?.active ? `<p class="ranking-role-badge">${escapeHTML(rep.executiveRole.title || "정부직 겸직")}</p>` : ""}
                 <div class="ranking-value-wrap">
                   <span class="ranking-value">${formatValue(rep, type)}</span>
                   <span class="ranking-value-label">${metricLabel(type)}</span>
                 </div>
+                <p class="ranking-context">${escapeHTML(metricContext(rep, type))}</p>
               </div>
             </div>
           </a>`;
@@ -177,7 +193,15 @@
 
       function render() {
         const rows = sortRows(metric);
-        listEl.innerHTML = rows.map((r, i) => rowHTML(r, i, metric)).join("");
+        const regularRows = rows.filter((row) => !row.executiveRole?.active);
+        const executiveRows = rows.filter((row) => row.executiveRole?.active);
+        listEl.innerHTML = regularRows.map((r, i) => rowHTML(r, i, metric)).join("") +
+          (executiveRows.length ? `
+            <div class="ranking-separated-heading">
+              <strong>정부직 겸직 의원</strong>
+              <span>의정활동과 상근 행정부 역할을 함께 수행해 일반 순위에서 분리했습니다.</span>
+            </div>
+            ${executiveRows.map((r) => rowHTML(r, "—", metric)).join("")}` : "");
       }
 
       tabsEl.addEventListener("click", (e) => {

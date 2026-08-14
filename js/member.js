@@ -1,6 +1,5 @@
 // ── Member detail page logic ───────────────────────────────
 let currentRepresentative = null;
-let absentVotesState = { votes: [], visible: 5 };
 
 async function initMember() {
   initI18n();
@@ -76,107 +75,169 @@ function formatProposalDate(value) {
 
 function renderMember(rep) {
   const p = rep.profile;
-  const s = rep.stats;
 
   document.title = `${p.name} — RepView`;
 
   const heroPhoto = document.getElementById("hero-photo");
+  const heroInitials = document.getElementById("hero-initials");
+  const heroMedia = heroPhoto?.closest(".member-poster-media");
   heroPhoto.src = p.photo || "";
   heroPhoto.alt = p.name || "";
+  if (heroInitials) heroInitials.textContent = p.name || "";
+  if (heroMedia) {
+    heroMedia.classList.toggle("is-missing", !p.photo);
+    heroPhoto.onload = () => heroMedia.classList.remove("is-missing");
+    heroPhoto.onerror = () => heroMedia.classList.add("is-missing");
+  }
 
   document.getElementById("hero-committee").textContent = primaryCommittee(p.committee || "");
   document.getElementById("hero-name").textContent = p.name || "";
   document.getElementById("hero-meta").innerHTML = `
     ${escapeHTML(p.district || "")}&nbsp;&nbsp;${partyAccentHTML(p.party || "")}
   `;
-
-  // Keep current layout; map summary metrics to merged stats.
-  document.getElementById("stat-attendance").dataset.count = String(s.voteParticipationRate || 0);
-  document.getElementById("stat-vote").dataset.count = String(s.billsProposed || 0);
-  document.getElementById("stat-vote").dataset.suffix = "";
-  document.getElementById("stat-bills").dataset.count = String(s.absentCount || 0);
-  document.getElementById("stat-bills").dataset.suffix = "";
-
-  const billBlock = document.getElementById("bill-callout");
-  if (Array.isArray(rep.recentBills) && rep.recentBills.length) {
-    const first = rep.recentBills[0];
-    const status = first.status || first.billStatus || "";
-    billBlock.innerHTML = `
-      <div class="bill-callout-label">${t("member.bill.recent")}</div>
-      <div class="bill-callout-title">${first.title || ""}</div>
-      <span class="bill-status-badge">
-        <span class="bill-status-dot"></span>${status || "-"}
-      </span>`;
-  } else {
-    billBlock.innerHTML = `<div style="font-size:15px;color:var(--text-muted-light)">${t("member.bill.none")}</div>`;
+  const executiveRoleEl = document.getElementById("hero-executive-role");
+  if (executiveRoleEl) {
+    const role = rep.executiveRole;
+    executiveRoleEl.hidden = !role?.active;
+    if (role?.active) {
+      executiveRoleEl.href = role.sourceUrl || "#";
+      executiveRoleEl.textContent = `${role.title} 겸직 · ${role.verifiedAt} 확인`;
+    }
   }
 
-  renderAbsentVotes(rep.recentAbsentVotes || rep.recentVotes || []);
+  renderPartyComparison(rep.partyComparison);
+  renderBillLifecycle(rep.billLifecycle);
+  renderParticipationContext(rep.participationContext);
   renderVotes(rep.recentVotes || []);
-  renderBills(rep.recentBills || []);
   renderShareCard(rep);
 }
 
-function renderAbsentVotes(votes) {
-  const allAbsentVotes = (Array.isArray(votes) ? votes : []).filter((v) => String(v?.choice || "").trim() === "불참");
-  absentVotesState.votes = allAbsentVotes;
-  absentVotesState.visible = 5;
-
-  const headerEl = document.getElementById("absent-votes-header");
-  const subEl = document.getElementById("absent-votes-subheader");
-  const moreBtn = document.getElementById("absent-more-btn");
-
-  const isKo = getCurrentLanguage() === "ko";
-  if (headerEl) headerEl.textContent = isKo ? "최근 불참 표결" : "Recent Missed Votes";
-  if (subEl) subEl.textContent = isKo
-    ? "최근 표결 중 불참한 안건입니다."
-    : "Most recent votes this member did not participate in.";
-  if (moreBtn) moreBtn.textContent = isKo ? "불참 표결 더 보기" : "Show More Missed Votes";
-
-  renderAbsentVotesList();
-
-  if (moreBtn && moreBtn.dataset.bound !== "1") {
-    moreBtn.dataset.bound = "1";
-    moreBtn.addEventListener("click", () => {
-      absentVotesState.visible += 10;
-      renderAbsentVotesList();
-    });
-  }
+function choiceClass(choice) {
+  if (choice === "찬성") return "decision--yes";
+  if (choice === "반대") return "decision--no";
+  return "decision--abstain";
 }
 
-function renderAbsentVotesList() {
-  const list = document.getElementById("absent-vote-list");
-  const moreBtn = document.getElementById("absent-more-btn");
-  const section = document.getElementById("absent-votes-section");
-  if (!list) return;
+function distributionHTML(distribution, prefix) {
+  const d = distribution || {};
+  const total = Number(d.support || 0) + Number(d.oppose || 0) + Number(d.abstain || 0) + Number(d.absent || 0);
+  const support = total ? (Number(d.support || 0) / total) * 100 : 0;
+  const oppose = total ? (Number(d.oppose || 0) / total) * 100 : 0;
+  const rest = Math.max(100 - support - oppose, 0);
+  return `
+    <div class="distribution-row">
+      <div class="distribution-label">${escapeHTML(prefix)}</div>
+      <div class="distribution-track" aria-label="${escapeHTML(prefix)} 찬성 ${d.support || 0}, 반대 ${d.oppose || 0}, 기타 ${Number(d.abstain || 0) + Number(d.absent || 0)}">
+        <span class="distribution-support" style="width:${support}%"></span>
+        <span class="distribution-oppose" style="width:${oppose}%"></span>
+        <span class="distribution-rest" style="width:${rest}%"></span>
+      </div>
+      <div class="distribution-values">찬성 ${d.support || 0} · 반대 ${d.oppose || 0}</div>
+    </div>`;
+}
 
-  const all = absentVotesState.votes || [];
-  if (!all.length) {
-    list.innerHTML = `<p style="color:rgba(245,245,247,0.3);font-size:15px;padding:20px 0">${getCurrentLanguage() === "ko" ? "최근 불참 표결이 없습니다." : "No recent missed votes."}</p>`;
-    if (moreBtn) moreBtn.style.display = "none";
-    if (section) section.style.display = "block";
+function renderPartyComparison(comparison) {
+  const countEl = document.getElementById("party-difference-count");
+  const summaryEl = document.getElementById("party-comparison-summary");
+  const listEl = document.getElementById("party-difference-list");
+  if (!countEl || !summaryEl || !listEl) return;
+
+  const count = Number(comparison?.differentFromPartyMajorityCount || 0);
+  countEl.dataset.count = String(count);
+  summaryEl.textContent = comparison
+    ? `비교 가능한 표결 ${comparison.eligibleVoteCount || 0}건 중 최근 90일 ${comparison.last90DaysCount || 0}건입니다. ${comparison.basisLabel || ""}`
+    : "정당별 비교 자료가 없습니다.";
+
+  const votes = Array.isArray(comparison?.votes) ? comparison.votes.slice(0, 5) : [];
+  if (!votes.length) {
+    listEl.innerHTML = `<p class="insight-empty">현재 기준에서 당내 다수와 다른 찬반 표결이 없습니다.</p>`;
     return;
   }
 
-  const visible = all.slice(0, absentVotesState.visible);
-  list.innerHTML = visible
+  listEl.innerHTML = votes
     .map((v) => `
-      <div class="vote-card">
-        <div class="vote-card-left">
-          <div class="vote-card-meta">
-            <span class="vote-card-date">${formatVoteDate(v.voteDate)}</span>
-            <span class="vote-card-topic">${v.billNo || ""}</span>
-          </div>
-          <div class="vote-card-title">${v.title || ""}</div>
+      <article class="insight-card fade-in">
+        <div class="insight-card-topline">
+          <span>${formatVoteDate(v.voteDate)}</span>
+          <span class="vote-decision-badge ${choiceClass(v.choice)}">${escapeHTML(v.choice)}</span>
         </div>
-        <span class="vote-decision-badge decision--abstain">${getCurrentLanguage() === "ko" ? "불참" : "Absent"}</span>
-      </div>`)
+        <h3>${escapeHTML(v.title || "")}</h3>
+        <p>당내 다수 선택은 ${escapeHTML(v.partyMajorityChoice || "")}였습니다.</p>
+        ${distributionHTML(v.partyDistribution, "같은 정당")}
+        ${distributionHTML(v.assemblyDistribution, "전체 국회")}
+      </article>`)
     .join("");
+}
 
-  if (moreBtn) {
-    moreBtn.style.display = all.length > visible.length ? "inline-flex" : "none";
-  }
-  if (section) section.style.display = "block";
+function renderBillLifecycle(lifecycle) {
+  const totalEl = document.getElementById("bill-total-count");
+  const summaryEl = document.getElementById("bill-lifecycle-summary");
+  const metricsEl = document.getElementById("bill-metrics");
+  const listEl = document.getElementById("bill-lifecycle-list");
+  if (!totalEl || !summaryEl || !metricsEl || !listEl) return;
+
+  const total = Number(lifecycle?.leadSponsoredTotal || 0);
+  const mature = lifecycle?.olderThan180Days || {};
+  totalEl.dataset.count = String(total);
+  summaryEl.textContent = Number.isFinite(mature.completionRate)
+    ? `발의 후 ${lifecycle.matureAfterDays}일이 지난 ${mature.total}건 중 ${mature.completed}건이 처리를 마쳤습니다.`
+    : "기간 보정 처리율을 계산할 수 있는 법안이 아직 없습니다.";
+  metricsEl.innerHTML = `
+    <div><strong>${lifecycle?.inProgress || 0}</strong><span>심사 중</span></div>
+    <div><strong>${lifecycle?.completed || 0}</strong><span>처리 완료</span></div>
+    <div><strong>${lifecycle?.crossPartyCount || 0}</strong><span>다른 정당 참여</span></div>`;
+
+  const bills = Array.isArray(lifecycle?.recentBills) ? lifecycle.recentBills.slice(0, 6) : [];
+  listEl.innerHTML = bills.map((bill) => `
+    <a class="lifecycle-item fade-in" href="${escapeHTML(bill.detailLink || "#")}" ${bill.detailLink ? 'target="_blank" rel="noopener noreferrer"' : ""}>
+      <div>
+        <span class="lifecycle-date">${formatProposalDate(bill.proposalDate)}</span>
+        <h3>${escapeHTML(bill.title || "")}</h3>
+      </div>
+      <span class="lifecycle-status lifecycle-status--${escapeHTML(bill.statusCategory || "in_progress")}">${escapeHTML(bill.status || "심사 중")}</span>
+    </a>`).join("");
+}
+
+function renderParticipationContext(context) {
+  const rateEl = document.getElementById("participation-90-rate");
+  const summaryEl = document.getElementById("participation-summary");
+  const comparisonEl = document.getElementById("participation-comparison");
+  const runsEl = document.getElementById("absence-run-list");
+  const updatedEl = document.getElementById("data-updated");
+  if (!rateEl || !summaryEl || !comparisonEl || !runsEl) return;
+
+  const period = context?.last90Days || {};
+  const rate = Number.isFinite(period.rate) ? period.rate : 0;
+  const partyMedian = context?.partyMedian?.last90Days;
+  const allMedian = context?.allMemberMedian?.last90Days;
+  rateEl.dataset.count = String(rate);
+  summaryEl.textContent = period.total
+    ? `${period.total}건 중 ${period.participated}건에 참여하고 ${period.absent}건에 불참했습니다.`
+    : "최근 90일 표결 자료가 없습니다.";
+
+  const maxScale = 100;
+  comparisonEl.innerHTML = [
+    ["이 의원", rate],
+    ["같은 정당 중앙값", partyMedian],
+    ["전체 의원 중앙값", allMedian],
+  ].map(([label, value]) => `
+    <div class="comparison-row">
+      <span>${label}</span>
+      <div><i style="width:${Math.min(Number(value || 0), maxScale)}%"></i></div>
+      <strong>${Number.isFinite(value) ? `${value}%` : "자료 없음"}</strong>
+    </div>`).join("");
+
+  const runs = Array.isArray(context?.absenceRuns)
+    ? context.absenceRuns.filter((run) => run.count >= 2).slice(0, 5)
+    : [];
+  runsEl.innerHTML = runs.length
+    ? `<p class="absence-run-heading">최근 연속 불참 기록</p>` + runs.map((run) => `
+      <div class="absence-run fade-in">
+        <div><strong>${escapeHTML(run.date)}</strong><span>${run.count}건 연속</span></div>
+        <p>${run.surroundedByParticipation ? "같은 날 직전과 직후 표결에는 참여했습니다." : "같은 날짜에 연속으로 기록된 불참입니다."}</p>
+      </div>`).join("")
+    : `<p class="insight-empty">두 건 이상 이어진 최근 불참 기록이 없습니다.</p>`;
+  if (updatedEl) updatedEl.textContent = `표결 데이터 기준일 ${context?.dataThrough || "확인되지 않음"}`;
 }
 
 function renderVotes(votes) {
@@ -189,9 +250,6 @@ function renderVotes(votes) {
   list.innerHTML = votes
     .map((v) => {
       const choice = v.choice || "";
-      const choiceClass =
-        choice === "찬성" ? "decision--yes" : choice === "반대" ? "decision--no" : "decision--abstain";
-
       return `
       <div class="vote-card">
         <div class="vote-card-left">
@@ -199,36 +257,10 @@ function renderVotes(votes) {
             <span class="vote-card-date">${formatVoteDate(v.voteDate)}</span>
             <span class="vote-card-topic">${v.billNo || ""}</span>
           </div>
-          <div class="vote-card-title">${v.title || ""}</div>
+          <div class="vote-card-title">${escapeHTML(v.title || "")}</div>
         </div>
-        <span class="vote-decision-badge ${choiceClass}">${choice}</span>
+        <span class="vote-decision-badge ${choiceClass(choice)}">${escapeHTML(choice)}</span>
       </div>`;
-    })
-    .join("");
-}
-
-function renderBills(bills) {
-  const header = document.querySelector(".activity-header");
-  if (header) {
-    header.textContent = getCurrentLanguage() === "ko" ? "최근 발의 법안" : "Recent Bills";
-  }
-
-  const wrap = document.getElementById("activity-wrap");
-  if (!bills.length) {
-    wrap.innerHTML = `<p style="color:rgba(245,245,247,0.3);font-size:15px">${t("member.activity.none")}</p>`;
-    return;
-  }
-
-  wrap.innerHTML = bills
-    .map((b) => {
-      const status = b.status || b.billStatus || "";
-      const proposalDate = formatProposalDate(b.proposalDate);
-      const meta = [status, proposalDate].filter(Boolean).join(" · ");
-      return `
-        <div class="activity-item fade-in">
-          <span class="activity-dot activity-dot--ongoing"></span>
-          <span>${b.title || ""}${meta ? ` (${meta})` : ""}</span>
-        </div>`;
     })
     .join("");
 }

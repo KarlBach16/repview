@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>의원 비교 — RepView</title>
-  <link rel="stylesheet" href="/css/style.css?v=20260405a" />
+  <link rel="stylesheet" href="/css/style.css?v=20260814a" />
 </head>
 <body>
   <nav class="nav scrolled">
@@ -14,7 +14,7 @@
   <main class="compare-page">
     <section class="compare-hero">
       <h1 class="compare-title">의원 비교</h1>
-      <p class="compare-sub">두 명을 선택해 핵심 지표를 비교하세요.</p>
+      <p class="compare-sub">점수 없이, 같은 기간과 기준으로 두 사람의 기록을 봅니다.</p>
 
       <div class="compare-picker" id="compare-picker">
         <input id="compare-input" class="compare-input" type="text" placeholder="이름, 지역구, 정당으로 검색" autocomplete="off" />
@@ -31,7 +31,7 @@
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
-  <script src="/js/app.js?v=20260405a"></script>
+  <script src="/js/app.js?v=20260814a"></script>
   <script>
     (async () => {
       const data = await loadAll();
@@ -117,6 +117,7 @@
               <p class="compare-name">${escapeHTML(p.name || '')}</p>
               <p class="compare-district">${escapeHTML(p.district || '')}</p>
               <p class="compare-party">${partyAccentHTML(p.party || '')}</p>
+              ${rep.executiveRole?.active ? `<p class="ranking-role-badge">${escapeHTML(rep.executiveRole.title || '정부직 겸직')}</p>` : ''}
             </div>
           </a>`;
       }
@@ -134,6 +135,7 @@
             <p class="compare-mobile-name">${escapeHTML(p.name || '')}</p>
             <p class="compare-mobile-meta">${escapeHTML(p.district || '')}</p>
             <p class="compare-mobile-party">${partyAccentHTML(p.party || '')}</p>
+            ${rep.executiveRole?.active ? `<p class="ranking-role-badge">${escapeHTML(rep.executiveRole.title || '정부직 겸직')}</p>` : ''}
           </a>`;
       }
 
@@ -153,15 +155,24 @@
 
         const sa = a?.stats || {};
         const sb = b?.stats || {};
+        const pa = a?.partyComparison || {};
+        const pb = b?.partyComparison || {};
+        const ba = a?.billLifecycle || {};
+        const bb = b?.billLifecycle || {};
+        const ca = a?.participationContext || {};
+        const cb = b?.participationContext || {};
+        const aMature = ba.olderThan180Days || {};
+        const bMature = bb.olderThan180Days || {};
 
         resultEl.innerHTML = `
           <div class="compare-grid">
             <div class="compare-desktop-grid">
               ${profileCard(a)}
               <div class="compare-stats">
-                ${statCell('표결 참여율', Number(sa.voteParticipationRate || 0).toFixed(1), Number(sb.voteParticipationRate || 0).toFixed(1), '%', 'high-good')}
-                ${statCell('불참', Number(sa.absentCount || 0), Number(sb.absentCount || 0), '', 'high-bad')}
+                ${statCell('최근 90일 참여율', Number(ca.last90Days?.rate || 0).toFixed(1), Number(cb.last90Days?.rate || 0).toFixed(1), '%')}
+                ${statCell('당내 다수와 다른 표결', Number(pa.differentFromPartyMajorityCount || 0), Number(pb.differentFromPartyMajorityCount || 0))}
                 ${statCell('대표 발의', Number(sa.billsProposed || 0), Number(sb.billsProposed || 0))}
+                ${statCell('180일 경과 법안 처리', `${aMature.completed || 0}/${aMature.total || 0}`, `${bMature.completed || 0}/${bMature.total || 0}`)}
               </div>
               ${profileCard(b)}
             </div>
@@ -172,9 +183,10 @@
                 ${profileCardMobile(b)}
               </div>
               <div class="compare-stats compare-stats--mobile">
-                ${statCell('표결 참여율', Number(sa.voteParticipationRate || 0).toFixed(1), Number(sb.voteParticipationRate || 0).toFixed(1), '%', 'high-good')}
-                ${statCell('불참', Number(sa.absentCount || 0), Number(sb.absentCount || 0), '', 'high-bad')}
+                ${statCell('최근 90일 참여율', Number(ca.last90Days?.rate || 0).toFixed(1), Number(cb.last90Days?.rate || 0).toFixed(1), '%')}
+                ${statCell('당내 다수와 다른 표결', Number(pa.differentFromPartyMajorityCount || 0), Number(pb.differentFromPartyMajorityCount || 0))}
                 ${statCell('대표 발의', Number(sa.billsProposed || 0), Number(sb.billsProposed || 0))}
+                ${statCell('180일 경과 법안 처리', `${aMature.completed || 0}/${aMature.total || 0}`, `${bMature.completed || 0}/${bMature.total || 0}`)}
               </div>
             </div>
           </div>`;

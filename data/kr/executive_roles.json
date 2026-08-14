@@ -1,0 +1,8 @@
+[
+  { "monaCode": "V429892C", "name": "정성호", "title": "법무부 장관", "organization": "법무부", "active": true, "verifiedAt": "2026-08-14", "sourceUrl": "https://www.moj.go.kr/minister/2613/subview.do" },
+  { "monaCode": "M0A1658U", "name": "윤호중", "title": "행정안전부 장관", "organization": "행정안전부", "active": true, "verifiedAt": "2026-08-14", "sourceUrl": "https://www.mois.go.kr/mns/a01/mnsMain.do" },
+  { "monaCode": "XSP20229", "name": "김성환", "title": "기후에너지환경부 장관", "organization": "기후에너지환경부", "active": true, "verifiedAt": "2026-08-14", "sourceUrl": "https://me.go.kr/home/web/main.do" },
+  { "monaCode": "JZY9937U", "name": "김윤덕", "title": "국토교통부 장관", "organization": "국토교통부", "active": true, "verifiedAt": "2026-08-14", "sourceUrl": "https://www.molit.go.kr/USR/WPGE0201/m_36400/DTL.jsp" },
+  { "monaCode": "TST4507I", "name": "안규백", "title": "국방부 장관", "organization": "국방부", "active": true, "verifiedAt": "2026-08-14", "sourceUrl": "https://mnd.go.kr/mnd/325/subview.do" },
+  { "monaCode": "ARP89147", "name": "정동영", "title": "통일부 장관", "organization": "통일부", "active": true, "verifiedAt": "2026-08-14", "sourceUrl": "https://unikorea.go.kr/web/minister/contents/introduce_minister" }
+]

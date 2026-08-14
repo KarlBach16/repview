@@ -2,10 +2,15 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  deriveBillLifecycles,
+  deriveParticipationContexts,
+  derivePartyComparisons,
+} from "./lib/deriveRepresentativeMetrics.js";
 
 const RECENT_VOTES_LIMIT = 10;
 const RECENT_BILLS_LIMIT = 10;
-const RECENT_ABSENT_VOTES_LIMIT = 100;
+const RECENT_ABSENT_VOTES_LIMIT = 10;
 
 function readJson(filePath) {
   if (!existsSync(filePath)) {
@@ -84,13 +89,24 @@ async function main() {
   const membersPath = path.join(projectRoot, "data", "members.json");
   const votesPath = path.join(projectRoot, "data", "raw", "votes_raw.json");
   const billsPath = path.join(projectRoot, "data", "raw", "bills_raw.json");
+  const executiveRolesPath = path.join(projectRoot, "data", "kr", "executive_roles.json");
 
   const members = readJson(membersPath);
   const votes = readJson(votesPath);
   const bills = readJson(billsPath);
+  const executiveRoles = readJson(executiveRolesPath);
+  const executiveRoleByCode = new Map(
+    executiveRoles
+      .filter((role) => role?.active)
+      .map((role) => [String(role?.monaCode || "").trim(), role])
+      .filter(([code]) => Boolean(code))
+  );
 
   const votesByMonaCode = groupByMonaCode(votes);
   const billsByMonaCode = groupByMonaCode(bills);
+  const partyComparisons = derivePartyComparisons(members, votes);
+  const billLifecycles = deriveBillLifecycles(members, bills);
+  const participationContexts = deriveParticipationContexts(members, votes);
 
   const representatives = members.map((member) => {
     const monaCode = String(member?.monaCode || "").trim();
@@ -112,6 +128,7 @@ async function main() {
 
     return {
       ...member,
+      executiveRole: executiveRoleByCode.get(monaCode) || null,
       votesTotal,
       votesParticipated,
       voteParticipationRate,
@@ -123,6 +140,9 @@ async function main() {
       recentAbsentVotes: buildRecentAbsentVotes(memberVotes),
       billsProposed: memberBills.length,
       recentBills: buildRecentBills(memberBills),
+      partyComparison: partyComparisons.get(monaCode),
+      billLifecycle: billLifecycles.get(monaCode),
+      participationContext: participationContexts.get(monaCode),
     };
   });
 
