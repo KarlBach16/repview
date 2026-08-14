@@ -185,7 +185,7 @@ function renderBillLifecycle(lifecycle) {
   metricsEl.innerHTML = `
     <div><strong>${lifecycle?.inProgress || 0}</strong><span>심사 중</span></div>
     <div><strong>${lifecycle?.completed || 0}</strong><span>처리 완료</span></div>
-    <div><strong>${lifecycle?.crossPartyCount || 0}</strong><span>다른 정당 참여</span></div>`;
+    <div><strong>${lifecycle?.crossPartyCount || 0}</strong><span>타 정당 의원과 공동발의</span></div>`;
 
   const bills = Array.isArray(lifecycle?.recentBills) ? lifecycle.recentBills.slice(0, 6) : [];
   listEl.innerHTML = bills.map((bill) => `
