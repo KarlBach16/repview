@@ -584,11 +584,7 @@ function initVoteExplorer(member) {
   const initialMode = requestedMode === "party-breaks"
     ? "party-breaks"
     : requestedMode === "preliminary" ? "preliminary" : "final";
-  activate(initialMode, { syncQuery: false }).then(() => {
-    if (initialMode === "party-breaks") {
-      document.getElementById("member-votes")?.scrollIntoView({ block: "start" });
-    }
-  });
+  activate(initialMode, { syncQuery: false });
 }
 
 function buildShareText(member) {
