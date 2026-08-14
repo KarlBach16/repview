@@ -207,19 +207,34 @@ function renderParticipationContext(context) {
   if (!rateEl || !summaryEl || !comparisonEl || !runsEl) return;
 
   const period = context?.last90Days || {};
+  const term = context?.term || {};
   const rate = Number.isFinite(period.rate) ? period.rate : 0;
   const partyMedian = context?.partyMedian?.last90Days;
   const allMedian = context?.allMemberMedian?.last90Days;
-  rateEl.dataset.count = String(rate);
+  if (period.total) {
+    rateEl.dataset.count = String(rate);
+    rateEl.dataset.suffix = "%";
+  } else {
+    rateEl.removeAttribute("data-count");
+    rateEl.textContent = "자료 없음";
+  }
+
+  const sampleCaution = period.total > 0 && period.total < 20
+    ? " 최근 표결이 20건 미만이라 단기 변화 해석에 주의가 필요합니다."
+    : "";
+  const termSummary = term.total
+    ? ` 제22대 국회 전체로는 ${term.total}건 중 ${term.participated}건에 참여했습니다.`
+    : "";
   summaryEl.textContent = period.total
-    ? `${period.total}건 중 ${period.participated}건에 참여하고 ${period.absent}건에 불참했습니다.`
-    : "최근 90일 표결 자료가 없습니다.";
+    ? `${period.total}건 중 ${period.participated}건에 참여하고 ${period.absent}건에 불참했습니다.${termSummary}${sampleCaution}`
+    : "최근 90일 표결 자료가 없어 제22대 국회 전체 기록을 함께 확인해 주세요.";
 
   const maxScale = 100;
   comparisonEl.innerHTML = [
-    ["이 의원", rate],
-    ["같은 정당 중앙값", partyMedian],
-    ["전체 의원 중앙값", allMedian],
+    ["최근 90일", period.rate],
+    ["제22대 국회 전체", term.rate],
+    ["정당 중앙값 · 90일", partyMedian],
+    ["전체 중앙값 · 90일", allMedian],
   ].map(([label, value]) => `
     <div class="comparison-row">
       <span>${label}</span>
