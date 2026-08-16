@@ -435,6 +435,131 @@ export function deriveCollaborationNetworks(members, bills, options = {}) {
   return result;
 }
 
+export function deriveVoteSimilarities(members, votes, options = {}) {
+  const memberIdField = options.memberIdField || "monaCode";
+  const voteIdField = options.voteIdField || "billId";
+  const yesChoice = options.yesChoice || YES;
+  const noChoice = options.noChoice || NO;
+  const minimumParticipants = Number(options.minimumParticipants || 20);
+  const minimumMinorityShare = Number(options.minimumMinorityShare || 0.1);
+  const minimumCommonVotes = Number(options.minimumCommonVotes || 20);
+  const topLimit = Number(options.topLimit || 5);
+  const disagreementLimit = Number(options.disagreementLimit || 3);
+  const memberById = new Map(
+    members
+      .map((member) => [String(member?.[memberIdField] || "").trim(), member])
+      .filter(([id]) => Boolean(id))
+  );
+  const votesById = new Map();
+
+  for (const vote of votes) {
+    const memberId = String(vote?.[memberIdField] || "").trim();
+    const voteId = String(vote?.[voteIdField] || "").trim();
+    const choice = String(vote?.choice || "").trim();
+    if (!memberById.has(memberId) || !voteId || (choice !== yesChoice && choice !== noChoice)) continue;
+    const rows = votesById.get(voteId) || [];
+    rows.push({ ...vote, memberId, choice });
+    votesById.set(voteId, rows);
+  }
+
+  const pairStats = new Map();
+  const eligibleVotesByMember = new Map([...memberById.keys()].map((id) => [id, 0]));
+  let qualifyingVoteCount = 0;
+  let dataThrough = "";
+
+  for (const [voteId, sourceRows] of votesById) {
+    const uniqueRows = [...new Map(sourceRows.map((row) => [row.memberId, row])).values()];
+    const yesCount = uniqueRows.filter((row) => row.choice === yesChoice).length;
+    const noCount = uniqueRows.filter((row) => row.choice === noChoice).length;
+    const total = yesCount + noCount;
+    if (total < minimumParticipants || Math.min(yesCount, noCount) / total < minimumMinorityShare) continue;
+
+    qualifyingVoteCount += 1;
+    const date = normalizeVoteDate(uniqueRows[0]?.voteDate);
+    if (date > dataThrough) dataThrough = date;
+    for (const row of uniqueRows) eligibleVotesByMember.set(row.memberId, (eligibleVotesByMember.get(row.memberId) || 0) + 1);
+
+    for (let left = 0; left < uniqueRows.length; left += 1) {
+      for (let right = left + 1; right < uniqueRows.length; right += 1) {
+        const leftRow = uniqueRows[left];
+        const rightRow = uniqueRows[right];
+        const ids = leftRow.memberId < rightRow.memberId
+          ? [leftRow.memberId, rightRow.memberId]
+          : [rightRow.memberId, leftRow.memberId];
+        const key = `${ids[0]}|${ids[1]}`;
+        const stat = pairStats.get(key) || { common: 0, agreements: 0, disagreements: [] };
+        stat.common += 1;
+        if (leftRow.choice === rightRow.choice) {
+          stat.agreements += 1;
+        } else {
+          stat.disagreements.push({
+            voteId,
+            billNo: String(leftRow?.billNo || rightRow?.billNo || ""),
+            title: String(leftRow?.title || rightRow?.title || ""),
+            voteDate: String(leftRow?.voteDate || rightRow?.voteDate || ""),
+            choices: {
+              [leftRow.memberId]: leftRow.choice,
+              [rightRow.memberId]: rightRow.choice,
+            },
+            detailLink: String(leftRow?.detailLink || rightRow?.detailLink || ""),
+          });
+          stat.disagreements.sort((a, b) => String(b.voteDate || "").localeCompare(String(a.voteDate || "")));
+          if (stat.disagreements.length > disagreementLimit) stat.disagreements.length = disagreementLimit;
+        }
+        pairStats.set(key, stat);
+      }
+    }
+  }
+
+  const matchesByMember = new Map([...memberById.keys()].map((id) => [id, []]));
+  for (const [key, stat] of pairStats) {
+    if (stat.common < minimumCommonVotes) continue;
+    const [left, right] = key.split("|");
+    const disagreementCount = stat.common - stat.agreements;
+    const recentDisagreements = stat.disagreements.slice(0, disagreementLimit);
+    const shared = {
+      commonVoteCount: stat.common,
+      agreementCount: stat.agreements,
+      disagreementCount,
+      agreementRate: round1((stat.agreements / stat.common) * 100),
+      recentDisagreements,
+    };
+    matchesByMember.get(left)?.push({ memberId: right, ...shared });
+    matchesByMember.get(right)?.push({ memberId: left, ...shared });
+  }
+
+  const result = new Map();
+  for (const [memberId, matches] of matchesByMember) {
+    const member = memberById.get(memberId) || {};
+    const party = String(member?.party || "").trim();
+    const sorted = matches.map((match) => {
+      const other = memberById.get(match.memberId) || {};
+      return {
+        ...match,
+        sameParty: String(other?.party || "").trim() === party,
+      };
+    }).sort((a, b) =>
+      b.agreementRate - a.agreementRate
+      || b.commonVoteCount - a.commonVoteCount
+      || String(memberById.get(a.memberId)?.name || "").localeCompare(String(memberById.get(b.memberId)?.name || ""), "ko")
+    );
+    const featured = sorted.slice(0, topLimit);
+    const topOtherParty = sorted.find((match) => !match.sameParty);
+    if (topOtherParty && !featured.some((match) => match.memberId === topOtherParty.memberId)) {
+      featured[Math.max(featured.length - 1, 0)] = topOtherParty;
+    }
+    result.set(memberId, {
+      basis: "divided_yes_no_votes",
+      minimumMinorityShare,
+      minimumCommonVotes,
+      eligibleVoteCount: eligibleVotesByMember.get(memberId) || 0,
+      topMatches: featured,
+    });
+  }
+
+  return { dataThrough, qualifyingVoteCount, members: result };
+}
+
 function participationSummary(rows) {
   const total = rows.length;
   const absent = rows.filter((row) => String(row?.choice || "").trim() === ABSENT).length;

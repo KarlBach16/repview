@@ -9,6 +9,13 @@ async function initMember() {
       console.error("Collaboration data load error:", error);
       return null;
     });
+  const voteSimilarityPromise = loadJSON("data/kr/vote_similarity.json")
+    .catch((error) => {
+      console.error("Vote similarity data load error:", error);
+      return null;
+    });
+  const supporterPromise = loadJSON("data/kr/supporter_associations.json").catch(() => null);
+  const booksPromise = loadJSON("data/kr/member_books.json").catch(() => null);
 
   const params = new URLSearchParams(location.search);
   const slug = params.get("slug");
@@ -50,11 +57,104 @@ async function initMember() {
     renderCollaborationNetwork(rep);
     initFadeIns();
   });
+  voteSimilarityPromise.then((evidence) => {
+    const similarity = resolveVoteSimilarity(rep, data.representatives, evidence);
+    if (!similarity || currentRepresentative !== rep) return;
+    rep.voteSimilarity = similarity;
+    initNetworkTabs(rep);
+  });
+  Promise.all([supporterPromise, booksPromise]).then(([supporters, books]) => {
+    if (currentRepresentative !== rep) return;
+    renderMemberMore(rep, supporters?.members?.[rep.monaCode], books?.members?.[rep.monaCode]);
+  });
 
   window.addEventListener("repview:languagechange", () => {
     if (!currentRepresentative) return;
     renderMember(currentRepresentative);
     initFadeIns();
+  });
+}
+
+function nationalLibrarySearchUrl(title, author) {
+  const url = new URL("https://www.nl.go.kr/kolisnet/search/searchResultAllList.do");
+  url.searchParams.set("keyword1", [title, author].filter(Boolean).join(" "));
+  url.searchParams.set("keywordType1", "total");
+  url.searchParams.set("tab", "ALL");
+  return url.href;
+}
+
+function renderMemberMore(rep, supporter, books) {
+  const section = document.getElementById("member-more");
+  const booksBlock = document.getElementById("member-books-block");
+  const bookRail = document.getElementById("member-book-rail");
+  const supporterBlock = document.getElementById("member-supporter-block");
+  const supporterName = document.getElementById("member-supporter-name");
+  const supporterAddress = document.getElementById("member-supporter-address");
+  const supporterLinks = document.getElementById("member-supporter-links");
+  if (!section || !booksBlock || !bookRail || !supporterBlock || !supporterName || !supporterAddress || !supporterLinks) return;
+
+  const rows = Array.isArray(books) ? books.slice(0, 3) : [];
+  booksBlock.hidden = rows.length === 0;
+  if (rows.length) {
+    bookRail.innerHTML = rows.map((book, index) => `
+      <a class="member-book-card member-book-card--${(index % 3) + 1}" href="${escapeHTML(nationalLibrarySearchUrl(book.title, rep.profile?.name))}" target="_blank" rel="noopener noreferrer">
+        <span>${escapeHTML(book.year || "")}${book.coauthored ? " · 공저" : ""}</span>
+        <strong>${escapeHTML(book.title || "")}</strong>
+        <small>${escapeHTML(book.publisher || "국립중앙도서관에서 보기")} ↗</small>
+      </a>`).join("");
+  }
+
+  const hasSupporter = Boolean(supporter?.associationName && (supporter?.address || supporter?.phone || supporter?.donationUrl));
+  supporterBlock.hidden = !hasSupporter;
+  if (hasSupporter) {
+    supporterName.textContent = supporter.associationName || "";
+    supporterAddress.textContent = supporter.address || supporter.region || "";
+    supporterLinks.innerHTML = [
+      supporter.phone ? `<a href="tel:${escapeHTML(String(supporter.phone).replace(/[^0-9+]/g, ""))}">${escapeHTML(supporter.phone)}</a>` : "",
+      supporter.donationUrl ? `<a href="${escapeHTML(supporter.donationUrl)}" target="_blank" rel="noopener noreferrer">공식 후원 페이지 ↗</a>` : "",
+      supporter.sourceUrl ? `<a href="${escapeHTML(supporter.sourceUrl)}" target="_blank" rel="noopener noreferrer">후원회 정보 ↗</a>` : "",
+    ].filter(Boolean).join("");
+  }
+  section.hidden = rows.length === 0 && !hasSupporter;
+}
+
+function resolveVoteSimilarity(rep, representatives, evidence) {
+  const raw = evidence?.members?.[rep?.monaCode];
+  if (!raw) return null;
+  const representativeByCode = new Map(
+    representatives.map((item) => [String(item?.monaCode || ""), item])
+  );
+  return {
+    ...raw,
+    topMatches: (raw.topMatches || []).map((match) => {
+      const matchedRep = representativeByCode.get(String(match?.monaCode || ""));
+      const profile = matchedRep?.profile || {};
+      return {
+        ...match,
+        slug: matchedRep?.slug || "",
+        name: profile.name || "",
+        party: profile.party || "",
+        district: profile.district || "",
+        photo: profile.photo || "",
+      };
+    }).filter((match) => match.name),
+  };
+}
+
+function initNetworkTabs(rep) {
+  const section = document.getElementById("collaboration-section");
+  if (!section || section.dataset.tabsReady === "true") return;
+  section.dataset.tabsReady = "true";
+  const similarityTab = section.querySelector('[data-network-view="similarity"]');
+  if (similarityTab) similarityTab.hidden = false;
+  section.querySelectorAll("[data-network-view]").forEach((button) => {
+    button.addEventListener("click", () => {
+      section.querySelectorAll("[data-network-view]").forEach((item) => {
+        item.classList.toggle("is-active", item === button);
+      });
+      if (button.dataset.networkView === "similarity") renderVoteSimilarityNetwork(rep);
+      else renderCollaborationNetwork(rep);
+    });
   });
 }
 
@@ -262,6 +362,8 @@ function renderCollaborationNetwork(rep) {
   const statsEl = document.getElementById("collaboration-stats");
   const originEl = document.getElementById("collaboration-origin");
   const listEl = document.getElementById("collaboration-list");
+  const eyebrowEl = document.getElementById("network-eyebrow");
+  const headlineEl = document.getElementById("network-headline");
   if (!sectionEl || !statsEl || !originEl || !listEl) return;
 
   const network = rep.collaborationNetwork || {};
@@ -270,6 +372,8 @@ function renderCollaborationNetwork(rep) {
     : [];
   sectionEl.hidden = collaborators.length === 0;
   if (!collaborators.length) return;
+  if (eyebrowEl) eyebrowEl.textContent = "제22대 국회 · 공동발의 명단";
+  if (headlineEl) headlineEl.textContent = "자주 함께한 의원.";
 
   const profile = rep.profile || {};
   originEl.innerHTML = `
@@ -327,6 +431,51 @@ function renderCollaborationNetwork(rep) {
       });
     });
   });
+}
+
+function renderVoteSimilarityNetwork(rep) {
+  const sectionEl = document.getElementById("collaboration-section");
+  const statsEl = document.getElementById("collaboration-stats");
+  const originEl = document.getElementById("collaboration-origin");
+  const listEl = document.getElementById("collaboration-list");
+  const eyebrowEl = document.getElementById("network-eyebrow");
+  const headlineEl = document.getElementById("network-headline");
+  if (!sectionEl || !statsEl || !originEl || !listEl) return;
+  const similarity = rep.voteSimilarity || {};
+  const matches = Array.isArray(similarity.topMatches) ? similarity.topMatches.slice(0, 5) : [];
+  if (!matches.length) return;
+
+  if (eyebrowEl) eyebrowEl.textContent = "제22대 국회 · 표결 선택";
+  if (headlineEl) headlineEl.textContent = "표결이 비슷한 의원.";
+  const profile = rep.profile || {};
+  originEl.innerHTML = `
+    <div class="collaboration-origin-photo${profile.photo ? "" : " is-missing"}">
+      ${profile.photo
+        ? `<img src="${escapeHTML(profile.photo)}" alt="${escapeHTML(profile.name || "")}" />`
+        : `<span>${escapeHTML(String(profile.name || "?").slice(0, 1))}</span>`}
+    </div>
+    <strong>${escapeHTML(profile.name || "")}</strong>`;
+  statsEl.innerHTML = `<span><strong>${similarity.eligibleVoteCount || 0}</strong> 비교 표결</span>`;
+  listEl.innerHTML = matches.map((match) => {
+    const profileRoute = match.slug
+      ? `member.html?slug=${encodeURIComponent(match.slug)}`
+      : `member.html?id=${encodeURIComponent(match.monaCode || "")}`;
+    return `
+      <a class="collaboration-person similarity-person" href="${escapeHTML(profileRoute)}">
+        <span class="collaboration-person-photo${match.photo ? "" : " is-missing"}">
+          ${match.photo
+            ? `<img src="${escapeHTML(match.photo)}" alt="${escapeHTML(match.name || "")}" loading="lazy" />`
+            : `<i>${escapeHTML(String(match.name || "?").slice(0, 1))}</i>`}
+        </span>
+        <span class="collaboration-person-copy">
+          <strong>${escapeHTML(match.name || "")}</strong>
+          <small>${partyAccentHTML(match.party || "")} · 공통 ${match.commonVoteCount || 0}건</small>
+        </span>
+        <span class="collaboration-line" aria-hidden="true"></span>
+        <span class="collaboration-count"><strong>${Number(match.agreementRate || 0).toFixed(1)}%</strong></span>
+      </a>`;
+  }).join("");
+  sectionEl.hidden = false;
 }
 
 function renderParticipationContext(context) {

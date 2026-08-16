@@ -15,7 +15,8 @@ The workflow runs these scripts in order:
 2. `node scripts/fetchBills.js`
 3. `node scripts/fetchVotes.js`
 4. `node scripts/buildRepresentatives.js`
-5. `node scripts/auditDataQuality.js`
+5. `node scripts/fetchKRSupporterAssociations.js`
+6. `node scripts/auditDataQuality.js`
 
 If generated data files changed, it auto-commits and pushes with:
 
@@ -25,13 +26,16 @@ Updated data files:
 
 - `data/members.json`
 - `data/kr/collaboration_networks.json`
+- `data/kr/vote_similarity.json`
+- `data/kr/supporter_associations.json`
 - `data/raw/bills_raw.json`
 - `data/raw/vote_summaries.json.gz`
 - `data/raw/votes_raw.json.gz`
 - `data/app/representatives.json`
 
 The US House workflow at `.github/workflows/update-us-house.yml` also refreshes
-`data/us/collaboration_networks.json` from GovInfo's BILLSTATUS bulk data.
+`data/us/collaboration_networks.json` from GovInfo's BILLSTATUS bulk data and
+`data/us/vote_similarity.json` from Voteview's House roll-call bulk data.
 
 ## Required Secret
 

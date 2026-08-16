@@ -4,6 +4,7 @@ import {
   deriveCollaborationNetworks,
   deriveParticipationContexts,
   derivePartyComparisons,
+  deriveVoteSimilarities,
   normalizeBillStatus,
   normalizeVoteDate,
 } from "./lib/deriveRepresentativeMetrics.js";
@@ -131,6 +132,17 @@ assert.deepEqual(
   memberNetwork.topCollaborators[0].sharedBills.map((bill) => bill.billId),
   ["shared-2", "shared-1"]
 );
+
+const similarityResult = deriveVoteSimilarities(members, votes, {
+  minimumParticipants: 2,
+  minimumMinorityShare: 0.1,
+  minimumCommonVotes: 2,
+});
+assert.equal(similarityResult.qualifyingVoteCount, 3);
+assert.equal(similarityResult.members.get("a").eligibleVoteCount, 3);
+assert.equal(similarityResult.members.get("a").topMatches[0].memberId, "b");
+assert.equal(similarityResult.members.get("a").topMatches[0].agreementRate, 66.7);
+assert.equal(similarityResult.members.get("a").topMatches[0].disagreementCount, 1);
 
 const participationResult = deriveParticipationContexts(members, [
   { monaCode: "a", billId: "v1", title: "참여 전", voteDate: "20260320 100000", choice: "찬성" },

@@ -16,9 +16,11 @@ async function main() {
   const membersPath = path.join(projectRoot, "data", "us", "house_members.json");
   const voteEvidencePath = path.join(projectRoot, "data", "us", "vote_evidence.json");
   const collaborationPath = path.join(projectRoot, "data", "us", "collaboration_networks.json");
+  const voteSimilarityPath = path.join(projectRoot, "data", "us", "vote_similarity.json");
   const members = JSON.parse(await readFile(membersPath, "utf8"));
   const voteEvidence = JSON.parse(await readFile(voteEvidencePath, "utf8"));
   const collaboration = JSON.parse(await readFile(collaborationPath, "utf8"));
+  const voteSimilarity = JSON.parse(await readFile(voteSimilarityPath, "utf8"));
 
   if (!Array.isArray(members) || members.length < 400 || members.length > 435) {
     fail(`unexpected voting-member count: ${members?.length ?? "invalid"}`);
@@ -29,6 +31,7 @@ async function main() {
   let recentVoteCount = 0;
   let partyBreakVoteCount = 0;
   let collaborationRows = 0;
+  let similarityRows = 0;
 
   for (const member of members) {
     if (!member.bioguideId || !member.districtCode) fail(`missing identity fields for ${member.name || "unknown"}`);
@@ -119,6 +122,23 @@ async function main() {
         }
       }
     }
+
+    const similarity = voteSimilarity?.members?.[member.bioguideId];
+    const similarityMatches = Array.isArray(similarity?.topMatches) ? similarity.topMatches : [];
+    if (!similarity || !Array.isArray(similarity.topMatches) || similarity.topMatches.length > 5) {
+      fail(`missing vote similarity: ${member.name}`);
+    }
+    const similarityIds = new Set();
+    for (const match of similarityMatches) {
+      similarityRows += 1;
+      if (!match.bioguideId || match.bioguideId === member.bioguideId || similarityIds.has(match.bioguideId)) {
+        fail(`invalid vote similarity match: ${member.name}`);
+      }
+      similarityIds.add(match.bioguideId);
+      if (!members.some((row) => row.bioguideId === match.bioguideId)) fail(`unknown vote similarity member: ${member.name}`);
+      if (Number(match.commonVoteCount || 0) < Number(similarity.minimumCommonVotes || 0)) fail(`vote similarity overlap too low: ${member.name}`);
+      if (Number(match.agreementRate) < 0 || Number(match.agreementRate) > 100) fail(`invalid vote similarity rate: ${member.name}`);
+    }
     const partyBreakRefs = memberEvidence.partyBreaks;
     if (!Array.isArray(partyBreakRefs)) fail(`missing party-break evidence: ${member.name}`);
     if (partyBreakRefs.length !== Number(member.partyDifferentVotesCount)) {
@@ -174,6 +194,8 @@ async function main() {
   }
   if (!/^\d{4}-\d{2}-\d{2}$/.test(collaboration?.dataThrough || "")) fail("invalid collaboration data date");
   if (collaborationRows < members.length * 4) fail(`collaboration coverage too low: ${collaborationRows}`);
+  if (voteSimilarity?.congress !== 119 || voteSimilarity?.basis !== "divided_yes_no_votes") fail("invalid vote similarity metadata");
+  if (similarityRows < members.length * 4) fail(`vote similarity coverage too low: ${similarityRows}`);
 
   const sentinelVotes = new Map(
     (() => {
@@ -194,6 +216,7 @@ async function main() {
   console.log(`Recent vote rows audited: ${recentVoteCount}`);
   console.log(`Party-break vote rows audited: ${partyBreakVoteCount}`);
   console.log(`Collaboration rows audited: ${collaborationRows}`);
+  console.log(`Vote similarity rows audited: ${similarityRows}`);
 }
 
 main().catch((error) => {

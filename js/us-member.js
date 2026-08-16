@@ -140,6 +140,7 @@ async function loadUSMembers() {
 }
 
 let collaborationEvidencePromise = null;
+let voteSimilarityEvidencePromise = null;
 
 async function loadUSCollaborationEvidence() {
   if (!collaborationEvidencePromise) {
@@ -150,6 +151,17 @@ async function loadUSCollaborationEvidence() {
       });
   }
   return collaborationEvidencePromise;
+}
+
+async function loadUSVoteSimilarityEvidence() {
+  if (!voteSimilarityEvidencePromise) {
+    voteSimilarityEvidencePromise = fetch("/data/us/vote_similarity.json", { cache: "no-store" })
+      .then((response) => {
+        if (!response.ok) throw new Error(`Failed to load vote similarity evidence: ${response.status}`);
+        return response.json();
+      });
+  }
+  return voteSimilarityEvidencePromise;
 }
 
 let voteEvidencePromise = null;
@@ -286,6 +298,8 @@ function renderUSCollaborationNetwork(member, members, evidence) {
   const stats = document.getElementById("us-collaboration-stats");
   const origin = document.getElementById("us-collaboration-origin");
   const list = document.getElementById("us-collaboration-list");
+  const eyebrow = document.getElementById("us-network-eyebrow");
+  const headline = document.getElementById("us-network-headline");
   if (!section || !stats || !origin || !list) return;
 
   const bioguideId = String(member.bioguideId || "").trim().toUpperCase();
@@ -295,6 +309,8 @@ function renderUSCollaborationNetwork(member, members, evidence) {
     ? network.topCollaborators.map((row) => ({ ...row, member: memberIndex.get(row.bioguideId) })).filter((row) => row.member)
     : [];
   if (!collaborators.length) return;
+  if (eyebrow) eyebrow.textContent = "119th Congress · Cosponsorship";
+  if (headline) headline.textContent = "Frequent collaborators.";
 
   const photo = safeExternalUrl(member.photo);
   origin.innerHTML = `
@@ -355,6 +371,71 @@ function renderUSCollaborationNetwork(member, members, evidence) {
     });
   });
   section.hidden = false;
+}
+
+function renderUSVoteSimilarity(member, members, evidence) {
+  const section = document.getElementById("us-collaboration-section");
+  const stats = document.getElementById("us-collaboration-stats");
+  const origin = document.getElementById("us-collaboration-origin");
+  const list = document.getElementById("us-collaboration-list");
+  const eyebrow = document.getElementById("us-network-eyebrow");
+  const headline = document.getElementById("us-network-headline");
+  if (!section || !stats || !origin || !list) return;
+  const memberIndex = new Map(members.map((row) => [String(row.bioguideId || "").trim().toUpperCase(), row]));
+  const network = evidence?.members?.[String(member.bioguideId || "").trim().toUpperCase()];
+  const matches = Array.isArray(network?.topMatches)
+    ? network.topMatches.map((match) => ({ ...match, member: memberIndex.get(match.bioguideId) })).filter((match) => match.member)
+    : [];
+  if (!matches.length) return;
+
+  if (eyebrow) eyebrow.textContent = "119th Congress · Roll calls";
+  if (headline) headline.textContent = "Similar voting records.";
+  const photo = safeExternalUrl(member.photo);
+  origin.innerHTML = `
+    <div class="collaboration-origin-photo${photo ? "" : " is-missing"}">
+      ${photo
+        ? `<img src="${escapeHTML(photo)}" alt="${escapeHTML(member.name || "")}" />`
+        : `<span>${escapeHTML(String(member.name || "?").slice(0, 1))}</span>`}
+    </div>
+    <strong>${escapeHTML(member.name || "")}</strong>`;
+  stats.innerHTML = `<span><strong>${network.eligibleVoteCount || 0}</strong> compared votes</span>`;
+  list.innerHTML = matches.slice(0, 5).map((match) => {
+    const other = match.member;
+    const otherPhoto = safeExternalUrl(other.photo);
+    return `
+      <a class="collaboration-person similarity-person" href="member.html?district=${encodeURIComponent(other.districtCode || "")}">
+        <span class="collaboration-person-photo${otherPhoto ? "" : " is-missing"}">
+          ${otherPhoto
+            ? `<img src="${escapeHTML(otherPhoto)}" alt="${escapeHTML(other.name || "")}" loading="lazy" />`
+            : `<i>${escapeHTML(String(other.name || "?").slice(0, 1))}</i>`}
+        </span>
+        <span class="collaboration-person-copy">
+          <strong>${escapeHTML(other.name || "")}</strong>
+          <small>${usPartyAccentHTML(other.party || "")} · ${escapeHTML(other.districtCode || "")} · ${match.commonVoteCount || 0} shared</small>
+        </span>
+        <span class="collaboration-line" aria-hidden="true"></span>
+        <span class="collaboration-count"><strong>${Number(match.agreementRate || 0).toFixed(1)}%</strong></span>
+      </a>`;
+  }).join("");
+  section.hidden = false;
+}
+
+function initUSNetworkTabs(member, members, collaborationEvidence, similarityEvidence) {
+  const section = document.getElementById("us-collaboration-section");
+  if (!section || section.dataset.tabsReady === "true" || !similarityEvidence) return;
+  section.dataset.tabsReady = "true";
+  const similarityTab = section.querySelector('[data-network-view="similarity"]');
+  if (similarityTab) similarityTab.hidden = false;
+  section.querySelectorAll("[data-network-view]").forEach((button) => {
+    button.addEventListener("click", () => {
+      section.querySelectorAll("[data-network-view]").forEach((item) => item.classList.toggle("is-active", item === button));
+      if (button.dataset.networkView === "similarity") {
+        renderUSVoteSimilarity(member, members, similarityEvidence);
+      } else {
+        renderUSCollaborationNetwork(member, members, collaborationEvidence);
+      }
+    });
+  });
 }
 
 function renderCampaignFinance(finance) {
@@ -522,8 +603,12 @@ function renderMember(member) {
 
     <section class="collaboration-story" id="us-collaboration-section" hidden>
       <div class="collaboration-shell">
-        <p class="collaboration-eyebrow">119th Congress · Cosponsorship</p>
-        <h2 class="collaboration-headline">Frequent collaborators.</h2>
+        <p class="collaboration-eyebrow" id="us-network-eyebrow">119th Congress · Cosponsorship</p>
+        <h2 class="collaboration-headline" id="us-network-headline">Frequent collaborators.</h2>
+        <div class="network-tabs" aria-label="Network view">
+          <button class="network-tab is-active" type="button" data-network-view="collaboration">Cosponsorship</button>
+          <button class="network-tab" type="button" data-network-view="similarity" hidden>Voting similarity</button>
+        </div>
         <div class="collaboration-stats" id="us-collaboration-stats"></div>
         <div class="collaboration-map">
           <div class="collaboration-origin" id="us-collaboration-origin"></div>
@@ -788,9 +873,20 @@ async function initUSMemberPage() {
   initShareActions(member);
   trackUSMemberView(member.districtCode);
 
-  loadUSCollaborationEvidence()
-    .then((evidence) => renderUSCollaborationNetwork(member, members, evidence))
-    .catch((error) => console.error(error));
+  Promise.all([
+    loadUSCollaborationEvidence().catch((error) => {
+      console.error(error);
+      return null;
+    }),
+    loadUSVoteSimilarityEvidence().catch((error) => {
+      console.error(error);
+      return null;
+    }),
+  ])
+    .then(([collaborationEvidence, similarityEvidence]) => {
+      if (collaborationEvidence) renderUSCollaborationNetwork(member, members, collaborationEvidence);
+      initUSNetworkTabs(member, members, collaborationEvidence, similarityEvidence);
+    });
 }
 
 document.addEventListener("DOMContentLoaded", initUSMemberPage);

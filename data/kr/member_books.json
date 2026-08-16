@@ -1,0 +1,39 @@
+{
+  "dataAsOf": "2026-08-16",
+  "source": "National Assembly current member profile",
+  "members": {
+    "NXB3178C": [
+      { "title": "사회복지법제와실천", "year": "2025", "publisher": "사회평론아카데미", "coauthored": true },
+      { "title": "장애, 시설을 나서다", "year": "2025", "publisher": "진실의힘", "coauthored": true },
+      { "title": "젊은 변호사의 고백", "year": "2013", "publisher": "다산북스", "coauthored": false }
+    ],
+    "B7D7534L": [
+      { "title": "I'm from 서울 김영배의 서울이야기", "year": "2026", "publisher": "", "coauthored": false },
+      { "title": "정치의 반전을 꿈꾸다", "year": "2019", "publisher": "", "coauthored": true },
+      { "title": "마을민주주의시대 마을공화국", "year": "2018", "publisher": "", "coauthored": false }
+    ],
+    "XBT9550Q": [
+      { "title": "그래도 정치는 희망이다", "year": "2013", "publisher": "", "coauthored": false },
+      { "title": "어머니의 강", "year": "2011", "publisher": "", "coauthored": false },
+      { "title": "금강—강과 사람들", "year": "2006", "publisher": "", "coauthored": false }
+    ],
+    "IC499858": [
+      { "title": "끈기의 정치", "year": "2023", "publisher": "", "coauthored": false },
+      { "title": "정준호, 할 말 있습니다", "year": "2022", "publisher": "", "coauthored": false }
+    ],
+    "2385336L": [
+      { "title": "국민이 지키는 나라", "year": "2025", "publisher": "푸른숲", "coauthored": true },
+      { "title": "정치, 알아야 세상을 바꾼다", "year": "2019", "publisher": "자음과모음", "coauthored": false },
+      { "title": "정세현·정청래와 함께 평양 갑시다", "year": "2018", "publisher": "푸른숲", "coauthored": true }
+    ],
+    "UHB5553T": [
+      { "title": "정치가 된 일자리", "year": "2020", "publisher": "", "coauthored": false },
+      { "title": "대통령 당선인이 해야 할 첫 번째 일", "year": "2011", "publisher": "", "coauthored": false }
+    ],
+    "BCQ55105": [
+      { "title": "말할 수 있는 비밀", "year": "2018", "publisher": "", "coauthored": false },
+      { "title": "가자 싱가포르", "year": "2011", "publisher": "", "coauthored": false },
+      { "title": "아빠가 읽는 임신육아책", "year": "2010", "publisher": "", "coauthored": false }
+    ]
+  }
+}

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>국회의원 — RepView</title>
   <meta name="description" content="우리 지역 국회의원의 표결 참여율, 불참, 대표 발의, 최근 표결·법안 기록을 한눈에 확인하세요." />
-  <link rel="stylesheet" href="/css/style.css?v=20260816c" />
+  <link rel="stylesheet" href="/css/style.css?v=20260816d" />
 </head>
 <body>
 
@@ -63,8 +63,12 @@
 
   <section class="collaboration-story" id="collaboration-section" hidden>
     <div class="collaboration-shell">
-      <p class="collaboration-eyebrow fade-in">제22대 국회 · 공동발의 명단</p>
-      <h2 class="collaboration-headline fade-in delay-1">자주 함께한 의원.</h2>
+      <p class="collaboration-eyebrow fade-in" id="network-eyebrow">제22대 국회 · 공동발의 명단</p>
+      <h2 class="collaboration-headline fade-in delay-1" id="network-headline">자주 함께한 의원.</h2>
+      <div class="network-tabs fade-in delay-2" aria-label="관계 유형">
+        <button class="network-tab is-active" type="button" data-network-view="collaboration">공동발의</button>
+        <button class="network-tab" type="button" data-network-view="similarity" hidden>표결 유사도</button>
+      </div>
       <div class="collaboration-stats fade-in delay-2" id="collaboration-stats"></div>
       <div class="collaboration-map fade-in delay-2">
         <div class="collaboration-origin" id="collaboration-origin"></div>
@@ -102,8 +106,23 @@
     </div>
   </section>
 
+  <section class="member-more" id="member-more" hidden>
+    <div class="member-more-inner">
+      <div class="member-books-block" id="member-books-block" hidden>
+        <p class="member-more-label">저서</p>
+        <div class="member-book-rail" id="member-book-rail"></div>
+      </div>
+      <div class="member-supporter-block" id="member-supporter-block" hidden>
+        <p class="member-more-label">후원회</p>
+        <h2 id="member-supporter-name"></h2>
+        <p class="member-supporter-address" id="member-supporter-address"></p>
+        <div class="member-supporter-links" id="member-supporter-links"></div>
+      </div>
+    </div>
+  </section>
+
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
-  <script src="/js/app.js?v=20260816b"></script>
-  <script src="/js/member.js?v=20260816c"></script>
+  <script src="/js/app.js?v=20260816d"></script>
+  <script src="/js/member.js?v=20260816d"></script>
 </body>
 </html>

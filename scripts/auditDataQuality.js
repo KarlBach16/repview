@@ -34,6 +34,9 @@ function main() {
   const members = readJson(path.join(projectRoot, "data", "members.json"));
   const representatives = readJson(path.join(projectRoot, "data", "app", "representatives.json"));
   const collaborationEvidence = readJson(path.join(projectRoot, "data", "kr", "collaboration_networks.json"));
+  const voteSimilarity = readJson(path.join(projectRoot, "data", "kr", "vote_similarity.json"));
+  const supporterAssociations = readJson(path.join(projectRoot, "data", "kr", "supporter_associations.json"));
+  const memberBooks = readJson(path.join(projectRoot, "data", "kr", "member_books.json"));
   const sentinels = readJson(path.join(projectRoot, "data", "kr", "vote_sentinels.json"));
 
   const failures = [];
@@ -213,6 +216,43 @@ function main() {
         if (!normalizedDate(sharedBill?.proposalDate)) fail(`Shared bill has invalid date: ${billId}`);
       }
     }
+
+    const similarity = voteSimilarity?.members?.[code];
+    if (!similarity || !Array.isArray(similarity.topMatches) || similarity.topMatches.length > 5) {
+      fail(`Current member missing vote similarity: ${code}`);
+    } else {
+      const matchedCodes = new Set();
+      for (const match of similarity.topMatches) {
+        const matchedCode = String(match?.monaCode || "").trim();
+        if (!memberCodes.has(matchedCode) || matchedCode === code || matchedCodes.has(matchedCode)) {
+          fail(`Invalid vote similarity match ${matchedCode || "missing"} for ${code}`);
+        }
+        matchedCodes.add(matchedCode);
+        if (Number(match?.commonVoteCount || 0) < Number(similarity.minimumCommonVotes || 0)) {
+          fail(`Vote similarity overlap too low for ${code}/${matchedCode}`);
+        }
+        if (Number(match?.agreementRate) < 0 || Number(match?.agreementRate) > 100) {
+          fail(`Invalid agreement rate for ${code}/${matchedCode}`);
+        }
+      }
+    }
+  }
+
+  if (voteSimilarity?.basis !== "divided_yes_no_votes" || !normalizedDate(voteSimilarity?.dataThrough)) {
+    fail("Invalid vote similarity metadata");
+  }
+  const supporterRows = Object.entries(supporterAssociations?.members || {});
+  if (supporterRows.length < members.length - 5) fail(`Supporter association coverage too low: ${supporterRows.length}`);
+  for (const [code, supporter] of supporterRows) {
+    if (!memberCodes.has(code) || !supporter?.associationName || !/^https:\/\/www\.give\.go\.kr\//.test(supporter?.sourceUrl || "")) {
+      fail(`Invalid supporter association: ${code}`);
+    }
+  }
+  for (const [code, books] of Object.entries(memberBooks?.members || {})) {
+    if (!memberCodes.has(code) || !Array.isArray(books) || !books.length || books.length > 3) fail(`Invalid member books: ${code}`);
+    for (const book of books || []) {
+      if (!String(book?.title || "").trim() || !/^\d{4}$/.test(String(book?.year || ""))) fail(`Invalid book record: ${code}`);
+    }
   }
 
   const noVoteMembers = members.filter((member) => !memberVoteCounts.has(String(member?.monaCode || "").trim()));
@@ -273,6 +313,8 @@ function main() {
   console.log(`- member vote rows: ${votes.length}`);
   console.log(`- member-sponsored bills: ${bills.length}`);
   console.log(`- collaboration networks: ${Object.keys(collaborationEvidence?.members || {}).length}`);
+  console.log(`- vote similarity networks: ${Object.keys(voteSimilarity?.members || {}).length}`);
+  console.log(`- supporter associations: ${supporterRows.length}`);
   console.log(`- latest vote date: ${latestVoteDate}`);
   console.log(`- sentinels checked: ${sentinels.length}`);
   for (const message of warnings) console.warn(`WARN: ${message}`);

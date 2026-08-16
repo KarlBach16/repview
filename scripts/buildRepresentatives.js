@@ -8,6 +8,7 @@ import {
   deriveCollaborationNetworks,
   deriveParticipationContexts,
   derivePartyComparisons,
+  deriveVoteSimilarities,
 } from "./lib/deriveRepresentativeMetrics.js";
 
 const RECENT_VOTES_LIMIT = 10;
@@ -130,6 +131,30 @@ function buildCollaborationEvidence(networks) {
   };
 }
 
+function buildVoteSimilarityEvidence(similarity) {
+  return {
+    assembly: 22,
+    basis: "divided_yes_no_votes",
+    dataThrough: similarity.dataThrough,
+    qualifyingVoteCount: similarity.qualifyingVoteCount,
+    members: Object.fromEntries(
+      [...similarity.members].map(([monaCode, network]) => [monaCode, {
+        eligibleVoteCount: network.eligibleVoteCount,
+        minimumMinorityShare: network.minimumMinorityShare,
+        minimumCommonVotes: network.minimumCommonVotes,
+        topMatches: network.topMatches.map((match) => ({
+          monaCode: match.memberId,
+          sameParty: match.sameParty,
+          agreementRate: match.agreementRate,
+          commonVoteCount: match.commonVoteCount,
+          agreementCount: match.agreementCount,
+          disagreementCount: match.disagreementCount,
+      })),
+      }])
+    ),
+  };
+}
+
 async function main() {
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = path.dirname(__filename);
@@ -140,6 +165,7 @@ async function main() {
   const billsPath = path.join(projectRoot, "data", "raw", "bills_raw.json");
   const executiveRolesPath = path.join(projectRoot, "data", "kr", "executive_roles.json");
   const collaborationPath = path.join(projectRoot, "data", "kr", "collaboration_networks.json");
+  const voteSimilarityPath = path.join(projectRoot, "data", "kr", "vote_similarity.json");
 
   const members = readJson(membersPath);
   const votes = readGzipJson(votesPath);
@@ -157,6 +183,7 @@ async function main() {
   const partyComparisons = derivePartyComparisons(members, votes);
   const billLifecycles = deriveBillLifecycles(members, bills);
   const collaborationNetworks = deriveCollaborationNetworks(members, bills);
+  const voteSimilarities = deriveVoteSimilarities(members, votes);
   const participationContexts = deriveParticipationContexts(members, votes);
 
   const representatives = members.map((member) => {
@@ -210,6 +237,13 @@ async function main() {
     "utf8"
   );
   await rename(collaborationTempPath, collaborationPath);
+  const voteSimilarityTempPath = `${voteSimilarityPath}.tmp`;
+  await writeFile(
+    voteSimilarityTempPath,
+    `${JSON.stringify(buildVoteSimilarityEvidence(voteSimilarities), null, 2)}\n`,
+    "utf8"
+  );
+  await rename(voteSimilarityTempPath, voteSimilarityPath);
 
   console.log(`Members input: ${members.length}`);
   console.log(`Votes input rows: ${votes.length}`);
@@ -217,6 +251,7 @@ async function main() {
   console.log(`Representatives output: ${representatives.length}`);
   console.log(`Wrote file: ${outPath}`);
   console.log(`Wrote file: ${collaborationPath}`);
+  console.log(`Wrote file: ${voteSimilarityPath}`);
 }
 
 main().catch((err) => {

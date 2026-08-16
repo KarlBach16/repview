@@ -1,0 +1,2986 @@
+{
+  "dataAsOf": "2026-08-16",
+  "source": "National Election Commission Political Fund Center",
+  "members": {
+    "T2T8225E": {
+      "associationName": "국회의원강경숙후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "010-4437-8188",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 515호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27765",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22036"
+    },
+    "L2I9861C": {
+      "associationName": "국회의원강대식후원회",
+      "party": "국민의힘",
+      "region": "대구광역시 동구",
+      "phone": "053-986-8800",
+      "address": "41166 대구광역시 동구 화랑로 459 (용계동) 3층",
+      "homepage": "http://blog.naver.com/mpnib2018",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23142",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17413"
+    },
+    "8P37634C": {
+      "associationName": "국회의원강득구후원회",
+      "party": "더불어민주당",
+      "region": "경기도 안양시만안구",
+      "phone": "031-443-6830",
+      "address": "14001 경기도 안양시 만안구 병목안로 2 (안양동) 403호",
+      "homepage": "http://blog.naver.com/dulipapa",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23231",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17502"
+    },
+    "9901388T": {
+      "associationName": "국회의원강명구후원회",
+      "party": "국민의힘",
+      "region": "경상북도 구미시",
+      "phone": "010-7917-9789",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21997"
+    },
+    "GX22581L": {
+      "associationName": "국회의원강민국후원회",
+      "party": "국민의힘",
+      "region": "경상남도 진주시",
+      "phone": "055-763-5999",
+      "address": "52787 경상남도 진주시 동진로 111 (상대동) 디럭스타워 202호 내부사무실",
+      "homepage": "http://www.facebook.com/minkukkang",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23205",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17476"
+    },
+    "NQO7187X": {
+      "associationName": "국회의원강선영후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-1571",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 335호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27723",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21994"
+    },
+    "MNZ4401T": {
+      "associationName": "국회의원강선우후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 강서구",
+      "phone": "02-784-5761",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 418호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17558"
+    },
+    "42K7317Y": {
+      "associationName": "국회의원강승규후원회",
+      "party": "국민의힘",
+      "region": "충청남도 홍성군",
+      "phone": "041-332-6071",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22024"
+    },
+    "5KV96424": {
+      "associationName": "국회의원강준현후원회",
+      "party": "더불어민주당",
+      "region": "세종특별자치시 세종특별자치시",
+      "phone": "02-784-6950",
+      "address": "30038 세종특별자치시 조치원읍 세종로 2282 럭스스퀘어 308호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23147",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17418"
+    },
+    "HS39431V": {
+      "associationName": "국회의원고동진후원회",
+      "party": "국민의힘",
+      "region": "서울특별시 강남구",
+      "phone": "02-569-8755",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27657",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21928"
+    },
+    "WCD5518S": {
+      "associationName": "국회의원고민정후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 광진구",
+      "phone": "02-784-4631",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 629호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23169",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17440"
+    },
+    "REG96285": {
+      "associationName": "국회의원곽규택후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 서구",
+      "phone": "010-3005-3866",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27665",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21936"
+    },
+    "FIE6569O": {
+      "associationName": "국회의원곽상언후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 종로구",
+      "phone": "02-784-2890",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27716",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21987"
+    },
+    "7469929V": {
+      "associationName": "국회의원구자근후원회",
+      "party": "국민의힘",
+      "region": "경상북도 구미시",
+      "phone": "010-8001-8289",
+      "address": "39279 경상북도 구미시 송정대로 90 (송정동) 2층",
+      "homepage": "http://blog.naver.com/can929292",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23153",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17424"
+    },
+    "LG63087O": {
+      "associationName": "국회의원권영세후원회",
+      "party": "국민의힘",
+      "region": "서울특별시 용산구",
+      "phone": "02-6494-0896",
+      "address": "04375 서울특별시 용산구 한강대로57길 4 (한강로1가) 세화빌딩 401호",
+      "homepage": "http://blog.naver.com/yskys2020",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23168",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17439"
+    },
+    "LYY5513O": {
+      "associationName": "국회의원권영진후원회",
+      "party": "국민의힘",
+      "region": "대구광역시 달서구",
+      "phone": "053-656-8586",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27775",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22046"
+    },
+    "C7E79345": {
+      "associationName": "국회의원권칠승후원회",
+      "party": "더불어민주당",
+      "region": "경기도 화성시효행구",
+      "phone": "031-222-0110",
+      "address": "18405 경기도 화성시 효행로 1052 (병점동, 씨네샤르망) A동 406호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14013",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14140"
+    },
+    "EFU76868": {
+      "associationName": "국회의원권향엽후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 광양시",
+      "phone": "061-761-9555",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27745",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22016"
+    },
+    "TQP7167T": {
+      "associationName": "국회의원김건후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-5077",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 338호",
+      "homepage": "https://www.give.go.kr/www.youtube.com/@%EA%B8%B8%EA%B1%B4%EC%A7%A7%EA%B1%B4%EA%B9%80%EA%B1%B4",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27792",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22063"
+    },
+    "X1K3667J": {
+      "associationName": "국회의원김교흥후원회",
+      "party": "더불어민주당",
+      "region": "인천광역시 서해구",
+      "phone": "02-784-1358",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 720호",
+      "homepage": "http://blog.naver.com/kimhk4u",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23137",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17408"
+    },
+    "HE08888N": {
+      "associationName": "국회의원김기웅후원회",
+      "party": "국민의힘",
+      "region": "대구광역시 남구",
+      "phone": "053-476-9565",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27701",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21972"
+    },
+    "3CC88975": {
+      "associationName": "국회의원김기표후원회",
+      "party": "더불어민주당",
+      "region": "경기도 부천시원미구",
+      "phone": "032-323-6742",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27794",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22065"
+    },
+    "X7I4680R": {
+      "associationName": "국회의원김기현후원회",
+      "party": "국민의힘",
+      "region": "울산광역시 남구",
+      "phone": "052-261-3377",
+      "address": "44721 울산광역시 남구 번영로 90 (달동) 2충",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23148",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17419"
+    },
+    "QHL3248U": {
+      "associationName": "국회의원김남국후원회",
+      "party": "더불어민주당",
+      "region": "경기도 안산시상록구",
+      "phone": "--",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32326",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26597"
+    },
+    "IUX1829H": {
+      "associationName": "국회의원김남근후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 성북구",
+      "phone": "02-929-5834",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27666",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21937"
+    },
+    "SKP6181Y": {
+      "associationName": "국회의원김남준후원회",
+      "party": "더불어민주당",
+      "region": "인천광역시 계양구",
+      "phone": "032-541-7674",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32322",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26593"
+    },
+    "NXB3178C": {
+      "associationName": "국회의원김남희후원회",
+      "party": "더불어민주당",
+      "region": "경기도 광명시",
+      "phone": "02-897-4101",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27683",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21954"
+    },
+    "ANS8383S": {
+      "associationName": "국회의원김대식후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 사상구",
+      "phone": "010-6585-0410",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22021"
+    },
+    "LH97552Q": {
+      "associationName": "국회의원 김도읍후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 강서구",
+      "phone": "051-971-5758",
+      "address": "618141 부산 강서구 대저1동 2377-4",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1589",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1641"
+    },
+    "MIS62075": {
+      "associationName": "국회의원김동아후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 서대문구",
+      "phone": "02-6381-1945",
+      "address": "",
+      "homepage": "http://blog.naver.com/dongah_kim_1945",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27738",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22009"
+    },
+    "86R9476S": {
+      "associationName": "국회의원김문수후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 순천시",
+      "phone": "061-724-7770",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27789",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22060"
+    },
+    "3BC6890E": {
+      "associationName": "국회의원김미애후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 해운대구",
+      "phone": "051-784-0150",
+      "address": "48055 부산광역시 해운대구 재반로 95-1 (재송동) 4층",
+      "homepage": "http://blog.naver.com/015law",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23217",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17488"
+    },
+    "MLH1404S": {
+      "associationName": "국회의원김민석후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 영등포구",
+      "phone": "02-831-9992",
+      "address": "07410 서울특별시 영등포구 대림로 186 (대림동) 601호",
+      "homepage": "http://kms2030.kr/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23225",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17496"
+    },
+    "TCP9838Y": {
+      "associationName": "국회의원김민전후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-754-2603",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 634호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27803",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22074"
+    },
+    "8Q88373R": {
+      "associationName": "국회의원 김병기후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 동작구",
+      "phone": "02-784-1322",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 920호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=13997",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14086"
+    },
+    "GF286398": {
+      "associationName": "국회의원김병주후원회",
+      "party": "더불어민주당",
+      "region": "경기도 남양주시",
+      "phone": "02-6788-6181",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 447호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23262",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17533"
+    },
+    "1Y73132H": {
+      "associationName": "국회의원 김상훈후원회",
+      "party": "국민의힘",
+      "region": "대구광역시 서구",
+      "phone": "053-525-3200",
+      "address": "703848 대구광역시 서구 서대구로 128 (평리동) 1371-8번지(서대구로 128, 대구경총회관 3층)",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1496",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1539"
+    },
+    "ZYP7962W": {
+      "associationName": "국회의원김석기후원회",
+      "party": "국민의힘",
+      "region": "경상북도 경주시",
+      "phone": "02-784-4170",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 의원회관 1010호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14007",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14130"
+    },
+    "JNL7001A": {
+      "associationName": "국회의원김선교후원회",
+      "party": "국민의힘",
+      "region": "경기도 여주시",
+      "phone": "031-774-5358",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27755",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22026"
+    },
+    "7GW5372Y": {
+      "associationName": "국회의원김선민후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "02-6788-7161",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 551호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27768",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22039"
+    },
+    "DOZ1588B": {
+      "associationName": "국회의원김성범후원회",
+      "party": "더불어민주당",
+      "region": "제주특별자치도 서귀포시",
+      "phone": "064-733-0233",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32331",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26602"
+    },
+    "9D939735": {
+      "associationName": "국회의원 김성원후원회",
+      "party": "국민의힘",
+      "region": "경기도 동두천시",
+      "phone": "02-784-6566",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14006",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14098"
+    },
+    "XSP20229": {
+      "associationName": "국회의원김성환후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 노원구",
+      "phone": "02-938-0008",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 의원회관 614호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=22057",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=16328"
+    },
+    "88O1334C": {
+      "associationName": "국회의원김성회후원회",
+      "party": "더불어민주당",
+      "region": "경기도 고양시덕양구",
+      "phone": "031-968-9035",
+      "address": "10497 경기도 고양시 덕양구 화중로104번길 28 (화정동) 810호",
+      "homepage": "https://blog.naver.com/kshoi72",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27660",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21931"
+    },
+    "1SR94244": {
+      "associationName": "국회의원김소희후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-2374",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 435호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27780",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22051"
+    },
+    "5K93695T": {
+      "associationName": "국회의원김승수후원회",
+      "party": "국민의힘",
+      "region": "대구광역시 북구",
+      "phone": "053-313-3331",
+      "address": "41443 대구광역시 북구 칠곡중앙대로 475 (관음동) 크리스탈빌딩 6층",
+      "homepage": "https://blog.naver.com/kiminnotank",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23144",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17415"
+    },
+    "ATB59635": {
+      "associationName": "국회의원김승원후원회",
+      "party": "더불어민주당",
+      "region": "경기도 수원시장안구",
+      "phone": "02-784-5285",
+      "address": "16304 경기도 수원시 장안구 경수대로 963 (송죽동) 4층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23227",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17498"
+    },
+    "B7D7534L": {
+      "associationName": "국회의원김영배후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 성북구",
+      "phone": "02-924-0415",
+      "address": "02860 서울특별시 성북구 동소문로 36 (동소문동3가) 3층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23260",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17531"
+    },
+    "5765663F": {
+      "associationName": "국회의원 김영진후원회",
+      "party": "더불어민주당",
+      "region": "경기도 수원시팔달구",
+      "phone": "031-237-0411",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 840호",
+      "homepage": "http://blog.naver.com/ersd34",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14094",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14220"
+    },
+    "7BM2933Y": {
+      "associationName": "국회의원 김영호후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 서대문구",
+      "phone": "02-309-8899",
+      "address": "1974 서울특별시 서대문구 증가로 112 (남가좌동) 201호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=13994",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14081"
+    },
+    "8O34202I": {
+      "associationName": "국회의원김영환후원회",
+      "party": "더불어민주당",
+      "region": "경기도 고양시일산서구",
+      "phone": "031-916-6336",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27746",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22017"
+    },
+    "CNZ51556": {
+      "associationName": "국회의원김예지후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-9515",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 601호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23138",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17409"
+    },
+    "NB64509Z": {
+      "associationName": "국회의원김용만후원회",
+      "party": "더불어민주당",
+      "region": "경기도 하남시",
+      "phone": "010-8555-2105",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27698",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21969"
+    },
+    "OFE45081": {
+      "associationName": "국회의원김용민후원회",
+      "party": "더불어민주당",
+      "region": "경기도 남양주시",
+      "phone": "031-558-0530",
+      "address": "12258 경기도 남양주시 경춘로 460 (다산동) 백석빌딩 303호",
+      "homepage": "http://blog.naver.com/fopeopler",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17514"
+    },
+    "EPI69383": {
+      "associationName": "국회의원김용태후원회",
+      "party": "국민의힘",
+      "region": "경기도 포천시",
+      "phone": "010-5398-3245",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27787",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22058"
+    },
+    "3UI95829": {
+      "associationName": "국회의원김우영후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 은평구",
+      "phone": "02-357-3256",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27732",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22003"
+    },
+    "4L695580": {
+      "associationName": "국회의원김원이후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 목포시",
+      "phone": "061-284-0235",
+      "address": "58662 전라남도 목포시 옥암로 95 (상동) 3208호",
+      "homepage": "http://blog.naver.com/kimwoni8182",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17525"
+    },
+    "LCZ1711I": {
+      "associationName": "국회의원김위상후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-3291",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 911호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27799",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22070"
+    },
+    "5N65159P": {
+      "associationName": "국회의원김윤후원회",
+      "party": "더불어민주당",
+      "region": "비례대표",
+      "phone": "02-784-9761",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 933호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27764",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22035"
+    },
+    "JZY9937U": {
+      "associationName": "국회의원김윤덕후원회",
+      "party": "더불어민주당",
+      "region": "전북특별자치도 전주시완산구",
+      "phone": "063-232-7733",
+      "address": "55122 전라북도 전주시 완산구 모악로 4768 (평화동1가) 2층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17462"
+    },
+    "L5P27909": {
+      "associationName": "국회의원김은혜후원회",
+      "party": "국민의힘",
+      "region": "경기도 성남시분당구",
+      "phone": "031-711-0410",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27667",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21938"
+    },
+    "FIC9046Z": {
+      "associationName": "국회의원김의겸후원회",
+      "party": "더불어민주당",
+      "region": "전북특별자치도 군산시",
+      "phone": "063-452-0614",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32329",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26600"
+    },
+    "X7E7893P": {
+      "associationName": "국회의원김장겸후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-6346",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 623호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22041"
+    },
+    "57B28032": {
+      "associationName": "국회의원김재섭후원회",
+      "party": "국민의힘",
+      "region": "서울특별시 도봉구",
+      "phone": "02-998-8488",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21970"
+    },
+    "DMP1439I": {
+      "associationName": "국회의원김재원후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "02-784-7453",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 553호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27802",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22073"
+    },
+    "E1J8836Y": {
+      "associationName": "국회의원 김정재후원회",
+      "party": "국민의힘",
+      "region": "경상북도 포항시북구",
+      "phone": "054-273-5400",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=13984",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14065"
+    },
+    "9LD2641Q": {
+      "associationName": "국회의원 김정호후원회",
+      "party": "더불어민주당",
+      "region": "경상남도 김해시",
+      "phone": "055-311-0413",
+      "address": "50989 경상남도 김해시 번화1로 70 (대청동) 403호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=22082",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=16353"
+    },
+    "M2Q9024I": {
+      "associationName": "국회의원김종민후원회",
+      "party": "무소속",
+      "region": "세종특별자치시 세종특별자치시",
+      "phone": "044-867-8980",
+      "address": "30153 세종특별자치시 한누리대로 2257 (대평동) 601호",
+      "homepage": "http://blog.naver.com/withmin413",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14037",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14165"
+    },
+    "N378078V": {
+      "associationName": "국회의원김종양후원회",
+      "party": "국민의힘",
+      "region": "경상남도 창원시의창구",
+      "phone": "055-288-5688",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21949"
+    },
+    "D6U6678O": {
+      "associationName": "국회의원김주영후원회",
+      "party": "더불어민주당",
+      "region": "경기도 김포시",
+      "phone": "031-997-6840",
+      "address": "10113 경기도 김포시 김포대로 703 (풍무동) 인선빌딩 304",
+      "homepage": "http://www.facebook.com/kimjuyoung60",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23269",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17540"
+    },
+    "YM42715P": {
+      "associationName": "국회의원김준혁후원회",
+      "party": "더불어민주당",
+      "region": "경기도 수원시영통구",
+      "phone": "010-4096-3863",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27684",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21955"
+    },
+    "8A05621B": {
+      "associationName": "국회의원김준형후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "02-784-4093",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 414호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27731",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22002"
+    },
+    "WMT66995": {
+      "associationName": "국회의원김준환후원회",
+      "party": "더불어민주당",
+      "region": "비례대표",
+      "phone": "02-784-7901",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 613호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=29417",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=23688"
+    },
+    "7ZS19508": {
+      "associationName": "국회의원김태규후원회",
+      "party": "국민의힘",
+      "region": "울산광역시 남구",
+      "phone": "010-8311-3369",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32324",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26595"
+    },
+    "1WE5693J": {
+      "associationName": "국회의원 김태년후원회",
+      "party": "더불어민주당",
+      "region": "경기도 성남시수정구",
+      "phone": "031-751-4048",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 948호",
+      "homepage": "https://blog.naver.com/ktn208",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1974",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=2041"
+    },
+    "6WK3815W": {
+      "associationName": "국회의원김태선후원회",
+      "party": "더불어민주당",
+      "region": "울산광역시 동구",
+      "phone": "010-3083-1726",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27772",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22043"
+    },
+    "P0F1530P": {
+      "associationName": "국회의원김태호후원회",
+      "party": "국민의힘",
+      "region": "경상남도 거창군",
+      "phone": "055-388-1805",
+      "address": "50142 경상남도 거창군 거창읍 강남로1길 93-7 2층",
+      "homepage": "http://https//blog.naver.com/chiutaeho",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23206",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17477"
+    },
+    "NUB4941Z": {
+      "associationName": "국회의원김한규후원회",
+      "party": "더불어민주당",
+      "region": "제주특별자치도 제주시",
+      "phone": "064-753-1919",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 731호",
+      "homepage": "https://www.assembly.go.kr/members/22nd/KIMHANKYU",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=26386",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=20657"
+    },
+    "7YL9580G": {
+      "associationName": "국회의원김현후원회",
+      "party": "더불어민주당",
+      "region": "경기도 안산시단원구",
+      "phone": "031-362-6567",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22008"
+    },
+    "6VC83722": {
+      "associationName": "국회의원김현정후원회",
+      "party": "더불어민주당",
+      "region": "경기도 평택시",
+      "phone": "031-658-0525",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27739",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22010"
+    },
+    "JEZ3130Q": {
+      "associationName": "국회의원김형동후원회",
+      "party": "국민의힘",
+      "region": "경상북도 안동시",
+      "phone": "02-6788-6356",
+      "address": "36671 경상북도 안동시 경동로 559 (당북동) 4층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23156",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17427"
+    },
+    "HRG9655C": {
+      "associationName": "국회의원김희정후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 연제구",
+      "phone": "051-867-7277",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21985"
+    },
+    "SLW27496": {
+      "associationName": "국회의원나경원후원회",
+      "party": "국민의힘",
+      "region": "서울특별시 동작구",
+      "phone": "02-784-8975",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27749",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22020"
+    },
+    "04T3751T": {
+      "associationName": "국회의원남인순후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 송파구",
+      "phone": "02-6788-6381",
+      "address": "150702 서울 영등포구 여의도동 국회의원회관 748호",
+      "homepage": "https://blog.naver.com/nisoon",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1594",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1644"
+    },
+    "RUZ25800": {
+      "associationName": "국회의원노종면후원회",
+      "party": "더불어민주당",
+      "region": "인천광역시 부평구",
+      "phone": "02-784-7351",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27752",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22023"
+    },
+    "FJK3396E": {
+      "associationName": "국회의원맹성규후원회",
+      "party": "더불어민주당",
+      "region": "인천광역시 남동구",
+      "phone": "032-466-9100",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 926호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=22054",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=16325"
+    },
+    "J1G57517": {
+      "associationName": "국회의원모경종후원회",
+      "party": "더불어민주당",
+      "region": "인천광역시 서해구",
+      "phone": "032-561-4942",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21986"
+    },
+    "GRP3908I": {
+      "associationName": "국회의원문금주후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 장흥군",
+      "phone": "061-853-0411",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27690",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21961"
+    },
+    "D9I3309M": {
+      "associationName": "국회의원문대림후원회",
+      "party": "더불어민주당",
+      "region": "제주특별자치도 제주시",
+      "phone": "064-713-0530",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27702",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21973"
+    },
+    "GOC54665": {
+      "associationName": "국회의원문정복후원회",
+      "party": "더불어민주당",
+      "region": "경기도 시흥시",
+      "phone": "031-312-9780",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관521호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23244",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17515"
+    },
+    "4U29186R": {
+      "associationName": "국회의원문진석후원회",
+      "party": "더불어민주당",
+      "region": "충청남도 천안시동남구",
+      "phone": "041-566-4993",
+      "address": "31070 충청남도 천안시 동남구 충절로 357 (삼룡동) DS빌딩 4층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23139",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17410"
+    },
+    "TZ228122": {
+      "associationName": "국회의원민병덕후원회",
+      "party": "더불어민주당",
+      "region": "경기도 안양시동안구",
+      "phone": "031-425-0415",
+      "address": "13939 경기도 안양시 동안구 관악대로 425 (관양동) 201호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23232",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17503"
+    },
+    "O6D8329R": {
+      "associationName": "국회의원민홍철후원회",
+      "party": "더불어민주당",
+      "region": "경상남도 김해시",
+      "phone": "055-312-4970",
+      "address": "621070 경남 김해시 삼계동 1486-1 위너스타운501호",
+      "homepage": "http://www.minsarang.co.kr/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1577",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1591"
+    },
+    "IWR8966I": {
+      "associationName": "국회의원박균택후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 광산구",
+      "phone": "02-784-9580",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27748",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22019"
+    },
+    "W4X85128": {
+      "associationName": "국회의원 박대출후원회",
+      "party": "국민의힘",
+      "region": "경상남도 진주시",
+      "phone": "010-3314-4269",
+      "address": "660020 경남 진주시 인사동 2-23번지 2층",
+      "homepage": "http://wejinju.co.kr/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1509",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1556"
+    },
+    "N4R2421C": {
+      "associationName": "국회의원 박덕흠후원회",
+      "party": "국민의힘",
+      "region": "충청북도 영동군",
+      "phone": "02-784-6550",
+      "address": "150010 서울 영등포구 여의도동 국회의원회관 604호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1635",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1692"
+    },
+    "M4O5221T": {
+      "associationName": "국회의원박민규후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 관악구",
+      "phone": "02-784-1631",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27680",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21951"
+    },
+    "7R156073": {
+      "associationName": "국회의원 박범계후원회",
+      "party": "더불어민주당",
+      "region": "대전광역시 서구",
+      "phone": "042-485-4413",
+      "address": "302280 대전광역시 서구 월평동 283번지 한미빌딩 3층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1604",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1654"
+    },
+    "VA04150X": {
+      "associationName": "국회의원박상웅후원회",
+      "party": "국민의힘",
+      "region": "경상남도 밀양시",
+      "phone": "055-352-2789",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27756",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22027"
+    },
+    "HXT76735": {
+      "associationName": "국회의원박상혁후원회",
+      "party": "더불어민주당",
+      "region": "경기도 김포시",
+      "phone": "02-784-2419",
+      "address": "10066 경기도 김포시 김포한강4로 487 (구래동, 한강신도시 반도유보라 4차) 2084~2085호",
+      "homepage": "http://blog.naver.com/gimpo_park",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23250",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17521"
+    },
+    "VZA76236": {
+      "associationName": "국회의원박선원후원회",
+      "party": "더불어민주당",
+      "region": "인천광역시 부평구",
+      "phone": "02-784-3740",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27751",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22022"
+    },
+    "X3170462": {
+      "associationName": "국회의원박성민후원회",
+      "party": "국민의힘",
+      "region": "울산광역시 중구",
+      "phone": "052-222-0227",
+      "address": "44530 울산광역시 중구 번영로 349 (학산동) 5층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23151",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17422"
+    },
+    "IL74008M": {
+      "associationName": "국회의원박성준후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 중구",
+      "phone": "02-784-8430",
+      "address": "04607 서울특별시 중구 동호로 210 (신당동) 2층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23167",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17438"
+    },
+    "NX534083": {
+      "associationName": "국회의원박성훈후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 북구",
+      "phone": "051-361-2080",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27735",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22006"
+    },
+    "Y0X4618N": {
+      "associationName": "국회의원박수민후원회",
+      "party": "국민의힘",
+      "region": "서울특별시 강남구",
+      "phone": "02-784-7192",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27658",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21929"
+    },
+    "FU87526G": {
+      "associationName": "국회의원박수영후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 남구",
+      "phone": "051-635-0415",
+      "address": "48557 부산광역시 남구 우암로 57 (감만동) .",
+      "homepage": "http://blog.naver.com/psyfor2020",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23219",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17490"
+    },
+    "1JI2689F": {
+      "associationName": "국회의원박용갑후원회",
+      "party": "더불어민주당",
+      "region": "대전광역시 중구",
+      "phone": "042-522-4478",
+      "address": "34899 대전광역시 중구 계백로 1619 (유천동) 404호",
+      "homepage": "https://blog.naver.com/pyk0307",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27747",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22018"
+    },
+    "1A82234K": {
+      "associationName": "국회의원박은정후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "02-784-3080",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 517호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22062"
+    },
+    "4019850M": {
+      "associationName": "국회의원 박정후원회",
+      "party": "더불어민주당",
+      "region": "경기도 파주시",
+      "phone": "031-942-8833",
+      "address": "10930 경기도 파주시 중앙로 328 (금촌동) MH타워 10층",
+      "homepage": "http://blog.naver.com/pjkorea21c",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14028",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14155"
+    },
+    "6RD62559": {
+      "associationName": "국회의원박정하후원회",
+      "party": "국민의힘",
+      "region": "강원특별자치도 원주시",
+      "phone": "033-744-4680",
+      "address": "26350 강원특별자치도 원주시 지정면 기업도시로 6 201호",
+      "homepage": "https://blog.naver.com/newwonju2016",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=26416",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=20687"
+    },
+    "HVV5250J": {
+      "associationName": "국회의원박정현후원회",
+      "party": "더불어민주당",
+      "region": "대전광역시 대덕구",
+      "phone": "042-300-2024",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27760",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22031"
+    },
+    "AEJ19639": {
+      "associationName": "국회의원박정훈후원회",
+      "party": "국민의힘",
+      "region": "서울특별시 송파구",
+      "phone": "--",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27763",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22034"
+    },
+    "6AU2417B": {
+      "associationName": "국회의원 박주민후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 은평구",
+      "phone": "02-388-3335",
+      "address": "122907 서울특별시 은평구 응암1동 109-1 3층",
+      "homepage": "https://blog.naver.com/joomincenter",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=19980",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14250"
+    },
+    "G6W8250J": {
+      "associationName": "국회의원박준태후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-6788-6176",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 320호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27779",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22050"
+    },
+    "H7X3372O": {
+      "associationName": "국회의원박지원후원회",
+      "party": "더불어민주당",
+      "region": "전북특별자치도 김제시",
+      "phone": "--",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32330",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26601"
+    },
+    "8BF5855P": {
+      "associationName": "국회의원박지원후원회",
+      "party": "더불어민주당",
+      "region": "전북특별자치도 김제시",
+      "phone": "--",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32330",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26601"
+    },
+    "EMH4976E": {
+      "associationName": "국회의원박지혜후원회",
+      "party": "더불어민주당",
+      "region": "경기도 의정부시",
+      "phone": "031-875-0411",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27676",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21947"
+    },
+    "GP21946O": {
+      "associationName": "국회의원박충권후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-7810",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 915호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27784",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22055"
+    },
+    "E2B3753X": {
+      "associationName": "국회의원박해철후원회",
+      "party": "더불어민주당",
+      "region": "경기도 안산시단원구",
+      "phone": "02-6788-7181",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27721",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21992"
+    },
+    "6U243644": {
+      "associationName": "국회의원박형수후원회",
+      "party": "국민의힘",
+      "region": "경상북도 영양군",
+      "phone": "02-784-4165",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 822호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23273",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17544"
+    },
+    "S824682L": {
+      "associationName": "국회의원박홍근후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 중랑구",
+      "phone": "02-435-3700",
+      "address": "131877 서울 중랑구 중화1동 288-27 2층",
+      "homepage": "http://blog.naver.com/bakhonggeun",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1540",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1597"
+    },
+    "ZW43496R": {
+      "associationName": "국회의원박홍배후원회",
+      "party": "더불어민주당",
+      "region": "비례대표",
+      "phone": "02-784-1460",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 542호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27767",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22038"
+    },
+    "43Q3892U": {
+      "associationName": "국회의원박희승후원회",
+      "party": "더불어민주당",
+      "region": "전북특별자치도 남원시",
+      "phone": "063-625-0308",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27706",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21977"
+    },
+    "QQP4727N": {
+      "associationName": "국회의원배준영후원회",
+      "party": "국민의힘",
+      "region": "인천광역시 영종구",
+      "phone": "02-784-5087",
+      "address": "22324 인천광역시 중구 서해대로449번길 2 (신흥동2가) 2층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23212",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17483"
+    },
+    "4X525582": {
+      "associationName": "국회의원배현진후원회",
+      "party": "국민의힘",
+      "region": "서울특별시 송파구",
+      "phone": "02-2203-0415",
+      "address": "05583 서울특별시 송파구 백제고분로 220 (삼전동) 301호(젠코아빌딩)",
+      "homepage": "http://blog.naver.com/trustbhj",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23261",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17532"
+    },
+    "YN160848": {
+      "associationName": "국회의원백선희후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "02-784-0924",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=28203",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22474"
+    },
+    "MDC3257K": {
+      "associationName": "국회의원백승아후원회",
+      "party": "더불어민주당",
+      "region": "비례대표",
+      "phone": "02-784-8571",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 835호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27707",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21978"
+    },
+    "CAA7713A": {
+      "associationName": "국회의원백종헌후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 금정구",
+      "phone": "051-528-7114",
+      "address": "46278 부산광역시 금정구 중앙대로 1665 (부곡동) 701호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23220",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17491"
+    },
+    "HSS7466Y": {
+      "associationName": "국회의원 백혜련후원회",
+      "party": "더불어민주당",
+      "region": "경기도 수원시권선구",
+      "phone": "031-297-0413",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14099",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14046"
+    },
+    "GJ56729D": {
+      "associationName": "국회의원복기왕후원회",
+      "party": "더불어민주당",
+      "region": "충청남도 아산시",
+      "phone": "041-545-0410",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22077"
+    },
+    "6I88973D": {
+      "associationName": "국회의원부승찬후원회",
+      "party": "더불어민주당",
+      "region": "경기도 용인시수지구",
+      "phone": "02-784-9130",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27805",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22076"
+    },
+    "QQ429063": {
+      "associationName": "국회의원서명옥후원회",
+      "party": "국민의힘",
+      "region": "서울특별시 강남구",
+      "phone": "02-511-0859",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27759",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22030"
+    },
+    "51A45980": {
+      "associationName": "국회의원서미화후원회",
+      "party": "더불어민주당",
+      "region": "비례대표",
+      "phone": "02-784-6441",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 443호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27782",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22053"
+    },
+    "L7J93733": {
+      "associationName": "국회의원서범수후원회",
+      "party": "국민의힘",
+      "region": "울산광역시 울주군",
+      "phone": "--",
+      "address": "44933 울산광역시 울주군 범서읍 울밀로 2862 3층",
+      "homepage": "http://blog.naver.com/bumsoo917",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17421"
+    },
+    "FOK3459D": {
+      "associationName": "국회의원서삼석후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 무안군",
+      "phone": "061-282-0803",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 본관 636호",
+      "homepage": "http://3s0011.com/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=22056",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=16327"
+    },
+    "TKJ4800F": {
+      "associationName": "국회의원서영교후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 중랑구",
+      "phone": "02-433-8524",
+      "address": "02252 서울특별시 중랑구 면목로 294 (면목동, 금호오피스) 3층",
+      "homepage": "http://blog.naver.com/youngkyos",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1544",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1596"
+    },
+    "XR24352K": {
+      "associationName": "국회의원서영석후원회",
+      "party": "더불어민주당",
+      "region": "경기도 부천시오정구",
+      "phone": "032-676-2392",
+      "address": "14427 경기도 부천시 소사로 785 (원종동) 4층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23233",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17504"
+    },
+    "80C5885Z": {
+      "associationName": "국회의원서왕진후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "02-784-1845",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 516호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27777",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22048"
+    },
+    "MR210505": {
+      "associationName": "국회의원서일준후원회",
+      "party": "국민의힘",
+      "region": "경상남도 거제시",
+      "phone": "055-633-5115",
+      "address": "53258 경상남도 거제시 거제중앙로 1835 (고현동) 월드타워 5층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23207",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17478"
+    },
+    "P7U7800Z": {
+      "associationName": "국회의원서지영후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 동래구",
+      "phone": "051-558-9930",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27761",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22032"
+    },
+    "JP222486": {
+      "associationName": "국회의원서천호후원회",
+      "party": "국민의힘",
+      "region": "경상남도 사천시",
+      "phone": "055-834-8221",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27703",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21974"
+    },
+    "7XY7109I": {
+      "associationName": "국회의원 성일종후원회",
+      "party": "국민의힘",
+      "region": "충청남도 서산시",
+      "phone": "02-784-6290",
+      "address": "356803 충청남도 서산시 동문동 932-2 서울빌딩 5층",
+      "homepage": "http://www.sungij.co.kr/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14043",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14172"
+    },
+    "ZDR63255": {
+      "associationName": "국회의원 소병훈후원회",
+      "party": "더불어민주당",
+      "region": "경기도 광주시",
+      "phone": "031-798-6582",
+      "address": "12751 경기도 광주시 파발로 187 (탄벌동) 301호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14086",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14209"
+    },
+    "JSA8739I": {
+      "associationName": "국회의원손명수후원회",
+      "party": "더불어민주당",
+      "region": "경기도 용인시기흥구",
+      "phone": "02-6788-7251",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27804",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22075"
+    },
+    "2KM3589W": {
+      "associationName": "국회의원손솔후원회",
+      "party": "진보당",
+      "region": "비례대표",
+      "phone": "02-784-1781",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=28515",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22786"
+    },
+    "SQ36001H": {
+      "associationName": "국회의원 송기헌후원회",
+      "party": "더불어민주당",
+      "region": "강원특별자치도 원주시",
+      "phone": "033-766-0417",
+      "address": "26449 강원도 원주시 서원대로 449 (단구동) 5층",
+      "homepage": "http://http//www.songkiheon.com",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14115",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14239"
+    },
+    "CNW5754J": {
+      "associationName": "국회의원송석준후원회",
+      "party": "국민의힘",
+      "region": "경기도 이천시",
+      "phone": "031-632-1964",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=13978",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14061"
+    },
+    "6EN68926": {
+      "associationName": "국회의원송언석후원회",
+      "party": "국민의힘",
+      "region": "경상북도 김천시",
+      "phone": "054-430-9900",
+      "address": "39548 경상북도 김천시 시청로 15 (신음동)",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=22066",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=16337"
+    },
+    "PAO22428": {
+      "associationName": "국회의원송영길후원회",
+      "party": "더불어민주당",
+      "region": "인천광역시 연수구",
+      "phone": "--",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32321",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26592"
+    },
+    "3249208I": {
+      "associationName": "국회의원송옥주후원회",
+      "party": "더불어민주당",
+      "region": "경기도 화성시병점구",
+      "phone": "02-784-9470",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=19989",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14260"
+    },
+    "RG972910": {
+      "associationName": "국회의원송재봉후원회",
+      "party": "더불어민주당",
+      "region": "충청북도 청주시청원구",
+      "phone": "043-221-3381",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27685",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21956"
+    },
+    "OWD1018N": {
+      "associationName": "국회의원신동욱후원회",
+      "party": "국민의힘",
+      "region": "서울특별시 서초구",
+      "phone": "02-529-9011",
+      "address": "06749 서울특별시 서초구 강남대로 221 (양재동) 515호",
+      "homepage": "https://blog.naver.com/newseocho515",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27810",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22081"
+    },
+    "RMC1840P": {
+      "associationName": "국회의원신성범후원회",
+      "party": "국민의힘",
+      "region": "경상남도 거창군",
+      "phone": "055-944-5066",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27771",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22042"
+    },
+    "NPD75153": {
+      "associationName": "국회의원신장식후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "02-784-3670",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 510호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22155"
+    },
+    "M7O7878U": {
+      "associationName": "국회의원신정훈후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 나주시",
+      "phone": "02-784-4277",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 744호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23267",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17538"
+    },
+    "TST4507I": {
+      "associationName": "국회의원 안규백후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 동대문구",
+      "phone": "02-784-4180",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동, 국회) 의원회관 807호",
+      "homepage": "http://www.safe100.or.kr/",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=808"
+    },
+    "EB16073M": {
+      "associationName": "국회의원안도걸후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 동구",
+      "phone": "062-224-0304",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27691",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21962"
+    },
+    "PYA8594I": {
+      "associationName": "국회의원안상훈후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-6066",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 917호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21995"
+    },
+    "YOG1280B": {
+      "associationName": "국회의원안철수후원회",
+      "party": "국민의힘",
+      "region": "경기도 성남시분당구",
+      "phone": "031-781-5008",
+      "address": "13590 경기도 성남시 분당구 서현로 170 (서현동) 3코어 329호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=26388",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=20659"
+    },
+    "W8L9421K": {
+      "associationName": "국회의원안태준후원회",
+      "party": "더불어민주당",
+      "region": "경기도 광주시",
+      "phone": "031-763-1397",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27692",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21963"
+    },
+    "XEF29171": {
+      "associationName": "국회의원안호영후원회",
+      "party": "더불어민주당",
+      "region": "전북특별자치도 완주군",
+      "phone": "063-433-6413",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14048",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14174"
+    },
+    "CK143054": {
+      "associationName": "국회의원양부남후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 서구",
+      "phone": "062-372-0410",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27729",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22000"
+    },
+    "8FB1535Y": {
+      "associationName": "국회의원 어기구후원회",
+      "party": "더불어민주당",
+      "region": "충청남도 당진시",
+      "phone": "041-356-2020",
+      "address": "31774 충청남도 당진시 시청2로 18 (수청동) 스마트벽우빌딩 501호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14042",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14171"
+    },
+    "8348421R": {
+      "associationName": "국회의원엄태영후원회",
+      "party": "국민의힘",
+      "region": "충청북도 제천시",
+      "phone": "043-646-0415",
+      "address": "27165 충청북도 제천시 명륜로 97 (의림동) 3층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23186",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17457"
+    },
+    "URX8075K": {
+      "associationName": "국회의원염태영후원회",
+      "party": "더불어민주당",
+      "region": "경기도 수원시권선구",
+      "phone": "--",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27727",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21998"
+    },
+    "OIA3741M": {
+      "associationName": "국회의원오기형후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 도봉구",
+      "phone": "02-955-9000",
+      "address": "01340 서울특별시 도봉구 도봉로 677 (방학동) 601호(우리들메디빌당)",
+      "homepage": "http://blog.naver.com/okgihyoung",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23171",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17442"
+    },
+    "BRU2690F": {
+      "associationName": "국회의원오세희후원회",
+      "party": "더불어민주당",
+      "region": "비례대표",
+      "phone": "02-784-0496",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 631호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27741",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22012"
+    },
+    "GE71932C": {
+      "associationName": "국회의원용혜인후원회",
+      "party": "기본소득당",
+      "region": "비례대표",
+      "phone": "02-784-3063",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 의원회관 541호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23279",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17550"
+    },
+    "XBT9550Q": {
+      "associationName": "국회의원 우원식후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 노원구",
+      "phone": "02-937-1501",
+      "address": "150702 서울 영등포구 여의도동 국회의원회관 501호",
+      "homepage": "http://blog.naver.com/reform111",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1537",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1593"
+    },
+    "8UC4779G": {
+      "associationName": "국회의원우재준후원회",
+      "party": "국민의힘",
+      "region": "대구광역시 북구",
+      "phone": "02-784-1511",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27786",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22057"
+    },
+    "GX38539O": {
+      "associationName": "국회의원 유동수후원회",
+      "party": "더불어민주당",
+      "region": "인천광역시 계양구",
+      "phone": "032-215-3524",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14105",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14229"
+    },
+    "MU69217P": {
+      "associationName": "국회의원유상범후원회",
+      "party": "국민의힘",
+      "region": "강원특별자치도 영월군",
+      "phone": "--",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 736호",
+      "homepage": "http://blog.naver.com/sbyoo64",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23215",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17486"
+    },
+    "JZV5283U": {
+      "associationName": "국회의원유영하후원회",
+      "party": "국민의힘",
+      "region": "대구광역시 달서구",
+      "phone": "053-525-7174",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27774",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22045"
+    },
+    "KBK8836C": {
+      "associationName": "국회의원유용원후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-2051",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 434호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27800",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22071"
+    },
+    "MRK4871S": {
+      "associationName": "국회의원유의동후원회",
+      "party": "국민의힘",
+      "region": "경기도 평택시",
+      "phone": "--",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32325",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26596"
+    },
+    "GP07421U": {
+      "associationName": "국회의원윤건영후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 구로구",
+      "phone": "02-2632-0325",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23271",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17097"
+    },
+    "MSY7784L": {
+      "associationName": "국회의원 윤상현후원회",
+      "party": "국민의힘",
+      "region": "인천광역시 미추홀구",
+      "phone": "032-882-3033",
+      "address": "22188 인천광역시 미추홀구 독배로 311 (용현동) 비젼프라자 603호",
+      "homepage": "http://yoon2008.com/",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=587"
+    },
+    "9VR65006": {
+      "associationName": "국회의원 윤영석후원회",
+      "party": "국민의힘",
+      "region": "경상남도 양산시",
+      "phone": "010-9279-8891",
+      "address": "626050 경남 양산시 중부동 685-7 802호",
+      "homepage": "http://www.hangomy.com/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1535",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1574"
+    },
+    "ZRF3039U": {
+      "associationName": "국회의원윤재옥후원회",
+      "party": "국민의힘",
+      "region": "대구광역시 달서구",
+      "phone": "053-637-8888",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1574",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1629"
+    },
+    "MQK9493H": {
+      "associationName": "국회의원윤종군후원회",
+      "party": "더불어민주당",
+      "region": "경기도 안성시",
+      "phone": "010-2244-7676",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27664",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21935"
+    },
+    "3TP65086": {
+      "associationName": "국회의원윤종오후원회",
+      "party": "진보당",
+      "region": "울산광역시 북구",
+      "phone": "052-297-0412",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27705",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21976"
+    },
+    "JC14718Q": {
+      "associationName": "국회의원윤준병후원회",
+      "party": "더불어민주당",
+      "region": "전북특별자치도 정읍시",
+      "phone": "063-531-8080",
+      "address": "56160 전라북도 정읍시 중앙로 56 (연지동) 302호(금오빌딩)",
+      "homepage": "http://theminjb.com/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23198",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17469"
+    },
+    "8X15119P": {
+      "associationName": "국회의원 윤한홍후원회",
+      "party": "국민의힘",
+      "region": "경상남도 창원시마산회원구",
+      "phone": "055-255-0003",
+      "address": "51366 경상남도 창원시 마산회원구 양덕로 99 (양덕동) 7층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=13982",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14051"
+    },
+    "M0A1658U": {
+      "associationName": "국회의원 윤호중후원회",
+      "party": "더불어민주당",
+      "region": "경기도 구리시",
+      "phone": "031-562-0409",
+      "address": "471030 경기 구리시 수택동 보광빌딩 5층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1518",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1565"
+    },
+    "O7R5461J": {
+      "associationName": "국회의원 윤후덕후원회",
+      "party": "더불어민주당",
+      "region": "경기도 파주시",
+      "phone": "031-957-0270",
+      "address": "413833 경기 파주시 교하읍 와동리 와석순환로421 지산프라자 502호",
+      "homepage": "http://blog.naver.com/yuns609",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1553",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1605"
+    },
+    "AEO5706C": {
+      "associationName": "국회의원이강일후원회",
+      "party": "더불어민주당",
+      "region": "충청북도 청주시상당구",
+      "phone": "043-291-0410",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27662",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21933"
+    },
+    "I7R13867": {
+      "associationName": "국회의원이개호후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 함평군",
+      "phone": "02-784-2165",
+      "address": "150702 서울특별시 영등포구 여의도동 국회의원회관 719호",
+      "homepage": "http://www.leegaeho.co.kr/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1964",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=2031"
+    },
+    "7YC6702R": {
+      "associationName": "국회의원이건태후원회",
+      "party": "더불어민주당",
+      "region": "경기도 부천시소사구",
+      "phone": "032-613-6667",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27695",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21966"
+    },
+    "4A067125": {
+      "associationName": "국회의원이광재후원회",
+      "party": "더불어민주당",
+      "region": "경기도 하남시",
+      "phone": "010-5059-1357",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32327",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26598"
+    },
+    "95J3282H": {
+      "associationName": "국회의원이광희후원회",
+      "party": "더불어민주당",
+      "region": "충청북도 청주시서원구",
+      "phone": "--",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27734",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22005"
+    },
+    "W3U3344O": {
+      "associationName": "국회의원이기헌후원회",
+      "party": "더불어민주당",
+      "region": "경기도 고양시일산동구",
+      "phone": "02-784-5750",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27927",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22198"
+    },
+    "ROS6754L": {
+      "associationName": "국회의원이달희후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-2316",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 621호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27796",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22067"
+    },
+    "OSV9142K": {
+      "associationName": "국회의원 이만희후원회",
+      "party": "국민의힘",
+      "region": "경상북도 영천시",
+      "phone": "054-337-2345",
+      "address": "38894 경상북도 영천시 완산로 74 (완산동) 2층",
+      "homepage": "http://yc20002.blog.me/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=13991",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14078"
+    },
+    "W8W95421": {
+      "associationName": "국회의원이상식후원회",
+      "party": "더불어민주당",
+      "region": "경기도 용인시처인구",
+      "phone": "031-321-9806",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27728",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21999"
+    },
+    "8L52480G": {
+      "associationName": "국회의원이상휘후원회",
+      "party": "국민의힘",
+      "region": "경상북도 포항시남구",
+      "phone": "010-3530-6060",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27717",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21988"
+    },
+    "WXJ8352N": {
+      "associationName": "국회의원이성권후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 사하구",
+      "phone": "051-294-2227",
+      "address": "49326 부산광역시 사하구 낙동대로 458 (당리동) 금강빌딩 501호",
+      "homepage": "https://blog.naver.com/lsksml",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27719",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21990"
+    },
+    "N2P9317N": {
+      "associationName": "국회의원이성윤후원회",
+      "party": "더불어민주당",
+      "region": "전북특별자치도 전주시완산구",
+      "phone": "063-223-6663",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27744",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22015"
+    },
+    "WTR5885Y": {
+      "associationName": "국회의원이소영후원회",
+      "party": "더불어민주당",
+      "region": "경기도 의왕시",
+      "phone": "031-477-9602",
+      "address": "16058 경기도 의왕시 경수대로 262 (오전동, 서해그랑블) 2층 202호",
+      "homepage": "http://blog.naver.com/soyoung8lee",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23242",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17513"
+    },
+    "MRS4949T": {
+      "associationName": "국회의원이소희후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-6264",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=28752",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=23023"
+    },
+    "0R68099X": {
+      "associationName": "국회의원이수진후원회",
+      "party": "더불어민주당",
+      "region": "경기도 성남시중원구",
+      "phone": "02-6788-6989",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 545호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23281",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17552"
+    },
+    "S9U45255": {
+      "associationName": "국회의원 이양수후원회",
+      "party": "국민의힘",
+      "region": "강원특별자치도 속초시",
+      "phone": "033-638-1128",
+      "address": "24855 강원특별자치도 속초시 동해대로 4213 (교동) 보고빌딩 4층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14238"
+    },
+    "JG77046J": {
+      "associationName": "국회의원이언주후원회",
+      "party": "더불어민주당",
+      "region": "경기도 용인시기흥구",
+      "phone": "031-286-0410",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27733",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22004"
+    },
+    "EBH1101V": {
+      "associationName": "국회의원이연희후원회",
+      "party": "더불어민주당",
+      "region": "충청북도 청주시흥덕구",
+      "phone": "010-4077-4011",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27704",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21975"
+    },
+    "9JF4562W": {
+      "associationName": "국회의원이용선후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 양천구",
+      "phone": "02-2697-9286",
+      "address": "08026 서울특별시 양천구 중앙로 280 (신정동) 4층",
+      "homepage": "http://blog.naver.com/2020yslee",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23133",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17404"
+    },
+    "6K79158C": {
+      "associationName": "국회의원이용우후원회",
+      "party": "더불어민주당",
+      "region": "인천광역시 서해구",
+      "phone": "032-564-8101",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27838",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22109"
+    },
+    "DWK26447": {
+      "associationName": "국회의원이인선후원회",
+      "party": "국민의힘",
+      "region": "대구광역시 수성구",
+      "phone": "053-782-8677",
+      "address": "42175 대구광역시 수성구 동대구로 9 (두산동) 한신메디타워 802호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=26389",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=20660"
+    },
+    "3ZR4438W": {
+      "associationName": "국회의원 이인영후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 구로구",
+      "phone": "02-2683-7220",
+      "address": "150702 서울 영등포구 여의도동 국회의원회관 801호",
+      "homepage": "http://story.inyoung.net/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1611",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1662"
+    },
+    "3LP22204": {
+      "associationName": "국회의원이재강후원회",
+      "party": "더불어민주당",
+      "region": "경기도 의정부시",
+      "phone": "010-7445-2353",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27797",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22068"
+    },
+    "RKS3658I": {
+      "associationName": "국회의원이재관후원회",
+      "party": "더불어민주당",
+      "region": "충청남도 천안시서북구",
+      "phone": "010-3729-1399",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27689",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21960"
+    },
+    "UQ282145": {
+      "associationName": "국회의원이재정후원회",
+      "party": "더불어민주당",
+      "region": "경기도 안양시동안구",
+      "phone": "02-784-2677",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 502호",
+      "homepage": "http://blog.naver.com/leejjlaw",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=19985",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14255"
+    },
+    "O0I2045I": {
+      "associationName": "국회의원이정문후원회",
+      "party": "더불어민주당",
+      "region": "충청남도 천안시동남구",
+      "phone": "041-578-0935",
+      "address": "31180 충청남도 천안시 서북구 충무로 215 (쌍용동) 진솔빌딩 3층 302호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23140",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17411"
+    },
+    "5762459L": {
+      "associationName": "국회의원이정헌후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 광진구",
+      "phone": "02-6958-6797",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27850",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22121"
+    },
+    "HSW1214Q": {
+      "associationName": "국회의원이종배후원회",
+      "party": "국민의힘",
+      "region": "충청북도 충주시",
+      "phone": "02-784-4132",
+      "address": "380956 충청북도 충주시 문화동 569-1 2층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1965",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=2032"
+    },
+    "NLS46526": {
+      "associationName": "국회의원이종욱후원회",
+      "party": "국민의힘",
+      "region": "경상남도 창원시진해구",
+      "phone": "055-545-0777",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27788",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22059"
+    },
+    "WI719547": {
+      "associationName": "국회의원이주영후원회",
+      "party": "개혁신당",
+      "region": "비례대표",
+      "phone": "02-784-3457",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 538호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27769",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22040"
+    },
+    "RBM5454A": {
+      "associationName": "국회의원이주희후원회",
+      "party": "더불어민주당",
+      "region": "비례대표",
+      "phone": "02-784-3183",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=28525",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22796"
+    },
+    "QWL7778X": {
+      "associationName": "국회의원이준석후원회",
+      "party": "개혁신당",
+      "region": "경기도 화성시동탄구",
+      "phone": "02-784-0790",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27677",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21948"
+    },
+    "29V4537Y": {
+      "associationName": "국회의원이진숙후원회",
+      "party": "국민의힘",
+      "region": "대구광역시 달성군",
+      "phone": "053-253-6790",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32320",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26591"
+    },
+    "TZP9391O": {
+      "associationName": "국회의원 이철규후원회",
+      "party": "국민의힘",
+      "region": "강원특별자치도 동해시",
+      "phone": "033-534-0413",
+      "address": "25759 강원도 동해시 천곡로 71 (천곡동, 흥국생명빌딩) 2층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14116",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14240"
+    },
+    "V2R7430Z": {
+      "associationName": "국회의원이춘석후원회",
+      "party": "더불어민주당",
+      "region": "전북특별자치도 익산시",
+      "phone": "063-851-8888",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27710",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21981"
+    },
+    "K5F2023J": {
+      "associationName": "국회의원이학영후원회",
+      "party": "더불어민주당",
+      "region": "경기도 군포시",
+      "phone": "02-784-8051",
+      "address": "435804 경기 군포시 광정동 1125-2 보람타워 411호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1532",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1589"
+    },
+    "0698755I": {
+      "associationName": "국회의원이해민후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "02-784-1884",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 416호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22072"
+    },
+    "CCU1009B": {
+      "associationName": "국회의원이해식후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 강동구",
+      "phone": "02-485-0377",
+      "address": "05379 서울특별시 강동구 천호대로 1032 (성내동) 4층 404호",
+      "homepage": "http://blog.naver.com/leehsik",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23181",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17452"
+    },
+    "EVH1507C": {
+      "associationName": "국회의원 이헌승후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 부산진구",
+      "phone": "051-893-6633",
+      "address": "614800 부산 부산진구 가야1동 50-4 새마을회관 8층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1656",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1720"
+    },
+    "2S73768V": {
+      "associationName": "국회의원이훈기후원회",
+      "party": "더불어민주당",
+      "region": "인천광역시 남동구",
+      "phone": "032-201-1496",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27785",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22056"
+    },
+    "JVK71445": {
+      "associationName": "국회의원임문영후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 광산구",
+      "phone": "--",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32323",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26594"
+    },
+    "X639721U": {
+      "associationName": "국회의원임미애후원회",
+      "party": "더불어민주당",
+      "region": "비례대표",
+      "phone": "02-784-8952",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 326호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27758",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22029"
+    },
+    "4T026790": {
+      "associationName": "국회의원임오경후원회",
+      "party": "더불어민주당",
+      "region": "경기도 광명시",
+      "phone": "02-2682-0415",
+      "address": "14222 경기도 광명시 오리로 902 (철산동) 301호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23234",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17505"
+    },
+    "EH27538E": {
+      "associationName": "국회의원임이자후원회",
+      "party": "국민의힘",
+      "region": "경상북도 상주시",
+      "phone": "",
+      "address": "",
+      "homepage": "",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14062",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14186"
+    },
+    "RAJ1024Z": {
+      "associationName": "국회의원임종득후원회",
+      "party": "국민의힘",
+      "region": "경상북도 영주시",
+      "phone": "02-784-4467",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27743",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22014"
+    },
+    "FH777496": {
+      "associationName": "국회의원임호선후원회",
+      "party": "더불어민주당",
+      "region": "충청북도 증평군",
+      "phone": "02-6788-7136",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 429호",
+      "homepage": "http://blog.naver.com/propo21",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23294",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17565"
+    },
+    "RPN2293B": {
+      "associationName": "국회의원장경태후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 동대문구",
+      "phone": "02-784-3106",
+      "address": "02523 서울특별시 동대문구 장한로 140 (장안동) 지하1층",
+      "homepage": "http://blog.naver.com/jktkt",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23131",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17402"
+    },
+    "KFM1081G": {
+      "associationName": "국회의원장동혁후원회",
+      "party": "국민의힘",
+      "region": "충청남도 보령시",
+      "phone": "041-931-1389",
+      "address": "33469 충청남도 보령시 작은오랏1길 25 (동대동) 4층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=26383",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=20654"
+    },
+    "CIZ8557P": {
+      "associationName": "국회의원장종태후원회",
+      "party": "더불어민주당",
+      "region": "대전광역시 서구",
+      "phone": "042-543-0410",
+      "address": "35368 대전광역시 서구 계백로 1135 (도안동) MK빌딩 5층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27687",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21958"
+    },
+    "2NV6751W": {
+      "associationName": "국회의원장철민후원회",
+      "party": "더불어민주당",
+      "region": "대전광역시 동구",
+      "phone": "042-252-7511",
+      "address": "34640 대전광역시 동구 계족로 167 (대동) 3층 305호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23310",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17581"
+    },
+    "TJW93720": {
+      "associationName": "국회의원전용기후원회",
+      "party": "더불어민주당",
+      "region": "경기도 화성시병점구",
+      "phone": "02-784-2842",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 1023호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23284",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17555"
+    },
+    "FYG6302V": {
+      "associationName": "국회의원전은수후원회",
+      "party": "더불어민주당",
+      "region": "충청남도 아산시",
+      "phone": "041-548-5245",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32328",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26599"
+    },
+    "P8A4624C": {
+      "associationName": "국회의원전종덕후원회",
+      "party": "진보당",
+      "region": "비례대표",
+      "phone": "010-2682-1313",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 421호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27776",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22047"
+    },
+    "QUR40502": {
+      "associationName": "국회의원전진숙후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 북구",
+      "phone": "062-515-0410",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27668",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21939"
+    },
+    "25G2571T": {
+      "associationName": "국회의원전현희후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 성동구",
+      "phone": "02-784-9530",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27720",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21991"
+    },
+    "DAY6557K": {
+      "associationName": "국회의원정동만후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 기장군",
+      "phone": "051-728-7092",
+      "address": "46080 부산광역시 기장군 기장읍 기장대로 516 305호",
+      "homepage": "http://blog.naver.com/dongbu1538",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23223",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17494"
+    },
+    "ARP89147": {
+      "associationName": "국회의원정동영후원회",
+      "party": "더불어민주당",
+      "region": "전북특별자치도 전주시덕진구",
+      "phone": "02-784-8342",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 906",
+      "homepage": "https://www.facebook.com/coreacdy",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27700",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21971"
+    },
+    "CGW7415Z": {
+      "associationName": "국회의원정성국후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 부산진구",
+      "phone": "02-784-5282",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27811",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22082"
+    },
+    "V429892C": {
+      "associationName": "국회의원 정성호후원회",
+      "party": "더불어민주당",
+      "region": "경기도 양주시",
+      "phone": "031-859-3001",
+      "address": "11492 경기도 양주시 부흥로 1938 (광사동) 305호",
+      "homepage": "http://blog.naver.com/jsh35351",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1692",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1760"
+    },
+    "8XE7026P": {
+      "associationName": "국회의원정연욱후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 부산진구",
+      "phone": "051-714-1068",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27762",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22033"
+    },
+    "LT72093S": {
+      "associationName": "국회의원정일영후원회",
+      "party": "더불어민주당",
+      "region": "인천광역시 연수구",
+      "phone": "032-832-2729",
+      "address": "21994 인천광역시 연수구 컨벤시아대로 55 (송도동, 송도이안) 이안상가 206호",
+      "homepage": "http://www.facebook.com/chung1young",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23213",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17484"
+    },
+    "LJK4960Z": {
+      "associationName": "국회의원정점식후원회",
+      "party": "국민의힘",
+      "region": "경상남도 통영시",
+      "phone": "02-784-6327",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 714호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=22117",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=16388"
+    },
+    "IC499858": {
+      "associationName": "국회의원정준호후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 북구",
+      "phone": "062-234-4100",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27679",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21950"
+    },
+    "9HE7226N": {
+      "associationName": "국회의원정진욱후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 남구",
+      "phone": "02-784-2570",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27693",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21964"
+    },
+    "2385336L": {
+      "associationName": "국회의원정청래후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 마포구",
+      "phone": "02-337-0415",
+      "address": "03996 서울특별시 마포구 월드컵로 80 (서교동) 603호",
+      "homepage": "http://blog.naver.com/mapopower",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17443"
+    },
+    "XG348314": {
+      "associationName": "국회의원정춘생후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "02-6788-6401",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 513호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27823",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22094"
+    },
+    "UHB5553T": {
+      "associationName": "국회의원정태호후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 관악구",
+      "phone": "02-784-5073",
+      "address": "08767 서울특별시 관악구 난곡로 317 (신림동) 3층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23187",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17458"
+    },
+    "BNV6535N": {
+      "associationName": "국회의원정혜경후원회",
+      "party": "진보당",
+      "region": "비례대표",
+      "phone": "055-297-0410",
+      "address": "51370 경상남도 창원시 의창구 평산로219번길 27 (서상동) 3층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27682",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21953"
+    },
+    "PFG2137X": {
+      "associationName": "국회의원정희용후원회",
+      "party": "국민의힘",
+      "region": "경상북도 고령군",
+      "phone": "054-976-1577",
+      "address": "39887 경상북도 칠곡군 왜관읍 중앙로 242 3층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23158",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17429"
+    },
+    "5KV82250": {
+      "associationName": "국회의원 조경태후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 사하구",
+      "phone": "051-266-8417",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=459",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=519"
+    },
+    "8TU8443O": {
+      "associationName": "국회의원조계원후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 여수시",
+      "phone": "061-682-6300",
+      "address": "59676 전라남도 여수시 시청로 12 (학동)",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22090"
+    },
+    "IWK63872": {
+      "associationName": "국회의원조배숙후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "063-857-1500",
+      "address": "54553 전북특별자치도 익산시 무왕로 1157 (어양동) 6층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27790",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22061"
+    },
+    "FYI20317": {
+      "associationName": "국회의원 조승래후원회",
+      "party": "더불어민주당",
+      "region": "대전광역시 유성구",
+      "phone": "02-784-2640",
+      "address": "34183 대전광역시 유성구 대학로 90 (궁동, 누드캐슬빌딩) 203호",
+      "homepage": "http://blog.naver.com/yuseong0413",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14095",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14045"
+    },
+    "ME83002L": {
+      "associationName": "국회의원조승환후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 영도구",
+      "phone": "051-414-5556",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27661",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21932"
+    },
+    "MQU41854": {
+      "associationName": "국회의원조은희후원회",
+      "party": "국민의힘",
+      "region": "서울특별시 서초구",
+      "phone": "02-784-3770",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 의원회관 334호",
+      "homepage": "http://blog.naver.com/gracecho1",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=26390",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=20661"
+    },
+    "ZKB18611": {
+      "associationName": "국회의원조인철후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 서구",
+      "phone": "02-784-8191",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 의원회관 638호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27730",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22001"
+    },
+    "IN328264": {
+      "associationName": "국회의원 조정식후원회",
+      "party": "더불어민주당",
+      "region": "경기도 시흥시",
+      "phone": "031-434-7755",
+      "address": "150702 서울 영등포구 여의도동 국회의원회관 723gh",
+      "homepage": "http://www.greensh.net/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=416",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=471"
+    },
+    "WJL30106": {
+      "associationName": "국회의원조정훈후원회",
+      "party": "국민의힘",
+      "region": "서울특별시 마포구",
+      "phone": "02-784-2181",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 544호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23272",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17543"
+    },
+    "3NI5978A": {
+      "associationName": "국회의원조지연후원회",
+      "party": "국민의힘",
+      "region": "경상북도 경산시",
+      "phone": "053-815-3737",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27722",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21993"
+    },
+    "GJK57930": {
+      "associationName": "국회의원주진우후원회",
+      "party": "국민의힘",
+      "region": "부산광역시 해운대구",
+      "phone": "051-747-1211",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27696",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21967"
+    },
+    "T465023H": {
+      "associationName": "국회의원주철현후원회",
+      "party": "더불어민주당",
+      "region": "전남광주통합특별시 여수시",
+      "phone": "061-654-6605",
+      "address": "59706 전라남도 여수시 여서1로 9 (여서동) 4층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17473"
+    },
+    "8SV6917G": {
+      "associationName": "국회의원 주호영후원회",
+      "party": "국민의힘",
+      "region": "대구광역시 수성구",
+      "phone": "053-763-5577",
+      "address": "150010 서울 영등포구 여의도동 국회의원회관 313호",
+      "homepage": "http://www.joohoyoung.or.kr/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=523",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=405"
+    },
+    "68P7228G": {
+      "associationName": "국회의원진선미후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 강동구",
+      "phone": "02-784-9591",
+      "address": "3739 서울특별시 영등포구 의사당대로 1 (여의도동, 국회) 국회의원회관 527호",
+      "homepage": "http://blog.naver.com/smjingogo",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1609",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1659"
+    },
+    "3C23171A": {
+      "associationName": "국회의원진성준후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 강서구",
+      "phone": "02-3665-2016",
+      "address": "07517 서울특별시 강서구 양천로 73 (방화동) 403호",
+      "homepage": "http://blog.naver.com/theminjoohotjjoon",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23173",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17444"
+    },
+    "QDU1100U": {
+      "associationName": "국회의원진종오후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-9480",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 633호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22079"
+    },
+    "KNP22261": {
+      "associationName": "국회의원차규근후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "02-784-4164",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 514호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27766",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22037"
+    },
+    "RC885085": {
+      "associationName": "국회의원차지호후원회",
+      "party": "더불어민주당",
+      "region": "경기도 오산시",
+      "phone": "010-5135-9996",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21952"
+    },
+    "1S05899F": {
+      "associationName": "국회의원채현일후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 영등포구",
+      "phone": "02-2636-0410",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27712",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21983"
+    },
+    "A494529E": {
+      "associationName": "국회의원천준호후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 강북구",
+      "phone": "02-784-0712",
+      "address": "01051 서울특별시 강북구 한천로 1088 (수유동) 3층 국회의원 천준호 지역사무실",
+      "homepage": "http://blog.naver.com/junocheon",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23170",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17441"
+    },
+    "YGB8604T": {
+      "associationName": "국회의원천하람후원회",
+      "party": "개혁신당",
+      "region": "비례대표",
+      "phone": "010-9835-3000",
+      "address": "57964 전라남도 순천시 충효로 15 (덕암동) 2층 219호 큐브비즈센터 D206",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27708",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21979"
+    },
+    "I5I2468R": {
+      "associationName": "국회의원최기상후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 금천구",
+      "phone": "02-6959-7441",
+      "address": "08535 서울특별시 금천구 시흥대로 429 (독산동) 501호",
+      "homepage": "http://blog.naver.com/gisang2020",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23174",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17445"
+    },
+    "YS38221N": {
+      "associationName": "국회의원최민희후원회",
+      "party": "더불어민주당",
+      "region": "경기도 남양주시",
+      "phone": "010-8685-2024",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27663",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21934"
+    },
+    "UOS16250": {
+      "associationName": "국회의원최보윤후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-4710",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 407호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27781",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22052"
+    },
+    "WJG74792": {
+      "associationName": "국회의원최수진후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-784-6931",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 322호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27783",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22054"
+    },
+    "UF53617M": {
+      "associationName": "국회의원최은석후원회",
+      "party": "국민의힘",
+      "region": "대구광역시 동구",
+      "phone": "053-759-3411",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27686",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21957"
+    },
+    "CC78321E": {
+      "associationName": "국회의원최혁진후원회",
+      "party": "무소속",
+      "region": "비례대표",
+      "phone": "02-784-9241",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=28442",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22713"
+    },
+    "A0P4646G": {
+      "associationName": "국회의원최형두후원회",
+      "party": "국민의힘",
+      "region": "경상남도 창원시마산합포구",
+      "phone": "055-241-2223",
+      "address": "51721 경상남도 창원시 마산합포구 해안대로 343 (남성동) 센텀빌딩 8층",
+      "homepage": "https://blog.naver.com/choihd/222184056479",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23209",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17480"
+    },
+    "JQA21112": {
+      "associationName": "국회의원한기호후원회",
+      "party": "국민의힘",
+      "region": "강원특별자치도 춘천시",
+      "phone": "033-452-5010",
+      "address": "24034 강원도 철원군 갈말읍 호국로 4910 2층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23257",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17528"
+    },
+    "5DC8083A": {
+      "associationName": "국회의원한동훈후원회",
+      "party": "무소속",
+      "region": "부산광역시 북구",
+      "phone": "--",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32319",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=26590"
+    },
+    "8JG4358H": {
+      "associationName": "국회의원한민수후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 강북구",
+      "phone": "--",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27659",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21930"
+    },
+    "H5476989": {
+      "associationName": "국회의원한병도후원회",
+      "party": "더불어민주당",
+      "region": "전북특별자치도 익산시",
+      "phone": "063-851-0415",
+      "address": "54634 전라북도 익산시 무왕로 1002 (영등동) 201호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23197",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17468"
+    },
+    "XPP2564T": {
+      "associationName": "국회의원한정애후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 강서구",
+      "phone": "02-784-3051",
+      "address": "150702 서울 영등포구 여의도동 국회의원회관 639호",
+      "homepage": "http://www.hanjeoungae.com/",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=1653",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=1715"
+    },
+    "BCQ55105": {
+      "associationName": "국회의원한준호후원회",
+      "party": "더불어민주당",
+      "region": "경기도 고양시덕양구",
+      "phone": "031-970-1941",
+      "address": "10526 경기도 고양시 덕양구 충장로 14 (행신동) 403호",
+      "homepage": "http://www.facebook.com/hanjuno.news",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23239",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17510"
+    },
+    "Q918403D": {
+      "associationName": "국회의원한지아후원회",
+      "party": "국민의힘",
+      "region": "비례대표",
+      "phone": "02-6788-7396",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 635호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27773",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22044"
+    },
+    "T4I4862D": {
+      "associationName": "국회의원한창민후원회",
+      "party": "사회민주당",
+      "region": "비례대표",
+      "phone": "02-784-8835",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회원회 502호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27809",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=22080"
+    },
+    "HHB5652A": {
+      "associationName": "국회의원허성무후원회",
+      "party": "더불어민주당",
+      "region": "경상남도 창원시성산구",
+      "phone": "055-263-0410",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27718",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21989"
+    },
+    "FU53642G": {
+      "associationName": "국회의원허영후원회",
+      "party": "더불어민주당",
+      "region": "강원특별자치도 춘천시",
+      "phone": "033-252-3333",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 835호",
+      "homepage": "http://blog.naver.com/ramman",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23292",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17563"
+    },
+    "VCP96419": {
+      "associationName": "국회의원허종식후원회",
+      "party": "더불어민주당",
+      "region": "인천광역시 미추홀구",
+      "phone": "032-866-0111",
+      "address": "22155 인천광역시 미추홀구 미추홀대로 651 (주안동) 우진빌딩 6층",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23214",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17485"
+    },
+    "5MD4184K": {
+      "associationName": "국회의원홍기원후원회",
+      "party": "더불어민주당",
+      "region": "경기도 평택시",
+      "phone": "031-665-0415",
+      "address": "17774 경기도 평택시 경기대로 1371 (서정동) 502호",
+      "homepage": "http://blog.naver.com/flyhong21",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23236",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17507"
+    },
+    "RJH6314D": {
+      "associationName": "국회의원황명선후원회",
+      "party": "더불어민주당",
+      "region": "충청남도 논산시",
+      "phone": "041-735-5557",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27725",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21996"
+    },
+    "0YT3774N": {
+      "associationName": "국회의원황운하후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "02-784-1935",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 552호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23201",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17472"
+    },
+    "T6A6557F": {
+      "associationName": "국회의원황정아후원회",
+      "party": "더불어민주당",
+      "region": "대전광역시 유성구",
+      "phone": "042-331-9921",
+      "address": "",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27688",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21959"
+    },
+    "0VU8517U": {
+      "associationName": "국회의원 황희후원회",
+      "party": "더불어민주당",
+      "region": "서울특별시 양천구",
+      "phone": "02-784-8551",
+      "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 838호",
+      "homepage": "javascript:void(0);",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=14044",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=14167"
+    }
+  }
+}
