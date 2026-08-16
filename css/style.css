@@ -855,6 +855,15 @@ img { display: block; }
   word-break: keep-all;
 }
 
+.bill-title-link {
+  color: inherit;
+  transition: opacity 0.2s ease;
+}
+
+.bill-title-link:hover {
+  opacity: 0.62;
+}
+
 .vote-parent-bill {
   color: rgba(245,245,247,0.34);
   font-size: 12px;

@@ -191,6 +191,9 @@ function renderVotes(votes, limit = 10, emptyMessage = "No recent vote records."
     const subject = isFinal ? (v.title || v.subject) : (v.subject || v.question || v.title);
     const billUrl = safeExternalUrl(v.billUrl);
     const voteUrl = safeExternalUrl(v.voteUrl);
+    const subjectHTML = isFinal && billUrl
+      ? `<a class="bill-title-link" href="${escapeHTML(billUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(subject || "")}</a>`
+      : escapeHTML(subject || "");
     return `
     <article class="vote-card fade-in ${isFinal ? "vote-card--final" : "vote-card--preliminary"}">
       <div class="vote-card-left">
@@ -201,8 +204,10 @@ function renderVotes(votes, limit = 10, emptyMessage = "No recent vote records."
           <span class="vote-card-topic">${escapeHTML(v.billNo || "")}</span>
           <span class="vote-card-topic">${escapeHTML(v.voteLabel || "")}</span>
         </div>
-        <div class="vote-card-title">${escapeHTML(subject || "")}</div>
-        ${!isFinal && v.title ? `<div class="vote-parent-bill">Bill: ${escapeHTML(v.title)}</div>` : ""}
+        <div class="vote-card-title">${subjectHTML}</div>
+        ${!isFinal && v.title ? `<div class="vote-parent-bill">Bill: ${billUrl
+          ? `<a class="bill-title-link" href="${escapeHTML(billUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(v.title)}</a>`
+          : escapeHTML(v.title)}</div>` : ""}
         ${(billUrl || voteUrl) ? `
           <div class="vote-card-links">
             ${billUrl ? `<a href="${escapeHTML(billUrl)}" target="_blank" rel="noopener noreferrer">Read bill ↗</a>` : ""}
