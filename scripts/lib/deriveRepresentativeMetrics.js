@@ -329,6 +329,112 @@ export function deriveBillLifecycles(members, bills, options = {}) {
   return result;
 }
 
+export function deriveCollaborationNetworks(members, bills, options = {}) {
+  const topLimit = Number(options.topLimit || 5);
+  const sharedBillLimit = Number(options.sharedBillLimit || 4);
+  const memberByCode = new Map(
+    members
+      .map((member) => [String(member?.monaCode || "").trim(), member])
+      .filter(([code]) => Boolean(code))
+  );
+  const relationsByMember = new Map(
+    [...memberByCode.keys()].map((code) => [code, new Map()])
+  );
+  const collaborationBillIds = new Map(
+    [...memberByCode.keys()].map((code) => [code, new Set()])
+  );
+  const crossPartyBillIds = new Map(
+    [...memberByCode.keys()].map((code) => [code, new Set()])
+  );
+  const seenBillIds = new Set();
+
+  function addRelation(memberCode, collaboratorCode, bill) {
+    const relations = relationsByMember.get(memberCode);
+    if (!relations) return;
+    const relation = relations.get(collaboratorCode) || {
+      billIds: new Set(),
+      bills: [],
+    };
+    if (relation.billIds.has(bill.billId)) return;
+    relation.billIds.add(bill.billId);
+    relation.bills.push({
+      billId: bill.billId,
+      title: String(bill?.billTitle || ""),
+      proposalDate: String(bill?.proposalDate || ""),
+      detailLink: String(bill?.detailLink || ""),
+      leadMonaCode: String(bill?.monaCode || "").trim(),
+    });
+    relations.set(collaboratorCode, relation);
+  }
+
+  for (const bill of bills) {
+    const billId = String(bill?.billId || "").trim();
+    if (!billId || seenBillIds.has(billId)) continue;
+    seenBillIds.add(billId);
+
+    const participantCodes = [
+      String(bill?.monaCode || "").trim(),
+      ...String(bill?.source?.PUBL_MONA_CD || "")
+        .split(",")
+        .map((value) => value.trim()),
+    ].filter((code, index, rows) => memberByCode.has(code) && rows.indexOf(code) === index);
+
+    if (participantCodes.length < 2) continue;
+
+    for (const memberCode of participantCodes) {
+      collaborationBillIds.get(memberCode)?.add(billId);
+      const memberParty = String(memberByCode.get(memberCode)?.party || "").trim();
+      if (participantCodes.some((code) =>
+        String(memberByCode.get(code)?.party || "").trim() !== memberParty
+      )) {
+        crossPartyBillIds.get(memberCode)?.add(billId);
+      }
+    }
+
+    for (let left = 0; left < participantCodes.length; left += 1) {
+      for (let right = left + 1; right < participantCodes.length; right += 1) {
+        addRelation(participantCodes[left], participantCodes[right], bill);
+        addRelation(participantCodes[right], participantCodes[left], bill);
+      }
+    }
+  }
+
+  const result = new Map();
+  for (const [memberCode, relations] of relationsByMember) {
+    const memberParty = String(memberByCode.get(memberCode)?.party || "").trim();
+    const collaborators = [...relations.entries()]
+      .map(([collaboratorCode, relation]) => {
+        const collaborator = memberByCode.get(collaboratorCode) || {};
+        const sharedBills = [...relation.bills]
+          .sort((a, b) => String(b.proposalDate).localeCompare(String(a.proposalDate)))
+          .slice(0, sharedBillLimit);
+        return {
+          monaCode: collaboratorCode,
+          slug: String(collaborator?.id || ""),
+          name: String(collaborator?.name || ""),
+          party: String(collaborator?.party || ""),
+          district: String(collaborator?.district || ""),
+          photo: String(collaborator?.photo || ""),
+          billCount: relation.billIds.size,
+          sameParty: String(collaborator?.party || "").trim() === memberParty,
+          sharedBills,
+        };
+      })
+      .sort((a, b) => b.billCount - a.billCount || a.name.localeCompare(b.name, "ko"));
+
+    result.set(memberCode, {
+      basis: "same_proposal_roster",
+      collaborationBillCount: collaborationBillIds.get(memberCode)?.size || 0,
+      uniqueCollaboratorCount: collaborators.length,
+      otherPartyCollaboratorCount: collaborators.filter((item) => !item.sameParty).length,
+      crossPartyBillCount: crossPartyBillIds.get(memberCode)?.size || 0,
+      topCollaborators: collaborators.slice(0, topLimit),
+    });
+  }
+
+  return result;
+}
+
 function participationSummary(rows) {
   const total = rows.length;
   const absent = rows.filter((row) => String(row?.choice || "").trim() === ABSENT).length;

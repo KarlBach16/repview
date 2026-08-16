@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>국회의원 — RepView</title>
   <meta name="description" content="우리 지역 국회의원의 표결 참여율, 불참, 대표 발의, 최근 표결·법안 기록을 한눈에 확인하세요." />
-  <link rel="stylesheet" href="/css/style.css?v=20260814a" />
+  <link rel="stylesheet" href="/css/style.css?v=20260816a" />
 </head>
 <body>
 
@@ -61,6 +61,18 @@
     </div>
   </section>
 
+  <section class="collaboration-story" id="collaboration-section" hidden>
+    <div class="collaboration-shell">
+      <p class="collaboration-eyebrow fade-in">제22대 국회 · 공동발의 명단</p>
+      <h2 class="collaboration-headline fade-in delay-1">자주 함께한 의원.</h2>
+      <div class="collaboration-stats fade-in delay-2" id="collaboration-stats"></div>
+      <div class="collaboration-map fade-in delay-2">
+        <div class="collaboration-origin" id="collaboration-origin"></div>
+        <div class="collaboration-list" id="collaboration-list"></div>
+      </div>
+    </div>
+  </section>
+
   <section class="insight-story insight-story--graphite" id="participation-section">
     <div class="insight-shell">
       <p class="insight-eyebrow fade-in">표결 참여</p>
@@ -91,7 +103,7 @@
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
-  <script src="/js/app.js?v=20260814c"></script>
-  <script src="/js/member.js?v=20260814e"></script>
+  <script src="/js/app.js?v=20260816a"></script>
+  <script src="/js/member.js?v=20260816a"></script>
 </body>
 </html>

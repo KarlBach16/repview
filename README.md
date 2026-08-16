@@ -24,6 +24,7 @@ If generated data files changed, it auto-commits and pushes with:
 Updated data files:
 
 - `data/members.json`
+- `data/kr/collaboration_networks.json`
 - `data/raw/bills_raw.json`
 - `data/raw/vote_summaries.json.gz`
 - `data/raw/votes_raw.json.gz`

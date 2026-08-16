@@ -33,6 +33,7 @@ function main() {
   const bills = readJson(path.join(projectRoot, "data", "raw", "bills_raw.json"));
   const members = readJson(path.join(projectRoot, "data", "members.json"));
   const representatives = readJson(path.join(projectRoot, "data", "app", "representatives.json"));
+  const collaborationEvidence = readJson(path.join(projectRoot, "data", "kr", "collaboration_networks.json"));
   const sentinels = readJson(path.join(projectRoot, "data", "kr", "vote_sentinels.json"));
 
   const failures = [];
@@ -178,6 +179,40 @@ function main() {
     if (Number(representative?.billsProposed || 0) !== expectedBills) {
       fail(`Representative bill count mismatch for ${code}: ${representative?.billsProposed} != ${expectedBills}`);
     }
+
+    const network = collaborationEvidence?.members?.[code];
+    if (!network) {
+      fail(`Current member missing collaboration network: ${code}`);
+      continue;
+    }
+    if (!Array.isArray(network.topCollaborators) || network.topCollaborators.length > 5) {
+      fail(`Invalid top collaborators for ${code}`);
+      continue;
+    }
+    const collaboratorCodes = new Set();
+    for (const collaborator of network.topCollaborators) {
+      const collaboratorCode = String(collaborator?.monaCode || "").trim();
+      if (!memberCodes.has(collaboratorCode) || collaboratorCode === code) {
+        fail(`Invalid collaborator ${collaboratorCode || "missing"} for ${code}`);
+      }
+      if (collaboratorCodes.has(collaboratorCode)) {
+        fail(`Duplicate collaborator ${collaboratorCode} for ${code}`);
+      }
+      collaboratorCodes.add(collaboratorCode);
+      if (Number(collaborator?.billCount || 0) <= 0) {
+        fail(`Invalid collaboration count for ${code}/${collaboratorCode}`);
+      }
+      if (!Array.isArray(collaborator?.sharedBillIds) || collaborator.sharedBillIds.length > 4) {
+        fail(`Invalid shared bills for ${code}/${collaboratorCode}`);
+        continue;
+      }
+      for (const billId of collaborator.sharedBillIds) {
+        const sharedBill = collaborationEvidence?.bills?.[billId];
+        if (!sharedBill) fail(`Missing shared bill ${billId} for ${code}/${collaboratorCode}`);
+        if (!String(sharedBill?.title || "").trim()) fail(`Shared bill has no title: ${billId}`);
+        if (!normalizedDate(sharedBill?.proposalDate)) fail(`Shared bill has invalid date: ${billId}`);
+      }
+    }
   }
 
   const noVoteMembers = members.filter((member) => !memberVoteCounts.has(String(member?.monaCode || "").trim()));
@@ -237,6 +272,7 @@ function main() {
   console.log(`- official voted bills: ${summaries.length}`);
   console.log(`- member vote rows: ${votes.length}`);
   console.log(`- member-sponsored bills: ${bills.length}`);
+  console.log(`- collaboration networks: ${Object.keys(collaborationEvidence?.members || {}).length}`);
   console.log(`- latest vote date: ${latestVoteDate}`);
   console.log(`- sentinels checked: ${sentinels.length}`);
   for (const message of warnings) console.warn(`WARN: ${message}`);

@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import {
   deriveBillLifecycles,
+  deriveCollaborationNetworks,
   deriveParticipationContexts,
   derivePartyComparisons,
   normalizeBillStatus,
@@ -96,6 +97,40 @@ assert.deepEqual(memberBills.olderThan180Days, {
   completed: 1,
   completionRate: 100,
 });
+
+const collaborationResult = deriveCollaborationNetworks(
+  members,
+  [
+    {
+      monaCode: "a",
+      billId: "shared-1",
+      billTitle: "첫 공동발의 법안",
+      proposalDate: "2026-01-01",
+      detailLink: "https://example.com/shared-1",
+      source: { PUBL_MONA_CD: "b,d,b,former" },
+    },
+    {
+      monaCode: "c",
+      billId: "shared-2",
+      billTitle: "두 번째 공동발의 법안",
+      proposalDate: "2026-02-01",
+      detailLink: "https://example.com/shared-2",
+      source: { PUBL_MONA_CD: "a,b" },
+    },
+  ],
+  { topLimit: 3, sharedBillLimit: 2 }
+);
+const memberNetwork = collaborationResult.get("a");
+assert.equal(memberNetwork.collaborationBillCount, 2);
+assert.equal(memberNetwork.uniqueCollaboratorCount, 3);
+assert.equal(memberNetwork.otherPartyCollaboratorCount, 1);
+assert.equal(memberNetwork.crossPartyBillCount, 1);
+assert.equal(memberNetwork.topCollaborators[0].monaCode, "b");
+assert.equal(memberNetwork.topCollaborators[0].billCount, 2);
+assert.deepEqual(
+  memberNetwork.topCollaborators[0].sharedBills.map((bill) => bill.billId),
+  ["shared-2", "shared-1"]
+);
 
 const participationResult = deriveParticipationContexts(members, [
   { monaCode: "a", billId: "v1", title: "참여 전", voteDate: "20260320 100000", choice: "찬성" },

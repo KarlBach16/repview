@@ -4,6 +4,12 @@ let currentRepresentative = null;
 async function initMember() {
   initI18n();
 
+  const collaborationPromise = loadJSON("data/kr/collaboration_networks.json")
+    .catch((error) => {
+      console.error("Collaboration data load error:", error);
+      return null;
+    });
+
   const params = new URLSearchParams(location.search);
   const slug = params.get("slug");
   const legacyId = params.get("id");
@@ -37,11 +43,47 @@ async function initMember() {
   initCounters();
   trackMemberView(rep.slug || rep.monaCode || "");
 
+  collaborationPromise.then((evidence) => {
+    const network = resolveCollaborationNetwork(rep, data.representatives, evidence);
+    if (!network || currentRepresentative !== rep) return;
+    rep.collaborationNetwork = network;
+    renderCollaborationNetwork(rep);
+    initFadeIns();
+  });
+
   window.addEventListener("repview:languagechange", () => {
     if (!currentRepresentative) return;
     renderMember(currentRepresentative);
     initFadeIns();
   });
+}
+
+function resolveCollaborationNetwork(rep, representatives, evidence) {
+  const raw = evidence?.members?.[rep?.monaCode];
+  if (!raw) return null;
+  const representativeByCode = new Map(
+    representatives.map((item) => [String(item?.monaCode || ""), item])
+  );
+
+  return {
+    ...raw,
+    topCollaborators: (raw.topCollaborators || []).map((collaborator) => {
+      const collaboratorRep = representativeByCode.get(String(collaborator?.monaCode || ""));
+      const profile = collaboratorRep?.profile || {};
+      return {
+        ...collaborator,
+        slug: collaboratorRep?.slug || "",
+        name: profile.name || "",
+        party: profile.party || "",
+        district: profile.district || "",
+        photo: profile.photo || "",
+        sharedBills: (collaborator.sharedBillIds || []).map((billId) => ({
+          billId,
+          ...(evidence?.bills?.[billId] || {}),
+        })),
+      };
+    }).filter((collaborator) => collaborator.name),
+  };
 }
 
 function initNavMemberName(name) {
@@ -107,6 +149,7 @@ function renderMember(rep) {
 
   renderPartyComparison(rep.partyComparison);
   renderBillLifecycle(rep.billLifecycle);
+  renderCollaborationNetwork(rep);
   renderParticipationContext(rep.participationContext);
   renderVotes(rep.recentVotes || []);
   renderShareCard(rep);
@@ -196,6 +239,75 @@ function renderBillLifecycle(lifecycle) {
       </div>
       <span class="lifecycle-status lifecycle-status--${escapeHTML(bill.statusCategory || "in_progress")}">${escapeHTML(bill.status || "심사 중")}</span>
     </a>`).join("");
+}
+
+function renderCollaborationNetwork(rep) {
+  const sectionEl = document.getElementById("collaboration-section");
+  const statsEl = document.getElementById("collaboration-stats");
+  const originEl = document.getElementById("collaboration-origin");
+  const listEl = document.getElementById("collaboration-list");
+  if (!sectionEl || !statsEl || !originEl || !listEl) return;
+
+  const network = rep.collaborationNetwork || {};
+  const collaborators = Array.isArray(network.topCollaborators)
+    ? network.topCollaborators.slice(0, 5)
+    : [];
+  sectionEl.hidden = collaborators.length === 0;
+  if (!collaborators.length) return;
+
+  const profile = rep.profile || {};
+  originEl.innerHTML = `
+    <div class="collaboration-origin-photo${profile.photo ? "" : " is-missing"}">
+      ${profile.photo
+        ? `<img src="${escapeHTML(profile.photo)}" alt="${escapeHTML(profile.name || "")}" />`
+        : `<span>${escapeHTML(String(profile.name || "?").slice(0, 1))}</span>`}
+    </div>
+    <strong>${escapeHTML(profile.name || "")}</strong>`;
+
+  statsEl.innerHTML = `
+    <span><strong>${network.collaborationBillCount || 0}</strong> 함께한 법안</span>
+    <span><strong>${network.uniqueCollaboratorCount || 0}</strong> 함께한 의원</span>
+    <span><strong>${network.otherPartyCollaboratorCount || 0}</strong> 다른 정당 의원</span>`;
+
+  listEl.innerHTML = collaborators.map((collaborator, index) => {
+    const sharedBills = Array.isArray(collaborator.sharedBills) ? collaborator.sharedBills : [];
+    const profileRoute = collaborator.slug
+      ? `member.html?slug=${encodeURIComponent(collaborator.slug)}`
+      : `member.html?id=${encodeURIComponent(collaborator.monaCode || "")}`;
+    return `
+      <details class="collaboration-person"${index === 0 ? " open" : ""}>
+        <summary>
+          <span class="collaboration-person-photo${collaborator.photo ? "" : " is-missing"}">
+            ${collaborator.photo
+              ? `<img src="${escapeHTML(collaborator.photo)}" alt="${escapeHTML(collaborator.name || "")}" loading="lazy" />`
+              : `<i>${escapeHTML(String(collaborator.name || "?").slice(0, 1))}</i>`}
+          </span>
+          <span class="collaboration-person-copy">
+            <strong>${escapeHTML(collaborator.name || "")}</strong>
+            <small>${partyAccentHTML(collaborator.party || "")}</small>
+          </span>
+          <span class="collaboration-line" aria-hidden="true"></span>
+          <span class="collaboration-count"><strong>${collaborator.billCount || 0}</strong>건</span>
+        </summary>
+        <div class="collaboration-bills">
+          ${sharedBills.map((bill) => `
+            <a href="${escapeHTML(bill.detailLink || "#")}" ${bill.detailLink ? 'target="_blank" rel="noopener noreferrer"' : ""}>
+              <span>${escapeHTML(formatProposalDate(bill.proposalDate))}</span>
+              <strong>${escapeHTML(bill.title || "")}</strong>
+            </a>`).join("")}
+          <a class="collaboration-profile-link" href="${escapeHTML(profileRoute)}">${escapeHTML(collaborator.name || "")} 의원 보기 →</a>
+        </div>
+      </details>`;
+  }).join("");
+
+  listEl.querySelectorAll(".collaboration-person").forEach((details) => {
+    details.addEventListener("toggle", () => {
+      if (!details.open) return;
+      listEl.querySelectorAll(".collaboration-person[open]").forEach((other) => {
+        if (other !== details) other.removeAttribute("open");
+      });
+    });
+  });
 }
 
 function renderParticipationContext(context) {

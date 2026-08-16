@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { gunzipSync } from "node:zlib";
 import {
   deriveBillLifecycles,
+  deriveCollaborationNetworks,
   deriveParticipationContexts,
   derivePartyComparisons,
 } from "./lib/deriveRepresentativeMetrics.js";
@@ -89,6 +90,46 @@ function round1(value) {
   return Number(value.toFixed(1));
 }
 
+function buildCollaborationEvidence(networks) {
+  const billIndex = {};
+  const memberNetworks = {};
+  let dataThrough = "";
+
+  for (const [monaCode, network] of networks) {
+    memberNetworks[monaCode] = {
+      collaborationBillCount: network.collaborationBillCount,
+      uniqueCollaboratorCount: network.uniqueCollaboratorCount,
+      otherPartyCollaboratorCount: network.otherPartyCollaboratorCount,
+      crossPartyBillCount: network.crossPartyBillCount,
+      topCollaborators: network.topCollaborators.map((collaborator) => ({
+        monaCode: collaborator.monaCode,
+        billCount: collaborator.billCount,
+        sameParty: collaborator.sameParty,
+        sharedBillIds: collaborator.sharedBills.map((bill) => {
+          if (!billIndex[bill.billId]) {
+            billIndex[bill.billId] = {
+              title: bill.title,
+              proposalDate: bill.proposalDate,
+              detailLink: bill.detailLink,
+              leadMonaCode: bill.leadMonaCode,
+            };
+          }
+          if (bill.proposalDate > dataThrough) dataThrough = bill.proposalDate;
+          return bill.billId;
+        }),
+      })),
+    };
+  }
+
+  return {
+    assembly: 22,
+    basis: "same_proposal_roster",
+    dataThrough,
+    bills: billIndex,
+    members: memberNetworks,
+  };
+}
+
 async function main() {
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = path.dirname(__filename);
@@ -98,6 +139,7 @@ async function main() {
   const votesPath = path.join(projectRoot, "data", "raw", "votes_raw.json.gz");
   const billsPath = path.join(projectRoot, "data", "raw", "bills_raw.json");
   const executiveRolesPath = path.join(projectRoot, "data", "kr", "executive_roles.json");
+  const collaborationPath = path.join(projectRoot, "data", "kr", "collaboration_networks.json");
 
   const members = readJson(membersPath);
   const votes = readGzipJson(votesPath);
@@ -114,6 +156,7 @@ async function main() {
   const billsByMonaCode = groupByMonaCode(bills);
   const partyComparisons = derivePartyComparisons(members, votes);
   const billLifecycles = deriveBillLifecycles(members, bills);
+  const collaborationNetworks = deriveCollaborationNetworks(members, bills);
   const participationContexts = deriveParticipationContexts(members, votes);
 
   const representatives = members.map((member) => {
@@ -160,12 +203,20 @@ async function main() {
   const tempPath = `${outPath}.tmp`;
   await writeFile(tempPath, `${JSON.stringify(representatives, null, 2)}\n`, "utf8");
   await rename(tempPath, outPath);
+  const collaborationTempPath = `${collaborationPath}.tmp`;
+  await writeFile(
+    collaborationTempPath,
+    `${JSON.stringify(buildCollaborationEvidence(collaborationNetworks), null, 2)}\n`,
+    "utf8"
+  );
+  await rename(collaborationTempPath, collaborationPath);
 
   console.log(`Members input: ${members.length}`);
   console.log(`Votes input rows: ${votes.length}`);
   console.log(`Bills input rows: ${bills.length}`);
   console.log(`Representatives output: ${representatives.length}`);
   console.log(`Wrote file: ${outPath}`);
+  console.log(`Wrote file: ${collaborationPath}`);
 }
 
 main().catch((err) => {
