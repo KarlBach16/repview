@@ -128,6 +128,8 @@ assert.equal(memberNetwork.otherPartyCollaboratorCount, 1);
 assert.equal(memberNetwork.crossPartyBillCount, 1);
 assert.equal(memberNetwork.topCollaborators[0].monaCode, "b");
 assert.equal(memberNetwork.topCollaborators[0].billCount, 2);
+assert.equal(memberNetwork.topOtherPartyCollaborators.length, 1);
+assert.equal(memberNetwork.topOtherPartyCollaborators[0].monaCode, "d");
 assert.deepEqual(
   memberNetwork.topCollaborators[0].sharedBills.map((bill) => bill.billId),
   ["shared-2", "shared-1"]

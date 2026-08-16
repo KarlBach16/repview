@@ -55,6 +55,7 @@ async function initMember() {
     if (!network || currentRepresentative !== rep) return;
     rep.collaborationNetwork = network;
     renderCollaborationNetwork(rep);
+    initNetworkTabs(rep);
     initFadeIns();
   });
   voteSimilarityPromise.then((evidence) => {
@@ -143,16 +144,22 @@ function resolveVoteSimilarity(rep, representatives, evidence) {
 
 function initNetworkTabs(rep) {
   const section = document.getElementById("collaboration-section");
-  if (!section || section.dataset.tabsReady === "true") return;
-  section.dataset.tabsReady = "true";
+  if (!section) return;
+  const otherPartyTab = section.querySelector('[data-network-view="other-party"]');
   const similarityTab = section.querySelector('[data-network-view="similarity"]');
-  if (similarityTab) similarityTab.hidden = false;
+  if (otherPartyTab) {
+    otherPartyTab.hidden = !(rep.collaborationNetwork?.topOtherPartyCollaborators || []).length;
+  }
+  if (similarityTab) similarityTab.hidden = !(rep.voteSimilarity?.topMatches || []).length;
+  if (section.dataset.tabsReady === "true") return;
+  section.dataset.tabsReady = "true";
   section.querySelectorAll("[data-network-view]").forEach((button) => {
     button.addEventListener("click", () => {
       section.querySelectorAll("[data-network-view]").forEach((item) => {
         item.classList.toggle("is-active", item === button);
       });
       if (button.dataset.networkView === "similarity") renderVoteSimilarityNetwork(rep);
+      else if (button.dataset.networkView === "other-party") renderCollaborationNetwork(rep, true);
       else renderCollaborationNetwork(rep);
     });
   });
@@ -165,24 +172,26 @@ function resolveCollaborationNetwork(rep, representatives, evidence) {
     representatives.map((item) => [String(item?.monaCode || ""), item])
   );
 
+  const hydrateCollaborators = (collaborators) => (collaborators || []).map((collaborator) => {
+    const collaboratorRep = representativeByCode.get(String(collaborator?.monaCode || ""));
+    const profile = collaboratorRep?.profile || {};
+    return {
+      ...collaborator,
+      slug: collaboratorRep?.slug || "",
+      name: profile.name || "",
+      party: profile.party || "",
+      district: profile.district || "",
+      photo: profile.photo || "",
+      sharedBills: (collaborator.sharedBillIds || []).map((billId) => ({
+        billId,
+        ...(evidence?.bills?.[billId] || {}),
+      })),
+    };
+  }).filter((collaborator) => collaborator.name);
   return {
     ...raw,
-    topCollaborators: (raw.topCollaborators || []).map((collaborator) => {
-      const collaboratorRep = representativeByCode.get(String(collaborator?.monaCode || ""));
-      const profile = collaboratorRep?.profile || {};
-      return {
-        ...collaborator,
-        slug: collaboratorRep?.slug || "",
-        name: profile.name || "",
-        party: profile.party || "",
-        district: profile.district || "",
-        photo: profile.photo || "",
-        sharedBills: (collaborator.sharedBillIds || []).map((billId) => ({
-          billId,
-          ...(evidence?.bills?.[billId] || {}),
-        })),
-      };
-    }).filter((collaborator) => collaborator.name),
+    topCollaborators: hydrateCollaborators(raw.topCollaborators),
+    topOtherPartyCollaborators: hydrateCollaborators(raw.topOtherPartyCollaborators),
   };
 }
 
@@ -356,7 +365,7 @@ function renderBillLifecycle(lifecycle) {
   }).join("");
 }
 
-function renderCollaborationNetwork(rep) {
+function renderCollaborationNetwork(rep, otherPartyOnly = false) {
   const sectionEl = document.getElementById("collaboration-section");
   const statsEl = document.getElementById("collaboration-stats");
   const originEl = document.getElementById("collaboration-origin");
@@ -366,13 +375,16 @@ function renderCollaborationNetwork(rep) {
   if (!sectionEl || !statsEl || !originEl || !listEl) return;
 
   const network = rep.collaborationNetwork || {};
-  const collaborators = Array.isArray(network.topCollaborators)
-    ? network.topCollaborators.slice(0, 5)
+  const source = otherPartyOnly ? network.topOtherPartyCollaborators : network.topCollaborators;
+  const collaborators = Array.isArray(source)
+    ? source.slice(0, 5)
     : [];
   sectionEl.hidden = collaborators.length === 0;
   if (!collaborators.length) return;
   if (eyebrowEl) eyebrowEl.textContent = "제22대 국회 · 공동발의 명단";
-  if (headlineEl) headlineEl.textContent = "자주 함께한 의원.";
+  if (headlineEl) headlineEl.textContent = otherPartyOnly
+    ? "다른 정당에서 자주 함께한 의원."
+    : "자주 함께한 의원.";
 
   const profile = rep.profile || {};
   originEl.innerHTML = `
@@ -383,10 +395,12 @@ function renderCollaborationNetwork(rep) {
     </div>
     <strong>${escapeHTML(profile.name || "")}</strong>`;
 
-  statsEl.innerHTML = `
-    <span><strong>${network.collaborationBillCount || 0}</strong> 함께한 법안</span>
-    <span><strong>${network.uniqueCollaboratorCount || 0}</strong> 함께한 의원</span>
-    <span><strong>${network.otherPartyCollaboratorCount || 0}</strong> 다른 정당 의원</span>`;
+  statsEl.innerHTML = otherPartyOnly
+    ? `<span><strong>${network.crossPartyBillCount || 0}</strong> 다른 정당과 함께한 법안</span>
+       <span><strong>${network.otherPartyCollaboratorCount || 0}</strong> 함께한 다른 정당 의원</span>`
+    : `<span><strong>${network.collaborationBillCount || 0}</strong> 함께한 법안</span>
+       <span><strong>${network.uniqueCollaboratorCount || 0}</strong> 함께한 의원</span>
+       <span><strong>${network.otherPartyCollaboratorCount || 0}</strong> 다른 정당 의원</span>`;
 
   listEl.innerHTML = collaborators.map((collaborator, index) => {
     const sharedBills = Array.isArray(collaborator.sharedBills) ? collaborator.sharedBills : [];

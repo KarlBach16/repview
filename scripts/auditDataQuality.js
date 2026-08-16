@@ -216,6 +216,33 @@ function main() {
         if (!normalizedDate(sharedBill?.proposalDate)) fail(`Shared bill has invalid date: ${billId}`);
       }
     }
+    if (!Array.isArray(network.topOtherPartyCollaborators) || network.topOtherPartyCollaborators.length > 5) {
+      fail(`Invalid top other-party collaborators for ${code}`);
+    } else {
+      const otherPartyCodes = new Set();
+      for (const collaborator of network.topOtherPartyCollaborators) {
+        const collaboratorCode = String(collaborator?.monaCode || "").trim();
+        if (!memberCodes.has(collaboratorCode) || collaboratorCode === code || collaborator.sameParty) {
+          fail(`Invalid other-party collaborator ${collaboratorCode || "missing"} for ${code}`);
+        }
+        if (otherPartyCodes.has(collaboratorCode)) {
+          fail(`Duplicate other-party collaborator ${collaboratorCode} for ${code}`);
+        }
+        otherPartyCodes.add(collaboratorCode);
+        if (Number(collaborator?.billCount || 0) <= 0) {
+          fail(`Invalid other-party collaboration count for ${code}/${collaboratorCode}`);
+        }
+        if (!Array.isArray(collaborator?.sharedBillIds) || collaborator.sharedBillIds.length > 4) {
+          fail(`Invalid other-party shared bills for ${code}/${collaboratorCode}`);
+          continue;
+        }
+        for (const billId of collaborator.sharedBillIds) {
+          if (!collaborationEvidence?.bills?.[billId]) {
+            fail(`Missing other-party shared bill ${billId} for ${code}/${collaboratorCode}`);
+          }
+        }
+      }
+    }
 
     const similarity = voteSimilarity?.members?.[code];
     if (!similarity || !Array.isArray(similarity.topMatches) || similarity.topMatches.length > 5) {

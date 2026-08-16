@@ -429,6 +429,9 @@ export function deriveCollaborationNetworks(members, bills, options = {}) {
       otherPartyCollaboratorCount: collaborators.filter((item) => !item.sameParty).length,
       crossPartyBillCount: crossPartyBillIds.get(memberCode)?.size || 0,
       topCollaborators: collaborators.slice(0, topLimit),
+      topOtherPartyCollaborators: collaborators
+        .filter((item) => !item.sameParty)
+        .slice(0, topLimit),
     });
   }
 

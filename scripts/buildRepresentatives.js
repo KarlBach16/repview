@@ -97,28 +97,30 @@ function buildCollaborationEvidence(networks) {
   let dataThrough = "";
 
   for (const [monaCode, network] of networks) {
+    const serializeCollaborators = (collaborators) => collaborators.map((collaborator) => ({
+      monaCode: collaborator.monaCode,
+      billCount: collaborator.billCount,
+      sameParty: collaborator.sameParty,
+      sharedBillIds: collaborator.sharedBills.map((bill) => {
+        if (!billIndex[bill.billId]) {
+          billIndex[bill.billId] = {
+            title: bill.title,
+            proposalDate: bill.proposalDate,
+            detailLink: bill.detailLink,
+            leadMonaCode: bill.leadMonaCode,
+          };
+        }
+        if (bill.proposalDate > dataThrough) dataThrough = bill.proposalDate;
+        return bill.billId;
+      }),
+    }));
     memberNetworks[monaCode] = {
       collaborationBillCount: network.collaborationBillCount,
       uniqueCollaboratorCount: network.uniqueCollaboratorCount,
       otherPartyCollaboratorCount: network.otherPartyCollaboratorCount,
       crossPartyBillCount: network.crossPartyBillCount,
-      topCollaborators: network.topCollaborators.map((collaborator) => ({
-        monaCode: collaborator.monaCode,
-        billCount: collaborator.billCount,
-        sameParty: collaborator.sameParty,
-        sharedBillIds: collaborator.sharedBills.map((bill) => {
-          if (!billIndex[bill.billId]) {
-            billIndex[bill.billId] = {
-              title: bill.title,
-              proposalDate: bill.proposalDate,
-              detailLink: bill.detailLink,
-              leadMonaCode: bill.leadMonaCode,
-            };
-          }
-          if (bill.proposalDate > dataThrough) dataThrough = bill.proposalDate;
-          return bill.billId;
-        }),
-      })),
+      topCollaborators: serializeCollaborators(network.topCollaborators),
+      topOtherPartyCollaborators: serializeCollaborators(network.topOtherPartyCollaborators),
     };
   }
 
