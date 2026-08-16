@@ -223,6 +223,13 @@ function round1(value) {
   return Number(value.toFixed(1));
 }
 
+export function getBillLeadCodes(bill) {
+  return String(bill?.source?.RST_MONA_CD || bill?.monaCode || "")
+    .split(",")
+    .map((value) => value.trim())
+    .filter((code, index, codes) => Boolean(code) && codes.indexOf(code) === index);
+}
+
 export function deriveBillLifecycles(members, bills, options = {}) {
   const asOfDate = normalizeIsoDate(options.asOfDate || new Date().toISOString());
   const matureAfterDays = Number(options.matureAfterDays || 180);
@@ -234,11 +241,12 @@ export function deriveBillLifecycles(members, bills, options = {}) {
   const billsByLead = new Map();
 
   for (const bill of bills) {
-    const leadCode = String(bill?.monaCode || "").trim();
-    if (!leadCode || !memberByCode.has(leadCode)) continue;
-    const rows = billsByLead.get(leadCode) || [];
-    rows.push(bill);
-    billsByLead.set(leadCode, rows);
+    for (const leadCode of getBillLeadCodes(bill)) {
+      if (!memberByCode.has(leadCode)) continue;
+      const rows = billsByLead.get(leadCode) || [];
+      rows.push(bill);
+      billsByLead.set(leadCode, rows);
+    }
   }
 
   const result = new Map();
@@ -258,10 +266,10 @@ export function deriveBillLifecycles(members, bills, options = {}) {
     const normalizedBills = memberBills.map((bill) => {
       const status = normalizeBillStatus(bill);
       const ageDays = daysBetween(bill?.proposalDate, asOfDate);
-      const coSponsorCodes = String(bill?.source?.PUBL_MONA_CD || "")
-        .split(",")
-        .map((value) => value.trim())
-        .filter(Boolean);
+      const coSponsorCodes = [
+        ...getBillLeadCodes(bill),
+        ...String(bill?.source?.PUBL_MONA_CD || "").split(",").map((value) => value.trim()),
+      ].filter((value, index, values) => Boolean(value) && value !== code && values.indexOf(value) === index);
       const coSponsorParties = {};
 
       for (const coSponsorCode of coSponsorCodes) {
@@ -373,7 +381,7 @@ export function deriveCollaborationNetworks(members, bills, options = {}) {
     seenBillIds.add(billId);
 
     const participantCodes = [
-      String(bill?.monaCode || "").trim(),
+      ...getBillLeadCodes(bill),
       ...String(bill?.source?.PUBL_MONA_CD || "")
         .split(",")
         .map((value) => value.trim()),

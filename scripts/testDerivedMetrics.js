@@ -5,6 +5,7 @@ import {
   deriveParticipationContexts,
   derivePartyComparisons,
   deriveVoteSimilarities,
+  getBillLeadCodes,
   normalizeBillStatus,
   normalizeVoteDate,
 } from "./lib/deriveRepresentativeMetrics.js";
@@ -34,6 +35,7 @@ const votes = [
 
 assert.equal(normalizeVoteDate("20260320 120000"), "2026-03-20");
 assert.equal(normalizeVoteDate(""), "");
+assert.deepEqual(getBillLeadCodes({ monaCode: "a", source: { RST_MONA_CD: "a,b,a" } }), ["a", "b"]);
 
 const result = derivePartyComparisons(members, votes);
 assert.equal(result.get("a").differentFromPartyMajorityCount, 0);
@@ -85,14 +87,24 @@ const billResult = deriveBillLifecycles(
       billStatus: "",
       source: { PUBL_MONA_CD: "b,c" },
     },
+    {
+      monaCode: "a",
+      billId: "joint-lead",
+      billTitle: "공동 대표발의 법안",
+      proposalDate: "2026-03-10",
+      billStatus: "",
+      source: { RST_MONA_CD: "a,d", PUBL_MONA_CD: "b" },
+    },
   ],
   { asOfDate: "2026-04-01", matureAfterDays: 180 }
 );
 const memberBills = billResult.get("a");
-assert.equal(memberBills.leadSponsoredTotal, 2);
+assert.equal(memberBills.leadSponsoredTotal, 3);
 assert.equal(memberBills.completed, 1);
-assert.equal(memberBills.inProgress, 1);
-assert.equal(memberBills.crossPartyCount, 1);
+assert.equal(memberBills.inProgress, 2);
+assert.equal(memberBills.crossPartyCount, 2);
+assert.equal(billResult.get("d").leadSponsoredTotal, 1);
+assert.equal(billResult.get("d").crossPartyCount, 1);
 assert.deepEqual(memberBills.olderThan180Days, {
   total: 1,
   completed: 1,
@@ -118,22 +130,31 @@ const collaborationResult = deriveCollaborationNetworks(
       detailLink: "https://example.com/shared-2",
       source: { PUBL_MONA_CD: "a,b" },
     },
+    {
+      monaCode: "a",
+      billId: "shared-joint-lead",
+      billTitle: "공동 대표발의 관계 법안",
+      proposalDate: "2026-03-01",
+      detailLink: "https://example.com/shared-joint-lead",
+      source: { RST_MONA_CD: "a,d", PUBL_MONA_CD: "b" },
+    },
   ],
   { topLimit: 3, sharedBillLimit: 2 }
 );
 const memberNetwork = collaborationResult.get("a");
-assert.equal(memberNetwork.collaborationBillCount, 2);
+assert.equal(memberNetwork.collaborationBillCount, 3);
 assert.equal(memberNetwork.uniqueCollaboratorCount, 3);
 assert.equal(memberNetwork.otherPartyCollaboratorCount, 1);
-assert.equal(memberNetwork.crossPartyBillCount, 1);
+assert.equal(memberNetwork.crossPartyBillCount, 2);
 assert.equal(memberNetwork.topCollaborators[0].monaCode, "b");
-assert.equal(memberNetwork.topCollaborators[0].billCount, 2);
+assert.equal(memberNetwork.topCollaborators[0].billCount, 3);
 assert.equal(memberNetwork.topOtherPartyCollaborators.length, 1);
 assert.equal(memberNetwork.topOtherPartyCollaborators[0].monaCode, "d");
 assert.deepEqual(
   memberNetwork.topCollaborators[0].sharedBills.map((bill) => bill.billId),
-  ["shared-2", "shared-1"]
+  ["shared-joint-lead", "shared-2"]
 );
+assert.equal(collaborationResult.get("d").topCollaborators.some((match) => match.monaCode === "a"), true);
 
 const similarityResult = deriveVoteSimilarities(members, votes, {
   minimumParticipants: 2,

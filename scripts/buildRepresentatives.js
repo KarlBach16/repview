@@ -9,6 +9,7 @@ import {
   deriveParticipationContexts,
   derivePartyComparisons,
   deriveVoteSimilarities,
+  getBillLeadCodes,
 } from "./lib/deriveRepresentativeMetrics.js";
 
 const RECENT_VOTES_LIMIT = 10;
@@ -44,6 +45,18 @@ function groupByMonaCode(rows) {
     const current = map.get(monaCode) || [];
     current.push(row);
     map.set(monaCode, current);
+  }
+  return map;
+}
+
+function groupBillsByLeadCode(bills) {
+  const map = new Map();
+  for (const bill of bills) {
+    for (const monaCode of getBillLeadCodes(bill)) {
+      const current = map.get(monaCode) || [];
+      current.push(bill);
+      map.set(monaCode, current);
+    }
   }
   return map;
 }
@@ -181,7 +194,7 @@ async function main() {
   );
 
   const votesByMonaCode = groupByMonaCode(votes);
-  const billsByMonaCode = groupByMonaCode(bills);
+  const billsByMonaCode = groupBillsByLeadCode(bills);
   const partyComparisons = derivePartyComparisons(members, votes);
   const billLifecycles = deriveBillLifecycles(members, bills);
   const collaborationNetworks = deriveCollaborationNetworks(members, bills);

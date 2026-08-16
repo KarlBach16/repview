@@ -2,6 +2,7 @@ import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { gunzipSync } from "node:zlib";
+import { getBillLeadCodes } from "./lib/deriveRepresentativeMetrics.js";
 
 const ALLOWED_CHOICES = new Set(["찬성", "반대", "기권", "불참"]);
 const REQUIRED_VOTE_FIELDS = ["monaCode", "party", "billId", "billNo", "title", "voteDate", "choice"];
@@ -95,8 +96,7 @@ function main() {
     if (!normalizedDate(bill?.proposalDate)) fail(`Bill row has invalid proposalDate: ${billId}`);
     if (seenBillIds.has(billId)) fail(`Duplicate bill row: ${billId}`);
     seenBillIds.add(billId);
-    const leadCode = String(bill?.monaCode || "").trim();
-    if (leadCode) addCount(leadBillCounts, leadCode);
+    for (const leadCode of getBillLeadCodes(bill)) addCount(leadBillCounts, leadCode);
 
     for (const [codeField, nameField] of [["RST_MONA_CD", "RST_PROPOSER"], ["PUBL_MONA_CD", "PUBL_PROPOSER"]]) {
       const codes = String(bill?.source?.[codeField] || "").split(",").map((value) => value.trim()).filter(Boolean);
