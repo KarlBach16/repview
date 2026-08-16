@@ -28,6 +28,30 @@ function billMemberRoute(profile) {
   return profile.code ? `member.html?id=${encodeURIComponent(profile.code)}` : "";
 }
 
+function initBillBackLink(profiles) {
+  const link = document.getElementById("bill-back-link");
+  if (!link || !document.referrer) return;
+  try {
+    const previous = new URL(document.referrer);
+    const fromMember = previous.origin === window.location.origin
+      && /\/pages\/kr\/member\.html$/.test(previous.pathname);
+    if (!fromMember) return;
+    const params = previous.searchParams;
+    const key = params.get("slug") || params.get("id") || "";
+    const profile = Object.values(profiles || {}).find(
+      (member) => member.slug === key || member.code === key
+    );
+    link.textContent = `← ${profile?.name || "의원으로"}`;
+    link.href = previous.href;
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      history.back();
+    });
+  } catch (_) {
+    // Keep the RepView fallback when the referrer is unavailable or invalid.
+  }
+}
+
 function billPersonHTML(profile, size = "lead") {
   const name = profile?.name || "의원 정보 없음";
   const route = billMemberRoute(profile);
@@ -160,6 +184,7 @@ function renderBillVote(vote, profiles) {
 }
 
 function renderBill(bill, profiles, manifest) {
+  initBillBackLink(profiles);
   document.title = `${bill.title} — RepView`;
   document.getElementById("nav-bill-number").textContent = bill.no ? `의안 ${bill.no}` : "제22대 국회";
   document.getElementById("bill-eyebrow").textContent = ["제22대 국회", bill.no ? `의안번호 ${bill.no}` : ""].filter(Boolean).join(" · ");
