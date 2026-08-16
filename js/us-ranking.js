@@ -76,10 +76,10 @@ export function trackUSMemberView(districtCode, { dwellMs = 5000 } = {}) {
   }, Math.max(0, Number(dwellMs) || 0));
 }
 
-export async function fetchUSWeeklyViewCounts() {
+export async function fetchUSMonthlyViewCounts() {
   try {
     const url = new URL(`${US_RANKING_API_BASE}/member-ranking`, window.location.origin);
-    url.searchParams.set("period", "week");
+    url.searchParams.set("period", "month");
     url.searchParams.set("limit", "500");
     const response = await fetch(url.toString(), { cache: "no-store" });
     if (!response.ok) throw new Error(`ranking api failed: ${response.status}`);

@@ -31,7 +31,7 @@
     <section class="ranking-list" id="ranking-list"></section>
   </main>
 
-  <script src="/js/app.js?v=20260814c"></script>
+  <script src="/js/app.js?v=20260816b"></script>
   <script>
     (async () => {
       const data = await loadAll();
@@ -42,7 +42,7 @@
       const requestedMetric = String(params.get("metric") || "").trim();
       let metric = validMetrics.has(requestedMetric) ? requestedMetric : "participation";
       let party = "all";
-      let weeklyCounts = {};
+      let monthlyCounts = {};
 
       const listEl = document.getElementById("ranking-list");
       const tabsEl = document.getElementById("ranking-tabs");
@@ -54,7 +54,7 @@
         if (type === "participation") return Number(s.voteParticipationRate || 0);
         if (type === "absent") return Number(s.absentCount || 0);
         if (type === "bills") return Number(s.billsProposed || 0);
-        if (type === "views") return Number(weeklyCounts[rep.slug || ""] || 0);
+        if (type === "views") return Number(monthlyCounts[rep.slug || ""] || 0);
         return 0;
       }
 
@@ -122,15 +122,15 @@
         return rows;
       }
 
-      async function loadWeeklyCounts() {
-        weeklyCounts = await fetchWeeklySearchCounts();
+      async function loadMonthlyCounts() {
+        monthlyCounts = await fetchMonthlyViewCounts();
       }
 
       function metricLabel(type) {
         if (type === "participation") return "표결 참여율";
         if (type === "absent") return "불참";
         if (type === "bills") return "대표 발의";
-        if (type === "views") return "이번 주 조회";
+        if (type === "views") return "이번 달 조회";
         return "";
       }
 
@@ -227,7 +227,7 @@
         render();
       });
 
-      await loadWeeklyCounts();
+      await loadMonthlyCounts();
       renderPartyFilters();
       setActiveMetricTab();
       syncMetricQuery();

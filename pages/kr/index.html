@@ -46,7 +46,7 @@
 
       <section class="weekly-search-preview fade-in delay-3" id="weekly-search-preview" style="display:none;">
         <a class="weekly-search-preview-head" href="ranking.html?metric=views">
-          <span class="weekly-search-preview-title">이번 주 조회랭킹 TOP3</span>
+          <span class="weekly-search-preview-title">이번 달 조회랭킹 TOP3</span>
           <span class="weekly-search-preview-link">전체 보기</span>
         </a>
         <div class="weekly-search-preview-list" id="weekly-search-preview-list"></div>
@@ -72,7 +72,7 @@
   </footer>
 
 
-  <script src="/js/app.js?v=20260814c"></script>
+  <script src="/js/app.js?v=20260816b"></script>
   <script>
     (async () => {
       let representatives = [];
@@ -93,12 +93,12 @@
           });
         }
 
-        async function renderWeeklyTopSearchPreview() {
+        async function renderMonthlyTopViewPreview() {
           const wrap = document.getElementById("weekly-search-preview");
           const listEl = document.getElementById("weekly-search-preview-list");
           if (!wrap || !listEl) return;
 
-          const top = await topWeeklySearches(representatives, 3);
+          const top = await topMonthlyViews(representatives, 3);
           if (!top.length) {
             wrap.style.display = "none";
             listEl.innerHTML = "";
@@ -196,13 +196,13 @@
         }
 
         bindHeroSearch();
-        await renderWeeklyTopSearchPreview();
+        await renderMonthlyTopViewPreview();
 
         window.addEventListener("repview:languagechange", () => {
           const input = document.getElementById("hero-search");
           const q = String(input?.value || "").trim();
           renderHeroResults(filterRepresentatives(q), q);
-          void renderWeeklyTopSearchPreview();
+          void renderMonthlyTopViewPreview();
         });
 
       } catch (e) {

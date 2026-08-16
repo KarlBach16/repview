@@ -1,4 +1,4 @@
-import { fetchUSWeeklyViewCounts, usRankingKey } from "./us-ranking.js";
+import { fetchUSMonthlyViewCounts, usRankingKey } from "./us-ranking.js";
 
 const PUBLIC_CONFIG = window.REPVIEW_PUBLIC_CONFIG || {};
 const GEOCODIO_API_KEY = PUBLIC_CONFIG.GEOCODIO_API_KEY || "";
@@ -105,13 +105,13 @@ function rankingValue(member, metric, viewCounts) {
 }
 
 function rankingValueLabel(metric) {
-  if (metric === "views") return "views this week";
+  if (metric === "views") return "views this month";
   if (metric === "party") return "votes against party majority";
   return "raised";
 }
 
 function rankingContext(member, metric) {
-  if (metric === "views") return "Reader interest, not a performance score.";
+  if (metric === "views") return "";
   if (metric === "party") {
     return `Across ${Number(member.partyComparableVotesCount || 0).toLocaleString("en-US")} comparable House votes.`;
   }
@@ -138,7 +138,7 @@ function renderUSRanking(members, metric, viewCounts) {
   if (!rows.length) {
     list.innerHTML = `
       <div class="us-ranking-empty">
-        <strong>Weekly views are collecting now.</strong>
+        <strong>Monthly views are collecting now.</strong>
         <span>Representatives will appear after readers open their profiles.</span>
       </div>`;
     return;
@@ -157,7 +157,7 @@ function renderUSRanking(members, metric, viewCounts) {
         <span class="us-ranking-member-copy">
           <strong>${escapeHTML(member.name)}</strong>
           <small>${escapeHTML(member.districtCode)} · ${escapeHTML(member.party)}</small>
-          <em>${escapeHTML(rankingContext(member, metric))}</em>
+          ${rankingContext(member, metric) ? `<em>${escapeHTML(rankingContext(member, metric))}</em>` : ""}
         </span>
         <span class="us-ranking-metric">
           <strong>${escapeHTML(rankingValue(member, metric, viewCounts))}</strong>
@@ -172,7 +172,7 @@ async function initUSRanking(members) {
   if (!tabs) return;
 
   let metric = "views";
-  const viewCounts = await fetchUSWeeklyViewCounts();
+  const viewCounts = await fetchUSMonthlyViewCounts();
 
   tabs.addEventListener("click", (event) => {
     const button = event.target.closest("[data-us-ranking-metric]");

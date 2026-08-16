@@ -2,7 +2,7 @@
 
 const BASE = "/";   // adjust if served from a subpath
 const LANG_PREF_KEY = "repview.lang";
-const CACHE_BUSTER = "20260816a";
+const CACHE_BUSTER = "20260816b";
 const SEARCH_RANKING_API_BASE = "/api/kr";
 const VIEW_DEDUPE_KEY = "repview.kr.view.dedupe";
 const ANON_ID_KEY = "repview.anon.id";
@@ -209,15 +209,15 @@ async function loadAll() {
   };
 }
 
-function getSearchWeekKey(date = new Date()) {
-  const d = new Date(date);
-  const day = (d.getDay() + 6) % 7; // Monday=0
-  d.setDate(d.getDate() - day);
-  d.setHours(0, 0, 0, 0);
-  const y = d.getFullYear();
-  const m = String(d.getMonth() + 1).padStart(2, "0");
-  const dd = String(d.getDate()).padStart(2, "0");
-  return y + "-" + m + "-" + dd;
+function getSearchMonthKey(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+  }).formatToParts(date);
+  const year = parts.find((part) => part.type === "year")?.value || "";
+  const month = parts.find((part) => part.type === "month")?.value || "";
+  return year && month ? `${year}-${month}` : "";
 }
 
 function getAnonId() {
@@ -277,23 +277,23 @@ function shouldTrackMemberView(slug, dedupeMs = 12 * 60 * 60 * 1000) {
   return true;
 }
 
-let __weeklyViewCache = {
-  weekKey: "",
+let __monthlyViewCache = {
+  monthKey: "",
   fetchedAt: 0,
   counts: {},
 };
 
-async function fetchWeeklySearchCounts({ force = false } = {}) {
-  const weekKey = getSearchWeekKey();
+async function fetchMonthlyViewCounts({ force = false } = {}) {
+  const monthKey = getSearchMonthKey();
   const now = Date.now();
 
-  if (!force && __weeklyViewCache.weekKey === weekKey && now - __weeklyViewCache.fetchedAt < 30000) {
-    return { ...(__weeklyViewCache.counts || {}) };
+  if (!force && __monthlyViewCache.monthKey === monthKey && now - __monthlyViewCache.fetchedAt < 30000) {
+    return { ...(__monthlyViewCache.counts || {}) };
   }
 
   try {
     const url = new URL(SEARCH_RANKING_API_BASE + "/member-ranking", window.location.origin);
-    url.searchParams.set("period", "week");
+    url.searchParams.set("period", "month");
     url.searchParams.set("limit", "500");
 
     const res = await fetch(url.toString(), { cache: "no-store" });
@@ -302,8 +302,8 @@ async function fetchWeeklySearchCounts({ force = false } = {}) {
     const json = await res.json();
     const counts = json && typeof json.counts === "object" ? json.counts : {};
 
-    __weeklyViewCache = {
-      weekKey,
+    __monthlyViewCache = {
+      monthKey,
       fetchedAt: now,
       counts,
     };
@@ -342,13 +342,8 @@ function trackMemberView(slug, { dwellMs = 5000 } = {}) {
   }, Math.max(0, Number(dwellMs) || 0));
 }
 
-async function weeklySearchCountFor(slug) {
-  const counts = await fetchWeeklySearchCounts();
-  return Number(counts[String(slug || "").trim()] || 0);
-}
-
-async function topWeeklySearches(representatives, limit = 3) {
-  const counts = await fetchWeeklySearchCounts();
+async function topMonthlyViews(representatives, limit = 3) {
+  const counts = await fetchMonthlyViewCounts();
   const rows = Array.isArray(representatives) ? [...representatives] : [];
 
   rows.sort((a, b) => {

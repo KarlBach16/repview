@@ -13,7 +13,9 @@
 ## 내가 코드로 이미 해둔 것
 - Worker 엔드포인트 템플릿 추가
 - `POST /api/kr/member-view` (의원페이지 방문 카운트)
-- `GET /api/kr/member-ranking?period=week&limit=500` (주간 집계)
+- `GET /api/kr/member-ranking?period=month&limit=500` (월간 집계)
+- 월간 기준: 한국시간 기준 매월 1일부터 말일까지
+- `period=week`는 이전 클라이언트 호환용 조회만 유지
 - 프론트에서 로컬 기준 제거, 글로벌 API 기반으로 전환
 
 ## 배포 방법 (CLI)
@@ -25,7 +27,7 @@ npx wrangler deploy
 ```
 
 ## 프론트 동작
-- 메인 `이번 주 조회랭킹 TOP3`는 글로벌 집계 기반
+- 메인 `이번 달 조회랭킹 TOP3`는 글로벌 집계 기반
 - 랭킹 페이지 `조회 랭킹` 탭은 글로벌 집계 기반
 - 의원페이지 진입 후 5초 체류 시 `POST /api/kr/member-view` 전송
 

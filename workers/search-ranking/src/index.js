@@ -38,6 +38,17 @@ function getKSTWeekKey(now = new Date()) {
   return `${y}-${m}-${d}`;
 }
 
+function getKSTMonthKey(now = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+  }).formatToParts(now);
+  const year = parts.find((part) => part.type === "year")?.value || "";
+  const month = parts.find((part) => part.type === "month")?.value || "";
+  return year && month ? `${year}-${month}` : "";
+}
+
 function getMinuteBucket(now = Date.now()) {
   return Math.floor(now / 60000);
 }
@@ -61,8 +72,8 @@ function getClientIp(request) {
   return ip.replace(/[^0-9a-fA-F:.]/g, "_");
 }
 
-function makeWeekSlugKey(weekKey, slug) {
-  return `week:${weekKey}:slug:${slug}`;
+function makeMonthSlugKey(monthKey, slug) {
+  return `month:${monthKey}:slug:${slug}`;
 }
 
 async function isRateLimited(request, env) {
@@ -95,19 +106,19 @@ async function handleMemberView(request, env) {
   if (!slug) return error("invalid_slug", 400);
   if (!anonId) return error("invalid_anon_id", 400);
 
-  const weekKey = getKSTWeekKey();
+  const monthKey = getKSTMonthKey();
 
-  const dedupeKey = `dedupe:${weekKey}:slug:${slug}:anon:${anonId}`;
+  const dedupeKey = `dedupe:month:${monthKey}:slug:${slug}:anon:${anonId}`;
   const seen = await env.SEARCH_RANKING_KV.get(dedupeKey);
   if (seen) {
-    return json({ ok: true, deduped: true, weekKey, slug });
+    return json({ ok: true, deduped: true, monthKey, slug });
   }
 
   await env.SEARCH_RANKING_KV.put(dedupeKey, "1", {
     expirationTtl: 60 * 60 * 12,
   });
 
-  const key = makeWeekSlugKey(weekKey, slug);
+  const key = makeMonthSlugKey(monthKey, slug);
 
   // KV has no atomic increment; acceptable for trend ranking.
   const current = Number((await env.SEARCH_RANKING_KV.get(key)) || 0);
@@ -117,11 +128,11 @@ async function handleMemberView(request, env) {
     expirationTtl: 60 * 60 * 24 * 120,
   });
 
-  return json({ ok: true, weekKey, slug, count: next });
+  return json({ ok: true, monthKey, slug, count: next });
 }
 
-async function listWeekCounts(env, weekKey) {
-  const prefix = `week:${weekKey}:slug:`;
+async function listPeriodCounts(env, period, periodKey) {
+  const prefix = `${period}:${periodKey}:slug:`;
   const counts = {};
 
   let cursor = undefined;
@@ -145,12 +156,14 @@ async function listWeekCounts(env, weekKey) {
 
 async function handleMemberRanking(request, env) {
   const url = new URL(request.url);
-  const period = String(url.searchParams.get("period") || "week").toLowerCase();
-  if (period !== "week") return error("unsupported_period", 400);
+  const period = String(url.searchParams.get("period") || "month").toLowerCase();
+  if (period !== "month" && period !== "week") return error("unsupported_period", 400);
 
   const limit = Math.min(500, Math.max(1, Number(url.searchParams.get("limit") || 100)));
   const weekKey = getKSTWeekKey();
-  const counts = await listWeekCounts(env, weekKey);
+  const monthKey = getKSTMonthKey();
+  const periodKey = period === "month" ? monthKey : weekKey;
+  const counts = await listPeriodCounts(env, period, periodKey);
 
   const rankings = Object.entries(counts)
     .sort((a, b) => {
@@ -163,6 +176,8 @@ async function handleMemberRanking(request, env) {
   return json({
     ok: true,
     period,
+    periodKey,
+    monthKey,
     weekKey,
     rankings,
     counts,
