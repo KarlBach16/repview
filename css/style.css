@@ -2054,6 +2054,8 @@ img { display: block; }
 }
 
 .collaboration-origin-photo {
+  position: relative;
+  isolation: isolate;
   width: 88px;
   height: 88px;
   overflow: hidden;
@@ -2072,7 +2074,11 @@ img { display: block; }
 }
 
 .collaboration-origin-photo img {
-  object-position: center 22%;
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  clip-path: circle(50% at 50% 50%);
+  object-position: center 8%;
 }
 
 .collaboration-person-photo img {
