@@ -86,6 +86,37 @@ function makeMemberId(name, index) {
   return id || `member_${index + 1}`;
 }
 
+function makeMemberIdsUnique(members, previousMembers = []) {
+  const baseCounts = new Map();
+  for (const member of members) {
+    const id = String(member?.id || "").trim();
+    baseCounts.set(id, (baseCounts.get(id) || 0) + 1);
+  }
+  const previousIdCounts = new Map();
+  const previousByCode = new Map();
+  for (const member of previousMembers) {
+    const code = String(member?.monaCode || "").trim();
+    const id = String(member?.id || "").trim();
+    if (code && id) previousByCode.set(code, id);
+    if (id) previousIdCounts.set(id, (previousIdCounts.get(id) || 0) + 1);
+  }
+  const usedIds = new Set();
+
+  return members.map((member, index) => {
+    const baseId = String(member?.id || "").trim() || `member_${index + 1}`;
+    const previousId = previousByCode.get(String(member?.monaCode || "").trim()) || "";
+    let id = previousId && previousIdCounts.get(previousId) === 1
+      ? previousId
+      : baseId;
+    if ((baseCounts.get(baseId) || 0) > 1 && (!previousId || previousIdCounts.get(previousId) > 1)) {
+      id = `${baseId}_${slugifyLatin(member?.monaCode) || String(index + 1)}`;
+    }
+    if (usedIds.has(id)) id = `${baseId}_${slugifyLatin(member?.monaCode) || String(index + 1)}`;
+    usedIds.add(id);
+    return id === member.id ? member : { ...member, id };
+  });
+}
+
 function compactBodySnippet(text) {
   return String(text || "")
     .replace(/\s+/g, " ")
@@ -292,18 +323,18 @@ async function main() {
     };
   });
 
-  const uniqueMembers = [];
+  const uniqueMembersByCode = [];
   const seenCodes = new Set();
   for (const m of members) {
     const keyCode = m.monaCode || m.id;
     if (seenCodes.has(keyCode)) continue;
     seenCodes.add(keyCode);
-    uniqueMembers.push(m);
+    uniqueMembersByCode.push(m);
   }
-
   const previousMembers = existsSync(outputFile)
     ? JSON.parse(readFileSync(outputFile, "utf8"))
     : [];
+  const uniqueMembers = makeMemberIdsUnique(uniqueMembersByCode, previousMembers);
   if (uniqueMembers.length < 280 || uniqueMembers.length > 310) {
     throw new Error(`Current roster count outside safety range: ${uniqueMembers.length}`);
   }

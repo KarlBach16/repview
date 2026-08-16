@@ -23,6 +23,32 @@ function normalizedAssociationMemberName(value) {
   return textContent(value).replace(/^국회의원/, "").replace(/후원회$/, "").replace(/[\s·]/g, "").trim();
 }
 
+function regionTokens(value) {
+  return [...String(value || "").matchAll(/([가-힣]+?(?:특별자치시|광역시|특별시|자치구|시|군|구))/g)]
+    .map((match) => match[1])
+    .filter(Boolean);
+}
+
+function supporterRecordForMember(member, records) {
+  const memberName = String(member?.name || "").replace(/[\s·]/g, "");
+  const candidates = records.filter((record) => record.memberName === memberName);
+  if (candidates.length <= 1) return candidates[0] || null;
+
+  const memberRegions = new Set(regionTokens(member?.district));
+  const scored = candidates.map((record) => ({
+    record,
+    score: regionTokens(record.region).filter((region) => memberRegions.has(region)).length,
+  })).sort((a, b) => b.score - a.score);
+
+  const bestScore = scored[0]?.score || 0;
+  const regionalMatches = scored.filter((candidate) => candidate.score === bestScore);
+  if (bestScore > 0 && regionalMatches.length === 1) return regionalMatches[0].record;
+  const activeMatches = regionalMatches.filter((candidate) => candidate.record.donationUrl);
+  if (bestScore > 0 && activeMatches.length === 1) return activeMatches[0].record;
+  console.warn(`Ambiguous supporter association: ${memberName} (${member?.district || "no district"})`);
+  return null;
+}
+
 async function fetchText(url, attempts = 5) {
   let lastError;
   for (let attempt = 0; attempt < attempts; attempt += 1) {
@@ -87,8 +113,9 @@ async function main() {
   const url = new URL(LIST_URL);
   url.search = new URLSearchParams({ menuNo: "200025", search: "Y", gubCd: "GUB101", pageIndex: "1", pageSize: "500", pageUnit: "500" }).toString();
   const listRecords = parseList(await fetchText(url));
-  const recordByMemberName = new Map(listRecords.map((record) => [record.memberName, record]));
-  const matched = members.map((member) => ({ member, record: recordByMemberName.get(String(member.name || "").replace(/\s/g, "")) })).filter(({ record }) => Boolean(record));
+  const matched = members
+    .map((member) => ({ member, record: supporterRecordForMember(member, listRecords) }))
+    .filter(({ record }) => Boolean(record));
   const output = {};
 
   for (let index = 0; index < matched.length; index += CONCURRENCY) {

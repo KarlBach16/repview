@@ -158,13 +158,18 @@ function main() {
   }
 
   const memberCodes = new Set();
+  const memberIds = new Set();
   for (const member of members) {
     const code = String(member?.monaCode || "").trim();
+    const id = String(member?.id || "").trim();
     if (!code) fail(`Current member has no monaCode: ${member?.name || "unknown"}`);
+    if (!id) fail(`Current member has no id: ${member?.name || code || "unknown"}`);
     if (!String(member?.name || "").trim()) fail(`Current member has no name: ${code}`);
     if (!String(member?.party || "").trim()) fail(`Current member has no party: ${member?.name || code}`);
     if (memberCodes.has(code)) fail(`Duplicate current member code: ${code}`);
+    if (memberIds.has(id)) fail(`Duplicate current member id: ${id}`);
     memberCodes.add(code);
+    memberIds.add(id);
   }
 
   if (representatives.length !== members.length) {
@@ -270,10 +275,16 @@ function main() {
   }
   const supporterRows = Object.entries(supporterAssociations?.members || {});
   if (supporterRows.length < members.length - 5) fail(`Supporter association coverage too low: ${supporterRows.length}`);
+  const supporterSources = new Map();
   for (const [code, supporter] of supporterRows) {
     if (!memberCodes.has(code) || !supporter?.associationName || !/^https:\/\/www\.give\.go\.kr\//.test(supporter?.sourceUrl || "")) {
       fail(`Invalid supporter association: ${code}`);
     }
+    const sourceUrl = String(supporter?.sourceUrl || "").trim();
+    if (sourceUrl && supporterSources.has(sourceUrl)) {
+      fail(`Supporter association source reused by ${supporterSources.get(sourceUrl)} and ${code}: ${sourceUrl}`);
+    }
+    if (sourceUrl) supporterSources.set(sourceUrl, code);
   }
   for (const [code, books] of Object.entries(memberBooks?.members || {})) {
     if (!memberCodes.has(code) || !Array.isArray(books) || !books.length || books.length > 3) fail(`Invalid member books: ${code}`);
