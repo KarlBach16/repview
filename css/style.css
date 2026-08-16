@@ -2260,6 +2260,7 @@ img { display: block; }
   padding: 88px 24px 110px;
   background: #f5f5f7;
   color: #111;
+  overflow-x: hidden;
 }
 
 .member-more[hidden],
@@ -2268,10 +2269,13 @@ img { display: block; }
 
 .member-more-inner {
   width: min(980px, 100%);
+  min-width: 0;
   margin: 0 auto;
   display: grid;
   gap: 68px;
 }
+
+.member-books-block { min-width: 0; }
 
 .member-more-label {
   margin-bottom: 22px;
@@ -2327,6 +2331,9 @@ img { display: block; }
     padding-right: 20px;
     display: flex;
     overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
   }
