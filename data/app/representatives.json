@@ -11786,7 +11786,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "행정안전위원회",
           "coSponsorCount": 10,
           "coSponsorParties": {
             "국민의힘": 10
@@ -27530,7 +27530,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "법제사법위원회",
           "coSponsorCount": 9,
           "coSponsorParties": {
             "더불어민주당": 7,
@@ -37333,7 +37333,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "기후에너지환경노동위원회",
           "coSponsorCount": 9,
           "coSponsorParties": {
             "국민의힘": 9
@@ -38414,7 +38414,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "국토교통위원회",
           "coSponsorCount": 9,
           "coSponsorParties": {
             "국민의힘": 9
@@ -38430,7 +38430,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "국토교통위원회",
           "coSponsorCount": 10,
           "coSponsorParties": {
             "국민의힘": 10
@@ -42387,8 +42387,14 @@
     "absentCount": 0,
     "recentVotes": [],
     "recentAbsentVotes": [],
-    "billsProposed": 6,
+    "billsProposed": 7,
     "recentBills": [
+      {
+        "billId": "PRC_N2M6T0R7S1Q5R1Y7A0Y8Y5W4V5R1S0",
+        "title": "근로기준법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_V2V6U0V7Q2P9P1N1O2N9N0V5T0U3S5",
         "title": "전기사업법 일부개정법률안",
@@ -42438,15 +42444,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 6,
-      "inProgress": 6,
+      "leadSponsoredTotal": 7,
+      "inProgress": 7,
       "completed": 0,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 0,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 6
+        "심사 중": 7
       },
       "olderThan180Days": {
         "total": 0,
@@ -42454,6 +42460,22 @@
         "completionRate": null
       },
       "recentBills": [
+        {
+          "billId": "PRC_N2M6T0R7S1Q5R1Y7A0Y8Y5W4V5R1S0",
+          "title": "근로기준법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 9,
+          "coSponsorParties": {
+            "국민의힘": 9
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2M6T0R7S1Q5R1Y7A0Y8Y5W4V5R1S0&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_V2V6U0V7Q2P9P1N1O2N9N0V5T0U3S5",
           "title": "전기사업법 일부개정법률안",
@@ -43929,7 +43951,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "정무위원회",
           "coSponsorCount": 10,
           "coSponsorParties": {
             "국민의힘": 10
@@ -45336,8 +45358,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 118,
+    "billsProposed": 119,
     "recentBills": [
+      {
+        "billId": "PRC_V2W6U0S8T1R2S1A5A0Z6X5Y0W6X4F0",
+        "title": "여신전문금융업법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_D2B6B0A8B0Z6Z0H9G5G3E3F1D2U3U1",
         "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
@@ -45391,12 +45419,6 @@
         "title": "상법 일부개정법률안",
         "proposalDate": "2026-04-08",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_Q2P6P0X4Y0W6V1V7T0U9C3D6B4B5A8",
-        "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-04-08",
-        "billStatus": ""
       }
     ],
     "partyComparison": {
@@ -45411,15 +45433,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 118,
-      "inProgress": 94,
+      "leadSponsoredTotal": 119,
+      "inProgress": 95,
       "completed": 24,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 20,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 94,
+        "심사 중": 95,
         "대안반영폐기": 19,
         "철회": 1,
         "원안가결": 4
@@ -45430,6 +45452,22 @@
         "completionRate": 23.1
       },
       "recentBills": [
+        {
+          "billId": "PRC_V2W6U0S8T1R2S1A5A0Z6X5Y0W6X4F0",
+          "title": "여신전문금융업법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 10,
+          "coSponsorParties": {
+            "더불어민주당": 10
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2W6U0S8T1R2S1A5A0Z6X5Y0W6X4F0&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_D2B6B0A8B0Z6Z0H9G5G3E3F1D2U3U1",
           "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
@@ -45573,22 +45611,6 @@
           },
           "hasOtherParty": false,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2R6Z0A4Y0W6X1V7W0E8E4D7B2B7A4&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_Q2P6P0X4Y0W6V1V7T0U9C3D6B4B5A8",
-          "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
-          "proposalDate": "2026-04-08",
-          "ageDays": 130,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "정무위원회",
-          "coSponsorCount": 10,
-          "coSponsorParties": {
-            "더불어민주당": 10
-          },
-          "hasOtherParty": false,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2P6P0X4Y0W6V1V7T0U9C3D6B4B5A8&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -48297,8 +48319,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 34,
+    "billsProposed": 36,
     "recentBills": [
+      {
+        "billId": "PRC_U2D6C0B6F1O8N0K9G4F6C2L3K9J5T7",
+        "title": "조세특례제한법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_V2W6U0V7T0S3S1A5B3Z7A5Y3W4X2F8",
+        "title": "유료도로법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_K2K6J0K6I1I8R0P9P4N8O1N4N7J3H4",
         "title": "전자금융거래법 일부개정법률안",
@@ -48345,18 +48379,6 @@
         "billId": "PRC_Q2O6W0L5S1R8M0L9I0Q3P5P3O2Y3S8",
         "title": "민사집행법 일부개정법률안",
         "proposalDate": "2026-06-12",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_Z2H6I0G3H0F3G1E0E0M2N1L7J2K5J3",
-        "title": "언론중재 및 피해구제 등에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-05-27",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_Z2A5Y1X2X1V2W1D7F2D4D5B9C4A3I0",
-        "title": "방송법 일부개정법률안",
-        "proposalDate": "2025-12-16",
         "billStatus": ""
       }
     ],
@@ -48562,15 +48584,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 34,
-      "inProgress": 24,
+      "leadSponsoredTotal": 36,
+      "inProgress": 26,
       "completed": 10,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 6,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 24,
+        "심사 중": 26,
         "대안반영폐기": 10
       },
       "olderThan180Days": {
@@ -48580,6 +48602,38 @@
       },
       "recentBills": [
         {
+          "billId": "PRC_U2D6C0B6F1O8N0K9G4F6C2L3K9J5T7",
+          "title": "조세특례제한법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 9,
+          "coSponsorParties": {
+            "더불어민주당": 9
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2D6C0B6F1O8N0K9G4F6C2L3K9J5T7&ageFrom=22&ageTo=22"
+        },
+        {
+          "billId": "PRC_V2W6U0V7T0S3S1A5B3Z7A5Y3W4X2F8",
+          "title": "유료도로법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 12,
+          "coSponsorParties": {
+            "더불어민주당": 12
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2W6U0V7T0S3S1A5B3Z7A5Y3W4X2F8&ageFrom=22&ageTo=22"
+        },
+        {
           "billId": "PRC_K2K6J0K6I1I8R0P9P4N8O1N4N7J3H4",
           "title": "전자금융거래법 일부개정법률안",
           "proposalDate": "2026-08-13",
@@ -48587,7 +48641,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "정무위원회",
           "coSponsorCount": 11,
           "coSponsorParties": {
             "더불어민주당": 11
@@ -48706,40 +48760,6 @@
           },
           "hasOtherParty": false,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2O6W0L5S1R8M0L9I0Q3P5P3O2Y3S8&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_Z2H6I0G3H0F3G1E0E0M2N1L7J2K5J3",
-          "title": "언론중재 및 피해구제 등에 관한 법률 일부개정법률안",
-          "proposalDate": "2026-05-27",
-          "ageDays": 81,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "문화체육관광위원회",
-          "coSponsorCount": 23,
-          "coSponsorParties": {
-            "더불어민주당": 22,
-            "무소속": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2H6I0G3H0F3G1E0E0M2N1L7J2K5J3&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_Z2A5Y1X2X1V2W1D7F2D4D5B9C4A3I0",
-          "title": "방송법 일부개정법률안",
-          "proposalDate": "2025-12-16",
-          "ageDays": 243,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "과학기술정보방송통신위원회",
-          "coSponsorCount": 11,
-          "coSponsorParties": {
-            "더불어민주당": 10,
-            "무소속": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2A5Y1X2X1V2W1D7F2D4D5B9C4A3I0&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -50280,7 +50300,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "국회운영위원회",
           "coSponsorCount": 9,
           "coSponsorParties": {
             "더불어민주당": 9
@@ -51908,8 +51928,26 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 143,
+    "billsProposed": 146,
     "recentBills": [
+      {
+        "billId": "PRC_F2O6O0N7N2M9M1K7G5H9F5G3E4F4D8",
+        "title": "서민의 금융생활 지원에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_H2F6N0N7M2N9L1L8K0S0S3Q9R3P5O9",
+        "title": "지방공기업법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_N2V6U0U7S2T9R1S7O5M9N2L7M7K1S3",
+        "title": "반도체산업 경쟁력 강화 및 지원에 관한 특별법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_H2I6P0O7P0N7N1M3N5C9D1B2Z2A0Z0",
         "title": "불평등 대응 및 해소를 위한 특별법안",
@@ -51951,24 +51989,6 @@
         "title": "전자정부법 일부개정법률안",
         "proposalDate": "2026-08-04",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_E2F4N0L7L0K5L1J0J1F5D5E7D4D4B5",
-        "title": "기초연금법 일부개정법률안",
-        "proposalDate": "2026-07-21",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_A2A6I0G6F3G0E1A1Y0X8Y4X1F2D9C8",
-        "title": "건설산업기본법 일부개정법률안",
-        "proposalDate": "2026-07-08",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_V2U6Q0P3M1U8S1W3W5T3B0A6Z0Y4H7",
-        "title": "공공주택 특별법 일부개정법률안",
-        "proposalDate": "2026-06-10",
-        "billStatus": ""
       }
     ],
     "partyComparison": {
@@ -51983,15 +52003,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 143,
-      "inProgress": 115,
+      "leadSponsoredTotal": 146,
+      "inProgress": 118,
       "completed": 28,
       "returned": 0,
       "unknown": 0,
-      "crossPartyCount": 57,
+      "crossPartyCount": 60,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 115,
+        "심사 중": 118,
         "대안반영폐기": 25,
         "원안가결": 1,
         "수정가결": 1,
@@ -52004,6 +52024,57 @@
       },
       "recentBills": [
         {
+          "billId": "PRC_F2O6O0N7N2M9M1K7G5H9F5G3E4F4D8",
+          "title": "서민의 금융생활 지원에 관한 법률 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 9,
+          "coSponsorParties": {
+            "더불어민주당": 8,
+            "무소속": 1
+          },
+          "hasOtherParty": true,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2O6O0N7N2M9M1K7G5H9F5G3E4F4D8&ageFrom=22&ageTo=22"
+        },
+        {
+          "billId": "PRC_H2F6N0N7M2N9L1L8K0S0S3Q9R3P5O9",
+          "title": "지방공기업법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 9,
+          "coSponsorParties": {
+            "더불어민주당": 8,
+            "무소속": 1
+          },
+          "hasOtherParty": true,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2F6N0N7M2N9L1L8K0S0S3Q9R3P5O9&ageFrom=22&ageTo=22"
+        },
+        {
+          "billId": "PRC_N2V6U0U7S2T9R1S7O5M9N2L7M7K1S3",
+          "title": "반도체산업 경쟁력 강화 및 지원에 관한 특별법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 10,
+          "coSponsorParties": {
+            "더불어민주당": 9,
+            "무소속": 1
+          },
+          "hasOtherParty": true,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2V6U0U7S2T9R1S7O5M9N2L7M7K1S3&ageFrom=22&ageTo=22"
+        },
+        {
           "billId": "PRC_H2I6P0O7P0N7N1M3N5C9D1B2Z2A0Z0",
           "title": "불평등 대응 및 해소를 위한 특별법안",
           "proposalDate": "2026-08-13",
@@ -52011,7 +52082,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "재정경제기획위원회",
           "coSponsorCount": 22,
           "coSponsorParties": {
             "더불어민주당": 22
@@ -52118,56 +52189,6 @@
           },
           "hasOtherParty": false,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2R6Q0Y7Y3W1Y1W5W1V0D0D9B3C0A8&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_E2F4N0L7L0K5L1J0J1F5D5E7D4D4B5",
-          "title": "기초연금법 일부개정법률안",
-          "proposalDate": "2026-07-21",
-          "ageDays": 26,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "보건복지위원회",
-          "coSponsorCount": 9,
-          "coSponsorParties": {
-            "더불어민주당": 8,
-            "무소속": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2F4N0L7L0K5L1J0J1F5D5E7D4D4B5&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_A2A6I0G6F3G0E1A1Y0X8Y4X1F2D9C8",
-          "title": "건설산업기본법 일부개정법률안",
-          "proposalDate": "2026-07-08",
-          "ageDays": 39,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "국토교통위원회",
-          "coSponsorCount": 9,
-          "coSponsorParties": {
-            "더불어민주당": 8,
-            "무소속": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2A6I0G6F3G0E1A1Y0X8Y4X1F2D9C8&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_V2U6Q0P3M1U8S1W3W5T3B0A6Z0Y4H7",
-          "title": "공공주택 특별법 일부개정법률안",
-          "proposalDate": "2026-06-10",
-          "ageDays": 67,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "국토교통위원회",
-          "coSponsorCount": 11,
-          "coSponsorParties": {
-            "더불어민주당": 11
-          },
-          "hasOtherParty": false,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2U6Q0P3M1U8S1W3W5T3B0A6Z0Y4H7&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -53490,8 +53511,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 73,
+    "billsProposed": 74,
     "recentBills": [
+      {
+        "billId": "PRC_I2G6H0F8E1E3M1N4L1M1K5J9J0F2G5",
+        "title": "상가건물 임대차보호법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_J2H6I0P7R3P1P1N0M5N3U3V8U3U5S5",
         "title": "산림기술 진흥 및 관리에 관한 법률 일부개정법률안",
@@ -53545,12 +53572,6 @@
         "title": "형사소송법 일부개정법률안",
         "proposalDate": "2026-04-30",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_H2I6Q0O4O2N4O1M4M5V9T1Q6R2N4N8",
-        "title": "도로교통법 일부개정법률안",
-        "proposalDate": "2026-04-27",
-        "billStatus": ""
       }
     ],
     "partyComparison": {
@@ -53565,15 +53586,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 73,
-      "inProgress": 62,
+      "leadSponsoredTotal": 74,
+      "inProgress": 63,
       "completed": 11,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 38,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 62,
+        "심사 중": 63,
         "대안반영폐기": 8,
         "수정가결": 2,
         "철회": 1
@@ -53584,6 +53605,22 @@
         "completionRate": 20.4
       },
       "recentBills": [
+        {
+          "billId": "PRC_I2G6H0F8E1E3M1N4L1M1K5J9J0F2G5",
+          "title": "상가건물 임대차보호법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 9,
+          "coSponsorParties": {
+            "더불어민주당": 9
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2G6H0F8E1E3M1N4L1M1K5J9J0F2G5&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_J2H6I0P7R3P1P1N0M5N3U3V8U3U5S5",
           "title": "산림기술 진흥 및 관리에 관한 법률 일부개정법률안",
@@ -53729,23 +53766,6 @@
           },
           "hasOtherParty": false,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2X6Y0G4G2F9D1E4C4D2L5L7J1I5I6&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_H2I6Q0O4O2N4O1M4M5V9T1Q6R2N4N8",
-          "title": "도로교통법 일부개정법률안",
-          "proposalDate": "2026-04-27",
-          "ageDays": 111,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "행정안전위원회",
-          "coSponsorCount": 17,
-          "coSponsorParties": {
-            "더불어민주당": 15,
-            "무소속": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2I6Q0O4O2N4O1M4M5V9T1Q6R2N4N8&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -57080,8 +57100,26 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 100,
+    "billsProposed": 103,
     "recentBills": [
+      {
+        "billId": "PRC_O2M6M0K8M1K0K1G4E0F5D4E8C4D3L8",
+        "title": "공공갈등의 예방 및 해결에 관한 법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_K2I6J0I7G1G0O1P4N4O6M0N2L0H5H3",
+        "title": "가정폭력범죄의 처벌 등에 관한 특례법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_I2H6I0G7G1F0F1O4M4M5L3M4K0K6S2",
+        "title": "스토킹범죄의 처벌 등에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_F2F6D0E7M0K7L1J6K2I2J4Q9R6Q6O6",
         "title": "자동차손해배상 보장법 일부개정법률안",
@@ -57123,24 +57161,6 @@
         "title": "하도급거래 공정화에 관한 법률 일부개정법률안",
         "proposalDate": "2026-02-26",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_M2N6L0L2K2S4S1R6S4Q9Q3P2P7X5W0",
-        "title": "신산업ㆍ신기술 규제특례 등에 관한 법률안",
-        "proposalDate": "2026-02-25",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_B2C6B0B2J0J5I0G9H4F6F0C7C4A5B3",
-        "title": "하도급거래 공정화에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-02-25",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_Z2Z6X0Y1U2S9T1R1S0Q5Q0Z2Z7X9Y6",
-        "title": "국가재정법 일부개정법률안",
-        "proposalDate": "2026-01-30",
-        "billStatus": ""
       }
     ],
     "partyComparison": {
@@ -57155,15 +57175,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 100,
-      "inProgress": 77,
+      "leadSponsoredTotal": 103,
+      "inProgress": 80,
       "completed": 23,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 52,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 77,
+        "심사 중": 80,
         "수정가결": 1,
         "대안반영폐기": 21,
         "철회": 1
@@ -57174,6 +57194,54 @@
         "completionRate": 25.3
       },
       "recentBills": [
+        {
+          "billId": "PRC_O2M6M0K8M1K0K1G4E0F5D4E8C4D3L8",
+          "title": "공공갈등의 예방 및 해결에 관한 법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 9,
+          "coSponsorParties": {
+            "더불어민주당": 9
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2M6M0K8M1K0K1G4E0F5D4E8C4D3L8&ageFrom=22&ageTo=22"
+        },
+        {
+          "billId": "PRC_K2I6J0I7G1G0O1P4N4O6M0N2L0H5H3",
+          "title": "가정폭력범죄의 처벌 등에 관한 특례법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 10,
+          "coSponsorParties": {
+            "더불어민주당": 10
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2I6J0I7G1G0O1P4N4O6M0N2L0H5H3&ageFrom=22&ageTo=22"
+        },
+        {
+          "billId": "PRC_I2H6I0G7G1F0F1O4M4M5L3M4K0K6S2",
+          "title": "스토킹범죄의 처벌 등에 관한 법률 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 10,
+          "coSponsorParties": {
+            "더불어민주당": 10
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2H6I0G7G1F0F1O4M4M5L3M4K0K6S2&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_F2F6D0E7M0K7L1J6K2I2J4Q9R6Q6O6",
           "title": "자동차손해배상 보장법 일부개정법률안",
@@ -57289,55 +57357,6 @@
           },
           "hasOtherParty": false,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2V6T0T2C0A5A0Z9Z4X6Y5U0U9T8T2&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_M2N6L0L2K2S4S1R6S4Q9Q3P2P7X5W0",
-          "title": "신산업ㆍ신기술 규제특례 등에 관한 법률안",
-          "proposalDate": "2026-02-25",
-          "ageDays": 172,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "정무위원회",
-          "coSponsorCount": 11,
-          "coSponsorParties": {
-            "더불어민주당": 10
-          },
-          "hasOtherParty": false,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2N6L0L2K2S4S1R6S4Q9Q3P2P7X5W0&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_B2C6B0B2J0J5I0G9H4F6F0C7C4A5B3",
-          "title": "하도급거래 공정화에 관한 법률 일부개정법률안",
-          "proposalDate": "2026-02-25",
-          "ageDays": 172,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "정무위원회",
-          "coSponsorCount": 11,
-          "coSponsorParties": {
-            "더불어민주당": 10
-          },
-          "hasOtherParty": false,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2C6B0B2J0J5I0G9H4F6F0C7C4A5B3&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_Z2Z6X0Y1U2S9T1R1S0Q5Q0Z2Z7X9Y6",
-          "title": "국가재정법 일부개정법률안",
-          "proposalDate": "2026-01-30",
-          "ageDays": 198,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "재정경제기획위원회",
-          "coSponsorCount": 9,
-          "coSponsorParties": {
-            "더불어민주당": 7,
-            "조국혁신당": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2Z6X0Y1U2S9T1R1S0Q5Q0Z2Z7X9Y6&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -59529,8 +59548,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 129,
+    "billsProposed": 130,
     "recentBills": [
+      {
+        "billId": "PRC_H2H6F0E7F1M3N1L1M3K3L4J1R2S0Q4",
+        "title": "지방공기업법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_X2X6W0W7V1V3R1P1Q3O5P2N3O6W7W4",
         "title": "문화예술진흥법 일부개정법률안",
@@ -59583,12 +59608,6 @@
         "billId": "PRC_W2X6V0U6C1B0B1A0Y3V9T1U2T1R3Z8",
         "title": "지역문화진흥법 일부개정법률안",
         "proposalDate": "2026-06-25",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_J2R6R0P4O1O6M1O0V1W9U3T1T2R7S0",
-        "title": "위생용품 관리법 일부개정법률안",
-        "proposalDate": "2026-06-23",
         "billStatus": ""
       }
     ],
@@ -59773,15 +59792,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 129,
-      "inProgress": 93,
+      "leadSponsoredTotal": 130,
+      "inProgress": 94,
       "completed": 36,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 0,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 93,
+        "심사 중": 94,
         "수정가결": 5,
         "대안반영폐기": 27,
         "원안가결": 2,
@@ -59794,6 +59813,22 @@
         "completionRate": 37.5
       },
       "recentBills": [
+        {
+          "billId": "PRC_H2H6F0E7F1M3N1L1M3K3L4J1R2S0Q4",
+          "title": "지방공기업법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 10,
+          "coSponsorParties": {
+            "국민의힘": 10
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2H6F0E7F1M3N1L1M3K3L4J1R2S0Q4&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_X2X6W0W7V1V3R1P1Q3O5P2N3O6W7W4",
           "title": "문화예술진흥법 일부개정법률안",
@@ -59937,22 +59972,6 @@
           },
           "hasOtherParty": false,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_W2X6V0U6C1B0B1A0Y3V9T1U2T1R3Z8&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_J2R6R0P4O1O6M1O0V1W9U3T1T2R7S0",
-          "title": "위생용품 관리법 일부개정법률안",
-          "proposalDate": "2026-06-23",
-          "ageDays": 54,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "보건복지위원회",
-          "coSponsorCount": 11,
-          "coSponsorParties": {
-            "국민의힘": 11
-          },
-          "hasOtherParty": false,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2R6R0P4O1O6M1O0V1W9U3T1T2R7S0&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -62652,7 +62671,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "보건복지위원회",
           "coSponsorCount": 9,
           "coSponsorParties": {
             "조국혁신당": 5,
@@ -70513,8 +70532,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 148,
+    "billsProposed": 149,
     "recentBills": [
+      {
+        "billId": "PRC_X2T6T0S8T1R2P1Q7Y3Y0X0V0W3U5V8",
+        "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_X2V6U0V7T0U1C0C9B2Z1Z2Y8Z3G2H7",
         "title": "동남권투자공사 설립 및 운영에 관한 법률안",
@@ -70567,12 +70592,6 @@
         "billId": "PRC_L2L6K0I6J1H1I1X0V2W6U4U9T8U7B1",
         "title": "근로자참여 및 협력증진에 관한 법률 일부개정법률안",
         "proposalDate": "2026-06-18",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_K2J6K0R6Q0P8X1U3T5B9B0Z2X7D0D8",
-        "title": "환경오염시설의 통합관리에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-06-16",
         "billStatus": ""
       }
     ],
@@ -70925,15 +70944,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 148,
-      "inProgress": 102,
+      "leadSponsoredTotal": 149,
+      "inProgress": 103,
       "completed": 46,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 76,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 102,
+        "심사 중": 103,
         "대안반영폐기": 42,
         "원안가결": 1,
         "철회": 1,
@@ -70945,6 +70964,22 @@
         "completionRate": 38.5
       },
       "recentBills": [
+        {
+          "billId": "PRC_X2T6T0S8T1R2P1Q7Y3Y0X0V0W3U5V8",
+          "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 18,
+          "coSponsorParties": {
+            "더불어민주당": 18
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2T6T0S8T1R2P1Q7Y3Y0X0V0W3U5V8&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_X2V6U0V7T0U1C0C9B2Z1Z2Y8Z3G2H7",
           "title": "동남권투자공사 설립 및 운영에 관한 법률안",
@@ -71093,23 +71128,6 @@
           },
           "hasOtherParty": true,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2L6K0I6J1H1I1X0V2W6U4U9T8U7B1&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_K2J6K0R6Q0P8X1U3T5B9B0Z2X7D0D8",
-          "title": "환경오염시설의 통합관리에 관한 법률 일부개정법률안",
-          "proposalDate": "2026-06-16",
-          "ageDays": 61,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "기후에너지환경노동위원회",
-          "coSponsorCount": 17,
-          "coSponsorParties": {
-            "더불어민주당": 16,
-            "무소속": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2J6K0R6Q0P8X1U3T5B9B0Z2X7D0D8&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -85400,8 +85418,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 57,
+    "billsProposed": 58,
     "recentBills": [
+      {
+        "billId": "PRC_T2J6H0I8G1H3F1G5O2O7N2L4L7K8L4",
+        "title": "서민의 금융생활 지원에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_S2R6L0K5J1S9P0R8Q5Z9Y0X8D5C0B9",
         "title": "도로교통법 일부개정법률안",
@@ -85455,12 +85479,6 @@
         "title": "통일교와 정치권 인사간 불법 금품수수 및 유착의혹 진상규명을 위한 특별검사 임명 등에 관한 법률안",
         "proposalDate": "2025-12-23",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_Z2A5Y1Y0X1F4G1E7E5C7D4C7C5K3K7",
-        "title": "남북협력기금법 일부개정법률안",
-        "proposalDate": "2025-10-15",
-        "billStatus": ""
       }
     ],
     "partyComparison": {
@@ -85497,15 +85515,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 57,
-      "inProgress": 45,
+      "leadSponsoredTotal": 58,
+      "inProgress": 46,
       "completed": 12,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 2,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 45,
+        "심사 중": 46,
         "대안반영폐기": 7,
         "수정가결": 1,
         "철회": 4
@@ -85516,6 +85534,22 @@
         "completionRate": 23.1
       },
       "recentBills": [
+        {
+          "billId": "PRC_T2J6H0I8G1H3F1G5O2O7N2L4L7K8L4",
+          "title": "서민의 금융생활 지원에 관한 법률 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 10,
+          "coSponsorParties": {
+            "국민의힘": 10
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2J6H0I8G1H3F1G5O2O7N2L4L7K8L4&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_S2R6L0K5J1S9P0R8Q5Z9Y0X8D5C0B9",
           "title": "도로교통법 일부개정법률안",
@@ -85661,22 +85695,6 @@
           },
           "hasOtherParty": true,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2S5J1O2W2Y3V1T5B5W2K0W5P2B8K5&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_Z2A5Y1Y0X1F4G1E7E5C7D4C7C5K3K7",
-          "title": "남북협력기금법 일부개정법률안",
-          "proposalDate": "2025-10-15",
-          "ageDays": 305,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "외교통일위원회",
-          "coSponsorCount": 10,
-          "coSponsorParties": {
-            "국민의힘": 9
-          },
-          "hasOtherParty": false,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2A5Y1Y0X1F4G1E7E5C7D4C7C5K3K7&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -86075,8 +86093,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 116,
+    "billsProposed": 117,
     "recentBills": [
+      {
+        "billId": "PRC_H2F6G0O8O0N5L1M5K1L1G1H1G7E1E0",
+        "title": "선박의 입항 및 출항 등에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_L2L6K0L7S2T8R1Q0Q3P0P0F8G3E2E8",
         "title": "축산법 일부개정법률안",
@@ -86129,12 +86153,6 @@
         "billId": "PRC_F2G6E0E4D0B9C0J9K1J9J4I2G2H8O9",
         "title": "사료관리법 일부개정법률안",
         "proposalDate": "2026-04-27",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_S2Q6Q0Z4Z0X9Y0W9V2V1D1D2C2D2B7",
-        "title": "수상레저기구의 등록 및 검사에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-04-22",
         "billStatus": ""
       }
     ],
@@ -86235,15 +86253,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 116,
-      "inProgress": 82,
+      "leadSponsoredTotal": 117,
+      "inProgress": 83,
       "completed": 34,
       "returned": 0,
       "unknown": 0,
-      "crossPartyCount": 77,
+      "crossPartyCount": 78,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 82,
+        "심사 중": 83,
         "대안반영폐기": 29,
         "수정가결": 3,
         "원안가결": 2
@@ -86254,6 +86272,23 @@
         "completionRate": 34
       },
       "recentBills": [
+        {
+          "billId": "PRC_H2F6G0O8O0N5L1M5K1L1G1H1G7E1E0",
+          "title": "선박의 입항 및 출항 등에 관한 법률 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 10,
+          "coSponsorParties": {
+            "더불어민주당": 9,
+            "진보당": 1
+          },
+          "hasOtherParty": true,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2F6G0O8O0N5L1M5K1L1G1H1G7E1E0&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_L2L6K0L7S2T8R1Q0Q3P0P0F8G3E2E8",
           "title": "축산법 일부개정법률안",
@@ -86405,23 +86440,6 @@
           },
           "hasOtherParty": true,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2G6E0E4D0B9C0J9K1J9J4I2G2H8O9&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_S2Q6Q0Z4Z0X9Y0W9V2V1D1D2C2D2B7",
-          "title": "수상레저기구의 등록 및 검사에 관한 법률 일부개정법률안",
-          "proposalDate": "2026-04-22",
-          "ageDays": 116,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "농림축산식품해양수산위원회",
-          "coSponsorCount": 9,
-          "coSponsorParties": {
-            "더불어민주당": 7,
-            "진보당": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2Q6Q0Z4Z0X9Y0W9V2V1D1D2C2D2B7&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -89054,8 +89072,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 53,
+    "billsProposed": 55,
     "recentBills": [
+      {
+        "billId": "PRC_T2T6B0Z8A1Y2Z1X7Y1G7G5F2D0D3C6",
+        "title": "지방자치법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_Z2X6X0W8W1E2D1D7B1D9B2B8J6I9I6",
+        "title": "지방의회법안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_N2V6T0U4S2T9R1S3Z3Y1Z0X3X8W3X2",
         "title": "학교안전사고 예방 및 보상에 관한 법률 일부개정법률안",
@@ -89103,18 +89133,6 @@
         "title": "공직선거법 일부개정법률안",
         "proposalDate": "2025-11-27",
         "billStatus": "대안반영폐기"
-      },
-      {
-        "billId": "PRC_V2V5U1V1T2T6R1S0A2Y0Z0X4Y1W8X7",
-        "title": "한국에너지공과대학교법 일부개정법률안",
-        "proposalDate": "2025-11-27",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_A2I5J1H1G0G6E0F9N3O5M4K2L6J6K0",
-        "title": "옥외광고물 등의 관리와 옥외광고산업 진흥에 관한 법률 일부개정법률안",
-        "proposalDate": "2025-11-06",
-        "billStatus": "대안반영폐기"
       }
     ],
     "partyComparison": {
@@ -89129,15 +89147,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 53,
-      "inProgress": 30,
+      "leadSponsoredTotal": 55,
+      "inProgress": 32,
       "completed": 23,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 23,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 30,
+        "심사 중": 32,
         "대안반영폐기": 20,
         "원안가결": 2,
         "수정가결": 1
@@ -89148,6 +89166,38 @@
         "completionRate": 45.1
       },
       "recentBills": [
+        {
+          "billId": "PRC_T2T6B0Z8A1Y2Z1X7Y1G7G5F2D0D3C6",
+          "title": "지방자치법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 10,
+          "coSponsorParties": {
+            "더불어민주당": 10
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2T6B0Z8A1Y2Z1X7Y1G7G5F2D0D3C6&ageFrom=22&ageTo=22"
+        },
+        {
+          "billId": "PRC_Z2X6X0W8W1E2D1D7B1D9B2B8J6I9I6",
+          "title": "지방의회법안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 10,
+          "coSponsorParties": {
+            "더불어민주당": 10
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2X6X0W8W1E2D1D7B1D9B2B8J6I9I6&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_N2V6T0U4S2T9R1S3Z3Y1Z0X3X8W3X2",
           "title": "학교안전사고 예방 및 보상에 관한 법률 일부개정법률안",
@@ -89283,39 +89333,6 @@
           },
           "hasOtherParty": false,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2M5K1K1I2K6I1I0E2E1D0D4C0A1A9&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_V2V5U1V1T2T6R1S0A2Y0Z0X4Y1W8X7",
-          "title": "한국에너지공과대학교법 일부개정법률안",
-          "proposalDate": "2025-11-27",
-          "ageDays": 262,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "기후에너지환경노동위원회",
-          "coSponsorCount": 13,
-          "coSponsorParties": {
-            "더불어민주당": 12
-          },
-          "hasOtherParty": false,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2V5U1V1T2T6R1S0A2Y0Z0X4Y1W8X7&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_A2I5J1H1G0G6E0F9N3O5M4K2L6J6K0",
-          "title": "옥외광고물 등의 관리와 옥외광고산업 진흥에 관한 법률 일부개정법률안",
-          "proposalDate": "2025-11-06",
-          "ageDays": 283,
-          "status": "대안반영폐기",
-          "statusCategory": "incorporated",
-          "completed": true,
-          "committee": "행정안전위원회",
-          "coSponsorCount": 9,
-          "coSponsorParties": {
-            "더불어민주당": 8,
-            "조국혁신당": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2I5J1H1G0G6E0F9N3O5M4K2L6J6K0&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -91651,7 +91668,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "행정안전위원회",
           "coSponsorCount": 9,
           "coSponsorParties": {
             "국민의힘": 9
@@ -92044,8 +92061,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 53,
+    "billsProposed": 54,
     "recentBills": [
+      {
+        "billId": "PRC_S2Z6Y0Z8X1Y1W0X8E5D5D1C8D2B7J7",
+        "title": "국토의 계획 및 이용에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_N2L6L0K7L2J9R1R7Q4R2P3N7O5J0K4",
         "title": "지속가능한 기반시설 관리 기본법 일부개정법률안",
@@ -92099,12 +92122,6 @@
         "title": "건축물의 분양에 관한 법률 일부개정법률안",
         "proposalDate": "2026-02-27",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_G2O6P0N2N2M3N0L9L3H7H0G8E9F2D3",
-        "title": "부동산서비스산업 진흥법 일부개정법률안",
-        "proposalDate": "2026-02-27",
-        "billStatus": ""
       }
     ],
     "partyComparison": {
@@ -92141,15 +92158,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 53,
-      "inProgress": 47,
+      "leadSponsoredTotal": 54,
+      "inProgress": 48,
       "completed": 6,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 23,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 47,
+        "심사 중": 48,
         "대안반영폐기": 6
       },
       "olderThan180Days": {
@@ -92158,6 +92175,22 @@
         "completionRate": 14
       },
       "recentBills": [
+        {
+          "billId": "PRC_S2Z6Y0Z8X1Y1W0X8E5D5D1C8D2B7J7",
+          "title": "국토의 계획 및 이용에 관한 법률 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 10,
+          "coSponsorParties": {
+            "더불어민주당": 10
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2Z6Y0Z8X1Y1W0X8E5D5D1C8D2B7J7&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_N2L6L0K7L2J9R1R7Q4R2P3N7O5J0K4",
           "title": "지속가능한 기반시설 관리 기본법 일부개정법률안",
@@ -92305,22 +92338,6 @@
           },
           "hasOtherParty": false,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2T6B0C2A2B3Z0Z9Y3Y6U3S6T5R3S5&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_G2O6P0N2N2M3N0L9L3H7H0G8E9F2D3",
-          "title": "부동산서비스산업 진흥법 일부개정법률안",
-          "proposalDate": "2026-02-27",
-          "ageDays": 170,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "국토교통위원회",
-          "coSponsorCount": 9,
-          "coSponsorParties": {
-            "더불어민주당": 9
-          },
-          "hasOtherParty": false,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2O6P0N2N2M3N0L9L3H7H0G8E9F2D3&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -95963,7 +95980,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "산업통상자원중소벤처기업위원회",
           "coSponsorCount": 10,
           "coSponsorParties": {
             "더불어민주당": 8,
@@ -104154,7 +104171,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "농림축산식품해양수산위원회",
           "coSponsorCount": 9,
           "coSponsorParties": {
             "더불어민주당": 8,
@@ -104171,7 +104188,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "농림축산식품해양수산위원회",
           "coSponsorCount": 9,
           "coSponsorParties": {
             "더불어민주당": 9
@@ -105660,8 +105677,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 42,
+    "billsProposed": 43,
     "recentBills": [
+      {
+        "billId": "PRC_P2N6N0M8N0U4V1T7S5S0Q0R8M5O3M6",
+        "title": "조세특례제한법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_X2V6U0U8T0T4P1O7O4M8N3L1M7U7S1",
         "title": "조세특례제한법 일부개정법률안",
@@ -105714,12 +105737,6 @@
         "billId": "PRC_Y2W6W0U2W2U0U1Q6Q3P8P3O7M2N8U0",
         "title": "평화경제특별구역의 지정 및 운영에 관한 법률 일부개정법률안",
         "proposalDate": "2026-02-24",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_G2H5F1F2E2F4D0D9Z1A4Y5Y9X6V1W1",
-        "title": "출신 국가를 이유로 한 혐오표현 규제 법률안",
-        "proposalDate": "2025-12-26",
         "billStatus": ""
       }
     ],
@@ -105799,15 +105816,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 42,
-      "inProgress": 38,
+      "leadSponsoredTotal": 43,
+      "inProgress": 39,
       "completed": 4,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 12,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 38,
+        "심사 중": 39,
         "철회": 1,
         "대안반영폐기": 2,
         "수정가결": 1
@@ -105819,6 +105836,22 @@
       },
       "recentBills": [
         {
+          "billId": "PRC_P2N6N0M8N0U4V1T7S5S0Q0R8M5O3M6",
+          "title": "조세특례제한법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 10,
+          "coSponsorParties": {
+            "더불어민주당": 10
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2N6N0M8N0U4V1T7S5S0Q0R8M5O3M6&ageFrom=22&ageTo=22"
+        },
+        {
           "billId": "PRC_X2V6U0U8T0T4P1O7O4M8N3L1M7U7S1",
           "title": "조세특례제한법 일부개정법률안",
           "proposalDate": "2026-08-13",
@@ -105826,7 +105859,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "재정경제기획위원회",
           "coSponsorCount": 12,
           "coSponsorParties": {
             "더불어민주당": 12
@@ -105967,23 +106000,6 @@
           },
           "hasOtherParty": true,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2W6W0U2W2U0U1Q6Q3P8P3O7M2N8U0&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_G2H5F1F2E2F4D0D9Z1A4Y5Y9X6V1W1",
-          "title": "출신 국가를 이유로 한 혐오표현 규제 법률안",
-          "proposalDate": "2025-12-26",
-          "ageDays": 233,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "국회운영위원회",
-          "coSponsorCount": 10,
-          "coSponsorParties": {
-            "더불어민주당": 6,
-            "무소속": 2
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2H5F1F2E2F4D0D9Z1A4Y5Y9X6V1W1&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -109632,7 +109648,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "재정경제기획위원회",
           "coSponsorCount": 11,
           "coSponsorParties": {
             "국민의힘": 11
@@ -110147,7 +110163,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "보건복지위원회",
           "coSponsorCount": 10,
           "coSponsorParties": {
             "국민의힘": 10
@@ -110163,7 +110179,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "보건복지위원회",
           "coSponsorCount": 10,
           "coSponsorParties": {
             "국민의힘": 10
@@ -116637,8 +116653,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 164,
+    "billsProposed": 165,
     "recentBills": [
+      {
+        "billId": "PRC_T2B6C0A8Z1Z4Y1Y3O4N6N3L0M1K6L0",
+        "title": "국회법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_H2I6H0P3O2M6L1M3U4T2U2T4S5T2B0",
         "title": "근로기준법 일부개정법률안",
@@ -116690,12 +116712,6 @@
       {
         "billId": "PRC_N2M6M0K3L0K3R1S5Q2R1P0Q0O4P1W8",
         "title": "공소청 설치 및 운영에 관한 법률안",
-        "proposalDate": "2026-03-04",
-        "billStatus": "대안반영폐기"
-      },
-      {
-        "billId": "PRC_L2J6K0S3S0Q3R1P5O2O2K2K8J9K1I1",
-        "title": "중대범죄수사청 설치 및 운영에 관한 법률안",
         "proposalDate": "2026-03-04",
         "billStatus": "대안반영폐기"
       }
@@ -116860,15 +116876,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 164,
-      "inProgress": 105,
+      "leadSponsoredTotal": 165,
+      "inProgress": 106,
       "completed": 59,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 105,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 105,
+        "심사 중": 106,
         "대안반영폐기": 58,
         "철회": 1
       },
@@ -116878,6 +116894,22 @@
         "completionRate": 36.1
       },
       "recentBills": [
+        {
+          "billId": "PRC_T2B6C0A8Z1Z4Y1Y3O4N6N3L0M1K6L0",
+          "title": "국회법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 19,
+          "coSponsorParties": {
+            "더불어민주당": 19
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2B6C0A8Z1Z4Y1Y3O4N6N3L0M1K6L0&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_H2I6H0P3O2M6L1M3U4T2U2T4S5T2B0",
           "title": "근로기준법 일부개정법률안",
@@ -117034,22 +117066,6 @@
           },
           "hasOtherParty": false,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2M6M0K3L0K3R1S5Q2R1P0Q0O4P1W8&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_L2J6K0S3S0Q3R1P5O2O2K2K8J9K1I1",
-          "title": "중대범죄수사청 설치 및 운영에 관한 법률안",
-          "proposalDate": "2026-03-04",
-          "ageDays": 165,
-          "status": "대안반영폐기",
-          "statusCategory": "incorporated",
-          "completed": true,
-          "committee": "행정안전위원회",
-          "coSponsorCount": 9,
-          "coSponsorParties": {
-            "더불어민주당": 8
-          },
-          "hasOtherParty": false,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2J6K0S3S0Q3R1P5O2O2K2K8J9K1I1&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -119951,8 +119967,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 84,
+    "billsProposed": 85,
     "recentBills": [
+      {
+        "billId": "PRC_J2H6I0G8F1F0B1C0A4B3Z5X3Y0G4H2",
+        "title": "공직자윤리법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_J2H6I0G7H2F9N1O7M1N6L2M7K2K7G9",
         "title": "관광진흥법 일부개정법률안",
@@ -120006,12 +120028,6 @@
         "title": "대규모유통업에서의 거래 공정화에 관한 법률 일부개정법률안",
         "proposalDate": "2026-02-12",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_D2E6D0K2L1J1K2I0I0H7I3P2Q3O0P0",
-        "title": "제대군인지원에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-02-12",
-        "billStatus": ""
       }
     ],
     "partyComparison": {
@@ -120026,15 +120042,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 84,
-      "inProgress": 70,
+      "leadSponsoredTotal": 85,
+      "inProgress": 71,
       "completed": 14,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 10,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 70,
+        "심사 중": 71,
         "대안반영폐기": 13,
         "수정가결": 1
       },
@@ -120044,6 +120060,22 @@
         "completionRate": 18.2
       },
       "recentBills": [
+        {
+          "billId": "PRC_J2H6I0G8F1F0B1C0A4B3Z5X3Y0G4H2",
+          "title": "공직자윤리법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 11,
+          "coSponsorParties": {
+            "더불어민주당": 11
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2H6I0G8F1F0B1C0A4B3Z5X3Y0G4H2&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_J2H6I0G7H2F9N1O7M1N6L2M7K2K7G9",
           "title": "관광진흥법 일부개정법률안",
@@ -120191,22 +120223,6 @@
           },
           "hasOtherParty": false,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2Y6W0E2F1D2D1C0C3B7C5J8K0I2J4&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_D2E6D0K2L1J1K2I0I0H7I3P2Q3O0P0",
-          "title": "제대군인지원에 관한 법률 일부개정법률안",
-          "proposalDate": "2026-02-12",
-          "ageDays": 185,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "정무위원회",
-          "coSponsorCount": 11,
-          "coSponsorParties": {
-            "더불어민주당": 11
-          },
-          "hasOtherParty": false,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2E6D0K2L1J1K2I0I0H7I3P2Q3O0P0&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -120959,8 +120975,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 106,
+    "billsProposed": 107,
     "recentBills": [
+      {
+        "billId": "PRC_U2D6D0C6A1Z9A1I1H1F2E1E8B2Z8Y9",
+        "title": "형법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_R2Q6Q0O7P1N4V1W0U5V7T4U1S8S9B4",
         "title": "지방교육재정교부금법 일부개정법률안",
@@ -121012,12 +121034,6 @@
       {
         "billId": "PRC_N2T6S0R5X2W7V0R9I5F7C4B5K2J4G4",
         "title": "고용보험법 일부개정법률안",
-        "proposalDate": "2026-06-16",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_H2H6P0O5W2V7B0A9A5I7F1E6M6K4J4",
-        "title": "남녀고용평등과 일·가정 양립 지원에 관한 법률 일부개정법률안",
         "proposalDate": "2026-06-16",
         "billStatus": ""
       }
@@ -121098,15 +121114,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 106,
-      "inProgress": 90,
+      "leadSponsoredTotal": 107,
+      "inProgress": 91,
       "completed": 16,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 10,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 90,
+        "심사 중": 91,
         "대안반영폐기": 13,
         "수정가결": 2,
         "원안가결": 1
@@ -121117,6 +121133,22 @@
         "completionRate": 18.1
       },
       "recentBills": [
+        {
+          "billId": "PRC_U2D6D0C6A1Z9A1I1H1F2E1E8B2Z8Y9",
+          "title": "형법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 11,
+          "coSponsorParties": {
+            "국민의힘": 11
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2D6D0C6A1Z9A1I1H1F2E1E8B2Z8Y9&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_R2Q6Q0O7P1N4V1W0U5V7T4U1S8S9B4",
           "title": "지방교육재정교부금법 일부개정법률안",
@@ -121260,22 +121292,6 @@
           },
           "hasOtherParty": false,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2T6S0R5X2W7V0R9I5F7C4B5K2J4G4&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_H2H6P0O5W2V7B0A9A5I7F1E6M6K4J4",
-          "title": "남녀고용평등과 일·가정 양립 지원에 관한 법률 일부개정법률안",
-          "proposalDate": "2026-06-16",
-          "ageDays": 61,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "기후에너지환경노동위원회",
-          "coSponsorCount": 9,
-          "coSponsorParties": {
-            "국민의힘": 9
-          },
-          "hasOtherParty": false,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2H6P0O5W2V7B0A9A5I7F1E6M6K4J4&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -125921,8 +125937,26 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 74,
+    "billsProposed": 77,
     "recentBills": [
+      {
+        "billId": "PRC_I2P6O0O8N1O0M1M6V5T4T1S1S1Q9Z5",
+        "title": "부담금관리 기본법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_I2X6W0W8U1V0T1C6C5A3B3Z5A3Z4G3",
+        "title": "국가재정법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_L2M6K0L8J1J0R1Q6Q4P7P4N8O2K2J3",
+        "title": "인공지능 전환 대응을 위한 기본사회법안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_W2E6F0D7E1C0A1B6J1J2H3I6H1H9G1",
         "title": "형법 일부개정법률안",
@@ -125964,24 +125998,6 @@
         "title": "조세특례제한법 일부개정법률안",
         "proposalDate": "2026-05-04",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_Z2Y6Y0X4X2F1G1E7D4D4B0C1K5L4J1",
-        "title": "성폭력범죄의 처벌 등에 관한 특례법 일부개정법률안",
-        "proposalDate": "2026-04-30",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_U2T6T0S3S0A9B1Z6A5Y5Z4X9X9T2R2",
-        "title": "장애인고용촉진 및 직업재활법 일부개정법률안",
-        "proposalDate": "2026-03-30",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_E2D5E0M9L0K9I1J3R5Q1O5N2V0W7U5",
-        "title": "전자상거래 등에서의 소비자보호에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-02-20",
-        "billStatus": ""
       }
     ],
     "partyComparison": {
@@ -125996,15 +126012,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 74,
-      "inProgress": 53,
+      "leadSponsoredTotal": 77,
+      "inProgress": 56,
       "completed": 21,
       "returned": 0,
       "unknown": 0,
-      "crossPartyCount": 67,
+      "crossPartyCount": 70,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 53,
+        "심사 중": 56,
         "대안반영폐기": 19,
         "수정가결": 1,
         "원안가결": 1
@@ -126015,6 +126031,57 @@
         "completionRate": 32.8
       },
       "recentBills": [
+        {
+          "billId": "PRC_I2P6O0O8N1O0M1M6V5T4T1S1S1Q9Z5",
+          "title": "부담금관리 기본법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 19,
+          "coSponsorParties": {
+            "더불어민주당": 10,
+            "조국혁신당": 9
+          },
+          "hasOtherParty": true,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2P6O0O8N1O0M1M6V5T4T1S1S1Q9Z5&ageFrom=22&ageTo=22"
+        },
+        {
+          "billId": "PRC_I2X6W0W8U1V0T1C6C5A3B3Z5A3Z4G3",
+          "title": "국가재정법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 19,
+          "coSponsorParties": {
+            "더불어민주당": 10,
+            "조국혁신당": 9
+          },
+          "hasOtherParty": true,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2X6W0W8U1V0T1C6C5A3B3Z5A3Z4G3&ageFrom=22&ageTo=22"
+        },
+        {
+          "billId": "PRC_L2M6K0L8J1J0R1Q6Q4P7P4N8O2K2J3",
+          "title": "인공지능 전환 대응을 위한 기본사회법안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 19,
+          "coSponsorParties": {
+            "더불어민주당": 10,
+            "조국혁신당": 9
+          },
+          "hasOtherParty": true,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2M6K0L8J1J0R1Q6Q4P7P4N8O2K2J3&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_W2E6F0D7E1C0A1B6J1J2H3I6H1H9G1",
           "title": "형법 일부개정법률안",
@@ -126134,59 +126201,6 @@
           },
           "hasOtherParty": true,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2J6K0R4S2Q1P1P7O4O3W0V6V9T9U1&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_Z2Y6Y0X4X2F1G1E7D4D4B0C1K5L4J1",
-          "title": "성폭력범죄의 처벌 등에 관한 특례법 일부개정법률안",
-          "proposalDate": "2026-04-30",
-          "ageDays": 108,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "법제사법위원회",
-          "coSponsorCount": 11,
-          "coSponsorParties": {
-            "조국혁신당": 6,
-            "더불어민주당": 5
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2Y6Y0X4X2F1G1E7D4D4B0C1K5L4J1&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_U2T6T0S3S0A9B1Z6A5Y5Z4X9X9T2R2",
-          "title": "장애인고용촉진 및 직업재활법 일부개정법률안",
-          "proposalDate": "2026-03-30",
-          "ageDays": 139,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "기후에너지환경노동위원회",
-          "coSponsorCount": 13,
-          "coSponsorParties": {
-            "조국혁신당": 7,
-            "더불어민주당": 5,
-            "무소속": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2T6T0S3S0A9B1Z6A5Y5Z4X9X9T2R2&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_E2D5E0M9L0K9I1J3R5Q1O5N2V0W7U5",
-          "title": "전자상거래 등에서의 소비자보호에 관한 법률 일부개정법률안",
-          "proposalDate": "2026-02-20",
-          "ageDays": 177,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "정무위원회",
-          "coSponsorCount": 10,
-          "coSponsorParties": {
-            "더불어민주당": 4,
-            "조국혁신당": 5,
-            "무소속": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2D5E0M9L0K9I1J3R5Q1O5N2V0W7U5&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -130040,8 +130054,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 97,
+    "billsProposed": 98,
     "recentBills": [
+      {
+        "billId": "PRC_L2K6K0S7R1R5P1Q4O4P4K3J8K9I4I2",
+        "title": "여객자동차 운수사업법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_Q2R6P0Q7O1N5N1V4W3U8V2T2T5S9A8",
         "title": "인구감소지역 지원 특별법 일부개정법률안",
@@ -130094,12 +130114,6 @@
         "billId": "PRC_B2Z6A0Y7Y1H5F1F4D4F0D0D2Z4Z0Y9",
         "title": "폐교재산의 활용촉진을 위한 특별법 일부개정법률안",
         "proposalDate": "2026-07-21",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_K2K6G0P6O1M5L1H4H5F1F1N9K8I0R9",
-        "title": "임업 및 산촌 진흥촉진에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-07-16",
         "billStatus": ""
       }
     ],
@@ -130221,15 +130235,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 97,
-      "inProgress": 82,
+      "leadSponsoredTotal": 98,
+      "inProgress": 83,
       "completed": 15,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 21,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 82,
+        "심사 중": 83,
         "대안반영폐기": 13,
         "수정가결": 2
       },
@@ -130240,6 +130254,22 @@
       },
       "recentBills": [
         {
+          "billId": "PRC_L2K6K0S7R1R5P1Q4O4P4K3J8K9I4I2",
+          "title": "여객자동차 운수사업법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 9,
+          "coSponsorParties": {
+            "국민의힘": 9
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2K6K0S7R1R5P1Q4O4P4K3J8K9I4I2&ageFrom=22&ageTo=22"
+        },
+        {
           "billId": "PRC_Q2R6P0Q7O1N5N1V4W3U8V2T2T5S9A8",
           "title": "인구감소지역 지원 특별법 일부개정법률안",
           "proposalDate": "2026-08-13",
@@ -130247,7 +130277,7 @@
           "status": "심사 중",
           "statusCategory": "in_progress",
           "completed": false,
-          "committee": "",
+          "committee": "행정안전위원회",
           "coSponsorCount": 9,
           "coSponsorParties": {
             "국민의힘": 9
@@ -130382,22 +130412,6 @@
           },
           "hasOtherParty": false,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2Z6A0Y7Y1H5F1F4D4F0D0D2Z4Z0Y9&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_K2K6G0P6O1M5L1H4H5F1F1N9K8I0R9",
-          "title": "임업 및 산촌 진흥촉진에 관한 법률 일부개정법률안",
-          "proposalDate": "2026-07-16",
-          "ageDays": 31,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "농림축산식품해양수산위원회",
-          "coSponsorCount": 11,
-          "coSponsorParties": {
-            "국민의힘": 11
-          },
-          "hasOtherParty": false,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2K6G0P6O1M5L1H4H5F1F1N9K8I0R9&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -132357,8 +132371,20 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 43,
+    "billsProposed": 45,
     "recentBills": [
+      {
+        "billId": "PRC_D2E6C0A8B1Z0A0H9I1H3H5G1E6E2M3",
+        "title": "건축법 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
+      {
+        "billId": "PRC_N2O6M0U8U1T0S0S9R3N9N1M3K8L2J7",
+        "title": "물류시설의 개발 및 운영에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_O2M6K0L7J2K9S1S5R3P1Q0O0P5X2X5",
         "title": "건설기술 진흥법 일부개정법률안",
@@ -132406,18 +132432,6 @@
         "title": "감염성간염 관리에 관한 법률안",
         "proposalDate": "2026-02-03",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_Q2Q5P1P2N2O2K0L9J5J1I5G0H0O9P6",
-        "title": "약사법 일부개정법률안",
-        "proposalDate": "2026-01-28",
-        "billStatus": ""
-      },
-      {
-        "billId": "PRC_L2M5L0L8T2R9S0Q8R5P3Q0L0K9L5J8",
-        "title": "장기등 이식에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-01-26",
-        "billStatus": ""
       }
     ],
     "partyComparison": {
@@ -132454,15 +132468,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 43,
-      "inProgress": 28,
+      "leadSponsoredTotal": 45,
+      "inProgress": 30,
       "completed": 15,
       "returned": 0,
       "unknown": 0,
-      "crossPartyCount": 33,
+      "crossPartyCount": 35,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 28,
+        "심사 중": 30,
         "수정가결": 7,
         "대안반영폐기": 8
       },
@@ -132472,6 +132486,40 @@
         "completionRate": 41.7
       },
       "recentBills": [
+        {
+          "billId": "PRC_D2E6C0A8B1Z0A0H9I1H3H5G1E6E2M3",
+          "title": "건축법 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 13,
+          "coSponsorParties": {
+            "더불어민주당": 12,
+            "조국혁신당": 1
+          },
+          "hasOtherParty": true,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2E6C0A8B1Z0A0H9I1H3H5G1E6E2M3&ageFrom=22&ageTo=22"
+        },
+        {
+          "billId": "PRC_N2O6M0U8U1T0S0S9R3N9N1M3K8L2J7",
+          "title": "물류시설의 개발 및 운영에 관한 법률 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 13,
+          "coSponsorParties": {
+            "더불어민주당": 12,
+            "조국혁신당": 1
+          },
+          "hasOtherParty": true,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2O6M0U8U1T0S0S9R3N9N1M3K8L2J7&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_O2M6K0L7J2K9S1S5R3P1Q0O0P5X2X5",
           "title": "건설기술 진흥법 일부개정법률안",
@@ -132604,42 +132652,6 @@
           },
           "hasOtherParty": true,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2X6X0X2D0L3F1F5Z4N5A2N0B2W9C6&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_Q2Q5P1P2N2O2K0L9J5J1I5G0H0O9P6",
-          "title": "약사법 일부개정법률안",
-          "proposalDate": "2026-01-28",
-          "ageDays": 200,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "보건복지위원회",
-          "coSponsorCount": 10,
-          "coSponsorParties": {
-            "더불어민주당": 8,
-            "조국혁신당": 1,
-            "무소속": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2Q5P1P2N2O2K0L9J5J1I5G0H0O9P6&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_L2M5L0L8T2R9S0Q8R5P3Q0L0K9L5J8",
-          "title": "장기등 이식에 관한 법률 일부개정법률안",
-          "proposalDate": "2026-01-26",
-          "ageDays": 202,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "보건복지위원회",
-          "coSponsorCount": 9,
-          "coSponsorParties": {
-            "더불어민주당": 6,
-            "국민의힘": 1,
-            "무소속": 2
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2M5L0L8T2R9S0Q8R5P3Q0L0K9L5J8&ageFrom=22&ageTo=22"
         }
       ]
     },
@@ -141627,8 +141639,14 @@
         "choice": "불참"
       }
     ],
-    "billsProposed": 65,
+    "billsProposed": 66,
     "recentBills": [
+      {
+        "billId": "PRC_X2W6X0V8V1U3P1Q4P5P8N2M7N7U8V1",
+        "title": "독립유공자예우에 관한 법률 일부개정법률안",
+        "proposalDate": "2026-08-14",
+        "billStatus": ""
+      },
       {
         "billId": "PRC_M2N6M0M7U2U7T1R2S4Q6Q2N1N9L8M2",
         "title": "노동위원회법 일부개정법률안",
@@ -141682,12 +141700,6 @@
         "title": "조세특례제한법 일부개정법률안",
         "proposalDate": "2026-05-12",
         "billStatus": ""
-      },
-      {
-        "billId": "PRC_K2G6G0F5D0E6C1D0L1L0J1K1J2H4H8",
-        "title": "벤처투자 촉진에 관한 법률 일부개정법률안",
-        "proposalDate": "2026-05-07",
-        "billStatus": ""
       }
     ],
     "partyComparison": {
@@ -141702,15 +141714,15 @@
     "billLifecycle": {
       "asOfDate": "2026-08-16",
       "matureAfterDays": 180,
-      "leadSponsoredTotal": 65,
-      "inProgress": 42,
+      "leadSponsoredTotal": 66,
+      "inProgress": 43,
       "completed": 23,
       "returned": 0,
       "unknown": 0,
       "crossPartyCount": 37,
       "partyBasis": "current_party",
       "statusCounts": {
-        "심사 중": 42,
+        "심사 중": 43,
         "대안반영폐기": 20,
         "원안가결": 1,
         "수정가결": 1,
@@ -141722,6 +141734,22 @@
         "completionRate": 46
       },
       "recentBills": [
+        {
+          "billId": "PRC_X2W6X0V8V1U3P1Q4P5P8N2M7N7U8V1",
+          "title": "독립유공자예우에 관한 법률 일부개정법률안",
+          "proposalDate": "2026-08-14",
+          "ageDays": 2,
+          "status": "심사 중",
+          "statusCategory": "in_progress",
+          "completed": false,
+          "committee": "",
+          "coSponsorCount": 14,
+          "coSponsorParties": {
+            "더불어민주당": 14
+          },
+          "hasOtherParty": false,
+          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2W6X0V8V1U3P1Q4P5P8N2M7N7U8V1&ageFrom=22&ageTo=22"
+        },
         {
           "billId": "PRC_M2N6M0M7U2U7T1R2S4Q6Q2N1N9L8M2",
           "title": "노동위원회법 일부개정법률안",
@@ -141867,23 +141895,6 @@
           },
           "hasOtherParty": true,
           "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2E6C0C5Y1W1X1V3W4U8V4D5B9C4A0&ageFrom=22&ageTo=22"
-        },
-        {
-          "billId": "PRC_K2G6G0F5D0E6C1D0L1L0J1K1J2H4H8",
-          "title": "벤처투자 촉진에 관한 법률 일부개정법률안",
-          "proposalDate": "2026-05-07",
-          "ageDays": 101,
-          "status": "심사 중",
-          "statusCategory": "in_progress",
-          "completed": false,
-          "committee": "산업통상자원중소벤처기업위원회",
-          "coSponsorCount": 9,
-          "coSponsorParties": {
-            "더불어민주당": 8,
-            "무소속": 1
-          },
-          "hasOtherParty": true,
-          "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2G6G0F5D0E6C1D0L1L0J1K1J2H4H8&ageFrom=22&ageTo=22"
         }
       ]
     },
