@@ -1949,7 +1949,7 @@ img { display: block; }
 .lifecycle-status { flex: 0 0 auto; padding: 7px 11px; border-radius: 999px; background: rgba(0,0,0,0.06); color: rgba(0,0,0,0.56); font-size: 12px; font-weight: 700; }
 .lifecycle-status--passed, .lifecycle-status--incorporated { background: rgba(40,160,85,0.11); color: #16723a; }
 
-/* ── KR co-sponsorship network ─────────────────────────── */
+/* ── Co-sponsorship network ────────────────────────────── */
 .collaboration-story {
   padding: clamp(110px, 14vw, 180px) 24px;
   background:

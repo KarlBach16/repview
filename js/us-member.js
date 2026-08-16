@@ -139,6 +139,19 @@ async function loadUSMembers() {
   return Array.isArray(rows) ? rows : [];
 }
 
+let collaborationEvidencePromise = null;
+
+async function loadUSCollaborationEvidence() {
+  if (!collaborationEvidencePromise) {
+    collaborationEvidencePromise = fetch("/data/us/collaboration_networks.json", { cache: "no-store" })
+      .then((response) => {
+        if (!response.ok) throw new Error(`Failed to load collaboration evidence: ${response.status}`);
+        return response.json();
+      });
+  }
+  return collaborationEvidencePromise;
+}
+
 let voteEvidencePromise = null;
 
 async function loadMemberVoteEvidence(bioguideId) {
@@ -266,6 +279,82 @@ function renderBills(bills) {
       </div>
     `;
   }).join("");
+}
+
+function renderUSCollaborationNetwork(member, members, evidence) {
+  const section = document.getElementById("us-collaboration-section");
+  const stats = document.getElementById("us-collaboration-stats");
+  const origin = document.getElementById("us-collaboration-origin");
+  const list = document.getElementById("us-collaboration-list");
+  if (!section || !stats || !origin || !list) return;
+
+  const bioguideId = String(member.bioguideId || "").trim().toUpperCase();
+  const network = evidence?.members?.[bioguideId];
+  const memberIndex = new Map(members.map((row) => [String(row.bioguideId || "").trim().toUpperCase(), row]));
+  const collaborators = Array.isArray(network?.topCollaborators)
+    ? network.topCollaborators.map((row) => ({ ...row, member: memberIndex.get(row.bioguideId) })).filter((row) => row.member)
+    : [];
+  if (!collaborators.length) return;
+
+  const photo = safeExternalUrl(member.photo);
+  origin.innerHTML = `
+    <div class="collaboration-origin-photo${photo ? "" : " is-missing"}">
+      ${photo
+        ? `<img src="${escapeHTML(photo)}" alt="${escapeHTML(member.name || "")}" />`
+        : `<span>${escapeHTML(String(member.name || "?").slice(0, 1))}</span>`}
+    </div>
+    <strong>${escapeHTML(member.name || "")}</strong>`;
+
+  stats.innerHTML = `
+    <span><strong>${network.collaborationBillCount || 0}</strong> shared bills</span>
+    <span><strong>${network.uniqueCollaboratorCount || 0}</strong> collaborators</span>
+    <span><strong>${network.otherPartyCollaboratorCount || 0}</strong> across parties</span>`;
+
+  list.innerHTML = collaborators.map((collaborator, index) => {
+    const other = collaborator.member;
+    const otherPhoto = safeExternalUrl(other.photo);
+    const sharedBills = (collaborator.sharedBillIds || [])
+      .map((billId) => evidence?.bills?.[billId])
+      .filter(Boolean);
+    const profileUrl = `member.html?district=${encodeURIComponent(other.districtCode || "")}`;
+    return `
+      <details class="collaboration-person"${index === 0 ? " open" : ""}>
+        <summary>
+          <span class="collaboration-person-photo${otherPhoto ? "" : " is-missing"}">
+            ${otherPhoto
+              ? `<img src="${escapeHTML(otherPhoto)}" alt="${escapeHTML(other.name || "")}" loading="lazy" />`
+              : `<i>${escapeHTML(String(other.name || "?").slice(0, 1))}</i>`}
+          </span>
+          <span class="collaboration-person-copy">
+            <strong>${escapeHTML(other.name || "")}</strong>
+            <small>${usPartyAccentHTML(other.party || "")} · ${escapeHTML(other.districtCode || "")}</small>
+          </span>
+          <span class="collaboration-line" aria-hidden="true"></span>
+          <span class="collaboration-count"><strong>${collaborator.billCount || 0}</strong></span>
+        </summary>
+        <div class="collaboration-bills">
+          ${sharedBills.map((bill) => {
+            const detailLink = safeExternalUrl(bill.detailLink);
+            return `
+              <a href="${escapeHTML(detailLink || "#")}" ${detailLink ? 'target="_blank" rel="noopener noreferrer"' : ""}>
+                <span>${escapeHTML([bill.billNo, formatProposalDate(bill.proposalDate)].filter(Boolean).join(" · "))}</span>
+                <strong>${escapeHTML(bill.title || "")}</strong>
+              </a>`;
+          }).join("")}
+          <a class="collaboration-profile-link" href="${escapeHTML(profileUrl)}">View ${escapeHTML(other.name || "")} →</a>
+        </div>
+      </details>`;
+  }).join("");
+
+  list.querySelectorAll(".collaboration-person").forEach((details) => {
+    details.addEventListener("toggle", () => {
+      if (!details.open) return;
+      list.querySelectorAll(".collaboration-person[open]").forEach((other) => {
+        if (other !== details) other.removeAttribute("open");
+      });
+    });
+  });
+  section.hidden = false;
 }
 
 function renderCampaignFinance(finance) {
@@ -428,6 +517,18 @@ function renderMember(member) {
       <div class="activity-inner">
         <div class="activity-header fade-in">Recent Sponsored Bills</div>
         <div id="activity-wrap">${renderBills(member.recentBills || [])}</div>
+      </div>
+    </section>
+
+    <section class="collaboration-story" id="us-collaboration-section" hidden>
+      <div class="collaboration-shell">
+        <p class="collaboration-eyebrow">119th Congress · Cosponsorship</p>
+        <h2 class="collaboration-headline">Frequent collaborators.</h2>
+        <div class="collaboration-stats" id="us-collaboration-stats"></div>
+        <div class="collaboration-map">
+          <div class="collaboration-origin" id="us-collaboration-origin"></div>
+          <div class="collaboration-list" id="us-collaboration-list"></div>
+        </div>
       </div>
     </section>
 
@@ -686,6 +787,10 @@ async function initUSMemberPage() {
   initVoteExplorer(member);
   initShareActions(member);
   trackUSMemberView(member.districtCode);
+
+  loadUSCollaborationEvidence()
+    .then((evidence) => renderUSCollaborationNetwork(member, members, evidence))
+    .catch((error) => console.error(error));
 }
 
 document.addEventListener("DOMContentLoaded", initUSMemberPage);

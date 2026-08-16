@@ -30,6 +30,9 @@ Updated data files:
 - `data/raw/votes_raw.json.gz`
 - `data/app/representatives.json`
 
+The US House workflow at `.github/workflows/update-us-house.yml` also refreshes
+`data/us/collaboration_networks.json` from GovInfo's BILLSTATUS bulk data.
+
 ## Required Secret
 
 Set this repository secret in GitHub:

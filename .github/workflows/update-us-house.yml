@@ -37,6 +37,9 @@ jobs:
       - name: Enrich US House stats
         run: node scripts/us/enrichUSHouseStats.js
 
+      - name: Build US collaboration networks
+        run: node scripts/us/buildUSCollaborationNetworks.js
+
       - name: Enrich US campaign finance
         run: node scripts/us/enrichUSCampaignFinance.js
 
@@ -53,7 +56,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/us/house_members.json data/us/vote_evidence.json img/us/members
+          git add data/us/house_members.json data/us/vote_evidence.json data/us/collaboration_networks.json img/us/members
           if git diff --cached --quiet; then
             echo "No tracked US data changes to commit."
             exit 0

@@ -15,8 +15,10 @@ async function main() {
   const projectRoot = path.resolve(path.dirname(__filename), "..", "..");
   const membersPath = path.join(projectRoot, "data", "us", "house_members.json");
   const voteEvidencePath = path.join(projectRoot, "data", "us", "vote_evidence.json");
+  const collaborationPath = path.join(projectRoot, "data", "us", "collaboration_networks.json");
   const members = JSON.parse(await readFile(membersPath, "utf8"));
   const voteEvidence = JSON.parse(await readFile(voteEvidencePath, "utf8"));
+  const collaboration = JSON.parse(await readFile(collaborationPath, "utf8"));
 
   if (!Array.isArray(members) || members.length < 400 || members.length > 435) {
     fail(`unexpected voting-member count: ${members?.length ?? "invalid"}`);
@@ -26,6 +28,7 @@ async function main() {
   let financeCount = 0;
   let recentVoteCount = 0;
   let partyBreakVoteCount = 0;
+  let collaborationRows = 0;
 
   for (const member of members) {
     if (!member.bioguideId || !member.districtCode) fail(`missing identity fields for ${member.name || "unknown"}`);
@@ -79,6 +82,43 @@ async function main() {
 
     const memberEvidence = voteEvidence?.members?.[member.bioguideId];
     if (!memberEvidence || typeof memberEvidence !== "object") fail(`missing vote evidence: ${member.name}`);
+
+    const network = collaboration?.members?.[member.bioguideId];
+    if (!network || typeof network !== "object") fail(`missing collaboration network: ${member.name}`);
+    for (const field of [
+      "collaborationBillCount",
+      "uniqueCollaboratorCount",
+      "otherPartyCollaboratorCount",
+      "crossPartyBillCount",
+    ]) {
+      if (!isNonNegativeNumber(network[field])) fail(`invalid ${field}: ${member.name}`);
+    }
+    if (!Array.isArray(network.topCollaborators) || network.topCollaborators.length > 5) {
+      fail(`invalid top collaborators: ${member.name}`);
+    }
+    const collaboratorIds = new Set();
+    for (const collaborator of network.topCollaborators) {
+      collaborationRows += 1;
+      if (!collaborator.bioguideId || collaboratorIds.has(collaborator.bioguideId)) {
+        fail(`duplicate collaborator: ${member.name}`);
+      }
+      collaboratorIds.add(collaborator.bioguideId);
+      if (!members.some((row) => row.bioguideId === collaborator.bioguideId)) {
+        fail(`unknown collaborator: ${member.name}/${collaborator.bioguideId}`);
+      }
+      if (!isNonNegativeNumber(collaborator.billCount) || Number(collaborator.billCount) <= 0) {
+        fail(`invalid collaboration count: ${member.name}/${collaborator.bioguideId}`);
+      }
+      if (!Array.isArray(collaborator.sharedBillIds) || collaborator.sharedBillIds.length > 4) {
+        fail(`invalid shared bills: ${member.name}/${collaborator.bioguideId}`);
+      }
+      for (const billId of collaborator.sharedBillIds) {
+        const bill = collaboration?.bills?.[billId];
+        if (!bill?.title || !/^https:\/\/www\.congress\.gov\/bill\/.+\/text$/.test(bill?.detailLink || "")) {
+          fail(`invalid shared bill: ${member.name}/${billId}`);
+        }
+      }
+    }
     const partyBreakRefs = memberEvidence.partyBreaks;
     if (!Array.isArray(partyBreakRefs)) fail(`missing party-break evidence: ${member.name}`);
     if (partyBreakRefs.length !== Number(member.partyDifferentVotesCount)) {
@@ -129,6 +169,11 @@ async function main() {
     fail(`campaign-finance coverage too low: ${financeCount}/${members.length}`);
   }
   if (recentVoteCount < members.length * 5) fail(`recent vote coverage too low: ${recentVoteCount}`);
+  if (collaboration?.congress !== 119 || collaboration?.basis !== "official_billstatus_cosponsorship_roster") {
+    fail("invalid collaboration metadata");
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(collaboration?.dataThrough || "")) fail("invalid collaboration data date");
+  if (collaborationRows < members.length * 4) fail(`collaboration coverage too low: ${collaborationRows}`);
 
   const sentinelVotes = new Map(
     (() => {
@@ -148,6 +193,7 @@ async function main() {
   console.log(`Campaign-finance coverage: ${financeCount}/${members.length}`);
   console.log(`Recent vote rows audited: ${recentVoteCount}`);
   console.log(`Party-break vote rows audited: ${partyBreakVoteCount}`);
+  console.log(`Collaboration rows audited: ${collaborationRows}`);
 }
 
 main().catch((error) => {
