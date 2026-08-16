@@ -205,9 +205,6 @@ function main() {
       if (Number(collaborator?.billCount || 0) <= 0) {
         fail(`Invalid collaboration count for ${code}/${collaboratorCode}`);
       }
-      if (Number(collaborator?.ledByMemberCount || 0) + Number(collaborator?.ledByCollaboratorCount || 0) > Number(collaborator?.billCount || 0)) {
-        fail(`Invalid directed collaboration count for ${code}/${collaboratorCode}`);
-      }
       if (!Array.isArray(collaborator?.sharedBillIds) || collaborator.sharedBillIds.length > 4) {
         fail(`Invalid shared bills for ${code}/${collaboratorCode}`);
         continue;

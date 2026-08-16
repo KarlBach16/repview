@@ -175,8 +175,6 @@ async function main() {
         return {
           bioguideId: collaborator.bioguideId,
           billCount: collaborator.sharedBills.size,
-          ledByMemberCount: [...collaborator.sharedBills].filter((billId) => billIndex.get(billId)?.leadBioguideId === bioguideId).length,
-          ledByCollaboratorCount: [...collaborator.sharedBills].filter((billId) => billIndex.get(billId)?.leadBioguideId === collaborator.bioguideId).length,
           sameParty: member.party === other?.party,
           sharedBillIds,
         };

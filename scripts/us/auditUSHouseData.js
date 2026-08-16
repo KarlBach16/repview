@@ -112,9 +112,6 @@ async function main() {
       if (!isNonNegativeNumber(collaborator.billCount) || Number(collaborator.billCount) <= 0) {
         fail(`invalid collaboration count: ${member.name}/${collaborator.bioguideId}`);
       }
-      if (Number(collaborator.ledByMemberCount || 0) + Number(collaborator.ledByCollaboratorCount || 0) > Number(collaborator.billCount || 0)) {
-        fail(`invalid directed collaboration count: ${member.name}/${collaborator.bioguideId}`);
-      }
       if (!Array.isArray(collaborator.sharedBillIds) || collaborator.sharedBillIds.length > 4) {
         fail(`invalid shared bills: ${member.name}/${collaborator.bioguideId}`);
       }

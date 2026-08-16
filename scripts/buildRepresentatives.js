@@ -105,8 +105,6 @@ function buildCollaborationEvidence(networks) {
       topCollaborators: network.topCollaborators.map((collaborator) => ({
         monaCode: collaborator.monaCode,
         billCount: collaborator.billCount,
-        ledByMemberCount: collaborator.ledByMemberCount,
-        ledByCollaboratorCount: collaborator.ledByCollaboratorCount,
         sameParty: collaborator.sameParty,
         sharedBillIds: collaborator.sharedBills.map((bill) => {
           if (!billIndex[bill.billId]) {
