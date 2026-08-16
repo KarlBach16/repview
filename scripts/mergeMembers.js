@@ -27,11 +27,19 @@ async function main() {
   }
 
   const normalizedMap = (photoMap && typeof photoMap === "object") ? photoMap : {};
+  const nameCounts = new Map();
+  for (const member of members) {
+    const name = String(member?.name || "").trim();
+    if (name) nameCounts.set(name, (nameCounts.get(name) || 0) + 1);
+  }
 
   let matched = 0;
   const merged = members.map((m) => {
     const name = String(m?.name || "").trim();
-    const mappedPhoto = String(normalizedMap[name] || "").trim();
+    const code = String(m?.monaCode || "").trim();
+    const mappedPhoto = String(
+      normalizedMap[code] || ((nameCounts.get(name) || 0) === 1 ? normalizedMap[name] : "") || ""
+    ).trim();
     if (mappedPhoto) matched += 1;
 
     return {

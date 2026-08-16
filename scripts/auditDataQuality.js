@@ -33,10 +33,12 @@ function main() {
   const bills = readJson(path.join(projectRoot, "data", "raw", "bills_raw.json"));
   const members = readJson(path.join(projectRoot, "data", "members.json"));
   const representatives = readJson(path.join(projectRoot, "data", "app", "representatives.json"));
+  const billMemberProfiles = readJson(path.join(projectRoot, "data", "kr", "bills", "members.json"));
   const collaborationEvidence = readJson(path.join(projectRoot, "data", "kr", "collaboration_networks.json"));
   const voteSimilarity = readJson(path.join(projectRoot, "data", "kr", "vote_similarity.json"));
   const supporterAssociations = readJson(path.join(projectRoot, "data", "kr", "supporter_associations.json"));
   const memberBooks = readJson(path.join(projectRoot, "data", "kr", "member_books.json"));
+  const executiveRoles = readJson(path.join(projectRoot, "data", "kr", "executive_roles.json"));
   const sentinels = readJson(path.join(projectRoot, "data", "kr", "vote_sentinels.json"));
 
   const failures = [];
@@ -85,6 +87,7 @@ function main() {
 
   const seenBillIds = new Set();
   const leadBillCounts = new Map();
+  const sponsorNameByCode = new Map();
   for (const bill of bills) {
     const billId = String(bill?.billId || "").trim();
     if (!billId) fail("Bill row has no billId");
@@ -94,6 +97,21 @@ function main() {
     seenBillIds.add(billId);
     const leadCode = String(bill?.monaCode || "").trim();
     if (leadCode) addCount(leadBillCounts, leadCode);
+
+    for (const [codeField, nameField] of [["RST_MONA_CD", "RST_PROPOSER"], ["PUBL_MONA_CD", "PUBL_PROPOSER"]]) {
+      const codes = String(bill?.source?.[codeField] || "").split(",").map((value) => value.trim()).filter(Boolean);
+      const names = String(bill?.source?.[nameField] || "").split(",").map((value) => value.trim()).filter(Boolean);
+      if (codes.length !== names.length) {
+        fail(`Sponsor code/name count mismatch for ${billId}/${codeField}: ${codes.length} != ${names.length}`);
+        continue;
+      }
+      codes.forEach((code, index) => {
+        const name = names[index];
+        const previousName = sponsorNameByCode.get(code);
+        if (previousName && previousName !== name) fail(`Sponsor code reused by different names: ${code}/${previousName}/${name}`);
+        sponsorNameByCode.set(code, name);
+      });
+    }
   }
 
   for (const vote of votes) {
@@ -159,6 +177,7 @@ function main() {
 
   const memberCodes = new Set();
   const memberIds = new Set();
+  const memberByCode = new Map();
   for (const member of members) {
     const code = String(member?.monaCode || "").trim();
     const id = String(member?.id || "").trim();
@@ -170,6 +189,11 @@ function main() {
     if (memberIds.has(id)) fail(`Duplicate current member id: ${id}`);
     memberCodes.add(code);
     memberIds.add(id);
+    memberByCode.set(code, member);
+    const sponsorName = sponsorNameByCode.get(code);
+    if (sponsorName && sponsorName !== member.name) {
+      fail(`Current member name does not match bill sponsor identity: ${code}/${member.name}/${sponsorName}`);
+    }
   }
 
   if (representatives.length !== members.length) {
@@ -179,6 +203,17 @@ function main() {
   for (const code of memberCodes) {
     if (!representativeCodes.has(code)) fail(`Current member missing from representative output: ${code}`);
     const representative = representatives.find((rep) => String(rep?.monaCode || "").trim() === code);
+    for (const field of ["id", "name", "party", "district", "photo", "homepage"]) {
+      if (String(representative?.[field] || "") !== String(memberByCode.get(code)?.[field] || "")) {
+        fail(`Representative identity mismatch for ${code}/${field}`);
+      }
+    }
+    const billProfile = billMemberProfiles?.[code];
+    for (const [memberField, profileField] of [["id", "slug"], ["name", "name"], ["party", "party"], ["district", "district"], ["photo", "photo"]]) {
+      if (String(billProfile?.[profileField] || "") !== String(memberByCode.get(code)?.[memberField] || "")) {
+        fail(`Bill member profile identity mismatch for ${code}/${profileField}`);
+      }
+    }
     const expectedVotes = memberVoteCounts.get(code) || 0;
     if (Number(representative?.votesTotal || 0) !== expectedVotes) {
       fail(`Representative vote denominator mismatch for ${code}: ${representative?.votesTotal} != ${expectedVotes}`);
@@ -285,6 +320,16 @@ function main() {
       fail(`Supporter association source reused by ${supporterSources.get(sourceUrl)} and ${code}: ${sourceUrl}`);
     }
     if (sourceUrl) supporterSources.set(sourceUrl, code);
+    const supporterName = String(supporter?.associationName || "")
+      .replace(/^국회의원/, "").replace(/후원회$/, "").replace(/[\s·]/g, "");
+    const memberName = String(memberByCode.get(code)?.name || "").replace(/[\s·]/g, "");
+    if (supporterName !== memberName) fail(`Supporter association name mismatch for ${code}: ${supporterName}/${memberName}`);
+  }
+  for (const role of executiveRoles) {
+    const code = String(role?.monaCode || "").trim();
+    if (!memberCodes.has(code) || String(memberByCode.get(code)?.name || "") !== String(role?.name || "")) {
+      fail(`Executive role identity mismatch: ${code || "missing code"}/${role?.name || "missing name"}`);
+    }
   }
   for (const [code, books] of Object.entries(memberBooks?.members || {})) {
     if (!memberCodes.has(code) || !Array.isArray(books) || !books.length || books.length > 3) fail(`Invalid member books: ${code}`);
