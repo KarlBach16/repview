@@ -363,6 +363,10 @@ export function deriveCollaborationNetworks(members, bills, options = {}) {
       proposalDate: String(bill?.proposalDate || ""),
       detailLink: String(bill?.detailLink || ""),
       leadMonaCode: String(bill?.monaCode || "").trim(),
+      leadMonaCodes: String(bill?.source?.RST_MONA_CD || bill?.monaCode || "")
+        .split(",")
+        .map((value) => value.trim())
+        .filter(Boolean),
     });
     relations.set(collaboratorCode, relation);
   }
@@ -416,6 +420,8 @@ export function deriveCollaborationNetworks(members, bills, options = {}) {
           district: String(collaborator?.district || ""),
           photo: String(collaborator?.photo || ""),
           billCount: relation.billIds.size,
+          ledByMemberCount: relation.bills.filter((bill) => bill.leadMonaCodes.includes(memberCode)).length,
+          ledByCollaboratorCount: relation.bills.filter((bill) => bill.leadMonaCodes.includes(collaboratorCode)).length,
           sameParty: String(collaborator?.party || "").trim() === memberParty,
           sharedBills,
         };

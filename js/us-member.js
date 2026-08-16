@@ -166,7 +166,7 @@ async function loadUSVoteSimilarityEvidence() {
 
 let voteEvidencePromise = null;
 
-async function loadMemberVoteEvidence(bioguideId) {
+async function loadUSVoteEvidenceData() {
   if (!voteEvidencePromise) {
     voteEvidencePromise = fetch("/data/us/vote_evidence.json", { cache: "no-store" })
       .then((response) => {
@@ -174,7 +174,11 @@ async function loadMemberVoteEvidence(bioguideId) {
         return response.json();
       });
   }
-  const data = await voteEvidencePromise;
+  return voteEvidencePromise;
+}
+
+async function loadMemberVoteEvidence(bioguideId) {
+  const data = await loadUSVoteEvidenceData();
   const refs = data?.members?.[String(bioguideId || "").trim().toUpperCase()] || {};
 
   function resolve(rows) {
@@ -420,20 +424,145 @@ function renderUSVoteSimilarity(member, members, evidence) {
   section.hidden = false;
 }
 
-function initUSNetworkTabs(member, members, collaborationEvidence, similarityEvidence) {
+const US_RELATIONSHIP_POSITIONS = [
+  [14, 24], [35, 12], [74, 16], [88, 46], [70, 81], [27, 82],
+];
+
+function usSharedPartyBreakCount(leftId, rightId, evidence) {
+  const rowsFor = (id) => evidence?.members?.[String(id || "").trim().toUpperCase()]?.partyBreaks || [];
+  const leftKeys = new Set(rowsFor(leftId).map((row) => String(row?.voteKey || "")).filter(Boolean));
+  return rowsFor(rightId).filter((row) => leftKeys.has(String(row?.voteKey || ""))).length;
+}
+
+function buildUSRelationshipCandidates(member, members, collaborationEvidence, similarityEvidence, voteEvidence) {
+  const memberIndex = new Map(members.map((row) => [String(row.bioguideId || "").trim().toUpperCase(), row]));
+  const memberId = String(member.bioguideId || "").trim().toUpperCase();
+  const collaboration = collaborationEvidence?.members?.[memberId];
+  const similarity = similarityEvidence?.members?.[memberId];
+  const candidates = new Map();
+  const ensure = (id) => {
+    const key = String(id || "").trim().toUpperCase();
+    const profile = memberIndex.get(key);
+    if (!key || !profile) return null;
+    if (!candidates.has(key)) candidates.set(key, { key, member: profile, sameParty: member.party === profile.party });
+    return candidates.get(key);
+  };
+  for (const row of collaboration?.topCollaborators || []) {
+    const candidate = ensure(row.bioguideId);
+    if (candidate) candidate.collaboration = row;
+  }
+  for (const row of similarity?.topMatches || []) {
+    const candidate = ensure(row.bioguideId);
+    if (candidate) candidate.similarity = row;
+  }
+  const maxBills = Math.max(1, ...[...candidates.values()].map((candidate) => Number(candidate.collaboration?.billCount || 0)));
+  for (const candidate of candidates.values()) {
+    const billCount = Number(candidate.collaboration?.billCount || 0);
+    const agreementRate = Number(candidate.similarity?.agreementRate || 0);
+    const commonVoteCount = Number(candidate.similarity?.commonVoteCount || 0);
+    candidate.billStrength = billCount ? Math.log1p(billCount) / Math.log1p(maxBills) : 0;
+    candidate.voteStrength = agreementRate ? Math.max(0, (agreementRate - 50) / 50) * Math.min(commonVoteCount / 50, 1) : 0;
+    candidate.sharedPartyBreaks = usSharedPartyBreakCount(memberId, candidate.key, voteEvidence);
+    candidate.overallStrength = candidate.billStrength * 0.48 + candidate.voteStrength * 0.4 + Math.min(candidate.sharedPartyBreaks / 3, 1) * 0.12;
+  }
+  return [...candidates.values()];
+}
+
+function selectUSRelationshipCandidates(member, members, collaborationEvidence, similarityEvidence, voteEvidence, view) {
+  const candidates = buildUSRelationshipCandidates(member, members, collaborationEvidence, similarityEvidence, voteEvidence);
+  const strengthFor = (candidate) => view === "collaboration" ? candidate.billStrength : view === "similarity" ? candidate.voteStrength : candidate.overallStrength;
+  const filtered = candidates
+    .filter((candidate) => view === "collaboration" ? candidate.collaboration : view === "similarity" ? candidate.similarity : true)
+    .sort((a, b) => strengthFor(b) - strengthFor(a) || String(a.member.name || "").localeCompare(String(b.member.name || ""), "en"));
+  const selected = filtered.slice(0, 6);
+  if (view === "all") {
+    const otherParty = filtered.find((candidate) => !candidate.sameParty);
+    if (otherParty && !selected.includes(otherParty) && selected.length) selected[selected.length - 1] = otherParty;
+  }
+  return selected.map((candidate) => ({ ...candidate, strength: strengthFor(candidate) }));
+}
+
+function renderUSRelationshipDetail(member, relation) {
+  const detail = document.getElementById("us-relationship-detail");
+  if (!detail || !relation) return;
+  const other = relation.member;
+  const metrics = [];
+  if (relation.collaboration) {
+    const directed = [
+      relation.collaboration.ledByMemberCount ? `My bills ${relation.collaboration.ledByMemberCount}` : "",
+      relation.collaboration.ledByCollaboratorCount ? `Their bills ${relation.collaboration.ledByCollaboratorCount}` : "",
+    ].filter(Boolean).join(" · ");
+    metrics.push(`<div><strong>${relation.collaboration.billCount || 0}</strong><span>Shared bills${directed ? `<small>${directed}</small>` : ""}</span></div>`);
+  }
+  if (relation.similarity) metrics.push(`<div><strong>${Number(relation.similarity.agreementRate || 0).toFixed(1)}%</strong><span>Vote agreement<small>${relation.similarity.commonVoteCount || 0} shared votes</small></span></div>`);
+  if (relation.sharedPartyBreaks) metrics.push(`<div><strong>${relation.sharedPartyBreaks}</strong><span>Shared party breaks</span></div>`);
+  detail.innerHTML = `
+    <div class="relationship-detail-title">
+      <span>${escapeHTML(member.name || "")} × ${escapeHTML(other.name || "")}</span>
+      <a href="member.html?district=${encodeURIComponent(other.districtCode || "")}">View ${escapeHTML(other.name || "")} →</a>
+    </div>
+    <div class="relationship-metrics">${metrics.join("")}</div>`;
+}
+
+function renderUSRelationshipNetwork(member, members, collaborationEvidence, similarityEvidence, voteEvidence, view = "all") {
   const section = document.getElementById("us-collaboration-section");
-  if (!section || section.dataset.tabsReady === "true" || !similarityEvidence) return;
+  const stage = document.getElementById("us-relationship-stage");
+  const stats = document.getElementById("us-collaboration-stats");
+  const eyebrow = document.getElementById("us-network-eyebrow");
+  const headline = document.getElementById("us-network-headline");
+  if (!section || !stage || !stats) return;
+  const relations = selectUSRelationshipCandidates(member, members, collaborationEvidence, similarityEvidence, voteEvidence, view);
+  if (!relations.length) { section.hidden = true; return; }
+  const labels = {
+    all: ["119th Congress · Political network", "Who they move with."],
+    collaboration: ["119th Congress · Cosponsorship", "Frequent collaborators."],
+    similarity: ["119th Congress · Roll calls", "Similar voting records."],
+  };
+  if (eyebrow) eyebrow.textContent = labels[view]?.[0] || labels.all[0];
+  if (headline) headline.textContent = labels[view]?.[1] || labels.all[1];
+  stats.innerHTML = `<span><strong>${relations.length}</strong> connected members</span>`;
+  const centerPhoto = member.bioguideId ? `/img/us/members/${encodeURIComponent(member.bioguideId)}.jpg` : safeExternalUrl(member.photo);
+  const lineClass = view === "collaboration" ? "is-collaboration" : view === "similarity" ? "is-similarity" : "is-combined";
+  stage.innerHTML = `
+    <svg class="relationship-bonds" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+      <defs><linearGradient id="relationship-gradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0071e3"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+      ${relations.map((relation, index) => {
+        const [x, y] = US_RELATIONSHIP_POSITIONS[index];
+        return `<line class="relationship-bond ${lineClass}" x1="50" y1="50" x2="${x}" y2="${y}" style="--bond-width:${(1.1 + Math.max(0.15, relation.strength) * 2.8).toFixed(2)}"/>`;
+      }).join("")}
+    </svg>
+    <div class="relationship-center">
+      <span class="relationship-center-photo${centerPhoto ? "" : " is-missing"}">${centerPhoto ? `<img src="${escapeHTML(centerPhoto)}" alt="${escapeHTML(member.name || "")}" />` : escapeHTML(String(member.name || "?").slice(0, 1))}</span>
+      <strong>${escapeHTML(member.name || "")}</strong>
+    </div>
+    ${relations.map((relation, index) => {
+      const [x, y] = US_RELATIONSHIP_POSITIONS[index];
+      const other = relation.member;
+      const photo = other.bioguideId ? `/img/us/members/${encodeURIComponent(other.bioguideId)}.jpg` : safeExternalUrl(other.photo);
+      const nodeSize = Math.round(54 + Math.max(0.15, relation.strength) * 18);
+      return `<button class="relationship-node${index === 0 ? " is-selected" : ""}" type="button" data-relation-index="${index}" style="--node-x:${x}%;--node-y:${y}%;--node-size:${nodeSize}px" aria-label="${escapeHTML(other.name || "")}">
+        <span class="relationship-node-photo${photo ? "" : " is-missing"}">${photo ? `<img src="${escapeHTML(photo)}" alt="" loading="lazy" />` : `<i>${escapeHTML(String(other.name || "?").slice(0, 1))}</i>`}</span>
+        <strong>${escapeHTML(other.name || "")}</strong>
+      </button>`;
+    }).join("")}`;
+  stage.querySelectorAll("[data-relation-index]").forEach((button) => {
+    button.addEventListener("click", () => {
+      stage.querySelectorAll(".relationship-node").forEach((node) => node.classList.toggle("is-selected", node === button));
+      renderUSRelationshipDetail(member, relations[Number(button.dataset.relationIndex)]);
+    });
+  });
+  renderUSRelationshipDetail(member, relations[0]);
+  section.hidden = false;
+}
+
+function initUSNetworkTabs(member, members, collaborationEvidence, similarityEvidence, voteEvidence) {
+  const section = document.getElementById("us-collaboration-section");
+  if (!section || section.dataset.tabsReady === "true") return;
   section.dataset.tabsReady = "true";
-  const similarityTab = section.querySelector('[data-network-view="similarity"]');
-  if (similarityTab) similarityTab.hidden = false;
   section.querySelectorAll("[data-network-view]").forEach((button) => {
     button.addEventListener("click", () => {
       section.querySelectorAll("[data-network-view]").forEach((item) => item.classList.toggle("is-active", item === button));
-      if (button.dataset.networkView === "similarity") {
-        renderUSVoteSimilarity(member, members, similarityEvidence);
-      } else {
-        renderUSCollaborationNetwork(member, members, collaborationEvidence);
-      }
+      renderUSRelationshipNetwork(member, members, collaborationEvidence, similarityEvidence, voteEvidence, button.dataset.networkView || "all");
     });
   });
 }
@@ -603,17 +732,16 @@ function renderMember(member) {
 
     <section class="collaboration-story" id="us-collaboration-section" hidden>
       <div class="collaboration-shell">
-        <p class="collaboration-eyebrow" id="us-network-eyebrow">119th Congress · Cosponsorship</p>
-        <h2 class="collaboration-headline" id="us-network-headline">Frequent collaborators.</h2>
+        <p class="collaboration-eyebrow" id="us-network-eyebrow">119th Congress · Political network</p>
+        <h2 class="collaboration-headline" id="us-network-headline">Who they move with.</h2>
         <div class="network-tabs" aria-label="Network view">
-          <button class="network-tab is-active" type="button" data-network-view="collaboration">Cosponsorship</button>
-          <button class="network-tab" type="button" data-network-view="similarity" hidden>Voting similarity</button>
+          <button class="network-tab is-active" type="button" data-network-view="all">All</button>
+          <button class="network-tab" type="button" data-network-view="collaboration">Cosponsorship</button>
+          <button class="network-tab" type="button" data-network-view="similarity">Votes</button>
         </div>
         <div class="collaboration-stats" id="us-collaboration-stats"></div>
-        <div class="collaboration-map">
-          <div class="collaboration-origin" id="us-collaboration-origin"></div>
-          <div class="collaboration-list" id="us-collaboration-list"></div>
-        </div>
+        <div class="relationship-stage" id="us-relationship-stage"></div>
+        <div class="relationship-detail" id="us-relationship-detail"></div>
       </div>
     </section>
 
@@ -882,10 +1010,14 @@ async function initUSMemberPage() {
       console.error(error);
       return null;
     }),
+    loadUSVoteEvidenceData().catch((error) => {
+      console.error(error);
+      return null;
+    }),
   ])
-    .then(([collaborationEvidence, similarityEvidence]) => {
-      if (collaborationEvidence) renderUSCollaborationNetwork(member, members, collaborationEvidence);
-      initUSNetworkTabs(member, members, collaborationEvidence, similarityEvidence);
+    .then(([collaborationEvidence, similarityEvidence, voteEvidence]) => {
+      renderUSRelationshipNetwork(member, members, collaborationEvidence, similarityEvidence, voteEvidence, "all");
+      initUSNetworkTabs(member, members, collaborationEvidence, similarityEvidence, voteEvidence);
     });
 }
 
