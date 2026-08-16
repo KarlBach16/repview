@@ -216,11 +216,10 @@ function formatProposalDate(value) {
 }
 
 function assemblyBillDetailUrl(billId, detailLink = "") {
-  const explicit = String(detailLink || "").trim();
-  if (/^https?:\/\//i.test(explicit)) return explicit;
   const id = String(billId || "").trim();
-  if (!/^[a-z0-9_]+$/i.test(id)) return "";
-  return `http://likms.assembly.go.kr/bill/billDetail.do?billId=${encodeURIComponent(id)}&ageFrom=22&ageTo=22`;
+  if (/^[a-z0-9_]+$/i.test(id)) return `bill.html?id=${encodeURIComponent(id)}`;
+  const explicit = String(detailLink || "").trim();
+  return /^https?:\/\//i.test(explicit) ? explicit : "";
 }
 
 function renderMember(rep) {
@@ -315,7 +314,7 @@ function renderPartyComparison(comparison) {
           <span class="vote-decision-badge ${choiceClass(v.choice)}">${escapeHTML(v.choice)}</span>
         </div>
         <h3>${billUrl
-          ? `<a class="bill-title-link" href="${escapeHTML(billUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(v.title || "")}</a>`
+          ? `<a class="bill-title-link" href="${escapeHTML(billUrl)}">${escapeHTML(v.title || "")}</a>`
           : escapeHTML(v.title || "")}</h3>
         <p>당내 다수 선택은 ${escapeHTML(v.partyMajorityChoice || "")}였습니다.</p>
         ${distributionHTML(v.partyDistribution, "같은 정당")}
@@ -347,7 +346,7 @@ function renderBillLifecycle(lifecycle) {
   listEl.innerHTML = bills.map((bill) => {
     const billUrl = assemblyBillDetailUrl(bill.billId, bill.detailLink);
     return `
-    <a class="lifecycle-item fade-in" href="${escapeHTML(billUrl || "#")}" ${billUrl ? 'target="_blank" rel="noopener noreferrer"' : ""}>
+    <a class="lifecycle-item fade-in" href="${escapeHTML(billUrl || "#")}">
       <div>
         <span class="lifecycle-date">${formatProposalDate(bill.proposalDate)}</span>
         <h3>${escapeHTML(bill.title || "")}</h3>
@@ -413,7 +412,7 @@ function renderCollaborationNetwork(rep) {
           ${sharedBills.map((bill) => {
             const billUrl = assemblyBillDetailUrl(bill.billId, bill.detailLink);
             return `
-            <a href="${escapeHTML(billUrl || "#")}" ${billUrl ? 'target="_blank" rel="noopener noreferrer"' : ""}>
+            <a href="${escapeHTML(billUrl || "#")}">
               <span>${escapeHTML(formatProposalDate(bill.proposalDate))}</span>
               <strong>${escapeHTML(bill.title || "")}</strong>
             </a>`;
@@ -552,7 +551,7 @@ function renderVotes(votes) {
             <span class="vote-card-topic">${v.billNo || ""}</span>
           </div>
           <div class="vote-card-title">${billUrl
-            ? `<a class="bill-title-link" href="${escapeHTML(billUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(v.title || "")}</a>`
+            ? `<a class="bill-title-link" href="${escapeHTML(billUrl)}">${escapeHTML(v.title || "")}</a>`
             : escapeHTML(v.title || "")}</div>
         </div>
         <span class="vote-decision-badge ${choiceClass(choice)}">${escapeHTML(choice)}</span>

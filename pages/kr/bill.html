@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>법안 — RepView</title>
+  <meta name="description" content="법안의 발의자, 처리 과정과 본회의 표결을 한눈에 확인하세요." />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="stylesheet" href="/css/style.css?v=20260816l" />
+</head>
+<body class="bill-page">
+  <nav class="nav">
+    <a class="nav-back" href="index.html">← RepView</a>
+    <span class="nav-member-name" id="nav-bill-number"></span>
+  </nav>
+
+  <main id="bill-content" hidden>
+    <section class="bill-hero">
+      <div class="bill-shell bill-hero-inner">
+        <p class="bill-eyebrow fade-in" id="bill-eyebrow"></p>
+        <h1 class="bill-title fade-in delay-1" id="bill-title"></h1>
+        <p class="bill-summary fade-in delay-2" id="bill-summary"></p>
+        <div class="bill-hero-meta fade-in delay-2">
+          <span class="bill-status" id="bill-status"></span>
+          <span id="bill-proposal-date"></span>
+          <span id="bill-processed-date"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="bill-people">
+      <div class="bill-shell">
+        <p class="bill-section-label fade-in">발의</p>
+        <h2 class="bill-section-title fade-in delay-1">누가 만들었나.</h2>
+        <div class="bill-leads fade-in delay-2" id="bill-leads"></div>
+        <div class="bill-cosponsors fade-in delay-2" id="bill-cosponsors" hidden>
+          <div class="bill-cosponsor-heading">
+            <h3 id="bill-cosponsor-title"></h3>
+            <p id="bill-party-composition"></p>
+          </div>
+          <div class="bill-face-rail" id="bill-face-rail"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bill-process">
+      <div class="bill-shell">
+        <p class="bill-section-label fade-in">처리 과정</p>
+        <h2 class="bill-section-title fade-in delay-1">지금 여기까지.</h2>
+        <div class="bill-timeline fade-in delay-2" id="bill-timeline"></div>
+      </div>
+    </section>
+
+    <section class="bill-vote" id="bill-vote-section" hidden>
+      <div class="bill-shell">
+        <p class="bill-section-label fade-in">본회의 표결</p>
+        <h2 class="bill-vote-headline fade-in delay-1"><strong id="bill-yes-count">0</strong><span>찬성</span></h2>
+        <div class="bill-vote-metrics fade-in delay-2" id="bill-vote-metrics"></div>
+        <div class="bill-vote-bar fade-in delay-2" id="bill-vote-bar"></div>
+        <div class="bill-party-votes fade-in delay-2" id="bill-party-votes"></div>
+        <details class="bill-member-votes fade-in" id="bill-member-votes">
+          <summary>의원별 표결 보기 <span>＋</span></summary>
+          <div class="bill-member-vote-groups" id="bill-member-vote-groups"></div>
+        </details>
+      </div>
+    </section>
+
+    <footer class="bill-source">
+      <div class="bill-shell">
+        <p id="bill-data-through"></p>
+        <a id="bill-official-link" href="#" target="_blank" rel="noopener noreferrer">국회 원문 보기 ↗</a>
+      </div>
+    </footer>
+  </main>
+
+  <section class="bill-error" id="bill-error" hidden>
+    <p>법안 정보를 찾지 못했습니다.</p>
+    <a href="index.html">RepView로 돌아가기</a>
+  </section>
+
+  <script src="/js/app.js?v=20260816l"></script>
+  <script src="/js/bill.js?v=20260816l"></script>
+</body>
+</html>

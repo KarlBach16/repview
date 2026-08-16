@@ -213,6 +213,7 @@ async function mapWithConcurrency(items, worker, limit = 8) {
 function normalizeVotes(rows) {
   return rows.map((row) => ({
     monaCode: pickFirst(row, ["MONA_CD"]),
+    memberName: pickFirst(row, ["HG_NM", "NAAS_NM"]),
     party: pickFirst(row, ["POLY_NM"]),
     billId: pickFirst(row, ["BILL_ID"]),
     billNo: pickFirst(row, ["BILL_NO"]),
