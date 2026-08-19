@@ -799,12 +799,12 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00160630/?cycle=2026"
         },
         {
-          "committeeId": "C00432252",
-          "name": "REGIONS FINANCIAL CORPORATION POLITICAL ACTION COMMITTEE",
+          "committeeId": "C00760843",
+          "name": "MODERN TECHNOLOGY SOLUTIONS, INC. (MTSI) LEADERS FOR ENDURING SOLUTIONS",
           "amount": 10000,
           "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00432252/?cycle=2026"
+          "designation": "U",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00760843/?cycle=2026"
         }
       ]
     }
@@ -3052,20 +3052,20 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00002469/?cycle=2026"
         },
         {
+          "committeeId": "C00029447",
+          "name": "INTERNATIONAL ASSOCIATION OF FIREFIGHTERS INTERESTED IN REGISTRATION AND EDUCATION PAC",
+          "amount": 13500,
+          "committeeType": "Q",
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00029447/?cycle=2026"
+        },
+        {
           "committeeId": "C00007880",
           "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
           "amount": 12500,
           "committeeType": "Q",
           "designation": "B",
           "sourceUrl": "https://www.fec.gov/data/committee/C00007880/?cycle=2026"
-        },
-        {
-          "committeeId": "C00029447",
-          "name": "INTERNATIONAL ASSOCIATION OF FIREFIGHTERS INTERESTED IN REGISTRATION AND EDUCATION PAC",
-          "amount": 12500,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00029447/?cycle=2026"
         }
       ]
     }
@@ -12289,20 +12289,20 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00818542/?cycle=2026"
         },
         {
+          "committeeId": "C00236489",
+          "name": "KOCH, INC. POLITICAL ACTION COMMITTEE (KOCHPAC)",
+          "amount": 10000,
+          "committeeType": "Q",
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00236489/?cycle=2026"
+        },
+        {
           "committeeId": "C00686709",
           "name": "KRATOS DEFENSE & SECURITY SOLUTIONS, INC. POLITICAL ACTION COMMITTEE (KRATOS PAC)",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "U",
           "sourceUrl": "https://www.fec.gov/data/committee/C00686709/?cycle=2026"
-        },
-        {
-          "committeeId": "C00889386",
-          "name": "NB3 PAC",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "D",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00889386/?cycle=2026"
         }
       ]
     }
@@ -16220,14 +16220,6 @@
       "source": "Federal Election Commission",
       "topCommitteeContributors": [
         {
-          "committeeId": "C00219444",
-          "name": "NATIONAL STRUCTURED SETTLEMENTS TRADE ASSOCIATION PAC",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00219444/?cycle=2026"
-        },
-        {
           "committeeId": "C00384602",
           "name": "AMERICAN SOCIETY FOR RADIATION ONCOLOGY PAC (''ASTRO-PAC'')",
           "amount": 9000,
@@ -16258,6 +16250,14 @@
           "committeeType": "Q",
           "designation": "B",
           "sourceUrl": "https://www.fec.gov/data/committee/C00040279/?cycle=2026"
+        },
+        {
+          "committeeId": "C00340356",
+          "name": "ADVANCED MEDICAL TECHNOLOGY ASSOCIATION POLITICAL ACTION COMMITTEE",
+          "amount": 5000,
+          "committeeType": "Q",
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00340356/?cycle=2026"
         }
       ]
     }
@@ -17865,20 +17865,20 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00756825/?cycle=2026"
         },
         {
+          "committeeId": "C00029504",
+          "name": "ENGINEERS POLITICAL EDUCATION COMMITTEE (EPEC)/INTERNATIONAL UNION OF OPERATING ENGINEERS",
+          "amount": 10000,
+          "committeeType": "Q",
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00029504/?cycle=2026"
+        },
+        {
           "committeeId": "C00683508",
           "name": "FOREVER YOUTH ORGANIZATION UTILIZING A NEW GENERATION PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "D",
           "sourceUrl": "https://www.fec.gov/data/committee/C00683508/?cycle=2026"
-        },
-        {
-          "committeeId": "C00809970",
-          "name": "HISPANIC LEADERSHIP TRUST",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "U",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00809970/?cycle=2026"
         }
       ]
     }
@@ -20757,12 +20757,12 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00531764/?cycle=2026"
         },
         {
-          "committeeId": "C00479246",
-          "name": "BLACKROCK FUNDS SERVICES GROUP LLC POLITICAL ACTION COMMITTEE (BLACKROCK PAC)",
+          "committeeId": "C00250399",
+          "name": "AUTOMOTIVE FREE INTERNATIONAL TRADE PAC",
           "amount": 10000,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00479246/?cycle=2026"
+          "committeeType": "W",
+          "designation": "U",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00250399/?cycle=2026"
         }
       ]
     }
@@ -25458,14 +25458,6 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00009985/?cycle=2026"
         },
         {
-          "committeeId": "C00691972",
-          "name": "ALLISON TRANSMISSION INC. POLITICAL ACTION COMMITTEE",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "U",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00691972/?cycle=2026"
-        },
-        {
           "committeeId": "C00359539",
           "name": "AMERICAN ACADEMY OF DERMATOLOGY ASSOCIATION POLITICAL ACTION COMMITTEE (SKINPAC)",
           "amount": 10000,
@@ -25488,6 +25480,14 @@
           "committeeType": "Q",
           "designation": "B",
           "sourceUrl": "https://www.fec.gov/data/committee/C00010868/?cycle=2026"
+        },
+        {
+          "committeeId": "C00639229",
+          "name": "AMERICAN REVIVAL PAC",
+          "amount": 10000,
+          "committeeType": "Q",
+          "designation": "U",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00639229/?cycle=2026"
         }
       ]
     }
@@ -29284,20 +29284,20 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00097568/?cycle=2026"
         },
         {
+          "committeeId": "C00040741",
+          "name": "UTILITY WORKERS UNION OF AMERICA COPE",
+          "amount": 6000,
+          "committeeType": "Q",
+          "designation": "U",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00040741/?cycle=2026"
+        },
+        {
           "committeeId": "C00007880",
           "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
           "amount": 5000,
           "committeeType": "Q",
           "designation": "B",
           "sourceUrl": "https://www.fec.gov/data/committee/C00007880/?cycle=2026"
-        },
-        {
-          "committeeId": "C00001016",
-          "name": "CARPENTERS LEGISLATIVE IMPROVEMENT COMMITTEE UNITED BROTHERHOOD OF CARPENTERS AND JOINERS",
-          "amount": 5000,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00001016/?cycle=2026"
         }
       ]
     }
@@ -30243,12 +30243,12 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00091561/?cycle=2026"
         },
         {
-          "committeeId": "C00024521",
-          "name": "AMERICAN ASSOCIATION FOR JUSTICE POLITICAL ACTION COMMITTEE (AAJ PAC)",
-          "amount": 8500,
+          "committeeId": "C00072025",
+          "name": "NATIONAL RURAL LETTER CARRIERS' ASSOCIATION POLITICAL ACTION COMMITTEE",
+          "amount": 10000,
           "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00024521/?cycle=2026"
+          "designation": "U",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00072025/?cycle=2026"
         }
       ]
     }
@@ -35096,12 +35096,12 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00797670/?cycle=2026"
         },
         {
-          "committeeId": "C00381954",
-          "name": "ATMOS ENERGY CORPORATION PAC",
+          "committeeId": "C00346353",
+          "name": "CRH AMERICAS, INC. PAC",
           "amount": 10000,
           "committeeType": "Q",
-          "designation": "U",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00381954/?cycle=2026"
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00346353/?cycle=2026"
         }
       ]
     }
@@ -35704,20 +35704,20 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00011114/?cycle=2026"
         },
         {
+          "committeeId": "C00010322",
+          "name": "AMERICAN POSTAL WORKERS UNION COMMITTEE ON POLITICAL ACTION",
+          "amount": 10000,
+          "committeeType": "W",
+          "designation": "U",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00010322/?cycle=2026"
+        },
+        {
           "committeeId": "C00287714",
           "name": "CARNIVAL/PRINCESS HOLLAND AMERICA LINE INC. PAC (HALPAC)",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "U",
           "sourceUrl": "https://www.fec.gov/data/committee/C00287714/?cycle=2026"
-        },
-        {
-          "committeeId": "C00211318",
-          "name": "DELOITTE POLITICAL ACTION COMMITTEE",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00211318/?cycle=2026"
         }
       ]
     }
@@ -36303,6 +36303,14 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00542027/?cycle=2026"
         },
         {
+          "committeeId": "C00000901",
+          "name": "BUILD POLITICAL ACTION COMMITTEE OF THE NATIONAL ASSOCIATION OF HOME BUILDERS (BUILDPAC)",
+          "amount": 10000,
+          "committeeType": "Q",
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00000901/?cycle=2026"
+        },
+        {
           "committeeId": "C00792127",
           "name": "FAIR ISAAC CORPORATION POLITICAL ACTION COMMITTEE (FICO PAC)",
           "amount": 10000,
@@ -36317,14 +36325,6 @@
           "committeeType": "Q",
           "designation": "B",
           "sourceUrl": "https://www.fec.gov/data/committee/C00186064/?cycle=2026"
-        },
-        {
-          "committeeId": "C00158881",
-          "name": "NEW YORK LIFE INSURANCE COMPANY POLITICAL ACTION COMMITTEE",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00158881/?cycle=2026"
         }
       ]
     }
@@ -36762,8 +36762,8 @@
       "cycle": 2026,
       "candidateId": "H0NC03172",
       "totalReceipts": 2357956.42,
-      "individualContributions": 1013137.57,
-      "pacContributions": 1036299,
+      "individualContributions": 1011637.57,
+      "pacContributions": 1037799,
       "partyContributions": 0,
       "candidateFunding": 0,
       "totalDisbursements": 1243598.59,
@@ -37121,20 +37121,20 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00010421/?cycle=2026"
         },
         {
+          "committeeId": "C00000901",
+          "name": "BUILD POLITICAL ACTION COMMITTEE OF THE NATIONAL ASSOCIATION OF HOME BUILDERS (BUILDPAC)",
+          "amount": 10000,
+          "committeeType": "Q",
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00000901/?cycle=2026"
+        },
+        {
           "committeeId": "C00084491",
           "name": "INTERNATIONAL FRANCHISE ASSOCIATION FRANCHISING POLITICAL ACTION COMMITTEE INC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
           "sourceUrl": "https://www.fec.gov/data/committee/C00084491/?cycle=2026"
-        },
-        {
-          "committeeId": "C00431361",
-          "name": "TEACHERS INSURANCE ANNUITY ASSOCIATION OF AMERICA PAC (TIAA PAC)",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00431361/?cycle=2026"
         }
       ]
     }
@@ -37453,12 +37453,12 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00114132/?cycle=2026"
         },
         {
-          "committeeId": "C00014019",
-          "name": "COMMITTEE ORGANIZED FOR THE TRADING OF COTTON PAC OF THE AMERICAN COTTON SHIPPERS ASSOCIAT",
+          "committeeId": "C00000901",
+          "name": "BUILD POLITICAL ACTION COMMITTEE OF THE NATIONAL ASSOCIATION OF HOME BUILDERS (BUILDPAC)",
           "amount": 10000,
           "committeeType": "Q",
-          "designation": "U",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00014019/?cycle=2026"
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00000901/?cycle=2026"
         }
       ]
     }
@@ -38532,6 +38532,14 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00077321/?cycle=2026"
         },
         {
+          "committeeId": "C00000901",
+          "name": "BUILD POLITICAL ACTION COMMITTEE OF THE NATIONAL ASSOCIATION OF HOME BUILDERS (BUILDPAC)",
+          "amount": 10000,
+          "committeeType": "Q",
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00000901/?cycle=2026"
+        },
+        {
           "committeeId": "C00083535",
           "name": "DUKE ENERGY CORPORATION EMPLOYEE POLITICAL ACTION COMMITTEE (DUKEPAC)",
           "amount": 10000,
@@ -38554,14 +38562,6 @@
           "committeeType": "Q",
           "designation": "B",
           "sourceUrl": "https://www.fec.gov/data/committee/C00012245/?cycle=2026"
-        },
-        {
-          "committeeId": "C00004275",
-          "name": "AMERICAN BANKERS ASSOCIATION PAC (BANKPAC)",
-          "amount": 7500,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00004275/?cycle=2026"
         }
       ]
     }
@@ -41229,12 +41229,12 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00004036/?cycle=2026"
         },
         {
-          "committeeId": "C00024521",
-          "name": "AMERICAN ASSOCIATION FOR JUSTICE POLITICAL ACTION COMMITTEE (AAJ PAC)",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00024521/?cycle=2026"
+          "committeeId": "C00606962",
+          "name": "WORKING FAMILIES PARTY PAC",
+          "amount": 15000,
+          "committeeType": "W",
+          "designation": "U",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00606962/?cycle=2026"
         }
       ]
     }
@@ -42680,20 +42680,20 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00524314/?cycle=2026"
         },
         {
+          "committeeId": "C00010322",
+          "name": "AMERICAN POSTAL WORKERS UNION COMMITTEE ON POLITICAL ACTION",
+          "amount": 10000,
+          "committeeType": "W",
+          "designation": "U",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00010322/?cycle=2026"
+        },
+        {
           "committeeId": "C00639229",
           "name": "AMERICAN REVIVAL PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "U",
           "sourceUrl": "https://www.fec.gov/data/committee/C00639229/?cycle=2026"
-        },
-        {
-          "committeeId": "C00693796",
-          "name": "BUCKEYE LIBERTY POLITICAL ACTION COMMITTEE",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "D",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00693796/?cycle=2026"
         }
       ]
     }
@@ -43175,12 +43175,12 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00629709/?cycle=2026"
         },
         {
-          "committeeId": "C00581785",
-          "name": "SUSTAINABLE ENERGY AND ENVIRONMENT COALITION PAC (SEEC PAC)",
+          "committeeId": "C00525600",
+          "name": "OFF THE SIDELINES PAC",
           "amount": 10000,
           "committeeType": "Q",
-          "designation": "U",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00581785/?cycle=2026"
+          "designation": "D",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00525600/?cycle=2026"
         }
       ]
     }
@@ -44561,12 +44561,12 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00238725/?cycle=2026"
         },
         {
-          "committeeId": "C00525600",
-          "name": "OFF THE SIDELINES PAC",
+          "committeeId": "C00405555",
+          "name": "NATIONAL COUNCIL OF TEXTILE ORGANIZATIONS INC POLITICAL ACTION COMMITTEE",
           "amount": 10000,
           "committeeType": "Q",
-          "designation": "D",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00525600/?cycle=2026"
+          "designation": "U",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00405555/?cycle=2026"
         }
       ]
     }
@@ -46165,12 +46165,12 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00406801/?cycle=2026"
         },
         {
-          "committeeId": "C00426775",
-          "name": "CHARTER COMMUNICATIONS INC. POLITICAL ACTION COMMITTEE",
+          "committeeId": "C00000901",
+          "name": "BUILD POLITICAL ACTION COMMITTEE OF THE NATIONAL ASSOCIATION OF HOME BUILDERS (BUILDPAC)",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00426775/?cycle=2026"
+          "sourceUrl": "https://www.fec.gov/data/committee/C00000901/?cycle=2026"
         }
       ]
     }
@@ -50136,20 +50136,20 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00024968/?cycle=2026"
         },
         {
+          "committeeId": "C00000901",
+          "name": "BUILD POLITICAL ACTION COMMITTEE OF THE NATIONAL ASSOCIATION OF HOME BUILDERS (BUILDPAC)",
+          "amount": 10000,
+          "committeeType": "Q",
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00000901/?cycle=2026"
+        },
+        {
           "committeeId": "C00040998",
           "name": "NATIONAL AUTOMOBILE DEALERS ASSOCIATION POLITICAL ACTION COMMITTEE",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
           "sourceUrl": "https://www.fec.gov/data/committee/C00040998/?cycle=2026"
-        },
-        {
-          "committeeId": "C00002972",
-          "name": "NATIONAL RURAL ELECTRIC COOPERATIVE ASSOCIATION AMERICA'S ELECTRIC COOPERATIVES PAC",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00002972/?cycle=2026"
         }
       ]
     }
@@ -51764,12 +51764,12 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00344234/?cycle=2026"
         },
         {
-          "committeeId": "C00003590",
-          "name": "UNITED STEELWORKERS POLITICAL ACTION FUND",
+          "committeeId": "C00418897",
+          "name": "VOTEVETS",
           "amount": 10000,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00003590/?cycle=2026"
+          "committeeType": "W",
+          "designation": "U",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00418897/?cycle=2026"
         }
       ]
     }
@@ -53336,6 +53336,14 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00041566/?cycle=2026"
         },
         {
+          "committeeId": "C00250399",
+          "name": "AUTOMOTIVE FREE INTERNATIONAL TRADE PAC",
+          "amount": 10000,
+          "committeeType": "W",
+          "designation": "U",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00250399/?cycle=2026"
+        },
+        {
           "committeeId": "C00001016",
           "name": "CARPENTERS LEGISLATIVE IMPROVEMENT COMMITTEE UNITED BROTHERHOOD OF CARPENTERS AND JOINERS",
           "amount": 10000,
@@ -53350,14 +53358,6 @@
           "committeeType": "Q",
           "designation": "B",
           "sourceUrl": "https://www.fec.gov/data/committee/C00082792/?cycle=2026"
-        },
-        {
-          "committeeId": "C00401299",
-          "name": "FRESENIUS MEDICAL CARE HOLDINGS, INC. POLITICAL ACTION COMMITTEE",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00401299/?cycle=2026"
         }
       ]
     }
@@ -54154,20 +54154,20 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00278895/?cycle=2026"
         },
         {
+          "committeeId": "C00281212",
+          "name": "BAE SYSTEMS INC. POLITICAL ACTION COMMITTEE (BAE SYSTEMS USA PAC)",
+          "amount": 8000,
+          "committeeType": "Q",
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00281212/?cycle=2026"
+        },
+        {
           "committeeId": "C00365502",
           "name": "BWX TECHNOLOGIES, INC POLITICAL ACTION COMMITTEE",
           "amount": 8000,
           "committeeType": "Q",
           "designation": "B",
           "sourceUrl": "https://www.fec.gov/data/committee/C00365502/?cycle=2026"
-        },
-        {
-          "committeeId": "C00077321",
-          "name": "AMERICAN INSTITUTE OF CERTIFIED PUBLIC ACCOUNTANTS POLITICAL ACTION COMMITTEE",
-          "amount": 7500,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00077321/?cycle=2026"
         }
       ]
     }
@@ -56060,6 +56060,14 @@
       "source": "Federal Election Commission",
       "topCommitteeContributors": [
         {
+          "committeeId": "C00763664",
+          "name": "TRACTOR SUPPLY COMPANY POLITICAL ACTION COMMITTEE",
+          "amount": 15000,
+          "committeeType": "Q",
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00763664/?cycle=2026"
+        },
+        {
           "committeeId": "C00030718",
           "name": "NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE",
           "amount": 13000,
@@ -56090,14 +56098,6 @@
           "committeeType": "Q",
           "designation": "D",
           "sourceUrl": "https://www.fec.gov/data/committee/C00693796/?cycle=2026"
-        },
-        {
-          "committeeId": "C00592089",
-          "name": "ELECTING MAJORITY MAKING EFFECTIVE REPUBLICANS PAC",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "D",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00592089/?cycle=2026"
         }
       ]
     }
@@ -63313,6 +63313,14 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00028860/?cycle=2026"
         },
         {
+          "committeeId": "C00029504",
+          "name": "ENGINEERS POLITICAL EDUCATION COMMITTEE (EPEC)/INTERNATIONAL UNION OF OPERATING ENGINEERS",
+          "amount": 10000,
+          "committeeType": "Q",
+          "designation": "B",
+          "sourceUrl": "https://www.fec.gov/data/committee/C00029504/?cycle=2026"
+        },
+        {
           "committeeId": "C00412791",
           "name": "FORWARD TOGETHER PAC",
           "amount": 10000,
@@ -63327,14 +63335,6 @@
           "committeeType": "Q",
           "designation": "B",
           "sourceUrl": "https://www.fec.gov/data/committee/C00005157/?cycle=2026"
-        },
-        {
-          "committeeId": "C00040998",
-          "name": "NATIONAL AUTOMOBILE DEALERS ASSOCIATION POLITICAL ACTION COMMITTEE",
-          "amount": 10000,
-          "committeeType": "Q",
-          "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00040998/?cycle=2026"
         }
       ]
     }
@@ -67866,12 +67866,12 @@
           "sourceUrl": "https://www.fec.gov/data/committee/C00012880/?cycle=2026"
         },
         {
-          "committeeId": "C00889568",
-          "name": "COUPANG, INC. COMPANY PAC (COUPAC)",
+          "committeeId": "C00000901",
+          "name": "BUILD POLITICAL ACTION COMMITTEE OF THE NATIONAL ASSOCIATION OF HOME BUILDERS (BUILDPAC)",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
-          "sourceUrl": "https://www.fec.gov/data/committee/C00889568/?cycle=2026"
+          "sourceUrl": "https://www.fec.gov/data/committee/C00000901/?cycle=2026"
         }
       ]
     }
