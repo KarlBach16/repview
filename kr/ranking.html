@@ -1,12 +1,239 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RepView KR</title>
-  <script>
-    location.replace('/pages/kr/ranking.html' + location.search + location.hash);
-  </script>
+  <title>의원 랭킹 — RepView</title>
+  <link rel="stylesheet" href="/css/style.css?v=20260814e" />
 </head>
-<body></body>
+<body>
+  <nav class="nav scrolled">
+    <a class="nav-back" href="index.html">&#8592; 검색으로</a>
+  </nav>
+
+  <main class="ranking-page">
+    <section class="ranking-hero">
+      <h1 class="ranking-title">의원 랭킹</h1>
+
+      <div class="ranking-tabs" id="ranking-tabs">
+        <button class="ranking-tab is-active" data-metric="participation">표결 참여율</button>
+        <button class="ranking-tab" data-metric="absent">불참 순</button>
+        <button class="ranking-tab" data-metric="bills">대표 발의</button>
+        <button class="ranking-tab" data-metric="views">조회 랭킹</button>
+      </div>
+
+      <div class="ranking-party-controls">
+        <button class="ranking-party-toggle" id="ranking-party-toggle" type="button">정당 선택</button>
+        <div class="ranking-party-filters is-collapsed" id="ranking-party-filters"></div>
+      </div>
+    </section>
+
+    <section class="ranking-list" id="ranking-list"></section>
+  </main>
+
+  <script src="/js/app.js?v=20260816b"></script>
+  <script>
+    (async () => {
+      const data = await loadAll();
+      const reps = data.representatives || [];
+      const validMetrics = new Set(["participation", "absent", "bills", "views"]);
+
+      const params = new URLSearchParams(location.search);
+      const requestedMetric = String(params.get("metric") || "").trim();
+      let metric = validMetrics.has(requestedMetric) ? requestedMetric : "participation";
+      let party = "all";
+      let monthlyCounts = {};
+
+      const listEl = document.getElementById("ranking-list");
+      const tabsEl = document.getElementById("ranking-tabs");
+      const partyToggleEl = document.getElementById("ranking-party-toggle");
+      const partyFiltersEl = document.getElementById("ranking-party-filters");
+
+      function score(rep, type) {
+        const s = rep.stats || {};
+        if (type === "participation") return Number(s.voteParticipationRate || 0);
+        if (type === "absent") return Number(s.absentCount || 0);
+        if (type === "bills") return Number(s.billsProposed || 0);
+        if (type === "views") return Number(monthlyCounts[rep.slug || ""] || 0);
+        return 0;
+      }
+
+      function formatValue(rep, type) {
+        const val = score(rep, type);
+        if (type === "participation") return `${val.toFixed(1)}%`;
+        if (type === "views") return `${Math.round(val)}회`;
+        return String(Math.round(val));
+      }
+
+      function normalizeParty(v) {
+        return String(v || "").trim();
+      }
+
+      function partyCounts() {
+        const counts = new Map();
+        reps.forEach((rep) => {
+          const name = normalizeParty(rep?.profile?.party);
+          if (!name) return;
+          counts.set(name, (counts.get(name) || 0) + 1);
+        });
+        return counts;
+      }
+
+      function partyOptions() {
+        const counts = partyCounts();
+        const parties = Array.from(counts.entries())
+          .sort((a, b) => {
+            if (b[1] !== a[1]) return b[1] - a[1];
+            return a[0].localeCompare(b[0], "ko");
+          })
+          .map(([name]) => name);
+        return ["all", ...parties];
+      }
+
+      function renderPartyFilters() {
+        if (!partyFiltersEl) return;
+        const options = partyOptions();
+        partyFiltersEl.innerHTML = options
+          .map((name) => {
+            if (name === "all") {
+              return `<button class="ranking-party-filter${party === "all" ? " is-active" : ""}" data-party="all">전체</button>`;
+            }
+            const color = getPartyColor(name);
+            return `<button class="ranking-party-filter${party === name ? " is-active" : ""}" data-party="${escapeHTML(name)}" style="--party-color:${color}">
+              <span class="ranking-party-dot"></span>${escapeHTML(name)}
+            </button>`;
+          })
+          .join("");
+      }
+
+      function filteredRows() {
+        if (party === "all") return [...reps];
+        return reps.filter((rep) => normalizeParty(rep?.profile?.party) === party);
+      }
+
+      function sortRows(type) {
+        const rows = filteredRows();
+        rows.sort((a, b) => {
+          const av = score(a, type);
+          const bv = score(b, type);
+          if (bv !== av) return bv - av;
+          return String(a?.profile?.name || "").localeCompare(String(b?.profile?.name || ""), "ko");
+        });
+        return rows;
+      }
+
+      async function loadMonthlyCounts() {
+        monthlyCounts = await fetchMonthlyViewCounts();
+      }
+
+      function metricLabel(type) {
+        if (type === "participation") return "표결 참여율";
+        if (type === "absent") return "불참";
+        if (type === "bills") return "대표 발의";
+        if (type === "views") return "이번 달 조회";
+        return "";
+      }
+
+      function metricContext(rep, type) {
+        const context = rep.participationContext || {};
+        const lifecycle = rep.billLifecycle || {};
+        if (type === "participation") {
+          const median = context.partyMedian?.term;
+          return Number.isFinite(median) ? `같은 정당 중앙값 ${median}%` : `대상 표결 ${rep.stats?.votesTotal || 0}건`;
+        }
+        if (type === "absent") return `대상 표결 ${rep.stats?.votesTotal || 0}건`;
+        if (type === "bills") return `처리 완료 ${lifecycle.completed || 0} · 심사 중 ${lifecycle.inProgress || 0}`;
+        if (type === "views") return "";
+        return "";
+      }
+
+      function rowHTML(rep, idx, type) {
+        const p = rep.profile || {};
+        const rankLabel = typeof idx === "number" ? idx + 1 : idx;
+        const photo = p.photo
+          ? `<img class="ranking-photo" src="${p.photo}" alt="${escapeHTML(p.name || "")}" loading="lazy" />`
+          : `<div class="ranking-photo ranking-photo-fallback"></div>`;
+
+        return `
+          <a class="ranking-item" href="member.html?slug=${encodeURIComponent(rep.slug || "")}">
+            <div class="ranking-rank">${rankLabel}</div>
+            <div class="ranking-member">
+              <div class="ranking-photo-wrap">${photo}</div>
+              <div class="ranking-meta">
+                <p class="ranking-name">${escapeHTML(p.name || "")}</p>
+                <p class="ranking-district">${escapeHTML(p.district || "")}</p>
+                <p class="ranking-party">${partyAccentHTML(p.party || "")}</p>
+                ${rep.executiveRole?.active ? `<p class="ranking-role-badge">${escapeHTML(rep.executiveRole.title || "정부직 겸직")}</p>` : ""}
+                <div class="ranking-value-wrap">
+                  <span class="ranking-value">${formatValue(rep, type)}</span>
+                  <span class="ranking-value-label">${metricLabel(type)}</span>
+                </div>
+                ${metricContext(rep, type) ? `<p class="ranking-context">${escapeHTML(metricContext(rep, type))}</p>` : ""}
+              </div>
+            </div>
+          </a>`;
+      }
+
+      function setActiveMetricTab() {
+        tabsEl.querySelectorAll(".ranking-tab").forEach((btn) => {
+          btn.classList.toggle("is-active", btn.getAttribute("data-metric") === metric);
+        });
+      }
+
+      function syncMetricQuery() {
+        const url = new URL(window.location.href);
+        if (metric === "participation") {
+          url.searchParams.delete("metric");
+        } else {
+          url.searchParams.set("metric", metric);
+        }
+        history.replaceState(null, "", url.pathname + (url.searchParams.toString() ? `?${url.searchParams.toString()}` : ""));
+      }
+
+      function render() {
+        const rows = sortRows(metric);
+        const regularRows = rows.filter((row) => !row.executiveRole?.active);
+        const executiveRows = rows.filter((row) => row.executiveRole?.active);
+        listEl.innerHTML = regularRows.map((r, i) => rowHTML(r, i, metric)).join("") +
+          (executiveRows.length ? `
+            <div class="ranking-separated-heading">
+              <strong>정부직 겸직</strong>
+            </div>
+            ${executiveRows.map((r) => rowHTML(r, "—", metric)).join("")}` : "");
+      }
+
+      tabsEl.addEventListener("click", (e) => {
+        const btn = e.target.closest(".ranking-tab");
+        if (!btn) return;
+        const nextMetric = btn.getAttribute("data-metric") || "participation";
+        if (!validMetrics.has(nextMetric)) return;
+
+        metric = nextMetric;
+        setActiveMetricTab();
+        syncMetricQuery();
+        render();
+      });
+
+      partyToggleEl?.addEventListener("click", () => {
+        partyFiltersEl?.classList.toggle("is-collapsed");
+      });
+
+      partyFiltersEl?.addEventListener("click", (e) => {
+        const btn = e.target.closest(".ranking-party-filter");
+        if (!btn) return;
+        party = btn.getAttribute("data-party") || "all";
+        partyFiltersEl.querySelectorAll(".ranking-party-filter").forEach((b) => b.classList.remove("is-active"));
+        btn.classList.add("is-active");
+        render();
+      });
+
+      await loadMonthlyCounts();
+      renderPartyFilters();
+      setActiveMetricTab();
+      syncMetricQuery();
+      render();
+      initI18n();
+    })();
+  </script>
+</body>
 </html>

@@ -34,7 +34,7 @@ function initBillBackLink(profiles) {
   try {
     const previous = new URL(document.referrer);
     const fromMember = previous.origin === window.location.origin
-      && /\/pages\/kr\/member\.html$/.test(previous.pathname);
+      && /\/(?:pages\/kr\/|kr\/)?member\.html$/.test(previous.pathname);
     if (!fromMember) return;
     const params = previous.searchParams;
     const key = params.get("slug") || params.get("id") || "";

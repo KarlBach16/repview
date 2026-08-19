@@ -1,12 +1,132 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RepView KR</title>
-  <script>
-    location.replace('/pages/kr/member.html' + location.search + location.hash);
-  </script>
+  <title>국회의원 — RepView</title>
+  <meta name="description" content="우리 지역 국회의원의 표결 참여율, 불참, 대표 발의, 최근 표결·법안 기록을 한눈에 확인하세요." />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="stylesheet" href="/css/style.css?v=20260816m" />
 </head>
-<body></body>
+<body>
+
+  <nav class="nav">
+    <a class="nav-back" href="index.html" data-i18n="nav.back.search">&#8592; 검색</a>
+    <span class="nav-member-name" id="nav-member-name"></span>
+  </nav>
+
+  <section class="member-poster">
+    <div class="member-poster-media">
+      <div class="member-poster-fallback" aria-hidden="true"><span id="hero-initials"></span></div>
+      <img class="member-poster-photo" id="hero-photo" src="" alt="" />
+    </div>
+
+    <div class="member-poster-overlay"></div>
+
+    <div class="member-poster-content">
+      <p class="poster-kicker" id="hero-committee"></p>
+
+      <h1 class="poster-name" id="hero-name"></h1>
+      <p class="poster-meta" id="hero-meta"></p>
+      <a class="executive-role-badge" id="hero-executive-role" href="#" target="_blank" rel="noopener noreferrer" hidden></a>
+    </div>
+
+    <div class="scroll-hint">
+      <span class="scroll-hint-arrow">↓</span>
+      <span data-i18n="member.scroll.hint">아래로 내려 전체 기록 보기</span>
+    </div>
+  </section>
+
+  <section class="insight-story insight-story--black" id="party-comparison-section">
+    <div class="insight-shell">
+      <p class="insight-eyebrow fade-in">제22대 국회 전체</p>
+      <h2 class="insight-headline fade-in delay-1">
+        당내 다수와 다른 선택,<br />
+        <span class="insight-number" id="party-difference-count" data-count="0">0</span>번.
+      </h2>
+      <p class="insight-copy fade-in delay-2" id="party-comparison-summary"></p>
+      <div class="insight-list" id="party-difference-list"></div>
+    </div>
+  </section>
+
+  <section class="insight-story insight-story--light" id="bill-lifecycle-section">
+    <div class="insight-shell">
+      <p class="insight-eyebrow insight-eyebrow--dark fade-in">입법 활동</p>
+      <h2 class="insight-headline insight-headline--dark fade-in delay-1">
+        대표발의 법안,<br />
+        <span class="insight-number" id="bill-total-count" data-count="0">0</span>건.
+      </h2>
+      <p class="insight-copy insight-copy--dark fade-in delay-2" id="bill-lifecycle-summary"></p>
+      <div class="metric-triptych fade-in delay-2" id="bill-metrics"></div>
+      <div class="lifecycle-list" id="bill-lifecycle-list"></div>
+    </div>
+  </section>
+
+  <section class="collaboration-story" id="collaboration-section" hidden>
+    <div class="collaboration-shell">
+      <p class="collaboration-eyebrow fade-in" id="network-eyebrow">제22대 국회 · 공동발의 명단</p>
+      <h2 class="collaboration-headline fade-in delay-1" id="network-headline">자주 함께한 의원.</h2>
+      <div class="network-tabs fade-in delay-2" aria-label="관계 유형">
+        <button class="network-tab is-active" type="button" data-network-view="collaboration">공동발의</button>
+        <button class="network-tab" type="button" data-network-view="other-party" hidden>다른 정당</button>
+        <button class="network-tab" type="button" data-network-view="similarity" hidden>표결 유사도</button>
+      </div>
+      <div class="collaboration-stats fade-in delay-2" id="collaboration-stats"></div>
+      <div class="collaboration-map fade-in delay-2">
+        <div class="collaboration-origin" id="collaboration-origin"></div>
+        <div class="collaboration-list" id="collaboration-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="insight-story insight-story--graphite" id="participation-section">
+    <div class="insight-shell">
+      <p class="insight-eyebrow fade-in">표결 참여</p>
+      <h2 class="insight-headline fade-in delay-1">
+        최근 90일<br />
+        <span class="insight-number" id="participation-90-rate" data-count="0" data-suffix="%">0%</span>
+      </h2>
+      <p class="insight-copy fade-in delay-2" id="participation-summary"></p>
+      <div class="comparison-rail fade-in delay-2" id="participation-comparison"></div>
+      <div class="absence-run-list" id="absence-run-list"></div>
+    </div>
+  </section>
+
+  <section class="votes-section">
+    <div class="votes-inner">
+      <h2 class="votes-header fade-in" data-i18n="member.votes.title">이렇게 표결했습니다.</h2>
+      <p class="votes-subheader fade-in delay-1" data-i18n="member.votes.sub">최근 국회 표결과 해당 의원의 선택을 보여줍니다.</p>
+      <div id="vote-list"></div>
+    </div>
+  </section>
+
+  <section class="share-section">
+    <div class="share-card" id="rep-summary"></div>
+    <div class="share-actions">
+      <button id="save-image-btn" class="share-action-btn" type="button">이미지 저장</button>
+      <button id="share-btn" class="share-action-btn" type="button">공유</button>
+    </div>
+  </section>
+
+  <section class="member-more" id="member-more" hidden>
+    <div class="member-more-inner">
+      <div class="member-books-block" id="member-books-block" hidden>
+        <p class="member-more-label">저서</p>
+        <div class="member-book-rail" id="member-book-rail"></div>
+      </div>
+      <div class="member-supporter-block" id="member-supporter-block" hidden>
+        <p class="member-more-label">후원회</p>
+        <h2 id="member-supporter-name"></h2>
+        <p class="member-supporter-address" id="member-supporter-address"></p>
+        <div class="member-supporter-links" id="member-supporter-links"></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="/js/app.js?v=20260816p"></script>
+  <script src="/js/member.js?v=20260816p"></script>
+</body>
 </html>

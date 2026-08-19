@@ -40,6 +40,17 @@ The US House workflow at `.github/workflows/update-us-house.yml` also refreshes
 `data/us/collaboration_networks.json` from GovInfo's BILLSTATUS bulk data and
 `data/us/vote_similarity.json` from Voteview's House roll-call bulk data.
 
+## Public routes
+
+The canonical page templates live in `pages/kr` and `pages/us`. Run these commands
+after changing page HTML so the public short URLs serve the page directly instead
+of using a client-side redirect:
+
+```sh
+node scripts/syncPublicRoutes.js
+node scripts/testPublicRoutes.js
+```
+
 ## Required Secret
 
 Set this repository secret in GitHub:
