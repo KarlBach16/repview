@@ -1,7 +1,7 @@
 {
   "congress": 119,
   "basis": "official_billstatus_cosponsorship_roster",
-  "dataThrough": "2026-08-13",
+  "dataThrough": "2026-08-17",
   "bills": {
     "hconres:103": {
       "billNo": "H.Con.Res. 103",
@@ -100,13 +100,6 @@
       "proposalDate": "2026-01-09",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/139/text",
       "leadBioguideId": "B001302"
-    },
-    "hjres:144": {
-      "billNo": "H.J.Res. 144",
-      "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Veterans Affairs relating to \"Reproductive Health Services\".",
-      "proposalDate": "2026-01-27",
-      "detailLink": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/144/text",
-      "leadBioguideId": "B001285"
     },
     "hjres:151": {
       "billNo": "H.J.Res. 151",
@@ -271,7 +264,7 @@
     },
     "hr:10045": {
       "billNo": "H.R. 10045",
-      "title": "Protect American Values Act",
+      "title": "Protect American Values Act of 2026",
       "proposalDate": "2026-08-06",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/10045/text",
       "leadBioguideId": "C001080"
@@ -355,10 +348,38 @@
     },
     "hr:10096": {
       "billNo": "H.R. 10096",
-      "title": "To establish the Task Force on the Impact of the Affordable Housing Crisis, and for other purposes.",
+      "title": "Task Force on the Impact of the Affordable Housing Crisis Act of 2026",
       "proposalDate": "2026-08-13",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/10096/text",
       "leadBioguideId": "L000599"
+    },
+    "hr:10111": {
+      "billNo": "H.R. 10111",
+      "title": "Oversight Access Act",
+      "proposalDate": "2026-08-17",
+      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/10111/text",
+      "leadBioguideId": "D000530"
+    },
+    "hr:10112": {
+      "billNo": "H.R. 10112",
+      "title": "Empowering States to Protect Seniors from Bad Actors Act",
+      "proposalDate": "2026-08-17",
+      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/10112/text",
+      "leadBioguideId": "G000583"
+    },
+    "hr:10114": {
+      "billNo": "H.R. 10114",
+      "title": "To designate the facility of the United States Postal Service located at 15642 Sand Canyon Avenue in Irvine, California, as the \"Mary Kageyama Nomura Post Office Building\".",
+      "proposalDate": "2026-08-17",
+      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/10114/text",
+      "leadBioguideId": "M001241"
+    },
+    "hr:10115": {
+      "billNo": "H.R. 10115",
+      "title": "To amend the Radiation Exposure Compensation Act to provide for certain claims related to atmospheric testing, and for other purposes.",
+      "proposalDate": "2026-08-17",
+      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/10115/text",
+      "leadBioguideId": "M001219"
     },
     "hr:21": {
       "billNo": "H.R. 21",
@@ -387,13 +408,6 @@
       "proposalDate": "2025-06-24",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/4117/text",
       "leadBioguideId": "W000816"
-    },
-    "hr:4148": {
-      "billNo": "H.R. 4148",
-      "title": "To provide that the rule submitted by the Department of Labor relating to \"Updating the Davis-Bacon and Related Acts Regulation\" shall have no force or effect.",
-      "proposalDate": "2025-06-25",
-      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/4148/text",
-      "leadBioguideId": "S001199"
     },
     "hr:4206": {
       "billNo": "H.R. 4206",
@@ -2061,13 +2075,6 @@
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/8532/text",
       "leadBioguideId": "V000135"
     },
-    "hr:8533": {
-      "billNo": "H.R. 8533",
-      "title": "Farmer to Farmer Education Act of 2025",
-      "proposalDate": "2026-04-27",
-      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/8533/text",
-      "leadBioguideId": "V000136"
-    },
     "hr:8538": {
       "billNo": "H.R. 8538",
       "title": "Save America’s Family Forests Act of 2026",
@@ -2488,6 +2495,13 @@
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/8837/text",
       "leadBioguideId": "T000478"
     },
+    "hr:8839": {
+      "billNo": "H.R. 8839",
+      "title": "Lainie Jones Comprehensive Cancer Survivorship Act of 2026",
+      "proposalDate": "2026-05-14",
+      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/8839/text",
+      "leadBioguideId": "W000797"
+    },
     "hr:8847": {
       "billNo": "H.R. 8847",
       "title": "Deporting Illegal Poachers Act",
@@ -2725,13 +2739,6 @@
       "proposalDate": "2026-05-22",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9017/text",
       "leadBioguideId": "D000032"
-    },
-    "hr:9018": {
-      "billNo": "H.R. 9018",
-      "title": "Fostering TRUST Act of 2026",
-      "proposalDate": "2026-05-22",
-      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9018/text",
-      "leadBioguideId": "M001241"
     },
     "hr:9021": {
       "billNo": "H.R. 9021",
@@ -3064,7 +3071,7 @@
     },
     "hr:9191": {
       "billNo": "H.R. 9191",
-      "title": "National Fossil Act",
+      "title": "H.R. 9191, National Fossil Act of 2026",
       "proposalDate": "2026-06-08",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9191/text",
       "leadBioguideId": "H001093"
@@ -3306,13 +3313,6 @@
       "proposalDate": "2026-06-11",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9298/text",
       "leadBioguideId": "S001228"
-    },
-    "hr:9300": {
-      "billNo": "H.R. 9300",
-      "title": "Postsecondary Student Success Act of 2026",
-      "proposalDate": "2026-06-11",
-      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9300/text",
-      "leadBioguideId": "S001218"
     },
     "hr:9304": {
       "billNo": "H.R. 9304",
@@ -4289,17 +4289,10 @@
     },
     "hr:9759": {
       "billNo": "H.R. 9759",
-      "title": "Turn the Tide Act",
+      "title": "A bill to amend the Omnibus Crime Control and Safe Streets Act of 1968 to establish the Adverse Childhood Experiences Response Team grant program, and for other purposes.",
       "proposalDate": "2026-07-16",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9759/text",
       "leadBioguideId": "P000614"
-    },
-    "hr:9763": {
-      "billNo": "H.R. 9763",
-      "title": "SWIFT Act",
-      "proposalDate": "2026-07-16",
-      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9763/text",
-      "leadBioguideId": "S001205"
     },
     "hr:9778": {
       "billNo": "H.R. 9778",
@@ -4499,7 +4492,7 @@
     },
     "hr:9866": {
       "billNo": "H.R. 9866",
-      "title": "C.A.R.E. for Mental Health Professionals Act",
+      "title": "CARE for Mental Health Professionals Act",
       "proposalDate": "2026-07-22",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9866/text",
       "leadBioguideId": "N000191"
@@ -4581,6 +4574,13 @@
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9893/text",
       "leadBioguideId": "S000522"
     },
+    "hr:9894": {
+      "billNo": "H.R. 9894",
+      "title": "Investing in State Energy Act of 2026",
+      "proposalDate": "2026-07-23",
+      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9894/text",
+      "leadBioguideId": "P000614"
+    },
     "hr:9896": {
       "billNo": "H.R. 9896",
       "title": "WINGS Act of 2026",
@@ -4637,6 +4637,13 @@
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9909/text",
       "leadBioguideId": "J000304"
     },
+    "hr:9911": {
+      "billNo": "H.R. 9911",
+      "title": "Shipbuilding Investment and Workforce Act",
+      "proposalDate": "2026-07-23",
+      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9911/text",
+      "leadBioguideId": "K000376"
+    },
     "hr:9914": {
       "billNo": "H.R. 9914",
       "title": "Collaboration on Adversarial Threats and Security Risks Act",
@@ -4650,6 +4657,13 @@
       "proposalDate": "2026-07-23",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9915/text",
       "leadBioguideId": "L000597"
+    },
+    "hr:9921": {
+      "billNo": "H.R. 9921",
+      "title": "American Shipyard Investment Act of 2026",
+      "proposalDate": "2026-07-23",
+      "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9921/text",
+      "leadBioguideId": "M001224"
     },
     "hr:9923": {
       "billNo": "H.R. 9923",
@@ -4758,7 +4772,7 @@
     },
     "hr:9959": {
       "billNo": "H.R. 9959",
-      "title": "To establish a Green New Deal for public schools.",
+      "title": "Green New Deal for Public Schools Act",
       "proposalDate": "2026-07-27",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-bill/9959/text",
       "leadBioguideId": "J000298"
@@ -4910,13 +4924,6 @@
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-resolution/1107/text",
       "leadBioguideId": "B001281"
     },
-    "hres:1121": {
-      "billNo": "H.Res. 1121",
-      "title": "Honoring the extraordinary contributions of Irish Americans to the American War for Independence on the occasion of the 250th anniversary of the United States.",
-      "proposalDate": "2026-03-17",
-      "detailLink": "https://www.congress.gov/bill/119th-congress/house-resolution/1121/text",
-      "leadBioguideId": "M001235"
-    },
     "hres:1128": {
       "billNo": "H.Res. 1128",
       "title": "Providing for consideration of the bill (H.R. 8029) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the resolution (H. Res. 1128) expressing the support of the House of Representatives for the Department of Homeland Security; providing for consideration of the bill (H.R. 5103) to establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission; providing for consideration of the bill (H.R. 7084) to amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes; and for other purposes.",
@@ -4965,13 +4972,6 @@
       "proposalDate": "2026-03-30",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-resolution/1148/text",
       "leadBioguideId": "C001080"
-    },
-    "hres:1152": {
-      "billNo": "H.Res. 1152",
-      "title": "Expressing appreciation and recognition for the contributions of the American cowboy and historic cattle trails in advancing American history in celebration of the Nation's 250th anniversary.",
-      "proposalDate": "2026-04-02",
-      "detailLink": "https://www.congress.gov/bill/119th-congress/house-resolution/1152/text",
-      "leadBioguideId": "E000298"
     },
     "hres:1156": {
       "billNo": "H.Res. 1156",
@@ -5575,13 +5575,6 @@
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-resolution/1408/text",
       "leadBioguideId": "M001194"
     },
-    "hres:1409": {
-      "billNo": "H.Res. 1409",
-      "title": "A resolution recognizing the upcoming 250th anniversary of the United States of America and reaffirming the commitment of the Senate to the Nation's founding ideals of liberty, equality, and opportunity for all immigrant communities in the United States.",
-      "proposalDate": "2026-06-30",
-      "detailLink": "https://www.congress.gov/bill/119th-congress/house-resolution/1409/text",
-      "leadBioguideId": "R000617"
-    },
     "hres:1410": {
       "billNo": "H.Res. 1410",
       "title": "Congratulating the Carolina Hurricanes on winning the 2026 Stanley Cup Championship, the team's first Stanley Cup win in 20 years.",
@@ -5784,6 +5777,13 @@
       "proposalDate": "2026-08-13",
       "detailLink": "https://www.congress.gov/bill/119th-congress/house-resolution/1483/text",
       "leadBioguideId": "T000474"
+    },
+    "hres:1484": {
+      "billNo": "H.Res. 1484",
+      "title": "Recognizing the nonprofit sector and the contributions of nonprofit employees, and expressing support for August 17, 2026, to be designated as \"National Nonprofit Day\".",
+      "proposalDate": "2026-08-17",
+      "detailLink": "https://www.congress.gov/bill/119th-congress/house-resolution/1484/text",
+      "leadBioguideId": "M001143"
     },
     "hres:571": {
       "billNo": "H.Res. 571",
@@ -6054,7 +6054,7 @@
       ]
     },
     "F000481": {
-      "collaborationBillCount": 383,
+      "collaborationBillCount": 384,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 187,
@@ -6083,7 +6083,7 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 191,
+          "billCount": 192,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9849",
@@ -6094,7 +6094,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 191,
+          "billCount": 192,
           "sameParty": true,
           "sharedBillIds": [
             "hconres:114",
@@ -6787,13 +6787,13 @@
         },
         {
           "bioguideId": "M001211",
-          "billCount": 87,
+          "billCount": 88,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9254",
+            "hres:1351",
             "hr:9131",
-            "hr:9132",
-            "hres:1338"
+            "hr:9132"
           ]
         },
         {
@@ -6873,20 +6873,20 @@
       ]
     },
     "S001211": {
-      "collaborationBillCount": 376,
+      "collaborationBillCount": 377,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 228,
       "topCollaborators": [
         {
           "bioguideId": "T000468",
-          "billCount": 197,
+          "billCount": 198,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10115",
             "hr:9926",
             "hr:9941",
-            "hr:9944",
-            "hres:1427"
+            "hr:9944"
           ]
         },
         {
@@ -6902,7 +6902,7 @@
         },
         {
           "bioguideId": "M001238",
-          "billCount": 174,
+          "billCount": 175,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -6987,13 +6987,13 @@
         },
         {
           "bioguideId": "M001211",
-          "billCount": 107,
+          "billCount": 108,
           "sameParty": true,
           "sharedBillIds": [
+            "hres:1351",
             "hr:9131",
             "hr:9132",
-            "hres:1314",
-            "hr:8236"
+            "hres:1314"
           ]
         }
       ]
@@ -7062,14 +7062,14 @@
       ]
     },
     "G000606": {
-      "collaborationBillCount": 411,
+      "collaborationBillCount": 418,
       "uniqueCollaboratorCount": 418,
       "otherPartyCollaboratorCount": 207,
-      "crossPartyBillCount": 113,
+      "crossPartyBillCount": 115,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 264,
+          "billCount": 266,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -7080,7 +7080,7 @@
         },
         {
           "bioguideId": "S001231",
-          "billCount": 216,
+          "billCount": 217,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -7102,7 +7102,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 203,
+          "billCount": 206,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -7113,7 +7113,7 @@
         },
         {
           "bioguideId": "G000586",
-          "billCount": 197,
+          "billCount": 199,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -7206,13 +7206,13 @@
         },
         {
           "bioguideId": "M001211",
-          "billCount": 116,
+          "billCount": 117,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9453",
+            "hres:1351",
             "hr:9132",
-            "hr:8330",
-            "hr:8213"
+            "hr:8330"
           ]
         },
         {
@@ -7251,20 +7251,20 @@
       ]
     },
     "G000607": {
-      "collaborationBillCount": 40,
+      "collaborationBillCount": 41,
       "uniqueCollaboratorCount": 420,
       "otherPartyCollaboratorCount": 208,
-      "crossPartyBillCount": 29,
+      "crossPartyBillCount": 30,
       "topCollaborators": [
         {
           "bioguideId": "T000460",
-          "billCount": 16,
+          "billCount": 17,
           "sameParty": false,
           "sharedBillIds": [
+            "hr:10114",
             "hr:10022",
             "hr:9980",
-            "hr:9929",
-            "hres:1427"
+            "hr:9929"
           ]
         },
         {
@@ -7377,10 +7377,10 @@
       ]
     },
     "K000401": {
-      "collaborationBillCount": 138,
+      "collaborationBillCount": 139,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 430,
-      "crossPartyBillCount": 138,
+      "crossPartyBillCount": 139,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
@@ -7405,6 +7405,17 @@
           ]
         },
         {
+          "bioguideId": "K000397",
+          "billCount": 51,
+          "sameParty": false,
+          "sharedBillIds": [
+            "hr:10114",
+            "hr:9929",
+            "hr:8119",
+            "hr:7008"
+          ]
+        },
+        {
           "bioguideId": "V000129",
           "billCount": 50,
           "sameParty": false,
@@ -7413,17 +7424,6 @@
             "hr:7100",
             "hr:6575",
             "hres:920"
-          ]
-        },
-        {
-          "bioguideId": "K000397",
-          "billCount": 50,
-          "sameParty": false,
-          "sharedBillIds": [
-            "hr:9929",
-            "hr:8119",
-            "hr:7008",
-            "hr:6130"
           ]
         },
         {
@@ -7440,25 +7440,25 @@
       ]
     },
     "T000460": {
-      "collaborationBillCount": 409,
+      "collaborationBillCount": 410,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 219,
+      "crossPartyBillCount": 220,
       "topCollaborators": [
         {
           "bioguideId": "C001080",
-          "billCount": 213,
+          "billCount": 214,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10114",
             "hr:10045",
             "hr:10060",
-            "hr:9929",
-            "hconres:114"
+            "hr:9929"
           ]
         },
         {
           "bioguideId": "P000613",
-          "billCount": 202,
+          "billCount": 203,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -7566,14 +7566,14 @@
       ]
     },
     "B001287": {
-      "collaborationBillCount": 316,
+      "collaborationBillCount": 317,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 197,
+      "crossPartyBillCount": 198,
       "topCollaborators": [
         {
           "bioguideId": "L000582",
-          "billCount": 160,
+          "billCount": 161,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9929",
@@ -7595,7 +7595,7 @@
         },
         {
           "bioguideId": "C001080",
-          "billCount": 139,
+          "billCount": 140,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9929",
@@ -7606,7 +7606,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 139,
+          "billCount": 140,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1427",
@@ -7742,20 +7742,20 @@
           ]
         },
         {
-          "bioguideId": "M001196",
+          "bioguideId": "S001226",
           "billCount": 215,
           "sameParty": true,
           "sharedBillIds": [
-            "hr:9941",
-            "hr:9835",
-            "hr:9849",
-            "hr:9817"
+            "hconres:114",
+            "hres:1391",
+            "hr:9414",
+            "hr:9289"
           ]
         }
       ]
     },
     "H001090": {
-      "collaborationBillCount": 441,
+      "collaborationBillCount": 442,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 381,
@@ -7784,7 +7784,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 183,
+          "billCount": 184,
           "sameParty": true,
           "sharedBillIds": [
             "hr:8750",
@@ -7795,7 +7795,7 @@
         },
         {
           "bioguideId": "N000191",
-          "billCount": 172,
+          "billCount": 173,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9444",
@@ -7818,14 +7818,14 @@
       ]
     },
     "D000623": {
-      "collaborationBillCount": 397,
+      "collaborationBillCount": 400,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 128,
+      "crossPartyBillCount": 129,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 267,
+          "billCount": 268,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -7858,7 +7858,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 244,
+          "billCount": 246,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9983",
@@ -7973,7 +7973,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 361,
+          "billCount": 362,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10040",
@@ -8196,14 +8196,14 @@
       ]
     },
     "K000389": {
-      "collaborationBillCount": 518,
+      "collaborationBillCount": 520,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 203,
+      "crossPartyBillCount": 205,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 326,
+          "billCount": 328,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -8214,7 +8214,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 253,
+          "billCount": 254,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -8259,20 +8259,20 @@
       ]
     },
     "L000397": {
-      "collaborationBillCount": 437,
+      "collaborationBillCount": 438,
       "uniqueCollaboratorCount": 425,
       "otherPartyCollaboratorCount": 214,
-      "crossPartyBillCount": 209,
+      "crossPartyBillCount": 210,
       "topCollaborators": [
         {
           "bioguideId": "C001080",
-          "billCount": 211,
+          "billCount": 212,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10114",
             "hr:10045",
             "hr:9929",
-            "hr:9944",
-            "hr:9803"
+            "hr:9944"
           ]
         },
         {
@@ -8299,7 +8299,7 @@
         },
         {
           "bioguideId": "B001285",
-          "billCount": 197,
+          "billCount": 198,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -8322,10 +8322,10 @@
       ]
     },
     "P000613": {
-      "collaborationBillCount": 651,
+      "collaborationBillCount": 653,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 449,
+      "crossPartyBillCount": 451,
       "topCollaborators": [
         {
           "bioguideId": "C001080",
@@ -8351,7 +8351,7 @@
         },
         {
           "bioguideId": "D000617",
-          "billCount": 238,
+          "billCount": 239,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10060",
@@ -8362,7 +8362,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 232,
+          "billCount": 233,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9706",
@@ -8373,7 +8373,7 @@
         },
         {
           "bioguideId": "S001201",
-          "billCount": 228,
+          "billCount": 229,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10075",
@@ -8511,10 +8511,10 @@
       ]
     },
     "V000129": {
-      "collaborationBillCount": 340,
+      "collaborationBillCount": 341,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 309,
+      "crossPartyBillCount": 310,
       "topCollaborators": [
         {
           "bioguideId": "F000466",
@@ -8700,10 +8700,10 @@
       ]
     },
     "R000599": {
-      "collaborationBillCount": 278,
+      "collaborationBillCount": 279,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 147,
+      "crossPartyBillCount": 148,
       "topCollaborators": [
         {
           "bioguideId": "B001300",
@@ -8718,7 +8718,7 @@
         },
         {
           "bioguideId": "C001112",
-          "billCount": 153,
+          "billCount": 154,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1427",
@@ -8763,14 +8763,14 @@
       ]
     },
     "B001285": {
-      "collaborationBillCount": 625,
+      "collaborationBillCount": 626,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 277,
+      "crossPartyBillCount": 278,
       "topCollaborators": [
         {
           "bioguideId": "C001080",
-          "billCount": 313,
+          "billCount": 314,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -8792,7 +8792,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 291,
+          "billCount": 292,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -8889,14 +8889,14 @@
       ]
     },
     "C001080": {
-      "collaborationBillCount": 682,
+      "collaborationBillCount": 684,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 222,
+      "crossPartyBillCount": 223,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 383,
+          "billCount": 384,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -8953,8 +8953,8 @@
     },
     "R000620": {
       "collaborationBillCount": 193,
-      "uniqueCollaboratorCount": 420,
-      "otherPartyCollaboratorCount": 209,
+      "uniqueCollaboratorCount": 421,
+      "otherPartyCollaboratorCount": 210,
       "crossPartyBillCount": 64,
       "topCollaborators": [
         {
@@ -9141,10 +9141,10 @@
       ]
     },
     "S000344": {
-      "collaborationBillCount": 398,
+      "collaborationBillCount": 400,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 240,
+      "crossPartyBillCount": 242,
       "topCollaborators": [
         {
           "bioguideId": "L000582",
@@ -9155,6 +9155,17 @@
             "hres:1366",
             "hres:1342",
             "hres:1322"
+          ]
+        },
+        {
+          "bioguideId": "C001080",
+          "billCount": 187,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:10114",
+            "hres:1427",
+            "hjres:200",
+            "hr:9473"
           ]
         },
         {
@@ -9169,19 +9180,8 @@
           ]
         },
         {
-          "bioguideId": "C001080",
-          "billCount": 186,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hres:1427",
-            "hjres:200",
-            "hr:9473",
-            "hr:9432"
-          ]
-        },
-        {
           "bioguideId": "T000488",
-          "billCount": 184,
+          "billCount": 185,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1427",
@@ -9433,7 +9433,7 @@
         },
         {
           "bioguideId": "G000599",
-          "billCount": 288,
+          "billCount": 289,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -9456,14 +9456,14 @@
       ]
     },
     "K000400": {
-      "collaborationBillCount": 417,
+      "collaborationBillCount": 418,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 134,
       "topCollaborators": [
         {
           "bioguideId": "J000288",
-          "billCount": 260,
+          "billCount": 261,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -9474,7 +9474,7 @@
         },
         {
           "bioguideId": "T000481",
-          "billCount": 254,
+          "billCount": 255,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -9485,7 +9485,7 @@
         },
         {
           "bioguideId": "C001072",
-          "billCount": 225,
+          "billCount": 226,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -9496,7 +9496,7 @@
         },
         {
           "bioguideId": "S001231",
-          "billCount": 212,
+          "billCount": 213,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -9507,7 +9507,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 208,
+          "billCount": 209,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10040",
@@ -9519,7 +9519,7 @@
       ]
     },
     "S001156": {
-      "collaborationBillCount": 352,
+      "collaborationBillCount": 353,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 151,
@@ -9548,13 +9548,13 @@
         },
         {
           "bioguideId": "T000481",
-          "billCount": 195,
+          "billCount": 196,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
+            "hr:9902",
             "hr:9941",
-            "hr:9874",
-            "hr:9736"
+            "hr:9874"
           ]
         },
         {
@@ -9582,10 +9582,10 @@
       ]
     },
     "T000472": {
-      "collaborationBillCount": 369,
+      "collaborationBillCount": 370,
       "uniqueCollaboratorCount": 426,
       "otherPartyCollaboratorCount": 215,
-      "crossPartyBillCount": 98,
+      "crossPartyBillCount": 99,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -9600,13 +9600,13 @@
         },
         {
           "bioguideId": "C001080",
-          "billCount": 234,
+          "billCount": 235,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10114",
             "hres:1483",
             "hr:10045",
-            "hr:10063",
-            "hr:9941"
+            "hr:10063"
           ]
         },
         {
@@ -9645,10 +9645,10 @@
       ]
     },
     "K000397": {
-      "collaborationBillCount": 404,
+      "collaborationBillCount": 405,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 356,
+      "crossPartyBillCount": 357,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
@@ -9674,7 +9674,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 148,
+          "billCount": 149,
           "sameParty": false,
           "sharedBillIds": [
             "hr:9680",
@@ -9834,10 +9834,10 @@
       ]
     },
     "W000187": {
-      "collaborationBillCount": 277,
-      "uniqueCollaboratorCount": 417,
-      "otherPartyCollaboratorCount": 206,
-      "crossPartyBillCount": 76,
+      "collaborationBillCount": 280,
+      "uniqueCollaboratorCount": 418,
+      "otherPartyCollaboratorCount": 207,
+      "crossPartyBillCount": 79,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -9852,7 +9852,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 178,
+          "billCount": 179,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9544",
@@ -9863,13 +9863,13 @@
         },
         {
           "bioguideId": "C001080",
-          "billCount": 169,
+          "billCount": 170,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10114",
             "hr:9929",
             "hr:9544",
-            "hjres:195",
-            "hr:9216"
+            "hjres:195"
           ]
         },
         {
@@ -9897,10 +9897,10 @@
       ]
     },
     "B001300": {
-      "collaborationBillCount": 566,
+      "collaborationBillCount": 567,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 216,
+      "crossPartyBillCount": 217,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -10086,20 +10086,20 @@
       ]
     },
     "M001241": {
-      "collaborationBillCount": 394,
+      "collaborationBillCount": 395,
       "uniqueCollaboratorCount": 426,
       "otherPartyCollaboratorCount": 215,
-      "crossPartyBillCount": 200,
+      "crossPartyBillCount": 201,
       "topCollaborators": [
         {
           "bioguideId": "C001080",
-          "billCount": 186,
+          "billCount": 187,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10114",
             "hr:9929",
             "hres:1432",
-            "hres:1427",
-            "hr:9473"
+            "hres:1427"
           ]
         },
         {
@@ -10149,10 +10149,10 @@
       ]
     },
     "I000056": {
-      "collaborationBillCount": 161,
+      "collaborationBillCount": 162,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 211,
-      "crossPartyBillCount": 99,
+      "crossPartyBillCount": 100,
       "topCollaborators": [
         {
           "bioguideId": "T000478",
@@ -10200,22 +10200,22 @@
         },
         {
           "bioguideId": "K000397",
-          "billCount": 46,
+          "billCount": 47,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10114",
             "hr:9893",
             "hr:9929",
-            "hr:9680",
-            "hr:9250"
+            "hr:9680"
           ]
         }
       ]
     },
     "L000593": {
-      "collaborationBillCount": 420,
+      "collaborationBillCount": 421,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 224,
+      "crossPartyBillCount": 225,
       "topCollaborators": [
         {
           "bioguideId": "B001285",
@@ -10252,13 +10252,13 @@
         },
         {
           "bioguideId": "C001080",
-          "billCount": 194,
+          "billCount": 195,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10114",
             "hr:9929",
             "hr:9941",
-            "hr:9874",
-            "hr:9400"
+            "hr:9874"
           ]
         },
         {
@@ -10275,10 +10275,10 @@
       ]
     },
     "P000608": {
-      "collaborationBillCount": 464,
+      "collaborationBillCount": 465,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 272,
+      "crossPartyBillCount": 273,
       "topCollaborators": [
         {
           "bioguideId": "B001285",
@@ -10367,7 +10367,7 @@
         },
         {
           "bioguideId": "C001080",
-          "billCount": 192,
+          "billCount": 193,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9929",
@@ -10452,22 +10452,22 @@
         },
         {
           "bioguideId": "B001285",
-          "billCount": 217,
+          "billCount": 218,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
             "hr:9929",
             "hres:1427",
-            "hr:9250"
+            "hr:9489"
           ]
         }
       ]
     },
     "D000197": {
-      "collaborationBillCount": 300,
+      "collaborationBillCount": 301,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 101,
+      "crossPartyBillCount": 102,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -10515,7 +10515,7 @@
         },
         {
           "bioguideId": "T000469",
-          "billCount": 188,
+          "billCount": 189,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -10527,7 +10527,7 @@
       ]
     },
     "N000191": {
-      "collaborationBillCount": 651,
+      "collaborationBillCount": 652,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 445,
@@ -10544,6 +10544,17 @@
           ]
         },
         {
+          "bioguideId": "G000583",
+          "billCount": 224,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hconres:114",
+            "hr:9250",
+            "hr:8694",
+            "hr:8041"
+          ]
+        },
+        {
           "bioguideId": "T000488",
           "billCount": 224,
           "sameParty": true,
@@ -10552,17 +10563,6 @@
             "hr:9489",
             "hr:9437",
             "hr:9282"
-          ]
-        },
-        {
-          "bioguideId": "G000583",
-          "billCount": 223,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hconres:114",
-            "hr:9250",
-            "hr:8694",
-            "hr:8041"
           ]
         },
         {
@@ -10671,13 +10671,13 @@
         },
         {
           "bioguideId": "M001211",
-          "billCount": 99,
+          "billCount": 100,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9854",
             "hr:9868",
             "hr:9254",
-            "hr:9131"
+            "hres:1351"
           ]
         },
         {
@@ -10807,6 +10807,17 @@
           ]
         },
         {
+          "bioguideId": "G000583",
+          "billCount": 147,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:9401",
+            "hr:9250",
+            "hres:1342",
+            "hr:8582"
+          ]
+        },
+        {
           "bioguideId": "M001196",
           "billCount": 147,
           "sameParty": true,
@@ -10815,17 +10826,6 @@
             "hres:1427",
             "hr:9473",
             "hr:9432"
-          ]
-        },
-        {
-          "bioguideId": "G000583",
-          "billCount": 145,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hr:9401",
-            "hr:9250",
-            "hres:1342",
-            "hr:8582"
           ]
         },
         {
@@ -10842,20 +10842,20 @@
       ]
     },
     "P000620": {
-      "collaborationBillCount": 440,
+      "collaborationBillCount": 441,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 262,
       "topCollaborators": [
         {
           "bioguideId": "N000191",
-          "billCount": 213,
+          "billCount": 214,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10115",
             "hr:10061",
             "hr:10000",
-            "hr:9999",
-            "hres:1446"
+            "hr:9999"
           ]
         },
         {
@@ -10905,10 +10905,10 @@
       ]
     },
     "E000300": {
-      "collaborationBillCount": 262,
+      "collaborationBillCount": 263,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 194,
+      "crossPartyBillCount": 195,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
@@ -11238,7 +11238,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 296,
+          "billCount": 297,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9983",
@@ -11283,10 +11283,10 @@
       ]
     },
     "M001238": {
-      "collaborationBillCount": 642,
+      "collaborationBillCount": 644,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 395,
+      "crossPartyBillCount": 396,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -11301,7 +11301,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 286,
+          "billCount": 288,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -11312,13 +11312,24 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 286,
+          "billCount": 288,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
             "hr:9370",
             "hr:9036",
             "hr:8914"
+          ]
+        },
+        {
+          "bioguideId": "M001196",
+          "billCount": 258,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:9941",
+            "hr:9849",
+            "hr:9736",
+            "hr:9401"
           ]
         },
         {
@@ -11330,17 +11341,6 @@
             "hr:9736",
             "hr:9216",
             "hr:8914"
-          ]
-        },
-        {
-          "bioguideId": "M001196",
-          "billCount": 256,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hr:9941",
-            "hr:9849",
-            "hr:9736",
-            "hr:9401"
           ]
         }
       ]
@@ -11649,7 +11649,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 111,
+          "billCount": 112,
           "sameParty": false,
           "sharedBillIds": [
             "hr:9680",
@@ -11879,7 +11879,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 217,
+          "billCount": 218,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -11913,14 +11913,14 @@
       ]
     },
     "F000476": {
-      "collaborationBillCount": 489,
+      "collaborationBillCount": 490,
       "uniqueCollaboratorCount": 425,
       "otherPartyCollaboratorCount": 214,
       "crossPartyBillCount": 145,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 349,
+          "billCount": 350,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -11964,7 +11964,7 @@
         },
         {
           "bioguideId": "R000617",
-          "billCount": 253,
+          "billCount": 254,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -12228,10 +12228,10 @@
       ]
     },
     "L000597": {
-      "collaborationBillCount": 187,
+      "collaborationBillCount": 188,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 211,
-      "crossPartyBillCount": 131,
+      "crossPartyBillCount": 132,
       "topCollaborators": [
         {
           "bioguideId": "T000478",
@@ -12331,13 +12331,13 @@
         },
         {
           "bioguideId": "M000317",
-          "billCount": 85,
+          "billCount": 86,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1402",
+            "hr:9489",
             "hr:9211",
-            "hres:1252",
-            "hr:7432"
+            "hres:1252"
           ]
         },
         {
@@ -12354,10 +12354,10 @@
       ]
     },
     "S001214": {
-      "collaborationBillCount": 367,
+      "collaborationBillCount": 368,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 212,
-      "crossPartyBillCount": 144,
+      "crossPartyBillCount": 145,
       "topCollaborators": [
         {
           "bioguideId": "T000478",
@@ -12383,13 +12383,13 @@
         },
         {
           "bioguideId": "W000814",
-          "billCount": 99,
+          "billCount": 100,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9892",
             "hres:1338",
             "hres:1314",
-            "hr:7678"
+            "hr:8730"
           ]
         },
         {
@@ -12645,6 +12645,17 @@
           ]
         },
         {
+          "bioguideId": "G000599",
+          "billCount": 174,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:9432",
+            "hr:9211",
+            "hr:9147",
+            "hr:9047"
+          ]
+        },
+        {
           "bioguideId": "W000797",
           "billCount": 174,
           "sameParty": true,
@@ -12653,17 +12664,6 @@
             "hr:9944",
             "hconres:114",
             "hr:9432"
-          ]
-        },
-        {
-          "bioguideId": "G000599",
-          "billCount": 173,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hr:9432",
-            "hr:9211",
-            "hr:9147",
-            "hr:9047"
           ]
         }
       ]
@@ -12697,6 +12697,17 @@
           ]
         },
         {
+          "bioguideId": "T000488",
+          "billCount": 135,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hres:1342",
+            "hr:8839",
+            "hconres:81",
+            "hr:7973"
+          ]
+        },
+        {
           "bioguideId": "T000468",
           "billCount": 134,
           "sameParty": true,
@@ -12705,17 +12716,6 @@
             "hres:1342",
             "hres:1252",
             "hr:8471"
-          ]
-        },
-        {
-          "bioguideId": "T000488",
-          "billCount": 134,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hres:1342",
-            "hconres:81",
-            "hr:7973",
-            "hr:7802"
           ]
         },
         {
@@ -12732,14 +12732,14 @@
       ]
     },
     "W000808": {
-      "collaborationBillCount": 468,
+      "collaborationBillCount": 471,
       "uniqueCollaboratorCount": 426,
       "otherPartyCollaboratorCount": 215,
-      "crossPartyBillCount": 135,
+      "crossPartyBillCount": 137,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 309,
+          "billCount": 310,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -12750,7 +12750,7 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 291,
+          "billCount": 292,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -12761,7 +12761,7 @@
         },
         {
           "bioguideId": "C001072",
-          "billCount": 269,
+          "billCount": 270,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -12772,7 +12772,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 257,
+          "billCount": 259,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -12783,7 +12783,7 @@
         },
         {
           "bioguideId": "M001229",
-          "billCount": 243,
+          "billCount": 244,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9946",
@@ -12802,7 +12802,7 @@
       "topCollaborators": [
         {
           "bioguideId": "T000488",
-          "billCount": 226,
+          "billCount": 227,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -12846,7 +12846,7 @@
         },
         {
           "bioguideId": "G000599",
-          "billCount": 215,
+          "billCount": 216,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9874",
@@ -12984,10 +12984,10 @@
       ]
     },
     "G000593": {
-      "collaborationBillCount": 151,
+      "collaborationBillCount": 152,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 123,
+      "crossPartyBillCount": 124,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
@@ -13034,14 +13034,14 @@
           ]
         },
         {
-          "bioguideId": "G000583",
+          "bioguideId": "V000138",
           "billCount": 54,
           "sameParty": false,
           "sharedBillIds": [
             "hr:9250",
-            "hr:9211",
-            "hres:1239",
-            "hr:6856"
+            "hres:1278",
+            "hr:8730",
+            "hres:1239"
           ]
         }
       ]
@@ -13065,7 +13065,7 @@
         },
         {
           "bioguideId": "W000814",
-          "billCount": 128,
+          "billCount": 129,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1481",
@@ -13117,13 +13117,13 @@
       "topCollaborators": [
         {
           "bioguideId": "T000488",
-          "billCount": 179,
+          "billCount": 180,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1427",
             "hr:9489",
             "hres:1301",
-            "hconres:81"
+            "hr:8839"
           ]
         },
         {
@@ -13236,10 +13236,10 @@
       ]
     },
     "J000288": {
-      "collaborationBillCount": 882,
+      "collaborationBillCount": 883,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 227,
+      "crossPartyBillCount": 228,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -13265,7 +13265,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 424,
+          "billCount": 425,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -13558,13 +13558,13 @@
       "topCollaborators": [
         {
           "bioguideId": "M001211",
-          "billCount": 89,
+          "billCount": 90,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9453",
+            "hres:1351",
             "hr:8827",
-            "hr:8603",
-            "hr:8374"
+            "hr:8603"
           ]
         },
         {
@@ -13866,10 +13866,10 @@
       ]
     },
     "C001055": {
-      "collaborationBillCount": 442,
+      "collaborationBillCount": 443,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 255,
+      "crossPartyBillCount": 256,
       "topCollaborators": [
         {
           "bioguideId": "T000487",
@@ -13905,6 +13905,17 @@
           ]
         },
         {
+          "bioguideId": "T000488",
+          "billCount": 155,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hres:1484",
+            "hres:1405",
+            "hr:9440",
+            "hr:9370"
+          ]
+        },
+        {
           "bioguideId": "T000468",
           "billCount": 154,
           "sameParty": true,
@@ -13914,25 +13925,14 @@
             "hres:1463",
             "hres:1405"
           ]
-        },
-        {
-          "bioguideId": "T000488",
-          "billCount": 154,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hres:1405",
-            "hr:9440",
-            "hr:9370",
-            "hr:8914"
-          ]
         }
       ]
     },
     "T000487": {
-      "collaborationBillCount": 693,
+      "collaborationBillCount": 694,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 317,
+      "crossPartyBillCount": 318,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -13958,13 +13958,13 @@
         },
         {
           "bioguideId": "C001080",
-          "billCount": 280,
+          "billCount": 281,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10114",
             "hr:9874",
             "hr:9877",
-            "hres:1427",
-            "hr:9544"
+            "hres:1427"
           ]
         },
         {
@@ -14118,10 +14118,10 @@
       ]
     },
     "N000193": {
-      "collaborationBillCount": 455,
+      "collaborationBillCount": 456,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 387,
+      "crossPartyBillCount": 388,
       "topCollaborators": [
         {
           "bioguideId": "F000466",
@@ -14169,13 +14169,13 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 123,
+          "billCount": 124,
           "sameParty": false,
           "sharedBillIds": [
+            "hr:10112",
             "hr:9072",
             "hr:8819",
-            "hr:8700",
-            "hres:1073"
+            "hr:8700"
           ]
         }
       ]
@@ -14398,6 +14398,17 @@
           ]
         },
         {
+          "bioguideId": "T000488",
+          "billCount": 303,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:10063",
+            "hr:9983",
+            "hr:9958",
+            "hr:9941"
+          ]
+        },
+        {
           "bioguideId": "C001072",
           "billCount": 302,
           "sameParty": true,
@@ -14406,17 +14417,6 @@
             "hr:9898",
             "hr:9941",
             "hr:9944"
-          ]
-        },
-        {
-          "bioguideId": "T000488",
-          "billCount": 302,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hr:10063",
-            "hr:9983",
-            "hr:9958",
-            "hr:9941"
           ]
         },
         {
@@ -14496,10 +14496,10 @@
       ]
     },
     "R000617": {
-      "collaborationBillCount": 545,
+      "collaborationBillCount": 546,
       "uniqueCollaboratorCount": 423,
       "otherPartyCollaboratorCount": 212,
-      "crossPartyBillCount": 105,
+      "crossPartyBillCount": 106,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -14514,7 +14514,7 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 349,
+          "billCount": 350,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -14547,7 +14547,7 @@
         },
         {
           "bioguideId": "S001231",
-          "billCount": 306,
+          "billCount": 307,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -14559,10 +14559,10 @@
       ]
     },
     "G000586": {
-      "collaborationBillCount": 557,
+      "collaborationBillCount": 558,
       "uniqueCollaboratorCount": 426,
       "otherPartyCollaboratorCount": 215,
-      "crossPartyBillCount": 118,
+      "crossPartyBillCount": 119,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -14577,7 +14577,7 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 345,
+          "billCount": 346,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -14610,7 +14610,7 @@
         },
         {
           "bioguideId": "S001231",
-          "billCount": 303,
+          "billCount": 304,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -14622,14 +14622,14 @@
       ]
     },
     "Q000023": {
-      "collaborationBillCount": 506,
+      "collaborationBillCount": 508,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 202,
+      "crossPartyBillCount": 203,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 284,
+          "billCount": 285,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -14662,7 +14662,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 256,
+          "billCount": 257,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9983",
@@ -14777,7 +14777,7 @@
         },
         {
           "bioguideId": "C001080",
-          "billCount": 311,
+          "billCount": 312,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -14840,7 +14840,7 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 347,
+          "billCount": 348,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -14955,7 +14955,7 @@
         },
         {
           "bioguideId": "P000613",
-          "billCount": 205,
+          "billCount": 206,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10060",
@@ -15126,10 +15126,10 @@
       ]
     },
     "B001315": {
-      "collaborationBillCount": 503,
+      "collaborationBillCount": 505,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 309,
+      "crossPartyBillCount": 310,
       "topCollaborators": [
         {
           "bioguideId": "C001119",
@@ -15177,7 +15177,7 @@
         },
         {
           "bioguideId": "S001226",
-          "billCount": 230,
+          "billCount": 231,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9874",
@@ -15252,7 +15252,7 @@
       ]
     },
     "M001211": {
-      "collaborationBillCount": 338,
+      "collaborationBillCount": 339,
       "uniqueCollaboratorCount": 426,
       "otherPartyCollaboratorCount": 209,
       "crossPartyBillCount": 74,
@@ -15270,13 +15270,13 @@
         },
         {
           "bioguideId": "B001325",
-          "billCount": 148,
+          "billCount": 149,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9868",
             "hr:9743",
             "hres:1429",
-            "hr:9131"
+            "hres:1351"
           ]
         },
         {
@@ -15292,13 +15292,13 @@
         },
         {
           "bioguideId": "S001224",
-          "billCount": 125,
+          "billCount": 126,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9868",
+            "hres:1351",
             "hr:9131",
-            "hr:9132",
-            "hres:1338"
+            "hr:9132"
           ]
         },
         {
@@ -15344,13 +15344,13 @@
         },
         {
           "bioguideId": "K000376",
-          "billCount": 89,
+          "billCount": 90,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9535",
+            "hr:9250",
             "hr:8497",
-            "hr:8025",
-            "hr:7296"
+            "hr:8025"
           ]
         },
         {
@@ -15378,64 +15378,64 @@
       ]
     },
     "S001225": {
-      "collaborationBillCount": 382,
+      "collaborationBillCount": 384,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 218,
-      "crossPartyBillCount": 295,
+      "crossPartyBillCount": 297,
       "topCollaborators": [
         {
           "bioguideId": "B001315",
-          "billCount": 210,
+          "billCount": 211,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1432",
             "hres:1427",
             "hres:1417",
-            "hr:9048"
+            "hr:9250"
           ]
         },
         {
           "bioguideId": "C001119",
-          "billCount": 200,
+          "billCount": 201,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1427",
+            "hr:9250",
             "hr:9048",
-            "hres:1301",
-            "hres:1253"
+            "hres:1301"
           ]
         },
         {
           "bioguideId": "G000583",
-          "billCount": 194,
+          "billCount": 196,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:9250",
             "hr:9048",
             "hres:1320",
-            "hr:8205",
-            "hr:8163"
-          ]
-        },
-        {
-          "bioguideId": "V000138",
-          "billCount": 193,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hres:1427",
-            "hr:9048",
-            "hres:1253",
             "hr:8205"
           ]
         },
         {
           "bioguideId": "F000466",
-          "billCount": 192,
+          "billCount": 194,
           "sameParty": false,
           "sharedBillIds": [
+            "hr:9849",
             "hres:1427",
+            "hr:9250",
+            "hr:9048"
+          ]
+        },
+        {
+          "bioguideId": "V000138",
+          "billCount": 194,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hres:1427",
+            "hr:9250",
             "hr:9048",
-            "hr:9018",
-            "hres:1320"
+            "hres:1253"
           ]
         }
       ]
@@ -15630,14 +15630,14 @@
       ]
     },
     "B001307": {
-      "collaborationBillCount": 229,
-      "uniqueCollaboratorCount": 427,
-      "otherPartyCollaboratorCount": 210,
-      "crossPartyBillCount": 139,
+      "collaborationBillCount": 230,
+      "uniqueCollaboratorCount": 428,
+      "otherPartyCollaboratorCount": 211,
+      "crossPartyBillCount": 140,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
-          "billCount": 75,
+          "billCount": 76,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9473",
@@ -15648,7 +15648,7 @@
         },
         {
           "bioguideId": "T000478",
-          "billCount": 74,
+          "billCount": 75,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9535",
@@ -15670,7 +15670,7 @@
         },
         {
           "bioguideId": "B001298",
-          "billCount": 66,
+          "billCount": 67,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1451",
@@ -15681,7 +15681,7 @@
         },
         {
           "bioguideId": "M001212",
-          "billCount": 64,
+          "billCount": 65,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9237",
@@ -16134,10 +16134,10 @@
       ]
     },
     "D000629": {
-      "collaborationBillCount": 495,
+      "collaborationBillCount": 496,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 354,
+      "crossPartyBillCount": 355,
       "topCollaborators": [
         {
           "bioguideId": "C001119",
@@ -16152,7 +16152,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 206,
+          "billCount": 207,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9553",
@@ -16701,14 +16701,14 @@
       ]
     },
     "C001125": {
-      "collaborationBillCount": 559,
+      "collaborationBillCount": 561,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 219,
       "crossPartyBillCount": 255,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 270,
+          "billCount": 271,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -16730,7 +16730,7 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 244,
+          "billCount": 245,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -16741,7 +16741,7 @@
         },
         {
           "bioguideId": "C001072",
-          "billCount": 237,
+          "billCount": 238,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -16752,7 +16752,7 @@
         },
         {
           "bioguideId": "M001229",
-          "billCount": 229,
+          "billCount": 230,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9849",
@@ -17196,14 +17196,14 @@
       ]
     },
     "A000148": {
-      "collaborationBillCount": 223,
+      "collaborationBillCount": 226,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 141,
+      "crossPartyBillCount": 143,
       "topCollaborators": [
         {
           "bioguideId": "G000583",
-          "billCount": 115,
+          "billCount": 116,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10076",
@@ -17214,7 +17214,7 @@
         },
         {
           "bioguideId": "M001196",
-          "billCount": 115,
+          "billCount": 116,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -17225,7 +17225,7 @@
         },
         {
           "bioguideId": "M001238",
-          "billCount": 112,
+          "billCount": 113,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -17236,7 +17236,7 @@
         },
         {
           "bioguideId": "G000599",
-          "billCount": 108,
+          "billCount": 109,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9211",
@@ -17246,14 +17246,14 @@
           ]
         },
         {
-          "bioguideId": "C001068",
-          "billCount": 107,
+          "bioguideId": "Q000023",
+          "billCount": 108,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
+            "hr:9550",
             "hr:9250",
-            "hr:9036",
-            "hr:8798"
+            "hr:9211"
           ]
         }
       ]
@@ -17322,10 +17322,10 @@
       ]
     },
     "M001196": {
-      "collaborationBillCount": 647,
+      "collaborationBillCount": 650,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 291,
+      "crossPartyBillCount": 293,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -17340,7 +17340,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 305,
+          "billCount": 306,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9983",
@@ -17362,7 +17362,7 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 289,
+          "billCount": 290,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -17511,10 +17511,10 @@
       ]
     },
     "K000375": {
-      "collaborationBillCount": 337,
+      "collaborationBillCount": 338,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 201,
+      "crossPartyBillCount": 202,
       "topCollaborators": [
         {
           "bioguideId": "T000468",
@@ -17529,7 +17529,7 @@
         },
         {
           "bioguideId": "M001238",
-          "billCount": 174,
+          "billCount": 176,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9414",
@@ -17551,7 +17551,7 @@
         },
         {
           "bioguideId": "M001196",
-          "billCount": 165,
+          "billCount": 166,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1427",
@@ -17562,7 +17562,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 163,
+          "billCount": 164,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9250",
@@ -17581,13 +17581,13 @@
       "topCollaborators": [
         {
           "bioguideId": "M001211",
-          "billCount": 117,
+          "billCount": 118,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9868",
             "hr:9743",
-            "hr:9131",
-            "hr:9132"
+            "hres:1351",
+            "hr:9131"
           ]
         },
         {
@@ -17707,7 +17707,7 @@
       "topCollaborators": [
         {
           "bioguideId": "T000488",
-          "billCount": 196,
+          "billCount": 197,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -17763,7 +17763,7 @@
       ]
     },
     "I000058": {
-      "collaborationBillCount": 252,
+      "collaborationBillCount": 253,
       "uniqueCollaboratorCount": 426,
       "otherPartyCollaboratorCount": 215,
       "crossPartyBillCount": 100,
@@ -18015,14 +18015,14 @@
       ]
     },
     "R000606": {
-      "collaborationBillCount": 345,
+      "collaborationBillCount": 346,
       "uniqueCollaboratorCount": 424,
       "otherPartyCollaboratorCount": 213,
       "crossPartyBillCount": 159,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 208,
+          "billCount": 209,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -18055,7 +18055,7 @@
         },
         {
           "bioguideId": "B001278",
-          "billCount": 184,
+          "billCount": 185,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9874",
@@ -18066,7 +18066,7 @@
         },
         {
           "bioguideId": "L000582",
-          "billCount": 184,
+          "billCount": 185,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -18191,23 +18191,23 @@
           ]
         },
         {
-          "bioguideId": "P000597",
-          "billCount": 87,
+          "bioguideId": "D000230",
+          "billCount": 88,
           "sameParty": true,
           "sharedBillIds": [
-            "hr:9827",
-            "hr:9874",
-            "hr:9401",
-            "hr:9250"
+            "hr:9473",
+            "hr:9489",
+            "hr:9452",
+            "hres:1379"
           ]
         }
       ]
     },
     "B001301": {
-      "collaborationBillCount": 286,
+      "collaborationBillCount": 287,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 212,
-      "crossPartyBillCount": 222,
+      "crossPartyBillCount": 223,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
@@ -18233,35 +18233,35 @@
         },
         {
           "bioguideId": "M001194",
-          "billCount": 98,
+          "billCount": 99,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9570",
+            "hr:9535",
             "hres:1408",
-            "hr:9237",
-            "hr:9250"
+            "hr:9237"
           ]
         },
         {
           "bioguideId": "V000135",
-          "billCount": 97,
+          "billCount": 98,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1475",
             "hres:1427",
-            "hr:9489",
-            "hr:9404"
+            "hr:9535",
+            "hr:9489"
           ]
         },
         {
           "bioguideId": "B001298",
-          "billCount": 95,
+          "billCount": 96,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:9535",
             "hr:9489",
             "hr:9444",
-            "hr:9237",
-            "hr:9250"
+            "hr:9237"
           ]
         }
       ]
@@ -18285,7 +18285,7 @@
         },
         {
           "bioguideId": "W000814",
-          "billCount": 105,
+          "billCount": 106,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1481",
@@ -18318,13 +18318,13 @@
         },
         {
           "bioguideId": "B001301",
-          "billCount": 98,
+          "billCount": 99,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9570",
+            "hr:9535",
             "hres:1408",
-            "hr:9237",
-            "hr:9250"
+            "hr:9237"
           ]
         }
       ]
@@ -18433,13 +18433,13 @@
         },
         {
           "bioguideId": "B001301",
-          "billCount": 85,
+          "billCount": 86,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9570",
+            "hr:9535",
             "hres:1408",
-            "hr:9250",
-            "hres:1347"
+            "hr:9250"
           ]
         },
         {
@@ -18569,14 +18569,14 @@
           ]
         },
         {
-          "bioguideId": "K000391",
-          "billCount": 243,
+          "bioguideId": "C001068",
+          "billCount": 244,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:9941",
+            "hr:9874",
             "hr:9817",
-            "hres:1427",
-            "hr:9544",
-            "hr:9414"
+            "hres:1437"
           ]
         }
       ]
@@ -18771,10 +18771,10 @@
       ]
     },
     "J000307": {
-      "collaborationBillCount": 138,
+      "collaborationBillCount": 139,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 212,
-      "crossPartyBillCount": 99,
+      "crossPartyBillCount": 100,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
@@ -18799,6 +18799,17 @@
           ]
         },
         {
+          "bioguideId": "B001301",
+          "billCount": 50,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:9570",
+            "hres:1408",
+            "hr:9250",
+            "hres:1347"
+          ]
+        },
+        {
           "bioguideId": "M001194",
           "billCount": 50,
           "sameParty": true,
@@ -18818,17 +18829,6 @@
             "hr:9570",
             "hres:1408",
             "hr:9211"
-          ]
-        },
-        {
-          "bioguideId": "B001301",
-          "billCount": 49,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hr:9570",
-            "hres:1408",
-            "hr:9250",
-            "hres:1347"
           ]
         }
       ]
@@ -18885,7 +18885,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 166,
+          "billCount": 167,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -18960,10 +18960,10 @@
       ]
     },
     "T000488": {
-      "collaborationBillCount": 996,
+      "collaborationBillCount": 998,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 365,
+      "crossPartyBillCount": 367,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -18978,7 +18978,7 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 424,
+          "billCount": 425,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -19023,10 +19023,10 @@
       ]
     },
     "F000475": {
-      "collaborationBillCount": 334,
+      "collaborationBillCount": 335,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 212,
-      "crossPartyBillCount": 209,
+      "crossPartyBillCount": 210,
       "topCollaborators": [
         {
           "bioguideId": "T000478",
@@ -19149,14 +19149,14 @@
       ]
     },
     "M001234": {
-      "collaborationBillCount": 252,
+      "collaborationBillCount": 254,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 119,
+      "crossPartyBillCount": 121,
       "topCollaborators": [
         {
           "bioguideId": "C001119",
-          "billCount": 158,
+          "billCount": 160,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -19167,7 +19167,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 156,
+          "billCount": 157,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -19178,7 +19178,7 @@
         },
         {
           "bioguideId": "T000481",
-          "billCount": 141,
+          "billCount": 142,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -19189,7 +19189,7 @@
         },
         {
           "bioguideId": "S001226",
-          "billCount": 140,
+          "billCount": 141,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9374",
@@ -19200,7 +19200,7 @@
         },
         {
           "bioguideId": "M001196",
-          "billCount": 140,
+          "billCount": 141,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -19212,10 +19212,10 @@
       ]
     },
     "M001143": {
-      "collaborationBillCount": 397,
+      "collaborationBillCount": 398,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 153,
+      "crossPartyBillCount": 154,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -19241,13 +19241,13 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 230,
+          "billCount": 231,
           "sameParty": true,
           "sharedBillIds": [
+            "hres:1484",
             "hr:10063",
             "hr:9983",
-            "hconres:114",
-            "hres:1427"
+            "hconres:114"
           ]
         },
         {
@@ -19275,7 +19275,7 @@
       ]
     },
     "O000173": {
-      "collaborationBillCount": 456,
+      "collaborationBillCount": 457,
       "uniqueCollaboratorCount": 425,
       "otherPartyCollaboratorCount": 214,
       "crossPartyBillCount": 126,
@@ -19293,7 +19293,7 @@
         },
         {
           "bioguideId": "R000617",
-          "billCount": 269,
+          "billCount": 270,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -19527,14 +19527,14 @@
       ]
     },
     "B001324": {
-      "collaborationBillCount": 523,
+      "collaborationBillCount": 525,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 206,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 294,
+          "billCount": 295,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9898",
@@ -19545,7 +19545,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 279,
+          "billCount": 280,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -19556,7 +19556,7 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 272,
+          "billCount": 273,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9898",
@@ -19567,7 +19567,7 @@
         },
         {
           "bioguideId": "C001072",
-          "billCount": 270,
+          "billCount": 271,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9898",
@@ -19578,7 +19578,7 @@
         },
         {
           "bioguideId": "K000391",
-          "billCount": 248,
+          "billCount": 249,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9817",
@@ -19590,10 +19590,10 @@
       ]
     },
     "W000812": {
-      "collaborationBillCount": 166,
+      "collaborationBillCount": 167,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 125,
+      "crossPartyBillCount": 126,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
@@ -20081,14 +20081,14 @@
           ]
         },
         {
-          "bioguideId": "F000475",
-          "billCount": 56,
+          "bioguideId": "W000814",
+          "billCount": 57,
           "sameParty": true,
           "sharedBillIds": [
-            "hr:9535",
             "hr:9250",
+            "hr:8730",
             "hres:1252",
-            "hr:7651"
+            "hr:7678"
           ]
         }
       ]
@@ -20409,10 +20409,10 @@
       ]
     },
     "D000230": {
-      "collaborationBillCount": 670,
+      "collaborationBillCount": 673,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 218,
-      "crossPartyBillCount": 629,
+      "crossPartyBillCount": 631,
       "topCollaborators": [
         {
           "bioguideId": "F000466",
@@ -20427,7 +20427,7 @@
         },
         {
           "bioguideId": "V000138",
-          "billCount": 274,
+          "billCount": 275,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1462",
@@ -20438,7 +20438,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 245,
+          "billCount": 248,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9582",
@@ -20472,10 +20472,10 @@
       ]
     },
     "R000305": {
-      "collaborationBillCount": 627,
+      "collaborationBillCount": 628,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 340,
+      "crossPartyBillCount": 341,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -20511,25 +20511,25 @@
           ]
         },
         {
-          "bioguideId": "K000391",
-          "billCount": 254,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hr:9983",
-            "hres:1427",
-            "hr:9432",
-            "hr:9414"
-          ]
-        },
-        {
           "bioguideId": "G000599",
-          "billCount": 253,
+          "billCount": 254,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9874",
             "hr:9473",
             "hr:9432",
             "hr:9448"
+          ]
+        },
+        {
+          "bioguideId": "G000583",
+          "billCount": 254,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:9941",
+            "hr:9831",
+            "hconres:114",
+            "hres:1368"
           ]
         }
       ]
@@ -20661,10 +20661,10 @@
       ]
     },
     "F000450": {
-      "collaborationBillCount": 110,
-      "uniqueCollaboratorCount": 420,
-      "otherPartyCollaboratorCount": 203,
-      "crossPartyBillCount": 53,
+      "collaborationBillCount": 111,
+      "uniqueCollaboratorCount": 422,
+      "otherPartyCollaboratorCount": 205,
+      "crossPartyBillCount": 54,
       "topCollaborators": [
         {
           "bioguideId": "T000478",
@@ -20679,13 +20679,13 @@
         },
         {
           "bioguideId": "M001236",
-          "billCount": 40,
+          "billCount": 41,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1410",
             "hres:1387",
-            "hr:9043",
-            "hres:1199"
+            "hr:9250",
+            "hr:9043"
           ]
         },
         {
@@ -20700,6 +20700,17 @@
           ]
         },
         {
+          "bioguideId": "W000814",
+          "billCount": 39,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:9250",
+            "hres:993",
+            "hres:719",
+            "hr:4936"
+          ]
+        },
+        {
           "bioguideId": "H001093",
           "billCount": 38,
           "sameParty": true,
@@ -20708,17 +20719,6 @@
             "hr:7890",
             "hr:7300",
             "hres:993"
-          ]
-        },
-        {
-          "bioguideId": "W000814",
-          "billCount": 38,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hres:993",
-            "hres:719",
-            "hr:4936",
-            "hr:4148"
           ]
         }
       ]
@@ -20913,14 +20913,14 @@
       ]
     },
     "H001067": {
-      "collaborationBillCount": 178,
+      "collaborationBillCount": 179,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 212,
       "crossPartyBillCount": 113,
       "topCollaborators": [
         {
           "bioguideId": "T000478",
-          "billCount": 88,
+          "billCount": 89,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9680",
@@ -20942,7 +20942,7 @@
         },
         {
           "bioguideId": "W000814",
-          "billCount": 79,
+          "billCount": 80,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1481",
@@ -21446,7 +21446,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 232,
+          "billCount": 234,
           "sameParty": false,
           "sharedBillIds": [
             "hr:10076",
@@ -21572,13 +21572,13 @@
         },
         {
           "bioguideId": "F000466",
-          "billCount": 181,
+          "billCount": 182,
           "sameParty": false,
           "sharedBillIds": [
+            "hr:9894",
             "hr:9250",
             "hres:1270",
-            "hres:1252",
-            "hres:1253"
+            "hres:1252"
           ]
         },
         {
@@ -21645,6 +21645,17 @@
           ]
         },
         {
+          "bioguideId": "G000583",
+          "billCount": 134,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hres:1380",
+            "hr:9250",
+            "hr:9059",
+            "hres:1252"
+          ]
+        },
+        {
           "bioguideId": "M001238",
           "billCount": 134,
           "sameParty": true,
@@ -21653,17 +21664,6 @@
             "hr:9250",
             "hconres:103",
             "hr:8707"
-          ]
-        },
-        {
-          "bioguideId": "G000583",
-          "billCount": 133,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hres:1380",
-            "hr:9250",
-            "hr:9059",
-            "hres:1252"
           ]
         }
       ]
@@ -21709,7 +21709,7 @@
         },
         {
           "bioguideId": "P000607",
-          "billCount": 168,
+          "billCount": 169,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1427",
@@ -21761,7 +21761,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 163,
+          "billCount": 164,
           "sameParty": false,
           "sharedBillIds": [
             "hr:9845",
@@ -21921,14 +21921,14 @@
       ]
     },
     "G000583": {
-      "collaborationBillCount": 949,
+      "collaborationBillCount": 954,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 728,
+      "crossPartyBillCount": 733,
       "topCollaborators": [
         {
           "bioguideId": "F000466",
-          "billCount": 398,
+          "billCount": 400,
           "sameParty": false,
           "sharedBillIds": [
             "hr:10076",
@@ -21939,7 +21939,7 @@
         },
         {
           "bioguideId": "L000599",
-          "billCount": 364,
+          "billCount": 367,
           "sameParty": false,
           "sharedBillIds": [
             "hr:10052",
@@ -21950,7 +21950,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 322,
+          "billCount": 323,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -21961,7 +21961,7 @@
         },
         {
           "bioguideId": "V000138",
-          "billCount": 315,
+          "billCount": 317,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10076",
@@ -21971,14 +21971,14 @@
           ]
         },
         {
-          "bioguideId": "C001119",
-          "billCount": 289,
+          "bioguideId": "T000468",
+          "billCount": 290,
           "sameParty": true,
           "sharedBillIds": [
+            "hres:1460",
             "hr:9941",
-            "hr:9831",
-            "hr:9401",
-            "hr:9250"
+            "hconres:114",
+            "hjres:200"
           ]
         }
       ]
@@ -22047,14 +22047,14 @@
       ]
     },
     "K000398": {
-      "collaborationBillCount": 348,
+      "collaborationBillCount": 353,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 325,
+      "crossPartyBillCount": 330,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
-          "billCount": 197,
+          "billCount": 200,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9893",
@@ -22065,7 +22065,7 @@
         },
         {
           "bioguideId": "F000466",
-          "billCount": 193,
+          "billCount": 196,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9845",
@@ -22076,7 +22076,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 177,
+          "billCount": 180,
           "sameParty": false,
           "sharedBillIds": [
             "hr:9845",
@@ -22087,7 +22087,7 @@
         },
         {
           "bioguideId": "V000138",
-          "billCount": 124,
+          "billCount": 127,
           "sameParty": false,
           "sharedBillIds": [
             "hr:9845",
@@ -22098,7 +22098,7 @@
         },
         {
           "bioguideId": "V000133",
-          "billCount": 123,
+          "billCount": 124,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9845",
@@ -22299,14 +22299,14 @@
       ]
     },
     "M001246": {
-      "collaborationBillCount": 98,
-      "uniqueCollaboratorCount": 397,
-      "otherPartyCollaboratorCount": 186,
-      "crossPartyBillCount": 31,
+      "collaborationBillCount": 100,
+      "uniqueCollaboratorCount": 398,
+      "otherPartyCollaboratorCount": 187,
+      "crossPartyBillCount": 32,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 71,
+          "billCount": 72,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -22317,7 +22317,7 @@
         },
         {
           "bioguideId": "S001231",
-          "billCount": 70,
+          "billCount": 71,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9943",
@@ -22328,7 +22328,7 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 69,
+          "billCount": 70,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -22339,7 +22339,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 68,
+          "billCount": 69,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -22349,14 +22349,14 @@
           ]
         },
         {
-          "bioguideId": "A000381",
-          "billCount": 66,
+          "bioguideId": "G000586",
+          "billCount": 67,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
+            "hr:9943",
             "hr:9874",
-            "hres:1409",
-            "hr:9457"
+            "hr:9877"
           ]
         }
       ]
@@ -22488,14 +22488,14 @@
       ]
     },
     "V000136": {
-      "collaborationBillCount": 351,
+      "collaborationBillCount": 353,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 274,
+      "crossPartyBillCount": 275,
       "topCollaborators": [
         {
           "bioguideId": "V000138",
-          "billCount": 191,
+          "billCount": 192,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10076",
@@ -22506,7 +22506,7 @@
         },
         {
           "bioguideId": "F000466",
-          "billCount": 149,
+          "billCount": 150,
           "sameParty": false,
           "sharedBillIds": [
             "hr:10076",
@@ -22517,18 +22517,18 @@
         },
         {
           "bioguideId": "N000191",
-          "billCount": 146,
+          "billCount": 148,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10115",
             "hr:9250",
             "hr:9167",
-            "hr:8523",
-            "hr:8533"
+            "hr:8523"
           ]
         },
         {
           "bioguideId": "G000583",
-          "billCount": 145,
+          "billCount": 146,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10076",
@@ -22539,7 +22539,7 @@
         },
         {
           "bioguideId": "C001119",
-          "billCount": 144,
+          "billCount": 145,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1427",
@@ -22551,10 +22551,10 @@
       ]
     },
     "L000273": {
-      "collaborationBillCount": 290,
+      "collaborationBillCount": 292,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 121,
+      "crossPartyBillCount": 122,
       "topCollaborators": [
         {
           "bioguideId": "S001218",
@@ -22580,7 +22580,7 @@
         },
         {
           "bioguideId": "P000597",
-          "billCount": 166,
+          "billCount": 167,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -22614,7 +22614,7 @@
       ]
     },
     "T000468": {
-      "collaborationBillCount": 759,
+      "collaborationBillCount": 760,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 354,
@@ -22803,20 +22803,20 @@
       ]
     },
     "H001066": {
-      "collaborationBillCount": 403,
+      "collaborationBillCount": 404,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 178,
       "topCollaborators": [
         {
           "bioguideId": "T000468",
-          "billCount": 207,
+          "billCount": 208,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10115",
             "hr:9941",
             "hr:9944",
-            "hr:9736",
-            "hres:1427"
+            "hr:9736"
           ]
         },
         {
@@ -23032,7 +23032,7 @@
         },
         {
           "bioguideId": "P000613",
-          "billCount": 228,
+          "billCount": 229,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10075",
@@ -23370,10 +23370,10 @@
       ]
     },
     "C001067": {
-      "collaborationBillCount": 582,
+      "collaborationBillCount": 583,
       "uniqueCollaboratorCount": 426,
       "otherPartyCollaboratorCount": 215,
-      "crossPartyBillCount": 183,
+      "crossPartyBillCount": 184,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -23388,7 +23388,7 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 344,
+          "billCount": 345,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -23399,7 +23399,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 335,
+          "billCount": 336,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -23433,7 +23433,7 @@
       ]
     },
     "G000599": {
-      "collaborationBillCount": 730,
+      "collaborationBillCount": 731,
       "uniqueCollaboratorCount": 426,
       "otherPartyCollaboratorCount": 215,
       "crossPartyBillCount": 271,
@@ -23484,7 +23484,7 @@
         },
         {
           "bioguideId": "C001072",
-          "billCount": 295,
+          "billCount": 296,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -23496,31 +23496,31 @@
       ]
     },
     "M000317": {
-      "collaborationBillCount": 420,
+      "collaborationBillCount": 421,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 344,
+      "crossPartyBillCount": 345,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
-          "billCount": 241,
+          "billCount": 242,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9905",
             "hr:9795",
             "hres:1422",
-            "hr:9327"
+            "hr:9489"
           ]
         },
         {
           "bioguideId": "F000466",
-          "billCount": 201,
+          "billCount": 202,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1402",
+            "hr:9489",
             "hr:9327",
-            "hr:9250",
-            "hr:9211"
+            "hr:9250"
           ]
         },
         {
@@ -23547,7 +23547,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 148,
+          "billCount": 150,
           "sameParty": false,
           "sharedBillIds": [
             "hr:9795",
@@ -23577,7 +23577,7 @@
         },
         {
           "bioguideId": "G000599",
-          "billCount": 264,
+          "billCount": 265,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -23622,14 +23622,14 @@
       ]
     },
     "E000297": {
-      "collaborationBillCount": 348,
+      "collaborationBillCount": 350,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 117,
+      "crossPartyBillCount": 118,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 218,
+          "billCount": 219,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -23640,7 +23640,7 @@
         },
         {
           "bioguideId": "G000599",
-          "billCount": 196,
+          "billCount": 197,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -23651,13 +23651,24 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 195,
+          "billCount": 196,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
             "hr:10063",
             "hr:10040",
             "hres:1463"
+          ]
+        },
+        {
+          "bioguideId": "C001067",
+          "billCount": 196,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:10063",
+            "hr:9905",
+            "hr:9941",
+            "hr:9943"
           ]
         },
         {
@@ -23670,24 +23681,13 @@
             "hr:9941",
             "hr:9943"
           ]
-        },
-        {
-          "bioguideId": "C001067",
-          "billCount": 195,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hr:10063",
-            "hr:9905",
-            "hr:9941",
-            "hr:9943"
-          ]
         }
       ]
     },
     "O000172": {
       "collaborationBillCount": 367,
-      "uniqueCollaboratorCount": 404,
-      "otherPartyCollaboratorCount": 193,
+      "uniqueCollaboratorCount": 405,
+      "otherPartyCollaboratorCount": 194,
       "crossPartyBillCount": 104,
       "topCollaborators": [
         {
@@ -23811,10 +23811,10 @@
       ]
     },
     "L000606": {
-      "collaborationBillCount": 452,
+      "collaborationBillCount": 453,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 209,
+      "crossPartyBillCount": 210,
       "topCollaborators": [
         {
           "bioguideId": "T000488",
@@ -23829,13 +23829,13 @@
         },
         {
           "bioguideId": "G000599",
-          "billCount": 251,
+          "billCount": 252,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9905",
+            "hr:9795",
             "hjres:200",
-            "hr:9370",
-            "hr:9211"
+            "hr:9370"
           ]
         },
         {
@@ -23874,25 +23874,25 @@
       ]
     },
     "L000599": {
-      "collaborationBillCount": 1086,
+      "collaborationBillCount": 1087,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 949,
+      "crossPartyBillCount": 950,
       "topCollaborators": [
         {
           "bioguideId": "F000466",
-          "billCount": 477,
+          "billCount": 478,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9998",
             "hres:1462",
-            "hr:9680",
-            "hres:1426"
+            "hr:9894",
+            "hr:9680"
           ]
         },
         {
           "bioguideId": "G000583",
-          "billCount": 364,
+          "billCount": 367,
           "sameParty": false,
           "sharedBillIds": [
             "hr:10052",
@@ -23977,7 +23977,7 @@
         },
         {
           "bioguideId": "G000599",
-          "billCount": 117,
+          "billCount": 118,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9905",
@@ -24040,7 +24040,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 170,
+          "billCount": 171,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -24189,10 +24189,10 @@
       ]
     },
     "M001231": {
-      "collaborationBillCount": 305,
+      "collaborationBillCount": 306,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 181,
+      "crossPartyBillCount": 182,
       "topCollaborators": [
         {
           "bioguideId": "K000402",
@@ -24441,14 +24441,14 @@
       ]
     },
     "K000402": {
-      "collaborationBillCount": 529,
+      "collaborationBillCount": 530,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
       "crossPartyBillCount": 270,
       "topCollaborators": [
         {
           "bioguideId": "T000488",
-          "billCount": 276,
+          "billCount": 277,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -24459,7 +24459,7 @@
         },
         {
           "bioguideId": "G000599",
-          "billCount": 266,
+          "billCount": 268,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9905",
@@ -24470,7 +24470,7 @@
         },
         {
           "bioguideId": "T000481",
-          "billCount": 253,
+          "billCount": 254,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1463",
@@ -24481,7 +24481,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 239,
+          "billCount": 240,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -24492,7 +24492,7 @@
         },
         {
           "bioguideId": "C001072",
-          "billCount": 228,
+          "billCount": 229,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1463",
@@ -24504,14 +24504,14 @@
       ]
     },
     "L000601": {
-      "collaborationBillCount": 544,
+      "collaborationBillCount": 546,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 218,
-      "crossPartyBillCount": 315,
+      "crossPartyBillCount": 316,
       "topCollaborators": [
         {
           "bioguideId": "T000488",
-          "billCount": 268,
+          "billCount": 270,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10040",
@@ -24630,31 +24630,31 @@
       ]
     },
     "B001281": {
-      "collaborationBillCount": 432,
+      "collaborationBillCount": 433,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 172,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 264,
+          "billCount": 265,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10045",
             "hr:9941",
             "hr:9849",
-            "hr:9817",
-            "hconres:114"
+            "hr:9817"
           ]
         },
         {
           "bioguideId": "J000288",
-          "billCount": 243,
+          "billCount": 244,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10045",
             "hr:9941",
             "hr:9849",
-            "hr:9817",
-            "hres:1427"
+            "hr:9817"
           ]
         },
         {
@@ -24670,13 +24670,13 @@
         },
         {
           "bioguideId": "C001072",
-          "billCount": 226,
+          "billCount": 227,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10045",
             "hr:9941",
             "hr:9849",
-            "hr:9817",
-            "hconres:114"
+            "hr:9817"
           ]
         },
         {
@@ -24757,8 +24757,8 @@
     },
     "L000566": {
       "collaborationBillCount": 115,
-      "uniqueCollaboratorCount": 426,
-      "otherPartyCollaboratorCount": 209,
+      "uniqueCollaboratorCount": 427,
+      "otherPartyCollaboratorCount": 210,
       "crossPartyBillCount": 66,
       "topCollaborators": [
         {
@@ -24785,13 +24785,13 @@
         },
         {
           "bioguideId": "W000814",
-          "billCount": 51,
+          "billCount": 52,
           "sameParty": true,
           "sharedBillIds": [
             "hr:8990",
+            "hr:8730",
             "hr:7390",
-            "hr:7184",
-            "hr:6875"
+            "hr:7184"
           ]
         },
         {
@@ -24848,7 +24848,7 @@
         },
         {
           "bioguideId": "W000814",
-          "billCount": 111,
+          "billCount": 112,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9988",
@@ -24945,10 +24945,10 @@
       ]
     },
     "D000626": {
-      "collaborationBillCount": 198,
+      "collaborationBillCount": 199,
       "uniqueCollaboratorCount": 421,
       "otherPartyCollaboratorCount": 204,
-      "crossPartyBillCount": 78,
+      "crossPartyBillCount": 79,
       "topCollaborators": [
         {
           "bioguideId": "M001212",
@@ -25015,13 +25015,13 @@
       "topCollaborators": [
         {
           "bioguideId": "L000601",
-          "billCount": 110,
+          "billCount": 111,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1427",
             "hr:9489",
-            "hres:1252",
-            "hr:8205"
+            "hr:8730",
+            "hres:1252"
           ]
         },
         {
@@ -25237,13 +25237,13 @@
         },
         {
           "bioguideId": "W000814",
-          "billCount": 78,
+          "billCount": 79,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9337",
             "hr:9250",
             "hr:8990",
-            "hres:1252"
+            "hr:8730"
           ]
         },
         {
@@ -25519,13 +25519,13 @@
       "topCollaborators": [
         {
           "bioguideId": "M001211",
-          "billCount": 108,
+          "billCount": 109,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9868",
             "hr:9254",
-            "hres:1338",
-            "hr:8826"
+            "hres:1351",
+            "hres:1338"
           ]
         },
         {
@@ -25890,14 +25890,14 @@
       ]
     },
     "D000635": {
-      "collaborationBillCount": 375,
+      "collaborationBillCount": 376,
       "uniqueCollaboratorCount": 425,
       "otherPartyCollaboratorCount": 214,
       "crossPartyBillCount": 122,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 269,
+          "billCount": 270,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -25908,7 +25908,7 @@
         },
         {
           "bioguideId": "B001278",
-          "billCount": 230,
+          "billCount": 231,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -25919,7 +25919,7 @@
         },
         {
           "bioguideId": "C001080",
-          "billCount": 228,
+          "billCount": 229,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -25930,7 +25930,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 228,
+          "billCount": 229,
           "sameParty": true,
           "sharedBillIds": [
             "hconres:114",
@@ -25941,7 +25941,7 @@
         },
         {
           "bioguideId": "J000298",
-          "billCount": 227,
+          "billCount": 228,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -26016,10 +26016,10 @@
       ]
     },
     "B001326": {
-      "collaborationBillCount": 361,
+      "collaborationBillCount": 364,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 230,
+      "crossPartyBillCount": 233,
       "topCollaborators": [
         {
           "bioguideId": "S001226",
@@ -26030,6 +26030,28 @@
             "hconres:114",
             "hr:9289",
             "hr:9250"
+          ]
+        },
+        {
+          "bioguideId": "G000583",
+          "billCount": 174,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:9941",
+            "hconres:114",
+            "hr:9250",
+            "hjres:189"
+          ]
+        },
+        {
+          "bioguideId": "T000481",
+          "billCount": 174,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:9941",
+            "hr:9849",
+            "hconres:114",
+            "hr:9289"
           ]
         },
         {
@@ -26044,30 +26066,8 @@
           ]
         },
         {
-          "bioguideId": "G000583",
-          "billCount": 173,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hr:9941",
-            "hconres:114",
-            "hr:9250",
-            "hjres:189"
-          ]
-        },
-        {
-          "bioguideId": "T000481",
-          "billCount": 172,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hr:9941",
-            "hconres:114",
-            "hr:9289",
-            "hr:9300"
-          ]
-        },
-        {
           "bioguideId": "V000138",
-          "billCount": 170,
+          "billCount": 171,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -26079,14 +26079,14 @@
       ]
     },
     "S001226": {
-      "collaborationBillCount": 660,
+      "collaborationBillCount": 662,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 284,
+      "crossPartyBillCount": 286,
       "topCollaborators": [
         {
           "bioguideId": "T000488",
-          "billCount": 344,
+          "billCount": 345,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10040",
@@ -26142,25 +26142,25 @@
       ]
     },
     "F000466": {
-      "collaborationBillCount": 1245,
+      "collaborationBillCount": 1247,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 1216,
+      "crossPartyBillCount": 1218,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
-          "billCount": 477,
+          "billCount": 478,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9998",
             "hres:1462",
-            "hr:9680",
-            "hres:1426"
+            "hr:9894",
+            "hr:9680"
           ]
         },
         {
           "bioguideId": "G000583",
-          "billCount": 398,
+          "billCount": 400,
           "sameParty": false,
           "sharedBillIds": [
             "hr:10076",
@@ -26182,7 +26182,7 @@
         },
         {
           "bioguideId": "V000138",
-          "billCount": 300,
+          "billCount": 302,
           "sameParty": false,
           "sharedBillIds": [
             "hr:10076",
@@ -26268,7 +26268,7 @@
       ]
     },
     "E000296": {
-      "collaborationBillCount": 553,
+      "collaborationBillCount": 554,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
       "crossPartyBillCount": 187,
@@ -26331,7 +26331,7 @@
       ]
     },
     "D000631": {
-      "collaborationBillCount": 433,
+      "collaborationBillCount": 434,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
       "crossPartyBillCount": 199,
@@ -26348,6 +26348,17 @@
           ]
         },
         {
+          "bioguideId": "J000288",
+          "billCount": 224,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hres:1463",
+            "hres:1427",
+            "hr:9432",
+            "hr:9401"
+          ]
+        },
+        {
           "bioguideId": "T000488",
           "billCount": 224,
           "sameParty": true,
@@ -26356,17 +26367,6 @@
             "hr:9432",
             "hr:9370",
             "hres:1342"
-          ]
-        },
-        {
-          "bioguideId": "J000288",
-          "billCount": 223,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hres:1463",
-            "hres:1427",
-            "hr:9432",
-            "hr:9401"
           ]
         },
         {
@@ -26381,20 +26381,20 @@
           ]
         },
         {
-          "bioguideId": "K000391",
+          "bioguideId": "G000599",
           "billCount": 216,
           "sameParty": true,
           "sharedBillIds": [
-            "hres:1463",
-            "hres:1427",
             "hr:9432",
-            "hr:9289"
+            "hr:9448",
+            "hr:9401",
+            "hr:9370"
           ]
         }
       ]
     },
     "S001205": {
-      "collaborationBillCount": 445,
+      "collaborationBillCount": 446,
       "uniqueCollaboratorCount": 426,
       "otherPartyCollaboratorCount": 215,
       "crossPartyBillCount": 171,
@@ -26423,7 +26423,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 253,
+          "billCount": 254,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -26444,14 +26444,14 @@
           ]
         },
         {
-          "bioguideId": "T000468",
-          "billCount": 238,
+          "bioguideId": "E000296",
+          "billCount": 239,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:10111",
             "hres:1463",
             "hr:9941",
-            "hr:9736",
-            "hr:9763"
+            "hr:9874"
           ]
         }
       ]
@@ -26559,6 +26559,17 @@
           ]
         },
         {
+          "bioguideId": "G000583",
+          "billCount": 99,
+          "sameParty": false,
+          "sharedBillIds": [
+            "hr:9340",
+            "hr:9250",
+            "hres:1279",
+            "hr:8486"
+          ]
+        },
+        {
           "bioguideId": "V000138",
           "billCount": 98,
           "sameParty": false,
@@ -26567,17 +26578,6 @@
             "hr:9930",
             "hres:1427",
             "hr:9378"
-          ]
-        },
-        {
-          "bioguideId": "G000583",
-          "billCount": 98,
-          "sameParty": false,
-          "sharedBillIds": [
-            "hr:9340",
-            "hr:9250",
-            "hres:1279",
-            "hr:8486"
           ]
         }
       ]
@@ -26646,7 +26646,7 @@
       ]
     },
     "M001204": {
-      "collaborationBillCount": 330,
+      "collaborationBillCount": 331,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
       "crossPartyBillCount": 220,
@@ -26664,7 +26664,7 @@
         },
         {
           "bioguideId": "T000478",
-          "billCount": 118,
+          "billCount": 119,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1426",
@@ -26835,7 +26835,7 @@
       ]
     },
     "L000602": {
-      "collaborationBillCount": 528,
+      "collaborationBillCount": 529,
       "uniqueCollaboratorCount": 424,
       "otherPartyCollaboratorCount": 213,
       "crossPartyBillCount": 119,
@@ -26864,7 +26864,7 @@
         },
         {
           "bioguideId": "R000617",
-          "billCount": 296,
+          "billCount": 297,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10040",
@@ -27024,10 +27024,10 @@
       ]
     },
     "T000467": {
-      "collaborationBillCount": 296,
+      "collaborationBillCount": 298,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 244,
+      "crossPartyBillCount": 246,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
@@ -27087,10 +27087,10 @@
       ]
     },
     "K000376": {
-      "collaborationBillCount": 282,
+      "collaborationBillCount": 284,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 212,
-      "crossPartyBillCount": 204,
+      "crossPartyBillCount": 206,
       "topCollaborators": [
         {
           "bioguideId": "T000478",
@@ -27105,52 +27105,52 @@
         },
         {
           "bioguideId": "F000466",
-          "billCount": 123,
+          "billCount": 125,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1426",
             "hres:1397",
             "hr:9473",
-            "hres:1252"
+            "hr:9250"
           ]
         },
         {
           "bioguideId": "M001205",
-          "billCount": 107,
+          "billCount": 108,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9468",
+            "hr:9250",
             "hr:9005",
-            "hr:8313",
-            "hres:1156"
+            "hr:8313"
           ]
         },
         {
           "bioguideId": "L000599",
-          "billCount": 100,
+          "billCount": 101,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1426",
             "hr:9473",
             "hr:9237",
-            "hres:1252"
+            "hr:9250"
           ]
         },
         {
           "bioguideId": "M000317",
-          "billCount": 97,
+          "billCount": 98,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9237",
+            "hr:9250",
             "hres:1252",
-            "hr:8025",
-            "hres:1121"
+            "hr:8025"
           ]
         }
       ]
     },
     "D000530": {
-      "collaborationBillCount": 562,
+      "collaborationBillCount": 563,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 283,
@@ -27190,7 +27190,7 @@
         },
         {
           "bioguideId": "M001196",
-          "billCount": 246,
+          "billCount": 247,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9958",
@@ -27213,25 +27213,25 @@
       ]
     },
     "A000380": {
-      "collaborationBillCount": 392,
+      "collaborationBillCount": 394,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
       "crossPartyBillCount": 185,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 231,
+          "billCount": 233,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
             "hr:9944",
-            "hres:1427",
-            "hr:9432"
+            "hr:9874",
+            "hres:1427"
           ]
         },
         {
           "bioguideId": "M001238",
-          "billCount": 222,
+          "billCount": 224,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -27242,7 +27242,7 @@
         },
         {
           "bioguideId": "T000468",
-          "billCount": 220,
+          "billCount": 221,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -27253,18 +27253,18 @@
         },
         {
           "bioguideId": "M001196",
-          "billCount": 210,
+          "billCount": 212,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
             "hr:9944",
-            "hres:1427",
-            "hr:9432"
+            "hr:9874",
+            "hres:1427"
           ]
         },
         {
           "bioguideId": "T000488",
-          "billCount": 210,
+          "billCount": 211,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -27402,10 +27402,10 @@
       ]
     },
     "W000795": {
-      "collaborationBillCount": 339,
+      "collaborationBillCount": 340,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 254,
+      "crossPartyBillCount": 255,
       "topCollaborators": [
         {
           "bioguideId": "L000599",
@@ -27419,6 +27419,17 @@
           ]
         },
         {
+          "bioguideId": "B001298",
+          "billCount": 122,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:10076",
+            "hr:9899",
+            "hres:1451",
+            "hr:9680"
+          ]
+        },
+        {
           "bioguideId": "F000466",
           "billCount": 121,
           "sameParty": true,
@@ -27427,17 +27438,6 @@
             "hr:9680",
             "hr:9473",
             "hr:9417"
-          ]
-        },
-        {
-          "bioguideId": "B001298",
-          "billCount": 121,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hr:10076",
-            "hres:1451",
-            "hr:9680",
-            "hr:9535"
           ]
         },
         {
@@ -27453,7 +27453,7 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 105,
+          "billCount": 107,
           "sameParty": false,
           "sharedBillIds": [
             "hr:10076",
@@ -27483,13 +27483,13 @@
         },
         {
           "bioguideId": "M001211",
-          "billCount": 148,
+          "billCount": 149,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9868",
             "hr:9743",
             "hres:1429",
-            "hr:9131"
+            "hres:1351"
           ]
         },
         {
@@ -28113,13 +28113,13 @@
         },
         {
           "bioguideId": "M001211",
-          "billCount": 120,
+          "billCount": 121,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9868",
             "hr:9254",
-            "hres:1338",
-            "hr:8827"
+            "hres:1351",
+            "hres:1338"
           ]
         },
         {
@@ -28347,10 +28347,10 @@
       ]
     },
     "C001068": {
-      "collaborationBillCount": 709,
+      "collaborationBillCount": 710,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
-      "crossPartyBillCount": 294,
+      "crossPartyBillCount": 295,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -28365,7 +28365,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 339,
+          "billCount": 340,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -28387,7 +28387,7 @@
         },
         {
           "bioguideId": "J000288",
-          "billCount": 311,
+          "billCount": 312,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1463",
@@ -28398,7 +28398,7 @@
         },
         {
           "bioguideId": "T000468",
-          "billCount": 289,
+          "billCount": 290,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1463",
@@ -28460,14 +28460,14 @@
           ]
         },
         {
-          "bioguideId": "Y000067",
+          "bioguideId": "K000376",
           "billCount": 86,
           "sameParty": true,
           "sharedBillIds": [
-            "hr:9383",
+            "hr:9911",
+            "hr:9921",
             "hr:9250",
-            "hr:8313",
-            "hr:8101"
+            "hr:8313"
           ]
         }
       ]
@@ -28554,13 +28554,24 @@
         },
         {
           "bioguideId": "M001211",
-          "billCount": 125,
+          "billCount": 126,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9868",
+            "hres:1351",
             "hr:9131",
-            "hr:9132",
-            "hres:1338"
+            "hr:9132"
+          ]
+        },
+        {
+          "bioguideId": "W000814",
+          "billCount": 118,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hres:1481",
+            "hres:1442",
+            "hres:1436",
+            "hr:9146"
           ]
         },
         {
@@ -28572,17 +28583,6 @@
             "hr:9701",
             "hres:1436",
             "hr:9160"
-          ]
-        },
-        {
-          "bioguideId": "W000814",
-          "billCount": 117,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hres:1481",
-            "hres:1442",
-            "hres:1436",
-            "hr:9146"
           ]
         },
         {
@@ -28680,13 +28680,13 @@
         },
         {
           "bioguideId": "W000814",
-          "billCount": 91,
+          "billCount": 92,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1481",
             "hr:9211",
-            "hr:7678",
-            "hres:1076"
+            "hr:8730",
+            "hr:7678"
           ]
         },
         {
@@ -28725,10 +28725,10 @@
       ]
     },
     "E000071": {
-      "collaborationBillCount": 189,
+      "collaborationBillCount": 190,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 107,
+      "crossPartyBillCount": 108,
       "topCollaborators": [
         {
           "bioguideId": "W000814",
@@ -28743,7 +28743,7 @@
         },
         {
           "bioguideId": "P000048",
-          "billCount": 84,
+          "billCount": 85,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1481",
@@ -28754,7 +28754,7 @@
         },
         {
           "bioguideId": "T000478",
-          "billCount": 79,
+          "billCount": 80,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1436",
@@ -28765,7 +28765,7 @@
         },
         {
           "bioguideId": "C001120",
-          "billCount": 78,
+          "billCount": 79,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1481",
@@ -28776,7 +28776,7 @@
         },
         {
           "bioguideId": "W000816",
-          "billCount": 76,
+          "billCount": 77,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1481",
@@ -29154,26 +29154,26 @@
         },
         {
           "bioguideId": "W000816",
-          "billCount": 85,
+          "billCount": 86,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1481",
+            "hr:9892",
             "hres:1436",
-            "hr:8990",
-            "hr:8781"
+            "hr:8990"
           ]
         }
       ]
     },
     "J000304": {
-      "collaborationBillCount": 189,
+      "collaborationBillCount": 191,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 210,
       "crossPartyBillCount": 82,
       "topCollaborators": [
         {
           "bioguideId": "T000478",
-          "billCount": 84,
+          "billCount": 85,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9982",
@@ -29229,10 +29229,10 @@
       ]
     },
     "W000814": {
-      "collaborationBillCount": 488,
+      "collaborationBillCount": 489,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 212,
-      "crossPartyBillCount": 188,
+      "crossPartyBillCount": 189,
       "topCollaborators": [
         {
           "bioguideId": "T000478",
@@ -29355,14 +29355,14 @@
       ]
     },
     "E000299": {
-      "collaborationBillCount": 305,
+      "collaborationBillCount": 307,
       "uniqueCollaboratorCount": 425,
       "otherPartyCollaboratorCount": 214,
-      "crossPartyBillCount": 126,
+      "crossPartyBillCount": 127,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 178,
+          "billCount": 179,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -29373,7 +29373,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 171,
+          "billCount": 172,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -29406,7 +29406,7 @@
         },
         {
           "bioguideId": "S001226",
-          "billCount": 158,
+          "billCount": 159,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10045",
@@ -29447,13 +29447,13 @@
         },
         {
           "bioguideId": "W000816",
-          "billCount": 90,
+          "billCount": 91,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1481",
+            "hr:9892",
             "hr:8781",
-            "hres:1252",
-            "hres:1152"
+            "hres:1252"
           ]
         },
         {
@@ -29825,7 +29825,7 @@
         },
         {
           "bioguideId": "W000814",
-          "billCount": 106,
+          "billCount": 107,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1481",
@@ -29859,31 +29859,42 @@
       ]
     },
     "W000816": {
-      "collaborationBillCount": 241,
+      "collaborationBillCount": 242,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 210,
       "crossPartyBillCount": 122,
       "topCollaborators": [
         {
           "bioguideId": "W000814",
-          "billCount": 112,
+          "billCount": 113,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1481",
+            "hr:9892",
             "hr:9904",
+            "hres:1436"
+          ]
+        },
+        {
+          "bioguideId": "P000048",
+          "billCount": 106,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hres:1481",
+            "hr:9892",
             "hres:1436",
             "hr:9211"
           ]
         },
         {
-          "bioguideId": "P000048",
-          "billCount": 105,
+          "bioguideId": "S000250",
+          "billCount": 91,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1481",
-            "hres:1436",
-            "hr:9211",
-            "hr:8990"
+            "hr:9892",
+            "hr:8781",
+            "hres:1252"
           ]
         },
         {
@@ -29895,17 +29906,6 @@
             "hr:9421",
             "hr:8781",
             "hconres:98"
-          ]
-        },
-        {
-          "bioguideId": "S000250",
-          "billCount": 90,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hres:1481",
-            "hr:8781",
-            "hres:1252",
-            "hres:1152"
           ]
         },
         {
@@ -30048,20 +30048,20 @@
       ]
     },
     "C001063": {
-      "collaborationBillCount": 180,
+      "collaborationBillCount": 181,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 160,
+      "crossPartyBillCount": 161,
       "topCollaborators": [
         {
           "bioguideId": "G000583",
-          "billCount": 82,
+          "billCount": 83,
           "sameParty": true,
           "sharedBillIds": [
+            "hr:9340",
             "hr:9250",
             "hr:9059",
-            "hres:1252",
-            "hr:8041"
+            "hres:1252"
           ]
         },
         {
@@ -30111,10 +30111,10 @@
       ]
     },
     "G000587": {
-      "collaborationBillCount": 410,
+      "collaborationBillCount": 411,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 125,
+      "crossPartyBillCount": 126,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
@@ -30140,7 +30140,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 235,
+          "billCount": 236,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10040",
@@ -30489,14 +30489,14 @@
       ]
     },
     "C001131": {
-      "collaborationBillCount": 324,
+      "collaborationBillCount": 325,
       "uniqueCollaboratorCount": 403,
       "otherPartyCollaboratorCount": 192,
       "crossPartyBillCount": 67,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 252,
+          "billCount": 253,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10094",
@@ -30518,7 +30518,7 @@
         },
         {
           "bioguideId": "J000298",
-          "billCount": 208,
+          "billCount": 209,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10094",
@@ -30529,7 +30529,7 @@
         },
         {
           "bioguideId": "A000381",
-          "billCount": 202,
+          "billCount": 203,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10040",
@@ -30540,7 +30540,7 @@
         },
         {
           "bioguideId": "G000586",
-          "billCount": 195,
+          "billCount": 196,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10063",
@@ -30633,7 +30633,7 @@
         },
         {
           "bioguideId": "T000488",
-          "billCount": 237,
+          "billCount": 238,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9831",
@@ -30804,10 +30804,10 @@
       ]
     },
     "M001228": {
-      "collaborationBillCount": 151,
+      "collaborationBillCount": 152,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 86,
+      "crossPartyBillCount": 87,
       "topCollaborators": [
         {
           "bioguideId": "O000086",
@@ -31056,10 +31056,10 @@
       ]
     },
     "K000399": {
-      "collaborationBillCount": 442,
+      "collaborationBillCount": 443,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 388,
+      "crossPartyBillCount": 389,
       "topCollaborators": [
         {
           "bioguideId": "F000466",
@@ -31308,14 +31308,14 @@
       ]
     },
     "C001118": {
-      "collaborationBillCount": 290,
+      "collaborationBillCount": 291,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
       "crossPartyBillCount": 126,
       "topCollaborators": [
         {
           "bioguideId": "M001212",
-          "billCount": 127,
+          "billCount": 128,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10017",
@@ -31371,14 +31371,14 @@
       ]
     },
     "V000138": {
-      "collaborationBillCount": 1050,
+      "collaborationBillCount": 1051,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 218,
-      "crossPartyBillCount": 887,
+      "crossPartyBillCount": 888,
       "topCollaborators": [
         {
           "bioguideId": "G000583",
-          "billCount": 315,
+          "billCount": 317,
           "sameParty": true,
           "sharedBillIds": [
             "hr:10076",
@@ -31389,7 +31389,7 @@
         },
         {
           "bioguideId": "F000466",
-          "billCount": 300,
+          "billCount": 302,
           "sameParty": false,
           "sharedBillIds": [
             "hr:10076",
@@ -31422,7 +31422,7 @@
         },
         {
           "bioguideId": "D000230",
-          "billCount": 274,
+          "billCount": 275,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1462",
@@ -31623,14 +31623,14 @@
       ]
     },
     "W000831": {
-      "collaborationBillCount": 368,
+      "collaborationBillCount": 370,
       "uniqueCollaboratorCount": 426,
       "otherPartyCollaboratorCount": 215,
       "crossPartyBillCount": 202,
       "topCollaborators": [
         {
           "bioguideId": "T000488",
-          "billCount": 195,
+          "billCount": 197,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -31640,19 +31640,8 @@
           ]
         },
         {
-          "bioguideId": "T000481",
-          "billCount": 191,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hr:9941",
-            "hconres:114",
-            "hr:9432",
-            "hr:9448"
-          ]
-        },
-        {
           "bioguideId": "M001238",
-          "billCount": 191,
+          "billCount": 193,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -31662,8 +31651,19 @@
           ]
         },
         {
+          "bioguideId": "T000481",
+          "billCount": 192,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:9941",
+            "hconres:114",
+            "hr:9432",
+            "hr:9448"
+          ]
+        },
+        {
           "bioguideId": "K000391",
-          "billCount": 185,
+          "billCount": 186,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9596",
@@ -31674,7 +31674,7 @@
         },
         {
           "bioguideId": "M001196",
-          "billCount": 181,
+          "billCount": 185,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -31686,14 +31686,14 @@
       ]
     },
     "B001318": {
-      "collaborationBillCount": 417,
+      "collaborationBillCount": 418,
       "uniqueCollaboratorCount": 427,
       "otherPartyCollaboratorCount": 216,
       "crossPartyBillCount": 168,
       "topCollaborators": [
         {
           "bioguideId": "T000481",
-          "billCount": 274,
+          "billCount": 275,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9946",
@@ -31875,25 +31875,25 @@
       ]
     },
     "G000600": {
-      "collaborationBillCount": 225,
+      "collaborationBillCount": 226,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 218,
       "crossPartyBillCount": 201,
       "topCollaborators": [
         {
           "bioguideId": "F000466",
-          "billCount": 117,
+          "billCount": 118,
           "sameParty": false,
           "sharedBillIds": [
             "hr:9845",
             "hres:1427",
-            "hr:8818",
-            "hres:1252"
+            "hr:9130",
+            "hr:8818"
           ]
         },
         {
           "bioguideId": "V000138",
-          "billCount": 114,
+          "billCount": 115,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9845",
@@ -31904,13 +31904,13 @@
         },
         {
           "bioguideId": "G000583",
-          "billCount": 100,
+          "billCount": 101,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9845",
             "hres:1252",
             "hr:7853",
-            "hjres:144"
+            "hr:7802"
           ]
         },
         {
@@ -31926,7 +31926,7 @@
         },
         {
           "bioguideId": "C001119",
-          "billCount": 93,
+          "billCount": 94,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9874",
@@ -32316,14 +32316,14 @@
       ]
     },
     "S001159": {
-      "collaborationBillCount": 381,
+      "collaborationBillCount": 382,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
-      "crossPartyBillCount": 176,
+      "crossPartyBillCount": 177,
       "topCollaborators": [
         {
           "bioguideId": "T000488",
-          "billCount": 213,
+          "billCount": 214,
           "sameParty": true,
           "sharedBillIds": [
             "hconres:114",
@@ -32442,7 +32442,7 @@
       ]
     },
     "P000607": {
-      "collaborationBillCount": 557,
+      "collaborationBillCount": 559,
       "uniqueCollaboratorCount": 428,
       "otherPartyCollaboratorCount": 217,
       "crossPartyBillCount": 213,
@@ -32493,7 +32493,7 @@
         },
         {
           "bioguideId": "S001145",
-          "billCount": 296,
+          "billCount": 297,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9941",
@@ -32631,14 +32631,14 @@
       ]
     },
     "F000471": {
-      "collaborationBillCount": 200,
+      "collaborationBillCount": 201,
       "uniqueCollaboratorCount": 429,
       "otherPartyCollaboratorCount": 212,
       "crossPartyBillCount": 111,
       "topCollaborators": [
         {
           "bioguideId": "G000576",
-          "billCount": 94,
+          "billCount": 95,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9811",
@@ -32682,7 +32682,7 @@
         },
         {
           "bioguideId": "M000871",
-          "billCount": 69,
+          "billCount": 70,
           "sameParty": true,
           "sharedBillIds": [
             "hres:1211",
@@ -32745,7 +32745,7 @@
         },
         {
           "bioguideId": "F000471",
-          "billCount": 94,
+          "billCount": 95,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9811",
@@ -32883,10 +32883,10 @@
       ]
     },
     "M001205": {
-      "collaborationBillCount": 281,
+      "collaborationBillCount": 282,
       "uniqueCollaboratorCount": 430,
       "otherPartyCollaboratorCount": 213,
-      "crossPartyBillCount": 220,
+      "crossPartyBillCount": 221,
       "topCollaborators": [
         {
           "bioguideId": "T000478",
@@ -32912,13 +32912,13 @@
         },
         {
           "bioguideId": "K000376",
-          "billCount": 107,
+          "billCount": 108,
           "sameParty": true,
           "sharedBillIds": [
             "hr:9468",
+            "hr:9250",
             "hr:9005",
-            "hr:8313",
-            "hres:1156"
+            "hr:8313"
           ]
         },
         {
@@ -32985,6 +32985,17 @@
           ]
         },
         {
+          "bioguideId": "W000814",
+          "billCount": 65,
+          "sameParty": true,
+          "sharedBillIds": [
+            "hr:9250",
+            "hr:8730",
+            "hres:1252",
+            "hr:7651"
+          ]
+        },
+        {
           "bioguideId": "T000478",
           "billCount": 64,
           "sameParty": true,
@@ -32993,17 +33004,6 @@
             "hres:1252",
             "hr:7296",
             "hr:6466"
-          ]
-        },
-        {
-          "bioguideId": "W000814",
-          "billCount": 64,
-          "sameParty": true,
-          "sharedBillIds": [
-            "hr:9250",
-            "hres:1252",
-            "hr:7651",
-            "hr:7296"
           ]
         }
       ]
