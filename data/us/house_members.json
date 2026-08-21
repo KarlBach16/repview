@@ -2020,20 +2020,20 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8277/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7972",
-        "billNo": "H.R. 7972",
-        "title": "Taxpayer Workforce Modernization Act",
-        "proposalDate": "2026-03-18",
-        "status": "Ordered Reported",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7972/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr7971",
         "billNo": "H.R. 7971",
         "title": "Taxpayer Experience Improvement Act",
         "proposalDate": "2026-03-18",
         "status": "Passed",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7971/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7972",
+        "billNo": "H.R. 7972",
+        "title": "Taxpayer Workforce Modernization Act",
+        "proposalDate": "2026-03-18",
+        "status": "Ordered Reported",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7972/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr7713",
@@ -11697,7 +11697,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10061",
         "billNo": "H.R. 10061",
-        "title": "To address wildfire readiness and recovery, safe communities, and wildland firefighter safety.",
+        "title": "Wildfire Response and Readiness Act",
         "proposalDate": "2026-08-06",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10061/text"
@@ -11743,14 +11743,6 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9864/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9863",
-        "billNo": "H.R. 9863",
-        "title": "To direct the Director of the Defense Health Agency to submit to Congress a report on the feasibility of establishing a pilot program that establishes a behavioral neurology fellowship program to provide training opportunities with respect to treating members of the Armed Forces and veterans with traumatic brain injuries.",
-        "proposalDate": "2026-07-22",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9863/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9865",
         "billNo": "H.R. 9865",
         "title": "Timely Electronic Health Record Transfers for Transitioning Servicemembers Act of 2026",
@@ -11765,6 +11757,14 @@
         "proposalDate": "2026-07-22",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9866/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9863",
+        "billNo": "H.R. 9863",
+        "title": "To direct the Director of the Defense Health Agency to submit to Congress a report on the feasibility of establishing a pilot program that establishes a behavioral neurology fellowship program to provide training opportunities with respect to treating members of the Armed Forces and veterans with traumatic brain injuries.",
+        "proposalDate": "2026-07-22",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9863/text"
       }
     ],
     "dataAsOf": {
@@ -19717,20 +19717,20 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/605/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr3402",
-        "billNo": "H.R. 3402",
-        "title": "To amend the Securities Exchange Act of 1934 to require certain disclosures by institutional investment managers in connection with proxy advisory firms, and for other purposes.",
-        "proposalDate": "2025-05-14",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3402/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr3380",
         "billNo": "H.R. 3380",
         "title": "TAILOR Act of 2025",
         "proposalDate": "2025-05-14",
         "status": "Ordered Reported",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3380/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr3402",
+        "billNo": "H.R. 3402",
+        "title": "To amend the Securities Exchange Act of 1934 to require certain disclosures by institutional investment managers in connection with proxy advisory firms, and for other purposes.",
+        "proposalDate": "2025-05-14",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3402/text"
       }
     ],
     "dataAsOf": {
@@ -21624,7 +21624,7 @@
     "dataAsOf": {
       "houseVotes": "2026-07-23",
       "sponsoredBills": "2026-08-17",
-      "campaignFinance": "2026-06-30"
+      "campaignFinance": "2026-08-07"
     },
     "campaignFinance": {
       "cycle": 2026,
@@ -21634,9 +21634,9 @@
       "pacContributions": 312250,
       "partyContributions": 0,
       "candidateFunding": 207.25,
-      "totalDisbursements": 2470730.79,
-      "cashOnHand": 651.87,
-      "coverageEndDate": "2026-06-30",
+      "totalDisbursements": 2471382.66,
+      "cashOnHand": 0,
+      "coverageEndDate": "2026-08-07",
       "sourceUrl": "https://www.fec.gov/data/candidate/H2IL02172/?cycle=2026&election_full=true",
       "source": "Federal Election Commission",
       "topCommitteeContributors": [
@@ -29980,14 +29980,6 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8453/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8147",
-        "billNo": "H.R. 8147",
-        "title": "Prioritizing Rural Broadband Affordability Act",
-        "proposalDate": "2026-03-27",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8147/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8146",
         "billNo": "H.R. 8146",
         "title": "Rural Utilities Service Modernization Act",
@@ -30010,6 +30002,14 @@
         "proposalDate": "2026-03-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8145/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8147",
+        "billNo": "H.R. 8147",
+        "title": "Prioritizing Rural Broadband Affordability Act",
+        "proposalDate": "2026-03-27",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8147/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr7914",
@@ -36681,20 +36681,20 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9862/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9504",
-        "billNo": "H.R. 9504",
-        "title": "Tax Exempt Hospital Transparency Act",
-        "proposalDate": "2026-06-29",
-        "status": "Ordered Reported",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9504/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9524",
         "billNo": "H.R. 9524",
         "title": "Veterans Care and Cost Coordination Act of 2026",
         "proposalDate": "2026-06-29",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9524/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9504",
+        "billNo": "H.R. 9504",
+        "title": "Tax Exempt Hospital Transparency Act",
+        "proposalDate": "2026-06-29",
+        "status": "Ordered Reported",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9504/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8553",
@@ -58191,7 +58191,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9892",
         "billNo": "H.R. 9892",
-        "title": "To require the United States Trade Representative to initiate an investigation under section 301 of the Trade Act of 1974 with respect to the European Union, and for other purposes.",
+        "title": "Stop EU Overreach Act",
         "proposalDate": "2026-07-23",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9892/text"
@@ -59015,20 +59015,20 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1350/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8290",
-        "billNo": "H.R. 8290",
-        "title": "China Exchange Rate Accountability Act of 2026",
-        "proposalDate": "2026-04-15",
-        "status": "Ordered Reported",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8290/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8312",
         "billNo": "H.R. 8312",
         "title": "Fraud Prevention and Accountability Act",
         "proposalDate": "2026-04-15",
         "status": "Passed",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8312/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8290",
+        "billNo": "H.R. 8290",
+        "title": "China Exchange Rate Accountability Act of 2026",
+        "proposalDate": "2026-04-15",
+        "status": "Ordered Reported",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8290/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr7953",
@@ -59931,20 +59931,20 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1436/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres1383",
-        "billNo": "H.Res. 1383",
-        "title": "Commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts.",
-        "proposalDate": "2026-06-24",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1383/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9447",
         "billNo": "H.R. 9447",
         "title": "Getting Terrorist Fanatics Out Act of 2026",
         "proposalDate": "2026-06-24",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9447/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1383",
+        "billNo": "H.Res. 1383",
+        "title": "Commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts.",
+        "proposalDate": "2026-06-24",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1383/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9112",
@@ -62297,12 +62297,12 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8225/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8117",
-        "billNo": "H.R. 8117",
-        "title": "Fair Treatment of Religious Organizations Act of 2026",
+        "billId": "https://www.govtrack.us/congress/bills/119/hr8116",
+        "billNo": "H.R. 8116",
+        "title": "SHARE Act",
         "proposalDate": "2026-03-26",
         "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8117/text"
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8116/text"
       }
     ],
     "dataAsOf": {
@@ -66446,20 +66446,20 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9330/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9368",
-        "billNo": "H.R. 9368",
-        "title": "Voter ID Act",
-        "proposalDate": "2026-06-18",
-        "status": "Ordered Reported",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9368/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9367",
         "billNo": "H.R. 9367",
         "title": "Stop Lawmakers From Predicting Act",
         "proposalDate": "2026-06-18",
         "status": "Ordered Reported",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9367/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9368",
+        "billNo": "H.R. 9368",
+        "title": "Voter ID Act",
+        "proposalDate": "2026-06-18",
+        "status": "Ordered Reported",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9368/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hres1288",
