@@ -2,6 +2,15 @@
 
 > 작성 순서: 최신 작업이 위에 오도록 역순으로 기록합니다.
 
+## 2026-08-28 — US House 일일 갱신 타임아웃 복구
+
+- `Enrich US House stats`가 GovTrack role API의 20초 무응답으로 `This operation was aborted`를 내고 전체 workflow를 실패시키는 현상을 재현했다.
+- GovTrack의 타임아웃·HTTP 429·5xx·빈 필수 응답은 일시적 외부 장애로 구분한다. 이 경우 마지막으로 커밋된 정상 통계와 vote evidence를 그대로 보존하고 해당 보강만 건너뛴다.
+- API 변경을 뜻할 수 있는 4xx와 코드 오류는 계속 실패시켜 실제 결함을 숨기지 않는다.
+- sponsored bill 요청 일부만 실패하면 성공한 의원만 갱신하고 실패한 의원의 기존 값을 0으로 덮어쓰지 않는다.
+- GitHub Actions의 `checkout`과 `setup-node`를 Node 24 런타임 기반 v5로 올리고 불필요한 package-manager 자동 캐시를 비활성화했다.
+- 실제 GovTrack 장애 상태에서 스크립트가 exit code 0으로 종료되고 US 데이터 파일을 변경하지 않는 것을 확인했다.
+
 ## 2026-08-19 — 방문·참조자 집계 복구
 
 ### 원인

@@ -11,6 +11,14 @@ const VOTE_CSV_CONCURRENCY = 12;
 const BILLS_CONCURRENCY = 12;
 const RECENT_LIMIT = 10;
 
+class ExternalSourceUnavailableError extends Error {
+  constructor(message, cause) {
+    super(message, { cause });
+    this.name = "ExternalSourceUnavailableError";
+    this.code = "GOVTRACK_UNAVAILABLE";
+  }
+}
+
 function getFetch() {
   if (typeof fetch === "function") return fetch;
   return (...args) => import("node-fetch").then(({ default: f }) => f(...args));
@@ -115,8 +123,16 @@ async function fetchPaged(fetchFn, baseUrl, params = {}, pageSize = 600, maxPage
     });
     url.search = query.toString();
 
-    const res = await fetchWithTimeout(fetchFn, url);
+    let res;
+    try {
+      res = await fetchWithTimeout(fetchFn, url);
+    } catch (error) {
+      throw new ExternalSourceUnavailableError(`GovTrack request timed out or failed (${url})`, error);
+    }
     if (!res.ok) {
+      if (res.status === 429 || res.status >= 500) {
+        throw new ExternalSourceUnavailableError(`GovTrack temporarily returned HTTP ${res.status} (${url})`);
+      }
       throw new Error(`Request failed: ${res.status} ${res.statusText} (${url})`);
     }
 
@@ -212,6 +228,10 @@ async function buildPersonMaps(fetchFn) {
       personIdToBioguide.set(personId, bioguide);
       bioguideToPersonId.set(bioguide, personId);
     }
+  }
+
+  if (personIdToBioguide.size === 0) {
+    throw new ExternalSourceUnavailableError("GovTrack returned no current House role mappings");
   }
 
   return { personIdToBioguide, bioguideToPersonId };
@@ -397,10 +417,10 @@ async function fetchSponsoredData(fetchFn, personId) {
   try {
     res = await fetchWithTimeout(fetchFn, url);
   } catch {
-    return { count: 0, recentBills: [] };
+    return null;
   }
 
-  if (!res.ok) return { count: 0, recentBills: [] };
+  if (!res.ok) return null;
 
   const json = await res.json();
   const rows = Array.isArray(json?.objects) ? json.objects : [];
@@ -433,7 +453,8 @@ async function computeBillsSponsored(fetchFn, bioguideToPersonId) {
 
     for (let j = 0; j < batch.length; j += 1) {
       const [bioguide] = batch[j];
-      const data = results[j] || { count: 0, recentBills: [] };
+      const data = results[j];
+      if (!data) continue;
       billsByBioguide.set(bioguide, data.count);
       recentBillsByBioguide.set(bioguide, data.recentBills);
       checked += 1;
@@ -442,6 +463,10 @@ async function computeBillsSponsored(fetchFn, bioguideToPersonId) {
     if (checked % 60 <= BILLS_CONCURRENCY) {
       console.log(`Checked bill sponsor counts: ${checked}/${entries.length}`);
     }
+  }
+
+  if (entries.length > 0 && checked === 0) {
+    throw new ExternalSourceUnavailableError("GovTrack sponsored-bill requests all failed");
   }
 
   return { billsByBioguide, recentBillsByBioguide, checkedMembers: checked };
@@ -511,6 +536,10 @@ async function main() {
     skippedVoteCsv,
   } = await computeVoteStats(fetchFn, personIdToBioguide);
 
+  if (voteRows.length > 0 && processedVotes === 0) {
+    throw new ExternalSourceUnavailableError("GovTrack vote list loaded but every vote CSV request failed");
+  }
+
   const {
     billsByBioguide,
     recentBillsByBioguide,
@@ -568,14 +597,18 @@ async function main() {
       withVoteStats += 1;
     }
 
-    m.billsSponsored = billsByBioguide.get(bioguide) || 0;
+    if (billsByBioguide.has(bioguide)) {
+      m.billsSponsored = billsByBioguide.get(bioguide) || 0;
+    }
     const allMemberVotes = recentVotesByBioguide.get(bioguide) || [];
     const recentFinalVotes = sortRecentVotes(allMemberVotes, (voteRow) => voteRow.isFinalPassage === true);
     const recentPreliminaryVotes = sortRecentVotes(allMemberVotes, (voteRow) => voteRow.isFinalPassage !== true);
     delete m.recentVotes;
     delete m.recentFinalVotes;
     delete m.recentPreliminaryVotes;
-    m.recentBills = (recentBillsByBioguide.get(bioguide) || []).slice(0, RECENT_LIMIT);
+    if (recentBillsByBioguide.has(bioguide)) {
+      m.recentBills = (recentBillsByBioguide.get(bioguide) || []).slice(0, RECENT_LIMIT);
+    }
     m.dataAsOf = {
       ...(m.dataAsOf || {}),
       houseVotes: houseVotesAsOf,
@@ -608,6 +641,10 @@ async function main() {
 }
 
 main().catch((err) => {
+  if (err?.code === "GOVTRACK_UNAVAILABLE") {
+    console.log(`GovTrack is temporarily unavailable; preserving the last committed US House stats. ${err.message}`);
+    process.exit(0);
+  }
   console.error(err.message || err);
   process.exit(1);
 });
