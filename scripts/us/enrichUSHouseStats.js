@@ -539,6 +539,11 @@ async function main() {
   if (voteRows.length > 0 && processedVotes === 0) {
     throw new ExternalSourceUnavailableError("GovTrack vote list loaded but every vote CSV request failed");
   }
+  if (skippedVoteCsv > 0) {
+    throw new ExternalSourceUnavailableError(
+      `GovTrack vote snapshot is incomplete (${processedVotes}/${voteRows.length} vote CSVs processed)`
+    );
+  }
 
   const {
     billsByBioguide,

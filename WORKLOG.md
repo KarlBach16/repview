@@ -232,3 +232,9 @@ RepView의 시각적이고 빠른 탐색 경험은 유지하면서, 단순 활�
 - 사용자 계정, 의원 팔로우와 알림 피드는 이번 단계에 넣지 않았다.
 - 미국 로비 지출은 선거자금 기부와 다른 데이터이므로 합쳐 표현하지 않았다.
 - 재산, 정치자금, 회의, 공약과 뉴스까지 묶는 장기 타임라인은 후속 단계로 남겼다.
+
+# 2026-08-29 — US updater partial-snapshot protection
+
+- Preserved existing enrichment fields when the current House roster is refreshed, so a later source outage cannot reset valid statistics to empty defaults.
+- Rejected incomplete GovTrack vote snapshots instead of writing partial vote evidence that fails the downstream audit.
+- Kept real schema and programming errors fatal; only temporary source incompleteness uses the last committed snapshot.

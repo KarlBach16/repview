@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -221,6 +221,44 @@ function splitVotingAndNonVoting(houseRows) {
   return { votingMembers, excludedNonVoting };
 }
 
+async function readExistingMembers(outputPath) {
+  try {
+    const rows = JSON.parse(await readFile(outputPath, "utf8"));
+    return Array.isArray(rows) ? rows : [];
+  } catch (error) {
+    if (error?.code === "ENOENT") return [];
+    throw error;
+  }
+}
+
+function preserveEnrichedFields(freshMembers, existingMembers) {
+  const existingByBioguide = new Map(
+    existingMembers
+      .filter((member) => member?.bioguideId)
+      .map((member) => [String(member.bioguideId).trim().toUpperCase(), member])
+  );
+
+  return freshMembers.map((fresh) => {
+    const existing = existingByBioguide.get(String(fresh.bioguideId).trim().toUpperCase());
+    if (!existing) return fresh;
+
+    // Keep enrichment produced by the downstream jobs, while the roster source
+    // remains authoritative for identity, party, district, and FEC identifiers.
+    return {
+      ...fresh,
+      ...existing,
+      bioguideId: fresh.bioguideId,
+      fecCandidateIds: fresh.fecCandidateIds,
+      name: fresh.name,
+      party: fresh.party,
+      state: fresh.state,
+      district: fresh.district,
+      districtCode: fresh.districtCode,
+      slug: fresh.slug,
+    };
+  });
+}
+
 async function main() {
   const fetchFn = getFetch();
   const res = await fetchFn(SOURCE_URL, { redirect: "follow" });
@@ -242,7 +280,9 @@ async function main() {
   const outputPath = path.join(outputDir, "house_members.json");
 
   await mkdir(outputDir, { recursive: true });
-  await writeFile(outputPath, `${JSON.stringify(finalMembers, null, 2)}\n`, "utf8");
+  const existingMembers = await readExistingMembers(outputPath);
+  const mergedMembers = preserveEnrichedFields(finalMembers, existingMembers);
+  await writeFile(outputPath, `${JSON.stringify(mergedMembers, null, 2)}\n`, "utf8");
 
   console.log(`Total current House-related entries found: ${houseRows.length}`);
   console.log(`Excluded delegate/non-voting entries: ${excludedNonVoting.length}`);
