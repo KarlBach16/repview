@@ -34,11 +34,11 @@
           "disagreementCount": 0
         },
         {
-          "monaCode": "0698755I",
+          "monaCode": "NPD75153",
           "sameParty": true,
           "agreementRate": 100,
-          "commonVoteCount": 79,
-          "agreementCount": 79,
+          "commonVoteCount": 78,
+          "agreementCount": 78,
           "disagreementCount": 0
         },
         {
@@ -2878,19 +2878,19 @@
           "disagreementCount": 0
         },
         {
-          "monaCode": "0698755I",
-          "sameParty": true,
-          "agreementRate": 98.8,
-          "commonVoteCount": 84,
-          "agreementCount": 83,
-          "disagreementCount": 1
-        },
-        {
           "monaCode": "P8A4624C",
           "sameParty": false,
           "agreementRate": 98.8,
           "commonVoteCount": 82,
           "agreementCount": 81,
+          "disagreementCount": 1
+        },
+        {
+          "monaCode": "7GW5372Y",
+          "sameParty": true,
+          "agreementRate": 98.7,
+          "commonVoteCount": 76,
+          "agreementCount": 75,
           "disagreementCount": 1
         }
       ]
@@ -3191,14 +3191,6 @@
           "disagreementCount": 0
         },
         {
-          "monaCode": "0698755I",
-          "sameParty": true,
-          "agreementRate": 100,
-          "commonVoteCount": 68,
-          "agreementCount": 68,
-          "disagreementCount": 0
-        },
-        {
           "monaCode": "BNV6535N",
           "sameParty": false,
           "agreementRate": 100,
@@ -3216,6 +3208,14 @@
         },
         {
           "monaCode": "ZW43496R",
+          "sameParty": false,
+          "agreementRate": 100,
+          "commonVoteCount": 64,
+          "agreementCount": 64,
+          "disagreementCount": 0
+        },
+        {
+          "monaCode": "P8A4624C",
           "sameParty": false,
           "agreementRate": 100,
           "commonVoteCount": 64,
@@ -3564,6 +3564,12 @@
           "disagreementCount": 21
         }
       ]
+    },
+    "KBZ59750": {
+      "eligibleVoteCount": 0,
+      "minimumMinorityShare": 0.1,
+      "minimumCommonVotes": 20,
+      "topMatches": []
     },
     "HRG9655C": {
       "eligibleVoteCount": 66,
@@ -5598,14 +5604,6 @@
       "minimumCommonVotes": 20,
       "topMatches": [
         {
-          "monaCode": "0698755I",
-          "sameParty": true,
-          "agreementRate": 100,
-          "commonVoteCount": 57,
-          "agreementCount": 57,
-          "disagreementCount": 0
-        },
-        {
           "monaCode": "GF286398",
           "sameParty": false,
           "agreementRate": 100,
@@ -5636,6 +5634,14 @@
           "commonVoteCount": 46,
           "agreementCount": 46,
           "disagreementCount": 0
+        },
+        {
+          "monaCode": "MIS62075",
+          "sameParty": false,
+          "agreementRate": 98.3,
+          "commonVoteCount": 59,
+          "agreementCount": 58,
+          "disagreementCount": 1
         }
       ]
     },
@@ -6162,14 +6168,6 @@
       "minimumCommonVotes": 20,
       "topMatches": [
         {
-          "monaCode": "0698755I",
-          "sameParty": true,
-          "agreementRate": 100,
-          "commonVoteCount": 72,
-          "agreementCount": 72,
-          "disagreementCount": 0
-        },
-        {
           "monaCode": "ZW43496R",
           "sameParty": false,
           "agreementRate": 100,
@@ -6199,6 +6197,14 @@
           "agreementRate": 100,
           "commonVoteCount": 55,
           "agreementCount": 55,
+          "disagreementCount": 0
+        },
+        {
+          "monaCode": "YN160848",
+          "sameParty": true,
+          "agreementRate": 100,
+          "commonVoteCount": 52,
+          "agreementCount": 52,
           "disagreementCount": 0
         }
       ]
@@ -6523,11 +6529,11 @@
           "disagreementCount": 0
         },
         {
-          "monaCode": "0698755I",
+          "monaCode": "8A05621B",
           "sameParty": false,
           "agreementRate": 100,
-          "commonVoteCount": 33,
-          "agreementCount": 33,
+          "commonVoteCount": 27,
+          "agreementCount": 27,
           "disagreementCount": 0
         }
       ]
@@ -6873,14 +6879,6 @@
       "minimumCommonVotes": 20,
       "topMatches": [
         {
-          "monaCode": "0698755I",
-          "sameParty": true,
-          "agreementRate": 100,
-          "commonVoteCount": 81,
-          "agreementCount": 81,
-          "disagreementCount": 0
-        },
-        {
           "monaCode": "T2T8225E",
           "sameParty": true,
           "agreementRate": 100,
@@ -6911,6 +6909,14 @@
           "commonVoteCount": 34,
           "agreementCount": 34,
           "disagreementCount": 0
+        },
+        {
+          "monaCode": "XG348314",
+          "sameParty": true,
+          "agreementRate": 98.8,
+          "commonVoteCount": 84,
+          "agreementCount": 83,
+          "disagreementCount": 1
         }
       ]
     },
@@ -7539,14 +7545,6 @@
           "disagreementCount": 0
         },
         {
-          "monaCode": "0698755I",
-          "sameParty": false,
-          "agreementRate": 100,
-          "commonVoteCount": 67,
-          "agreementCount": 67,
-          "disagreementCount": 0
-        },
-        {
           "monaCode": "T4I4862D",
           "sameParty": false,
           "agreementRate": 100,
@@ -7568,6 +7566,14 @@
           "agreementRate": 100,
           "commonVoteCount": 64,
           "agreementCount": 64,
+          "disagreementCount": 0
+        },
+        {
+          "monaCode": "ZW43496R",
+          "sameParty": false,
+          "agreementRate": 100,
+          "commonVoteCount": 62,
+          "agreementCount": 62,
           "disagreementCount": 0
         }
       ]
@@ -9905,53 +9911,6 @@
         }
       ]
     },
-    "0698755I": {
-      "eligibleVoteCount": 87,
-      "minimumMinorityShare": 0.1,
-      "minimumCommonVotes": 20,
-      "topMatches": [
-        {
-          "monaCode": "NPD75153",
-          "sameParty": true,
-          "agreementRate": 100,
-          "commonVoteCount": 81,
-          "agreementCount": 81,
-          "disagreementCount": 0
-        },
-        {
-          "monaCode": "T2T8225E",
-          "sameParty": true,
-          "agreementRate": 100,
-          "commonVoteCount": 79,
-          "agreementCount": 79,
-          "disagreementCount": 0
-        },
-        {
-          "monaCode": "P8A4624C",
-          "sameParty": false,
-          "agreementRate": 100,
-          "commonVoteCount": 79,
-          "agreementCount": 79,
-          "disagreementCount": 0
-        },
-        {
-          "monaCode": "80C5885Z",
-          "sameParty": true,
-          "agreementRate": 100,
-          "commonVoteCount": 72,
-          "agreementCount": 72,
-          "disagreementCount": 0
-        },
-        {
-          "monaCode": "8A05621B",
-          "sameParty": true,
-          "agreementRate": 100,
-          "commonVoteCount": 68,
-          "agreementCount": 68,
-          "disagreementCount": 0
-        }
-      ]
-    },
     "CCU1009B": {
       "eligibleVoteCount": 89,
       "minimumMinorityShare": 0.1,
@@ -10597,14 +10556,6 @@
           "disagreementCount": 0
         },
         {
-          "monaCode": "0698755I",
-          "sameParty": false,
-          "agreementRate": 100,
-          "commonVoteCount": 79,
-          "agreementCount": 79,
-          "disagreementCount": 0
-        },
-        {
           "monaCode": "T2T8225E",
           "sameParty": false,
           "agreementRate": 100,
@@ -10618,6 +10569,14 @@
           "agreementRate": 100,
           "commonVoteCount": 77,
           "agreementCount": 77,
+          "disagreementCount": 0
+        },
+        {
+          "monaCode": "8A05621B",
+          "sameParty": false,
+          "agreementRate": 100,
+          "commonVoteCount": 64,
+          "agreementCount": 64,
           "disagreementCount": 0
         }
       ]
