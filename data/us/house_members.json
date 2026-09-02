@@ -101,7 +101,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -263,7 +263,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -290,7 +290,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -425,7 +425,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -587,7 +587,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -749,7 +749,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -911,7 +911,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -1073,7 +1073,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -1235,7 +1235,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -1397,7 +1397,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -1472,10 +1472,18 @@
     "votesWithPartyPct": 97.5,
     "partyDifferentVotesCount": 16,
     "partyComparableVotesCount": 636,
-    "billsSponsored": 29,
+    "billsSponsored": 30,
     "missedVotesPct": 1.2,
     "missedVotesCount": 8,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1501",
+        "billNo": "H.Res. 1501",
+        "title": "Recognizing the 80th anniversary of the Fulbright Program.",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1501/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9148",
         "billNo": "H.R. 9148",
@@ -1547,19 +1555,11 @@
         "proposalDate": "2025-12-11",
         "status": "Passed",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6644/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6524",
-        "billNo": "H.R. 6524",
-        "title": "HIRE Act",
-        "proposalDate": "2025-12-09",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6524/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -1602,7 +1602,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -1721,7 +1721,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -1756,7 +1756,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -1883,7 +1883,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -2046,7 +2046,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -2208,7 +2208,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-01"
     },
     "campaignFinance": {
@@ -2344,20 +2344,20 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7483/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7347",
-        "billNo": "H.R. 7347",
-        "title": "Stop Inhumane Conditions in ICE Detention Act of 2026",
-        "proposalDate": "2026-02-04",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7347/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr7346",
         "billNo": "H.R. 7346",
         "title": "Drain ICE Act of 2026",
         "proposalDate": "2026-02-04",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7346/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr7347",
+        "billNo": "H.R. 7347",
+        "title": "Stop Inhumane Conditions in ICE Detention Act of 2026",
+        "proposalDate": "2026-02-04",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7347/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr7345",
@@ -2370,7 +2370,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-01"
     },
     "campaignFinance": {
@@ -2532,7 +2532,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-01"
     },
     "campaignFinance": {
@@ -2694,7 +2694,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -2848,7 +2848,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-01"
     },
     "campaignFinance": {
@@ -3010,7 +3010,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-01"
     },
     "campaignFinance": {
@@ -3061,7 +3061,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 12500,
           "committeeType": "Q",
           "designation": "B",
@@ -3172,7 +3172,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-01"
     },
     "campaignFinance": {
@@ -3334,7 +3334,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-01"
     },
     "campaignFinance": {
@@ -3416,7 +3416,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10154",
         "billNo": "H.R. 10154",
-        "title": "To amend the Clean Air Act to impose concurrence requirements prior to the adoption and enforcement of certain State emissions standards, and for other purposes.",
+        "title": "Protect America from CARB Act of 2026",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10154/text"
@@ -3456,7 +3456,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -3618,7 +3618,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -3780,7 +3780,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -3942,7 +3942,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -3969,7 +3969,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -4018,10 +4018,18 @@
     "votesWithPartyPct": 92.6,
     "partyDifferentVotesCount": 46,
     "partyComparableVotesCount": 622,
-    "billsSponsored": 25,
+    "billsSponsored": 26,
     "missedVotesPct": 3.4,
     "missedVotesCount": 22,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10192",
+        "billNo": "H.R. 10192",
+        "title": "GRANT Reform Act of 2026",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10192/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10128",
         "billNo": "H.R. 10128",
@@ -4093,19 +4101,11 @@
         "proposalDate": "2025-04-01",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2566/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr2302",
-        "billNo": "H.R. 2302",
-        "title": "Shingle Springs Band of Miwok Indians Land Transfer Act of 2025",
-        "proposalDate": "2025-03-24",
-        "status": "Passed",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2302/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -4267,7 +4267,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -4429,7 +4429,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -4448,7 +4448,7 @@
       "topCommitteeContributors": [
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -4591,7 +4591,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -4673,7 +4673,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10156",
         "billNo": "H.R. 10156",
-        "title": "To authorize workforce development innovation grants for the implementation, expansion, and evaluation of evidence-based workforce programs, and for other purposes.",
+        "title": "Better Jobs through Evidence and Innovation Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10156/text"
@@ -4753,7 +4753,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -4915,7 +4915,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -4996,7 +4996,7 @@
     "recentBills": [],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -5158,7 +5158,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -5304,7 +5304,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -5466,7 +5466,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -5628,7 +5628,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -5790,7 +5790,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -5944,7 +5944,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -6019,10 +6019,18 @@
     "votesWithPartyPct": 93.5,
     "partyDifferentVotesCount": 42,
     "partyComparableVotesCount": 644,
-    "billsSponsored": 53,
+    "billsSponsored": 54,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10195",
+        "billNo": "H.R. 10195",
+        "title": "To require the Secretary of State to develop a strategy for countering the expansion of Al Qaeda in Mali, and for other purposes.",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10195/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9927",
         "billNo": "H.R. 9927",
@@ -6094,19 +6102,11 @@
         "proposalDate": "2026-02-04",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7373/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7318",
-        "billNo": "H.R. 7318",
-        "title": "Opportunities in Organic Act",
-        "proposalDate": "2026-02-02",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7318/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -6268,7 +6268,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -6430,7 +6430,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -6592,7 +6592,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -6635,7 +6635,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -6754,7 +6754,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -6916,7 +6916,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -7078,7 +7078,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -7240,7 +7240,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -7320,20 +7320,20 @@
     "missedVotesCount": 16,
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr10181",
-        "billNo": "H.R. 10181",
-        "title": "To establish a national placement framework and grant program to prevent the disproportionate concentration of conditionally released sexually violent predators, and for other purposes.",
-        "proposalDate": "2026-08-27",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10181/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10180",
         "billNo": "H.R. 10180",
-        "title": "To amend the National Institute of Standards and Technology Act to authorize certain assessments by the Director of the Institute and impose requirements on certain memorandums of understanding relating to artificial intelligence, and for other purposes.",
+        "title": "Self-Improving AI Monitoring Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10180/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10181",
+        "billNo": "H.R. 10181",
+        "title": "Stop Predator Dumping Act",
+        "proposalDate": "2026-08-27",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10181/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10137",
@@ -7402,7 +7402,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -7564,7 +7564,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -7726,7 +7726,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -7888,7 +7888,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -8051,7 +8051,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -8213,7 +8213,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -8232,7 +8232,7 @@
       "topCommitteeContributors": [
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -8375,7 +8375,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -8537,7 +8537,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -8699,7 +8699,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -8861,7 +8861,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -9023,7 +9023,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -9185,7 +9185,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -9204,7 +9204,7 @@
       "topCommitteeContributors": [
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -9347,7 +9347,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -9509,7 +9509,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -9536,7 +9536,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -9671,7 +9671,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -9833,7 +9833,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -9995,7 +9995,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -10014,7 +10014,7 @@
       "topCommitteeContributors": [
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -10157,7 +10157,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -10319,7 +10319,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -10481,7 +10481,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -10508,7 +10508,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -10643,7 +10643,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -10805,7 +10805,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -10967,7 +10967,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -11129,7 +11129,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -11204,10 +11204,26 @@
     "votesWithPartyPct": 98.1,
     "partyDifferentVotesCount": 12,
     "partyComparableVotesCount": 643,
-    "billsSponsored": 30,
+    "billsSponsored": 32,
     "missedVotesPct": 0,
     "missedVotesCount": 0,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10189",
+        "billNo": "H.R. 10189",
+        "title": "Defense AI Reliability and Reporting Act",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10189/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10188",
+        "billNo": "H.R. 10188",
+        "title": "Protecting Pentagon Press Access Act",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10188/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9782",
         "billNo": "H.R. 9782",
@@ -11271,27 +11287,11 @@
         "proposalDate": "2026-03-30",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8161/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hconres82",
-        "billNo": "H.Con.Res. 82",
-        "title": "Supporting the goals and ideals of International Transgender Day of Visibility.",
-        "proposalDate": "2026-03-27",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/82/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7903",
-        "billNo": "H.R. 7903",
-        "title": "Justice for Hind Rajab Act",
-        "proposalDate": "2026-03-12",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7903/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -11453,7 +11453,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -11615,7 +11615,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -11777,7 +11777,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -11804,7 +11804,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -11939,7 +11939,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -12021,7 +12021,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10150",
         "billNo": "H.R. 10150",
-        "title": "To amend the Federal Food, Drug, and Cosmetic Act to provide a period of market exclusivity for botanical drugs, and for other purposes.",
+        "title": "Advancing Botanical Drug Development Act of 2026",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10150/text"
@@ -12101,7 +12101,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -12263,7 +12263,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -12425,7 +12425,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -12521,14 +12521,6 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9999/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr10001",
-        "billNo": "H.R. 10001",
-        "title": "Wildfire Responder Protection Act",
-        "proposalDate": "2026-07-30",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10001/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10002",
         "billNo": "H.R. 10002",
         "title": "Guaranteed Disaster Assistance Act",
@@ -12551,6 +12543,14 @@
         "proposalDate": "2026-07-30",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10000/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10001",
+        "billNo": "H.R. 10001",
+        "title": "Wildfire Responder Protection Act",
+        "proposalDate": "2026-07-30",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10001/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9930",
@@ -12587,7 +12587,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -12749,7 +12749,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -12911,7 +12911,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -13073,7 +13073,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -13235,7 +13235,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -13365,7 +13365,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -13527,7 +13527,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -13689,7 +13689,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -13764,10 +13764,18 @@
     "votesWithPartyPct": 94.4,
     "partyDifferentVotesCount": 31,
     "partyComparableVotesCount": 557,
-    "billsSponsored": 17,
+    "billsSponsored": 18,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10196",
+        "billNo": "H.R. 10196",
+        "title": "To rename Lake Ontario as “Lake America”.",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10196/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9869",
         "billNo": "H.R. 9869",
@@ -13839,19 +13847,11 @@
         "proposalDate": "2025-12-05",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/934/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5886",
-        "billNo": "H.R. 5886",
-        "title": "Warrior Road Act",
-        "proposalDate": "2025-10-31",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5886/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -14013,7 +14013,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -14175,7 +14175,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -14337,7 +14337,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -14491,7 +14491,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -14653,7 +14653,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -14815,7 +14815,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -14937,7 +14937,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -15099,7 +15099,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -15261,7 +15261,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -15423,7 +15423,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -15498,10 +15498,18 @@
     "votesWithPartyPct": 98.4,
     "partyDifferentVotesCount": 10,
     "partyComparableVotesCount": 629,
-    "billsSponsored": 33,
+    "billsSponsored": 34,
     "missedVotesPct": 2.3,
     "missedVotesCount": 15,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10185",
+        "billNo": "H.R. 10185",
+        "title": "Part D Premium Protection Act of 2026",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10185/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10121",
         "billNo": "H.R. 10121",
@@ -15573,19 +15581,11 @@
         "proposalDate": "2026-03-19",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8000/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7863",
-        "billNo": "H.R. 7863",
-        "title": "Promoting Fairness for Medicare Providers Act of 2026",
-        "proposalDate": "2026-03-09",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7863/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -15667,7 +15667,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10166",
         "billNo": "H.R. 10166",
-        "title": "To amend the Foreign Agents Registration Act to require social media influencers to submit registration statements, and for other purposes.",
+        "title": "Foreign Propaganda Disclosure Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10166/text"
@@ -15747,7 +15747,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -15910,7 +15910,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -16072,7 +16072,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -16234,7 +16234,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -16316,7 +16316,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10178",
         "billNo": "H.R. 10178",
-        "title": "To amend the General Education Provisions Act to require certain local educational agencies to notify parents before distributing or disseminating information about abortion or abortion-related services to students, and for other purposes.",
+        "title": "SHIELD Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10178/text"
@@ -16396,7 +16396,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -16558,7 +16558,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -16720,7 +16720,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -16882,7 +16882,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -17045,7 +17045,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -17207,7 +17207,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -17282,10 +17282,34 @@
     "votesWithPartyPct": 98.9,
     "partyDifferentVotesCount": 5,
     "partyComparableVotesCount": 454,
-    "billsSponsored": 24,
+    "billsSponsored": 27,
     "missedVotesPct": 29.5,
     "missedVotesCount": 191,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10202",
+        "billNo": "H.R. 10202",
+        "title": "To amend the National Voter Registration Act of 1993 to require States to designate public high schools as voter registration agencies, to direct such schools to conduct voter registration drives for students attending such schools, to direct the Secretary of Education to make grants to reimburse such schools for the costs of conducting such voter registration drives, and for other purposes.",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10202/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10200",
+        "billNo": "H.R. 10200",
+        "title": "To amend the Family and Medical Leave Act of 1993 and title 5, United States Code, to allow employees to take, as additional leave, parental involvement leave to participate in or attend their childrens and grandchildrens educational and extracurricular activities, and for other purposes.",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10200/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10201",
+        "billNo": "H.R. 10201",
+        "title": "To amend the Individuals with Disabilities Education Act to ensure that students with an individualized education program receive a certificate of completion upon completion of secondary school education.",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10201/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10043",
         "billNo": "H.R. 10043",
@@ -17341,35 +17365,11 @@
         "proposalDate": "2025-12-12",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/950/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5901",
-        "billNo": "H.R. 5901",
-        "title": "BCRA of 2025",
-        "proposalDate": "2025-10-31",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5901/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5868",
-        "billNo": "H.R. 5868",
-        "title": "Water Cybersecurity Enhancement Act of 2025",
-        "proposalDate": "2025-10-28",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5868/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr5869",
-        "billNo": "H.R. 5869",
-        "title": "Tribal Water Infrastructure Grants Expansion Act",
-        "proposalDate": "2025-10-28",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5869/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -17531,7 +17531,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -17693,7 +17693,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -17855,7 +17855,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -18017,7 +18017,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
@@ -18179,7 +18179,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -18317,7 +18317,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -18471,7 +18471,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -18633,7 +18633,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -18715,7 +18715,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10182",
         "billNo": "H.R. 10182",
-        "title": "To amend the Public Works and Economic Development Act of 1965 to require eligible recipients of certain grants to develop a comprehensive economic development strategy that directly or indirectly increases the accessibility of affordable, quality care-based services, and for other purposes.",
+        "title": "CEDS Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10182/text"
@@ -18795,7 +18795,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -18957,7 +18957,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -19119,7 +19119,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -19281,7 +19281,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -19443,7 +19443,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -19605,7 +19605,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -19624,7 +19624,7 @@
       "topCommitteeContributors": [
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -19767,7 +19767,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -19929,7 +19929,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -20091,7 +20091,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -20126,7 +20126,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -20253,7 +20253,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-19"
     },
     "campaignFinance": {
@@ -20415,7 +20415,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-19"
     },
     "campaignFinance": {
@@ -20577,7 +20577,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -20739,7 +20739,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -20901,7 +20901,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -20936,7 +20936,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -21063,7 +21063,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -21225,7 +21225,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -21347,7 +21347,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -21493,7 +21493,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -21655,7 +21655,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-07"
     },
     "campaignFinance": {
@@ -21817,7 +21817,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -21963,7 +21963,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -22125,7 +22125,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -22287,7 +22287,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -22449,7 +22449,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -22611,7 +22611,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -22773,7 +22773,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -22855,7 +22855,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10175",
         "billNo": "H.R. 10175",
-        "title": "To repeal section 338 of the Tariff Act of 1930 and nullify certain Presidential proclamations imposing a tariff or other duty pursuant to such section, and for other purposes.",
+        "title": "Banning Antiquated Duties and Delivering Equitable American Levies (BAD DEAL) Act of 2026",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10175/text"
@@ -22935,7 +22935,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -23098,7 +23098,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -23260,7 +23260,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -23422,7 +23422,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -23584,7 +23584,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -23746,7 +23746,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -23797,7 +23797,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 5000,
           "committeeType": "Q",
           "designation": "B",
@@ -23908,7 +23908,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -24070,7 +24070,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -24145,10 +24145,18 @@
     "votesWithPartyPct": 93.9,
     "partyDifferentVotesCount": 38,
     "partyComparableVotesCount": 624,
-    "billsSponsored": 2,
+    "billsSponsored": 3,
     "missedVotesPct": 2.9,
     "missedVotesCount": 19,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10194",
+        "billNo": "H.R. 10194",
+        "title": "To amend the National Labor Relations Act and the Internal Revenue Code of 1986 to limit access of employers to Federal funds and tax credits while engaged in a lock-out of employees.",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10194/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr6217",
         "billNo": "H.R. 6217",
@@ -24168,7 +24176,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -24330,7 +24338,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -24492,7 +24500,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -24654,7 +24662,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -24816,7 +24824,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -24978,7 +24986,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -25140,7 +25148,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -25302,7 +25310,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -25464,7 +25472,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -25626,7 +25634,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -25788,7 +25796,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -25950,7 +25958,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -26112,7 +26120,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -26274,7 +26282,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -26436,7 +26444,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -26598,7 +26606,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -26678,20 +26686,20 @@
     "missedVotesCount": 40,
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres1430",
-        "billNo": "H.Res. 1430",
-        "title": "Providing for consideration of the bill (H.R.185) to advance responsible policies.",
-        "proposalDate": "2026-07-15",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1430/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9694",
         "billNo": "H.R. 9694",
         "title": "Epstein Files Transparency Act II",
         "proposalDate": "2026-07-15",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9694/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1430",
+        "billNo": "H.Res. 1430",
+        "title": "Providing for consideration of the bill (H.R.185) to advance responsible policies.",
+        "proposalDate": "2026-07-15",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1430/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hres1406",
@@ -26760,7 +26768,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -26874,7 +26882,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -26949,10 +26957,18 @@
     "votesWithPartyPct": 98.8,
     "partyDifferentVotesCount": 7,
     "partyComparableVotesCount": 596,
-    "billsSponsored": 59,
+    "billsSponsored": 60,
     "missedVotesPct": 7.4,
     "missedVotesCount": 48,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10184",
+        "billNo": "H.R. 10184",
+        "title": "Consumer Financial Protection Accountability and Reform Act of 2026",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10184/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10070",
         "billNo": "H.R. 10070",
@@ -27024,19 +27040,11 @@
         "proposalDate": "2026-02-17",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7588/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7484",
-        "billNo": "H.R. 7484",
-        "title": "Community Bank Relief Act",
-        "proposalDate": "2026-02-11",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7484/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -27063,7 +27071,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -27142,7 +27150,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-18"
     },
     "campaignFinance": {
@@ -27193,7 +27201,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -27304,7 +27312,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-18"
     },
     "campaignFinance": {
@@ -27466,7 +27474,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-18"
     },
     "campaignFinance": {
@@ -27596,7 +27604,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-18"
     },
     "campaignFinance": {
@@ -27758,7 +27766,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-21"
     },
     "campaignFinance": {
@@ -27809,7 +27817,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -27912,7 +27920,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-18"
     },
     "campaignFinance": {
@@ -28034,7 +28042,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-12"
     },
     "campaignFinance": {
@@ -28196,7 +28204,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-12"
     },
     "campaignFinance": {
@@ -28271,10 +28279,18 @@
     "votesWithPartyPct": 98.1,
     "partyDifferentVotesCount": 12,
     "partyComparableVotesCount": 616,
-    "billsSponsored": 16,
+    "billsSponsored": 17,
     "missedVotesPct": 4.3,
     "missedVotesCount": 28,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1503",
+        "billNo": "H.Res. 1503",
+        "title": "Supporting the goals of Overdose Awareness Day and strengthening efforts to combat the opioid crisis in the United States.",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1503/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9941",
         "billNo": "H.R. 9941",
@@ -28346,19 +28362,11 @@
         "proposalDate": "2025-09-19",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5536/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres666",
-        "billNo": "H.Res. 666",
-        "title": "Supporting the goals of Overdose Awareness Day and strengthening efforts to combat the opioid crisis in the United States.",
-        "proposalDate": "2025-08-29",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/666/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-12"
     },
     "campaignFinance": {
@@ -28470,20 +28478,20 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6837/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6609",
-        "billNo": "H.R. 6609",
-        "title": "Pharmacists Fight Back in Medicare and Medicaid Act",
-        "proposalDate": "2025-12-11",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6609/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr6610",
         "billNo": "H.R. 6610",
         "title": "Pharmacists Fight Back [in Federal Employee Health Benefit Plans Act]",
         "proposalDate": "2025-12-11",
         "status": "Ordered Reported",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6610/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr6609",
+        "billNo": "H.R. 6609",
+        "title": "Pharmacists Fight Back in Medicare and Medicaid Act",
+        "proposalDate": "2025-12-11",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6609/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr6333",
@@ -28520,7 +28528,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-12"
     },
     "campaignFinance": {
@@ -28626,7 +28634,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-12"
     },
     "campaignFinance": {
@@ -28788,7 +28796,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-12"
     },
     "campaignFinance": {
@@ -28950,7 +28958,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-12"
     },
     "campaignFinance": {
@@ -29112,7 +29120,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-12"
     },
     "campaignFinance": {
@@ -29274,7 +29282,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-12"
     },
     "campaignFinance": {
@@ -29396,7 +29404,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -29558,7 +29566,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -29720,7 +29728,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -29819,7 +29827,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -29900,7 +29908,7 @@
     "recentBills": [],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -29919,7 +29927,7 @@
       "topCommitteeContributors": [
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 5000,
           "committeeType": "Q",
           "designation": "B",
@@ -30062,7 +30070,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -30225,7 +30233,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -30387,7 +30395,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -30549,7 +30557,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -30711,7 +30719,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -30873,7 +30881,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -31035,7 +31043,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -31197,7 +31205,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -31359,7 +31367,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -31439,20 +31447,20 @@
     "missedVotesCount": 6,
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9609",
-        "billNo": "H.R. 9609",
-        "title": "Less Bureaucracy, Better Student Aid Act",
-        "proposalDate": "2026-07-09",
-        "status": "Ordered Reported",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9609/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9607",
         "billNo": "H.R. 9607",
         "title": "Less Bureaucracy, Better Workforce Development Act",
         "proposalDate": "2026-07-09",
         "status": "Ordered Reported",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9607/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9609",
+        "billNo": "H.R. 9609",
+        "title": "Less Bureaucracy, Better Student Aid Act",
+        "proposalDate": "2026-07-09",
+        "status": "Ordered Reported",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9609/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9381",
@@ -31521,7 +31529,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -31596,10 +31604,18 @@
     "votesWithPartyPct": 99,
     "partyDifferentVotesCount": 6,
     "partyComparableVotesCount": 623,
-    "billsSponsored": 74,
+    "billsSponsored": 75,
     "missedVotesPct": 3.2,
     "missedVotesCount": 21,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10186",
+        "billNo": "H.R. 10186",
+        "title": "Hands Off Our Great Lakes Act",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10186/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10140",
         "billNo": "H.R. 10140",
@@ -31671,19 +31687,11 @@
         "proposalDate": "2026-07-06",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9593/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9594",
-        "billNo": "H.R. 9594",
-        "title": "No PFAS in Cosmetics Act",
-        "proposalDate": "2026-07-06",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9594/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -31845,7 +31853,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -32007,7 +32015,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -32089,7 +32097,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10167",
         "billNo": "H.R. 10167",
-        "title": "To direct the Secretary of the Treasury to stop minting the penny, to require cash transactions to be rounded up or down to the nearest 5 cents, and for other purposes.",
+        "title": "Common Cents Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10167/text"
@@ -32169,7 +32177,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -32331,7 +32339,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2025-12-23"
     },
     "campaignFinance": {
@@ -32493,7 +32501,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -32655,7 +32663,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -32817,7 +32825,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -32979,7 +32987,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -33141,7 +33149,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-03-31"
     },
     "campaignFinance": {
@@ -33303,7 +33311,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -33465,7 +33473,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -33627,7 +33635,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -33781,7 +33789,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -33943,7 +33951,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -34105,7 +34113,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -34267,7 +34275,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -34429,7 +34437,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -34592,7 +34600,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -34754,7 +34762,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -34916,7 +34924,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -35078,7 +35086,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -35240,19 +35248,19 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
       "cycle": 2026,
       "candidateId": "H2MO07143",
-      "totalReceipts": 1460462.67,
-      "individualContributions": 1175086.8,
-      "pacContributions": 245255,
+      "totalReceipts": 1464358.57,
+      "individualContributions": 1177982.7,
+      "pacContributions": 246255,
       "partyContributions": 0,
       "candidateFunding": 0,
       "totalDisbursements": 1108175.39,
-      "cashOnHand": 953674.85,
+      "cashOnHand": 957570.75,
       "coverageEndDate": "2026-07-15",
       "sourceUrl": "https://www.fec.gov/data/candidate/H2MO07143/?cycle=2026&election_full=true",
       "source": "Federal Election Commission",
@@ -35386,7 +35394,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -35437,7 +35445,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -35532,7 +35540,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -35694,7 +35702,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -35856,7 +35864,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -35883,7 +35891,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -36018,7 +36026,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -36180,7 +36188,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2024-12-31"
     },
     "campaignFinance": {
@@ -36301,7 +36309,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -36463,7 +36471,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -36625,7 +36633,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -36787,7 +36795,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -36814,7 +36822,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -36949,7 +36957,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -37024,10 +37032,18 @@
     "votesWithPartyPct": 98.8,
     "partyDifferentVotesCount": 8,
     "partyComparableVotesCount": 641,
-    "billsSponsored": 30,
+    "billsSponsored": 31,
     "missedVotesPct": 0.5,
     "missedVotesCount": 3,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1499",
+        "billNo": "H.Res. 1499",
+        "title": "Providing for consideration of the bill (H.R. 1501) to amend the FAST Act to include certain mineral production activities as a covered project, and for other purposes; providing for consideration of the bill (H.R. 9436) to amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective; providing for consideration of the resolution (H. Res. 1490) providing for the condemnation and denouncement of socialism in all its forms, and for other purposes; providing for consideration of the bill (H.R. 4795) to amend the Higher Education Act of 1965 to prohibit an institution that participates in a nonexpressive commercial boycott of Israel from being eligible for certain funds under that Act, to require an institution that participates in certain programs under that Act to certify that students are not unreasonably obstructed from participating in academic programs in Israel, and for other purposes; and relating to consideration of motions to suspend the rules.",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1499/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hres1438",
         "billNo": "H.Res. 1438",
@@ -37099,19 +37115,11 @@
         "proposalDate": "2026-01-22",
         "status": "Agreed To (Simple Resolution)",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1014/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres992",
-        "billNo": "H.Res. 992",
-        "title": "Providing for consideration of the bill (H.R. 7006) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
-        "proposalDate": "2026-01-13",
-        "status": "Agreed To (Simple Resolution)",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/992/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -37273,7 +37281,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -37435,7 +37443,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -37598,7 +37606,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -37760,7 +37768,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -37922,7 +37930,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -38084,7 +38092,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -38246,7 +38254,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -38376,7 +38384,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -38538,7 +38546,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -38700,7 +38708,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -38862,7 +38870,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -38897,7 +38905,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -39024,7 +39032,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -39186,7 +39194,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -39348,7 +39356,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-19"
     },
     "campaignFinance": {
@@ -39383,7 +39391,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -39510,7 +39518,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-19"
     },
     "campaignFinance": {
@@ -39672,7 +39680,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -39834,7 +39842,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -39996,7 +40004,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -40078,7 +40086,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10176",
         "billNo": "H.R. 10176",
-        "title": "To prohibit Chinese seafood products in congressional dining facilities, and for other purposes.",
+        "title": "No PRC Seafood in Congress Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10176/text"
@@ -40158,7 +40166,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -40320,7 +40328,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -40347,7 +40355,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -40482,7 +40490,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -40564,7 +40572,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10160",
         "billNo": "H.R. 10160",
-        "title": "To direct the Secretary of Veterans Affairs to improve mental health care for veterans through the establishment of a minimum requirement for the number of Vet Centers per State.",
+        "title": "Vet CENTERS for Mental Health Act of 2026",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10160/text"
@@ -40572,7 +40580,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10161",
         "billNo": "H.R. 10161",
-        "title": "To amend the Public Health Service Act to require States to prohibit the sale of certain products containing nitrous oxide as a condition on receipt of block grants for community mental health services, and for other purposes.",
+        "title": "MANNARINO Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10161/text"
@@ -40644,7 +40652,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -40806,7 +40814,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -40968,7 +40976,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -41130,7 +41138,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -41211,7 +41219,7 @@
     "recentBills": [],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -41373,7 +41381,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2024-12-31"
     },
     "campaignFinance": {
@@ -41494,7 +41502,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -41656,7 +41664,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -41818,7 +41826,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -41980,7 +41988,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -42143,7 +42151,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -42305,7 +42313,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -42348,7 +42356,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -42467,7 +42475,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -42629,7 +42637,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -42791,7 +42799,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -42953,7 +42961,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -43116,7 +43124,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -43278,7 +43286,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -43440,7 +43448,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -43520,14 +43528,6 @@
     "missedVotesCount": 25,
     "recentBills": [
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9943",
-        "billNo": "H.R. 9943",
-        "title": "Businessowner Immigration Rights and Responsibilities Information Act of 2026",
-        "proposalDate": "2026-07-23",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9943/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hjres207",
         "billNo": "H.J.Res. 207",
         "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Small Business Administration relating to “Citizenship and Residency Requirements and Recission of Procedural Notice 5000-872050” and “Revised Applicant Ownership, Citizenship, and Residency Requirements for 7(a) and 504 Loans”.",
@@ -43542,6 +43542,14 @@
         "proposalDate": "2026-07-23",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1458/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9943",
+        "billNo": "H.R. 9943",
+        "title": "Businessowner Immigration Rights and Responsibilities Information Act of 2026",
+        "proposalDate": "2026-07-23",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9943/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9885",
@@ -43602,7 +43610,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -43692,7 +43700,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -43854,7 +43862,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -44016,7 +44024,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -44178,7 +44186,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -44340,7 +44348,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -44502,7 +44510,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -44664,7 +44672,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -44800,20 +44808,20 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/175/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres1250",
-        "billNo": "H.Res. 1250",
-        "title": "Expressing support for United States forces to remain as a part of the Kosovo Force.",
-        "proposalDate": "2026-04-30",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1250/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8643",
         "billNo": "H.R. 8643",
         "title": "Financial Access Protection Act",
         "proposalDate": "2026-04-30",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8643/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1250",
+        "billNo": "H.Res. 1250",
+        "title": "Expressing support for United States forces to remain as a part of the Kosovo Force.",
+        "proposalDate": "2026-04-30",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1250/text"
       },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr8562",
@@ -44826,7 +44834,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -44980,7 +44988,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -45062,7 +45070,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10165",
         "billNo": "H.R. 10165",
-        "title": "To permanently reform quorum requirements for the Board of Directors of the Export-Import Bank of the United States to ensure continuity of operations.",
+        "title": "EXIM Bank Continuity in Competitiveness Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10165/text"
@@ -45142,7 +45150,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -45304,7 +45312,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -45466,7 +45474,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -45628,7 +45636,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -45790,7 +45798,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -45944,7 +45952,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -46106,7 +46114,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -46268,7 +46276,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -46350,7 +46358,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10171",
         "billNo": "H.R. 10171",
-        "title": "To establish a supplemental food and nutrition services grant program, and for other purposes.",
+        "title": "Improving Health Through Integrated Food and Nutrition Services at Federally Qualified Health Centers Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10171/text"
@@ -46430,7 +46438,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -46505,10 +46513,18 @@
     "votesWithPartyPct": 97.8,
     "partyDifferentVotesCount": 14,
     "partyComparableVotesCount": 642,
-    "billsSponsored": 31,
+    "billsSponsored": 32,
     "missedVotesPct": 0.2,
     "missedVotesCount": 1,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10191",
+        "billNo": "H.R. 10191",
+        "title": "To require curbside delivery of mail at certain housing developments, and for other purposes.",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10191/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10162",
         "billNo": "H.R. 10162",
@@ -46580,19 +46596,11 @@
         "proposalDate": "2025-12-09",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6507/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6201",
-        "billNo": "H.R. 6201",
-        "title": "To require the Administrator of the Federal Emergency Management Agency to administer the Next Generation Warning System grant program and disburse obligated funds under such program, and for other purposes.",
-        "proposalDate": "2025-11-20",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6201/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -46754,7 +46762,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -46916,7 +46924,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -47078,7 +47086,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -47168,7 +47176,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -47330,7 +47338,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -47492,7 +47500,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -47654,7 +47662,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -47816,7 +47824,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -47867,7 +47875,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 7000,
           "committeeType": "Q",
           "designation": "B",
@@ -47978,7 +47986,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -48141,7 +48149,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -48303,7 +48311,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -48465,7 +48473,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -48627,7 +48635,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -48789,7 +48797,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -48951,7 +48959,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -49113,7 +49121,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -49275,7 +49283,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -49437,7 +49445,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -49512,10 +49520,18 @@
     "votesWithPartyPct": 97,
     "partyDifferentVotesCount": 19,
     "partyComparableVotesCount": 636,
-    "billsSponsored": 16,
+    "billsSponsored": 17,
     "missedVotesPct": 1.2,
     "missedVotesCount": 8,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hres1500",
+        "billNo": "H.Res. 1500",
+        "title": "Congratulating the University of Oklahoma baseball team for winning the 2026 Men’s College World Series.",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1500/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9770",
         "billNo": "H.R. 9770",
@@ -49587,19 +49603,11 @@
         "proposalDate": "2026-01-06",
         "status": "Passed",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6938/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hres747",
-        "billNo": "H.Res. 747",
-        "title": "Directing the Clerk of the House of Representatives to request the Senate to return to the House the bill (H.R. 3426) entitled “To amend title 40, United States Code, to limit the construction of new courthouses under certain circumstances, and for other purposes.”.",
-        "proposalDate": "2025-09-19",
-        "status": "Agreed To (Simple Resolution)",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/747/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -49650,7 +49658,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -49761,7 +49769,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -49788,7 +49796,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -49923,7 +49931,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -49942,7 +49950,7 @@
       "topCommitteeContributors": [
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -50085,7 +50093,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -50247,7 +50255,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -50409,7 +50417,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -50571,7 +50579,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -50733,7 +50741,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -50815,7 +50823,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10153",
         "billNo": "H.R. 10153",
-        "title": "To amend the Internal Revenue Code of 1986 to treat income earned by United States merchant mariners as foreign earned income.",
+        "title": "American Mariner Tax Fairness Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10153/text"
@@ -50895,7 +50903,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -51057,7 +51065,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -51219,7 +51227,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -51381,7 +51389,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -51543,7 +51551,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -51705,7 +51713,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -51867,7 +51875,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -52029,7 +52037,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -52111,7 +52119,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10168",
         "billNo": "H.R. 10168",
-        "title": "To authorize the Secretary of Housing and Urban Development to establish a pilot program to recapture and reallocate rental assistance for veterans, and for other purposes.",
+        "title": "Veterans Housing Opportunity Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10168/text"
@@ -52191,7 +52199,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -52335,25 +52343,25 @@
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9133/text"
       },
       {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr9131",
-        "billNo": "H.R. 9131",
-        "title": "Protecting Kids from Creeps Act",
-        "proposalDate": "2026-06-03",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9131/text"
-      },
-      {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9132",
         "billNo": "H.R. 9132",
         "title": "Preventing International Surrogacy Exploitation Act",
         "proposalDate": "2026-06-03",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9132/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr9131",
+        "billNo": "H.R. 9131",
+        "title": "Protecting Kids from Creeps Act",
+        "proposalDate": "2026-06-03",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9131/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -52515,7 +52523,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -52677,7 +52685,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -52839,7 +52847,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -52969,7 +52977,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -53131,7 +53139,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -53293,7 +53301,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -53375,7 +53383,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10151",
         "billNo": "H.R. 10151",
-        "title": "To amend the Safe Drinking Water Act to adjust the limits for technical assistance, grants for small systems, and the authorization of appropriations for the Drinking Water Infrastructure Risk and Resilience Program.",
+        "title": "Water Authority Cybersecurity Protection Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10151/text"
@@ -53455,7 +53463,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -53617,7 +53625,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-20"
     },
     "campaignFinance": {
@@ -53779,7 +53787,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-08-20"
     },
     "campaignFinance": {
@@ -53941,7 +53949,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -54103,7 +54111,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -54265,7 +54273,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -54427,7 +54435,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -54589,7 +54597,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -54695,7 +54703,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -54857,7 +54865,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -54932,10 +54940,18 @@
     "votesWithPartyPct": 98.9,
     "partyDifferentVotesCount": 7,
     "partyComparableVotesCount": 612,
-    "billsSponsored": 38,
+    "billsSponsored": 39,
     "missedVotesPct": 4.9,
     "missedVotesCount": 32,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10190",
+        "billNo": "H.R. 10190",
+        "title": "Pennington County Land Conveyance Act",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10190/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9785",
         "billNo": "H.R. 9785",
@@ -55007,19 +55023,11 @@
         "proposalDate": "2026-01-30",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7288/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7137",
-        "billNo": "H.R. 7137",
-        "title": "Shutdown Fairness Act",
-        "proposalDate": "2026-01-16",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7137/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -55109,7 +55117,7 @@
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10157",
         "billNo": "H.R. 10157",
-        "title": "To amend the Internal Revenue Code of 1986 to exempt home distillery establishments from taxation and other requirements, and for other purposes.",
+        "title": "Freedom to Home Distill Act",
         "proposalDate": "2026-08-27",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10157/text"
@@ -55181,7 +55189,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-17"
     },
     "campaignFinance": {
@@ -55343,7 +55351,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-17"
     },
     "campaignFinance": {
@@ -55489,7 +55497,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-17"
     },
     "campaignFinance": {
@@ -55579,7 +55587,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-17"
     },
     "campaignFinance": {
@@ -55741,7 +55749,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-17"
     },
     "campaignFinance": {
@@ -55903,7 +55911,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -56041,7 +56049,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-17"
     },
     "campaignFinance": {
@@ -56203,7 +56211,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-17"
     },
     "campaignFinance": {
@@ -56222,7 +56230,7 @@
       "topCommitteeContributors": [
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -56365,7 +56373,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -56527,7 +56535,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -56689,7 +56697,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -56852,7 +56860,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -56927,10 +56935,18 @@
     "votesWithPartyPct": 97,
     "partyDifferentVotesCount": 19,
     "partyComparableVotesCount": 636,
-    "billsSponsored": 21,
+    "billsSponsored": 22,
     "missedVotesPct": 1.2,
     "missedVotesCount": 8,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10187",
+        "billNo": "H.R. 10187",
+        "title": "Missed Paychecks for Missed Deadlines Act",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10187/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr9575",
         "billNo": "H.R. 9575",
@@ -57002,19 +57018,11 @@
         "proposalDate": "2025-06-12",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3961/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr3872",
-        "billNo": "H.R. 3872",
-        "title": "To amend the Mineral Leasing Act for Acquired Lands to make that Act applicable to hardrock minerals.",
-        "proposalDate": "2025-06-10",
-        "status": "Passed",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3872/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -57176,7 +57184,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -57290,7 +57298,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -57452,7 +57460,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -57614,7 +57622,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -57776,7 +57784,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -57938,7 +57946,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-30"
     },
     "campaignFinance": {
@@ -58013,10 +58021,18 @@
     "votesWithPartyPct": 98.9,
     "partyDifferentVotesCount": 7,
     "partyComparableVotesCount": 635,
-    "billsSponsored": 60,
+    "billsSponsored": 61,
     "missedVotesPct": 1.4,
     "missedVotesCount": 9,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10197",
+        "billNo": "H.R. 10197",
+        "title": "Biosecurity Modernization and Innovation Act",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10197/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hjres212",
         "billNo": "H.J.Res. 212",
@@ -58088,19 +58104,11 @@
         "proposalDate": "2026-02-26",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7742/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr7443",
-        "billNo": "H.R. 7443",
-        "title": "I&A Mission Reorientation Act of 2026",
-        "proposalDate": "2026-02-09",
-        "status": "Ordered Reported",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7443/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -58262,7 +58270,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -58424,7 +58432,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -58586,7 +58594,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -58748,7 +58756,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -58910,7 +58918,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -59072,7 +59080,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -59186,7 +59194,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -59348,7 +59356,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -59367,7 +59375,7 @@
       "topCommitteeContributors": [
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 5000,
           "committeeType": "Q",
           "designation": "B",
@@ -59510,7 +59518,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -59672,7 +59680,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -59834,7 +59842,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -59996,7 +60004,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -60158,7 +60166,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -60320,7 +60328,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -60482,7 +60490,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -60596,7 +60604,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -60758,7 +60766,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -60898,7 +60906,7 @@
         "billNo": "H.R. 5174",
         "title": "To make revisions in title 51, United States Code, as necessary to keep the title current, and to make technical amendments to improve the United States Code.",
         "proposalDate": "2025-09-08",
-        "status": "Ordered Reported",
+        "status": "Passed",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5174/text"
       },
       {
@@ -60920,7 +60928,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -61034,7 +61042,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -61196,7 +61204,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -61358,7 +61366,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -61512,7 +61520,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -61531,7 +61539,7 @@
       "topCommitteeContributors": [
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -61666,7 +61674,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -61828,7 +61836,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -61990,7 +61998,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -62009,7 +62017,7 @@
       "topCommitteeContributors": [
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 5000,
           "committeeType": "Q",
           "designation": "B",
@@ -62152,7 +62160,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -62314,7 +62322,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -62365,7 +62373,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -62476,7 +62484,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -62638,7 +62646,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -62657,7 +62665,7 @@
       "topCommitteeContributors": [
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -62800,7 +62808,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -62835,7 +62843,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 5000,
           "committeeType": "Q",
           "designation": "B",
@@ -62962,7 +62970,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -63124,7 +63132,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -63286,7 +63294,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -63448,7 +63456,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -63611,7 +63619,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -63773,7 +63781,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -63848,10 +63856,26 @@
     "votesWithPartyPct": 91.1,
     "partyDifferentVotesCount": 57,
     "partyComparableVotesCount": 639,
-    "billsSponsored": 66,
+    "billsSponsored": 68,
     "missedVotesPct": 0.8,
     "missedVotesCount": 5,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10199",
+        "billNo": "H.R. 10199",
+        "title": "Sell Your Stocks or Step Down Act",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10199/text"
+      },
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10198",
+        "billNo": "H.R. 10198",
+        "title": "Federal Worker Protection Act",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10198/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10080",
         "billNo": "H.R. 10080",
@@ -63915,27 +63939,11 @@
         "proposalDate": "2026-05-26",
         "status": "Introduced",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9042/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8948",
-        "billNo": "H.R. 8948",
-        "title": "Home Energy Affordability Act",
-        "proposalDate": "2026-05-20",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8948/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr8947",
-        "billNo": "H.R. 8947",
-        "title": "Utility Hikes Transparency Act",
-        "proposalDate": "2026-05-20",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8947/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -64097,7 +64105,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -64259,7 +64267,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -64421,7 +64429,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -64583,7 +64591,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -64745,7 +64753,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -64907,7 +64915,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -65069,7 +65077,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -65231,7 +65239,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -65393,7 +65401,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -65555,7 +65563,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -65717,7 +65725,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -65879,7 +65887,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -66041,7 +66049,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -66203,7 +66211,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -66365,7 +66373,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-15"
     },
     "campaignFinance": {
@@ -66527,7 +66535,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -66689,7 +66697,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -66851,7 +66859,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -67013,7 +67021,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -67040,7 +67048,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -67175,7 +67183,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -67202,7 +67210,7 @@
         },
         {
           "committeeId": "C00007880",
-          "name": "AMERICA'S CREDIT UNIONS PAC OF CREDIT UNION NATIONAL ASSOCIATION, INC.",
+          "name": "AMERICA'S CREDIT UNIONS PAC",
           "amount": 10000,
           "committeeType": "Q",
           "designation": "B",
@@ -67337,7 +67345,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -67499,7 +67507,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -67661,7 +67669,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-22"
     },
     "campaignFinance": {
@@ -67736,10 +67744,18 @@
     "votesWithPartyPct": 98.2,
     "partyDifferentVotesCount": 11,
     "partyComparableVotesCount": 608,
-    "billsSponsored": 28,
+    "billsSponsored": 29,
     "missedVotesPct": 5.6,
     "missedVotesCount": 36,
     "recentBills": [
+      {
+        "billId": "https://www.govtrack.us/congress/bills/119/hr10193",
+        "billNo": "H.R. 10193",
+        "title": "We Can’t Wait Act of 2026",
+        "proposalDate": "2026-08-31",
+        "status": "Introduced",
+        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10193/text"
+      },
       {
         "billId": "https://www.govtrack.us/congress/bills/119/hr10147",
         "billNo": "H.R. 10147",
@@ -67811,19 +67827,11 @@
         "proposalDate": "2025-12-03",
         "status": "Agreed To (Simple Resolution)",
         "billUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/923/text"
-      },
-      {
-        "billId": "https://www.govtrack.us/congress/bills/119/hr6407",
-        "billNo": "H.R. 6407",
-        "title": "RCORP Authorization Act",
-        "proposalDate": "2025-12-03",
-        "status": "Introduced",
-        "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6407/text"
       }
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -67985,7 +67993,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-06-30"
     },
     "campaignFinance": {
@@ -68147,7 +68155,7 @@
     ],
     "dataAsOf": {
       "houseVotes": "2026-08-31",
-      "sponsoredBills": "2026-08-27",
+      "sponsoredBills": "2026-08-31",
       "campaignFinance": "2026-07-29"
     },
     "campaignFinance": {
