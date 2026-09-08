@@ -1,5 +1,5 @@
 {
-  "dataAsOf": "2026-09-07",
+  "dataAsOf": "2026-09-09",
   "source": "National Election Commission Political Fund Center",
   "members": {
     "T2T8225E": {
@@ -865,11 +865,11 @@
     "J1G57517": {
       "associationName": "국회의원모경종후원회",
       "party": "더불어민주당",
-      "region": "인천광역시 서해구",
+      "region": "인천광역시 검단구",
       "phone": "032-561-4942",
       "address": "",
       "homepage": "",
-      "donationUrl": "",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27715",
       "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21986"
     },
     "GRP3908I": {
