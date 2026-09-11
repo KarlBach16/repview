@@ -1,12 +1,12 @@
 {
-  "dataAsOf": "2026-09-09",
+  "dataAsOf": "2026-09-12",
   "source": "National Election Commission Political Fund Center",
   "members": {
     "T2T8225E": {
       "associationName": "국회의원강경숙후원회",
       "party": "조국혁신당",
       "region": "비례대표",
-      "phone": "010-4437-8188",
+      "phone": "02-784-5601",
       "address": "07233 서울특별시 영등포구 의사당대로 1 (여의도동) 국회의원회관 515호",
       "homepage": "",
       "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=27765",
@@ -811,6 +811,16 @@
       "homepage": "",
       "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=23156",
       "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=17427"
+    },
+    "KBZ59750": {
+      "associationName": "국회의원김형연후원회",
+      "party": "조국혁신당",
+      "region": "비례대표",
+      "phone": "02-784-1884",
+      "address": "",
+      "homepage": "",
+      "donationUrl": "https://www.give.go.kr/portal/give.do?supportNo=32819",
+      "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=27090"
     },
     "HRG9655C": {
       "associationName": "국회의원김희정후원회",
@@ -2963,7 +2973,7 @@
       "sourceUrl": "https://www.give.go.kr/portal/supporter/supporterSearch/congressView.do?viewType=BODY&congressNo=21959"
     },
     "0VU8517U": {
-      "associationName": "국회의원 황희후원회",
+      "associationName": "국회의원황희후원회",
       "party": "더불어민주당",
       "region": "서울특별시 양천구",
       "phone": "02-784-8551",
