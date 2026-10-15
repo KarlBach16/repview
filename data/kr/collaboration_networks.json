@@ -1,7 +1,7 @@
 {
   "assembly": 22,
   "basis": "same_proposal_roster",
-  "dataThrough": "2026-10-14",
+  "dataThrough": "2026-10-15",
   "bills": {
     "PRC_C299F74B1F974C58A43523F9E2EDEF": {
       "title": "4·16세월호참사 피해구제 및 지원 등을 위한 특별법 일부개정법률안",
@@ -885,6 +885,12 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2C5L0M8K2J0H1I4Q3L5K0S3R0Q9O1&ageFrom=22&ageTo=22",
       "leadMonaCode": "9D939735"
     },
+    "PRC_5686827377E4446DA0A7F559BE411D": {
+      "title": "마약류 관리에 관한 법률 일부개정법률안",
+      "proposalDate": "2026-10-15",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_5686827377E4446DA0A7F559BE411D&ageFrom=22&ageTo=22",
+      "leadMonaCode": "04T3751T"
+    },
     "PRC_1DB73763DDB246B38A4EC713EF120F": {
       "title": "제대군인지원에 관한 법률 일부개정법률안",
       "proposalDate": "2026-10-12",
@@ -901,12 +907,6 @@
       "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
       "proposalDate": "2026-10-06",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_DE85C8A3928F4770B17FFA91BAF354&ageFrom=22&ageTo=22",
-      "leadMonaCode": "IUX1829H"
-    },
-    "PRC_6447BFE8BDDE42558F97B3342BAF4E": {
-      "title": "건설산업기본법 일부개정법률안",
-      "proposalDate": "2026-10-06",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6447BFE8BDDE42558F97B3342BAF4E&ageFrom=22&ageTo=22",
       "leadMonaCode": "IUX1829H"
     },
     "PRC_46A332AA61B34D00921D19153C6E77": {
@@ -932,6 +932,12 @@
       "proposalDate": "2026-08-27",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2Q6Q0O8N2O5V1W4U3V2T5U4S3T8B7&ageFrom=22&ageTo=22",
       "leadMonaCode": "BRU2690F"
+    },
+    "PRC_6447BFE8BDDE42558F97B3342BAF4E": {
+      "title": "건설산업기본법 일부개정법률안",
+      "proposalDate": "2026-10-06",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6447BFE8BDDE42558F97B3342BAF4E&ageFrom=22&ageTo=22",
+      "leadMonaCode": "IUX1829H"
     },
     "PRC_65359F7D6D1A4AEE93D47956593EA4": {
       "title": "근로자퇴직급여 보장법 일부개정법률안",
@@ -2187,6 +2193,18 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2O5N1N2L1M8U1U6T3T2S1S0R9G4H7&ageFrom=22&ageTo=22",
       "leadMonaCode": "CNZ51556"
     },
+    "PRC_62C17599B75549DB8A94AABBDD6034": {
+      "title": "노인복지법 일부개정법률안",
+      "proposalDate": "2026-10-15",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_62C17599B75549DB8A94AABBDD6034&ageFrom=22&ageTo=22",
+      "leadMonaCode": "X1K3667J"
+    },
+    "PRC_8ED32CA4E74B4058BAE7D2751D2787": {
+      "title": "국민건강보험법 일부개정법률안",
+      "proposalDate": "2026-10-15",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_8ED32CA4E74B4058BAE7D2751D2787&ageFrom=22&ageTo=22",
+      "leadMonaCode": "X1K3667J"
+    },
     "PRC_E37FE80B84E64084BABD8E9EB5F802": {
       "title": "응급의료에 관한 법률 일부개정법률안",
       "proposalDate": "2026-10-14",
@@ -2204,18 +2222,6 @@
       "proposalDate": "2026-09-09",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2O6M0M9I0I7H1I6G2G2F4N5N8L6M5&ageFrom=22&ageTo=22",
       "leadMonaCode": "X1K3667J"
-    },
-    "PRC_A2A6Z0G9H0F8G1E8F1D1E2M8K6L2J5": {
-      "title": "발달장애인 권리보장 및 지원에 관한 법률 일부개정법률안",
-      "proposalDate": "2026-09-09",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2A6Z0G9H0F8G1E8F1D1E2M8K6L2J5&ageFrom=22&ageTo=22",
-      "leadMonaCode": "XR24352K"
-    },
-    "PRC_L2J6K0R7S0R2P1P0O4P3W5X8V9U5U1": {
-      "title": "빈집 및 소규모주택 정비에 관한 특례법 일부개정법률안",
-      "proposalDate": "2026-09-08",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2J6K0R7S0R2P1P0O4P3W5X8V9U5U1&ageFrom=22&ageTo=22",
-      "leadMonaCode": "0VU8517U"
     },
     "PRC_F2G6E0M8N2L7L1K1K2J4J5R0Q1Q3P3": {
       "title": "지방공무원법 일부개정법률안",
@@ -2251,24 +2257,6 @@
       "title": "국회법 일부개정법률안",
       "proposalDate": "2026-07-14",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2R6P0Q7F0G7E1D6D3B0C2K2K6J0H4&ageFrom=22&ageTo=22",
-      "leadMonaCode": "PAO22428"
-    },
-    "PRC_O2W6W0U8V1U8U1T1A1B0A3A3Y5Z2X4": {
-      "title": "주한미군 공여구역주변지역 등 지원 특별법 일부개정법률안",
-      "proposalDate": "2026-08-26",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2W6W0U8V1U8U1T1A1B0A3A3Y5Z2X4&ageFrom=22&ageTo=22",
-      "leadMonaCode": "RUZ25800"
-    },
-    "PRC_H2I6Q0R8P1P8O1M1N1U1V1U6U8S8T1": {
-      "title": "국유재산특례제한법 일부개정법률안",
-      "proposalDate": "2026-08-26",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2I6Q0R8P1P8O1M1N1U1V1U6U8S8T1&ageFrom=22&ageTo=22",
-      "leadMonaCode": "RUZ25800"
-    },
-    "PRC_M2N6U0V7U0U3S1T4R0Z3A5Y4Z3X9Y1": {
-      "title": "중고자동차 수출산업 진흥에 관한 법률안",
-      "proposalDate": "2026-07-07",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2N6U0V7U0U3S1T4R0Z3A5Y4Z3X9Y1&ageFrom=22&ageTo=22",
       "leadMonaCode": "PAO22428"
     },
     "PRC_G2H6G0G7E2M9N1L7M5K9L0J1K9G4E7": {
@@ -2823,11 +2811,11 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2R6P0N5O1V1X1V6V5U7S3T9A6B3A5&ageFrom=22&ageTo=22",
       "leadMonaCode": "TZ228122"
     },
-    "PRC_K2I6J0H8I2G6H1C0B5B0A3A4Z4Z1H3": {
-      "title": "행정조사기본법 일부개정법률안",
-      "proposalDate": "2026-08-26",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2I6J0H8I2G6H1C0B5B0A3A4Z4Z1H3&ageFrom=22&ageTo=22",
-      "leadMonaCode": "AEO5706C"
+    "PRC_173F5ACE25304C3DA1D28C566D93C7": {
+      "title": "용산공원 조성 특별법 일부개정법률안",
+      "proposalDate": "2026-10-15",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_173F5ACE25304C3DA1D28C566D93C7&ageFrom=22&ageTo=22",
+      "leadMonaCode": "IUX1829H"
     },
     "PRC_Y2Z6X0Y8W1U1V0D9E2C4C4B9Z4A3V7": {
       "title": "5·18민주유공자예우 및 단체설립에 관한 법률 일부개정법률안",
@@ -2949,6 +2937,12 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2E6F0D9E1C7K1L4J0K8I3J6H6I9Q4&ageFrom=22&ageTo=22",
       "leadMonaCode": "UHB5553T"
     },
+    "PRC_G2G6E0F8N0O4M1M9L1J8K0F0G3F4F4": {
+      "title": "건설산업기본법 일부개정법률안",
+      "proposalDate": "2026-10-15",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2G6E0F8N0O4M1M9L1J8K0F0G3F4F4&ageFrom=22&ageTo=22",
+      "leadMonaCode": "43Q3892U"
+    },
     "PRC_L2K6K0I7J2H2D0E9C0D1B4B9A8I0I7": {
       "title": "형사소송법 일부개정법률안",
       "proposalDate": "2026-07-23",
@@ -3014,12 +3008,6 @@
       "proposalDate": "2026-04-17",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2L6T0T4S1S5R1R1Q2X6Z0X4X4W3U8&ageFrom=22&ageTo=22",
       "leadMonaCode": "QUR40502"
-    },
-    "PRC_J2I6Q0Q4O0Q9O1O7N4V2V4T3U8S3T2": {
-      "title": "의료법 일부개정법률안",
-      "proposalDate": "2026-04-16",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2I6Q0Q4O0Q9O1O7N4V2V4T3U8S3T2&ageFrom=22&ageTo=22",
-      "leadMonaCode": "NXB3178C"
     },
     "PRC_Q2R6P0N9O0N7N0C9C4B7I0Q6P3O7N4": {
       "title": "행정조사기본법 일부개정법률안",
@@ -3297,6 +3285,12 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2H6F0F6N2M4M1K6L2K5K5S4S3R6P5&ageFrom=22&ageTo=22",
       "leadMonaCode": "I5I2468R"
     },
+    "PRC_1C13661BECB44E7B8DD9E03FA78F36": {
+      "title": "형의 집행 및 수용자의 처우에 관한 법률 일부개정법률안",
+      "proposalDate": "2026-10-15",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_1C13661BECB44E7B8DD9E03FA78F36&ageFrom=22&ageTo=22",
+      "leadMonaCode": "JC14718Q"
+    },
     "PRC_2C3DBA49A40040EF835364224B7F2C": {
       "title": "한식진흥법 일부개정법률안",
       "proposalDate": "2026-10-14",
@@ -3404,6 +3398,12 @@
       "proposalDate": "2026-09-16",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2W6X0V9W1D1C1D2B5B5A3B8W1X4V0&ageFrom=22&ageTo=22",
       "leadMonaCode": "TZ228122"
+    },
+    "PRC_K2I6J0H8I2G6H1C0B5B0A3A4Z4Z1H3": {
+      "title": "행정조사기본법 일부개정법률안",
+      "proposalDate": "2026-08-26",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2I6J0H8I2G6H1C0B5B0A3A4Z4Z1H3&ageFrom=22&ageTo=22",
+      "leadMonaCode": "AEO5706C"
     },
     "PRC_G2H6P0N8O2M4N1L3L1U4S4S5R2R9Q5": {
       "title": "대규모유통업에서의 거래 공정화에 관한 법률 일부개정법률안",
@@ -4011,17 +4011,17 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2Z6A0H9I0H7F1F5E5F8M2N7L1K5K1&ageFrom=22&ageTo=22",
       "leadMonaCode": "0R68099X"
     },
-    "PRC_Y2G6F0F8E2E1C1D4L4L6K1I0J5H4I6": {
-      "title": "미디어교육지원법안",
-      "proposalDate": "2026-08-27",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2G6F0F8E2E1C1D4L4L6K1I0J5H4I6&ageFrom=22&ageTo=22",
-      "leadMonaCode": "RBM5454A"
-    },
     "PRC_U2P6O0N3L2U0V1T4S2Q2Z3B7A0Z1X7": {
       "title": "장애아동 복지지원법 일부개정법률안",
       "proposalDate": "2026-08-31",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2P6O0N3L2U0V1T4S2Q2Z3B7A0Z1X7&ageFrom=22&ageTo=22",
       "leadMonaCode": "51A45980"
+    },
+    "PRC_Y2G6F0F8E2E1C1D4L4L6K1I0J5H4I6": {
+      "title": "미디어교육지원법안",
+      "proposalDate": "2026-08-27",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2G6F0F8E2E1C1D4L4L6K1I0J5H4I6&ageFrom=22&ageTo=22",
+      "leadMonaCode": "RBM5454A"
     },
     "PRC_Q2R6P0P7O0M7N1U7V2U1U3S5R1R1Z3": {
       "title": "국민기초생활 보장법 일부개정법률안",
@@ -4052,12 +4052,6 @@
       "proposalDate": "2026-09-01",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2I6J0I8D2E6C0D9B0C2A4I4J0H1H3&ageFrom=22&ageTo=22",
       "leadMonaCode": "8A05621B"
-    },
-    "PRC_R2S6O0N3L2K0L1T4R2Q4T1S3R1S1Z5": {
-      "title": "장애인·노인·임산부 등의 편의증진 보장에 관한 법률 일부개정법률안",
-      "proposalDate": "2026-08-31",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2S6O0N3L2K0L1T4R2Q4T1S3R1S1Z5&ageFrom=22&ageTo=22",
-      "leadMonaCode": "51A45980"
     },
     "PRC_2CE1D6BED1FC48AF8E69CB92893E04": {
       "title": "폐기물관리법 일부개정법률안",
@@ -4473,6 +4467,12 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2M6N0L9L2K2K1S6T5R0P3Q8O4P8L5&ageFrom=22&ageTo=22",
       "leadMonaCode": "8348421R"
     },
+    "PRC_E124335245E74DCFAFF6977223C766": {
+      "title": "전통사찰의 보존 및 지원에 관한 법률 일부개정법률안",
+      "proposalDate": "2026-10-15",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E124335245E74DCFAFF6977223C766&ageFrom=22&ageTo=22",
+      "leadMonaCode": "MQU41854"
+    },
     "PRC_N2V6V0U8U0T5T1S1A3A2Z1Z6X1W5W8": {
       "title": "조세특례제한법 일부개정법률안",
       "proposalDate": "2026-09-10",
@@ -4646,6 +4646,12 @@
       "proposalDate": "2026-08-04",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2S6Q0Q8P0P3X1W0W4U4V1U9U0C8C1&ageFrom=22&ageTo=22",
       "leadMonaCode": "XPP2564T"
+    },
+    "PRC_M2N6U0V7U0U3S1T4R0Z3A5Y4Z3X9Y1": {
+      "title": "중고자동차 수출산업 진흥에 관한 법률안",
+      "proposalDate": "2026-07-07",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2N6U0V7U0U3S1T4R0Z3A5Y4Z3X9Y1&ageFrom=22&ageTo=22",
+      "leadMonaCode": "PAO22428"
     },
     "PRC_U2U5S1T2S2Z9A1Y6Y1X7Y2W3W7T0R7": {
       "title": "학교체육 진흥법 일부개정법률안",
@@ -5133,6 +5139,12 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2N6L0M9L0L4T1S0S5Q0R4P0Q6Y2W4&ageFrom=22&ageTo=22",
       "leadMonaCode": "51A45980"
     },
+    "PRC_R2S6O0N3L2K0L1T4R2Q4T1S3R1S1Z5": {
+      "title": "장애인·노인·임산부 등의 편의증진 보장에 관한 법률 일부개정법률안",
+      "proposalDate": "2026-08-31",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2S6O0N3L2K0L1T4R2Q4T1S3R1S1Z5&ageFrom=22&ageTo=22",
+      "leadMonaCode": "51A45980"
+    },
     "PRC_R2Z6X0Y8W3X1V1W3S3Q2Q0P3P8O3O6": {
       "title": "한부모가족지원법 일부개정법률안",
       "proposalDate": "2026-09-04",
@@ -5325,6 +5337,12 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2I6G0H4O2P9O0M8M1L9L1T5S9S2Q6&ageFrom=22&ageTo=22",
       "leadMonaCode": "YGB8604T"
     },
+    "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6": {
+      "title": "용산공원 조성 특별법 일부개정법률안",
+      "proposalDate": "2026-10-15",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6&ageFrom=22&ageTo=22",
+      "leadMonaCode": "M4O5221T"
+    },
     "PRC_K2J6I0O6N0M5L1U3N3V4V2U6S7Z7Y3": {
       "title": "의료법 일부개정법률안",
       "proposalDate": "2026-09-10",
@@ -5427,6 +5445,12 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C2A6B0J9H1I7H1H6F2G6O3M9N6L6M9&ageFrom=22&ageTo=22",
       "leadMonaCode": "4L695580"
     },
+    "PRC_L2J6K0R7S0R2P1P0O4P3W5X8V9U5U1": {
+      "title": "빈집 및 소규모주택 정비에 관한 특례법 일부개정법률안",
+      "proposalDate": "2026-09-08",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2J6K0R7S0R2P1P0O4P3W5X8V9U5U1&ageFrom=22&ageTo=22",
+      "leadMonaCode": "0VU8517U"
+    },
     "PRC_G2E6F0M7N0L2M1K0J4J3F2G2E1D0D2": {
       "title": "도시 및 주거환경정비법 일부개정법률안",
       "proposalDate": "2026-09-08",
@@ -5450,6 +5474,12 @@
       "proposalDate": "2026-04-13",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2L6K0L3J3S0Q1O1O2O1K4J2I7G5H9&ageFrom=22&ageTo=22",
       "leadMonaCode": "ZW43496R"
+    },
+    "PRC_J2I6Q0Q4O0Q9O1O7N4V2V4T3U8S3T2": {
+      "title": "의료법 일부개정법률안",
+      "proposalDate": "2026-04-16",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2I6Q0Q4O0Q9O1O7N4V2V4T3U8S3T2&ageFrom=22&ageTo=22",
+      "leadMonaCode": "NXB3178C"
     },
     "PRC_T2T5R1Q0R1M0N1L0M1K9L3J0K9R8S3": {
       "title": "의료기사 등에 관한 법률 일부개정법률안",
@@ -6165,16 +6195,22 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2W6X0V8V1U3P1Q4P5P8N2M7N7U8V1&ageFrom=22&ageTo=22",
       "leadMonaCode": "UHB5553T"
     },
+    "PRC_75E8355FA85245BEAEA6F83F88AB7F": {
+      "title": "야생생물 보호 및 관리에 관한 법률 일부개정법률안",
+      "proposalDate": "2026-10-15",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_75E8355FA85245BEAEA6F83F88AB7F&ageFrom=22&ageTo=22",
+      "leadMonaCode": "E2B3753X"
+    },
+    "PRC_760AB0A65F5B41A1B9A85F77AB02E7": {
+      "title": "동물원 및 수족관의 관리에 관한 법률 일부개정법률안",
+      "proposalDate": "2026-10-15",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_760AB0A65F5B41A1B9A85F77AB02E7&ageFrom=22&ageTo=22",
+      "leadMonaCode": "E2B3753X"
+    },
     "PRC_M2N6L0M9K0L7G1F2G5E8F2D6D7L3K3": {
       "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
       "proposalDate": "2026-09-08",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2N6L0M9K0L7G1F2G5E8F2D6D7L3K3&ageFrom=22&ageTo=22",
-      "leadMonaCode": "4019850M"
-    },
-    "PRC_C2D6B0A9A0W7W1V2V5U7U3S8B3B5Z1": {
-      "title": "고용정책 기본법 일부개정법률안",
-      "proposalDate": "2026-09-08",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C2D6B0A9A0W7W1V2V5U7U3S8B3B5Z1&ageFrom=22&ageTo=22",
       "leadMonaCode": "4019850M"
     },
     "PRC_X2V6W0U9V1R0P1P6O4O2N5N4V7T5U2": {
@@ -7023,29 +7059,11 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_0B904B8BEC56450B83D3D5CD57B82E&ageFrom=22&ageTo=22",
       "leadMonaCode": "0R68099X"
     },
-    "PRC_D962F6CEEFD84FF7BEEF8CC05CADEC": {
-      "title": "지능형 로봇 개발 및 보급 촉진법 전부개정법률안",
-      "proposalDate": "2026-10-08",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D962F6CEEFD84FF7BEEF8CC05CADEC&ageFrom=22&ageTo=22",
-      "leadMonaCode": "HSS7466Y"
-    },
-    "PRC_D2D6C0C9A1B5A1H9I3G6H3F3G2E7M2": {
-      "title": "건설산업기본법 일부개정법률안",
-      "proposalDate": "2026-09-21",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2D6C0C9A1B5A1H9I3G6H3F3G2E7M2&ageFrom=22&ageTo=22",
-      "leadMonaCode": "IUX1829H"
-    },
     "PRC_J2J6I0I8H2H5P1O8O4M9N4M4M8H3G9": {
       "title": "보건의료기본법 일부개정법률안",
       "proposalDate": "2026-09-03",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2J6I0I8H2H5P1O8O4M9N4M4M8H3G9&ageFrom=22&ageTo=22",
       "leadMonaCode": "QUR40502"
-    },
-    "PRC_Z2Y6Y0W8V2W0D1E4C2D1B1C3A3A0I2": {
-      "title": "아동수당법 일부개정법률안",
-      "proposalDate": "2026-09-01",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2Y6Y0W8V2W0D1E4C2D1B1C3A3A0I2&ageFrom=22&ageTo=22",
-      "leadMonaCode": "C7E79345"
     },
     "PRC_Y2V6Q0R8P0Q5O1N5N1V4V4U1V8T3T9": {
       "title": "마약류 관리에 관한 법률 일부개정법률안",
@@ -7100,6 +7118,18 @@
       "proposalDate": "2026-06-26",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2J6J0H6G1G7O1P5N4O2M1L5L7T8T4&ageFrom=22&ageTo=22",
       "leadMonaCode": "2S73768V"
+    },
+    "PRC_O2W6W0U8V1U8U1T1A1B0A3A3Y5Z2X4": {
+      "title": "주한미군 공여구역주변지역 등 지원 특별법 일부개정법률안",
+      "proposalDate": "2026-08-26",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2W6W0U8V1U8U1T1A1B0A3A3Y5Z2X4&ageFrom=22&ageTo=22",
+      "leadMonaCode": "RUZ25800"
+    },
+    "PRC_H2I6Q0R8P1P8O1M1N1U1V1U6U8S8T1": {
+      "title": "국유재산특례제한법 일부개정법률안",
+      "proposalDate": "2026-08-26",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2I6Q0R8P1P8O1M1N1U1V1U6U8S8T1&ageFrom=22&ageTo=22",
+      "leadMonaCode": "RUZ25800"
     },
     "PRC_S2T6R0R7Q1Y3Y1W7X2V0W0U5V9D7B4": {
       "title": "경찰공무원법 일부개정법률안",
@@ -7245,12 +7275,6 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2G6E0N6M0K5K1G1F1D3C2K6J1I2H9&ageFrom=22&ageTo=22",
       "leadMonaCode": "RBM5454A"
     },
-    "PRC_T2S6Q0R3Q2Y6X1X6W3V7D1C5A3B5A8": {
-      "title": "소비자기본법 일부개정법률안",
-      "proposalDate": "2026-03-30",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2S6Q0R3Q2Y6X1X6W3V7D1C5A3B5A8&ageFrom=22&ageTo=22",
-      "leadMonaCode": "O0I2045I"
-    },
     "PRC_B2J5K0I8I2H8F0G9O2O8N2N6L0K1K1": {
       "title": "국제개발협력기본법 일부개정법률안",
       "proposalDate": "2025-09-18",
@@ -7286,6 +7310,12 @@
       "proposalDate": "2026-10-07",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_CB33CF41A4A4418F879C562D4A4DA0&ageFrom=22&ageTo=22",
       "leadMonaCode": "FOK3459D"
+    },
+    "PRC_Z2Y6Y0W8V2W0D1E4C2D1B1C3A3A0I2": {
+      "title": "아동수당법 일부개정법률안",
+      "proposalDate": "2026-09-01",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2Y6Y0W8V2W0D1E4C2D1B1C3A3A0I2&ageFrom=22&ageTo=22",
+      "leadMonaCode": "C7E79345"
     },
     "PRC_S2N6Y0A7B2L0C1C0L2C7D4Q1T3W4L2": {
       "title": "해수욕장의 이용 및 관리에 관한 법률 일부개정법률안",
@@ -7741,12 +7771,6 @@
       "title": "지방자치법 일부개정법률안",
       "proposalDate": "2026-07-06",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2P6Q0P6P2N3J1K5H2I4G4G0O6P0N2&ageFrom=22&ageTo=22",
-      "leadMonaCode": "JC14718Q"
-    },
-    "PRC_P2Q6D0C6B2Z3I1J5H2G7E3F9B5A3Y0": {
-      "title": "국민연금법 일부개정법률안",
-      "proposalDate": "2026-07-06",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2Q6D0C6B2Z3I1J5H2G7E3F9B5A3Y0&ageFrom=22&ageTo=22",
       "leadMonaCode": "JC14718Q"
     },
     "PRC_M2N6C0D5B1A1A1Y0Z2H0I3G1G0F2D0": {
@@ -8217,6 +8241,12 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2G6O0P8N1O2M1K1L2T2U2S1Q7R6P6&ageFrom=22&ageTo=22",
       "leadMonaCode": "1A82234K"
     },
+    "PRC_D2D6C0C9A1B5A1H9I3G6H3F3G2E7M2": {
+      "title": "건설산업기본법 일부개정법률안",
+      "proposalDate": "2026-09-21",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2D6C0C9A1B5A1H9I3G6H3F3G2E7M2&ageFrom=22&ageTo=22",
+      "leadMonaCode": "IUX1829H"
+    },
     "PRC_F2A6B0Z9X1Y5W1X9F2F9E1C7D6B8C4": {
       "title": "건설산업기본법 일부개정법률안",
       "proposalDate": "2026-09-18",
@@ -8245,12 +8275,6 @@
       "title": "부담금관리 기본법 일부개정법률안",
       "proposalDate": "2026-08-14",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2P6O0O8N1O0M1M6V5T4T1S1S1Q9Z5&ageFrom=22&ageTo=22",
-      "leadMonaCode": "0698755I"
-    },
-    "PRC_I2X6W0W8U1V0T1C6C5A3B3Z5A3Z4G3": {
-      "title": "국가재정법 일부개정법률안",
-      "proposalDate": "2026-08-14",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2X6W0W8U1V0T1C6C5A3B3Z5A3Z4G3&ageFrom=22&ageTo=22",
       "leadMonaCode": "0698755I"
     },
     "PRC_M2M6K0J7K1F3G0F9F3D7C5C0K9L4J7": {
@@ -8979,12 +9003,6 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2L6M0U7V2T2T2S0Q1R6N4N9L5K5L3&ageFrom=22&ageTo=22",
       "leadMonaCode": "TJW93720"
     },
-    "PRC_Q2P6B0X7V0U1T1T3C2A0Z3X4Y5G0F6": {
-      "title": "중대재해 처벌 등에 관한 법률 일부개정법률안",
-      "proposalDate": "2026-07-08",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2P6B0X7V0U1T1T3C2A0Z3X4Y5G0F6&ageFrom=22&ageTo=22",
-      "leadMonaCode": "IUX1829H"
-    },
     "PRC_B1AC34D506374C88A5276720E332C2": {
       "title": "세무사법 일부개정법률안",
       "proposalDate": "2026-10-02",
@@ -8997,11 +9015,11 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2U6S0S6B3B0Z1A0Y2X0X0T4U8S0S7&ageFrom=22&ageTo=22",
       "leadMonaCode": "HSS7466Y"
     },
-    "PRC_Y2G6E0D6C2D3L1J4I2I3H4P7N7O9N6": {
-      "title": "장애인활동 지원에 관한 법률 일부개정법률안",
-      "proposalDate": "2026-06-29",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2G6E0D6C2D3L1J4I2I3H4P7N7O9N6&ageFrom=22&ageTo=22",
-      "leadMonaCode": "EFU76868"
+    "PRC_Q2P6B0X7V0U1T1T3C2A0Z3X4Y5G0F6": {
+      "title": "중대재해 처벌 등에 관한 법률 일부개정법률안",
+      "proposalDate": "2026-07-08",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2P6B0X7V0U1T1T3C2A0Z3X4Y5G0F6&ageFrom=22&ageTo=22",
+      "leadMonaCode": "IUX1829H"
     },
     "PRC_J2H5O1J1A2F6Q1F7A3V9C2W5O8T1P5": {
       "title": "출입국관리법 일부개정법률안",
@@ -9374,6 +9392,12 @@
       "proposalDate": "2025-11-27",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2T5U0S4A3B0Z1A3Y5Y8X0Y1F8G8E2&ageFrom=22&ageTo=22",
       "leadMonaCode": "TKJ4800F"
+    },
+    "PRC_A2A6Z0G9H0F8G1E8F1D1E2M8K6L2J5": {
+      "title": "발달장애인 권리보장 및 지원에 관한 법률 일부개정법률안",
+      "proposalDate": "2026-09-09",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2A6Z0G9H0F8G1E8F1D1E2M8K6L2J5&ageFrom=22&ageTo=22",
+      "leadMonaCode": "XR24352K"
     },
     "PRC_U2U6S0U9S0S8O1N8N1L1M1K4L9T5T9": {
       "title": "아동복지법 일부개정법률안",
@@ -10065,6 +10089,12 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2F6G0O8O0N5L1M5K1L1G1H1G7E1E0&ageFrom=22&ageTo=22",
       "leadMonaCode": "3249208I"
     },
+    "PRC_C2D6B0A9A0W7W1V2V5U7U3S8B3B5Z1": {
+      "title": "고용정책 기본법 일부개정법률안",
+      "proposalDate": "2026-09-08",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C2D6B0A9A0W7W1V2V5U7U3S8B3B5Z1&ageFrom=22&ageTo=22",
+      "leadMonaCode": "4019850M"
+    },
     "PRC_X2W6U0U4C2B3Z1Y5Z4H5F2G4E0F7D9": {
       "title": "유아교육법 일부개정법률안",
       "proposalDate": "2026-07-10",
@@ -10094,6 +10124,12 @@
       "proposalDate": "2026-04-27",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2I6Q0O4O2N4O1M4M5V9T1Q6R2N4N8&ageFrom=22&ageTo=22",
       "leadMonaCode": "IWR8966I"
+    },
+    "PRC_Y2G6E0D6C2D3L1J4I2I3H4P7N7O9N6": {
+      "title": "장애인활동 지원에 관한 법률 일부개정법률안",
+      "proposalDate": "2026-06-29",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2G6E0D6C2D3L1J4I2I3H4P7N7O9N6&ageFrom=22&ageTo=22",
+      "leadMonaCode": "EFU76868"
     },
     "PRC_J2I6I0E6E2D3E1C4C2B1J1J8I3I1G3": {
       "title": "장애인복지법 일부개정법률안",
@@ -10184,12 +10220,6 @@
       "proposalDate": "2026-08-03",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2O6M0N7J2H0I1G4H1F8N0O5M0N1L8&ageFrom=22&ageTo=22",
       "leadMonaCode": "KNP22261"
-    },
-    "PRC_L2M5K1K2T2R3R0P9Q4O3P1X0Y5W8W4": {
-      "title": "공익 참여 보장을 위한 전략적 봉쇄소송 방지법안",
-      "proposalDate": "2026-05-13",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2M5K1K2T2R3R0P9Q4O3P1X0Y5W8W4&ageFrom=22&ageTo=22",
-      "leadMonaCode": "CC78321E"
     },
     "PRC_92481958D8994606B5AE8B0D85E18C": {
       "title": "주택법 일부개정법률안",
@@ -10515,12 +10545,6 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2M5L0T8S2T5R1Q3Y5W2X1W3U4D3B1&ageFrom=22&ageTo=22",
       "leadMonaCode": "NPD75153"
     },
-    "PRC_X2V5V0T7V0C4D1B5C3A1Y4Z8V8V0T1": {
-      "title": "관광진흥법 일부개정법률안",
-      "proposalDate": "2025-08-12",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2V5V0T7V0C4D1B5C3A1Y4Z8V8V0T1&ageFrom=22&ageTo=22",
-      "leadMonaCode": "DMP1439I"
-    },
     "PRC_X2S6T0S4Q1Q3P1Q7X3W8W3U1W1U4U6": {
       "title": "아동·청소년의 성보호에 관한 법률 일부개정법률안",
       "proposalDate": "2026-04-16",
@@ -10574,12 +10598,6 @@
       "proposalDate": "2025-07-08",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2S5A0A6Z1X3Y1W3W5F0F3D9E2C4B6&ageFrom=22&ageTo=22",
       "leadMonaCode": "4U29186R"
-    },
-    "PRC_0506C48B90EE4DB284492F02B8D0CA": {
-      "title": "세무사법 일부개정법률안",
-      "proposalDate": "2026-10-01",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_0506C48B90EE4DB284492F02B8D0CA&ageFrom=22&ageTo=22",
-      "leadMonaCode": "O7R5461J"
     },
     "PRC_C2K6L0J8K2I5G1H6P0Q7O2M6N9L1M2": {
       "title": "농어촌 미등기주택 양성화를 위한 특별법안",
@@ -10743,6 +10761,12 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2H6P0Q3O1O6N1N1M2M7U2V6T9R3S6&ageFrom=22&ageTo=22",
       "leadMonaCode": "IWR8966I"
     },
+    "PRC_D962F6CEEFD84FF7BEEF8CC05CADEC": {
+      "title": "지능형 로봇 개발 및 보급 촉진법 전부개정법률안",
+      "proposalDate": "2026-10-08",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D962F6CEEFD84FF7BEEF8CC05CADEC&ageFrom=22&ageTo=22",
+      "leadMonaCode": "HSS7466Y"
+    },
     "PRC_0A9C572C3B7144EAB31F16219144DE": {
       "title": "한국투자공사법 일부개정법률안",
       "proposalDate": "2026-10-08",
@@ -10903,12 +10927,6 @@
       "title": "도로교통법 일부개정법률안",
       "proposalDate": "2026-09-11",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2T6T0S9S0A8Y1Z4X4Y8W4X4F3F5E6&ageFrom=22&ageTo=22",
-      "leadMonaCode": "9901388T"
-    },
-    "PRC_L2M6K0L9J0K8I1J4R4P6P5O9O2N6N5": {
-      "title": "하수도법 일부개정법률안",
-      "proposalDate": "2026-09-10",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2M6K0L9J0K8I1J4R4P6P5O9O2N6N5&ageFrom=22&ageTo=22",
       "leadMonaCode": "9901388T"
     },
     "PRC_P2P6N0O8M2N4V1T4U4S1S1R3S1A6Y0": {
@@ -11517,6 +11535,12 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2M6U0S7T1R0S1Q3R4Z1X2Y9W9X5V4&ageFrom=22&ageTo=22",
       "leadMonaCode": "V2R7430Z"
     },
+    "PRC_I2X6W0W8U1V0T1C6C5A3B3Z5A3Z4G3": {
+      "title": "국가재정법 일부개정법률안",
+      "proposalDate": "2026-08-14",
+      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2X6W0W8U1V0T1C6C5A3B3Z5A3Z4G3&ageFrom=22&ageTo=22",
+      "leadMonaCode": "0698755I"
+    },
     "PRC_L2M6K0L8J1J0R1Q6Q4P7P4N8O2K2J3": {
       "title": "인공지능 전환 대응을 위한 기본사회법안",
       "proposalDate": "2026-08-14",
@@ -12045,12 +12069,6 @@
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2P5P0O3O3W1V1V5T0U1S5T7B2B1A4&ageFrom=22&ageTo=22",
       "leadMonaCode": "2385336L"
     },
-    "PRC_A189D123AE964FBF9D37D97529A6AF": {
-      "title": "부가가치세법 일부개정법률안",
-      "proposalDate": "2026-09-30",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A189D123AE964FBF9D37D97529A6AF&ageFrom=22&ageTo=22",
-      "leadMonaCode": "1WE5693J"
-    },
     "PRC_R2Q6Q0O3P1N6O1D1D3C6C0B1Z9A9I9": {
       "title": "미래자동차 부품산업의 전환촉진 및 생태계 육성에 관한 특별법 일부개정법률안",
       "proposalDate": "2026-07-02",
@@ -12061,12 +12079,6 @@
       "title": "국가를 당사자로 하는 계약에 관한 법률 일부개정법률안",
       "proposalDate": "2026-03-12",
       "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2Z6Z0Y3Z0X4X1F7G1E7D2D0B9C8Y1&ageFrom=22&ageTo=22",
-      "leadMonaCode": "M4O5221T"
-    },
-    "PRC_O2J6K0I3H0H4F1G7O1P8N3N4M1K6L3": {
-      "title": "공공기관의 운영에 관한 법률 일부개정법률안",
-      "proposalDate": "2026-03-12",
-      "detailLink": "http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2J6K0I3H0H4F1G7O1P8N3N4M1K6L3&ageFrom=22&ageTo=22",
       "leadMonaCode": "M4O5221T"
     },
     "PRC_F2F6D0E8M1N9L0L9K1I9J4Q6R8P7Q6": {
@@ -13776,20 +13788,20 @@
       ]
     },
     "5KV96424": {
-      "collaborationBillCount": 1849,
+      "collaborationBillCount": 1852,
       "uniqueCollaboratorCount": 272,
       "otherPartyCollaboratorCount": 112,
-      "crossPartyBillCount": 849,
+      "crossPartyBillCount": 850,
       "topCollaborators": [
         {
           "monaCode": "TZ228122",
-          "billCount": 493,
+          "billCount": 494,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_1DB73763DDB246B38A4EC713EF120F",
             "PRC_9DCD75E9C9C842F7B3307DB8456A6A",
-            "PRC_DE85C8A3928F4770B17FFA91BAF354",
-            "PRC_6447BFE8BDDE42558F97B3342BAF4E"
+            "PRC_DE85C8A3928F4770B17FFA91BAF354"
           ]
         },
         {
@@ -15096,31 +15108,31 @@
       ]
     },
     "X1K3667J": {
-      "collaborationBillCount": 691,
+      "collaborationBillCount": 693,
       "uniqueCollaboratorCount": 285,
       "otherPartyCollaboratorCount": 125,
       "crossPartyBillCount": 338,
       "topCollaborators": [
         {
           "monaCode": "VCP96419",
-          "billCount": 206,
+          "billCount": 208,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_62C17599B75549DB8A94AABBDD6034",
+            "PRC_8ED32CA4E74B4058BAE7D2751D2787",
             "PRC_E37FE80B84E64084BABD8E9EB5F802",
-            "PRC_Z2B6Z0Z8Y2W8W1T6T4R3Q5Q2P8Q9X7",
-            "PRC_P2O6M0M9I0I7H1I6G2G2F4N5N8L6M5",
-            "PRC_A2A6Z0G9H0F8G1E8F1D1E2M8K6L2J5"
+            "PRC_Z2B6Z0Z8Y2W8W1T6T4R3Q5Q2P8Q9X7"
           ]
         },
         {
           "monaCode": "4U29186R",
-          "billCount": 170,
+          "billCount": 172,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_62C17599B75549DB8A94AABBDD6034",
+            "PRC_8ED32CA4E74B4058BAE7D2751D2787",
             "PRC_T2R6S0R9P2P2Y1Y3W1X0V2U0U4C9D6",
-            "PRC_J2K6S0S9Q2R2Q1O3O1W0W5V4W8U8U7",
-            "PRC_P2O6M0M9I0I7H1I6G2G2F4N5N8L6M5",
-            "PRC_L2J6K0R7S0R2P1P0O4P3W5X8V9U5U1"
+            "PRC_J2K6S0S9Q2R2Q1O3O1W0W5V4W8U8U7"
           ]
         },
         {
@@ -15146,14 +15158,14 @@
           ]
         },
         {
-          "monaCode": "RUZ25800",
+          "monaCode": "5KV96424",
           "billCount": 141,
           "sameParty": true,
           "sharedBillIds": [
-            "PRC_O2W6W0U8V1U8U1T1A1B0A3A3Y5Z2X4",
-            "PRC_H2I6Q0R8P1P8O1M1N1U1V1U6U8S8T1",
-            "PRC_D2Y6D0B7S0C9Q1T7E0V6J5U7I6P1X5",
-            "PRC_M2N6U0V7U0U3S1T4R0Z3A5Y4Z3X9Y1"
+            "PRC_62C17599B75549DB8A94AABBDD6034",
+            "PRC_8ED32CA4E74B4058BAE7D2751D2787",
+            "PRC_T2R6S0R9P2P2Y1Y3W1X0V2U0U4C9D6",
+            "PRC_J2K6S0S9Q2R2Q1O3O1W0W5V4W8U8U7"
           ]
         }
       ],
@@ -15685,10 +15697,10 @@
       ]
     },
     "IUX1829H": {
-      "collaborationBillCount": 1673,
+      "collaborationBillCount": 1674,
       "uniqueCollaboratorCount": 267,
       "otherPartyCollaboratorCount": 107,
-      "crossPartyBillCount": 831,
+      "crossPartyBillCount": 832,
       "topCollaborators": [
         {
           "monaCode": "TZ228122",
@@ -15782,13 +15794,13 @@
         },
         {
           "monaCode": "0YT3774N",
-          "billCount": 92,
+          "billCount": 93,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_173F5ACE25304C3DA1D28C566D93C7",
             "PRC_9DCD75E9C9C842F7B3307DB8456A6A",
             "PRC_T2P6P0O7O0N8N1L7M1U3S4T9S3S3Q2",
-            "PRC_R2Q6X0Y9W1X0V1W9U1V2K3I7J0H5H9",
-            "PRC_K2I6J0H8I2G6H1C0B5B0A3A4Z4Z1H3"
+            "PRC_R2Q6X0Y9W1X0V1W9U1V2K3I7J0H5H9"
           ]
         },
         {
@@ -15915,20 +15927,20 @@
       ]
     },
     "NXB3178C": {
-      "collaborationBillCount": 1185,
+      "collaborationBillCount": 1187,
       "uniqueCollaboratorCount": 271,
       "otherPartyCollaboratorCount": 111,
-      "crossPartyBillCount": 696,
+      "crossPartyBillCount": 697,
       "topCollaborators": [
         {
           "monaCode": "0R68099X",
-          "billCount": 382,
+          "billCount": 383,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_0E878AB997064FA0A4ADAA3AE105F2",
             "PRC_525D4B5B022B433CB030F5C24D210D",
-            "PRC_615FAE08011845AFB2722ED41383D9",
-            "PRC_6FDB4432486A477284595713485084"
+            "PRC_615FAE08011845AFB2722ED41383D9"
           ]
         },
         {
@@ -15955,24 +15967,24 @@
         },
         {
           "monaCode": "4019850M",
-          "billCount": 288,
+          "billCount": 289,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_525D4B5B022B433CB030F5C24D210D",
             "PRC_615FAE08011845AFB2722ED41383D9",
-            "PRC_6FDB4432486A477284595713485084",
-            "PRC_G2E6E0D9E2C1C1R6S4R7P2P2N2O6W5"
+            "PRC_6FDB4432486A477284595713485084"
           ]
         },
         {
           "monaCode": "43Q3892U",
-          "billCount": 276,
+          "billCount": 277,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_G2G6E0F8N0O4M1M9L1J8K0F0G3F4F4",
             "PRC_L2T6U0S8S1R9R1Q1X2Y0W3X3V5W7U2",
             "PRC_T2R6Z0A7Y2Z4X1Y5W5X8E5D5E8C7C9",
-            "PRC_L2K6K0I7J2H2D0E9C0D1B4B9A8I0I7",
-            "PRC_Q2X6Y0X7X1V3U0U8C3D2B3C8B2Z8Z1"
+            "PRC_L2K6K0I7J2H2D0E9C0D1B4B9A8I0I7"
           ]
         }
       ],
@@ -16001,13 +16013,13 @@
         },
         {
           "monaCode": "7GW5372Y",
-          "billCount": 108,
+          "billCount": 109,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_M2K6K0J5F1F5D1E3C0D8C3J8K7I0J1",
             "PRC_U2T6R0S5Q1R2N1L0L1K2K1J5R8R2Q9",
-            "PRC_L2L6T0T4S1S5R1R1Q2X6Z0X4X4W3U8",
-            "PRC_J2I6Q0Q4O0Q9O1O7N4V2V4T3U8S3T2"
+            "PRC_L2L6T0T4S1S5R1R1Q2X6Z0X4X4W3U8"
           ]
         },
         {
@@ -16275,10 +16287,10 @@
       ]
     },
     "MIS62075": {
-      "collaborationBillCount": 1045,
+      "collaborationBillCount": 1046,
       "uniqueCollaboratorCount": 291,
       "otherPartyCollaboratorCount": 131,
-      "crossPartyBillCount": 519,
+      "crossPartyBillCount": 520,
       "topCollaborators": [
         {
           "monaCode": "86R9476S",
@@ -16326,13 +16338,13 @@
         },
         {
           "monaCode": "43Q3892U",
-          "billCount": 189,
+          "billCount": 190,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_9B5ECFD0B0424C9A8A2469D68D3825",
-            "PRC_Y2F6G0E8E2D6E1C7C1T2R2R4P8R0P0",
-            "PRC_L2T6U0S8S1R9R1Q1X2Y0W3X3V5W7U2"
+            "PRC_Y2F6G0E8E2D6E1C7C1T2R2R4P8R0P0"
           ]
         }
       ],
@@ -16995,10 +17007,10 @@
       ]
     },
     "GF286398": {
-      "collaborationBillCount": 447,
+      "collaborationBillCount": 448,
       "uniqueCollaboratorCount": 259,
       "otherPartyCollaboratorCount": 99,
-      "crossPartyBillCount": 236,
+      "crossPartyBillCount": 237,
       "topCollaborators": [
         {
           "monaCode": "FU53642G",
@@ -17034,6 +17046,17 @@
           ]
         },
         {
+          "monaCode": "1JI2689F",
+          "billCount": 98,
+          "sameParty": true,
+          "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
+            "PRC_2C3DBA49A40040EF835364224B7F2C",
+            "PRC_DE9119CD156E46D7A2F2478C3D17D3",
+            "PRC_703E122BC6B04B73A90CD18FA7C1C7"
+          ]
+        },
+        {
           "monaCode": "VZA76236",
           "billCount": 97,
           "sameParty": true,
@@ -17042,17 +17065,6 @@
             "PRC_DE9119CD156E46D7A2F2478C3D17D3",
             "PRC_O2O6X0V9V1T0V1T1T4B6C4A8Y9Z1X2",
             "PRC_O2O6N0N9D1D4C1A1B0Z0A1I6I5H9F9"
-          ]
-        },
-        {
-          "monaCode": "1JI2689F",
-          "billCount": 97,
-          "sameParty": true,
-          "sharedBillIds": [
-            "PRC_2C3DBA49A40040EF835364224B7F2C",
-            "PRC_DE9119CD156E46D7A2F2478C3D17D3",
-            "PRC_703E122BC6B04B73A90CD18FA7C1C7",
-            "PRC_583E3EEA7A0140F29B1E02ADBB3039"
           ]
         }
       ],
@@ -17475,10 +17487,10 @@
       ]
     },
     "7GW5372Y": {
-      "collaborationBillCount": 935,
+      "collaborationBillCount": 936,
       "uniqueCollaboratorCount": 285,
       "otherPartyCollaboratorCount": 274,
-      "crossPartyBillCount": 755,
+      "crossPartyBillCount": 756,
       "topCollaborators": [
         {
           "monaCode": "NPD75153",
@@ -17550,13 +17562,13 @@
         },
         {
           "monaCode": "5N65159P",
-          "billCount": 142,
+          "billCount": 143,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_W2X6F0G9E0D7D1B6C0K3K1J6H3I1G2",
             "PRC_B2Z6A0H9I0H7F1F5E5F8M2N7L1K5K1",
-            "PRC_C2D6B0C9B0I1J1H7I1G0H0F2N0O9M0",
-            "PRC_Y2G6F0F8E2E1C1D4L4L6K1I0J5H4I6"
+            "PRC_C2D6B0C9B0I1J1H7I1G0H0F2N0O9M0"
           ]
         },
         {
@@ -17583,32 +17595,32 @@
         },
         {
           "monaCode": "0R68099X",
-          "billCount": 116,
+          "billCount": 117,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_W2X6F0G9E0D7D1B6C0K3K1J6H3I1G2",
             "PRC_B2Z6A0H9I0H7F1F5E5F8M2N7L1K5K1",
-            "PRC_C2D6B0C9B0I1J1H7I1G0H0F2N0O9M0",
-            "PRC_R2S6O0N3L2K0L1T4R2Q4T1S3R1S1Z5"
+            "PRC_C2D6B0C9B0I1J1H7I1G0H0F2N0O9M0"
           ]
         }
       ]
     },
     "DOZ1588B": {
-      "collaborationBillCount": 101,
+      "collaborationBillCount": 102,
       "uniqueCollaboratorCount": 171,
       "otherPartyCollaboratorCount": 11,
       "crossPartyBillCount": 33,
       "topCollaborators": [
         {
           "monaCode": "JC14718Q",
-          "billCount": 49,
+          "billCount": 50,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_G2G6E0F8N0O4M1M9L1J8K0F0G3F4F4",
             "PRC_9B5ECFD0B0424C9A8A2469D68D3825",
             "PRC_U2S6S0O9N2N2L1M5K2L0T0T3R4Q6R4",
-            "PRC_2CE1D6BED1FC48AF8E69CB92893E04",
-            "PRC_46BB972AD92A4E3F9184984D7DCD9B"
+            "PRC_2CE1D6BED1FC48AF8E69CB92893E04"
           ]
         },
         {
@@ -18190,10 +18202,10 @@
       ]
     },
     "5K93695T": {
-      "collaborationBillCount": 1123,
+      "collaborationBillCount": 1124,
       "uniqueCollaboratorCount": 276,
       "otherPartyCollaboratorCount": 168,
-      "crossPartyBillCount": 80,
+      "crossPartyBillCount": 81,
       "topCollaborators": [
         {
           "monaCode": "9D939735",
@@ -18240,14 +18252,14 @@
           ]
         },
         {
-          "monaCode": "HSW1214Q",
+          "monaCode": "DWK26447",
           "billCount": 297,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_E124335245E74DCFAFF6977223C766",
             "PRC_295E51FFC4FF43FF9D75B517406715",
             "PRC_72F0EDBB545849F680F075823820EE",
-            "PRC_6426E6C02AAB4316B9AA327684085A",
-            "PRC_3267A02A5BB54789AE02591B7F5794"
+            "PRC_6426E6C02AAB4316B9AA327684085A"
           ]
         }
       ],
@@ -19270,10 +19282,10 @@
       ]
     },
     "EPI69383": {
-      "collaborationBillCount": 1183,
+      "collaborationBillCount": 1184,
       "uniqueCollaboratorCount": 283,
       "otherPartyCollaboratorCount": 175,
-      "crossPartyBillCount": 169,
+      "crossPartyBillCount": 170,
       "topCollaborators": [
         {
           "monaCode": "JP222486",
@@ -19321,13 +19333,13 @@
         },
         {
           "monaCode": "MQU41854",
-          "billCount": 294,
+          "billCount": 295,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_E124335245E74DCFAFF6977223C766",
             "PRC_6426E6C02AAB4316B9AA327684085A",
             "PRC_3267A02A5BB54789AE02591B7F5794",
-            "PRC_F2D6E0M9K1L8J1J0I5J6Q3R1P4O3O0",
-            "PRC_R2K6Q0U9N2T1A1R7N3D4H5R8T4H9B2"
+            "PRC_F2D6E0M9K1L8J1J0I5J6Q3R1P4O3O0"
           ]
         }
       ],
@@ -19390,10 +19402,10 @@
       ]
     },
     "3UI95829": {
-      "collaborationBillCount": 1229,
+      "collaborationBillCount": 1231,
       "uniqueCollaboratorCount": 250,
       "otherPartyCollaboratorCount": 90,
-      "crossPartyBillCount": 682,
+      "crossPartyBillCount": 683,
       "topCollaborators": [
         {
           "monaCode": "TZ228122",
@@ -19408,13 +19420,13 @@
         },
         {
           "monaCode": "CC78321E",
-          "billCount": 344,
+          "billCount": 345,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_U2U5S1T2S2Z9A1Y6Y1X7Y2W3W7T0R7",
             "PRC_7AA09AA0B02A496491EEA442D645E0",
-            "PRC_K2J6I0O6N0M5L1U3N3V4V2U6S7Z7Y3",
-            "PRC_Q2P6Q0O8O2N1V1V7T5U0S2T9S3Z4A6"
+            "PRC_K2J6I0O6N0M5L1U3N3V4V2U6S7Z7Y3"
           ]
         },
         {
@@ -19454,13 +19466,13 @@
       "topOtherPartyCollaborators": [
         {
           "monaCode": "CC78321E",
-          "billCount": 344,
+          "billCount": 345,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_U2U5S1T2S2Z9A1Y6Y1X7Y2W3W7T0R7",
             "PRC_7AA09AA0B02A496491EEA442D645E0",
-            "PRC_K2J6I0O6N0M5L1U3N3V4V2U6S7Z7Y3",
-            "PRC_Q2P6Q0O8O2N1V1V7T5U0S2T9S3Z4A6"
+            "PRC_K2J6I0O6N0M5L1U3N3V4V2U6S7Z7Y3"
           ]
         },
         {
@@ -19750,10 +19762,10 @@
       ]
     },
     "5N65159P": {
-      "collaborationBillCount": 1831,
+      "collaborationBillCount": 1834,
       "uniqueCollaboratorCount": 253,
       "otherPartyCollaboratorCount": 93,
-      "crossPartyBillCount": 1012,
+      "crossPartyBillCount": 1013,
       "topCollaborators": [
         {
           "monaCode": "8BF5855P",
@@ -19768,13 +19780,13 @@
         },
         {
           "monaCode": "0R68099X",
-          "billCount": 474,
+          "billCount": 475,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_K2J6J0H8I3O1P1N3O3M3N0U0T6U8S1",
             "PRC_P2N6M0M8L3L1H1I3G3G3F4D6E9M2M7",
-            "PRC_C2D6B0C9A1I6J0H9I3G2H4F7F4O5M6",
-            "PRC_K2L6J0J9G1G1E1F5D5C9C4K0K3J9K4"
+            "PRC_C2D6B0C9A1I6J0H9I3G2H4F7F4O5M6"
           ]
         },
         {
@@ -19836,13 +19848,13 @@
         },
         {
           "monaCode": "7GW5372Y",
-          "billCount": 142,
+          "billCount": 143,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_W2X6F0G9E0D7D1B6C0K3K1J6H3I1G2",
             "PRC_B2Z6A0H9I0H7F1F5E5F8M2N7L1K5K1",
-            "PRC_C2D6B0C9B0I1J1H7I1G0H0F2N0O9M0",
-            "PRC_Y2G6F0F8E2E1C1D4L4L6K1I0J5H4I6"
+            "PRC_C2D6B0C9B0I1J1H7I1G0H0F2N0O9M0"
           ]
         },
         {
@@ -20110,20 +20122,20 @@
       ]
     },
     "FIC9046Z": {
-      "collaborationBillCount": 107,
+      "collaborationBillCount": 108,
       "uniqueCollaboratorCount": 175,
       "otherPartyCollaboratorCount": 15,
-      "crossPartyBillCount": 48,
+      "crossPartyBillCount": 49,
       "topCollaborators": [
         {
           "monaCode": "JC14718Q",
-          "billCount": 45,
+          "billCount": 46,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9",
-            "PRC_X2W6U0V7D1E3C1C4A5Z3A5H8I3G9H2",
-            "PRC_W2U6Q0R9P1Q4O1P3N3N5V5U8U1S3U2"
+            "PRC_X2W6U0V7D1E3C1C4A5Z3A5H8I3G9H2"
           ]
         },
         {
@@ -20161,26 +20173,26 @@
         },
         {
           "monaCode": "H7X3372O",
-          "billCount": 31,
+          "billCount": 32,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9",
-            "PRC_X2W6U0V7D1E3C1C4A5Z3A5H8I3G9H2",
-            "PRC_A2B6I0J7I1G3G1E4F5N5O3M6K7L2J4"
+            "PRC_X2W6U0V7D1E3C1C4A5Z3A5H8I3G9H2"
           ]
         }
       ],
       "topOtherPartyCollaborators": [
         {
           "monaCode": "V2R7430Z",
-          "billCount": 31,
+          "billCount": 32,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9",
-            "PRC_A2B6I0J7I1G3G1E4F5N5O3M6K7L2J4",
-            "PRC_W2U6Q0R9P1Q4O1P3N3N5V5U8U1S3U2"
+            "PRC_A2B6I0J7I1G3G1E4F5N5O3M6K7L2J4"
           ]
         },
         {
@@ -21070,7 +21082,7 @@
       ]
     },
     "D6U6678O": {
-      "collaborationBillCount": 957,
+      "collaborationBillCount": 959,
       "uniqueCollaboratorCount": 291,
       "otherPartyCollaboratorCount": 131,
       "crossPartyBillCount": 460,
@@ -21110,13 +21122,13 @@
         },
         {
           "monaCode": "6WK3815W",
-          "billCount": 317,
+          "billCount": 319,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_75E8355FA85245BEAEA6F83F88AB7F",
+            "PRC_760AB0A65F5B41A1B9A85F77AB02E7",
             "PRC_R2P6Q0O9P2N3O1W4U1V9T3U0S4S7B1",
-            "PRC_M2N6L0M9K0L7G1F2G5E8F2D6D7L3K3",
-            "PRC_C2D6B0A9A0W7W1V2V5U7U3S8B3B5Z1",
-            "PRC_M2M6L0T8T2R5S1Q7R5P5X1Y7W8X3V6"
+            "PRC_M2N6L0M9K0L7G1F2G5E8F2D6D7L3K3"
           ]
         },
         {
@@ -21783,7 +21795,7 @@
       ]
     },
     "6WK3815W": {
-      "collaborationBillCount": 1074,
+      "collaborationBillCount": 1076,
       "uniqueCollaboratorCount": 274,
       "otherPartyCollaboratorCount": 114,
       "crossPartyBillCount": 546,
@@ -21834,13 +21846,13 @@
         },
         {
           "monaCode": "D6U6678O",
-          "billCount": 317,
+          "billCount": 319,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_75E8355FA85245BEAEA6F83F88AB7F",
+            "PRC_760AB0A65F5B41A1B9A85F77AB02E7",
             "PRC_R2P6Q0O9P2N3O1W4U1V9T3U0S4S7B1",
-            "PRC_M2N6L0M9K0L7G1F2G5E8F2D6D7L3K3",
-            "PRC_C2D6B0A9A0W7W1V2V5U7U3S8B3B5Z1",
-            "PRC_M2M6L0T8T2R5S1Q7R5P5X1Y7W8X3V6"
+            "PRC_M2N6L0M9K0L7G1F2G5E8F2D6D7L3K3"
           ]
         }
       ],
@@ -22858,31 +22870,31 @@
       ]
     },
     "04T3751T": {
-      "collaborationBillCount": 836,
+      "collaborationBillCount": 837,
       "uniqueCollaboratorCount": 271,
       "otherPartyCollaboratorCount": 111,
-      "crossPartyBillCount": 505,
+      "crossPartyBillCount": 506,
       "topCollaborators": [
         {
           "monaCode": "0R68099X",
-          "billCount": 410,
+          "billCount": 411,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_7AF6D39114974F29A0E6AAAD0B62DD",
             "PRC_0FFEB40AA6254AC0A056CD8F141DDC",
-            "PRC_0B904B8BEC56450B83D3D5CD57B82E",
-            "PRC_D962F6CEEFD84FF7BEEF8CC05CADEC"
+            "PRC_0B904B8BEC56450B83D3D5CD57B82E"
           ]
         },
         {
           "monaCode": "5N65159P",
-          "billCount": 327,
+          "billCount": 328,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_P2O6O0N9N1J5H1I9G3H4F2G2O6O9M7",
             "PRC_M2L6L0T9S1S5Q1R9Q3Q1M1K2L8J4K4",
-            "PRC_Q2O6P0X9Y1W5W1U9T2U7B2C8A0B1Z8",
-            "PRC_D2D6C0C9A1B5A1H9I3G6H3F3G2E7M2"
+            "PRC_Q2O6P0X9Y1W5W1U9T2U7B2C8A0B1Z8"
           ]
         },
         {
@@ -22898,24 +22910,24 @@
         },
         {
           "monaCode": "NXB3178C",
-          "billCount": 233,
+          "billCount": 234,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_K2L6J0J9G1G1E1F5D5C9C4K0K3J9K4",
             "PRC_B2B6A0W9W1U0V1U0U1S3A5B4Z8A6Y7",
-            "PRC_J2J6I0I8H2H5P1O8O4M9N4M4M8H3G9",
-            "PRC_Z2Y6Y0W8V2W0D1E4C2D1B1C3A3A0I2"
+            "PRC_J2J6I0I8H2H5P1O8O4M9N4M4M8H3G9"
           ]
         },
         {
           "monaCode": "51A45980",
-          "billCount": 226,
+          "billCount": 227,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_7AF6D39114974F29A0E6AAAD0B62DD",
             "PRC_0FFEB40AA6254AC0A056CD8F141DDC",
-            "PRC_0B904B8BEC56450B83D3D5CD57B82E",
-            "PRC_C2D6B0C9A1I6J0H9I3G2H4F7F4O5M6"
+            "PRC_0B904B8BEC56450B83D3D5CD57B82E"
           ]
         }
       ],
@@ -22933,13 +22945,13 @@
         },
         {
           "monaCode": "7GW5372Y",
-          "billCount": 104,
+          "billCount": 105,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_W2X6F0G9E0D7D1B6C0K3K1J6H3I1G2",
             "PRC_Y2V6Q0R8P0Q5O1N5N1V4V4U1V8T3T9",
-            "PRC_A2I6J0H7F2G1E1F3N1N3M5M3L3J9J8",
-            "PRC_Q2Q6P0Q7O0O8W1V0V4T7U2T8T1P9P6"
+            "PRC_A2I6J0H7F2G1E1F3N1N3M5M3L3J9J8"
           ]
         },
         {
@@ -22978,10 +22990,10 @@
       ]
     },
     "RUZ25800": {
-      "collaborationBillCount": 660,
-      "uniqueCollaboratorCount": 257,
-      "otherPartyCollaboratorCount": 97,
-      "crossPartyBillCount": 274,
+      "collaborationBillCount": 661,
+      "uniqueCollaboratorCount": 259,
+      "otherPartyCollaboratorCount": 99,
+      "crossPartyBillCount": 275,
       "topCollaborators": [
         {
           "monaCode": "2S73768V",
@@ -23218,10 +23230,10 @@
       ]
     },
     "J1G57517": {
-      "collaborationBillCount": 532,
+      "collaborationBillCount": 536,
       "uniqueCollaboratorCount": 292,
       "otherPartyCollaboratorCount": 132,
-      "crossPartyBillCount": 263,
+      "crossPartyBillCount": 265,
       "topCollaborators": [
         {
           "monaCode": "43Q3892U",
@@ -23282,13 +23294,13 @@
       "topOtherPartyCollaborators": [
         {
           "monaCode": "CC78321E",
-          "billCount": 50,
+          "billCount": 51,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_T2T6Z0Y6X1E7D1C7I4I5G0F7E3K4K8",
             "PRC_M2L6J0R6S2R4Q1O8Z4Y8W2V7W1E6D9",
-            "PRC_G2G6E0N6M0K5K1G1F1D3C2K6J1I2H9",
-            "PRC_T2S6Q0R3Q2Y6X1X6W3V7D1C5A3B5A8"
+            "PRC_G2G6E0N6M0K5K1G1F1D3C2K6J1I2H9"
           ]
         },
         {
@@ -23698,7 +23710,7 @@
       ]
     },
     "4U29186R": {
-      "collaborationBillCount": 1558,
+      "collaborationBillCount": 1560,
       "uniqueCollaboratorCount": 291,
       "otherPartyCollaboratorCount": 131,
       "crossPartyBillCount": 778,
@@ -23818,10 +23830,10 @@
       ]
     },
     "TZ228122": {
-      "collaborationBillCount": 2195,
+      "collaborationBillCount": 2196,
       "uniqueCollaboratorCount": 285,
       "otherPartyCollaboratorCount": 125,
-      "crossPartyBillCount": 1108,
+      "crossPartyBillCount": 1109,
       "topCollaborators": [
         {
           "monaCode": "IUX1829H",
@@ -23847,13 +23859,13 @@
         },
         {
           "monaCode": "5KV96424",
-          "billCount": 493,
+          "billCount": 494,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_1DB73763DDB246B38A4EC713EF120F",
             "PRC_9DCD75E9C9C842F7B3307DB8456A6A",
-            "PRC_DE85C8A3928F4770B17FFA91BAF354",
-            "PRC_6447BFE8BDDE42558F97B3342BAF4E"
+            "PRC_DE85C8A3928F4770B17FFA91BAF354"
           ]
         },
         {
@@ -24418,10 +24430,10 @@
       ]
     },
     "M4O5221T": {
-      "collaborationBillCount": 1113,
+      "collaborationBillCount": 1115,
       "uniqueCollaboratorCount": 244,
       "otherPartyCollaboratorCount": 84,
-      "crossPartyBillCount": 455,
+      "crossPartyBillCount": 457,
       "topCollaborators": [
         {
           "monaCode": "43Q3892U",
@@ -24458,48 +24470,48 @@
         },
         {
           "monaCode": "5KV96424",
-          "billCount": 257,
+          "billCount": 258,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_77C3153D95FE40F5A4050F6C0A58F7",
             "PRC_K2L6J0K9F2G1E1F0D1B6C2K6L5J6J1",
-            "PRC_L2M6K0J9J1R7S1Q7R4P2N3O1W6X4V5",
-            "PRC_T2T6R0S9Q1Y7Z1X7Y4W3X3V8V6E4C4"
+            "PRC_L2M6K0J9J1R7S1Q7R4P2N3O1W6X4V5"
           ]
         },
         {
           "monaCode": "3UI95829",
-          "billCount": 242,
+          "billCount": 243,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_P2O6O0N9N1J5H1I9G3H4F2G2O6O9M7",
             "PRC_M2L6L0T9S1S5Q1R9Q3Q1M1K2L8J4K4",
-            "PRC_Q2O6P0X9Y1W5W1U9T2U7B2C8A0B1Z8",
-            "PRC_D2D6C0C9A1B5A1H9I3G6H3F3G2E7M2"
+            "PRC_Q2O6P0X9Y1W5W1U9T2U7B2C8A0B1Z8"
           ]
         }
       ],
       "topOtherPartyCollaborators": [
         {
           "monaCode": "CC78321E",
-          "billCount": 145,
+          "billCount": 146,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_H2F6D0E9M2N3L1L1K5I8J2R6R8Q6Q2",
             "PRC_K2J6I0O6N0M5L1U3N3V4V2U6S7Z7Y3",
-            "PRC_B2A6B0Z8Z2Y8Z1G4H2G9E2E7C3E4L8",
-            "PRC_Y2G6F0F8E2E1C1D4L4L6K1I0J5H4I6"
+            "PRC_B2A6B0Z8Z2Y8Z1G4H2G9E2E7C3E4L8"
           ]
         },
         {
           "monaCode": "V2R7430Z",
-          "billCount": 82,
+          "billCount": 83,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_A2B6A0Y6Y2X3X1F5E2E9C4D6B2C5Y0",
             "PRC_X2F6G0F6E2C3Y1Z5X2W9V0D4J8F2E2",
-            "PRC_R2P6Q0P6P2N3J1K5H2I4G4G0O6P0N2",
-            "PRC_P2Q6D0C6B2Z3I1J5H2G7E3F9B5A3Y0"
+            "PRC_R2P6Q0P6P2N3J1K5H2I4G4G0O6P0N2"
           ]
         },
         {
@@ -24538,10 +24550,10 @@
       ]
     },
     "7R156073": {
-      "collaborationBillCount": 222,
+      "collaborationBillCount": 223,
       "uniqueCollaboratorCount": 290,
       "otherPartyCollaboratorCount": 130,
-      "crossPartyBillCount": 94,
+      "crossPartyBillCount": 95,
       "topCollaborators": [
         {
           "monaCode": "5KV96424",
@@ -24578,13 +24590,13 @@
         },
         {
           "monaCode": "43Q3892U",
-          "billCount": 75,
+          "billCount": 76,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_I2J6H0H9G0H1F1F3N1O6M2K9L6J9K1",
             "PRC_L2T6A0Z6X2F3G1E5D2C6K5L9J8I9H9",
-            "PRC_A2B6A0Y6Y2X3X1F5E2E9C4D6B2C5Y0",
-            "PRC_D2Y6D0B7S0C9Q1T7E0V6J5U7I6P1X5"
+            "PRC_A2B6A0Y6Y2X3X1F5E2E9C4D6B2C5Y0"
           ]
         },
         {
@@ -25618,10 +25630,10 @@
       ]
     },
     "1JI2689F": {
-      "collaborationBillCount": 1654,
+      "collaborationBillCount": 1656,
       "uniqueCollaboratorCount": 291,
       "otherPartyCollaboratorCount": 131,
-      "crossPartyBillCount": 753,
+      "crossPartyBillCount": 755,
       "topCollaborators": [
         {
           "monaCode": "IC499858",
@@ -25647,24 +25659,24 @@
         },
         {
           "monaCode": "JC14718Q",
-          "billCount": 354,
+          "billCount": 355,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_DE9119CD156E46D7A2F2478C3D17D3",
-            "PRC_EF468AAFF3BC4FEBA9360C703369D4",
-            "PRC_EEDBE39E322E4999B9DC07E89B2080"
+            "PRC_EF468AAFF3BC4FEBA9360C703369D4"
           ]
         },
         {
           "monaCode": "43Q3892U",
-          "billCount": 336,
+          "billCount": 337,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_9B5ECFD0B0424C9A8A2469D68D3825",
-            "PRC_2CE1D6BED1FC48AF8E69CB92893E04",
-            "PRC_46BB972AD92A4E3F9184984D7DCD9B"
+            "PRC_2CE1D6BED1FC48AF8E69CB92893E04"
           ]
         },
         {
@@ -25693,13 +25705,13 @@
         },
         {
           "monaCode": "V2R7430Z",
-          "billCount": 111,
+          "billCount": 113,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
-            "PRC_C2D6L0J8J2I9J1H3H0E9C4C2B8B0Z7",
-            "PRC_K2R6S0Q9R0P1Q1O7P1X6V1W5U9U5T4",
-            "PRC_U2S6T0R9S0Q1R1Y7Z1X5W1W2V0V8D3"
+            "PRC_C2D6L0J8J2I9J1H3H0E9C4C2B8B0Z7"
           ]
         },
         {
@@ -25858,10 +25870,10 @@
       ]
     },
     "4019850M": {
-      "collaborationBillCount": 1755,
+      "collaborationBillCount": 1756,
       "uniqueCollaboratorCount": 292,
       "otherPartyCollaboratorCount": 132,
-      "crossPartyBillCount": 814,
+      "crossPartyBillCount": 815,
       "topCollaborators": [
         {
           "monaCode": "ZW43496R",
@@ -25909,13 +25921,13 @@
         },
         {
           "monaCode": "K5F2023J",
-          "billCount": 372,
+          "billCount": 373,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_V2W6R0S8Q1R2P1P4O1W9W0V1W7U1U2",
             "PRC_K2L6J0J9G1G1E1F5D5C9C4K0K3J9K4",
-            "PRC_I2P6O0O8N1O0M1M6V5T4T1S1S1Q9Z5",
-            "PRC_I2X6W0W8U1V0T1C6C5A3B3Z5A3Z4G3"
+            "PRC_I2P6O0O8N1O0M1M6V5T4T1S1S1Q9Z5"
           ]
         }
       ],
@@ -25966,13 +25978,13 @@
         },
         {
           "monaCode": "V2R7430Z",
-          "billCount": 66,
+          "billCount": 67,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_K2L6J0J9G1G1E1F5D5C9C4K0K3J9K4",
             "PRC_F2H6F0F8D3C1D1K8L0J8K0I6J5H3P6",
-            "PRC_T2R6S0Q7Q2N0N1L3K1K3J4J0R0S8Q5",
-            "PRC_K2S6T0R7S2Q4Q1P3X2X5V2X4V4V3U4"
+            "PRC_T2R6S0Q7Q2N0N1L3K1K3J4J0R0S8Q5"
           ]
         }
       ]
@@ -26098,7 +26110,7 @@
       ]
     },
     "HVV5250J": {
-      "collaborationBillCount": 1740,
+      "collaborationBillCount": 1742,
       "uniqueCollaboratorCount": 269,
       "otherPartyCollaboratorCount": 109,
       "crossPartyBillCount": 834,
@@ -26578,53 +26590,53 @@
       ]
     },
     "H7X3372O": {
-      "collaborationBillCount": 103,
+      "collaborationBillCount": 104,
       "uniqueCollaboratorCount": 175,
       "otherPartyCollaboratorCount": 15,
-      "crossPartyBillCount": 50,
+      "crossPartyBillCount": 51,
       "topCollaborators": [
         {
           "monaCode": "JC14718Q",
-          "billCount": 74,
+          "billCount": 75,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_3E15A693C3E54F9DB64B1FD057772E",
-            "PRC_CB33CF41A4A4418F879C562D4A4DA0",
-            "PRC_8D19510743634CC7BF0F213E8A5F00"
+            "PRC_CB33CF41A4A4418F879C562D4A4DA0"
           ]
         },
         {
           "monaCode": "43Q3892U",
-          "billCount": 44,
+          "billCount": 45,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_9B5ECFD0B0424C9A8A2469D68D3825",
-            "PRC_2CE1D6BED1FC48AF8E69CB92893E04",
-            "PRC_46BB972AD92A4E3F9184984D7DCD9B"
+            "PRC_2CE1D6BED1FC48AF8E69CB92893E04"
           ]
         },
         {
           "monaCode": "V2R7430Z",
-          "billCount": 37,
+          "billCount": 38,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_1A7DF20C3D2A4B7A8805054108E437",
-            "PRC_B96EEFCC4B0547469F2E40DB229F81",
-            "PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9"
+            "PRC_B96EEFCC4B0547469F2E40DB229F81"
           ]
         },
         {
           "monaCode": "FIC9046Z",
-          "billCount": 31,
+          "billCount": 32,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9",
-            "PRC_X2W6U0V7D1E3C1C4A5Z3A5H8I3G9H2",
-            "PRC_A2B6I0J7I1G3G1E4F5N5O3M6K7L2J4"
+            "PRC_X2W6U0V7D1E3C1C4A5Z3A5H8I3G9H2"
           ]
         },
         {
@@ -26642,13 +26654,13 @@
       "topOtherPartyCollaborators": [
         {
           "monaCode": "V2R7430Z",
-          "billCount": 37,
+          "billCount": 38,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_1A7DF20C3D2A4B7A8805054108E437",
-            "PRC_B96EEFCC4B0547469F2E40DB229F81",
-            "PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9"
+            "PRC_B96EEFCC4B0547469F2E40DB229F81"
           ]
         },
         {
@@ -27057,7 +27069,7 @@
       ]
     },
     "E2B3753X": {
-      "collaborationBillCount": 1556,
+      "collaborationBillCount": 1558,
       "uniqueCollaboratorCount": 280,
       "otherPartyCollaboratorCount": 120,
       "crossPartyBillCount": 656,
@@ -27535,20 +27547,20 @@
       ]
     },
     "43Q3892U": {
-      "collaborationBillCount": 2351,
+      "collaborationBillCount": 2353,
       "uniqueCollaboratorCount": 284,
       "otherPartyCollaboratorCount": 124,
-      "crossPartyBillCount": 1094,
+      "crossPartyBillCount": 1095,
       "topCollaborators": [
         {
           "monaCode": "JC14718Q",
-          "billCount": 693,
+          "billCount": 695,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
+            "PRC_G2G6E0F8N0O4M1M9L1J8K0F0G3F4F4",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
-            "PRC_9B5ECFD0B0424C9A8A2469D68D3825",
-            "PRC_2CE1D6BED1FC48AF8E69CB92893E04",
-            "PRC_46BB972AD92A4E3F9184984D7DCD9B"
+            "PRC_9B5ECFD0B0424C9A8A2469D68D3825"
           ]
         },
         {
@@ -27610,13 +27622,13 @@
         },
         {
           "monaCode": "V2R7430Z",
-          "billCount": 203,
+          "billCount": 204,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9",
-            "PRC_A2B6I0J7I1G3G1E4F5N5O3M6K7L2J4",
-            "PRC_W2U6Q0R9P1Q4O1P3N3N5V5U8U1S3U2"
+            "PRC_A2B6I0J7I1G3G1E4F5N5O3M6K7L2J4"
           ]
         },
         {
@@ -27775,10 +27787,10 @@
       ]
     },
     "4X525582": {
-      "collaborationBillCount": 162,
-      "uniqueCollaboratorCount": 233,
-      "otherPartyCollaboratorCount": 125,
-      "crossPartyBillCount": 29,
+      "collaborationBillCount": 163,
+      "uniqueCollaboratorCount": 234,
+      "otherPartyCollaboratorCount": 126,
+      "crossPartyBillCount": 30,
       "topCollaborators": [
         {
           "monaCode": "HS39431V",
@@ -28015,31 +28027,31 @@
       ]
     },
     "MDC3257K": {
-      "collaborationBillCount": 823,
+      "collaborationBillCount": 824,
       "uniqueCollaboratorCount": 254,
       "otherPartyCollaboratorCount": 94,
-      "crossPartyBillCount": 455,
+      "crossPartyBillCount": 456,
       "topCollaborators": [
         {
           "monaCode": "5N65159P",
-          "billCount": 254,
+          "billCount": 255,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_P2N6O0J9L1J8J0H9G1H8O5P9N5O5N2",
             "PRC_A526CDC7C963414AB15C215C87E933",
-            "PRC_N2L6M0U7V2T2T2S0Q1R6N4N9L5K5L3",
-            "PRC_D2Y6D0B7S0C9Q1T7E0V6J5U7I6P1X5"
+            "PRC_N2L6M0U7V2T2T2S0Q1R6N4N9L5K5L3"
           ]
         },
         {
           "monaCode": "TZ228122",
-          "billCount": 253,
+          "billCount": 254,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_D2Y6D0B7S0C9Q1T7E0V6J5U7I6P1X5",
             "PRC_W2X6V0T7U0S1T1B3B2A7A1Z3X6X1G4",
-            "PRC_E2E6M0K7L0K1K1I3Q2R6P2Q2O9P9N7",
-            "PRC_Q2P6B0X7V0U1T1T3C2A0Z3X4Y5G0F6"
+            "PRC_E2E6M0K7L0K1K1I3Q2R6P2Q2O9P9N7"
           ]
         },
         {
@@ -28055,13 +28067,13 @@
         },
         {
           "monaCode": "0R68099X",
-          "billCount": 218,
+          "billCount": 219,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_R2S6Q0Q9P0X3X1V7W1V0V3T5U0C3A9",
             "PRC_D2Y6D0B7S0C9Q1T7E0V6J5U7I6P1X5",
-            "PRC_T2U6S0S6B3B0Z1A0Y2X0X0T4U8S0S7",
-            "PRC_Y2G6E0D6C2D3L1J4I2I3H4P7N7O9N6"
+            "PRC_T2U6S0S6B3B0Z1A0Y2X0X0T4U8S0S7"
           ]
         },
         {
@@ -28255,20 +28267,20 @@
       ]
     },
     "HSS7466Y": {
-      "collaborationBillCount": 673,
+      "collaborationBillCount": 674,
       "uniqueCollaboratorCount": 286,
       "otherPartyCollaboratorCount": 126,
-      "crossPartyBillCount": 342,
+      "crossPartyBillCount": 343,
       "topCollaborators": [
         {
           "monaCode": "0R68099X",
-          "billCount": 267,
+          "billCount": 268,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_7AF6D39114974F29A0E6AAAD0B62DD",
             "PRC_0FFEB40AA6254AC0A056CD8F141DDC",
-            "PRC_0B904B8BEC56450B83D3D5CD57B82E",
-            "PRC_D962F6CEEFD84FF7BEEF8CC05CADEC"
+            "PRC_0B904B8BEC56450B83D3D5CD57B82E"
           ]
         },
         {
@@ -28284,24 +28296,24 @@
         },
         {
           "monaCode": "04T3751T",
-          "billCount": 190,
+          "billCount": 191,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_7AF6D39114974F29A0E6AAAD0B62DD",
             "PRC_0FFEB40AA6254AC0A056CD8F141DDC",
-            "PRC_0B904B8BEC56450B83D3D5CD57B82E",
-            "PRC_D962F6CEEFD84FF7BEEF8CC05CADEC"
+            "PRC_0B904B8BEC56450B83D3D5CD57B82E"
           ]
         },
         {
           "monaCode": "TZ228122",
-          "billCount": 174,
+          "billCount": 175,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_9DCD75E9C9C842F7B3307DB8456A6A",
             "PRC_0E0F2D6DFBDB4C74ADA77818A9793D",
-            "PRC_48C733CCC45E41D28EF0CEAA4EF093",
-            "PRC_523CC8EC416442298232DD77AE0981"
+            "PRC_48C733CCC45E41D28EF0CEAA4EF093"
           ]
         },
         {
@@ -28495,10 +28507,10 @@
       ]
     },
     "6I88973D": {
-      "collaborationBillCount": 499,
+      "collaborationBillCount": 500,
       "uniqueCollaboratorCount": 259,
       "otherPartyCollaboratorCount": 99,
-      "crossPartyBillCount": 250,
+      "crossPartyBillCount": 251,
       "topCollaborators": [
         {
           "monaCode": "8BF5855P",
@@ -28603,13 +28615,13 @@
         },
         {
           "monaCode": "0YT3774N",
-          "billCount": 29,
+          "billCount": 30,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_173F5ACE25304C3DA1D28C566D93C7",
             "PRC_G2M6L0K5J1Q8P1O0W5T1S5P0Y8X6W5",
             "PRC_Z2X6Y0G7H1F5F1E0C5D1K0L1J3K7J0",
-            "PRC_T2R6P0Q7O1P5X1X0W5U4V1T1U2C7C8",
-            "PRC_K2R6V0N6R2F6C1F7Q2F0U2U9H2Z2G5"
+            "PRC_T2R6P0Q7O1P5X1X0W5U4V1T1U2C7C8"
           ]
         }
       ]
@@ -28735,42 +28747,42 @@
       ]
     },
     "51A45980": {
-      "collaborationBillCount": 1552,
+      "collaborationBillCount": 1555,
       "uniqueCollaboratorCount": 292,
       "otherPartyCollaboratorCount": 132,
-      "crossPartyBillCount": 1002,
+      "crossPartyBillCount": 1003,
       "topCollaborators": [
         {
           "monaCode": "0R68099X",
-          "billCount": 453,
+          "billCount": 454,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_7AF6D39114974F29A0E6AAAD0B62DD",
             "PRC_0FFEB40AA6254AC0A056CD8F141DDC",
-            "PRC_0B904B8BEC56450B83D3D5CD57B82E",
-            "PRC_A805A73284B54D3184B7F01FED311E"
+            "PRC_0B904B8BEC56450B83D3D5CD57B82E"
           ]
         },
         {
           "monaCode": "5N65159P",
-          "billCount": 423,
+          "billCount": 426,
           "sameParty": true,
           "sharedBillIds": [
-            "PRC_T2T6S0S9R2P1Q0L9M1K8L0J5K6I4Q7",
-            "PRC_K2J6J0H8I3O1P1N3O3M3N0U0T6U8S1",
-            "PRC_P2N6M0M8L3L1H1I3G3G3F4D6E9M2M7",
-            "PRC_C2D6B0C9A1I6J0H9I3G2H4F7F4O5M6"
+            "PRC_62C17599B75549DB8A94AABBDD6034",
+            "PRC_8ED32CA4E74B4058BAE7D2751D2787",
+            "PRC_5686827377E4446DA0A7F559BE411D",
+            "PRC_T2T6S0S9R2P1Q0L9M1K8L0J5K6I4Q7"
           ]
         },
         {
           "monaCode": "TZ228122",
-          "billCount": 341,
+          "billCount": 342,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_E37FE80B84E64084BABD8E9EB5F802",
             "PRC_T2T6S0S9R2P1Q0L9M1K8L0J5K6I4Q7",
-            "PRC_K2J6J0H8I3O1P1N3O3M3N0U0T6U8S1",
-            "PRC_P2N6M0M8L3L1H1I3G3G3F4D6E9M2M7"
+            "PRC_K2J6J0H8I3O1P1N3O3M3N0U0T6U8S1"
           ]
         },
         {
@@ -28975,7 +28987,7 @@
       ]
     },
     "FOK3459D": {
-      "collaborationBillCount": 941,
+      "collaborationBillCount": 943,
       "uniqueCollaboratorCount": 291,
       "otherPartyCollaboratorCount": 131,
       "crossPartyBillCount": 420,
@@ -31124,10 +31136,10 @@
       ]
     },
     "RMC1840P": {
-      "collaborationBillCount": 775,
-      "uniqueCollaboratorCount": 275,
-      "otherPartyCollaboratorCount": 167,
-      "crossPartyBillCount": 108,
+      "collaborationBillCount": 776,
+      "uniqueCollaboratorCount": 276,
+      "otherPartyCollaboratorCount": 168,
+      "crossPartyBillCount": 109,
       "topCollaborators": [
         {
           "monaCode": "JP222486",
@@ -31142,13 +31154,13 @@
         },
         {
           "monaCode": "DWK26447",
-          "billCount": 247,
+          "billCount": 248,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_E124335245E74DCFAFF6977223C766",
             "PRC_6426E6C02AAB4316B9AA327684085A",
             "PRC_F2DF784D62AA4A8E8ABA8C5055DF55",
-            "PRC_B0E599801AC04FCC9865C3C218CD32",
-            "PRC_M2K6J0J9R2S1Q0R9P3P7O4W6W4V6W7"
+            "PRC_B0E599801AC04FCC9865C3C218CD32"
           ]
         },
         {
@@ -31364,7 +31376,7 @@
       ]
     },
     "M7O7878U": {
-      "collaborationBillCount": 668,
+      "collaborationBillCount": 670,
       "uniqueCollaboratorCount": 262,
       "otherPartyCollaboratorCount": 102,
       "crossPartyBillCount": 286,
@@ -31964,10 +31976,10 @@
       ]
     },
     "W8L9421K": {
-      "collaborationBillCount": 889,
+      "collaborationBillCount": 890,
       "uniqueCollaboratorCount": 292,
       "otherPartyCollaboratorCount": 132,
-      "crossPartyBillCount": 451,
+      "crossPartyBillCount": 452,
       "topCollaborators": [
         {
           "monaCode": "EBH1101V",
@@ -32084,31 +32096,31 @@
       ]
     },
     "XEF29171": {
-      "collaborationBillCount": 752,
+      "collaborationBillCount": 753,
       "uniqueCollaboratorCount": 252,
       "otherPartyCollaboratorCount": 92,
-      "crossPartyBillCount": 424,
+      "crossPartyBillCount": 425,
       "topCollaborators": [
         {
           "monaCode": "JC14718Q",
-          "billCount": 362,
+          "billCount": 363,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_DE9119CD156E46D7A2F2478C3D17D3",
-            "PRC_4EB4E00897DB4FB582C1FFD2FEDFB5",
-            "PRC_D371A617E7DF473EB8A5004A7B5100"
+            "PRC_4EB4E00897DB4FB582C1FFD2FEDFB5"
           ]
         },
         {
           "monaCode": "43Q3892U",
-          "billCount": 302,
+          "billCount": 303,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_9B5ECFD0B0424C9A8A2469D68D3825",
-            "PRC_2CE1D6BED1FC48AF8E69CB92893E04",
-            "PRC_46BB972AD92A4E3F9184984D7DCD9B"
+            "PRC_2CE1D6BED1FC48AF8E69CB92893E04"
           ]
         },
         {
@@ -32148,13 +32160,13 @@
       "topOtherPartyCollaborators": [
         {
           "monaCode": "V2R7430Z",
-          "billCount": 143,
+          "billCount": 144,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_1A7DF20C3D2A4B7A8805054108E437",
-            "PRC_B96EEFCC4B0547469F2E40DB229F81",
-            "PRC_W2U6Q0R9P1Q4O1P3N3N5V5U8U1S3U2"
+            "PRC_B96EEFCC4B0547469F2E40DB229F81"
           ]
         },
         {
@@ -32564,20 +32576,20 @@
       ]
     },
     "URX8075K": {
-      "collaborationBillCount": 1058,
+      "collaborationBillCount": 1061,
       "uniqueCollaboratorCount": 292,
       "otherPartyCollaboratorCount": 132,
-      "crossPartyBillCount": 546,
+      "crossPartyBillCount": 549,
       "topCollaborators": [
         {
           "monaCode": "IC499858",
-          "billCount": 299,
+          "billCount": 300,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_C2D6B0B9X1V6W1U5V1T3U4C5A2B3Z9",
             "PRC_G2E6F0D9E1C6D1K5L1J2I1I6G1H1P8",
-            "PRC_D2D6C0C9K1L6J1K5I1H3H0P7P2O0P4",
-            "PRC_W2X6F0F9E1C7D1B1C4X5Y3W1X5V0U5"
+            "PRC_D2D6C0C9K1L6J1K5I1H3H0P7P2O0P4"
           ]
         },
         {
@@ -32628,13 +32640,13 @@
       "topOtherPartyCollaborators": [
         {
           "monaCode": "CC78321E",
-          "billCount": 167,
+          "billCount": 168,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_U2U5S1T2S2Z9A1Y6Y1X7Y2W3W7T0R7",
             "PRC_N2O4M1L1L1T5T1S1T4R9R3P8L8M6K4",
-            "PRC_Z2X6X0F7G1E0D1D4B5C8K0L8J7I8I8",
-            "PRC_C2D6B0B7A1Y0Z1V4V5T8U4T9R5R5Z5"
+            "PRC_Z2X6X0F7G1E0D1D4B5C8K0L8J7I8I8"
           ]
         },
         {
@@ -32661,43 +32673,43 @@
         },
         {
           "monaCode": "0YT3774N",
-          "billCount": 62,
+          "billCount": 63,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_173F5ACE25304C3DA1D28C566D93C7",
             "PRC_1DB73763DDB246B38A4EC713EF120F",
             "PRC_9DCD75E9C9C842F7B3307DB8456A6A",
-            "PRC_C2D6B0B9X1V6W1U5V1T3U4C5A2B3Z9",
-            "PRC_G2E6F0D9E1C6D1K5L1J2I1I6G1H1P8"
+            "PRC_C2D6B0B9X1V6W1U5V1T3U4C5A2B3Z9"
           ]
         },
         {
           "monaCode": "3TP65086",
-          "billCount": 61,
+          "billCount": 62,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_173F5ACE25304C3DA1D28C566D93C7",
             "PRC_U2U5S1T2S2Z9A1Y6Y1X7Y2W3W7T0R7",
             "PRC_D2E6D0D9B1K8K1I0J5H1I5G6O4P9N0",
-            "PRC_O2O6M0N7J2H0I1G4H1F8N0O5M0N1L8",
-            "PRC_L2M5K1K2T2R3R0P9Q4O3P1X0Y5W8W4"
+            "PRC_O2O6M0N7J2H0I1G4H1F8N0O5M0N1L8"
           ]
         }
       ]
     },
     "OIA3741M": {
-      "collaborationBillCount": 183,
+      "collaborationBillCount": 184,
       "uniqueCollaboratorCount": 226,
       "otherPartyCollaboratorCount": 66,
-      "crossPartyBillCount": 77,
+      "crossPartyBillCount": 78,
       "topCollaborators": [
         {
           "monaCode": "IUX1829H",
-          "billCount": 97,
+          "billCount": 98,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_173F5ACE25304C3DA1D28C566D93C7",
             "PRC_DE85C8A3928F4770B17FFA91BAF354",
             "PRC_92481958D8994606B5AE8B0D85E18C",
-            "PRC_C93AC02E4D1F47EABA8DD8FC3A36EC",
-            "PRC_D2E6D0D9B1K8K1I0J5H1I5G6O4P9N0"
+            "PRC_C93AC02E4D1F47EABA8DD8FC3A36EC"
           ]
         },
         {
@@ -33279,10 +33291,10 @@
       ]
     },
     "GX38539O": {
-      "collaborationBillCount": 322,
+      "collaborationBillCount": 323,
       "uniqueCollaboratorCount": 272,
       "otherPartyCollaboratorCount": 112,
-      "crossPartyBillCount": 165,
+      "crossPartyBillCount": 166,
       "topCollaborators": [
         {
           "monaCode": "VCP96419",
@@ -33343,13 +33355,13 @@
       "topOtherPartyCollaborators": [
         {
           "monaCode": "CC78321E",
-          "billCount": 55,
+          "billCount": 56,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_K2K6J0H8I0G4G1P4P5N0O5N0L2L7T6",
             "PRC_U2U6S0U8S0S4Q0Z9Z2X8Y3W6X9V1W0",
-            "PRC_J2H6I0G8G0P5N1N6L0N5L5L0T4R0S6",
-            "PRC_E2C6D0B7A2A5P1Q2O1P7N5N7M3U4U0"
+            "PRC_J2H6I0G8G0P5N1N6L0N5L5L0T4R0S6"
           ]
         },
         {
@@ -33877,10 +33889,10 @@
       ]
     },
     "GP07421U": {
-      "collaborationBillCount": 490,
+      "collaborationBillCount": 491,
       "uniqueCollaboratorCount": 256,
       "otherPartyCollaboratorCount": 96,
-      "crossPartyBillCount": 203,
+      "crossPartyBillCount": 204,
       "topCollaborators": [
         {
           "monaCode": "95J3282H",
@@ -34467,10 +34479,10 @@
       ]
     },
     "MQK9493H": {
-      "collaborationBillCount": 1144,
+      "collaborationBillCount": 1145,
       "uniqueCollaboratorCount": 282,
       "otherPartyCollaboratorCount": 122,
-      "crossPartyBillCount": 535,
+      "crossPartyBillCount": 536,
       "topCollaborators": [
         {
           "monaCode": "4U29186R",
@@ -34553,13 +34565,13 @@
         },
         {
           "monaCode": "0YT3774N",
-          "billCount": 77,
+          "billCount": 78,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_173F5ACE25304C3DA1D28C566D93C7",
             "PRC_J2K5I1J1H2I8G1G1P0N9N2M6M6L5L4",
             "PRC_W2X5V0W8S2S8Q1R6Q5O2O2W1X8V3W9",
-            "PRC_N2M5L0T8S2T5R1Q3Y5W2X1W3U4D3B1",
-            "PRC_X2V5V0T7V0C4D1B5C3A1Y4Z8V8V0T1"
+            "PRC_N2M5L0T8S2T5R1Q3Y5W2X1W3U4D3B1"
           ]
         },
         {
@@ -34587,10 +34599,10 @@
       ]
     },
     "3TP65086": {
-      "collaborationBillCount": 625,
+      "collaborationBillCount": 626,
       "uniqueCollaboratorCount": 249,
       "otherPartyCollaboratorCount": 246,
-      "crossPartyBillCount": 625,
+      "crossPartyBillCount": 626,
       "topCollaborators": [
         {
           "monaCode": "P8A4624C",
@@ -34684,13 +34696,13 @@
         },
         {
           "monaCode": "0YT3774N",
-          "billCount": 200,
+          "billCount": 201,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_173F5ACE25304C3DA1D28C566D93C7",
             "PRC_Z2V6W0U2T2T0R1S3Y4Z9X5Y9W3W3E5",
             "PRC_Q2R6P0N9O0N7N0C9C4B7I0Q6P3O7N4",
-            "PRC_B2A6A0Z9A0H7I1G0F2F8D1F7A8A9Z5",
-            "PRC_W2U6T0U9B0C7A1B0Z2Y9Y5H1F7F1E4"
+            "PRC_B2A6A0Z9A0H7I1G0F2F8D1F7A8A9Z5"
           ]
         },
         {
@@ -34707,20 +34719,20 @@
       ]
     },
     "JC14718Q": {
-      "collaborationBillCount": 2299,
+      "collaborationBillCount": 2301,
       "uniqueCollaboratorCount": 266,
       "otherPartyCollaboratorCount": 106,
-      "crossPartyBillCount": 1060,
+      "crossPartyBillCount": 1061,
       "topCollaborators": [
         {
           "monaCode": "43Q3892U",
-          "billCount": 693,
+          "billCount": 695,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
+            "PRC_G2G6E0F8N0O4M1M9L1J8K0F0G3F4F4",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
-            "PRC_9B5ECFD0B0424C9A8A2469D68D3825",
-            "PRC_2CE1D6BED1FC48AF8E69CB92893E04",
-            "PRC_46BB972AD92A4E3F9184984D7DCD9B"
+            "PRC_9B5ECFD0B0424C9A8A2469D68D3825"
           ]
         },
         {
@@ -34782,13 +34794,13 @@
         },
         {
           "monaCode": "V2R7430Z",
-          "billCount": 297,
+          "billCount": 298,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_1A7DF20C3D2A4B7A8805054108E437",
-            "PRC_B96EEFCC4B0547469F2E40DB229F81",
-            "PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9"
+            "PRC_B96EEFCC4B0547469F2E40DB229F81"
           ]
         },
         {
@@ -35067,7 +35079,7 @@
       ]
     },
     "O7R5461J": {
-      "collaborationBillCount": 825,
+      "collaborationBillCount": 827,
       "uniqueCollaboratorCount": 291,
       "otherPartyCollaboratorCount": 131,
       "crossPartyBillCount": 381,
@@ -35107,13 +35119,13 @@
         },
         {
           "monaCode": "X639721U",
-          "billCount": 253,
+          "billCount": 255,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_75E8355FA85245BEAEA6F83F88AB7F",
+            "PRC_760AB0A65F5B41A1B9A85F77AB02E7",
             "PRC_E2E6M0M8L2M8K1K8I5R9R1Q7Q2P7N3",
-            "PRC_B1AC34D506374C88A5276720E332C2",
-            "PRC_X2Y6W0X9V2W3R1Q7Q3P2P1O1O1W1X8",
-            "PRC_0506C48B90EE4DB284492F02B8D0CA"
+            "PRC_B1AC34D506374C88A5276720E332C2"
           ]
         },
         {
@@ -35187,7 +35199,7 @@
       ]
     },
     "AEO5706C": {
-      "collaborationBillCount": 718,
+      "collaborationBillCount": 720,
       "uniqueCollaboratorCount": 237,
       "otherPartyCollaboratorCount": 77,
       "crossPartyBillCount": 356,
@@ -35216,13 +35228,13 @@
         },
         {
           "monaCode": "5KV96424",
-          "billCount": 257,
+          "billCount": 259,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_62C17599B75549DB8A94AABBDD6034",
+            "PRC_8ED32CA4E74B4058BAE7D2751D2787",
             "PRC_1DB73763DDB246B38A4EC713EF120F",
-            "PRC_9DCD75E9C9C842F7B3307DB8456A6A",
-            "PRC_65359F7D6D1A4AEE93D47956593EA4",
-            "PRC_14A5C8A2878B434593E83130982C15"
+            "PRC_9DCD75E9C9C842F7B3307DB8456A6A"
           ]
         },
         {
@@ -35778,10 +35790,10 @@
       ]
     },
     "W3U3344O": {
-      "collaborationBillCount": 1603,
+      "collaborationBillCount": 1604,
       "uniqueCollaboratorCount": 282,
       "otherPartyCollaboratorCount": 122,
-      "crossPartyBillCount": 737,
+      "crossPartyBillCount": 738,
       "topCollaborators": [
         {
           "monaCode": "ZW43496R",
@@ -35853,13 +35865,13 @@
         },
         {
           "monaCode": "CC78321E",
-          "billCount": 89,
+          "billCount": 90,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_R2R6Q0M7M2K7L1J6K0I8J4R0P6Q2O4",
             "PRC_U2R6Q0O6P2X2V1U0T0U9G2F2E6C7D2",
-            "PRC_Y2X6W0S6R2Q9O1X4V3W3V3T6B1E9D6",
-            "PRC_D2D6B0X7Y0W8X1V3W0U9C0C3B6B5A0"
+            "PRC_Y2X6W0S6R2Q9O1X4V3W3V3T6B1E9D6"
           ]
         },
         {
@@ -36378,10 +36390,10 @@
       ]
     },
     "WXJ8352N": {
-      "collaborationBillCount": 768,
-      "uniqueCollaboratorCount": 258,
-      "otherPartyCollaboratorCount": 150,
-      "crossPartyBillCount": 61,
+      "collaborationBillCount": 769,
+      "uniqueCollaboratorCount": 259,
+      "otherPartyCollaboratorCount": 151,
+      "crossPartyBillCount": 62,
       "topCollaborators": [
         {
           "monaCode": "JP222486",
@@ -36396,24 +36408,24 @@
         },
         {
           "monaCode": "EPI69383",
-          "billCount": 270,
+          "billCount": 271,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_E124335245E74DCFAFF6977223C766",
             "PRC_6426E6C02AAB4316B9AA327684085A",
             "PRC_R2K6Q0U9N2T1A1R7N3D4H5R8T4H9B2",
-            "PRC_V2T6T0S9S0A8Y1Z4X4Y8W4X4F3F5E6",
-            "PRC_L2M6K0L9J0K8I1J4R4P6P5O9O2N6N5"
+            "PRC_V2T6T0S9S0A8Y1Z4X4Y8W4X4F3F5E6"
           ]
         },
         {
           "monaCode": "MQU41854",
-          "billCount": 258,
+          "billCount": 259,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_E124335245E74DCFAFF6977223C766",
             "PRC_6426E6C02AAB4316B9AA327684085A",
             "PRC_R2K6Q0U9N2T1A1R7N3D4H5R8T4H9B2",
-            "PRC_V2T6T0S9S0A8Y1Z4X4Y8W4X4F3F5E6",
-            "PRC_L2M6K0L9J0K8I1J4R4P6P5O9O2N6N5"
+            "PRC_V2T6T0S9S0A8Y1Z4X4Y8W4X4F3F5E6"
           ]
         },
         {
@@ -36850,10 +36862,10 @@
       ]
     },
     "0R68099X": {
-      "collaborationBillCount": 2036,
+      "collaborationBillCount": 2037,
       "uniqueCollaboratorCount": 272,
       "otherPartyCollaboratorCount": 112,
-      "crossPartyBillCount": 1210,
+      "crossPartyBillCount": 1211,
       "topCollaborators": [
         {
           "monaCode": "3249208I",
@@ -36868,24 +36880,24 @@
         },
         {
           "monaCode": "TZ228122",
-          "billCount": 481,
+          "billCount": 482,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_0E0F2D6DFBDB4C74ADA77818A9793D",
             "PRC_48C733CCC45E41D28EF0CEAA4EF093",
-            "PRC_523CC8EC416442298232DD77AE0981",
-            "PRC_EBAEC6C8640043C7B72787B9A4D380"
+            "PRC_523CC8EC416442298232DD77AE0981"
           ]
         },
         {
           "monaCode": "5N65159P",
-          "billCount": 474,
+          "billCount": 475,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_K2J6J0H8I3O1P1N3O3M3N0U0T6U8S1",
             "PRC_P2N6M0M8L3L1H1I3G3G3F4D6E9M2M7",
-            "PRC_C2D6B0C9A1I6J0H9I3G2H4F7F4O5M6",
-            "PRC_K2L6J0J9G1G1E1F5D5C9C4K0K3J9K4"
+            "PRC_C2D6B0C9A1I6J0H9I3G2H4F7F4O5M6"
           ]
         },
         {
@@ -36901,13 +36913,13 @@
         },
         {
           "monaCode": "51A45980",
-          "billCount": 453,
+          "billCount": 454,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_7AF6D39114974F29A0E6AAAD0B62DD",
             "PRC_0FFEB40AA6254AC0A056CD8F141DDC",
-            "PRC_0B904B8BEC56450B83D3D5CD57B82E",
-            "PRC_A805A73284B54D3184B7F01FED311E"
+            "PRC_0B904B8BEC56450B83D3D5CD57B82E"
           ]
         }
       ],
@@ -37090,7 +37102,7 @@
       ]
     },
     "JG77046J": {
-      "collaborationBillCount": 345,
+      "collaborationBillCount": 346,
       "uniqueCollaboratorCount": 245,
       "otherPartyCollaboratorCount": 85,
       "crossPartyBillCount": 158,
@@ -37210,20 +37222,20 @@
       ]
     },
     "EBH1101V": {
-      "collaborationBillCount": 1545,
+      "collaborationBillCount": 1546,
       "uniqueCollaboratorCount": 292,
       "otherPartyCollaboratorCount": 132,
-      "crossPartyBillCount": 720,
+      "crossPartyBillCount": 721,
       "topCollaborators": [
         {
           "monaCode": "IC499858",
-          "billCount": 428,
+          "billCount": 429,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_Q2Q6Y0Z9X1Y7X1V4V0D8D0C6D7B5B7",
             "PRC_Z2A6Y0Z9Y1F7G1E4F0D6E5C4C2L5J9",
-            "PRC_X2X6W0W9V1V7T1C4C0A2B3Z2A5Y6Z4",
-            "PRC_G2E6F0D9E1C7K1L4J0K8I3J6H6I9Q4"
+            "PRC_X2X6W0W9V1V7T1C4C0A2B3Z2A5Y6Z4"
           ]
         },
         {
@@ -37274,13 +37286,13 @@
       "topOtherPartyCollaborators": [
         {
           "monaCode": "CC78321E",
-          "billCount": 213,
+          "billCount": 214,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_A2Z6Z0V9V0U4V1T0T3R3A5A4Y5Z4X8",
             "PRC_T2T6R0S9R0P4P1X0Y3W2X5V1U7U8Q4",
-            "PRC_F2G6E0F9D0D4C1K0K3J4K2I2I3H7D1",
-            "PRC_Z2X5X1F1E0E6C1D4B4C4Y4W0X4V7V1"
+            "PRC_F2G6E0F9D0D4C1K0K3J4K2I2I3H7D1"
           ]
         },
         {
@@ -37330,10 +37342,10 @@
       ]
     },
     "9JF4562W": {
-      "collaborationBillCount": 492,
+      "collaborationBillCount": 493,
       "uniqueCollaboratorCount": 291,
       "otherPartyCollaboratorCount": 131,
-      "crossPartyBillCount": 240,
+      "crossPartyBillCount": 241,
       "topCollaborators": [
         {
           "monaCode": "8BF5855P",
@@ -37381,13 +37393,13 @@
         },
         {
           "monaCode": "IUX1829H",
-          "billCount": 144,
+          "billCount": 145,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_173F5ACE25304C3DA1D28C566D93C7",
             "PRC_DE85C8A3928F4770B17FFA91BAF354",
             "PRC_6447BFE8BDDE42558F97B3342BAF4E",
-            "PRC_F6998013E70742D1BF5DA5A1707DF9",
-            "PRC_B5827059B53C44CE9F4ACEB21AB160"
+            "PRC_F6998013E70742D1BF5DA5A1707DF9"
           ]
         }
       ],
@@ -37570,10 +37582,10 @@
       ]
     },
     "DWK26447": {
-      "collaborationBillCount": 1438,
+      "collaborationBillCount": 1439,
       "uniqueCollaboratorCount": 273,
       "otherPartyCollaboratorCount": 165,
-      "crossPartyBillCount": 92,
+      "crossPartyBillCount": 93,
       "topCollaborators": [
         {
           "monaCode": "GP21946O",
@@ -38170,10 +38182,10 @@
       ]
     },
     "O0I2045I": {
-      "collaborationBillCount": 1329,
-      "uniqueCollaboratorCount": 269,
-      "otherPartyCollaboratorCount": 109,
-      "crossPartyBillCount": 614,
+      "collaborationBillCount": 1330,
+      "uniqueCollaboratorCount": 270,
+      "otherPartyCollaboratorCount": 110,
+      "crossPartyBillCount": 615,
       "topCollaborators": [
         {
           "monaCode": "EBH1101V",
@@ -38221,13 +38233,13 @@
         },
         {
           "monaCode": "IC499858",
-          "billCount": 283,
+          "billCount": 284,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_E124335245E74DCFAFF6977223C766",
             "PRC_3B48C0500DD34E7BBA963B50292C07",
             "PRC_U2T6U0S9Q1R5Z1A7Y4Y5W5V5W5D0E2",
-            "PRC_S2S6G0F5G1E5E1D8E1L2M3K9J3J3I6",
-            "PRC_P2N6N0M9K0L2G1H2F4G1F0D8E8M9M6"
+            "PRC_S2S6G0F5G1E5E1D8E1L2M3K9J3J3I6"
           ]
         }
       ],
@@ -38770,31 +38782,31 @@
       ]
     },
     "RBM5454A": {
-      "collaborationBillCount": 881,
+      "collaborationBillCount": 884,
       "uniqueCollaboratorCount": 247,
       "otherPartyCollaboratorCount": 87,
-      "crossPartyBillCount": 509,
+      "crossPartyBillCount": 511,
       "topCollaborators": [
         {
           "monaCode": "5N65159P",
-          "billCount": 271,
+          "billCount": 272,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_7AA09AA0B02A496491EEA442D645E0",
             "PRC_F5DACEBA450C4358B801176C6B8B9D",
-            "PRC_49AA020A42C24ADBA2B8744F28EAAF",
-            "PRC_H2F6D0E9M2N3L1L1K5I8J2R6R8Q6Q2"
+            "PRC_49AA020A42C24ADBA2B8744F28EAAF"
           ]
         },
         {
           "monaCode": "CC78321E",
-          "billCount": 268,
+          "billCount": 269,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_7AA09AA0B02A496491EEA442D645E0",
             "PRC_H2F6D0E9M2N3L1L1K5I8J2R6R8Q6Q2",
-            "PRC_A2Z6Z0V9V0U4V1T0T3R3A5A4Y5Z4X8",
-            "PRC_T2T6R0S9R0P4P1X0Y3W2X5V1U7U8Q4"
+            "PRC_A2Z6Z0V9V0U4V1T0T3R3A5A4Y5Z4X8"
           ]
         },
         {
@@ -38834,13 +38846,13 @@
       "topOtherPartyCollaborators": [
         {
           "monaCode": "CC78321E",
-          "billCount": 268,
+          "billCount": 269,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_7AA09AA0B02A496491EEA442D645E0",
             "PRC_H2F6D0E9M2N3L1L1K5I8J2R6R8Q6Q2",
-            "PRC_A2Z6Z0V9V0U4V1T0T3R3A5A4Y5Z4X8",
-            "PRC_T2T6R0S9R0P4P1X0Y3W2X5V1U7U8Q4"
+            "PRC_A2Z6Z0V9V0U4V1T0T3R3A5A4Y5Z4X8"
           ]
         },
         {
@@ -39248,31 +39260,31 @@
       ]
     },
     "V2R7430Z": {
-      "collaborationBillCount": 551,
+      "collaborationBillCount": 553,
       "uniqueCollaboratorCount": 287,
       "otherPartyCollaboratorCount": 281,
-      "crossPartyBillCount": 551,
+      "crossPartyBillCount": 553,
       "topCollaborators": [
         {
           "monaCode": "JC14718Q",
-          "billCount": 297,
+          "billCount": 298,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_1A7DF20C3D2A4B7A8805054108E437",
-            "PRC_B96EEFCC4B0547469F2E40DB229F81",
-            "PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9"
+            "PRC_B96EEFCC4B0547469F2E40DB229F81"
           ]
         },
         {
           "monaCode": "43Q3892U",
-          "billCount": 203,
+          "billCount": 204,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9",
-            "PRC_A2B6I0J7I1G3G1E4F5N5O3M6K7L2J4",
-            "PRC_W2U6Q0R9P1Q4O1P3N3N5V5U8U1S3U2"
+            "PRC_A2B6I0J7I1G3G1E4F5N5O3M6K7L2J4"
           ]
         },
         {
@@ -39288,13 +39300,13 @@
         },
         {
           "monaCode": "XEF29171",
-          "billCount": 143,
+          "billCount": 144,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_1A7DF20C3D2A4B7A8805054108E437",
-            "PRC_B96EEFCC4B0547469F2E40DB229F81",
-            "PRC_W2U6Q0R9P1Q4O1P3N3N5V5U8U1S3U2"
+            "PRC_B96EEFCC4B0547469F2E40DB229F81"
           ]
         },
         {
@@ -39312,24 +39324,24 @@
       "topOtherPartyCollaborators": [
         {
           "monaCode": "JC14718Q",
-          "billCount": 297,
+          "billCount": 298,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_1A7DF20C3D2A4B7A8805054108E437",
-            "PRC_B96EEFCC4B0547469F2E40DB229F81",
-            "PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9"
+            "PRC_B96EEFCC4B0547469F2E40DB229F81"
           ]
         },
         {
           "monaCode": "43Q3892U",
-          "billCount": 203,
+          "billCount": 204,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9",
-            "PRC_A2B6I0J7I1G3G1E4F5N5O3M6K7L2J4",
-            "PRC_W2U6Q0R9P1Q4O1P3N3N5V5U8U1S3U2"
+            "PRC_A2B6I0J7I1G3G1E4F5N5O3M6K7L2J4"
           ]
         },
         {
@@ -39345,13 +39357,13 @@
         },
         {
           "monaCode": "XEF29171",
-          "billCount": 143,
+          "billCount": 144,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_1A7DF20C3D2A4B7A8805054108E437",
-            "PRC_B96EEFCC4B0547469F2E40DB229F81",
-            "PRC_W2U6Q0R9P1Q4O1P3N3N5V5U8U1S3U2"
+            "PRC_B96EEFCC4B0547469F2E40DB229F81"
           ]
         },
         {
@@ -39368,10 +39380,10 @@
       ]
     },
     "K5F2023J": {
-      "collaborationBillCount": 1397,
+      "collaborationBillCount": 1398,
       "uniqueCollaboratorCount": 295,
       "otherPartyCollaboratorCount": 135,
-      "crossPartyBillCount": 713,
+      "crossPartyBillCount": 714,
       "topCollaborators": [
         {
           "monaCode": "ZW43496R",
@@ -39386,13 +39398,13 @@
         },
         {
           "monaCode": "4019850M",
-          "billCount": 372,
+          "billCount": 373,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_V2W6R0S8Q1R2P1P4O1W9W0V1W7U1U2",
             "PRC_K2L6J0J9G1G1E1F5D5C9C4K0K3J9K4",
-            "PRC_I2P6O0O8N1O0M1M6V5T4T1S1S1Q9Z5",
-            "PRC_I2X6W0W8U1V0T1C6C5A3B3Z5A3Z4G3"
+            "PRC_I2P6O0O8N1O0M1M6V5T4T1S1S1Q9Z5"
           ]
         },
         {
@@ -39476,13 +39488,13 @@
         },
         {
           "monaCode": "V2R7430Z",
-          "billCount": 84,
+          "billCount": 85,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_M2K6L0J9K2S2S1Q3P1Q8O5P2D8E8C9",
             "PRC_1A7DF20C3D2A4B7A8805054108E437",
-            "PRC_B96EEFCC4B0547469F2E40DB229F81",
-            "PRC_W2U6Q0R9P1Q4O1P3N3N5V5U8U1S3U2"
+            "PRC_B96EEFCC4B0547469F2E40DB229F81"
           ]
         }
       ]
@@ -39965,7 +39977,7 @@
       ]
     },
     "X639721U": {
-      "collaborationBillCount": 1819,
+      "collaborationBillCount": 1821,
       "uniqueCollaboratorCount": 292,
       "otherPartyCollaboratorCount": 132,
       "crossPartyBillCount": 957,
@@ -40085,10 +40097,10 @@
       ]
     },
     "4T026790": {
-      "collaborationBillCount": 912,
+      "collaborationBillCount": 914,
       "uniqueCollaboratorCount": 292,
       "otherPartyCollaboratorCount": 132,
-      "crossPartyBillCount": 444,
+      "crossPartyBillCount": 445,
       "topCollaborators": [
         {
           "monaCode": "JC14718Q",
@@ -40445,7 +40457,7 @@
       ]
     },
     "FH777496": {
-      "collaborationBillCount": 1399,
+      "collaborationBillCount": 1400,
       "uniqueCollaboratorCount": 291,
       "otherPartyCollaboratorCount": 131,
       "crossPartyBillCount": 696,
@@ -40463,13 +40475,13 @@
         },
         {
           "monaCode": "X639721U",
-          "billCount": 336,
+          "billCount": 337,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_760AB0A65F5B41A1B9A85F77AB02E7",
             "PRC_E0BF388555884DB8B575E87EFF16C1",
             "PRC_B42E864A01984776A9D7B835B2680B",
-            "PRC_X2Y6W0X9V2W3R1Q7Q3P2P1O1O1W1X8",
-            "PRC_J2J6R0R9Q0O7P1N8O3W5W5V6T4U6S5"
+            "PRC_X2Y6W0X9V2W3R1Q7Q3P2P1O1O1W1X8"
           ]
         },
         {
@@ -40805,7 +40817,7 @@
       ]
     },
     "CIZ8557P": {
-      "collaborationBillCount": 992,
+      "collaborationBillCount": 994,
       "uniqueCollaboratorCount": 291,
       "otherPartyCollaboratorCount": 131,
       "crossPartyBillCount": 512,
@@ -40845,13 +40857,13 @@
         },
         {
           "monaCode": "E2B3753X",
-          "billCount": 238,
+          "billCount": 239,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_760AB0A65F5B41A1B9A85F77AB02E7",
             "PRC_63D0429FCCEA441CB891C3E489E01D",
             "PRC_F6998013E70742D1BF5DA5A1707DF9",
-            "PRC_B5827059B53C44CE9F4ACEB21AB160",
-            "PRC_02738F6C27504E10A89ADAF8BB7EA7"
+            "PRC_B5827059B53C44CE9F4ACEB21AB160"
           ]
         },
         {
@@ -41045,10 +41057,10 @@
       ]
     },
     "TJW93720": {
-      "collaborationBillCount": 762,
+      "collaborationBillCount": 763,
       "uniqueCollaboratorCount": 293,
       "otherPartyCollaboratorCount": 133,
-      "crossPartyBillCount": 433,
+      "crossPartyBillCount": 434,
       "topCollaborators": [
         {
           "monaCode": "0R68099X",
@@ -41131,13 +41143,13 @@
         },
         {
           "monaCode": "V2R7430Z",
-          "billCount": 46,
+          "billCount": 47,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_1C13661BECB44E7B8DD9E03FA78F36",
             "PRC_2C3DBA49A40040EF835364224B7F2C",
             "PRC_K2S6T0R9P0Q4P0P8X4V8W2U5V7T1U3",
-            "PRC_F2E6E0C9D0C9C1Y9Y1X8V5W5U0V6D7",
-            "PRC_O2M6M0L8J0K4S1T5R4R8P2O3P0W5X1"
+            "PRC_F2E6E0C9D0C9C1Y9Y1X8V5W5U0V6D7"
           ]
         },
         {
@@ -42121,10 +42133,10 @@
       ]
     },
     "8XE7026P": {
-      "collaborationBillCount": 315,
-      "uniqueCollaboratorCount": 233,
-      "otherPartyCollaboratorCount": 125,
-      "crossPartyBillCount": 22,
+      "collaborationBillCount": 316,
+      "uniqueCollaboratorCount": 235,
+      "otherPartyCollaboratorCount": 127,
+      "crossPartyBillCount": 23,
       "topCollaborators": [
         {
           "monaCode": "EVH1507C",
@@ -42150,13 +42162,13 @@
         },
         {
           "monaCode": "WXJ8352N",
-          "billCount": 126,
+          "billCount": 127,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_E124335245E74DCFAFF6977223C766",
             "PRC_6426E6C02AAB4316B9AA327684085A",
             "PRC_R2K6Q0U9N2T1A1R7N3D4H5R8T4H9B2",
-            "PRC_O2O6N0V7V2U2U1S4R0S7Z1A5Y2X6Y5",
-            "PRC_H2G6G0O7O0N7O1M0L1L5T3T9S0S5R2"
+            "PRC_O2O6N0V7V2U2U1S4R0S7Z1A5Y2X6Y5"
           ]
         },
         {
@@ -42481,10 +42493,10 @@
       ]
     },
     "IC499858": {
-      "collaborationBillCount": 1935,
-      "uniqueCollaboratorCount": 266,
-      "otherPartyCollaboratorCount": 106,
-      "crossPartyBillCount": 991,
+      "collaborationBillCount": 1937,
+      "uniqueCollaboratorCount": 267,
+      "otherPartyCollaboratorCount": 107,
+      "crossPartyBillCount": 993,
       "topCollaborators": [
         {
           "monaCode": "43Q3892U",
@@ -42510,13 +42522,13 @@
         },
         {
           "monaCode": "EBH1101V",
-          "billCount": 428,
+          "billCount": 429,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_Q2Q6Y0Z9X1Y7X1V4V0D8D0C6D7B5B7",
             "PRC_Z2A6Y0Z9Y1F7G1E4F0D6E5C4C2L5J9",
-            "PRC_X2X6W0W9V1V7T1C4C0A2B3Z2A5Y6Z4",
-            "PRC_G2E6F0D9E1C7K1L4J0K8I3J6H6I9Q4"
+            "PRC_X2X6W0W9V1V7T1C4C0A2B3Z2A5Y6Z4"
           ]
         },
         {
@@ -42545,13 +42557,13 @@
       "topOtherPartyCollaborators": [
         {
           "monaCode": "CC78321E",
-          "billCount": 327,
+          "billCount": 328,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_M2M6K0L8K1K8I1E2F1D3D2C2G8G8O4",
             "PRC_E2C6D0B8C1K8I1J2H1H3G5H2W1X8W5",
-            "PRC_I2J6H0H8G2W4W1U1V2U1U0S4T7B0Z7",
-            "PRC_I2Q6R0P8P1N8O1N0V5V7T4U6S4T9R1"
+            "PRC_I2J6H0H8G2W4W1U1V2U1U0S4T7B0Z7"
           ]
         },
         {
@@ -42961,10 +42973,10 @@
       ]
     },
     "UHB5553T": {
-      "collaborationBillCount": 776,
+      "collaborationBillCount": 777,
       "uniqueCollaboratorCount": 266,
       "otherPartyCollaboratorCount": 106,
-      "crossPartyBillCount": 374,
+      "crossPartyBillCount": 375,
       "topCollaborators": [
         {
           "monaCode": "ZW43496R",
@@ -42979,35 +42991,35 @@
         },
         {
           "monaCode": "0R68099X",
-          "billCount": 192,
+          "billCount": 193,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_CC85314927594118A894B18364D050",
             "PRC_Q2Q6Y0Z9X1Y7X1V4V0D8D0C6D7B5B7",
-            "PRC_Z2A6Y0Z9Y1F7G1E4F0D6E5C4C2L5J9",
-            "PRC_6DF1DFCBFC234FAABE1C4EB9A0A889"
+            "PRC_Z2A6Y0Z9Y1F7G1E4F0D6E5C4C2L5J9"
           ]
         },
         {
           "monaCode": "K5F2023J",
-          "billCount": 191,
+          "billCount": 192,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_5D5E52CFE6E34A0E8950A742630EE7",
             "PRC_95467F1F6A3148158071435E18B552",
-            "PRC_130710C3D9FF4120B00A67368A956A",
-            "PRC_A189D123AE964FBF9D37D97529A6AF"
+            "PRC_130710C3D9FF4120B00A67368A956A"
           ]
         },
         {
           "monaCode": "5KV96424",
-          "billCount": 178,
+          "billCount": 179,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_S2T6R0S8A2A8Z1X8Y5W8X1F2F3D6C2",
             "PRC_E2E6M0M8L2M8K1K8I5R9R1Q7Q2P7N3",
-            "PRC_O2N6N0M9M1U1V1T2T5S6Q2R0Z5A5Y3",
-            "PRC_Y2W6X0V9W1D1C1D2B5B5A3B8W1X4V0"
+            "PRC_O2N6N0M9M1U1V1T2T5S6Q2R0Z5A5Y3"
           ]
         },
         {
@@ -43069,13 +43081,13 @@
         },
         {
           "monaCode": "V2R7430Z",
-          "billCount": 37,
+          "billCount": 38,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_W2E6E0D7B2C8B1B6J5J0I1G2H6F9G5",
             "PRC_R2Q6Q0O3P1N6O1D1D3C6C0B1Z9A9I9",
-            "PRC_B2Z6Z0Y3Z0X4X1F7G1E7D2D0B9C8Y1",
-            "PRC_O2J6K0I3H0H4F1G7O1P8N3N4M1K6L3"
+            "PRC_B2Z6Z0Y3Z0X4X1F7G1E7D2D0B9C8Y1"
           ]
         }
       ]
@@ -43921,10 +43933,10 @@
       ]
     },
     "MQU41854": {
-      "collaborationBillCount": 689,
+      "collaborationBillCount": 690,
       "uniqueCollaboratorCount": 250,
       "otherPartyCollaboratorCount": 142,
-      "crossPartyBillCount": 58,
+      "crossPartyBillCount": 59,
       "topCollaborators": [
         {
           "monaCode": "JP222486",
@@ -43939,24 +43951,24 @@
         },
         {
           "monaCode": "EPI69383",
-          "billCount": 294,
+          "billCount": 295,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_E124335245E74DCFAFF6977223C766",
             "PRC_6426E6C02AAB4316B9AA327684085A",
             "PRC_3267A02A5BB54789AE02591B7F5794",
-            "PRC_F2D6E0M9K1L8J1J0I5J6Q3R1P4O3O0",
-            "PRC_R2K6Q0U9N2T1A1R7N3D4H5R8T4H9B2"
+            "PRC_F2D6E0M9K1L8J1J0I5J6Q3R1P4O3O0"
           ]
         },
         {
           "monaCode": "WXJ8352N",
-          "billCount": 258,
+          "billCount": 259,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_E124335245E74DCFAFF6977223C766",
             "PRC_6426E6C02AAB4316B9AA327684085A",
             "PRC_R2K6Q0U9N2T1A1R7N3D4H5R8T4H9B2",
-            "PRC_V2T6T0S9S0A8Y1Z4X4Y8W4X4F3F5E6",
-            "PRC_L2M6K0L9J0K8I1J4R4P6P5O9O2N6N5"
+            "PRC_V2T6T0S9S0A8Y1Z4X4Y8W4X4F3F5E6"
           ]
         },
         {
@@ -44041,10 +44053,10 @@
       ]
     },
     "ZKB18611": {
-      "collaborationBillCount": 1471,
+      "collaborationBillCount": 1472,
       "uniqueCollaboratorCount": 291,
       "otherPartyCollaboratorCount": 131,
-      "crossPartyBillCount": 656,
+      "crossPartyBillCount": 657,
       "topCollaborators": [
         {
           "monaCode": "IC499858",
@@ -44138,13 +44150,13 @@
         },
         {
           "monaCode": "0YT3774N",
-          "billCount": 57,
+          "billCount": 58,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_173F5ACE25304C3DA1D28C566D93C7",
             "PRC_V2V6T0A5Z2Y6X1A5A2Z1F4E0D7M3L4",
             "PRC_E2F6D0C4C2A3B1J6K3I7I2H3F4G0N6",
-            "PRC_I2I6E0F4D2C1C1A7B3J5K4I3H3H9G2",
-            "PRC_Z2Y6Y0X4X2W1R1S7Q4R0P3Q7O9P6X2"
+            "PRC_I2I6E0F4D2C1C1A7B3J5K4I3H3H9G2"
           ]
         },
         {
@@ -44879,10 +44891,10 @@
       ]
     },
     "68P7228G": {
-      "collaborationBillCount": 693,
-      "uniqueCollaboratorCount": 232,
-      "otherPartyCollaboratorCount": 72,
-      "crossPartyBillCount": 395,
+      "collaborationBillCount": 694,
+      "uniqueCollaboratorCount": 233,
+      "otherPartyCollaboratorCount": 73,
+      "crossPartyBillCount": 396,
       "topCollaborators": [
         {
           "monaCode": "NUB4941Z",
@@ -45239,10 +45251,10 @@
       ]
     },
     "KNP22261": {
-      "collaborationBillCount": 743,
+      "collaborationBillCount": 744,
       "uniqueCollaboratorCount": 214,
       "otherPartyCollaboratorCount": 203,
-      "crossPartyBillCount": 554,
+      "crossPartyBillCount": 555,
       "topCollaborators": [
         {
           "monaCode": "80C5885Z",
@@ -45279,13 +45291,13 @@
         },
         {
           "monaCode": "0YT3774N",
-          "billCount": 578,
+          "billCount": 579,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_173F5ACE25304C3DA1D28C566D93C7",
             "PRC_C299F74B1F974C58A43523F9E2EDEF",
             "PRC_4F42D5FA4D9246419E26D14E099D78",
-            "PRC_86BDE11FDECA44E281120717E97A79",
-            "PRC_77C8886BC7AD4170B58C67FE209896"
+            "PRC_86BDE11FDECA44E281120717E97A79"
           ]
         },
         {
@@ -45336,13 +45348,13 @@
         },
         {
           "monaCode": "3TP65086",
-          "billCount": 84,
+          "billCount": 85,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_173F5ACE25304C3DA1D28C566D93C7",
             "PRC_Q2Q6P0P3N1O6N1N8V3T9U5S8T9R9S6",
             "PRC_Q2R6P0N9O0N7N0C9C4B7I0Q6P3O7N4",
-            "PRC_B2A6A0Z9A0H7I1G0F2F8D1F7A8A9Z5",
-            "PRC_W2U6T0U9B0C7A1B0Z2Y9Y5H1F7F1E4"
+            "PRC_B2A6A0Z9A0H7I1G0F2F8D1F7A8A9Z5"
           ]
         },
         {
@@ -45479,7 +45491,7 @@
       ]
     },
     "1S05899F": {
-      "collaborationBillCount": 911,
+      "collaborationBillCount": 913,
       "uniqueCollaboratorCount": 271,
       "otherPartyCollaboratorCount": 111,
       "crossPartyBillCount": 360,
@@ -45530,13 +45542,13 @@
         },
         {
           "monaCode": "E2B3753X",
-          "billCount": 243,
+          "billCount": 245,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_75E8355FA85245BEAEA6F83F88AB7F",
+            "PRC_760AB0A65F5B41A1B9A85F77AB02E7",
             "PRC_Y2W6W0S9R1R0P1Q1P3P8U2V9T0U1C8",
-            "PRC_S2Q6R0Q9Q1Y0Y1X1V3W7U1V4Q1R2Q5",
-            "PRC_R2S6Q0Q9P0X3X1V7W1V0V3T5U0C3A9",
-            "PRC_U2S6T0R9N0O3N1N7M3K9K3T2T7S1Q7"
+            "PRC_S2Q6R0Q9Q1Y0Y1X1V3W7U1V4Q1R2Q5"
           ]
         }
       ],
@@ -45839,7 +45851,7 @@
       ]
     },
     "I5I2468R": {
-      "collaborationBillCount": 488,
+      "collaborationBillCount": 490,
       "uniqueCollaboratorCount": 225,
       "otherPartyCollaboratorCount": 65,
       "crossPartyBillCount": 246,
@@ -46439,10 +46451,10 @@
       ]
     },
     "CC78321E": {
-      "collaborationBillCount": 1911,
+      "collaborationBillCount": 1912,
       "uniqueCollaboratorCount": 273,
       "otherPartyCollaboratorCount": 267,
-      "crossPartyBillCount": 1911,
+      "crossPartyBillCount": 1912,
       "topCollaborators": [
         {
           "monaCode": "86R9476S",
@@ -46468,13 +46480,13 @@
         },
         {
           "monaCode": "3UI95829",
-          "billCount": 344,
+          "billCount": 345,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_U2U5S1T2S2Z9A1Y6Y1X7Y2W3W7T0R7",
             "PRC_7AA09AA0B02A496491EEA442D645E0",
-            "PRC_K2J6I0O6N0M5L1U3N3V4V2U6S7Z7Y3",
-            "PRC_Q2P6Q0O8O2N1V1V7T5U0S2T9S3Z4A6"
+            "PRC_K2J6I0O6N0M5L1U3N3V4V2U6S7Z7Y3"
           ]
         },
         {
@@ -46525,13 +46537,13 @@
         },
         {
           "monaCode": "3UI95829",
-          "billCount": 344,
+          "billCount": 345,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_U2U5S1T2S2Z9A1Y6Y1X7Y2W3W7T0R7",
             "PRC_7AA09AA0B02A496491EEA442D645E0",
-            "PRC_K2J6I0O6N0M5L1U3N3V4V2U6S7Z7Y3",
-            "PRC_Q2P6Q0O8O2N1V1V7T5U0S2T9S3Z4A6"
+            "PRC_K2J6I0O6N0M5L1U3N3V4V2U6S7Z7Y3"
           ]
         },
         {
@@ -46919,7 +46931,7 @@
       ]
     },
     "8JG4358H": {
-      "collaborationBillCount": 1578,
+      "collaborationBillCount": 1579,
       "uniqueCollaboratorCount": 258,
       "otherPartyCollaboratorCount": 98,
       "crossPartyBillCount": 682,
@@ -47039,31 +47051,31 @@
       ]
     },
     "H5476989": {
-      "collaborationBillCount": 653,
+      "collaborationBillCount": 654,
       "uniqueCollaboratorCount": 268,
       "otherPartyCollaboratorCount": 108,
       "crossPartyBillCount": 343,
       "topCollaborators": [
         {
           "monaCode": "JC14718Q",
-          "billCount": 227,
+          "billCount": 228,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_G2G6E0F8N0O4M1M9L1J8K0F0G3F4F4",
             "PRC_R2P6O0P9W1X7W1W0U4V4T0B7C1A6A3",
             "PRC_A2C6A0A9Y1X7Y1F0G4E4F5D0E5C9K6",
-            "PRC_U2Q6Q0P9P1O7M1N0U4W5U4U8S2R1S5",
-            "PRC_K2S6R0R9P1Q7O1P0E4C3D1B5C1A5B9"
+            "PRC_U2Q6Q0P9P1O7M1N0U4W5U4U8S2R1S5"
           ]
         },
         {
           "monaCode": "43Q3892U",
-          "billCount": 178,
+          "billCount": 179,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_G2G6E0F8N0O4M1M9L1J8K0F0G3F4F4",
             "PRC_R2P6O0P9W1X7W1W0U4V4T0B7C1A6A3",
             "PRC_A2C6A0A9Y1X7Y1F0G4E4F5D0E5C9K6",
-            "PRC_U2Q6Q0P9P1O7M1N0U4W5U4U8S2R1S5",
-            "PRC_K2S6R0R9P1Q7O1P0E4C3D1B5C1A5B9"
+            "PRC_U2Q6Q0P9P1O7M1N0U4W5U4U8S2R1S5"
           ]
         },
         {
@@ -47399,10 +47411,10 @@
       ]
     },
     "Q918403D": {
-      "collaborationBillCount": 521,
+      "collaborationBillCount": 522,
       "uniqueCollaboratorCount": 266,
       "otherPartyCollaboratorCount": 158,
-      "crossPartyBillCount": 50,
+      "crossPartyBillCount": 51,
       "topCollaborators": [
         {
           "monaCode": "HS39431V",
@@ -47759,10 +47771,10 @@
       ]
     },
     "FU53642G": {
-      "collaborationBillCount": 1592,
+      "collaborationBillCount": 1594,
       "uniqueCollaboratorCount": 282,
       "otherPartyCollaboratorCount": 122,
-      "crossPartyBillCount": 715,
+      "crossPartyBillCount": 717,
       "topCollaborators": [
         {
           "monaCode": "43Q3892U",
@@ -47823,13 +47835,13 @@
       "topOtherPartyCollaborators": [
         {
           "monaCode": "CC78321E",
-          "billCount": 161,
+          "billCount": 162,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6",
             "PRC_M2M6K0L8K1K8I1E2F1D3D2C2G8G8O4",
             "PRC_N2M6M0L7L2T7S1S1Q5R8P4Q7Y4Y6X6",
-            "PRC_S2R6R0P7Q0O1P1X0V1W1U5V2T2U6C7",
-            "PRC_M2M6U0V7T0U6S1R5R1Z0A4Y7Z1X0V9"
+            "PRC_S2R6R0P7Q0O1P1X0V1W1U5V2T2U6C7"
           ]
         },
         {
@@ -47879,20 +47891,20 @@
       ]
     },
     "VCP96419": {
-      "collaborationBillCount": 980,
+      "collaborationBillCount": 983,
       "uniqueCollaboratorCount": 292,
       "otherPartyCollaboratorCount": 132,
-      "crossPartyBillCount": 455,
+      "crossPartyBillCount": 456,
       "topCollaborators": [
         {
           "monaCode": "4019850M",
-          "billCount": 294,
+          "billCount": 295,
           "sameParty": true,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_525D4B5B022B433CB030F5C24D210D",
             "PRC_615FAE08011845AFB2722ED41383D9",
-            "PRC_6FDB4432486A477284595713485084",
-            "PRC_G2E6E0D9E2C1C1R6S4R7P2P2N2O6W5"
+            "PRC_6FDB4432486A477284595713485084"
           ]
         },
         {
@@ -47954,13 +47966,13 @@
         },
         {
           "monaCode": "V2R7430Z",
-          "billCount": 83,
+          "billCount": 84,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_5686827377E4446DA0A7F559BE411D",
             "PRC_K2L6J0J9G1G1E1F5D5C9C4K0K3J9K4",
             "PRC_T2U6S0T7B2B4A1Y3Y4X6Y2F8G3F0D9",
-            "PRC_M2M6K0J7K1F3G0F9F3D7C5C0K9L4J7",
-            "PRC_M2M6L0S7T1R3S0Q9R3Q7X1Y1W6X8V7"
+            "PRC_M2M6K0J7K1F3G0F9F3D7C5C0K9L4J7"
           ]
         },
         {
@@ -48239,10 +48251,10 @@
       ]
     },
     "0YT3774N": {
-      "collaborationBillCount": 1192,
+      "collaborationBillCount": 1193,
       "uniqueCollaboratorCount": 290,
       "otherPartyCollaboratorCount": 279,
-      "crossPartyBillCount": 1003,
+      "crossPartyBillCount": 1004,
       "topCollaborators": [
         {
           "monaCode": "80C5885Z",
@@ -48314,13 +48326,13 @@
         },
         {
           "monaCode": "3TP65086",
-          "billCount": 200,
+          "billCount": 201,
           "sameParty": false,
           "sharedBillIds": [
+            "PRC_173F5ACE25304C3DA1D28C566D93C7",
             "PRC_Z2V6W0U2T2T0R1S3Y4Z9X5Y9W3W3E5",
             "PRC_Q2R6P0N9O0N7N0C9C4B7I0Q6P3O7N4",
-            "PRC_B2A6A0Z9A0H7I1G0F2F8D1F7A8A9Z5",
-            "PRC_W2U6T0U9B0C7A1B0Z2Y9Y5H1F7F1E4"
+            "PRC_B2A6A0Z9A0H7I1G0F2F8D1F7A8A9Z5"
           ]
         },
         {
@@ -48479,7 +48491,7 @@
       ]
     },
     "0VU8517U": {
-      "collaborationBillCount": 328,
+      "collaborationBillCount": 331,
       "uniqueCollaboratorCount": 271,
       "otherPartyCollaboratorCount": 111,
       "crossPartyBillCount": 145,
